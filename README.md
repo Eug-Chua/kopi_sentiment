@@ -21,7 +21,7 @@ This tool mines Singapore subreddit discussions where people speak candidly abou
 
 The FFGA framework captures both **emotional** (fears, aspirations) and **practical** (frustrations, goals) dimensions of how Singaporeans experience this moment in history.
 
-**Output**: Quantitative sentiment scores + actual quotes from real conversations.
+**Output**: A simple traffic light sentiment score (Green / Amber / Red) for each FFGA dimension, backed by actual quotes from real conversations.
 
 ## The Goal
 
