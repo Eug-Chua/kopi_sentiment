@@ -3,11 +3,15 @@
 
 ## Why This Matters
 
-Singapore's fortunes are tied to global forces beyond its control. As PM Lawrence Wong noted: *"the rules-based international order is being tested and multilateral cooperation is fraying."* Defence Minister Ng Eng Hen echoed this: *"We are living in turbulent times... the global order changes before our very eyes."*
+Singapore's fortunes are tied to global forces beyond its control. As Singapore's leaders have noted:
+- *The rules-based international order is being tested and multilateral cooperation is fraying.*
+- *We are living in turbulent times... the global order changes before our very eyes."
 
-As a small nation navigating a shifting world order, what was normal is no longer normal. The rules Singapore rode to transform from third world to first are being rewritten.
+As a small nation navigating a shifting world order, what was normal is no longer normal. The rules Singapore rode to transform from third world to first are being rewritten. 
 
-This affects Singaporeans' daily lives in profound ways. **Kopi Sentiment** listens to what people are actually saying—and what they truly mean.
+This affects Singaporeans' daily lives in profound ways.
+
+**Kopi Sentiment** listens to what people are actually saying—and what they truly mean.
 
 
 ## What It Does
