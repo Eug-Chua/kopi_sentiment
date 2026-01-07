@@ -6,6 +6,9 @@ from pydantic import BaseModel
 import requests
 from bs4 import BeautifulSoup
 from kopi_sentiment.config.settings import settings
+import logging
+
+logger = logging.getLogger(__name__)
 
 class RedditPost(BaseModel):
     """Represents a Reddit post"""
@@ -76,5 +79,32 @@ class RedditScraper:
                 selftext=""
             )
         except Exception as e:
-            print(f"Error parsing post: {e}")
+            logger.error(f"Error parsing post: {e}")
             return None
+        
+    def fetch_post_content(self, post: RedditPost) -> str:
+        """Fetch the full selftext content from a post's page"""
+        try:
+            response = self.session.get(post.url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # find the post's selftext div
+            selftext_div = soup.find('div', class_='usertext-body')
+
+            if selftext_div:
+                return selftext_div.get_text(strip=True)
+            return ""
+        except Exception as e:
+            logger.error(f"Error fetching post content: {e}")
+            return ""
+    
+    def fetch_posts_with_content(self, limit: int=25, delay: float=1.0) -> list[RedditPost]:
+        """Fetch posts and their full content with rate limiting"""
+        posts = self.fetch_posts(limit=limit)
+        for post in posts:
+            post.selftext = self.fetch_post_content(post)
+            time.sleep(delay)
+
+        return posts
