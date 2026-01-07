@@ -19,6 +19,7 @@ class RedditPost(BaseModel):
     num_comments: int
     created_at: datetime
     selftext: str = ""
+    comments: list[str] = []
 
 class RedditScraper:
     """Scrapes Reddit posts from old.reddit.com"""
@@ -90,6 +91,9 @@ class RedditScraper:
 
             soup = BeautifulSoup(response.text, "html.parser")
 
+            # find the usertext-body within the expando
+
+
             # find the post's selftext div
             selftext_div = soup.find('div', class_='usertext-body')
 
@@ -105,6 +109,37 @@ class RedditScraper:
         posts = self.fetch_posts(limit=limit)
         for post in posts:
             post.selftext = self.fetch_post_content(post)
+            post.comments = self.fetch_post_comments(post)
             time.sleep(delay)
 
         return posts
+
+    def fetch_post_comments(self, post: RedditPost, limit:int = 20) -> list[str]:
+        """Fetch top comments"""
+        try:
+            response = self.session.get(post.url)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # find comment area
+            comments_area = soup.find('div', class_='commentarea')
+            if not comments_area:
+                return []
+            
+            # find all comment bodies
+            comment_divs = comments_area.find_all('div', class_='usertext-body', limit=limit)
+
+            comments = []
+            for div in comment_divs:
+                # get paragraph text from each comment
+                paragraphs = div.find_all('p')
+                if paragraphs:
+                    comment_text = " ".join(p.get_text(strip=True) for p in paragraphs)
+                    if comment_text:
+                        comments.append(comment_text)
+            return comments
+        
+        except Exception as e:
+            logger.error(f"Error fetching comments: {e}")
+            return []
