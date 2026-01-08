@@ -59,6 +59,7 @@ class RedditScraper:
             num_comments = int(post_element.get('data-comments-count', 0))
             timestamp_ms = int(post_element.get('data-timestamp', 0))
             permalink = post_element.get('data-permalink', "")
+            subreddit = post_element.get('data-subreddit', "")
 
             # get title
             title_element = post_element.find('a', class_='title')
@@ -76,6 +77,7 @@ class RedditScraper:
                 url=url,
                 score=score,
                 num_comments=num_comments,
+                subreddit=subreddit,
                 created_at=created_at,
                 selftext=""
             )
@@ -179,5 +181,6 @@ class RedditPost(BaseModel):
     score: int
     num_comments: int
     created_at: datetime
+    subreddit: str = ""
     selftext: str = ""
     comments: list[Comment] = []
