@@ -114,7 +114,7 @@ class RedditScraper:
 
         return posts
 
-    def fetch_post_comments(self, post: RedditPost, limit:int = 20) -> list[str]:
+    def fetch_post_comments(self, post: RedditPost, limit:int = 25) -> list[str]:
         """Fetch top comments"""
         try:
             response = self.session.get(post.url)
@@ -126,20 +126,58 @@ class RedditScraper:
             comments_area = soup.find('div', class_='commentarea')
             if not comments_area:
                 return []
-            
-            # find all comment bodies
-            comment_divs = comments_area.find_all('div', class_='usertext-body', limit=limit)
+
+            # find all comment containers
+            comment_containers = comments_area.find_all('div',
+                                                        class_='thing',
+                                                        attrs={'data-type':'comment'},
+                                                        limit=limit)
 
             comments = []
-            for div in comment_divs:
-                # get paragraph text from each comment
-                paragraphs = div.find_all('p')
-                if paragraphs:
-                    comment_text = " ".join(p.get_text(strip=True) for p in paragraphs)
-                    if comment_text:
-                        comments.append(comment_text)
+            for container in comment_containers:
+                # get score
+                score_elem = container.find('span', class_='score unvoted')
+                score = 0
+                if score_elem:
+                    score_text = score_elem.get_text(strip=True)
+                    try:
+                        score = int(score_text.split()[0])
+                    except (ValueError, IndexError):
+                        score = 0
+                else:
+                    # check if score is hidden
+                    hidden_elem = container.find('span', class_='score-hidden')
+                    if hidden_elem:
+                        score = 0
+
+                body_div = container.find('div', class_='usertext-body')
+                if body_div:
+                    paragraphs = body_div.find_all('p')
+                    if paragraphs:
+                        text = " ".join(p.get_text(strip=True) for p in paragraphs)
+                        if text:
+                            comments.append(Comment(text=text, score=score))
+            
+            comments.sort(key=lambda x: x.score, reverse=True)
+
             return comments
         
         except Exception as e:
             logger.error(f"Error fetching comments: {e}")
             return []
+
+class Comment(BaseModel):
+    """Represents a Reddit comment"""
+    text: str
+    score: int
+
+class RedditPost(BaseModel):
+    """Represents a Reddit post"""
+    id: str
+    title: str
+    url: str
+    score: int
+    num_comments: int
+    created_at: datetime
+    selftext: str = ""
+    comments: list[Comment] = []
