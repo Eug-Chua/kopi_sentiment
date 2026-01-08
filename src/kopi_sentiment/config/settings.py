@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     llm_provider: str = "openai"
     llm_max_tokens: int = 2048
     claude_model: str = "claude-sonnet-4-20250514"     
-    openai_model: str = "gpt-5-nano"              
+    openai_model: str = "gpt-4o-mini"              
         
     class Config:
         env_file = ".env"

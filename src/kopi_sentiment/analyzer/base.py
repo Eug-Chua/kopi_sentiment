@@ -27,39 +27,60 @@ class BaseAnalyzer:
         """
         pass
 
-    @abstractmethod
-    def _extract_quote(self, post: RedditPost) -> dict[str, list[str]]:
-        """Step 1: extract and categorize quotes from post"""
-
-        user_prompt = build_extract_prompt(title=post.title,
-                                           selftext=post.selftext,
-                                           comments=post.comments,
-                                           subreddit=post.subreddit)
+    def _extract_quotes(self, post: RedditPost) -> dict[str, list[str]]:
+        """Step 1: Extract and categorize quotes from post."""
+        user_prompt = build_extract_prompt(
+            title=post.title,
+            selftext=post.selftext,
+            comments=post.comments,
+            subreddit=post.subreddit,
+        )
 
         response = self._call_llm(EXTRACT_SYSTEM_PROMPT, user_prompt)
+        response = self._clean_json_response(response)
 
         try:
             return json.loads(response)
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse extraction response: {e}")
-            return {'fears': [], 'frustrations': [], 'goals':[], 'aspirations': []}
-    
+            return {"fears": [], "frustrations": [], "goals": [], "aspirations": []}
+
+
     def _assess_sentiment(self, title: str, quotes: dict[str, list[str]]) -> dict:
-        """Step 2: assess sentiment for categorized quotes"""
-        
-        user_prompt = build_sentiment_prompt(title=title,
-                                             fears=quotes.get('fears', []),
-                                             frustrations=quotes.get('frustrations', []),
-                                             goals=quotes.get('goals', []),
-                                             aspirations=quotes.get('aspirations', []))
-        
+        """Step 2: Assess sentiment for categorized quotes."""
+        user_prompt = build_sentiment_prompt(
+            title=title,
+            fears=quotes.get("fears", []),
+            frustrations=quotes.get("frustrations", []),
+            goals=quotes.get("goals", []),
+            aspirations=quotes.get("aspirations", []),
+        )
+
         response = self._call_llm(SENTIMENT_SYSTEM_PROMPT, user_prompt)
+        response = self._clean_json_response(response)
 
         try:
             return json.loads(response)
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse sentiment response: {e}")
             return {}
+
+        
+    def _clean_json_response(self, response: str) -> str:
+        """Remove markdown code blocks from LLM response."""
+        response = response.strip()
+        
+        # Remove ```json or ``` at start
+        if response.startswith("```json"):
+            response = response.removeprefix("```json")
+        elif response.startswith("```"):
+            response = response.removeprefix("```")
+        
+        # Remove ``` at end
+        if response.endswith("```"):
+            response = response.removesuffix("```")
+        
+        return response.strip()
 
     # def _calculate_overall_sentiment(self, sentiments: list[Sentiment]) -> Sentiment:
     #     """Calculate the overall sentiment from category sentiments"""
@@ -123,7 +144,7 @@ class BaseAnalyzer:
 
     def analyze(self, post:RedditPost) -> AnalysisResult:
         """Analyze a Reddit post and return FFGA sentiment analysis"""
-        quotes = self._extract_quote(post)
+        quotes = self._extract_quotes(post)
         sentiment_data = self._assess_sentiment(post.title, quotes)
         return self._build_analysis_result(post, quotes, sentiment_data)
 
