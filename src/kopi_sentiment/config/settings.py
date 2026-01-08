@@ -17,6 +17,9 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     openai_api_key: str = ""
     llm_provider: str = "openai"
+    llm_max_tokens: int = 2048
+    claude_model: str = "claude-sonnet-4-20250514"    # Add this
+    openai_model: str = "gpt-4o-mini"                 # Add this
         
     class Config:
         env_file = ".env"
