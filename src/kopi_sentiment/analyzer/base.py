@@ -20,7 +20,7 @@ class BaseAnalyzer:
         pass
 
     @abstractmethod
-    def analyze_batch(self, posts: list[RedditPost]) -> list(AnalysisResult):
+    def analyze_batch(self, posts: list[RedditPost]) -> list[AnalysisResult]:
         """Analyze multiple Reddit posts
 
         Args:
