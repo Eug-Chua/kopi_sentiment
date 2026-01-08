@@ -33,4 +33,3 @@ class AnalysisResult(BaseModel):
     frustrations: FFGAResult
     goals: FFGAResult
     aspirations: FFGAResult
-    overall_sentiment: Sentiment

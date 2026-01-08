@@ -61,29 +61,29 @@ class BaseAnalyzer:
             logger.error(f"Failed to parse sentiment response: {e}")
             return {}
 
-    def _calculate_overall_sentiment(self, sentiments: list[Sentiment]) -> Sentiment:
-        """Calculate the overall sentiment from category sentiments"""
-        counts = {}
+    # def _calculate_overall_sentiment(self, sentiments: list[Sentiment]) -> Sentiment:
+    #     """Calculate the overall sentiment from category sentiments"""
+    #     counts = {}
 
-        for s in sentiments:
-            counts[s] = counts.get(s, 0) + 1
+    #     for s in sentiments:
+    #         counts[s] = counts.get(s, 0) + 1
         
-        if not counts:
-            return Sentiment.MIXED
+    #     if not counts:
+    #         return Sentiment.MIXED
         
-        # return most frequent, with negative bias for ties
-        priority = [Sentiment.STRONG_NEGATIVE,
-                    Sentiment.NEGATIVE,
-                    Sentiment.MIXED,
-                    Sentiment.POSITIVE,
-                    Sentiment.STRONG_POSITIVE]
+    #     # return most frequent, with negative bias for ties
+    #     priority = [Sentiment.STRONG_NEGATIVE,
+    #                 Sentiment.NEGATIVE,
+    #                 Sentiment.MIXED,
+    #                 Sentiment.POSITIVE,
+    #                 Sentiment.STRONG_POSITIVE]
         
-        max_count = max(counts.values())
-        for sentiment in priority:
-            if counts.get(sentiment, 0) == max_count:
-                return sentiment
+    #     max_count = max(counts.values())
+    #     for sentiment in priority:
+    #         if counts.get(sentiment, 0) == max_count:
+    #             return sentiment
             
-        return Sentiment.MIXED
+    #     return Sentiment.MIXED
 
     def _build_ffga_result(self,
                            category: FFGACategory,
@@ -109,17 +109,16 @@ class BaseAnalyzer:
         goals = self._build_ffga_result(FFGACategory.GOAL, "goals", quotes, sentiment_data)
         aspirations = self._build_ffga_result(FFGACategory.ASPIRATION, "aspirations", quotes, sentiment_data)
 
-        overall = self._calculate_overall_sentiment([fears.sentiment,
-                                                     frustrations.sentiment,
-                                                     goals.sentiment,
-                                                     aspirations.sentiment])
+        # overall = self._calculate_overall_sentiment([fears.sentiment,
+        #                                              frustrations.sentiment,
+        #                                              goals.sentiment,
+        #                                              aspirations.sentiment])
         return AnalysisResult(post_id=post.id,
                               post_title=post.title,
                               fears=fears,
                               frustrations=frustrations,
                               goals=goals,
-                              aspirations=aspirations,
-                              overall_sentiment=overall)
+                              aspirations=aspirations)
 
 
     def analyze(self, post:RedditPost) -> AnalysisResult:
