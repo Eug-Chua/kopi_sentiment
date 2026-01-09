@@ -1,6 +1,6 @@
 """Application config using Pydantic settings"""
 
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     """Application settings loaded from environment"""
@@ -20,9 +20,7 @@ class Settings(BaseSettings):
     llm_max_tokens: int = 2048
     claude_model: str = "claude-sonnet-4-20250514"     
     openai_model: str = "gpt-4o-mini"              
-        
-    class Config:
-        env_file = ".env"
-        extra = "ignore"
+    
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()
