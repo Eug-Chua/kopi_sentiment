@@ -3,7 +3,7 @@
 import pytest
 from datetime import datetime
 from kopi_sentiment.scraper.reddit import RedditPost, Comment
-from kopi_sentiment.analyzer.models import Sentiment, FFGACategory, FFGAResult, AnalysisResult
+from kopi_sentiment.analyzer.models import Intensity, FFGACategory, FFGAResult, AnalysisResult
 
 
 @pytest.fixture
@@ -67,23 +67,23 @@ def sample_extraction_response():
 
 
 @pytest.fixture
-def sample_sentiment_response():
-    """Sample LLM response for sentiment assessment."""
+def sample_intensity_response():
+    """Sample LLM response for intensity assessment."""
     return {
         "fears": {
-            "sentiment": "negative",
+            "intensity": "strong",
             "summary": "Anxiety about housing affordability."
         },
         "frustrations": {
-            "sentiment": "strong_negative",
+            "intensity": "strong",
             "summary": "Frustration with government inaction."
         },
         "goals": {
-            "sentiment": "mixed",
+            "intensity": "moderate",
             "summary": "Pragmatic focus on BTO as the path to homeownership."
         },
         "aspirations": {
-            "sentiment": "positive",
+            "intensity": "mild",
             "summary": "Hope for policy interventions to stabilize prices."
         },
     }
@@ -94,7 +94,7 @@ def sample_ffga_result():
     """A sample FFGAResult."""
     return FFGAResult(
         category=FFGACategory.FEAR,
-        sentiment=Sentiment.NEGATIVE,
+        intensity=Intensity.STRONG,
         summary="Anxiety about housing affordability.",
         quotes=["I'm worried about affording a flat"],
     )
@@ -108,25 +108,25 @@ def sample_analysis_result(sample_post):
         post_title=sample_post.title,
         fears=FFGAResult(
             category=FFGACategory.FEAR,
-            sentiment=Sentiment.NEGATIVE,
+            intensity=Intensity.STRONG,
             summary="Anxiety about housing affordability.",
             quotes=["I'm worried about affording a flat"],
         ),
         frustrations=FFGAResult(
             category=FFGACategory.FRUSTRATION,
-            sentiment=Sentiment.STRONG_NEGATIVE,
+            intensity=Intensity.STRONG,
             summary="Frustration with government inaction.",
             quotes=["The government needs to do something"],
         ),
         goals=FFGAResult(
             category=FFGACategory.GOAL,
-            sentiment=Sentiment.MIXED,
+            intensity=Intensity.MODERATE,
             summary="Pragmatic focus on BTO.",
             quotes=["BTO is the only way for young couples"],
         ),
         aspirations=FFGAResult(
             category=FFGACategory.ASPIRATION,
-            sentiment=Sentiment.POSITIVE,
+            intensity=Intensity.MILD,
             summary="Hope for price stabilization.",
             quotes=["Hope prices stabilize soon"],
         ),

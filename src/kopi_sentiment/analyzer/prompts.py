@@ -54,27 +54,31 @@ Return ONLY valid JSON, no other text.
 
 
 # ============================================================
-# STEP 2: Assess sentiment for categorized quotes
+# STEP 2: Assess intensity for categorized quotes
 # ============================================================
 
-SENTIMENT_SYSTEM_PROMPT = """You are an expert sentiment analyst specializing in understanding the Singaporean psyche.
+INTENSITY_SYSTEM_PROMPT = """You are an expert analyst specializing in understanding the Singaporean psyche.
 
-Assess the sentiment of categorized quotes using this scale:
-- **strong_positive**: Very optimistic, hopeful, enthusiastic
-- **positive**: Generally positive, satisfied, content  
-- **mixed**: Neutral, balanced, or conflicting views
-- **negative**: Dissatisfied, concerned, unhappy
-- **strong_negative**: Very pessimistic, angry, distressed
+Assess the INTENSITY of how strongly each FFGA emotion is expressed:
+- **mild**: Slight mention, passing concern, casual reference
+- **moderate**: Clear expression, noticeable feeling, definite stance
+- **strong**: Intense, emphatic, passionate expression (e.g., caps, exclamation marks, strong language)
+
+Note: Intensity is about HOW STRONGLY the emotion is felt, not whether it's positive or negative.
+- A mild fear is a slight worry
+- A strong fear is deep anxiety or panic
+- A mild frustration is minor annoyance
+- A strong frustration is outrage or anger
 
 Consider Singaporean context and cultural nuances (e.g., "kpkb" means complaining, "sian" means tired/frustrated).
 
 For each category:
-1. Assess the overall sentiment based on the quotes
+1. Assess the overall intensity based on the quotes
 2. Write a 1-2 sentence summary capturing the main theme
-3. If a category has no quotes, mark it as "mixed" with summary "No relevant comments found."
+3. If a category has no quotes, mark it as "mild" with summary "No relevant comments found."
 """
 
-SENTIMENT_USER_PROMPT = """Based on these categorized quotes from a Reddit discussion, assess the sentiment for each FFGA category.
+INTENSITY_USER_PROMPT = """Based on these categorized quotes from a Reddit discussion, assess the INTENSITY for each FFGA category.
 
 **Post Title**: {title}
 
@@ -89,19 +93,19 @@ SENTIMENT_USER_PROMPT = """Based on these categorized quotes from a Reddit discu
 Respond in this exact JSON format:
 {{
     "fears": {{
-        "sentiment": "<strong_positive|positive|mixed|negative|strong_negative>",
+        "intensity": "<mild|moderate|strong>",
         "summary": "<1-2 sentence summary>"
     }},
     "frustrations": {{
-        "sentiment": "<strong_positive|positive|mixed|negative|strong_negative>",
+        "intensity": "<mild|moderate|strong>",
         "summary": "<1-2 sentence summary>"
     }},
     "goals": {{
-        "sentiment": "<strong_positive|positive|mixed|negative|strong_negative>",
+        "intensity": "<mild|moderate|strong>",
         "summary": "<1-2 sentence summary>"
     }},
     "aspirations": {{
-        "sentiment": "<strong_positive|positive|mixed|negative|strong_negative>",
+        "intensity": "<mild|moderate|strong>",
         "summary": "<1-2 sentence summary>"
     }}
 }}
@@ -130,10 +134,10 @@ def build_extract_prompt(title: str, selftext: str, comments: list, subreddit: s
     )
 
 
-def build_sentiment_prompt(title: str, fears: list[str], frustrations: list[str], 
+def build_intensity_prompt(title: str, fears: list[str], frustrations: list[str],
                            goals: list[str], aspirations: list[str]) -> str:
-    """Build the sentiment assessment prompt (Step 2)."""
-    return SENTIMENT_USER_PROMPT.format(
+    """Build the intensity assessment prompt (Step 2)."""
+    return INTENSITY_USER_PROMPT.format(
         title=title,
         fears=fears if fears else ["(none)"],
         frustrations=frustrations if frustrations else ["(none)"],

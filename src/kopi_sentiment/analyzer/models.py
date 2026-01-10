@@ -3,13 +3,11 @@
 from enum import Enum
 from pydantic import BaseModel
 
-class Sentiment(str, Enum):
-    """Range and intensity of sentiment"""
-    STRONG_POSITIVE = "strong_positive"
-    POSITIVE = "positive"
-    MIXED = "mixed"
-    NEGATIVE = "negative"
-    STRONG_NEGATIVE = "strong_negative"
+class Intensity(str, Enum):
+    """How strongly the FFGA emotion is expressed"""
+    MILD = "mild"          # Slight, passing mention
+    MODERATE = "moderate"  # Clear expression
+    STRONG = "strong"      # Intense, emphatic expression
 
 class FFGACategory(str, Enum):
     """FFGA framework categories"""
@@ -21,7 +19,7 @@ class FFGACategory(str, Enum):
 class FFGAResult(BaseModel):
     """Result for a single FFGA category"""
     category: FFGACategory
-    sentiment: Sentiment
+    intensity: Intensity
     summary: str
     quotes: list[str] = []
 

@@ -2,25 +2,24 @@
 
 import pytest
 import json
-from kopi_sentiment.analyzer.models import Sentiment, FFGACategory, FFGAResult, AnalysisResult
-from kopi_sentiment.analyzer.prompts import build_extract_prompt, build_sentiment_prompt
+from kopi_sentiment.analyzer.models import Intensity, FFGACategory, FFGAResult, AnalysisResult
+from kopi_sentiment.analyzer.prompts import build_extract_prompt, build_intensity_prompt
 from kopi_sentiment.analyzer.base import BaseAnalyzer
 
-class TestSentimentEnum:
-    """Tests for Sentiment enum."""
 
-    def test_sentiment_values(self):
-        """All 5 sentiment levels exist."""
-        assert Sentiment.STRONG_POSITIVE.value == "strong_positive"
-        assert Sentiment.POSITIVE.value == "positive"
-        assert Sentiment.MIXED.value == "mixed"
-        assert Sentiment.NEGATIVE.value == "negative"
-        assert Sentiment.STRONG_NEGATIVE.value == "strong_negative"
+class TestIntensityEnum:
+    """Tests for Intensity enum."""
 
-    def test_sentiment_from_string(self):
-        """Sentiment can be created from string value."""
-        sentiment = Sentiment("negative")
-        assert sentiment == Sentiment.NEGATIVE
+    def test_intensity_values(self):
+        """All 3 intensity levels exist."""
+        assert Intensity.MILD.value == "mild"
+        assert Intensity.MODERATE.value == "moderate"
+        assert Intensity.STRONG.value == "strong"
+
+    def test_intensity_from_string(self):
+        """Intensity can be created from string value."""
+        intensity = Intensity("strong")
+        assert intensity == Intensity.STRONG
 
 
 class TestFFGAResult:
@@ -30,12 +29,12 @@ class TestFFGAResult:
         """FFGAResult can be created with all fields."""
         result = FFGAResult(
             category=FFGACategory.FEAR,
-            sentiment=Sentiment.NEGATIVE,
+            intensity=Intensity.STRONG,
             summary="People are worried about housing.",
             quotes=["I can't afford a flat"],
         )
         assert result.category == FFGACategory.FEAR
-        assert result.sentiment == Sentiment.NEGATIVE
+        assert result.intensity == Intensity.STRONG
         assert len(result.quotes) == 1
 
 class TestBuildExtractPrompt:
