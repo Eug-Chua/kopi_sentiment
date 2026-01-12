@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.75.0",
     "beautifulsoup4>=4.14.3",
+    "imbalanced-learn>=0.14.1",
     "ipykernel>=7.1.0",
     "openai>=2.14.0",
     "pandas>=2.3.3",
@@ -16,6 +17,7 @@ dependencies = [
     "pykernel>=0.1.6",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
+    "scikit-learn>=1.8.0",
 ]
 
 [build-system]
