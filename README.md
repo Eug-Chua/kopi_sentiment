@@ -5,7 +5,7 @@
 
 Singapore's fortunes are tied to global forces beyond its control. As Singapore's leaders have noted:
 - *The rules-based international order is being tested and multilateral cooperation is fraying.*
-- *We are living in turbulent times... the global order changes before our very eyes."
+- *We are living in turbulent times... the global order changes before our very eyes.*
 
 As a small nation navigating a shifting world order, what was normal is no longer normal. The rules Singapore rode to transform from third world to first are being rewritten. 
 
