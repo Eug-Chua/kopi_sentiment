@@ -323,3 +323,252 @@ def build_trending_topics_prompt(
         sample_goals=sample_goals[:10] if sample_goals else ["(none)"],
         sample_aspirations=sample_aspirations[:10] if sample_aspirations else ["(none)"],
     )
+
+
+# ============================================================
+# STEP 5: Weekly Insights Generation
+# ============================================================
+
+WEEKLY_INSIGHTS_SYSTEM_PROMPT = """You are a strategic analyst who transforms sentiment data into actionable insights for product teams, marketers, and business leaders.
+
+Your task is to analyze Singaporean Reddit sentiment and generate:
+1. A compelling headline summarizing the week
+2. Key takeaways (3-5 bullet points)
+3. Opportunities to capitalize on
+4. Risks to monitor
+
+Guidelines:
+- Be specific and actionable, not generic
+- Reference Singapore-specific context (HDB, CPF, COE, MRT, etc.)
+- Focus on what the data MEANS for decision-makers
+- Highlight non-obvious insights and connections
+- Quantify where possible (e.g., "3x increase in housing complaints")
+"""
+
+WEEKLY_INSIGHTS_USER_PROMPT = """Based on this week's Singapore Reddit sentiment analysis, generate strategic insights.
+
+**Week**: {week_id}
+
+**Overall Sentiment Summary**:
+- Fears: {fears_summary} (Intensity: {fears_intensity}, Count: {fears_count})
+- Frustrations: {frustrations_summary} (Intensity: {frustrations_intensity}, Count: {frustrations_count})
+- Goals: {goals_summary} (Intensity: {goals_intensity}, Count: {goals_count})
+- Aspirations: {aspirations_summary} (Intensity: {aspirations_intensity}, Count: {aspirations_count})
+
+**Week-over-Week Changes**:
+{trend_summary}
+
+**High-Engagement Quotes** (most upvoted):
+{high_engagement_quotes}
+
+**Trending Topics**:
+{trending_topics}
+
+---
+
+Generate strategic insights in this exact JSON format:
+{{
+    "headline": "<compelling one-line summary of the week's sentiment>",
+    "key_takeaways": [
+        "<specific insight 1>",
+        "<specific insight 2>",
+        "<specific insight 3>"
+    ],
+    "opportunities": [
+        "<actionable opportunity 1>",
+        "<actionable opportunity 2>"
+    ],
+    "risks": [
+        "<risk to monitor 1>",
+        "<risk to monitor 2>"
+    ]
+}}
+
+Return ONLY valid JSON, no other text.
+"""
+
+
+# ============================================================
+# STEP 6: Theme Clustering
+# ============================================================
+
+THEME_CLUSTERING_SYSTEM_PROMPT = """You are an expert at identifying patterns and clustering related content into meaningful themes.
+
+Your task is to group quotes into thematic clusters that reveal underlying patterns in Singaporean sentiment.
+
+Guidelines:
+1. Create 3-5 distinct theme clusters
+2. Each theme should have a clear, specific name (e.g., "HDB Affordability Crisis" not "Housing")
+3. Themes should be mutually exclusive - each quote should fit one theme
+4. Focus on Singapore-specific themes where relevant
+5. Select the most representative quotes for each cluster
+"""
+
+THEME_CLUSTERING_USER_PROMPT = """Cluster the following quotes into meaningful themes.
+
+**Quotes by Category**:
+
+FEARS:
+{fears_quotes}
+
+FRUSTRATIONS:
+{frustrations_quotes}
+
+GOALS:
+{goals_quotes}
+
+ASPIRATIONS:
+{aspirations_quotes}
+
+---
+
+Create 3-5 thematic clusters in this exact JSON format:
+{{
+    "clusters": [
+        {{
+            "theme": "<specific theme name>",
+            "description": "<1-sentence description>",
+            "category": "<fear|frustration|goal|aspiration>",
+            "quote_count": <number>,
+            "sample_quotes": ["<quote 1>", "<quote 2>", "<quote 3>"]
+        }}
+    ]
+}}
+
+Return ONLY valid JSON, no other text.
+"""
+
+
+# ============================================================
+# STEP 7: Signal Detection
+# ============================================================
+
+SIGNAL_DETECTION_SYSTEM_PROMPT = """You are an analyst who identifies notable signals and anomalies in sentiment data.
+
+Your task is to detect signals that warrant attention:
+- HIGH_ENGAGEMENT: Quotes with unusually high community agreement
+- EMERGING_TOPIC: New topics not typically seen in discussions
+- INTENSITY_SPIKE: Categories with significantly stronger emotions than usual
+- VOLUME_SPIKE: Categories with unusual volume of mentions
+
+Guidelines:
+1. Only flag truly notable signals (not everything is a signal)
+2. Assign appropriate urgency (low/medium/high)
+3. Explain WHY each signal matters
+4. Be specific about the signal, not generic
+"""
+
+SIGNAL_DETECTION_USER_PROMPT = """Detect notable signals in this week's sentiment data.
+
+**Current Week Stats**:
+- Fears: {fears_count} quotes, intensity breakdown (mild: {fears_mild}, moderate: {fears_moderate}, strong: {fears_strong})
+- Frustrations: {frustrations_count} quotes, intensity breakdown (mild: {frustrations_mild}, moderate: {frustrations_moderate}, strong: {frustrations_strong})
+- Goals: {goals_count} quotes, intensity breakdown (mild: {goals_mild}, moderate: {goals_moderate}, strong: {goals_strong})
+- Aspirations: {aspirations_count} quotes, intensity breakdown (mild: {aspirations_mild}, moderate: {aspirations_moderate}, strong: {aspirations_strong})
+
+**Previous Week Comparison**:
+{previous_week_comparison}
+
+**High-Engagement Quotes** (score > 50):
+{high_engagement_quotes}
+
+**Trending Topics**:
+{trending_topics}
+
+---
+
+Identify 2-4 notable signals in this exact JSON format:
+{{
+    "signals": [
+        {{
+            "signal_type": "<high_engagement|emerging_topic|intensity_spike|volume_spike>",
+            "title": "<short headline>",
+            "description": "<why this signal matters>",
+            "category": "<fear|frustration|goal|aspiration|null>",
+            "related_quotes": ["<relevant quote 1>", "<relevant quote 2>"],
+            "urgency": "<low|medium|high>"
+        }}
+    ]
+}}
+
+Return ONLY valid JSON, no other text.
+"""
+
+
+def build_weekly_insights_prompt(
+    week_id: str,
+    fears_summary: str, fears_intensity: str, fears_count: int,
+    frustrations_summary: str, frustrations_intensity: str, frustrations_count: int,
+    goals_summary: str, goals_intensity: str, goals_count: int,
+    aspirations_summary: str, aspirations_intensity: str, aspirations_count: int,
+    trend_summary: str,
+    high_engagement_quotes: list[str],
+    trending_topics: list[str],
+) -> str:
+    """Build the weekly insights prompt (Step 5)."""
+    return WEEKLY_INSIGHTS_USER_PROMPT.format(
+        week_id=week_id,
+        fears_summary=fears_summary,
+        fears_intensity=fears_intensity,
+        fears_count=fears_count,
+        frustrations_summary=frustrations_summary,
+        frustrations_intensity=frustrations_intensity,
+        frustrations_count=frustrations_count,
+        goals_summary=goals_summary,
+        goals_intensity=goals_intensity,
+        goals_count=goals_count,
+        aspirations_summary=aspirations_summary,
+        aspirations_intensity=aspirations_intensity,
+        aspirations_count=aspirations_count,
+        trend_summary=trend_summary or "No previous week data available.",
+        high_engagement_quotes="\n".join(f"- {q}" for q in high_engagement_quotes[:10]) or "(none)",
+        trending_topics="\n".join(f"- {t}" for t in trending_topics) or "(none)",
+    )
+
+
+def build_theme_clustering_prompt(
+    fears_quotes: list[str],
+    frustrations_quotes: list[str],
+    goals_quotes: list[str],
+    aspirations_quotes: list[str],
+) -> str:
+    """Build the theme clustering prompt (Step 6)."""
+    return THEME_CLUSTERING_USER_PROMPT.format(
+        fears_quotes="\n".join(f"- {q}" for q in fears_quotes[:15]) or "(none)",
+        frustrations_quotes="\n".join(f"- {q}" for q in frustrations_quotes[:15]) or "(none)",
+        goals_quotes="\n".join(f"- {q}" for q in goals_quotes[:15]) or "(none)",
+        aspirations_quotes="\n".join(f"- {q}" for q in aspirations_quotes[:15]) or "(none)",
+    )
+
+
+def build_signal_detection_prompt(
+    fears_count: int, fears_mild: int, fears_moderate: int, fears_strong: int,
+    frustrations_count: int, frustrations_mild: int, frustrations_moderate: int, frustrations_strong: int,
+    goals_count: int, goals_mild: int, goals_moderate: int, goals_strong: int,
+    aspirations_count: int, aspirations_mild: int, aspirations_moderate: int, aspirations_strong: int,
+    previous_week_comparison: str,
+    high_engagement_quotes: list[str],
+    trending_topics: list[str],
+) -> str:
+    """Build the signal detection prompt (Step 7)."""
+    return SIGNAL_DETECTION_USER_PROMPT.format(
+        fears_count=fears_count,
+        fears_mild=fears_mild,
+        fears_moderate=fears_moderate,
+        fears_strong=fears_strong,
+        frustrations_count=frustrations_count,
+        frustrations_mild=frustrations_mild,
+        frustrations_moderate=frustrations_moderate,
+        frustrations_strong=frustrations_strong,
+        goals_count=goals_count,
+        goals_mild=goals_mild,
+        goals_moderate=goals_moderate,
+        goals_strong=goals_strong,
+        aspirations_count=aspirations_count,
+        aspirations_mild=aspirations_mild,
+        aspirations_moderate=aspirations_moderate,
+        aspirations_strong=aspirations_strong,
+        previous_week_comparison=previous_week_comparison or "No previous week data.",
+        high_engagement_quotes="\n".join(f"- {q}" for q in high_engagement_quotes[:10]) or "(none)",
+        trending_topics="\n".join(f"- {t}" for t in trending_topics) or "(none)",
+    )
