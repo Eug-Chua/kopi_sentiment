@@ -1,8 +1,8 @@
 // Types that mirror Python Pydantic models
 
-export type Intensity = "low" | "medium" | "high";
+export type Intensity = "mild" | "moderate" | "strong";
 
-export type FFGACategory = "fears" | "frustrations" | "goals" | "aspirations";
+export type FFGACategory = "fear" | "frustration" | "goal" | "aspiration";
 
 export interface QuoteWithMetadata {
   text: string;
@@ -53,8 +53,9 @@ export interface AllQuotes {
 
 export interface TrendingTopic {
   topic: string;
-  mention_count: number;
-  related_quotes: string[];
+  mentions: number;
+  dominant_emotion: FFGACategory;
+  sentiment_shift: "improving" | "stable" | "worsening";
 }
 
 export interface CategorySentiment {
