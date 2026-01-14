@@ -1,5 +1,6 @@
 from datetime import date, timedelta, datetime
 import logging
+import time
 
 from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
 from kopi_sentiment.config.settings import settings
@@ -154,7 +155,7 @@ class WeeklyPipeline:
         total_posts = 0
         total_comments = 0
 
-        for subreddit in self.subreddits:
+        for i, subreddit in enumerate(self.subreddits):
             posts = self.scrape_subreddit(subreddit)
             report, analyses = self.analyze_subreddit(subreddit, posts)
 
@@ -162,6 +163,11 @@ class WeeklyPipeline:
             all_analyses.extend(analyses)
             total_posts += report.posts_analyzed
             total_comments += report.comments_analyzed
+
+            # Wait 2 minutes between subreddits (except after the last one)
+            if i < len(self.subreddits) - 1:
+                logger.info("Waiting 1 minute before next subreddit...")
+                time.sleep(60)
 
         # aggregate all quotes
         all_quotes = self.aggregate_quotes(subreddit_reports)

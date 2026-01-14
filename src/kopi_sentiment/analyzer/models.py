@@ -116,9 +116,75 @@ class AllQuotes(BaseModel):
     aspirations: list[QuoteWithMetadata] = []
 
 
+# ============================================================================
+# Enhanced Insights Models (v2)
+# ============================================================================
+
+class TrendDirection(str, Enum):
+    """Direction of sentiment change week-over-week"""
+    UP = "up"
+    DOWN = "down"
+    STABLE = "stable"
+
+
+class CategoryTrend(BaseModel):
+    """Week-over-week trend for a single FFGA category"""
+    direction: TrendDirection
+    change_pct: float = Field(description="Percentage change in quote count")
+    intensity_shift: str = Field(description="e.g., 'mild → moderate' or 'stable'")
+    previous_count: int
+    current_count: int
+
+
+class WeeklyTrends(BaseModel):
+    """Trend data comparing current week to previous week"""
+    has_previous_week: bool = False
+    previous_week_id: str | None = None
+    fears: CategoryTrend | None = None
+    frustrations: CategoryTrend | None = None
+    goals: CategoryTrend | None = None
+    aspirations: CategoryTrend | None = None
+
+
+class ThemeCluster(BaseModel):
+    """A cluster of related quotes around a common theme"""
+    theme: str = Field(description="Short theme name, e.g., 'Housing Affordability'")
+    description: str = Field(description="1-sentence description of the theme")
+    category: FFGACategory
+    quote_count: int
+    sample_quotes: list[str] = Field(description="Representative quotes (max 3)")
+    avg_score: float = Field(description="Average engagement score of quotes in cluster")
+
+
+class SignalType(str, Enum):
+    """Types of signals that warrant attention"""
+    HIGH_ENGAGEMENT = "high_engagement"  # Unusually high upvotes
+    EMERGING_TOPIC = "emerging_topic"    # New topic not seen before
+    INTENSITY_SPIKE = "intensity_spike"  # Jump in strong emotions
+    VOLUME_SPIKE = "volume_spike"        # Unusual number of mentions
+
+
+class Signal(BaseModel):
+    """A notable signal that warrants attention"""
+    signal_type: SignalType
+    title: str = Field(description="Short signal headline")
+    description: str = Field(description="Why this signal matters")
+    category: FFGACategory | None = None
+    related_quotes: list[str] = []
+    urgency: Literal["low", "medium", "high"] = "medium"
+
+
+class WeeklyInsights(BaseModel):
+    """AI-generated insights and recommendations"""
+    headline: str = Field(description="One-line summary of the week's sentiment")
+    key_takeaways: list[str] = Field(description="3-5 bullet points of notable findings")
+    opportunities: list[str] = Field(description="Actionable opportunities identified")
+    risks: list[str] = Field(description="Potential risks or concerns to monitor")
+
+
 class WeeklyReport(BaseModel):
     """Complete weekly sentiment report - main output format"""
-    schema_version: str = "weekly_report_v1"
+    schema_version: str = "weekly_report_v2"
     week_id: str = Field(description="ISO week format, e.g., '2025-W02'")
     week_start: date
     week_end: date
@@ -129,3 +195,9 @@ class WeeklyReport(BaseModel):
     subreddits: list[SubredditReport]
     all_quotes: AllQuotes
     trending_topics: list[TrendingTopic] = []
+
+    # New fields for enhanced insights
+    insights: WeeklyInsights | None = None
+    trends: WeeklyTrends | None = None
+    theme_clusters: list[ThemeCluster] = []
+    signals: list[Signal] = []
