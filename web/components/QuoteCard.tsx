@@ -8,9 +8,9 @@ interface QuoteCardProps {
 
 export function QuoteCard({ quote }: QuoteCardProps) {
   const intensityColors = {
-    low: "bg-green-100 text-green-800",
-    medium: "bg-yellow-100 text-yellow-800",
-    high: "bg-red-100 text-red-800",
+    mild: "bg-zinc-400/70 text-white",
+    moderate: "bg-amber-500/70 text-white",
+    strong: "bg-red-500/70 text-white",
   };
 
   return (
@@ -18,12 +18,12 @@ export function QuoteCard({ quote }: QuoteCardProps) {
       <CardContent className="pt-4">
         <p className="text-white italic mb-3">{quote.text}</p>
         <div className="flex items-center justify-between text-sm text-gray-300 gap-2">
-          <div className="flex-1 min-w-0">
-            <span className="text-gray-400">r/{quote.subreddit}</span>
-            <span className="text-gray-500 mx-2">·</span>
-            <span className="truncate">{quote.post_title}</span>
+          <div className="flex-1 min-w-0 flex items-center">
+            <span className="text-gray-400 flex-shrink-0">r/{quote.subreddit}</span>
+            <span className="text-gray-500 mx-2 flex-shrink-0">·</span>
+            <span className="truncate" title={quote.post_title}>{quote.post_title}</span>
           </div>
-          <Badge className={intensityColors[quote.intensity]}>
+          <Badge className={`flex-shrink-0 ${intensityColors[quote.intensity]}`}>
             {quote.intensity}
           </Badge>
         </div>
