@@ -81,7 +81,58 @@ export interface WeeklyReportMetadata {
   subreddits: string[];
 }
 
+// ============================================================================
+// Enhanced Insights Types (v2)
+// ============================================================================
+
+export type TrendDirection = "up" | "down" | "stable";
+
+export interface CategoryTrend {
+  direction: TrendDirection;
+  change_pct: number;
+  intensity_shift: string;
+  previous_count: number;
+  current_count: number;
+}
+
+export interface WeeklyTrends {
+  has_previous_week: boolean;
+  previous_week_id: string | null;
+  fears: CategoryTrend | null;
+  frustrations: CategoryTrend | null;
+  goals: CategoryTrend | null;
+  aspirations: CategoryTrend | null;
+}
+
+export interface ThemeCluster {
+  theme: string;
+  description: string;
+  category: FFGACategory;
+  quote_count: number;
+  sample_quotes: string[];
+  avg_score: number;
+}
+
+export type SignalType = "high_engagement" | "emerging_topic" | "intensity_spike" | "volume_spike";
+
+export interface Signal {
+  signal_type: SignalType;
+  title: string;
+  description: string;
+  category: FFGACategory | null;
+  related_quotes: string[];
+  urgency: "low" | "medium" | "high";
+}
+
+export interface WeeklyInsights {
+  headline: string;
+  key_takeaways: string[];
+  opportunities: string[];
+  risks: string[];
+}
+
 export interface WeeklyReport {
+  schema_version?: string;
   week_id: string;
   week_start: string;
   week_end: string;
@@ -91,4 +142,9 @@ export interface WeeklyReport {
   subreddits: SubredditReport[];
   all_quotes: AllQuotes;
   trending_topics: TrendingTopic[];
+  // New fields for enhanced insights
+  insights: WeeklyInsights | null;
+  trends: WeeklyTrends | null;
+  theme_clusters: ThemeCluster[];
+  signals: Signal[];
 }
