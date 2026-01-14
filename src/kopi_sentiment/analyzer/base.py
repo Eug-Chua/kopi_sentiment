@@ -12,16 +12,26 @@ from kopi_sentiment.analyzer.models import (
     OverallSentiment,
     IntensityBreakdown,
     TrendingTopic,
+    WeeklyInsights,
+    ThemeCluster,
+    Signal,
+    SignalType,
 )
 from kopi_sentiment.analyzer.prompts import (
     EXTRACT_SYSTEM_PROMPT,
     INTENSITY_SYSTEM_PROMPT,
     WEEKLY_SUMMARY_SYSTEM_PROMPT,
     TRENDING_TOPICS_SYSTEM_PROMPT,
+    WEEKLY_INSIGHTS_SYSTEM_PROMPT,
+    THEME_CLUSTERING_SYSTEM_PROMPT,
+    SIGNAL_DETECTION_SYSTEM_PROMPT,
     build_extract_prompt,
     build_intensity_prompt,
     build_weekly_summary_prompt,
     build_trending_topics_prompt,
+    build_weekly_insights_prompt,
+    build_theme_clustering_prompt,
+    build_signal_detection_prompt,
 )
 
 from kopi_sentiment.scraper.reddit import RedditPost
@@ -295,4 +305,169 @@ class BaseAnalyzer:
                 logger.warning(f"Skipping invalid trending topic: {e}")
 
         return topics
+
+    def generate_weekly_insights(
+        self,
+        week_id: str,
+        overall_sentiment: OverallSentiment,
+        trend_summary: str,
+        high_engagement_quotes: list[str],
+        trending_topics: list[str],
+    ) -> WeeklyInsights:
+        """Step 5: Generate strategic insights and recommendations.
+
+        Args:
+            week_id: ISO week format (e.g., "2025-W02")
+            overall_sentiment: The OverallSentiment from weekly summary
+            trend_summary: Text summary of week-over-week trends
+            high_engagement_quotes: Quotes with high upvotes
+            trending_topics: List of trending topic names
+
+        Returns:
+            WeeklyInsights with headline, takeaways, opportunities, risks
+        """
+        user_prompt = build_weekly_insights_prompt(
+            week_id=week_id,
+            fears_summary=overall_sentiment.fears.summary,
+            fears_intensity=overall_sentiment.fears.intensity.value,
+            fears_count=overall_sentiment.fears.quote_count,
+            frustrations_summary=overall_sentiment.frustrations.summary,
+            frustrations_intensity=overall_sentiment.frustrations.intensity.value,
+            frustrations_count=overall_sentiment.frustrations.quote_count,
+            goals_summary=overall_sentiment.goals.summary,
+            goals_intensity=overall_sentiment.goals.intensity.value,
+            goals_count=overall_sentiment.goals.quote_count,
+            aspirations_summary=overall_sentiment.aspirations.summary,
+            aspirations_intensity=overall_sentiment.aspirations.intensity.value,
+            aspirations_count=overall_sentiment.aspirations.quote_count,
+            trend_summary=trend_summary,
+            high_engagement_quotes=high_engagement_quotes,
+            trending_topics=trending_topics,
+        )
+
+        response = self._call_llm(WEEKLY_INSIGHTS_SYSTEM_PROMPT, user_prompt)
+        response = self._clean_json_response(response)
+
+        try:
+            data = json.loads(response)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse weekly insights response: {e}")
+            data = {}
+
+        return WeeklyInsights(
+            headline=data.get("headline", "No headline available."),
+            key_takeaways=data.get("key_takeaways", []),
+            opportunities=data.get("opportunities", []),
+            risks=data.get("risks", []),
+        )
+
+    def cluster_themes(
+        self,
+        all_quotes: dict[str, list[str]],
+    ) -> list[ThemeCluster]:
+        """Step 6: Cluster quotes into meaningful themes.
+
+        Args:
+            all_quotes: Dict with lists of quotes per category
+
+        Returns:
+            List of ThemeCluster objects
+        """
+        user_prompt = build_theme_clustering_prompt(
+            fears_quotes=all_quotes.get("fears", []),
+            frustrations_quotes=all_quotes.get("frustrations", []),
+            goals_quotes=all_quotes.get("goals", []),
+            aspirations_quotes=all_quotes.get("aspirations", []),
+        )
+
+        response = self._call_llm(THEME_CLUSTERING_SYSTEM_PROMPT, user_prompt)
+        response = self._clean_json_response(response)
+
+        try:
+            data = json.loads(response)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse theme clustering response: {e}")
+            return []
+
+        clusters = []
+        for cluster_data in data.get("clusters", []):
+            try:
+                clusters.append(ThemeCluster(
+                    theme=cluster_data["theme"],
+                    description=cluster_data["description"],
+                    category=FFGACategory(cluster_data["category"]),
+                    quote_count=cluster_data["quote_count"],
+                    sample_quotes=cluster_data.get("sample_quotes", [])[:3],
+                    avg_score=cluster_data.get("avg_score", 0.0),
+                ))
+            except (KeyError, ValueError) as e:
+                logger.warning(f"Skipping invalid theme cluster: {e}")
+
+        return clusters
+
+    def detect_signals(
+        self,
+        intensity_counts: dict[str, dict[str, int]],
+        previous_week_comparison: str,
+        high_engagement_quotes: list[str],
+        trending_topics: list[str],
+    ) -> list[Signal]:
+        """Step 7: Detect notable signals that warrant attention.
+
+        Args:
+            intensity_counts: Dict of intensity breakdowns per category
+            previous_week_comparison: Text comparison with previous week
+            high_engagement_quotes: Quotes with high upvotes
+            trending_topics: List of trending topic names
+
+        Returns:
+            List of Signal objects
+        """
+        user_prompt = build_signal_detection_prompt(
+            fears_count=sum(intensity_counts.get("fears", {}).values()),
+            fears_mild=intensity_counts.get("fears", {}).get("mild", 0),
+            fears_moderate=intensity_counts.get("fears", {}).get("moderate", 0),
+            fears_strong=intensity_counts.get("fears", {}).get("strong", 0),
+            frustrations_count=sum(intensity_counts.get("frustrations", {}).values()),
+            frustrations_mild=intensity_counts.get("frustrations", {}).get("mild", 0),
+            frustrations_moderate=intensity_counts.get("frustrations", {}).get("moderate", 0),
+            frustrations_strong=intensity_counts.get("frustrations", {}).get("strong", 0),
+            goals_count=sum(intensity_counts.get("goals", {}).values()),
+            goals_mild=intensity_counts.get("goals", {}).get("mild", 0),
+            goals_moderate=intensity_counts.get("goals", {}).get("moderate", 0),
+            goals_strong=intensity_counts.get("goals", {}).get("strong", 0),
+            aspirations_count=sum(intensity_counts.get("aspirations", {}).values()),
+            aspirations_mild=intensity_counts.get("aspirations", {}).get("mild", 0),
+            aspirations_moderate=intensity_counts.get("aspirations", {}).get("moderate", 0),
+            aspirations_strong=intensity_counts.get("aspirations", {}).get("strong", 0),
+            previous_week_comparison=previous_week_comparison,
+            high_engagement_quotes=high_engagement_quotes,
+            trending_topics=trending_topics,
+        )
+
+        response = self._call_llm(SIGNAL_DETECTION_SYSTEM_PROMPT, user_prompt)
+        response = self._clean_json_response(response)
+
+        try:
+            data = json.loads(response)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse signal detection response: {e}")
+            return []
+
+        signals = []
+        for signal_data in data.get("signals", []):
+            try:
+                category = signal_data.get("category")
+                signals.append(Signal(
+                    signal_type=SignalType(signal_data["signal_type"]),
+                    title=signal_data["title"],
+                    description=signal_data["description"],
+                    category=FFGACategory(category) if category else None,
+                    related_quotes=signal_data.get("related_quotes", [])[:3],
+                    urgency=signal_data.get("urgency", "medium"),
+                ))
+            except (KeyError, ValueError) as e:
+                logger.warning(f"Skipping invalid signal: {e}")
+
+        return signals
 
