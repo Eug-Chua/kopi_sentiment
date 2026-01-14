@@ -13,7 +13,10 @@ from kopi_sentiment.analyzer.models import (SubredditReport,
                                             WeeklyReport,
                                             PostAnalysis,
                                             QuoteWithMetadata,
-                                            WeeklyReportMetadata)
+                                            WeeklyReportMetadata,
+                                            WeeklyTrends,
+                                            CategoryTrend,
+                                            TrendDirection)
 
 logger = logging.getLogger(__name__)
 
@@ -142,6 +145,110 @@ class WeeklyPipeline:
                 intensity=category_result.intensity)
             target_list.append(quote)
 
+    def _get_previous_week_id(self, current_week_id: str) -> str:
+        """Get the previous week's ID"""
+        year, week = current_week_id.split("-W")
+        year, week = int(year), int(week)
+        if week == 1:
+            year -= 1
+            week = 52
+        else:
+            week -= 1
+        return f"{year}-W{week:02d}"
+
+    def _load_previous_week(self, week_id: str) -> WeeklyReport | None:
+        """Try to load previous week's report"""
+        prev_week_id = self._get_previous_week_id(week_id)
+        try:
+            return self.storage.load_weekly_report(prev_week_id)
+        except FileNotFoundError:
+            logger.info(f"No previous week report found for {prev_week_id}")
+            return None
+
+    def _calculate_trends(self, current_quotes: AllQuotes, previous_report: WeeklyReport | None) -> WeeklyTrends:
+        """Calculate week-over-week trends"""
+        if not previous_report:
+            return WeeklyTrends(has_previous_week=False)
+
+        def calc_category_trend(current_count: int, previous_count: int) -> CategoryTrend:
+            if previous_count == 0:
+                change_pct = 100.0 if current_count > 0 else 0.0
+            else:
+                change_pct = ((current_count - previous_count) / previous_count) * 100
+
+            if change_pct > 10:
+                direction = TrendDirection.UP
+            elif change_pct < -10:
+                direction = TrendDirection.DOWN
+            else:
+                direction = TrendDirection.STABLE
+
+            return CategoryTrend(
+                direction=direction,
+                change_pct=round(change_pct, 1),
+                intensity_shift="stable",
+                previous_count=previous_count,
+                current_count=current_count,
+            )
+
+        prev_quotes = previous_report.all_quotes
+        return WeeklyTrends(
+            has_previous_week=True,
+            previous_week_id=previous_report.week_id,
+            fears=calc_category_trend(len(current_quotes.fears), len(prev_quotes.fears)),
+            frustrations=calc_category_trend(len(current_quotes.frustrations), len(prev_quotes.frustrations)),
+            goals=calc_category_trend(len(current_quotes.goals), len(prev_quotes.goals)),
+            aspirations=calc_category_trend(len(current_quotes.aspirations), len(prev_quotes.aspirations)),
+        )
+
+    def _build_trend_summary(self, trends: WeeklyTrends) -> str:
+        """Build a text summary of trends for prompts"""
+        if not trends.has_previous_week:
+            return "No previous week data available for comparison."
+
+        parts = []
+        for name, trend in [
+            ("Fears", trends.fears),
+            ("Frustrations", trends.frustrations),
+            ("Goals", trends.goals),
+            ("Aspirations", trends.aspirations),
+        ]:
+            if trend:
+                parts.append(f"- {name}: {trend.direction.value} {trend.change_pct:+.1f}% ({trend.previous_count} → {trend.current_count})")
+        return "\n".join(parts)
+
+    def _get_high_engagement_quotes(self, all_quotes: AllQuotes, min_score: int = 20) -> list[str]:
+        """Get quotes with high engagement scores"""
+        all_quote_list = (
+            list(all_quotes.fears) +
+            list(all_quotes.frustrations) +
+            list(all_quotes.goals) +
+            list(all_quotes.aspirations)
+        )
+        high_engagement = [q for q in all_quote_list if q.score >= min_score]
+        high_engagement.sort(key=lambda q: q.score, reverse=True)
+        return [f"[+{q.score}] {q.text}" for q in high_engagement[:15]]
+
+    def _count_intensity(self, all_analyses: list[AnalysisResult]) -> dict[str, dict[str, int]]:
+        """Count quotes by intensity for each category"""
+        counts = {
+            "fears": {"mild": 0, "moderate": 0, "strong": 0},
+            "frustrations": {"mild": 0, "moderate": 0, "strong": 0},
+            "goals": {"mild": 0, "moderate": 0, "strong": 0},
+            "aspirations": {"mild": 0, "moderate": 0, "strong": 0},
+        }
+        for analysis in all_analyses:
+            for key, result in [
+                ("fears", analysis.fears),
+                ("frustrations", analysis.frustrations),
+                ("goals", analysis.goals),
+                ("aspirations", analysis.aspirations),
+            ]:
+                intensity = result.intensity.value if hasattr(result.intensity, 'value') else result.intensity
+                if intensity in counts[key]:
+                    counts[key][intensity] += len(result.quotes)
+        return counts
+
     def run(self, week_id) -> WeeklyReport:
         """Executes the full weekly pipeline"""
         week_id = week_id or self.get_week()
@@ -189,12 +296,47 @@ class WeeklyPipeline:
         )
 
         # detect trending topics
-        logger.info("Detecting tranding topics...")
+        logger.info("Detecting trending topics...")
         post_titles = [post.title for report in subreddit_reports for post in report.top_posts]
 
         trending_topics = self.analyzer.detect_trending_topics(post_titles=post_titles,
                                                                all_quotes=quotes_dict)
-        
+
+        # load previous week and calculate trends
+        logger.info("Calculating week-over-week trends...")
+        previous_report = self._load_previous_week(week_id)
+        trends = self._calculate_trends(all_quotes, previous_report)
+        trend_summary = self._build_trend_summary(trends)
+
+        # get high engagement quotes
+        high_engagement_quotes = self._get_high_engagement_quotes(all_quotes)
+        trending_topic_names = [t.topic for t in trending_topics]
+
+        # generate weekly insights
+        logger.info("Generating weekly insights...")
+        insights = self.analyzer.generate_weekly_insights(
+            week_id=week_id,
+            overall_sentiment=overall_sentiment,
+            trend_summary=trend_summary,
+            high_engagement_quotes=high_engagement_quotes,
+            trending_topics=trending_topic_names,
+        )
+
+        # cluster themes
+        logger.info("Clustering themes...")
+        theme_clusters = self.analyzer.cluster_themes(all_quotes=quotes_dict)
+
+        # detect signals
+        logger.info("Detecting signals...")
+        intensity_counts = self._count_intensity(all_analyses)
+        previous_week_comparison = trend_summary if trends.has_previous_week else ""
+        signals = self.analyzer.detect_signals(
+            intensity_counts=intensity_counts,
+            previous_week_comparison=previous_week_comparison,
+            high_engagement_quotes=high_engagement_quotes,
+            trending_topics=trending_topic_names,
+        )
+
         # build final report
         report = WeeklyReport(
             week_id=week_id,
@@ -209,7 +351,11 @@ class WeeklyPipeline:
             overall_sentiment=overall_sentiment,
             subreddits=subreddit_reports,
             all_quotes=all_quotes,
-            trending_topics=trending_topics
+            trending_topics=trending_topics,
+            insights=insights,
+            trends=trends,
+            theme_clusters=theme_clusters,
+            signals=signals,
         )
         
         saved_path = self.storage.save_weekly_report(report)
