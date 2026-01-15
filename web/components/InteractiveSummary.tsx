@@ -67,7 +67,7 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
   const categories: CategoryKey[] = ["fears", "frustrations", "goals", "aspirations"];
 
   return (
-    <div className="bg-zinc-900/50 rounded-lg border border-zinc-800 p-4">
+    <div className="bg-zinc-900/50 rounded-3xl border border-zinc-800 p-6">
       {/* Category Buttons */}
       <div className="flex flex-wrap gap-2 mb-4">
         {categories.map((cat) => {
@@ -80,7 +80,7 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
               key={cat}
               onClick={() => handleCategoryClick(cat)}
               disabled={isTyping && !isActive}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all ${
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
                 isActive
                   ? "bg-zinc-700 text-white ring-2 ring-zinc-500"
                   : isCompleted
