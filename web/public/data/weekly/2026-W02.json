@@ -1,0 +1,102 @@
+{
+  "schema_version": "weekly_report_v1",
+  "week_id": "2026-W02",
+  "week_start": "2026-01-05",
+  "week_end": "2026-01-11",
+  "generated_at": "2026-01-08T15:00:00.000000",
+  "metadata": {
+    "total_posts_analyzed": 35,
+    "total_comments_analyzed": 680,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "singaporeraw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Previous week fears summary - job market concerns were less intense.",
+      "quote_count": 85,
+      "intensity_breakdown": {
+        "mild": 5,
+        "moderate": 70,
+        "strong": 10
+      }
+    },
+    "frustrations": {
+      "intensity": "moderate",
+      "summary": "Previous week frustrations summary - political frustrations were building.",
+      "quote_count": 145,
+      "intensity_breakdown": {
+        "mild": 8,
+        "moderate": 60,
+        "strong": 77
+      }
+    },
+    "goals": {
+      "intensity": "moderate",
+      "summary": "Previous week goals summary - financial planning was a focus.",
+      "quote_count": 90,
+      "intensity_breakdown": {
+        "mild": 30,
+        "moderate": 55,
+        "strong": 5
+      }
+    },
+    "aspirations": {
+      "intensity": "mild",
+      "summary": "Previous week aspirations summary - hope for better governance.",
+      "quote_count": 65,
+      "intensity_breakdown": {
+        "mild": 35,
+        "moderate": 30,
+        "strong": 0
+      }
+    }
+  },
+  "subreddits": [],
+  "all_quotes": {
+    "fears": [],
+    "frustrations": [],
+    "goals": [],
+    "aspirations": []
+  },
+  "trending_topics": [
+    {
+      "topic": "HDB BTO Application Queue Times",
+      "mentions": 18,
+      "dominant_emotion": "frustration",
+      "sentiment_shift": "worsening"
+    },
+    {
+      "topic": "Job Market and Employment Prospects",
+      "mentions": 12,
+      "dominant_emotion": "fear",
+      "sentiment_shift": "stable"
+    },
+    {
+      "topic": "CPF Investment and Retirement Planning",
+      "mentions": 8,
+      "dominant_emotion": "goal",
+      "sentiment_shift": "stable"
+    },
+    {
+      "topic": "Public Transport Crowding",
+      "mentions": 7,
+      "dominant_emotion": "frustration",
+      "sentiment_shift": "stable"
+    },
+    {
+      "topic": "Work-Life Balance Concerns",
+      "mentions": 6,
+      "dominant_emotion": "aspiration",
+      "sentiment_shift": "improving"
+    }
+  ],
+  "insights": null,
+  "trends": null,
+  "theme_clusters": [],
+  "signals": []
+}
