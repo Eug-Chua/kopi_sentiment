@@ -5,9 +5,8 @@ import { OverallSentiment, AllQuotes, Intensity, PostAnalysis } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
-import { TrendingTopics } from "./TrendingTopics";
+import { QuickStats } from "./QuickStats";
 import { InteractiveSummary } from "./InteractiveSummary";
-import { TrendingTopic } from "@/types";
 
 type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
@@ -18,12 +17,11 @@ export interface QuoteFilter {
 
 interface HeatmapQuotesSectionProps {
   sentiment: OverallSentiment;
-  topics: TrendingTopic[];
   quotes: AllQuotes;
   hotPosts: PostAnalysis[];
 }
 
-export function HeatmapQuotesSection({ sentiment, topics, quotes, hotPosts }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, quotes, hotPosts }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
@@ -56,8 +54,8 @@ export function HeatmapQuotesSection({ sentiment, topics, quotes, hotPosts }: He
             <IntensityHeatmap sentiment={sentiment} onCellClick={handleCellClick} className="flex-1" />
           </div>
           <div className="flex flex-col">
-            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Trending Themes</h2>
-            <TrendingTopics topics={topics} className="flex-1" />
+            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Quick Stats</h2>
+            <QuickStats sentiment={sentiment} />
           </div>
         </div>
       </section>
