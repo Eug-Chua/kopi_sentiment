@@ -103,11 +103,6 @@ export function TrendingThemesComparison({
         <div className="md:border-l md:border-zinc-800 md:pl-6">
           <div className="flex items-center gap-2 mb-3">
             <h3 className="text-sm font-medium text-zinc-400">{previousLabel}</h3>
-            {droppedTopics.length > 0 && (
-              <span className="text-xs px-1.5 py-0.5 rounded bg-zinc-500/20 text-zinc-400">
-                {droppedTopics.length} resolved
-              </span>
-            )}
           </div>
           <TopicList topics={previousTopics} emptyMessage="No previous data" />
         </div>

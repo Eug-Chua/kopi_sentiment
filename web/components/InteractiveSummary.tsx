@@ -67,37 +67,54 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
   const categories: CategoryKey[] = ["fears", "frustrations", "goals", "aspirations"];
 
   return (
-    <div className="bg-zinc-900/50 rounded-3xl border border-zinc-800 p-6">
-      {/* Category Buttons */}
-      <div className="flex flex-wrap gap-2 mb-4">
-        {categories.map((cat) => {
-          const config = categoryConfig[cat];
-          const isActive = activeCategory === cat;
-          const isCompleted = completedCategories.has(cat);
+    <div className="bg-zinc-900/50 rounded-3xl border border-zinc-800 p-6 min-h-[140px] flex flex-col">
+      {!activeCategory ? (
+        /* Centered buttons when no category selected */
+        <div className="flex-1 flex items-center justify-center">
+          <div className="flex flex-wrap justify-center gap-2">
+            {categories.map((cat) => {
+              const config = categoryConfig[cat];
+              return (
+                <button
+                  key={cat}
+                  onClick={() => handleCategoryClick(cat)}
+                  className="px-4 py-1.5 rounded-full text-sm font-medium transition-all bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 cursor-pointer"
+                >
+                  {config.verb}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ) : (
+        /* Content when category is selected */
+        <>
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            {categories.map((cat) => {
+              const config = categoryConfig[cat];
+              const isActive = activeCategory === cat;
+              const isCompleted = completedCategories.has(cat);
 
-          return (
-            <button
-              key={cat}
-              onClick={() => handleCategoryClick(cat)}
-              disabled={isTyping && !isActive}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-                isActive
-                  ? "bg-zinc-700 text-white ring-2 ring-zinc-500"
-                  : isCompleted
-                    ? "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
-                    : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-              } ${isTyping && !isActive ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
-            >
-              {isCompleted ? config.label : config.verb}
-            </button>
-          );
-        })}
-      </div>
+              return (
+                <button
+                  key={cat}
+                  onClick={() => handleCategoryClick(cat)}
+                  disabled={isTyping && !isActive}
+                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
+                    isActive
+                      ? "bg-zinc-700 text-white ring-2 ring-zinc-500"
+                      : isCompleted
+                        ? "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
+                        : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+                  } ${isTyping && !isActive ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
+                >
+                  {isCompleted ? config.label : config.verb}
+                </button>
+              );
+            })}
+          </div>
 
-      {/* Summary Display */}
-      <div className="min-h-[80px]">
-        {activeCategory ? (
-          <div className="space-y-2">
+          <div className="min-h-[60px]">
             <p className="text-sm text-zinc-400 leading-relaxed">
               {completedCategories.has(activeCategory) ? (
                 getSummary(activeCategory)
@@ -106,12 +123,8 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
               )}
             </p>
           </div>
-        ) : (
-          <p className="text-sm text-zinc-500 italic">
-            Click a button above to generate AI insights for each category...
-          </p>
-        )}
-      </div>
+        </>
+      )}
     </div>
   );
 }
