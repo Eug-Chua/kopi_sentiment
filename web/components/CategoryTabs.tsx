@@ -9,7 +9,7 @@ type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
 export interface QuoteFilter {
   category: CategoryKey;
-  intensity: Intensity;
+  intensity?: Intensity; // Optional - if undefined, show all intensities for category
 }
 
 interface CategoryTabsProps {
@@ -43,7 +43,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   // Filter quotes by intensity if filter is active
   const filterQuotes = (quoteList: QuoteWithMetadata[], categoryKey: string) => {
     let filtered = sortByScore(quoteList);
-    if (filter && filter.category === categoryKey) {
+    if (filter && filter.category === categoryKey && filter.intensity) {
       filtered = filtered.filter((q) => q.intensity === filter.intensity);
     }
     return filtered;
