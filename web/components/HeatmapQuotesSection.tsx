@@ -1,12 +1,13 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { OverallSentiment, AllQuotes, Intensity, PostAnalysis } from "@/types";
+import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, WeeklyTrends, DailyTrends, Signal } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
 import { QuickStats } from "./QuickStats";
 import { InteractiveSummary } from "./InteractiveSummary";
+import { RiskMonitor } from "./RiskMonitor";
 
 type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
@@ -19,9 +20,11 @@ interface HeatmapQuotesSectionProps {
   sentiment: OverallSentiment;
   quotes: AllQuotes;
   hotPosts: PostAnalysis[];
+  trends?: WeeklyTrends | DailyTrends | null;
+  signals?: Signal[];
 }
 
-export function HeatmapQuotesSection({ sentiment, quotes, hotPosts }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trends, signals }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
@@ -55,7 +58,7 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts }: HeatmapQuo
           </div>
           <div className="flex flex-col">
             <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Quick Stats</h2>
-            <QuickStats sentiment={sentiment} />
+            <QuickStats sentiment={sentiment} trends={trends} />
           </div>
         </div>
       </section>
@@ -68,6 +71,13 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts }: HeatmapQuo
         <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Vibe Check</h2>
         <InteractiveSummary sentiment={sentiment} />
       </section>
+
+      {signals && signals.length > 0 && (
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">What The People Are Saying</h2>
+          <RiskMonitor signals={signals} />
+        </section>
+      )}
 
       <section ref={quotesRef}>
         <div className="flex items-center justify-between mb-4">
