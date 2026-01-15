@@ -150,3 +150,49 @@ export interface WeeklyReport {
   theme_clusters: ThemeCluster[];
   signals: Signal[];
 }
+
+// ============================================================================
+// Daily Report Types
+// ============================================================================
+
+export interface DailyReportMetadata {
+  total_posts_analyzed: number;
+  total_comments_analyzed: number;
+  subreddits: string[];
+}
+
+export interface DailyTrends {
+  has_previous_day: boolean;
+  previous_date: string | null;
+  fears: CategoryTrend | null;
+  frustrations: CategoryTrend | null;
+  goals: CategoryTrend | null;
+  aspirations: CategoryTrend | null;
+}
+
+export interface DailyInsights {
+  headline: string;
+  key_takeaways: string[];
+  opportunities: string[];
+  risks: string[];
+}
+
+export interface DailyReport {
+  schema_version?: string;
+  date_id: string;
+  report_date: string;
+  generated_at: string;
+  metadata: DailyReportMetadata;
+  overall_sentiment: OverallSentiment;
+  subreddits: SubredditReport[];
+  all_quotes: AllQuotes;
+  trending_topics: TrendingTopic[];
+  insights: DailyInsights | null;
+  trends: DailyTrends | null;
+  theme_clusters: ThemeCluster[];
+  signals: Signal[];
+}
+
+// Union type for either report type
+export type Report = WeeklyReport | DailyReport;
+export type ReportMode = "daily" | "weekly";

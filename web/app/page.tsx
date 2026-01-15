@@ -1,9 +1,5 @@
-import { WeeklyReport } from "@/types";
-import { InsightsPanel } from "@/components/InsightsPanel";
-import { TrendsDisplay } from "@/components/TrendsDisplay";
-import { SignalsPanel } from "@/components/SignalsPanel";
-import { ThemeClusters } from "@/components/ThemeClusters";
-import { HeatmapQuotesSection } from "@/components/HeatmapQuotesSection";
+import { WeeklyReport, DailyReport, TrendingTopic } from "@/types";
+import { Dashboard } from "@/components/Dashboard";
 
 async function getWeeklyReport(): Promise<WeeklyReport> {
   // In static export, we read from the public folder
@@ -16,50 +12,91 @@ async function getWeeklyReport(): Promise<WeeklyReport> {
   return JSON.parse(data);
 }
 
-export default async function Dashboard() {
-  const report = await getWeeklyReport();
+async function getPreviousWeekTopics(): Promise<TrendingTopic[]> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
 
-  // Collect all top posts from all subreddits and sort by score
-  const allTopPosts = report.subreddits
-    .flatMap((sub) => sub.top_posts)
-    .sort((a, b) => b.score - a.score);
+  try {
+    const filePath = path.join(process.cwd(), "public/data/weekly/2026-W02.json");
+    const data = await fs.readFile(filePath, "utf-8");
+    const report = JSON.parse(data) as WeeklyReport;
+    return report.trending_topics || [];
+  } catch {
+    return [];
+  }
+}
+
+async function getLatestDailyReport(): Promise<DailyReport | null> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
+
+  try {
+    const dailyDir = path.join(process.cwd(), "public/data/daily");
+
+    // Check if directory exists
+    try {
+      await fs.access(dailyDir);
+    } catch {
+      return null;
+    }
+
+    // Get all daily report files
+    const files = await fs.readdir(dailyDir);
+    const jsonFiles = files.filter((f) => f.endsWith(".json")).sort().reverse();
+
+    if (jsonFiles.length === 0) {
+      return null;
+    }
+
+    // Load the most recent daily report
+    const latestFile = jsonFiles[0];
+    const filePath = path.join(dailyDir, latestFile);
+    const data = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(data);
+  } catch (error) {
+    console.error("Error loading daily report:", error);
+    return null;
+  }
+}
+
+async function getAvailableDates(): Promise<string[]> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
+
+  try {
+    const dailyDir = path.join(process.cwd(), "public/data/daily");
+
+    try {
+      await fs.access(dailyDir);
+    } catch {
+      return [];
+    }
+
+    const files = await fs.readdir(dailyDir);
+    return files
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => f.replace(".json", ""))
+      .sort()
+      .reverse();
+  } catch {
+    return [];
+  }
+}
+
+export default async function Page() {
+  const [weeklyReport, dailyReport, availableDates, previousWeekTopics] = await Promise.all([
+    getWeeklyReport(),
+    getLatestDailyReport(),
+    getAvailableDates(),
+    getPreviousWeekTopics(),
+  ]);
 
   return (
-    <main className="container mx-auto p-6 max-w-4xl">
-      <h1 className="text-3xl font-bold mb-2 font-[family-name:var(--font-space-mono)]">Kopi Sentiment</h1>
-      <p className="text-gray-500 mb-6">
-        Week {report.week_id} ({report.week_start} to {report.week_end})
-      </p>
-
-      <section className="mb-8">
-        <InsightsPanel insights={report.insights} />
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Week-over-Week Trends</h2>
-        <TrendsDisplay trends={report.trends} />
-      </section>
-
-      {report.signals && report.signals.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Notable Signals</h2>
-          <SignalsPanel signals={report.signals} />
-        </section>
-      )}
-
-      <HeatmapQuotesSection
-        sentiment={report.overall_sentiment}
-        topics={report.trending_topics}
-        quotes={report.all_quotes}
-        hotPosts={allTopPosts}
-      />
-
-      {report.theme_clusters && report.theme_clusters.length > 0 && (
-        <section className="mb-8 mt-8">
-          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Theme Clusters</h2>
-          <ThemeClusters clusters={report.theme_clusters} />
-        </section>
-      )}
-    </main>
+    <Dashboard
+      weeklyReport={weeklyReport}
+      dailyReport={dailyReport}
+      availableDates={availableDates}
+      previousWeekTopics={previousWeekTopics}
+    />
   );
 }

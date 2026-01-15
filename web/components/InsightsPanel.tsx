@@ -1,11 +1,12 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { WeeklyInsights } from "@/types";
+import { WeeklyInsights, DailyInsights } from "@/types";
 
 interface InsightsPanelProps {
-  insights: WeeklyInsights | null;
+  insights: WeeklyInsights | DailyInsights | null;
+  periodLabel?: string;
 }
 
-export function InsightsPanel({ insights }: InsightsPanelProps) {
+export function InsightsPanel({ insights, periodLabel = "This Week" }: InsightsPanelProps) {
   if (!insights) {
     return null;
   }
@@ -15,7 +16,7 @@ export function InsightsPanel({ insights }: InsightsPanelProps) {
       <Card className="border-l-4 border-l-blue-500">
         <CardHeader className="pb-2">
           <CardTitle className="text-lg font-[family-name:var(--font-space-mono)]">
-            This Week
+            {periodLabel}
           </CardTitle>
         </CardHeader>
         <CardContent>
