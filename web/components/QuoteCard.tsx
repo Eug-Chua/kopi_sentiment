@@ -23,7 +23,7 @@ export function QuoteCard({ quote }: QuoteCardProps) {
   return (
     <div className="bg-zinc-900/40 rounded px-2.5 py-1.5 mb-2 border border-zinc-800/50">
       <div className="flex justify-between items-start gap-2 mb-1">
-        <p className="text-zinc-200 text-[13px] italic leading-tight flex-1">{quote.text}</p>
+        <p className="text-zinc-200 text-base italic leading-snug flex-1">{quote.text}</p>
         {quote.comment_score !== undefined && quote.comment_score > 0 && (
           <span className="text-zinc-500 text-[10px] flex-shrink-0">↑{quote.comment_score}</span>
         )}

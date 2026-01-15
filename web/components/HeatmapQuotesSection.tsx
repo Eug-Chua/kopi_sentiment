@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, WeeklyTrends, DailyTrends, Signal } from "@/types";
+import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, Signal, TrendingTopic } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
-import { QuickStats } from "./QuickStats";
+import { TrendingThemes } from "./TrendingThemes";
 import { InteractiveSummary } from "./InteractiveSummary";
 import { RiskMonitor } from "./RiskMonitor";
 
@@ -20,11 +20,11 @@ interface HeatmapQuotesSectionProps {
   sentiment: OverallSentiment;
   quotes: AllQuotes;
   hotPosts: PostAnalysis[];
-  trends?: WeeklyTrends | DailyTrends | null;
+  trendingTopics: TrendingTopic[];
   signals?: Signal[];
 }
 
-export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trends, signals }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trendingTopics, signals }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
@@ -57,8 +57,8 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trends, sign
             <IntensityHeatmap sentiment={sentiment} onCellClick={handleCellClick} className="flex-1" />
           </div>
           <div className="flex flex-col">
-            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Quick Stats</h2>
-            <QuickStats sentiment={sentiment} trends={trends} />
+            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Thematic Clusters</h2>
+            <TrendingThemes topics={trendingTopics} />
           </div>
         </div>
       </section>
