@@ -6,6 +6,7 @@ import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
 import { TrendingTopics } from "./TrendingTopics";
+import { InteractiveSummary } from "./InteractiveSummary";
 import { TrendingTopic } from "@/types";
 
 type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
@@ -61,8 +62,13 @@ export function HeatmapQuotesSection({ sentiment, topics, quotes, hotPosts }: He
         </div>
       </section>
 
-      <section className="mb-8">
+      <section className="mb-4">
         <HotPostsTicker posts={hotPosts} />
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Weekly Insights</h2>
+        <InteractiveSummary sentiment={sentiment} />
       </section>
 
       <section ref={quotesRef}>

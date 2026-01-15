@@ -1,5 +1,4 @@
 import { WeeklyReport } from "@/types";
-import { SentimentSummary } from "@/components/SentimentSummary";
 import { InsightsPanel } from "@/components/InsightsPanel";
 import { TrendsDisplay } from "@/components/TrendsDisplay";
 import { SignalsPanel } from "@/components/SignalsPanel";
@@ -34,11 +33,6 @@ export default async function Dashboard() {
 
       <section className="mb-8">
         <InsightsPanel insights={report.insights} />
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Weekly Summary</h2>
-        <SentimentSummary sentiment={report.overall_sentiment} />
       </section>
 
       <section className="mb-8">
