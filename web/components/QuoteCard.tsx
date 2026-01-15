@@ -28,10 +28,10 @@ export function QuoteCard({ quote }: QuoteCardProps) {
           <span className="text-zinc-500 text-[10px] flex-shrink-0">↑{quote.comment_score}</span>
         )}
       </div>
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-[9px] sm:text-[10px] text-gray-500 gap-1 sm:gap-2">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-[11px] sm:text-xs text-gray-500 gap-1 sm:gap-2">
         <div className="flex-1 min-w-0 flex items-center">
-          <span className="text-zinc-600 flex-shrink-0">r/{quote.subreddit}</span>
-          <span className="text-zinc-700 mx-1 flex-shrink-0">·</span>
+          <span className="text-zinc-500 flex-shrink-0">r/{quote.subreddit}</span>
+          <span className="text-zinc-600 mx-1 flex-shrink-0">·</span>
           <a
             href={postUrl}
             target="_blank"
@@ -42,7 +42,7 @@ export function QuoteCard({ quote }: QuoteCardProps) {
             {quote.post_title}
           </a>
         </div>
-        <Badge className={`flex-shrink-0 text-[8px] px-1.5 py-0 h-4 w-fit ${intensityColors[quote.intensity]}`}>
+        <Badge className={`flex-shrink-0 text-[9px] px-1.5 py-0.5 h-auto w-fit ${intensityColors[quote.intensity]}`}>
           {quote.intensity}
         </Badge>
       </div>
