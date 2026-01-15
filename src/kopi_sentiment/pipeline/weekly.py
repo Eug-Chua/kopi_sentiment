@@ -75,7 +75,7 @@ class WeeklyPipeline:
     
     def analyze_subreddit(self, subreddit, posts) -> tuple[SubredditReport, list[AnalysisResult]]:
         """Analyze all posts from a subreddit using 2-step LLM chain"""
-        logger.info(f"Analyzeing {len(posts)} posts from r/{subreddit}...")
+        logger.info(f"Analyzing {len(posts)} posts from r/{subreddit}...")
 
         analyses = []
         post_analyses = []
