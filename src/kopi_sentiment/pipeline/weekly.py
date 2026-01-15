@@ -6,6 +6,7 @@ from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
 from kopi_sentiment.config.settings import settings
 from kopi_sentiment.analyzer.claude import ClaudeAnalyzer
 from kopi_sentiment.analyzer.openai import OpenAIAnalyzer
+from kopi_sentiment.analyzer.hybrid import HybridAnalyzer
 from kopi_sentiment.storage.json_storage import JSONStorage
 from kopi_sentiment.analyzer.models import (SubredditReport,
                                             AnalysisResult,
@@ -31,9 +32,11 @@ class WeeklyPipeline:
         provider = llm_provider or settings.llm_provider
         if provider == 'claude':
             self.analyzer = ClaudeAnalyzer()
+        elif provider == 'hybrid':
+            self.analyzer = HybridAnalyzer()
         else:
             self.analyzer = OpenAIAnalyzer()
-        
+
         logger.info(f"WeeklyPipeline initialized: {len(self.subreddits)} subreddits, "
                     f"{self.posts_per_subreddit} posts each, using {provider}")            
 
@@ -298,10 +301,17 @@ class WeeklyPipeline:
 
         # detect trending topics
         logger.info("Detecting trending topics...")
-        post_titles = [post.title for report in subreddit_reports for post in report.top_posts]
+        # Include scores with titles so LLM can weight by popularity
+        post_titles_with_scores = [
+            f"[+{post.score}] {post.title}"
+            for report in subreddit_reports
+            for post in report.top_posts
+        ]
 
-        trending_topics = self.analyzer.detect_trending_topics(post_titles=post_titles,
-                                                               all_quotes=quotes_dict)
+        trending_topics = self.analyzer.detect_trending_topics(
+            post_titles=post_titles_with_scores,
+            all_quotes=quotes_dict
+        )
 
         # load previous week and calculate trends
         logger.info("Calculating week-over-week trends...")

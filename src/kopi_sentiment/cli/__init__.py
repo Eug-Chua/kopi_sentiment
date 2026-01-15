@@ -80,8 +80,8 @@ def main():
     daily_parser.add_argument(
         "--provider",
         type=str,
-        choices=["openai", "claude"],
-        help="LLM provider to use",
+        choices=["openai", "claude", "hybrid"],
+        help="LLM provider to use (hybrid = OpenAI extraction + Claude synthesis)",
     )
     daily_parser.add_argument(
         "--output",
@@ -106,8 +106,8 @@ def main():
     weekly_parser.add_argument(
         "--provider",
         type=str,
-        choices=["openai", "claude"],
-        help="LLM provider to use",
+        choices=["openai", "claude", "hybrid"],
+        help="LLM provider to use (hybrid = OpenAI extraction + Claude synthesis)",
     )
     weekly_parser.add_argument(
         "--output",
