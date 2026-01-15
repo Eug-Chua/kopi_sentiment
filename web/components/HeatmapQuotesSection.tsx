@@ -80,8 +80,8 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trendingTopi
       )}
 
       <section ref={quotesRef}>
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold font-[family-name:var(--font-space-mono)]">Quotes by Category</h2>
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-2">
+          <h2 className="text-lg sm:text-xl font-semibold font-[family-name:var(--font-space-mono)]">Quotes by Category</h2>
           {filter && (
             <button
               onClick={clearFilter}

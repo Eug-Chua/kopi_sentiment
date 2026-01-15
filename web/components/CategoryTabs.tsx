@@ -69,12 +69,12 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
 
   return (
     <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-      <TabsList className="grid w-full grid-cols-4">
+      <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto gap-1">
         {categories.map((cat) => {
           const filteredData = filterQuotes(cat.data, cat.key);
           const isFiltered = filter && filter.category === cat.key;
           return (
-            <TabsTrigger key={cat.key} value={cat.key}>
+            <TabsTrigger key={cat.key} value={cat.key} className="text-xs sm:text-sm py-2">
               {cat.label} ({isFiltered ? filteredData.length : cat.data.length})
             </TabsTrigger>
           );
