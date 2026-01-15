@@ -39,19 +39,10 @@ function TypewriterText({ text, onComplete }: { text: string; onComplete?: () =>
 
   useEffect(() => {
     if (indexRef.current < text.length) {
-      // Base delay of 30ms, with random pauses
-      const baseDelay = 30;
-      // Add random extra delay (0-80ms), with longer pauses after punctuation
-      const char = text[indexRef.current - 1];
-      const isPunctuation = char && ['.', ',', '!', '?', ';', ':'].includes(char);
-      const randomExtra = Math.random() * 80;
-      const punctuationPause = isPunctuation ? 150 : 0;
-      const delay = baseDelay + randomExtra + punctuationPause;
-
       const timeout = setTimeout(() => {
         setDisplayedText(text.slice(0, indexRef.current + 1));
         indexRef.current += 1;
-      }, delay);
+      }, 15); // Match Vibe Check speed
       return () => clearTimeout(timeout);
     } else if (!isComplete && text.length > 0) {
       setIsComplete(true);
