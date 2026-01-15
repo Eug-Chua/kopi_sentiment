@@ -176,13 +176,15 @@ class BaseAnalyzer:
         week_id: str,
         analyses: list[AnalysisResult],
         all_quotes: dict[str, list[str]],
+        is_daily: bool = False,
     ) -> OverallSentiment:
-        """Step 3: Generate 2-sentence weekly summaries for each FFGA category.
+        """Step 3: Generate 2-sentence summaries for each FFGA category.
 
         Args:
-            week_id: ISO week format (e.g., "2025-W02")
+            week_id: ISO week format (e.g., "2025-W02") or date (e.g., "2025-01-15")
             analyses: List of post analysis results
             all_quotes: Dict with lists of quotes per category
+            is_daily: If True, use daily framing instead of weekly
 
         Returns:
             OverallSentiment with 2-sentence summaries per category
@@ -246,6 +248,7 @@ class BaseAnalyzer:
             sample_frustrations=all_quotes.get("frustrations", [])[:5],
             sample_goals=all_quotes.get("goals", [])[:5],
             sample_aspirations=all_quotes.get("aspirations", [])[:5],
+            is_daily=is_daily,
         )
 
         response = self._call_llm(WEEKLY_SUMMARY_SYSTEM_PROMPT, user_prompt)

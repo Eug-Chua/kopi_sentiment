@@ -208,3 +208,52 @@ class WeeklyReport(BaseModel):
     trends: WeeklyTrends | None = None
     theme_clusters: list[ThemeCluster] = []
     signals: list[Signal] = []
+
+
+# ============================================================================
+# Daily Report Models
+# ============================================================================
+
+class DailyReportMetadata(BaseModel):
+    """Metadata about the daily report generation"""
+    total_posts_analyzed: int
+    total_comments_analyzed: int
+    subreddits: list[str]
+
+
+class DailyTrends(BaseModel):
+    """Trend data comparing current day to previous day"""
+    has_previous_day: bool = False
+    previous_date: date | None = None
+    fears: CategoryTrend | None = None
+    frustrations: CategoryTrend | None = None
+    goals: CategoryTrend | None = None
+    aspirations: CategoryTrend | None = None
+
+
+class DailyInsights(BaseModel):
+    """AI-generated insights for a single day"""
+    headline: str = Field(description="One-line summary of the day's sentiment")
+    key_takeaways: list[str] = Field(description="3-5 bullet points of notable findings")
+    opportunities: list[str] = Field(description="Actionable opportunities identified")
+    risks: list[str] = Field(description="Potential risks or concerns to monitor")
+
+
+class DailyReport(BaseModel):
+    """Complete daily sentiment report"""
+    schema_version: str = "daily_report_v1"
+    date_id: str = Field(description="Date format, e.g., '2025-01-15'")
+    report_date: date
+    generated_at: datetime
+
+    metadata: DailyReportMetadata
+    overall_sentiment: OverallSentiment
+    subreddits: list[SubredditReport]
+    all_quotes: AllQuotes
+    trending_topics: list[TrendingTopic] = []
+
+    # Insights fields
+    insights: DailyInsights | None = None
+    trends: DailyTrends | None = None
+    theme_clusters: list[ThemeCluster] = []
+    signals: list[Signal] = []

@@ -169,7 +169,7 @@ Example output:
 - Frustrations: "Housing affordability continues to dominate frustrations, with HDB resale prices hitting new highs. There is palpable anger at perceived government inaction on cooling measures."
 """
 
-WEEKLY_SUMMARY_USER_PROMPT = """Based on the following analyzed posts from Singapore subreddits for the week of {week_id}, generate 2-sentence summaries for each FFGA category.
+WEEKLY_SUMMARY_USER_PROMPT = """Based on the following analyzed posts from Singapore subreddits for {period_label}, generate 2-sentence summaries for each FFGA category.
 
 **Summary of Analyzed Posts:**
 {post_summaries}
@@ -188,7 +188,7 @@ Aspirations: {sample_aspirations}
 
 ---
 
-Generate a 2-sentence summary for each category that captures the week's sentiment.
+Generate a 2-sentence summary for each category that captures {period_type} sentiment.
 Determine the OVERALL intensity for each category based on the intensity distribution.
 
 Respond in this exact JSON format:
@@ -281,10 +281,20 @@ def build_weekly_summary_prompt(
     sample_frustrations: list[str],
     sample_goals: list[str],
     sample_aspirations: list[str],
+    is_daily: bool = False,
 ) -> str:
-    """Build the weekly summary prompt (Step 3)."""
+    """Build the summary prompt (Step 3). Works for both weekly and daily."""
+    # Use different framing for daily vs weekly
+    if is_daily:
+        period_label = f"today ({week_id})"
+        period_type = "today's"
+    else:
+        period_label = f"the week of {week_id}"
+        period_type = "the week's"
+
     return WEEKLY_SUMMARY_USER_PROMPT.format(
-        week_id=week_id,
+        period_label=period_label,
+        period_type=period_type,
         post_summaries="\n".join(f"- {s}" for s in post_summaries) or "(No posts analyzed)",
         fear_count=fear_count,
         fear_mild=fear_mild,
