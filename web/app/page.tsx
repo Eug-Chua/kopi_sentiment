@@ -1,4 +1,4 @@
-import { WeeklyReport, DailyReport, TrendingTopic } from "@/types";
+import { WeeklyReport, DailyReport } from "@/types";
 import { Dashboard } from "@/components/Dashboard";
 
 async function getWeeklyReport(): Promise<WeeklyReport> {
@@ -10,20 +10,6 @@ async function getWeeklyReport(): Promise<WeeklyReport> {
   const filePath = path.join(process.cwd(), "public/data/weekly/2026-W03.json");
   const data = await fs.readFile(filePath, "utf-8");
   return JSON.parse(data);
-}
-
-async function getPreviousWeekTopics(): Promise<TrendingTopic[]> {
-  const fs = await import("fs/promises");
-  const path = await import("path");
-
-  try {
-    const filePath = path.join(process.cwd(), "public/data/weekly/2026-W02.json");
-    const data = await fs.readFile(filePath, "utf-8");
-    const report = JSON.parse(data) as WeeklyReport;
-    return report.trending_topics || [];
-  } catch {
-    return [];
-  }
 }
 
 async function getLatestDailyReport(): Promise<DailyReport | null> {
@@ -84,11 +70,10 @@ async function getAvailableDates(): Promise<string[]> {
 }
 
 export default async function Page() {
-  const [weeklyReport, dailyReport, availableDates, previousWeekTopics] = await Promise.all([
+  const [weeklyReport, dailyReport, availableDates] = await Promise.all([
     getWeeklyReport(),
     getLatestDailyReport(),
     getAvailableDates(),
-    getPreviousWeekTopics(),
   ]);
 
   return (
@@ -96,7 +81,6 @@ export default async function Page() {
       weeklyReport={weeklyReport}
       dailyReport={dailyReport}
       availableDates={availableDates}
-      previousWeekTopics={previousWeekTopics}
     />
   );
 }

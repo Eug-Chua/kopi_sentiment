@@ -1,21 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { WeeklyReport, DailyReport, ReportMode, TrendingTopic } from "@/types";
+import { WeeklyReport, DailyReport, ReportMode } from "@/types";
 import { ModeToggle } from "./ModeToggle";
-import { InsightsPanel } from "./InsightsPanel";
-import { TrendsDisplay } from "./TrendsDisplay";
 import { HeatmapQuotesSection } from "./HeatmapQuotesSection";
-import { TrendingThemesComparison } from "./TrendingThemesComparison";
 
 interface DashboardProps {
   weeklyReport: WeeklyReport;
   dailyReport: DailyReport | null;
   availableDates: string[];
-  previousWeekTopics: TrendingTopic[];
 }
 
-export function Dashboard({ weeklyReport, dailyReport, previousWeekTopics }: DashboardProps) {
+export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   const [mode, setMode] = useState<ReportMode>("weekly");
 
   // Use the appropriate report based on mode
@@ -54,36 +50,11 @@ export function Dashboard({ weeklyReport, dailyReport, previousWeekTopics }: Das
         </div>
       )}
 
-      {report.insights && !isDaily && (
-        <section className="mb-8">
-          <InsightsPanel
-            insights={report.insights}
-            periodLabel="This Week"
-          />
-        </section>
-      )}
-
-      {/* Trending Themes Comparison - this week vs last week */}
-      <section className="mb-8">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold font-[family-name:var(--font-space-mono)]">
-            Trending Themes
-          </h2>
-          {report.trends && <TrendsDisplay trends={report.trends} />}
-        </div>
-        <TrendingThemesComparison
-          currentTopics={report.trending_topics}
-          previousTopics={isDaily ? [] : previousWeekTopics}
-          currentLabel={isDaily ? "Today" : `This Week (${weeklyReport.week_id})`}
-          previousLabel={isDaily ? "Yesterday" : "Last Week (W02)"}
-        />
-      </section>
-
       <HeatmapQuotesSection
         sentiment={report.overall_sentiment}
         quotes={report.all_quotes}
         hotPosts={allTopPosts}
-        trends={report.trends}
+        trendingTopics={report.trending_topics}
         signals={report.signals}
       />
 
