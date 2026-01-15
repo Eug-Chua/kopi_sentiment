@@ -35,9 +35,13 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
     }
   }, [filter]);
 
-  // Sort quotes by score (highest first)
+  // Sort quotes by score (highest first), preferring comment_score when present
   const sortByScore = (quoteList: QuoteWithMetadata[]) => {
-    return [...quoteList].sort((a, b) => b.score - a.score);
+    return [...quoteList].sort((a, b) => {
+      const scoreA = a.comment_score ?? a.score;
+      const scoreB = b.comment_score ?? b.score;
+      return scoreB - scoreA;
+    });
   };
 
   // Filter quotes by intensity if filter is active
