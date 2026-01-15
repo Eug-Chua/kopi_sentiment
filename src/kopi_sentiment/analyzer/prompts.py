@@ -224,11 +224,12 @@ TRENDING_TOPICS_SYSTEM_PROMPT = """You are an expert at identifying trending top
 Your task is to identify the 5 most prominent topics being discussed across multiple Reddit posts from Singapore subreddits.
 
 Guidelines:
-1. Identify specific, concrete topics (e.g., "HDB Resale Prices", "AI Job Displacement", "COE Prices")
-2. Do NOT use generic topics like "economy" or "politics" - be specific
-3. Count approximate mentions across all posts
-4. Identify which FFGA category each topic primarily falls into
-5. Assess if sentiment is improving, stable, or worsening compared to typical discussions
+1. Topic names MUST be descriptive and specific (5-8 words), capturing the essence of the discussion
+2. Do NOT use generic topics like "economy", "politics", "jobs" - be specific about WHAT aspect
+3. Weight topics by upvotes - a topic from a [+500] post is more significant than one from a [+20] post
+4. For "mentions", use the sum of upvotes from posts discussing that topic (not raw post count)
+5. Identify which FFGA category each topic primarily falls into
+6. Assess if sentiment is improving, stable, or worsening compared to typical discussions
 
 Consider Singapore-specific topics:
 - Housing: HDB, BTO, resale, rental
@@ -468,6 +469,7 @@ Guidelines:
 3. Explain WHY each signal matters
 4. Be specific about the signal, not generic
 5. Use measured, factual language - avoid alarmist phrasing like "critical levels", "alarming", "crisis", "explosive". Instead use precise descriptions like "increased by 40%", "notably higher than last week", "unusually concentrated in strong intensity".
+6. IMPORTANT: For each signal, you MUST include 1-2 relevant quotes from the High-Engagement Quotes section in the related_quotes array. These quotes should illustrate or support the signal. Do NOT leave related_quotes empty.
 """
 
 SIGNAL_DETECTION_USER_PROMPT = """Detect notable signals in this week's sentiment data.
