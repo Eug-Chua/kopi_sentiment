@@ -467,6 +467,7 @@ Guidelines:
 2. Assign appropriate urgency (low/medium/high)
 3. Explain WHY each signal matters
 4. Be specific about the signal, not generic
+5. Use measured, factual language - avoid alarmist phrasing like "critical levels", "alarming", "crisis", "explosive". Instead use precise descriptions like "increased by 40%", "notably higher than last week", "unusually concentrated in strong intensity".
 """
 
 SIGNAL_DETECTION_USER_PROMPT = """Detect notable signals in this week's sentiment data.
