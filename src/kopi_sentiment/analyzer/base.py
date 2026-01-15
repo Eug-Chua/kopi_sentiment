@@ -7,6 +7,7 @@ from kopi_sentiment.analyzer.models import (
     Intensity,
     FFGACategory,
     FFGAResult,
+    ExtractedQuote,
     AnalysisResult,
     CategorySummary,
     OverallSentiment,
@@ -49,7 +50,7 @@ class BaseAnalyzer:
         """
         pass
 
-    def _extract_quotes(self, post: RedditPost) -> dict[str, list[str]]:
+    def _extract_quotes(self, post: RedditPost) -> dict[str, list[ExtractedQuote]]:
         """Step 1: Extract and categorize quotes from post."""
         user_prompt = build_extract_prompt(
             title=post.title,
@@ -62,20 +63,37 @@ class BaseAnalyzer:
         response = self._clean_json_response(response)
 
         try:
-            return json.loads(response)
+            raw_data = json.loads(response)
+            # Convert to ExtractedQuote objects, handling both old (string) and new (dict) formats
+            result = {}
+            for key in ["fears", "frustrations", "goals", "aspirations"]:
+                quotes = []
+                for item in raw_data.get(key, []):
+                    if isinstance(item, str):
+                        # Old format: just a string
+                        quotes.append(ExtractedQuote(quote=item, score=0))
+                    elif isinstance(item, dict):
+                        # New format: {"quote": "...", "score": N}
+                        quotes.append(ExtractedQuote(
+                            quote=item.get("quote", ""),
+                            score=item.get("score", 0)
+                        ))
+                result[key] = quotes
+            return result
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse extraction response: {e}")
             return {"fears": [], "frustrations": [], "goals": [], "aspirations": []}
 
 
-    def _assess_intensity(self, title: str, quotes: dict[str, list[str]]) -> dict:
+    def _assess_intensity(self, title: str, quotes: dict[str, list[ExtractedQuote]]) -> dict:
         """Step 2: Assess intensity for categorized quotes."""
+        # Extract just the quote text for intensity assessment
         user_prompt = build_intensity_prompt(
             title=title,
-            fears=quotes.get("fears", []),
-            frustrations=quotes.get("frustrations", []),
-            goals=quotes.get("goals", []),
-            aspirations=quotes.get("aspirations", []),
+            fears=[q.quote for q in quotes.get("fears", [])],
+            frustrations=[q.quote for q in quotes.get("frustrations", [])],
+            goals=[q.quote for q in quotes.get("goals", [])],
+            aspirations=[q.quote for q in quotes.get("aspirations", [])],
         )
 
         response = self._call_llm(INTENSITY_SYSTEM_PROMPT, user_prompt)
@@ -107,7 +125,7 @@ class BaseAnalyzer:
     def _build_ffga_result(self,
                            category: FFGACategory,
                            key: str,
-                           quotes: dict,
+                           quotes: dict[str, list[ExtractedQuote]],
                            intensity_data: dict) -> FFGAResult:
         """Build a single FFGA result"""
 
@@ -120,7 +138,7 @@ class BaseAnalyzer:
 
     def _build_analysis_result(self,
                                post: RedditPost,
-                               quotes: dict,
+                               quotes: dict[str, list[ExtractedQuote]],
                                intensity_data: dict) -> AnalysisResult:
         """Build the complete analysis result"""
         fears = self._build_ffga_result(FFGACategory.FEAR, "fears", quotes, intensity_data)

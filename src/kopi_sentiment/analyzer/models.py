@@ -19,12 +19,18 @@ class FFGACategory(str, Enum):
     GOAL = "goal"
     ASPIRATION = "aspiration"
 
+class ExtractedQuote(BaseModel):
+    """A quote extracted by the LLM with its comment score"""
+    quote: str
+    score: int = 0  # Comment upvote score
+
+
 class FFGAResult(BaseModel):
     """Result for a single FFGA category"""
     category: FFGACategory
     intensity: Intensity
     summary: str
-    quotes: list[str] = []
+    quotes: list[ExtractedQuote] = []
 
 class AnalysisResult(BaseModel):
     """Complete FFGA analysis for a post"""
@@ -46,7 +52,8 @@ class QuoteWithMetadata(BaseModel):
     post_id: str
     post_title: str
     subreddit: str
-    score: int
+    score: int  # Post score (for backwards compatibility)
+    comment_score: int = 0  # Comment upvote score
     intensity: Intensity
 
 

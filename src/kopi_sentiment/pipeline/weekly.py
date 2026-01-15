@@ -135,13 +135,14 @@ class WeeklyPipeline:
 
     def _add_quotes(self, post_analysis, report, category_result, target_list):
         """Helper function to add quotes with metadata"""
-        for quote_text in category_result.quotes:
+        for extracted_quote in category_result.quotes:
             quote = QuoteWithMetadata(
-                text=quote_text,
+                text=extracted_quote.quote,
                 post_id=post_analysis.id,
                 post_title=post_analysis.title,
                 subreddit=report.name,
                 score=post_analysis.score,
+                comment_score=extracted_quote.score,
                 intensity=category_result.intensity)
             target_list.append(quote)
 

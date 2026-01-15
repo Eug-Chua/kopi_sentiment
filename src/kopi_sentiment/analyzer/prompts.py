@@ -41,12 +41,13 @@ Extract quotes VERBATIM - do not paraphrase or modify them.
 
 Respond in this exact JSON format:
 {{
-    "fears": ["<verbatim quote 1>", "<verbatim quote 2>"],
-    "frustrations": ["<verbatim quote 1>", "<verbatim quote 2>"],
-    "goals": ["<verbatim quote 1>", "<verbatim quote 2>"],
-    "aspirations": ["<verbatim quote 1>", "<verbatim quote 2>"]
+    "fears": [{{"quote": "<verbatim quote 1>", "score": <upvote_score>}}, {{"quote": "<verbatim quote 2>", "score": <upvote_score>}}],
+    "frustrations": [{{"quote": "<verbatim quote 1>", "score": <upvote_score>}}, {{"quote": "<verbatim quote 2>", "score": <upvote_score>}}],
+    "goals": [{{"quote": "<verbatim quote 1>", "score": <upvote_score>}}, {{"quote": "<verbatim quote 2>", "score": <upvote_score>}}],
+    "aspirations": [{{"quote": "<verbatim quote 1>", "score": <upvote_score>}}, {{"quote": "<verbatim quote 2>", "score": <upvote_score>}}]
 }}
 
+Each quote object must include the "score" field with the upvote score shown in the original comment (e.g., [+15] means score: 15).
 If a category has no relevant quotes, use an empty list: "fears": []
 
 Return ONLY valid JSON, no other text.
