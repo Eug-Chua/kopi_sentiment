@@ -9,7 +9,8 @@ export interface QuoteWithMetadata {
   post_id: string;
   post_title: string;
   subreddit: string;
-  score: number;
+  score: number;  // Post score (for backwards compatibility)
+  comment_score?: number;  // Comment upvote score
   intensity: Intensity;
 }
 
