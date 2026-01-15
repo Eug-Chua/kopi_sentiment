@@ -5,8 +5,6 @@ import { WeeklyReport, DailyReport, ReportMode, TrendingTopic } from "@/types";
 import { ModeToggle } from "./ModeToggle";
 import { InsightsPanel } from "./InsightsPanel";
 import { TrendsDisplay } from "./TrendsDisplay";
-import { SignalsPanel } from "./SignalsPanel";
-import { ThemeClusters } from "./ThemeClusters";
 import { HeatmapQuotesSection } from "./HeatmapQuotesSection";
 import { TrendingThemesComparison } from "./TrendingThemesComparison";
 
@@ -56,11 +54,11 @@ export function Dashboard({ weeklyReport, dailyReport, previousWeekTopics }: Das
         </div>
       )}
 
-      {report.insights && (
+      {report.insights && !isDaily && (
         <section className="mb-8">
           <InsightsPanel
             insights={report.insights}
-            periodLabel={isDaily ? "Today" : "This Week"}
+            periodLabel="This Week"
           />
         </section>
       )}
@@ -81,29 +79,14 @@ export function Dashboard({ weeklyReport, dailyReport, previousWeekTopics }: Das
         />
       </section>
 
-      {report.signals && report.signals.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">
-            Notable Signals
-          </h2>
-          <SignalsPanel signals={report.signals} />
-        </section>
-      )}
-
       <HeatmapQuotesSection
         sentiment={report.overall_sentiment}
         quotes={report.all_quotes}
         hotPosts={allTopPosts}
+        trends={report.trends}
+        signals={report.signals}
       />
 
-      {report.theme_clusters && report.theme_clusters.length > 0 && (
-        <section className="mb-8 mt-8">
-          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">
-            Theme Clusters
-          </h2>
-          <ThemeClusters clusters={report.theme_clusters} />
-        </section>
-      )}
     </main>
   );
 }
