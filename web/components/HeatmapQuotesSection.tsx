@@ -1,30 +1,32 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { OverallSentiment, AllQuotes, Intensity } from "@/types";
+import { OverallSentiment, AllQuotes, Intensity, PostAnalysis } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
-import { TrendingTopics } from "./TrendingTopics";
+import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
+import { TrendingTopics } from "./TrendingTopics";
 import { TrendingTopic } from "@/types";
 
 type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
 export interface QuoteFilter {
   category: CategoryKey;
-  intensity: Intensity;
+  intensity?: Intensity; // Optional - if undefined, show all intensities for category
 }
 
 interface HeatmapQuotesSectionProps {
   sentiment: OverallSentiment;
   topics: TrendingTopic[];
   quotes: AllQuotes;
+  hotPosts: PostAnalysis[];
 }
 
-export function HeatmapQuotesSection({ sentiment, topics, quotes }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, topics, quotes, hotPosts }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
-  const handleCellClick = (category: CategoryKey, intensity: Intensity) => {
+  const handleCellClick = (category: CategoryKey, intensity?: Intensity) => {
     setFilter({ category, intensity });
     // Scroll to quotes section
     setTimeout(() => {
@@ -36,19 +38,31 @@ export function HeatmapQuotesSection({ sentiment, topics, quotes }: HeatmapQuote
     setFilter(null);
   };
 
+  const getFilterLabel = () => {
+    if (!filter) return "";
+    if (filter.intensity) {
+      return `${filter.category} / ${filter.intensity}`;
+    }
+    return `${filter.category} (all)`;
+  };
+
   return (
     <>
-      <section className="mb-8">
-        <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4">
-          <div>
-            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Intensity Heatmap</h2>
-            <IntensityHeatmap sentiment={sentiment} onCellClick={handleCellClick} />
+      <section className="mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr] gap-4 items-stretch">
+          <div className="flex flex-col">
+            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Emotional Heatmap</h2>
+            <IntensityHeatmap sentiment={sentiment} onCellClick={handleCellClick} className="flex-1" />
           </div>
-          <div>
-            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Trending Topics</h2>
-            <TrendingTopics topics={topics} />
+          <div className="flex flex-col">
+            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Trending Themes</h2>
+            <TrendingTopics topics={topics} className="flex-1" />
           </div>
         </div>
+      </section>
+
+      <section className="mb-8">
+        <HotPostsTicker posts={hotPosts} />
       </section>
 
       <section ref={quotesRef}>
@@ -59,7 +73,7 @@ export function HeatmapQuotesSection({ sentiment, topics, quotes }: HeatmapQuote
               onClick={clearFilter}
               className="text-sm text-zinc-400 hover:text-white flex items-center gap-1 transition-colors"
             >
-              <span className="text-xs">Filtering: {filter.category} / {filter.intensity}</span>
+              <span className="text-xs">Filtering: {getFilterLabel()}</span>
               <span className="ml-1">×</span>
             </button>
           )}

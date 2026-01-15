@@ -20,6 +20,11 @@ async function getWeeklyReport(): Promise<WeeklyReport> {
 export default async function Dashboard() {
   const report = await getWeeklyReport();
 
+  // Collect all top posts from all subreddits and sort by score
+  const allTopPosts = report.subreddits
+    .flatMap((sub) => sub.top_posts)
+    .sort((a, b) => b.score - a.score);
+
   return (
     <main className="container mx-auto p-6 max-w-4xl">
       <h1 className="text-3xl font-bold mb-2 font-[family-name:var(--font-space-mono)]">Kopi Sentiment</h1>
@@ -29,6 +34,11 @@ export default async function Dashboard() {
 
       <section className="mb-8">
         <InsightsPanel insights={report.insights} />
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Weekly Summary</h2>
+        <SentimentSummary sentiment={report.overall_sentiment} />
       </section>
 
       <section className="mb-8">
@@ -47,15 +57,11 @@ export default async function Dashboard() {
         sentiment={report.overall_sentiment}
         topics={report.trending_topics}
         quotes={report.all_quotes}
+        hotPosts={allTopPosts}
       />
 
-      <section className="mb-8 mt-8">
-        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Weekly Summary</h2>
-        <SentimentSummary sentiment={report.overall_sentiment} />
-      </section>
-
       {report.theme_clusters && report.theme_clusters.length > 0 && (
-        <section className="mb-8">
+        <section className="mb-8 mt-8">
           <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Theme Clusters</h2>
           <ThemeClusters clusters={report.theme_clusters} />
         </section>
