@@ -67,7 +67,7 @@ export function HeatmapQuotesSection({ sentiment, topics, quotes, hotPosts }: He
       </section>
 
       <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Weekly Insights</h2>
+        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Vibe Check</h2>
         <InteractiveSummary sentiment={sentiment} />
       </section>
 
