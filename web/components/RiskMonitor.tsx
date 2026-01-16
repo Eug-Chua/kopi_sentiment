@@ -103,7 +103,7 @@ export function RiskMonitor({ signals }: RiskMonitorProps) {
             onClick={handleAnalyze}
             className="px-5 py-2 rounded-full text-sm font-medium transition-all bg-zinc-700 text-white hover:bg-zinc-600 cursor-pointer"
           >
-            Analyze
+            Read the Room
           </button>
         </div>
       ) : (
