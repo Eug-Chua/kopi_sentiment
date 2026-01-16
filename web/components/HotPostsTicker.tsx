@@ -51,7 +51,7 @@ export function HotPostsTicker({ posts }: HotPostsTickerProps) {
         }
         .ticker-content {
           display: flex;
-          animation: ticker 40s linear infinite;
+          animation: ticker 80s linear infinite;
           white-space: nowrap;
           padding: 8px 0;
         }
