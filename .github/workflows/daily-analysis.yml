@@ -2,8 +2,8 @@ name: Daily Sentiment Analysis
 
 on:
   schedule:
-    # Run at 5pm SGT (9am UTC) every day
-    - cron: '0 9 * * *'
+    # Run at 11:30am SGT (3:30am UTC) every day
+    - cron: '30 3 * * *'
   workflow_dispatch:
     # Allow manual trigger
     inputs:
