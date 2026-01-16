@@ -37,7 +37,12 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
         <h1 className="text-3xl font-bold font-[family-name:var(--font-space-mono)]">
           Kopi Sentiment
         </h1>
-        <ModeToggle mode={mode} onModeChange={setMode} />
+        <div className="flex items-center gap-4">
+          <a href="/about" className="text-white-500 hover:text-gray-300 text-sm">
+            About
+          </a>
+          <ModeToggle mode={mode} onModeChange={setMode} />
+        </div>
       </div>
 
       <p className="text-gray-500 mb-6">{getPeriodLabel()}</p>
