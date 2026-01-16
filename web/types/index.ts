@@ -52,11 +52,11 @@ export interface AllQuotes {
   aspirations: QuoteWithMetadata[];
 }
 
-export interface TrendingTopic {
+export interface ThematicCluster {
   topic: string;
-  mentions: number;
+  engagement_score: number;  // Sum of upvotes from related posts
   dominant_emotion: FFGACategory;
-  sentiment_shift: "improving" | "stable" | "worsening";
+  sample_posts: string[];  // Representative post titles (max 3)
 }
 
 export interface CategorySentiment {
@@ -143,8 +143,8 @@ export interface WeeklyReport {
   overall_sentiment: OverallSentiment;
   subreddits: SubredditReport[];
   all_quotes: AllQuotes;
-  trending_topics: TrendingTopic[];
-  // New fields for enhanced insights
+  thematic_clusters?: ThematicCluster[];
+  // Enhanced insights
   insights: WeeklyInsights | null;
   trends: WeeklyTrends | null;
   theme_clusters: ThemeCluster[];
@@ -186,7 +186,8 @@ export interface DailyReport {
   overall_sentiment: OverallSentiment;
   subreddits: SubredditReport[];
   all_quotes: AllQuotes;
-  trending_topics: TrendingTopic[];
+  thematic_clusters?: ThematicCluster[];
+  // Insights
   insights: DailyInsights | null;
   trends: DailyTrends | null;
   theme_clusters: ThemeCluster[];

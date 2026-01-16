@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, Signal, TrendingTopic } from "@/types";
+import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, Signal, ThematicCluster } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
@@ -13,18 +13,18 @@ type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
 export interface QuoteFilter {
   category: CategoryKey;
-  intensity?: Intensity; // Optional - if undefined, show all intensities for category
+  intensity?: Intensity;
 }
 
 interface HeatmapQuotesSectionProps {
   sentiment: OverallSentiment;
   quotes: AllQuotes;
   hotPosts: PostAnalysis[];
-  trendingTopics: TrendingTopic[];
+  thematicClusters?: ThematicCluster[];
   signals?: Signal[];
 }
 
-export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trendingTopics, signals }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClusters, signals }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
@@ -58,7 +58,7 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, trendingTopi
           </div>
           <div className="flex flex-col">
             <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Thematic Clusters</h2>
-            <TrendingThemes topics={trendingTopics} />
+            <TrendingThemes clusters={thematicClusters} />
           </div>
         </div>
       </section>

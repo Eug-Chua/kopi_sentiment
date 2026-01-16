@@ -343,8 +343,8 @@ class DailyPipeline:
             is_daily=True,  # Use daily framing for the prompt
         )
 
-        # Detect trending topics
-        logger.info("Detecting trending topics...")
+        # Detect thematic clusters (what people are discussing)
+        logger.info("Detecting thematic clusters...")
         # Include scores with titles so LLM can weight by popularity
         post_titles_with_scores = [
             f"[+{post.score}] {post.title}"
@@ -352,7 +352,7 @@ class DailyPipeline:
             for post in report.top_posts
         ]
 
-        trending_topics = self.analyzer.detect_trending_topics(
+        thematic_clusters = self.analyzer.detect_thematic_clusters(
             post_titles=post_titles_with_scores, all_quotes=quotes_dict
         )
 
@@ -364,7 +364,7 @@ class DailyPipeline:
 
         # Get high engagement quotes
         high_engagement_quotes = self._get_high_engagement_quotes(all_quotes)
-        trending_topic_names = [t.topic for t in trending_topics]
+        thematic_cluster_names = [t.topic for t in thematic_clusters]
 
         # Generate daily insights
         logger.info("Generating daily insights...")
@@ -373,7 +373,7 @@ class DailyPipeline:
             overall_sentiment=overall_sentiment,
             trend_summary=trend_summary,
             high_engagement_quotes=high_engagement_quotes,
-            trending_topics=trending_topic_names,
+            trending_topics=thematic_cluster_names,  # Pass cluster names for insights
         )
 
         # Convert to DailyInsights
@@ -396,7 +396,7 @@ class DailyPipeline:
             intensity_counts=intensity_counts,
             previous_week_comparison=previous_day_comparison,
             high_engagement_quotes=high_engagement_quotes,
-            trending_topics=trending_topic_names,
+            trending_topics=thematic_cluster_names,  # Pass cluster names for signals
         )
 
         # Build final report
@@ -412,7 +412,7 @@ class DailyPipeline:
             overall_sentiment=overall_sentiment,
             subreddits=subreddit_reports,
             all_quotes=all_quotes,
-            trending_topics=trending_topics,
+            thematic_clusters=thematic_clusters,
             insights=insights,
             trends=trends,
             theme_clusters=theme_clusters,

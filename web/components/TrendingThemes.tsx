@@ -1,9 +1,9 @@
 "use client";
 
-import { TrendingTopic, FFGACategory } from "@/types";
+import { ThematicCluster, FFGACategory } from "@/types";
 
 interface TrendingThemesProps {
-  topics: TrendingTopic[];
+  clusters?: ThematicCluster[];
 }
 
 function getCategoryColor(category: FFGACategory): string {
@@ -16,12 +16,20 @@ function getCategoryColor(category: FFGACategory): string {
   }
 }
 
+function formatEngagement(value: number): string {
+  if (value >= 1000) {
+    return `${(value / 1000).toFixed(1)}k`;
+  }
+  return value.toString();
+}
 
-export function TrendingThemes({ topics }: TrendingThemesProps) {
-  if (!topics || topics.length === 0) {
+export function TrendingThemes({ clusters }: TrendingThemesProps) {
+  const items = clusters || [];
+
+  if (!items || items.length === 0) {
     return (
       <div className="bg-zinc-900/50 rounded-lg p-4 border border-zinc-800 h-full">
-        <div className="text-sm text-zinc-500 italic">No trending topics</div>
+        <div className="text-sm text-zinc-500 italic">No thematic clusters</div>
       </div>
     );
   }
@@ -29,20 +37,20 @@ export function TrendingThemes({ topics }: TrendingThemesProps) {
   return (
     <div className="bg-zinc-900/50 rounded-lg p-4 border border-zinc-800 h-full">
       <div className="space-y-2">
-        {topics.slice(0, 5).map((topic, i) => (
+        {items.slice(0, 5).map((item, i) => (
           <div key={i} className="flex items-start gap-2">
             <span className="text-zinc-600 text-sm font-medium w-4 flex-shrink-0">{i + 1}</span>
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 mb-0.5">
-                <span className="text-sm text-white font-medium truncate" title={topic.topic}>
-                  {topic.topic}
+                <span className="text-sm text-white font-medium truncate" title={item.topic}>
+                  {item.topic}
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                <span className={`text-xs px-1.5 py-0.5 rounded border ${getCategoryColor(topic.dominant_emotion)}`}>
-                  {topic.dominant_emotion}
+                <span className={`text-xs px-1.5 py-0.5 rounded border ${getCategoryColor(item.dominant_emotion)}`}>
+                  {item.dominant_emotion}
                 </span>
-                <span className="text-xs text-zinc-500">{topic.mentions}</span>
+                <span className="text-xs text-zinc-500">↑{formatEngagement(item.engagement_score)}</span>
               </div>
             </div>
           </div>

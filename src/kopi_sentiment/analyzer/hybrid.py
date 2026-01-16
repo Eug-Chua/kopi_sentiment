@@ -7,7 +7,7 @@ from openai import OpenAI
 from kopi_sentiment.analyzer.base import BaseAnalyzer
 from kopi_sentiment.analyzer.openai import OpenAIAnalyzer
 from kopi_sentiment.config.settings import settings
-from kopi_sentiment.analyzer.models import OverallSentiment, Signal
+from kopi_sentiment.analyzer.models import OverallSentiment, Signal, ThematicCluster
 from kopi_sentiment.analyzer.prompts import (
     WEEKLY_SUMMARY_SYSTEM_PROMPT,
     SIGNAL_DETECTION_SYSTEM_PROMPT,
@@ -74,6 +74,22 @@ class HybridAnalyzer(OpenAIAnalyzer):
         try:
             result = super().detect_signals(*args, **kwargs)
             logger.info("Signal detection completed using Claude")
+            return result
+        finally:
+            # Restore original
+            self._call_llm = original_call_llm
+
+    def detect_thematic_clusters(self, *args, **kwargs) -> list[ThematicCluster]:
+        """Override to use Claude for thematic cluster detection."""
+        # Store original _call_llm
+        original_call_llm = self._call_llm
+
+        # Temporarily replace with Claude
+        self._call_llm = self._call_claude
+
+        try:
+            result = super().detect_thematic_clusters(*args, **kwargs)
+            logger.info("Thematic clusters detected using Claude")
             return result
         finally:
             # Restore original

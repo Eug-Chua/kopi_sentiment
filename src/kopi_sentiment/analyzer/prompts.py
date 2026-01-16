@@ -216,20 +216,20 @@ Return ONLY valid JSON, no other text.
 
 
 # ============================================================
-# STEP 4: Trending Topics Detection
+# STEP 4: Thematic Cluster Detection (formerly Trending Topics)
 # ============================================================
 
-TRENDING_TOPICS_SYSTEM_PROMPT = """You are an expert at identifying trending topics and themes from social media discussions.
+THEMATIC_CLUSTERS_SYSTEM_PROMPT = """You are an expert at identifying discussion themes from social media conversations.
 
-Your task is to identify the 5 most prominent topics being discussed across multiple Reddit posts from Singapore subreddits.
+Your task is to identify the 5 most prominent topics being discussed across multiple Reddit posts from Singapore subreddits. This is NOT about what's "trending" or changing - it's about understanding WHAT people are talking about right now.
 
 Guidelines:
 1. Topic names MUST be descriptive and specific (5-8 words), capturing the essence of the discussion
 2. Do NOT use generic topics like "economy", "politics", "jobs" - be specific about WHAT aspect
-3. Weight topics by upvotes - a topic from a [+500] post is more significant than one from a [+20] post
-4. For "mentions", use the sum of upvotes from posts discussing that topic (not raw post count)
-5. Identify which FFGA category each topic primarily falls into
-6. Assess if sentiment is improving, stable, or worsening compared to typical discussions
+3. Weight topics by upvotes - a topic from a [+500] post carries more community interest than one from a [+20] post
+4. For "engagement_score", calculate the sum of upvotes from posts discussing that topic
+5. Identify which FFGA category each topic primarily falls into (based on how people are discussing it)
+6. Include 1-3 representative post titles that exemplify each topic
 
 Consider Singapore-specific topics:
 - Housing: HDB, BTO, resale, rental
@@ -239,9 +239,9 @@ Consider Singapore-specific topics:
 - Work: jobs, salaries, WFH, retrenchment
 """
 
-TRENDING_TOPICS_USER_PROMPT = """Identify the top 5 trending topics from this week's Singapore Reddit discussions.
+THEMATIC_CLUSTERS_USER_PROMPT = """Identify the top 5 discussion topics from Singapore Reddit.
 
-**Posts Analyzed:**
+**Posts Analyzed (format: [+upvotes] title):**
 {post_titles}
 
 **Sample Quotes by Category:**
@@ -252,16 +252,16 @@ Aspirations: {sample_aspirations}
 
 ---
 
-Identify the 5 most prominent topics being discussed.
+Identify the 5 most prominent topics being discussed. For engagement_score, sum the upvotes from posts related to each topic.
 
 Respond in this exact JSON format:
 {{
-    "trending_topics": [
+    "thematic_clusters": [
         {{
-            "topic": "<specific topic name>",
-            "mentions": <approximate count>,
+            "topic": "<specific topic name 5-8 words>",
+            "engagement_score": <sum of upvotes from related posts>,
             "dominant_emotion": "<fear|frustration|goal|aspiration>",
-            "sentiment_shift": "<improving|stable|worsening>"
+            "sample_posts": ["<post title 1>", "<post title 2>"]
         }},
         ...
     ]
@@ -320,15 +320,15 @@ def build_weekly_summary_prompt(
     )
 
 
-def build_trending_topics_prompt(
+def build_thematic_clusters_prompt(
     post_titles: list[str],
     sample_fears: list[str],
     sample_frustrations: list[str],
     sample_goals: list[str],
     sample_aspirations: list[str],
 ) -> str:
-    """Build the trending topics detection prompt (Step 4)."""
-    return TRENDING_TOPICS_USER_PROMPT.format(
+    """Build the thematic clusters detection prompt (Step 4)."""
+    return THEMATIC_CLUSTERS_USER_PROMPT.format(
         post_titles="\n".join(f"- {t}" for t in post_titles) or "(No posts)",
         sample_fears=sample_fears[:10] if sample_fears else ["(none)"],
         sample_frustrations=sample_frustrations[:10] if sample_frustrations else ["(none)"],

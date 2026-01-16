@@ -54,7 +54,7 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
         sentiment={report.overall_sentiment}
         quotes={report.all_quotes}
         hotPosts={allTopPosts}
-        trendingTopics={report.trending_topics}
+        thematicClusters={report.thematic_clusters}
         signals={report.signals}
       />
 

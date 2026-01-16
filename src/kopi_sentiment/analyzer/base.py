@@ -12,7 +12,7 @@ from kopi_sentiment.analyzer.models import (
     CategorySummary,
     OverallSentiment,
     IntensityBreakdown,
-    TrendingTopic,
+    ThematicCluster,
     WeeklyInsights,
     ThemeCluster,
     Signal,
@@ -22,14 +22,14 @@ from kopi_sentiment.analyzer.prompts import (
     EXTRACT_SYSTEM_PROMPT,
     INTENSITY_SYSTEM_PROMPT,
     WEEKLY_SUMMARY_SYSTEM_PROMPT,
-    TRENDING_TOPICS_SYSTEM_PROMPT,
+    THEMATIC_CLUSTERS_SYSTEM_PROMPT,
     WEEKLY_INSIGHTS_SYSTEM_PROMPT,
     THEME_CLUSTERING_SYSTEM_PROMPT,
     SIGNAL_DETECTION_SYSTEM_PROMPT,
     build_extract_prompt,
     build_intensity_prompt,
     build_weekly_summary_prompt,
-    build_trending_topics_prompt,
+    build_thematic_clusters_prompt,
     build_weekly_insights_prompt,
     build_theme_clustering_prompt,
     build_signal_detection_prompt,
@@ -282,21 +282,23 @@ class BaseAnalyzer:
             aspirations=build_category_summary("aspirations"),
         )
 
-    def detect_trending_topics(
+    def detect_thematic_clusters(
         self,
         post_titles: list[str],
         all_quotes: dict[str, list[str]],
-    ) -> list[TrendingTopic]:
-        """Step 4: Detect trending topics across all analyzed posts.
+    ) -> list[ThematicCluster]:
+        """Step 4: Detect thematic clusters (what people are discussing).
+
+        Identifies the main topics being discussed, weighted by engagement.
 
         Args:
-            post_titles: List of post titles analyzed
+            post_titles: List of post titles with scores (e.g., "[+500] Title")
             all_quotes: Dict with lists of quotes per category
 
         Returns:
-            List of TrendingTopic objects
+            List of ThematicCluster objects
         """
-        user_prompt = build_trending_topics_prompt(
+        user_prompt = build_thematic_clusters_prompt(
             post_titles=post_titles,
             sample_fears=all_quotes.get("fears", [])[:10],
             sample_frustrations=all_quotes.get("frustrations", [])[:10],
@@ -304,28 +306,28 @@ class BaseAnalyzer:
             sample_aspirations=all_quotes.get("aspirations", [])[:10],
         )
 
-        response = self._call_llm(TRENDING_TOPICS_SYSTEM_PROMPT, user_prompt)
+        response = self._call_llm(THEMATIC_CLUSTERS_SYSTEM_PROMPT, user_prompt)
         response = self._clean_json_response(response)
 
         try:
             data = json.loads(response)
         except json.JSONDecodeError as e:
-            logger.error(f"Failed to parse trending topics response: {e}")
+            logger.error(f"Failed to parse thematic clusters response: {e}")
             return []
 
-        topics = []
-        for topic_data in data.get("trending_topics", []):
+        clusters = []
+        for cluster_data in data.get("thematic_clusters", []):
             try:
-                topics.append(TrendingTopic(
-                    topic=topic_data["topic"],
-                    mentions=topic_data["mentions"],
-                    dominant_emotion=FFGACategory(topic_data["dominant_emotion"]),
-                    sentiment_shift=topic_data["sentiment_shift"],
+                clusters.append(ThematicCluster(
+                    topic=cluster_data["topic"],
+                    engagement_score=cluster_data.get("engagement_score", 0),
+                    dominant_emotion=FFGACategory(cluster_data["dominant_emotion"]),
+                    sample_posts=cluster_data.get("sample_posts", [])[:3],
                 ))
             except (KeyError, ValueError) as e:
-                logger.warning(f"Skipping invalid trending topic: {e}")
+                logger.warning(f"Skipping invalid thematic cluster: {e}")
 
-        return topics
+        return clusters
 
     def generate_weekly_insights(
         self,

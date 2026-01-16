@@ -299,8 +299,8 @@ class WeeklyPipeline:
             all_quotes=quotes_dict
         )
 
-        # detect trending topics
-        logger.info("Detecting trending topics...")
+        # detect thematic clusters (what people are discussing)
+        logger.info("Detecting thematic clusters...")
         # Include scores with titles so LLM can weight by popularity
         post_titles_with_scores = [
             f"[+{post.score}] {post.title}"
@@ -308,7 +308,7 @@ class WeeklyPipeline:
             for post in report.top_posts
         ]
 
-        trending_topics = self.analyzer.detect_trending_topics(
+        thematic_clusters = self.analyzer.detect_thematic_clusters(
             post_titles=post_titles_with_scores,
             all_quotes=quotes_dict
         )
@@ -321,7 +321,7 @@ class WeeklyPipeline:
 
         # get high engagement quotes
         high_engagement_quotes = self._get_high_engagement_quotes(all_quotes)
-        trending_topic_names = [t.topic for t in trending_topics]
+        thematic_cluster_names = [t.topic for t in thematic_clusters]
 
         # generate weekly insights
         logger.info("Generating weekly insights...")
@@ -330,7 +330,7 @@ class WeeklyPipeline:
             overall_sentiment=overall_sentiment,
             trend_summary=trend_summary,
             high_engagement_quotes=high_engagement_quotes,
-            trending_topics=trending_topic_names,
+            trending_topics=thematic_cluster_names,  # Pass cluster names for insights
         )
 
         # cluster themes
@@ -345,7 +345,7 @@ class WeeklyPipeline:
             intensity_counts=intensity_counts,
             previous_week_comparison=previous_week_comparison,
             high_engagement_quotes=high_engagement_quotes,
-            trending_topics=trending_topic_names,
+            trending_topics=thematic_cluster_names,  # Pass cluster names for signals
         )
 
         # build final report
@@ -362,7 +362,7 @@ class WeeklyPipeline:
             overall_sentiment=overall_sentiment,
             subreddits=subreddit_reports,
             all_quotes=all_quotes,
-            trending_topics=trending_topics,
+            thematic_clusters=thematic_clusters,
             insights=insights,
             trends=trends,
             theme_clusters=theme_clusters,
@@ -371,6 +371,11 @@ class WeeklyPipeline:
         
         saved_path = self.storage.save_weekly_report(report)
         logger.info(f"Weekly report saved to {saved_path}")
+
+        # Also save to web/public/data/weekly for frontend
+        web_storage = JSONStorage("web/public/data/weekly")
+        web_path = web_storage.save_weekly_report(report)
+        logger.info(f"Weekly report also saved to {web_path}")
 
         return report
 

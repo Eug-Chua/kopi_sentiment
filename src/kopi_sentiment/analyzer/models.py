@@ -100,12 +100,12 @@ class SubredditReport(BaseModel):
     top_posts: list[PostAnalysis]
 
 
-class TrendingTopic(BaseModel):
-    """Detected trending topic with sentiment"""
-    topic: str
-    mentions: int
+class ThematicCluster(BaseModel):
+    """A topic cluster representing what people are discussing, weighted by engagement"""
+    topic: str = Field(description="Specific topic name (5-8 words)")
+    engagement_score: int = Field(description="Sum of upvotes from posts discussing this topic")
     dominant_emotion: FFGACategory
-    sentiment_shift: Literal["improving", "stable", "worsening"]
+    sample_posts: list[str] = Field(default=[], description="Representative post titles (max 3)")
 
 
 class WeeklyReportMetadata(BaseModel):
@@ -201,12 +201,12 @@ class WeeklyReport(BaseModel):
     overall_sentiment: OverallSentiment
     subreddits: list[SubredditReport]
     all_quotes: AllQuotes
-    trending_topics: list[TrendingTopic] = []
+    thematic_clusters: list[ThematicCluster] = []
 
-    # New fields for enhanced insights
+    # Enhanced insights
     insights: WeeklyInsights | None = None
     trends: WeeklyTrends | None = None
-    theme_clusters: list[ThemeCluster] = []
+    theme_clusters: list[ThemeCluster] = []  # Quote-based clusters (different from thematic_clusters)
     signals: list[Signal] = []
 
 
@@ -250,10 +250,10 @@ class DailyReport(BaseModel):
     overall_sentiment: OverallSentiment
     subreddits: list[SubredditReport]
     all_quotes: AllQuotes
-    trending_topics: list[TrendingTopic] = []
+    thematic_clusters: list[ThematicCluster] = []
 
-    # Insights fields
+    # Insights
     insights: DailyInsights | None = None
     trends: DailyTrends | None = None
-    theme_clusters: list[ThemeCluster] = []
+    theme_clusters: list[ThemeCluster] = []  # Quote-based clusters (different from thematic_clusters)
     signals: list[Signal] = []
