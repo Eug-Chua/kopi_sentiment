@@ -101,10 +101,16 @@ export function RiskMonitor({ signals }: RiskMonitorProps) {
         <div className="flex-1 flex items-center justify-center">
           <button
             onClick={handleAnalyze}
-            className="px-5 py-2 rounded-full text-sm font-medium transition-all bg-zinc-700 text-white hover:bg-zinc-600 cursor-pointer"
+            className="relative px-5 py-2 rounded-full text-sm font-medium transition-all bg-zinc-700 text-white hover:bg-zinc-600 cursor-pointer overflow-hidden"
           >
-            Read the Room
+            <span className="absolute inset-[-1px] rounded-full overflow-hidden">
+              <span className="absolute inset-0 animate-[shimmer_3s_ease-in-out_infinite] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+            </span>
+            <span className="absolute inset-[1px] rounded-full bg-zinc-700" />
+            <span className="relative z-10">Read the Room</span>
           </button>
+
+
         </div>
       ) : (
         /* Content when signal is displayed */
