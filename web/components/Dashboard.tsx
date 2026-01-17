@@ -11,6 +11,26 @@ interface DashboardProps {
   availableDates: string[];
 }
 
+// Format date from "2026-01-18" to "18 Jan 2026"
+function formatDate(dateStr: string): string {
+  const date = new Date(dateStr);
+  return date.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
+
+// Format date from "2026-01-18" to "18 Jan 26" (short year)
+function formatDateShort(dateStr: string): string {
+  const date = new Date(dateStr);
+  return date.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "2-digit",
+  });
+}
+
 export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   const [mode, setMode] = useState<ReportMode>("weekly");
 
@@ -26,9 +46,9 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   // Get the period label
   const getPeriodLabel = () => {
     if (isDaily && dailyReport) {
-      return dailyReport.report_date;
+      return formatDate(dailyReport.report_date);
     }
-    return `Week ${weeklyReport.week_id} (${weeklyReport.week_start} to ${weeklyReport.week_end})`;
+    return `Week ${weeklyReport.week_id} (${formatDateShort(weeklyReport.week_start)} to ${formatDateShort(weeklyReport.week_end)})`;
   };
 
   return (
