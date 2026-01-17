@@ -55,30 +55,21 @@ class DailyPipeline:
         return target.isoformat()
 
     def scrape_subreddit(self, subreddit: str) -> list[RedditPost]:
-        """Scrape subreddit posts from the last 24 hours.
-
-        Note: old.reddit.com doesn't support time filtering directly,
-        so we fetch recent posts and filter by timestamp.
-        """
+        """Scrape top subreddit posts from the last 24 hours."""
         scraper = RedditScraper(subreddit=subreddit)
-        # Fetch more posts than needed since we'll filter by time
+        # Fetch top posts from the last day
         posts = scraper.fetch_posts_with_content(
-            limit=self.posts_per_subreddit * 2,  # Fetch extra to account for filtering
+            limit=self.posts_per_subreddit,
             delay=1.0,
+            sort="top",
+            time_filter="day",
         )
-
-        # Filter to last 24 hours
-        cutoff_time = datetime.now() - timedelta(hours=24)
-        recent_posts = [p for p in posts if p.created_at >= cutoff_time]
-
-        # Limit to requested number
-        recent_posts = recent_posts[: self.posts_per_subreddit]
 
         logger.info(
-            f"Scraped {len(recent_posts)} posts from r/{subreddit} (last 24h)"
+            f"Scraped {len(posts)} posts from r/{subreddit} (top of day)"
         )
 
-        return recent_posts
+        return posts
 
     def analyze_subreddit(
         self, subreddit: str, posts: list[RedditPost]

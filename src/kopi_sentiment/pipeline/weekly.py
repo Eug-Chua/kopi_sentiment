@@ -62,14 +62,22 @@ class WeeklyPipeline:
 
         return week_start, week_end
     
-    def scrape_subreddit(self, subreddit) -> list[RedditPost]:
-        """Scrape subreddit posts"""
+    def scrape_subreddit(self, subreddit, sort: str = "top", time_filter: str = "week") -> list[RedditPost]:
+        """Scrape subreddit posts.
+
+        Args:
+            subreddit: Subreddit name to scrape
+            sort: Sort order - "hot", "new", "top", "rising"
+            time_filter: Time range for "top" sort - "hour", "day", "week", "month", "year", "all"
+        """
         scraper = RedditScraper(subreddit=subreddit)
         posts = scraper.fetch_posts_with_content(
             limit=self.posts_per_subreddit,
-            delay=1.0)  # rate limiting
-        
-        logger.info(f"Scraped {len(posts)} posts from r/{subreddit}")
+            delay=1.0,  # rate limiting
+            sort=sort,
+            time_filter=time_filter)
+
+        logger.info(f"Scraped {len(posts)} posts from r/{subreddit} (sort={sort}, t={time_filter})")
 
         return posts
     

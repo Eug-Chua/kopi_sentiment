@@ -33,11 +33,27 @@ class RedditScraper:
             'User-Agent': settings.reddit_user_agent
         })
 
-    def fetch_posts(self, limit: int=25) -> list[RedditPost]:
-        """Fetch posts from subreddit"""
-        url = f"{settings.reddit_base_url}/r/{self.subreddit}"
+    def fetch_posts(self, limit: int=25, sort: str = "hot", time_filter: str = "week") -> list[RedditPost]:
+        """Fetch posts from subreddit.
+
+        Args:
+            limit: Maximum number of posts to fetch
+            sort: Sort order - "hot", "new", "top", "rising"
+            time_filter: Time range for "top" sort - "hour", "day", "week", "month", "year", "all"
+        """
+        # Build URL based on sort type
+        if sort == "hot":
+            url = f"{settings.reddit_base_url}/r/{self.subreddit}"
+        else:
+            url = f"{settings.reddit_base_url}/r/{self.subreddit}/{sort}"
+
+        # Add time filter for "top" sort
+        params = {}
+        if sort == "top":
+            params["t"] = time_filter
+
         posts = []
-        response = self.session.get(url)
+        response = self.session.get(url, params=params)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -47,7 +63,7 @@ class RedditScraper:
             post = self._parse_post(element)
             if post:
                 posts.append(post)
-        
+
         return posts
 
     def _parse_post(self, post_element):
@@ -117,9 +133,16 @@ class RedditScraper:
             return ""
 
     
-    def fetch_posts_with_content(self, limit: int=25, delay: float=1.0) -> list[RedditPost]:
-        """Fetch posts and their full content with rate limiting"""
-        posts = self.fetch_posts(limit=limit)
+    def fetch_posts_with_content(self, limit: int=25, delay: float=1.0, sort: str = "hot", time_filter: str = "week") -> list[RedditPost]:
+        """Fetch posts and their full content with rate limiting.
+
+        Args:
+            limit: Maximum number of posts to fetch
+            delay: Delay between requests to avoid rate limiting
+            sort: Sort order - "hot", "new", "top", "rising"
+            time_filter: Time range for "top" sort - "hour", "day", "week", "month", "year", "all"
+        """
+        posts = self.fetch_posts(limit=limit, sort=sort, time_filter=time_filter)
         for post in posts:
             post.selftext = self.fetch_post_content(post)
             post.comments = self.fetch_post_comments(post)
