@@ -15,15 +15,15 @@ export default function AboutPage() {
         {/* Hero section */}
         <div className="mb-">
           <h1 className="text-4xl md:text-5xl font-bold font-[family-name:var(--font-space-mono)] mb-4">
-            About
+            Why We Listen
           </h1>
-          <p className="text-xl text-gray-400">
-            Not analyzing. <span className="text-white">Listening.</span>
+          <p className="text-xl text-gray-400 mb-7">
+            Hearing what's said. <span className="text-white">Understanding what's meant.</span>
           </p>
         </div>
   
         {/* Main content with styled sections */}
-        <div className="space-y-12">
+        <div className="space-y-8">
           {/* The Problem */}
           <section>
             <div className="flex items-center gap-3 mb-4">
@@ -32,7 +32,7 @@ export default function AboutPage() {
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
               Singaporeans are often characterized as complainers. It's easy to dismiss
-              the grievances that surface on forums and social media—to write them off
+              the grievances that surface on social media—to write them off
               as noise, negativity, or the usual grumbling.
             </p>
           </section>
@@ -44,7 +44,7 @@ export default function AboutPage() {
               <h2 className="text-sm uppercase tracking-wider text-gray-500">The Insight</h2>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              But beneath every complaint is something worth hearing.
+              Every complaint casts light on what the heart holds.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
               <div className="bg-white/5 rounded-lg p-4 border border-white/10">
@@ -69,9 +69,8 @@ export default function AboutPage() {
               <h2 className="text-sm uppercase tracking-wider text-gray-500">The Approach</h2>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Kopi Sentiment looks past the surface to understand what Singaporeans are{" "}
-              <em className="text-white not-italic">really</em> trying to say. What are they worried
-              about? What do they wish was different? What future are they hoping for?
+              Kopi Sentiment listens past the surface to understand what Singaporeans are really trying to say.
+              What weighs on them? What would they change? What are they hoping for?
             </p>
           </section>
   
