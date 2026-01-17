@@ -4,7 +4,7 @@ export default function AboutPage() {
         {/* Header with back link */}
         <div className="mb-12">
           <a
-            href="../"
+            href="./"
             className="text-gray-500 hover:text-white text-sm transition-colors inline-flex items-center gap-1"
           >
             <span>←</span>
@@ -18,7 +18,7 @@ export default function AboutPage() {
             Why We Listen
           </h1>
           <p className="text-xl text-gray-400 mb-7">
-            Hearing what's said. <span className="text-white">Understanding what's meant.</span>
+            Hearing what's said. <span className="text-white">Catching what's meant.</span>
           </p>
         </div>
   
@@ -69,7 +69,7 @@ export default function AboutPage() {
               <h2 className="text-sm uppercase tracking-wider text-gray-500">The Approach</h2>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Kopi Sentiment listens past the surface to understand what Singaporeans are really trying to say.
+              <span className="font-[family-name:var(--font-space-mono)] text-white">Kopi Sentiment</span> listens past the surface to understand what Singaporeans are really trying to say.
               What weighs on them? What would they change? What are they hoping for?
             </p>
           </section>
