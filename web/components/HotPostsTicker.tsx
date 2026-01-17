@@ -44,36 +44,41 @@ export function HotPostsTicker({ posts }: HotPostsTickerProps) {
         </div>
       </div>
       <style jsx>{`
-        .ticker-wrapper {
-          display: flex;
-          width: 100%;
-          overflow: hidden;
-        }
-        .ticker-content {
-          display: flex;
-          animation: ticker 80s linear infinite;
-          white-space: nowrap;
-          padding: 8px 0;
-        }
-        .ticker-item {
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-          font-size: 13px;
-          text-decoration: none;
-        }
-        @keyframes ticker {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        .ticker-wrapper:hover .ticker-content {
-          animation-play-state: paused;
-        }
-      `}</style>
+  .ticker-wrapper {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .ticker-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .ticker-content {
+    display: flex;
+    animation: ticker 80s linear infinite;
+    white-space: nowrap;
+    padding: 8px 0;
+  }
+  .ticker-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  @keyframes ticker {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .ticker-wrapper:hover .ticker-content {
+    animation-play-state: paused;
+  }
+`}</style>
     </div>
   );
 }
