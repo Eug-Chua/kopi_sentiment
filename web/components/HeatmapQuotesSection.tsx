@@ -57,7 +57,7 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClus
             <IntensityHeatmap sentiment={sentiment} onCellClick={handleCellClick} className="flex-1" />
           </div>
           <div className="flex flex-col">
-            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Thematic Clusters</h2>
+            <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Top Thematic Clusters</h2>
             <TrendingThemes clusters={thematicClusters} />
           </div>
         </div>
