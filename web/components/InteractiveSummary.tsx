@@ -70,7 +70,7 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
     <div className="bg-zinc-900/50 rounded-3xl border border-zinc-800 p-6 min-h-[140px] flex flex-col">
       {!activeCategory ? (
         /* Centered buttons when no category selected */
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex flex-col items-center justify-center">
           <div className="flex flex-wrap justify-center gap-2">
             {categories.map((cat) => {
               const config = categoryConfig[cat];
@@ -85,8 +85,10 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
               );
             })}
           </div>
+          <p className="text-xs text-zinc-600 mt-3 text-center">AI-generated summary based on analyzed posts</p>
         </div>
       ) : (
+
         /* Content when category is selected */
         <>
           <div className="flex flex-wrap justify-center gap-2 mb-4">
