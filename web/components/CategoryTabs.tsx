@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { QuoteCard } from "./QuoteCard";
 import { AllQuotes, QuoteWithMetadata, Intensity } from "@/types";
@@ -18,6 +18,37 @@ interface CategoryTabsProps {
 }
 
 const QUOTES_PER_PAGE = 5;
+
+function InfiniteScrollTrigger({ onIntersect, hasMore }: { onIntersect: () => void; hasMore: boolean }) {
+  const triggerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!hasMore) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          onIntersect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (triggerRef.current) {
+      observer.observe(triggerRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [onIntersect, hasMore]);
+
+  if (!hasMore) return null;
+
+  return (
+    <div ref={triggerRef} className="py-4 text-center">
+      <span className="text-sm text-zinc-500">Loading more...</span>
+    </div>
+  );
+}
 
 export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   const [activeTab, setActiveTab] = useState<string>("fears");
@@ -69,12 +100,12 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
     { key: "aspirations", label: "Aspirations", data: quotes.aspirations },
   ];
 
-  const handleLoadMore = (categoryKey: string) => {
+  const handleLoadMore = useCallback((categoryKey: string) => {
     setVisibleCounts((prev) => ({
       ...prev,
       [categoryKey]: prev[categoryKey] + QUOTES_PER_PAGE,
     }));
-  };
+  }, []);
 
   return (
     <>
@@ -107,6 +138,12 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
         return (
           <TabsContent key={cat.key} value={cat.key}>
             <div className="space-y-3 mt-4">
+              {/* Progress indicator */}
+              {filteredData.length > 0 && (
+                <div className="text-xs text-zinc-500 text-center pb-2">
+                  Showing {Math.min(visibleCounts[cat.key], filteredData.length)} of {filteredData.length} quotes
+                </div>
+              )}
               {visibleQuotes.length === 0 ? (
                 <div className="text-center text-zinc-500 py-8">
                   No quotes found for this filter
@@ -116,14 +153,10 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
                   <QuoteCard key={idx} quote={quote} />
                 ))
               )}
-              {hasMore && (
-                <button
-                  onClick={() => handleLoadMore(cat.key)}
-                  className="w-full py-3 text-sm text-gray-400 hover:text-white hover:bg-white/5 rounded-lg transition-colors"
-                >
-                  Load more comments ({filteredData.length - visibleCounts[cat.key]} remaining)
-                </button>
-              )}
+              <InfiniteScrollTrigger
+                onIntersect={() => handleLoadMore(cat.key)}
+                hasMore={hasMore}
+              />
             </div>
           </TabsContent>
         );
