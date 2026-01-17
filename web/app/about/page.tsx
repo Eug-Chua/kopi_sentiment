@@ -13,7 +13,7 @@ export default function AboutPage() {
         </div>
   
         {/* Hero section */}
-        <div className="mb-">
+        <div className="mb-4">
           <h1 className="text-4xl md:text-5xl font-bold font-[family-name:var(--font-space-mono)] mb-4">
             Why We Listen
           </h1>
