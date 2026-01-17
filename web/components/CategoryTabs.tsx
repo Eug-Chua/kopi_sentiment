@@ -21,6 +21,7 @@ const QUOTES_PER_PAGE = 5;
 
 export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   const [activeTab, setActiveTab] = useState<string>("fears");
+  const [searchQuery, setSearchQuery] = useState("");
   const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>({
     fears: QUOTES_PER_PAGE,
     frustrations: QUOTES_PER_PAGE,
@@ -50,8 +51,16 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
     if (filter && filter.category === categoryKey && filter.intensity) {
       filtered = filtered.filter((q) => q.intensity === filter.intensity);
     }
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter((q) => 
+        q.text.toLowerCase().includes(query) || 
+        q.post_title.toLowerCase().includes(query)
+      );
+    }
     return filtered;
   };
+  
 
   const categories = [
     { key: "fears", label: "Fears", data: quotes.fears },
@@ -68,7 +77,17 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   };
 
   return (
-    <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+    <>
+      <div className="mb-4">
+        <input
+          type="text"
+          placeholder="Search quotes..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-full px-4 py-2 bg-zinc-800/50 border border-zinc-700 rounded-lg text-sm text-white placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-zinc-600"
+        />
+      </div>
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
       <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto gap-1">
         {categories.map((cat) => {
           const filteredData = filterQuotes(cat.data, cat.key);
@@ -110,5 +129,6 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
         );
       })}
     </Tabs>
+    </>
   );
 }
