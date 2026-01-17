@@ -17,7 +17,7 @@ interface CategoryTabsProps {
   filter?: QuoteFilter | null;
 }
 
-const QUOTES_PER_PAGE = 10;
+const QUOTES_PER_PAGE = 5;
 
 export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   const [activeTab, setActiveTab] = useState<string>("fears");
