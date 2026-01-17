@@ -38,7 +38,7 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
           Kopi Sentiment
         </h1>
         <div className="flex items-center gap-4">
-          <a href="/about" className="text-white-500 hover:text-gray-300 text-sm">
+          <a href="./about" className="text-white-500 hover:text-gray-300 text-sm">
             About
           </a>
           <ModeToggle mode={mode} onModeChange={setMode} />
