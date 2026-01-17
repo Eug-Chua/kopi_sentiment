@@ -34,18 +34,18 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   return (
     <main className="container mx-auto p-6 max-w-4xl">
       <div className="flex items-center justify-between mb-2">
-        <h1 className="text-3xl font-bold font-[family-name:var(--font-space-mono)]">
+        <h1 className="text-xl md:text-3xl font-bold font-[family-name:var(--font-space-mono)]">
           Kopi Sentiment
         </h1>
         <div className="flex items-center gap-4">
-          <a href="./about" className="text-white-500 hover:text-gray-300 text-sm">
+          <a href="/about" className="text-gray-400 hover:text-gray-300 text-xs md:text-sm">
             About
           </a>
           <ModeToggle mode={mode} onModeChange={setMode} />
         </div>
       </div>
 
-      <p className="text-gray-500 mb-6">{getPeriodLabel()}</p>
+      <p className="text-gray-500 mb-6 text-xs md:text-base">{getPeriodLabel()}</p>
 
       {!dailyReport && mode === "daily" && (
         <div className="bg-amber-900/20 border border-amber-700/50 rounded-lg p-4 mb-6">

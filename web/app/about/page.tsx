@@ -4,7 +4,7 @@ export default function AboutPage() {
         {/* Header with back link */}
         <div className="mb-12">
           <a
-            href="./"
+            href="../"
             className="text-gray-500 hover:text-white text-sm transition-colors inline-flex items-center gap-1"
           >
             <span>←</span>
