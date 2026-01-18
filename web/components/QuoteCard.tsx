@@ -24,8 +24,10 @@ export function QuoteCard({ quote }: QuoteCardProps) {
     <div className="bg-zinc-900/40 rounded px-2.5 sm:px-3 py-2 sm:py-1.5 mb-2 border border-zinc-800/50">
       <div className="flex justify-between items-start gap-2 mb-1.5 sm:mb-1">
         <p className="text-zinc-200 text-sm sm:text-base italic leading-snug flex-1">{quote.text}</p>
-        {quote.comment_score !== undefined && quote.comment_score > 0 && (
-          <span className="text-zinc-500 text-[10px] flex-shrink-0">↑{quote.comment_score}</span>
+        {quote.comment_score !== undefined && quote.comment_score !== 0 && (
+          <span className="text-zinc-500 text-[10px] flex-shrink-0">
+            {quote.comment_score > 0 ? `↑${quote.comment_score}` : `↓${Math.abs(quote.comment_score)}`}
+          </span>
         )}
       </div>
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-[11px] sm:text-xs text-gray-500 gap-1 sm:gap-2">
