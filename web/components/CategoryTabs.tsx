@@ -19,11 +19,11 @@ interface CategoryTabsProps {
 
 const QUOTES_PER_PAGE = 5;
 
-function InfiniteScrollTrigger({ onIntersect, hasMore }: { onIntersect: () => void; hasMore: boolean }) {
+function InfiniteScrollTrigger({ onIntersect, hasMore, isLoading }: { onIntersect: () => void; hasMore: boolean; isLoading: boolean }) {
   const triggerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!hasMore) return;
+    if (!hasMore || isLoading) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -39,13 +39,17 @@ function InfiniteScrollTrigger({ onIntersect, hasMore }: { onIntersect: () => vo
     }
 
     return () => observer.disconnect();
-  }, [onIntersect, hasMore]);
+  }, [onIntersect, hasMore, isLoading]);
 
   if (!hasMore) return null;
 
   return (
     <div ref={triggerRef} className="py-4 text-center">
-      <span className="text-sm text-zinc-500">Loading more...</span>
+      {isLoading ? (
+        <span className="text-sm text-zinc-400 animate-pulse">Loading more...</span>
+      ) : (
+        <span className="text-sm text-zinc-600">Scroll for more</span>
+      )}
     </div>
   );
 }
@@ -59,6 +63,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
     goals: QUOTES_PER_PAGE,
     aspirations: QUOTES_PER_PAGE,
   });
+  const [loadingCategory, setLoadingCategory] = useState<string | null>(null);
 
   // When filter changes, switch to the filtered category tab
   useEffect(() => {
@@ -101,10 +106,15 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   ];
 
   const handleLoadMore = useCallback((categoryKey: string) => {
-    setVisibleCounts((prev) => ({
-      ...prev,
-      [categoryKey]: prev[categoryKey] + QUOTES_PER_PAGE,
-    }));
+    setLoadingCategory(categoryKey);
+    // Add small delay for loading feel
+    setTimeout(() => {
+      setVisibleCounts((prev) => ({
+        ...prev,
+        [categoryKey]: prev[categoryKey] + QUOTES_PER_PAGE,
+      }));
+      setLoadingCategory(null);
+    }, 400);
   }, []);
 
   return (
@@ -156,6 +166,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
               <InfiniteScrollTrigger
                 onIntersect={() => handleLoadMore(cat.key)}
                 hasMore={hasMore}
+                isLoading={loadingCategory === cat.key}
               />
             </div>
           </TabsContent>
