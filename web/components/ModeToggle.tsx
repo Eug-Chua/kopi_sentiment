@@ -18,7 +18,7 @@ export function ModeToggle({ mode, onModeChange }: ModeToggleProps) {
             : "text-zinc-400 hover:text-zinc-200"
         }`}
       >
-        Daily
+        Today
       </button>
       <button
         onClick={() => onModeChange("weekly")}
@@ -28,7 +28,7 @@ export function ModeToggle({ mode, onModeChange }: ModeToggleProps) {
             : "text-zinc-400 hover:text-zinc-200"
         }`}
       >
-        Weekly
+        7 Days
       </button>
     </div>
   );

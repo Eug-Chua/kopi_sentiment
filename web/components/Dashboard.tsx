@@ -21,16 +21,6 @@ function formatDate(dateStr: string): string {
   });
 }
 
-// Format date from "2026-01-18" to "18 Jan 26" (short year)
-function formatDateShort(dateStr: string): string {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "short",
-    year: "2-digit",
-  });
-}
-
 export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   const [mode, setMode] = useState<ReportMode>("weekly");
 
@@ -46,9 +36,11 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
   // Get the period label
   const getPeriodLabel = () => {
     if (isDaily && dailyReport) {
-      return formatDate(dailyReport.report_date);
+      return `Updated ${formatDate(dailyReport.report_date)}`;
     }
-    return `Week ${weeklyReport.week_id} (${formatDateShort(weeklyReport.week_start)} to ${formatDateShort(weeklyReport.week_end)})`;
+    // Use generated_at for weekly (when the scrape was run)
+    const generatedDate = weeklyReport.generated_at.split("T")[0];
+    return `Last 7 days as of ${formatDate(generatedDate)}`;
   };
 
   return (
