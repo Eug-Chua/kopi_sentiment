@@ -40,7 +40,7 @@ export function Dashboard({ weeklyReport, dailyReport }: DashboardProps) {
     }
     // Use generated_at for weekly (when the scrape was run)
     const generatedDate = weeklyReport.generated_at.split("T")[0];
-    return `Last 7 days as of ${formatDate(generatedDate)}`;
+    return `Vibes from the last 7 days till ${formatDate(generatedDate)}`;
   };
 
   return (
