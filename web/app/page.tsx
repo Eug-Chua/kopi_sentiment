@@ -7,7 +7,13 @@ async function getWeeklyReport(): Promise<WeeklyReport> {
   const fs = await import("fs/promises");
   const path = await import("path");
 
-  const filePath = path.join(process.cwd(), "public/data/weekly/2026-W03.json");
+  const weeklyDir = path.join(process.cwd(), "public/data/weekly");
+  const files = await fs.readdir(weeklyDir);
+  const jsonFiles = files.filter((f) => f.endsWith(".json")).sort().reverse();
+
+  // Get the latest weekly report (sorted descending, so first is latest)
+  const latestFile = jsonFiles[0];
+  const filePath = path.join(weeklyDir, latestFile);
   const data = await fs.readFile(filePath, "utf-8");
   return JSON.parse(data);
 }
