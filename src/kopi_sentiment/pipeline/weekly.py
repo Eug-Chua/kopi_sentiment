@@ -4,9 +4,7 @@ import time
 
 from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
 from kopi_sentiment.config.settings import settings
-from kopi_sentiment.analyzer.claude import ClaudeAnalyzer
-from kopi_sentiment.analyzer.openai import OpenAIAnalyzer
-from kopi_sentiment.analyzer.hybrid import HybridAnalyzer
+from kopi_sentiment.analyzer.base import create_analyzer
 from kopi_sentiment.storage.json_storage import JSONStorage
 from kopi_sentiment.analyzer.models import (SubredditReport,
                                             AnalysisResult,
@@ -29,16 +27,10 @@ class WeeklyPipeline:
         self.posts_per_subreddit = posts_per_subreddit
         self.storage = JSONStorage(storage_path)
 
-        provider = llm_provider or settings.llm_provider
-        if provider == 'claude':
-            self.analyzer = ClaudeAnalyzer()
-        elif provider == 'hybrid':
-            self.analyzer = HybridAnalyzer()
-        else:
-            self.analyzer = OpenAIAnalyzer()
+        self.analyzer = create_analyzer(llm_provider)
 
         logger.info(f"WeeklyPipeline initialized: {len(self.subreddits)} subreddits, "
-                    f"{self.posts_per_subreddit} posts each, using {provider}")            
+                    f"{self.posts_per_subreddit} posts each, using {llm_provider}")            
 
     def get_week(self, target_date=None) -> str:
         """Get week of defined target date"""

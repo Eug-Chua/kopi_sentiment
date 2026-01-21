@@ -494,3 +494,22 @@ class BaseAnalyzer:
 
         return signals
 
+def create_analyzer(provider: str | None = None) -> BaseAnalyzer:
+    """Factory function to create analyzer by provider name."""
+    from kopi_sentiment.analyzer.claude import ClaudeAnalyzer
+    from kopi_sentiment.analyzer.openai import OpenAIAnalyzer
+    from kopi_sentiment.analyzer.hybrid import HybridAnalyzer
+    from kopi_sentiment.config.settings import settings
+    
+    provider = provider or settings.llm_provider
+    
+    analyzers = {
+        "claude": ClaudeAnalyzer,
+        "openai": OpenAIAnalyzer,
+        "hybrid": HybridAnalyzer,
+    }
+    
+    if provider not in analyzers:
+        raise ValueError(f"Unknown provider: {provider}")
+    
+    return analyzers[provider]()
