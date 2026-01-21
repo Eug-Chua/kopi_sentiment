@@ -419,8 +419,8 @@ class DailyPipeline:
         logger.info(f"Daily report also saved to {web_path}")
 
         # Cleanup old reports (keep 7 days) in both locations
-        self.storage.cleanup_old_reports(keep_days=7)
-        web_storage.cleanup_old_reports(keep_days=7)
+        self.storage.cleanup_old_reports(keep_days=30)
+        web_storage.cleanup_old_reports(keep_days=30)
 
         return report
 
