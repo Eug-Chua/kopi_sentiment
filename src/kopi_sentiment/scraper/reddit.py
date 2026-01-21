@@ -10,6 +10,11 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+class Comment(BaseModel):
+    """Represents a Reddit comment"""
+    text: str
+    score: int
+
 class RedditPost(BaseModel):
     """Represents a Reddit post"""
     id: str
@@ -18,8 +23,9 @@ class RedditPost(BaseModel):
     score: int
     num_comments: int
     created_at: datetime
+    subreddit: str = ""
     selftext: str = ""
-    comments: list[str] = []
+    comments: list[Comment] = []
 
 class RedditScraper:
     """Scrapes Reddit posts from old.reddit.com"""
@@ -150,7 +156,7 @@ class RedditScraper:
 
         return posts
 
-    def fetch_post_comments(self, post: RedditPost, limit:int = 25) -> list[str]:
+    def fetch_post_comments(self, post: RedditPost, limit:int = 25) -> list[Comment]:
         """Fetch top comments"""
         try:
             response = self.session.get(post.url)
@@ -316,22 +322,3 @@ class RedditScraper:
             time.sleep(delay)
         
         return posts
-
-
-
-class Comment(BaseModel):
-    """Represents a Reddit comment"""
-    text: str
-    score: int
-
-class RedditPost(BaseModel):
-    """Represents a Reddit post"""
-    id: str
-    title: str
-    url: str
-    score: int
-    num_comments: int
-    created_at: datetime
-    subreddit: str = ""
-    selftext: str = ""
-    comments: list[Comment] = []
