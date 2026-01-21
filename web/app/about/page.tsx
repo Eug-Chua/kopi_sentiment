@@ -44,7 +44,7 @@ export default function AboutPage() {
               <h2 className="text-sm uppercase tracking-wider text-gray-500">The Insight</h2>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Every complaint casts light on what the heart holds.
+              Every complaint casts light on what the heart holds. Each grumble hints at what we're not ready to give up on.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
               <div className="bg-white/5 rounded-lg p-4 border border-white/10">
