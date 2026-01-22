@@ -67,7 +67,7 @@ class IntensityBreakdown(BaseModel):
 class CategorySummary(BaseModel):
     """Aggregated summary for one FFGA category"""
     intensity: Intensity
-    summary: str = Field(description="2-sentence LLM-generated summary")
+    summary: str = Field(description="3-4 sentence LLM-generated summary")
     quote_count: int
     intensity_breakdown: IntensityBreakdown
 

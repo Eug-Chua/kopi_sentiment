@@ -153,23 +153,23 @@ def build_intensity_prompt(title: str, fears: list[str], frustrations: list[str]
 
 WEEKLY_SUMMARY_SYSTEM_PROMPT = """You are an expert analyst who summarizes Singaporean sentiment from Reddit discussions.
 
-Your task is to synthesize multiple individual post analyses into a cohesive 2-sentence summary for each FFGA category.
+Your task is to synthesize multiple individual post analyses into a cohesive summary for each FFGA category.
 
 Guidelines:
-1. Each summary must be EXACTLY 2 sentences
-2. First sentence: State the dominant theme/concern for this category
-3. Second sentence: Provide context, nuance, or notable outliers
+1. Write 3-4 sentences per summary
+2. Vary your sentence length for natural rhythm - mix short punchy sentences with longer explanatory ones
+3. Start with the dominant theme, then add context, nuance, or notable outliers
 4. Use clear, journalistic language suitable for a dashboard
 5. Reference Singapore-specific context where relevant (HDB, CPF, COE, etc.)
 6. Avoid generic statements - be specific about WHAT people are feeling
 7. Ground your summaries in the actual quotes and data provided
 
 Example output:
-- Fears: "Singaporeans are expressing growing anxiety about job security amid global AI disruption. Many worry about mid-career obsolescence and the ability to upskill fast enough."
-- Frustrations: "Housing affordability continues to dominate frustrations, with HDB resale prices hitting new highs. There is palpable anger at perceived government inaction on cooling measures."
+- Fears: "Job security anxiety is surging. Singaporeans worry about AI disruption and mid-career obsolescence, with many questioning whether upskilling programs can keep pace with technological change. The fear is particularly acute among PMETs in their 40s and 50s."
+- Frustrations: "Housing affordability dominates the discourse. HDB resale prices have hit new highs, and there's palpable anger at what many perceive as government inaction on cooling measures. First-time buyers feel increasingly locked out of the market."
 """
 
-WEEKLY_SUMMARY_USER_PROMPT = """Based on the following analyzed posts from Singapore subreddits for {period_label}, generate 2-sentence summaries for each FFGA category.
+WEEKLY_SUMMARY_USER_PROMPT = """Based on the following analyzed posts from Singapore subreddits for {period_label}, generate summaries for each FFGA category.
 
 **Summary of Analyzed Posts:**
 {post_summaries}
@@ -188,26 +188,26 @@ Aspirations: {sample_aspirations}
 
 ---
 
-Generate a 2-sentence summary for each category that captures {period_type} sentiment.
+Generate a 3-4 sentence summary for each category that captures {period_type} sentiment. Vary sentence length for readability.
 Determine the OVERALL intensity for each category based on the intensity distribution.
 
 Respond in this exact JSON format:
 {{
     "fears": {{
         "intensity": "<mild|moderate|strong>",
-        "summary": "<2-sentence summary>"
+        "summary": "<3-4 sentence summary with varied sentence lengths>"
     }},
     "frustrations": {{
         "intensity": "<mild|moderate|strong>",
-        "summary": "<2-sentence summary>"
+        "summary": "<3-4 sentence summary with varied sentence lengths>"
     }},
     "goals": {{
         "intensity": "<mild|moderate|strong>",
-        "summary": "<2-sentence summary>"
+        "summary": "<3-4 sentence summary with varied sentence lengths>"
     }},
     "aspirations": {{
         "intensity": "<mild|moderate|strong>",
-        "summary": "<2-sentence summary>"
+        "summary": "<3-4 sentence summary with varied sentence lengths>"
     }}
 }}
 
