@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { OverallSentiment } from "@/types";
 
 interface InteractiveSummaryProps {
@@ -9,124 +9,191 @@ interface InteractiveSummaryProps {
 
 type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
 
-const categoryConfig: Record<CategoryKey, { label: string; verb: string;}> = {
-  fears: { label: "Fears", verb: "Identify Fears"},
-  frustrations: { label: "Frustrations", verb: "Uncover Frustrations"},
-  goals: { label: "Goals", verb: "Discover Goals"},
-  aspirations: { label: "Aspirations", verb: "Reveal Aspirations"},
+const categoryConfig: Record<CategoryKey, { label: string }> = {
+  fears: { label: "Fears" },
+  frustrations: { label: "Frustrations" },
+  goals: { label: "Goals" },
+  aspirations: { label: "Aspirations" },
 };
 
-function TypewriterText({ text, onComplete }: { text: string; onComplete?: () => void }) {
-  const [displayedText, setDisplayedText] = useState("");
-  const [isComplete, setIsComplete] = useState(false);
-  const indexRef = useRef(0);
-
-  useEffect(() => {
-    if (indexRef.current < text.length) {
-      const timeout = setTimeout(() => {
-        setDisplayedText(text.slice(0, indexRef.current + 1));
-        indexRef.current += 1;
-      }, 15); // Speed of typing
-      return () => clearTimeout(timeout);
-    } else if (!isComplete) {
-      setIsComplete(true);
-      onComplete?.();
-    }
-  }, [displayedText, text, isComplete, onComplete]);
-
-  return (
-    <span>
-      {displayedText}
-      {!isComplete && <span className="animate-pulse">|</span>}
-    </span>
-  );
-}
+const categories: CategoryKey[] = ["fears", "frustrations", "goals", "aspirations"];
 
 export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
-  const [activeCategory, setActiveCategory] = useState<CategoryKey | null>(null);
-  const [completedCategories, setCompletedCategories] = useState<Set<CategoryKey>>(new Set());
-  const [isTyping, setIsTyping] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const carouselRef = useRef<HTMLDivElement>(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
 
-  const handleCategoryClick = (category: CategoryKey) => {
-    if (isTyping) return; // Prevent clicking while typing
-    setActiveCategory(category);
-    setIsTyping(true);
-  };
-
-  const handleTypingComplete = () => {
-    setIsTyping(false);
-    if (activeCategory) {
-      setCompletedCategories((prev) => new Set([...prev, activeCategory]));
+  const scrollToIndex = useCallback((index: number) => {
+    if (carouselRef.current) {
+      const cardWidth = carouselRef.current.offsetWidth;
+      carouselRef.current.scrollTo({
+        left: cardWidth * index,
+        behavior: "smooth",
+      });
     }
+  }, []);
+
+  const handleDotClick = (index: number) => {
+    setActiveIndex(index);
+    scrollToIndex(index);
   };
 
-  const getSummary = (category: CategoryKey): string => {
-    return sentiment[category].summary;
+  const handlePrev = () => {
+    const newIndex = activeIndex > 0 ? activeIndex - 1 : categories.length - 1;
+    setActiveIndex(newIndex);
+    scrollToIndex(newIndex);
   };
 
-  const categories: CategoryKey[] = ["fears", "frustrations", "goals", "aspirations"];
+  const handleNext = () => {
+    const newIndex = activeIndex < categories.length - 1 ? activeIndex + 1 : 0;
+    setActiveIndex(newIndex);
+    scrollToIndex(newIndex);
+  };
+
+  // Handle scroll snap to update active index
+  const handleScroll = useCallback(() => {
+    if (carouselRef.current && !isDragging) {
+      const cardWidth = carouselRef.current.offsetWidth;
+      const scrollPosition = carouselRef.current.scrollLeft;
+      const newIndex = Math.round(scrollPosition / cardWidth);
+      if (newIndex !== activeIndex && newIndex >= 0 && newIndex < categories.length) {
+        setActiveIndex(newIndex);
+      }
+    }
+  }, [activeIndex, isDragging]);
+
+  // Mouse drag handlers
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (!carouselRef.current) return;
+    setIsDragging(true);
+    setStartX(e.pageX - carouselRef.current.offsetLeft);
+    setScrollLeft(carouselRef.current.scrollLeft);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || !carouselRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - carouselRef.current.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    carouselRef.current.scrollLeft = scrollLeft - walk;
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleMouseLeave = () => {
+    setIsDragging(false);
+  };
+
+  // Touch handlers for mobile
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (!carouselRef.current) return;
+    setStartX(e.touches[0].pageX - carouselRef.current.offsetLeft);
+    setScrollLeft(carouselRef.current.scrollLeft);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!carouselRef.current) return;
+    const x = e.touches[0].pageX - carouselRef.current.offsetLeft;
+    const walk = (x - startX) * 1.5;
+    carouselRef.current.scrollLeft = scrollLeft - walk;
+  };
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") {
+        handlePrev();
+      } else if (e.key === "ArrowRight") {
+        handleNext();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [activeIndex]);
 
   return (
-    <div className="bg-zinc-900/50 rounded-3xl border border-zinc-800 p-6 min-h-[140px] flex flex-col">
-      {!activeCategory ? (
-        /* Centered buttons when no category selected */
-        <div className="flex-1 flex flex-col items-center justify-center">
-          <div className="flex flex-wrap justify-center gap-2">
+    <div className="bg-zinc-900/50 rounded-2xl border border-zinc-800 p-4">
+      {/* Carousel container */}
+      <div className="relative">
+        {/* Navigation arrows */}
+        <button
+          onClick={handlePrev}
+          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-10 w-8 h-8 rounded-full bg-zinc-800/80 hover:bg-zinc-700 flex items-center justify-center transition-colors text-zinc-400 hover:text-white"
+          aria-label="Previous"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <button
+          onClick={handleNext}
+          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 z-10 w-8 h-8 rounded-full bg-zinc-800/80 hover:bg-zinc-700 flex items-center justify-center transition-colors text-zinc-400 hover:text-white"
+          aria-label="Next"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+
+        {/* Scrollable carousel */}
+        <div
+          ref={carouselRef}
+          className="overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          onScroll={handleScroll}
+          onMouseDown={handleMouseDown}
+          onMouseMove={handleMouseMove}
+          onMouseUp={handleMouseUp}
+          onMouseLeave={handleMouseLeave}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+        >
+          <div className="flex">
             {categories.map((cat) => {
               const config = categoryConfig[cat];
+              const summary = sentiment[cat].summary;
+
               return (
-                <button
+                <div
                   key={cat}
-                  onClick={() => handleCategoryClick(cat)}
-                  className="px-4 py-1.5 rounded-full text-sm font-medium transition-all bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 cursor-pointer"
+                  className="w-full flex-shrink-0 snap-center px-2 sm:px-8"
                 >
-                  {config.verb}
-                </button>
+                  <div>
+                    <h3 className="text-sm font-semibold text-zinc-300 mb-2 font-[family-name:var(--font-space-mono)]">
+                      {config.label}
+                    </h3>
+                    <p className="text-sm text-zinc-400 leading-relaxed">
+                      {summary}
+                    </p>
+                  </div>
+                </div>
               );
             })}
           </div>
-          <p className="text-xs text-zinc-600 mt-3 text-center">AI-generated summary based on analyzed posts</p>
         </div>
-      ) : (
+      </div>
 
-        /* Content when category is selected */
-        <>
-          <div className="flex flex-wrap justify-center gap-2 mb-4">
-            {categories.map((cat) => {
-              const config = categoryConfig[cat];
-              const isActive = activeCategory === cat;
-              const isCompleted = completedCategories.has(cat);
-
-              return (
-                <button
-                  key={cat}
-                  onClick={() => handleCategoryClick(cat)}
-                  disabled={isTyping && !isActive}
-                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-                    isActive
-                      ? "bg-zinc-700 text-white ring-2 ring-zinc-500"
-                      : isCompleted
-                        ? "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
-                        : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-                  } ${isTyping && !isActive ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
-                >
-                  {isCompleted ? config.label : config.verb}
-                </button>
-              );
-            })}
-          </div>
-
-          <div className="min-h-[60px]">
-            <p className="text-sm text-zinc-400 leading-relaxed">
-              {completedCategories.has(activeCategory) ? (
-                getSummary(activeCategory)
-              ) : (
-                <TypewriterText text={getSummary(activeCategory)} onComplete={handleTypingComplete} />
-              )}
-            </p>
-          </div>
-        </>
-      )}
+      {/* Dots navigation */}
+      <div className="flex justify-center gap-2 mt-3">
+        {categories.map((cat, index) => (
+          <button
+            key={cat}
+            onClick={() => handleDotClick(index)}
+            className={`w-2 h-2 rounded-full transition-all ${
+              index === activeIndex
+                ? "bg-zinc-300 w-4"
+                : "bg-zinc-600 hover:bg-zinc-500"
+            }`}
+            aria-label={`Go to ${categoryConfig[cat].label}`}
+          />
+        ))}
+      </div>
     </div>
   );
 }

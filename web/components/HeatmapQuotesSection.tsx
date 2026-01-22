@@ -51,6 +51,15 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClus
   return (
     <>
       <section className="mb-4">
+        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Vibe Check</h2>
+        <InteractiveSummary sentiment={sentiment} />
+      </section>
+
+      <section className="mb-4">
+        <HotPostsTicker posts={hotPosts} />
+      </section>
+
+      <section className="mb-4">
         <div className="grid grid-cols-1 md:grid-cols-[6fr_5fr] gap-4 items-stretch">
           <div className="flex flex-col">
             <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Emotional Heatmap</h2>
@@ -61,15 +70,6 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClus
             <TrendingThemes clusters={thematicClusters} />
           </div>
         </div>
-      </section>
-
-      <section className="mb-4">
-        <HotPostsTicker posts={hotPosts} />
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">Vibe Check</h2>
-        <InteractiveSummary sentiment={sentiment} />
       </section>
 
       {signals && signals.length > 0 && (
