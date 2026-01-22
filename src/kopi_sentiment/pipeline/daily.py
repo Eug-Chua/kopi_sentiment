@@ -4,6 +4,7 @@ from datetime import date, timedelta, datetime
 import logging
 import time
 
+from kopi_sentiment.config.settings import settings
 from kopi_sentiment.pipeline.base import BasePipeline
 from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
 from kopi_sentiment.storage.json_storage import DailyJSONStorage
@@ -38,7 +39,7 @@ class DailyPipeline(BasePipeline):
         scraper = RedditScraper(subreddit=subreddit)
         posts = scraper.fetch_posts_with_content(
             limit=self.posts_per_subreddit,
-            delay=1.0,
+            delay=settings.scraper_delay,
             sort="top",
             time_filter="day",
         )
@@ -120,7 +121,7 @@ class DailyPipeline(BasePipeline):
 
             if i < len(self.subreddits) - 1:
                 logger.info("Waiting 30 seconds before next subreddit...")
-                time.sleep(30)
+                time.sleep(settings.subreddit_delay_daily)
 
         # Aggregate quotes
         all_quotes = self.aggregate_quotes(subreddit_reports)
@@ -151,7 +152,9 @@ class DailyPipeline(BasePipeline):
 
         # Generate insights
         logger.info("Generating daily insights...")
-        high_engagement_quotes = self._get_high_engagement_quotes(all_quotes, min_score=10, limit=10)
+        high_engagement_quotes = self._get_high_engagement_quotes(all_quotes,
+                                                                  min_score=settings.high_engagement_min_score_daily,
+                                                                  limit=settings.high_engagement_limit_daily)
         thematic_cluster_names = [t.topic for t in thematic_clusters]
         weekly_insights = self.analyzer.generate_weekly_insights(
             week_id=date_id,
@@ -205,12 +208,12 @@ class DailyPipeline(BasePipeline):
         saved_path = self.storage.save_daily_report(report)
         logger.info(f"Daily report saved to {saved_path}")
 
-        web_storage = DailyJSONStorage("web/public/data/daily")
+        web_storage = DailyJSONStorage(settings.web_data_path_daily)
         web_path = web_storage.save_daily_report(report)
         logger.info(f"Daily report also saved to {web_path}")
 
         # Cleanup old reports
-        self.storage.cleanup_old_reports(keep_days=30)
-        web_storage.cleanup_old_reports(keep_days=30)
+        self.storage.cleanup_old_reports(keep_days=settings.report_retention_days)
+        web_storage.cleanup_old_reports(keep_days=settings.report_retention_days)
 
         return report

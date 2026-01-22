@@ -173,9 +173,9 @@ class BasePipeline(ABC):
         else:
             change_pct = ((current_count - previous_count) / previous_count) * 100
 
-        if change_pct > 10:
+        if change_pct > settings.trend_threshold_pct:
             direction = TrendDirection.UP
-        elif change_pct < -10:
+        elif change_pct < -settings.trend_threshold_pct:
             direction = TrendDirection.DOWN
         else:
             direction = TrendDirection.STABLE

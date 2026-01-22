@@ -27,7 +27,7 @@ def run_daily(args):
         subreddits=settings.reddit_subreddit,
         posts_per_subreddit=args.posts or 10,
         llm_provider=args.provider or settings.llm_provider,
-        storage_path=args.output or "data/daily",
+        storage_path=args.output or settings.data_path_daily,
     )
 
     report = pipeline.run(date_id)
@@ -47,7 +47,7 @@ def run_weekly(args):
         subreddits=settings.reddit_subreddit,
         posts_per_subreddit=args.posts or 25,
         llm_provider=args.provider or settings.llm_provider,
-        storage_path=args.output or "data/weekly",
+        storage_path=args.output or settings.data_path_weekly,
     )
 
     report = pipeline.run(week_id)

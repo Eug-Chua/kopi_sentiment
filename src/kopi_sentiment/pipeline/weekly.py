@@ -4,6 +4,7 @@ from datetime import date, timedelta, datetime
 import logging
 import time
 
+from kopi_sentiment.config.settings import settings
 from kopi_sentiment.pipeline.base import BasePipeline
 from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
 from kopi_sentiment.storage.json_storage import JSONStorage
@@ -51,7 +52,7 @@ class WeeklyPipeline(BasePipeline):
         scraper = RedditScraper(subreddit=subreddit)
         posts = scraper.fetch_posts_with_content(
             limit=self.posts_per_subreddit,
-            delay=1.0,
+            delay=settings.scraper_delay,
             sort="top",
             time_filter="week",
         )
@@ -133,7 +134,7 @@ class WeeklyPipeline(BasePipeline):
 
             if i < len(self.subreddits) - 1:
                 logger.info("Waiting 1 minute before next subreddit...")
-                time.sleep(60)
+                time.sleep(settings.subreddit_delay_weekly)
 
         # Aggregate quotes
         all_quotes = self.aggregate_quotes(subreddit_reports)
@@ -163,7 +164,9 @@ class WeeklyPipeline(BasePipeline):
 
         # Generate insights
         logger.info("Generating weekly insights...")
-        high_engagement_quotes = self._get_high_engagement_quotes(all_quotes, min_score=20, limit=15)
+        high_engagement_quotes = self._get_high_engagement_quotes(all_quotes,
+                                                                  min_score=settings.high_engagement_min_score_weekly,
+                                                                  limit=settings.high_engagement_limit_weekly)
         thematic_cluster_names = [t.topic for t in thematic_clusters]
         insights = self.analyzer.generate_weekly_insights(
             week_id=week_id,
@@ -210,7 +213,7 @@ class WeeklyPipeline(BasePipeline):
         saved_path = self.storage.save_weekly_report(report)
         logger.info(f"Weekly report saved to {saved_path}")
 
-        web_storage = JSONStorage("web/public/data/weekly")
+        web_storage = JSONStorage(settings.web_data_path_weekly)
         web_path = web_storage.save_weekly_report(report)
         logger.info(f"Weekly report also saved to {web_path}")
 

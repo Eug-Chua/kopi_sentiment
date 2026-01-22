@@ -5,6 +5,7 @@ import logging
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+from kopi_sentiment.config.settings import settings
 from kopi_sentiment.analyzer.models import WeeklyReport, DailyReport
 
 logger = logging.getLogger(__name__)
@@ -31,7 +32,7 @@ class JSONStorage:
             base_path: Directory for storing JSON files. Defaults to 'data/weekly'.
         """
         if base_path is None:
-            base_path = Path("data/weekly")
+            base_path = Path(settings.data_path_weekly)
         elif isinstance(base_path, str):
             base_path = Path(base_path)
 
@@ -143,7 +144,7 @@ class DailyJSONStorage:
             base_path: Directory for storing JSON files. Defaults to 'data/daily'.
         """
         if base_path is None:
-            base_path = Path("data/daily")
+            base_path = Path(settings.data_path_daily)
         elif isinstance(base_path, str):
             base_path = Path(base_path)
 
