@@ -108,7 +108,7 @@ Respond in this exact JSON format:
     "aspirations": {{
         "intensity": "<mild|moderate|strong>",
         "summary": "<1-2 sentence summary>"
-    }}
+    }
 }}
 
 Return ONLY valid JSON, no other text.
