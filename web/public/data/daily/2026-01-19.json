@@ -3199,7 +3199,8 @@
       "dominant_emotion": "frustration",
       "sample_posts": [
         "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "Career transitions from public to private sector",
@@ -3209,6 +3210,13 @@
         "I've checked out so badly and I wanna quit my job",
         "Moving from Public Service to Private MNC",
         "Promotion income increment percentage for civil service?"
+      ],
+      "entities": [
+        "MOM",
+        "Public Service",
+        "Employment",
+        "Promotion",
+        "Civil Service"
       ]
     },
     {
@@ -3217,7 +3225,8 @@
       "dominant_emotion": "frustration",
       "sample_posts": [
         "Haze or smoke smell in the air (18 jan)"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "Property theft and security issues in HDB",
@@ -3226,6 +3235,10 @@
       "sample_posts": [
         "Man steals black bra from outside Serangoon Central HDB flat",
         "I live near someone who regularly steals"
+      ],
+      "entities": [
+        "HDB",
+        "Housing Costs"
       ]
     },
     {
@@ -3234,7 +3247,8 @@
       "dominant_emotion": "frustration",
       "sample_posts": [
         "Walking around IKEA as a single is the most depressing shit ever"
-      ]
+      ],
+      "entities": []
     }
   ],
   "insights": {

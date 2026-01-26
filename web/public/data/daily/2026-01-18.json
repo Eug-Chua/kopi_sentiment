@@ -4207,7 +4207,8 @@
       "dominant_emotion": "fear",
       "sample_posts": [
         "Are we prepared for nationalist right wing agenda?"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "Public transport etiquette and parenting intervention debates",
@@ -4215,6 +4216,11 @@
       "dominant_emotion": "frustration",
       "sample_posts": [
         "Man scolds mother over child's behaviour on MRT train, sparking debate over parenting in public places"
+      ],
+      "entities": [
+        "MRT",
+        "Parenting",
+        "Public Transport Etiquette"
       ]
     },
     {
@@ -4223,6 +4229,13 @@
       "dominant_emotion": "goal",
       "sample_posts": [
         "Ryanair CEO says S'pore's practice of paying public sector leaders higher wages 'very interesting'"
+      ],
+      "entities": [
+        "MOE",
+        "PSLE",
+        "O-levels",
+        "Employment",
+        "Healthcare"
       ]
     },
     {
@@ -4231,7 +4244,8 @@
       "dominant_emotion": "aspiration",
       "sample_posts": [
         "Meet the guy tracking illicit oil tankers from his rooftop"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "Emergency response systems and traffic priority improvements",
@@ -4239,6 +4253,11 @@
       "dominant_emotion": "aspiration",
       "sample_posts": [
         "Almost 2 minutes saved for each emergency trip to hospital under SCDF traffic priority system"
+      ],
+      "entities": [
+        "SCDF",
+        "Healthcare",
+        "Traffic Priority"
       ]
     }
   ],
