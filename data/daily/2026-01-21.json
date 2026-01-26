@@ -4341,7 +4341,8 @@
       "dominant_emotion": "frustration",
       "sample_posts": [
         "Seriously, can someone explain why our laws are so weak when it comes to dealing with nightmare neighbours?"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "Singapore Citizenship Application Rejections and Immigration",
@@ -4350,6 +4351,13 @@
       "sample_posts": [
         "I don't understand why my mom keeps getting rejected for the Singapore Citizenship. Any advice and thoughts?",
         "Should S'poreans be given preferential access to jobs?: IPS pilot project guides S'poreans & foreigners to find common ground on difficult topics"
+      ],
+      "entities": [
+        "MOM",
+        "Employment",
+        "NS",
+        "PSLE",
+        "O-levels"
       ]
     },
     {
@@ -4359,7 +4367,8 @@
       "sample_posts": [
         "Man and ex-girlfriend get jail over rape of 13-year-old girl",
         "S'pore teen boy & girl, aged 18 & 16, die after taking drugs for the 1st time"
-      ]
+      ],
+      "entities": []
     },
     {
       "topic": "AI Technology Impact on Singapore Employment",
@@ -4367,6 +4376,13 @@
       "dominant_emotion": "fear",
       "sample_posts": [
         "58% of Singapore workers worry AI will replace them in next 2 years: Survey"
+      ],
+      "entities": [
+        "MOM",
+        "Employment",
+        "O-levels",
+        "PSLE",
+        "Healthcare"
       ]
     },
     {
@@ -4375,6 +4391,11 @@
       "dominant_emotion": "fear",
       "sample_posts": [
         "1 in 10 S'poreans do not have close friendships; most still make friends in person: IPS study"
+      ],
+      "entities": [
+        "IPS",
+        "Friendship Building",
+        "Social Isolation"
       ]
     }
   ],
