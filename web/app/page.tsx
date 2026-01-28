@@ -1,4 +1,4 @@
-import { WeeklyReport, DailyReport } from "@/types";
+import { WeeklyReport, DailyReport, AnalyticsReport } from "@/types";
 import { Dashboard } from "@/components/Dashboard";
 
 async function getWeeklyReport(): Promise<WeeklyReport> {
@@ -75,11 +75,25 @@ async function getAvailableDates(): Promise<string[]> {
   }
 }
 
+async function getAnalyticsReport(): Promise<AnalyticsReport | null> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
+
+  try {
+    const filePath = path.join(process.cwd(), "public/data/analytics.json");
+    const data = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(data);
+  } catch {
+    return null;
+  }
+}
+
 export default async function Page() {
-  const [weeklyReport, dailyReport, availableDates] = await Promise.all([
+  const [weeklyReport, dailyReport, availableDates, analyticsReport] = await Promise.all([
     getWeeklyReport(),
     getLatestDailyReport(),
     getAvailableDates(),
+    getAnalyticsReport(),
   ]);
 
   return (
@@ -87,6 +101,7 @@ export default async function Page() {
       weeklyReport={weeklyReport}
       dailyReport={dailyReport}
       availableDates={availableDates}
+      analyticsReport={analyticsReport}
     />
   );
 }
