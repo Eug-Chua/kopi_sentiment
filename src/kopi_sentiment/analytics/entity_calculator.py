@@ -19,18 +19,22 @@ class EntityTrendCalculator:
         self,
         data_dir: str | Path = "data/daily",
         top_n: int = 10,
+        start_date: date | None = None,
+        end_date: date | None = None,
     ) -> EntityTrendsReport:
         """Generate entity trends report from daily data.
 
         Args:
             data_dir: Directory containing daily JSON reports.
             top_n: Number of top entities to include.
+            start_date: Optional start date to filter reports (inclusive).
+            end_date: Optional end date to filter reports (inclusive).
 
         Returns:
             EntityTrendsReport with aggregated trends.
         """
         data_path = Path(data_dir)
-        daily_data = self._load_daily_reports(data_path)
+        daily_data = self._load_daily_reports(data_path, start_date, end_date)
 
         if len(daily_data) < 1:
             return EntityTrendsReport(
@@ -51,11 +55,30 @@ class EntityTrendCalculator:
             top_entities=entity_trends,
         )
 
-    def _load_daily_reports(self, data_dir: Path) -> list[dict]:
-        """Load all daily reports, sorted by date."""
+    def _load_daily_reports(
+        self,
+        data_dir: Path,
+        start_date: date | None = None,
+        end_date: date | None = None,
+    ) -> list[dict]:
+        """Load daily reports, optionally filtered by date range."""
         reports = []
 
         for file_path in sorted(data_dir.glob("*.json")):
+            # Extract date from filename (e.g., "2026-01-15.json")
+            file_date_str = file_path.stem
+            try:
+                file_date = date.fromisoformat(file_date_str)
+            except ValueError:
+                # Skip files that don't have date-formatted names
+                continue
+
+            # Apply date filters
+            if start_date and file_date < start_date:
+                continue
+            if end_date and file_date > end_date:
+                continue
+
             with open(file_path) as f:
                 data = json.load(f)
                 reports.append(data)

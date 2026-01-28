@@ -61,18 +61,23 @@ class AnalyticsCalculator:
         self._commentary_generator = CommentaryGenerator(self.config)
 
     def generate_report(
-        self, data_dir: str | Path = "data/daily"
+        self,
+        data_dir: str | Path = "data/daily",
+        start_date: date | None = None,
+        end_date: date | None = None,
     ) -> AnalyticsReport:
         """Generate complete analytics report from daily data.
 
         Args:
             data_dir: Directory containing daily JSON reports.
+            start_date: Optional start date to filter reports (inclusive).
+            end_date: Optional end date to filter reports (inclusive).
 
         Returns:
             Complete AnalyticsReport with all analyses.
         """
         data_path = Path(data_dir)
-        daily_data = self._load_daily_reports(data_path)
+        daily_data = self._load_daily_reports(data_path, start_date, end_date)
 
         min_days = self.config.pipeline.min_days_required
         if len(daily_data) < min_days:
@@ -83,7 +88,7 @@ class AnalyticsCalculator:
         momentum = self._momentum_calculator.calculate(timeseries)
         velocity = self._velocity_calculator.calculate(timeseries)
         headline, insights = self._generate_insights(timeseries, momentum, velocity)
-        entity_trends = self._generate_entity_trends(data_path)
+        entity_trends = self._generate_entity_trends(data_path, start_date, end_date)
         commentary = self._commentary_generator.generate(timeseries, daily_data)
 
         return AnalyticsReport(
@@ -100,10 +105,38 @@ class AnalyticsCalculator:
             entity_trends=entity_trends,
         )
 
-    def _load_daily_reports(self, data_dir: Path) -> list[dict[str, Any]]:
-        """Load all daily reports, sorted by date."""
+    def _load_daily_reports(
+        self,
+        data_dir: Path,
+        start_date: date | None = None,
+        end_date: date | None = None,
+    ) -> list[dict[str, Any]]:
+        """Load daily reports, optionally filtered by date range.
+
+        Args:
+            data_dir: Directory containing daily JSON reports.
+            start_date: Optional start date to filter reports (inclusive).
+            end_date: Optional end date to filter reports (inclusive).
+
+        Returns:
+            List of daily report data, sorted by date.
+        """
         reports = []
         for file_path in sorted(data_dir.glob("*.json")):
+            # Extract date from filename (e.g., "2026-01-15.json")
+            file_date_str = file_path.stem
+            try:
+                file_date = date.fromisoformat(file_date_str)
+            except ValueError:
+                # Skip files that don't have date-formatted names
+                continue
+
+            # Apply date filters
+            if start_date and file_date < start_date:
+                continue
+            if end_date and file_date > end_date:
+                continue
+
             with open(file_path) as f:
                 reports.append(json.load(f))
         return reports
@@ -126,11 +159,18 @@ class AnalyticsCalculator:
             "std": stdev(all_scores) if len(all_scores) > 1 else 1,
         }
 
-    def _generate_entity_trends(self, data_path: Path):
+    def _generate_entity_trends(
+        self,
+        data_path: Path,
+        start_date: date | None = None,
+        end_date: date | None = None,
+    ):
         """Generate entity trends report (optional)."""
         try:
             calculator = EntityTrendCalculator()
-            return calculator.generate_report(data_path, top_n=10)
+            return calculator.generate_report(
+                data_path, top_n=10, start_date=start_date, end_date=end_date
+            )
         except Exception:
             return None
 
