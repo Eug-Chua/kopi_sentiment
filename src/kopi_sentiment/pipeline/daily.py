@@ -7,7 +7,7 @@ import time
 from kopi_sentiment.config.settings import settings
 from kopi_sentiment.pipeline.base import BasePipeline
 from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost
-from kopi_sentiment.storage.json_storage import DailyJSONStorage
+from kopi_sentiment.storage.json_storage import DailyJSONStorage, RawDataStorage
 from kopi_sentiment.analyzer.models import (
     DailyReport,
     DailyReportMetadata,
@@ -24,6 +24,7 @@ class DailyPipeline(BasePipeline):
     def __init__(self, subreddits, posts_per_subreddit, llm_provider, storage_path):
         super().__init__(subreddits, posts_per_subreddit, llm_provider)
         self.storage = DailyJSONStorage(storage_path)
+        self.raw_storage = RawDataStorage(data_type="daily")
         logger.info(
             f"DailyPipeline initialized: {len(self.subreddits)} subreddits, "
             f"{self.posts_per_subreddit} posts each"
@@ -72,8 +73,7 @@ class DailyPipeline(BasePipeline):
             previous_date=previous_report.report_date,
             fears=self._calc_category_trend(len(current_quotes.fears), len(prev_quotes.fears)),
             frustrations=self._calc_category_trend(len(current_quotes.frustrations), len(prev_quotes.frustrations)),
-            goals=self._calc_category_trend(len(current_quotes.goals), len(prev_quotes.goals)),
-            aspirations=self._calc_category_trend(len(current_quotes.aspirations), len(prev_quotes.aspirations)),
+            optimism=self._calc_category_trend(len(current_quotes.optimism), len(prev_quotes.optimism)),
         )
 
     def _build_trend_summary(self, trends: DailyTrends) -> str:
@@ -85,8 +85,7 @@ class DailyPipeline(BasePipeline):
         for name, trend in [
             ("Fears", trends.fears),
             ("Frustrations", trends.frustrations),
-            ("Goals", trends.goals),
-            ("Aspirations", trends.aspirations),
+            ("Optimism", trends.optimism),
         ]:
             if trend:
                 parts.append(f"- {name}: {trend.direction.value} {trend.change_pct:+.1f}% ({trend.previous_count} → {trend.current_count})")
@@ -99,17 +98,46 @@ class DailyPipeline(BasePipeline):
 
         logger.info(f"Starting daily pipeline for {date_id}")
 
-        # Scrape and analyze each subreddit
-        subreddit_reports = []
-        all_analyses = []
-        total_posts = 0
-        total_comments = 0
+        # Phase 1: Scrape all subreddits first
+        logger.info("Phase 1: Scraping all subreddits...")
+        all_scraped_posts: list[RedditPost] = []
+        posts_by_subreddit: dict[str, list[RedditPost]] = {}
 
         for i, subreddit in enumerate(self.subreddits):
             posts = self.scrape_subreddit(subreddit)
 
             if not posts:
                 logger.warning(f"No posts found for r/{subreddit} in last 24h")
+                posts_by_subreddit[subreddit] = []
+                continue
+
+            posts_by_subreddit[subreddit] = posts
+            all_scraped_posts.extend(posts)
+
+            if i < len(self.subreddits) - 1:
+                logger.info("Waiting 30 seconds before next subreddit...")
+                time.sleep(settings.subreddit_delay_daily)
+
+        # Phase 2: Save raw scraped data before LLM analysis
+        if all_scraped_posts:
+            logger.info("Phase 2: Saving raw scraped data...")
+            self.raw_storage.save_raw_scrape(
+                report_id=date_id,
+                posts=all_scraped_posts,
+                subreddits=self.subreddits,
+            )
+
+        # Phase 3: Analyze each subreddit
+        logger.info("Phase 3: Analyzing scraped data...")
+        subreddit_reports = []
+        all_analyses = []
+        total_posts = 0
+        total_comments = 0
+
+        for subreddit in self.subreddits:
+            posts = posts_by_subreddit.get(subreddit, [])
+
+            if not posts:
                 continue
 
             report, analyses = self.analyze_subreddit(subreddit, posts)
@@ -118,10 +146,6 @@ class DailyPipeline(BasePipeline):
             all_analyses.extend(analyses)
             total_posts += report.posts_analyzed
             total_comments += report.comments_analyzed
-
-            if i < len(self.subreddits) - 1:
-                logger.info("Waiting 30 seconds before next subreddit...")
-                time.sleep(settings.subreddit_delay_daily)
 
         # Aggregate quotes
         all_quotes = self.aggregate_quotes(subreddit_reports)
@@ -136,13 +160,15 @@ class DailyPipeline(BasePipeline):
             is_daily=True,
         )
 
-        # Detect thematic clusters
+        # Detect thematic clusters and enrich with URLs
         logger.info("Detecting thematic clusters...")
         post_titles = self.get_post_titles_with_scores(subreddit_reports)
         thematic_clusters = self.analyzer.detect_thematic_clusters(
             post_titles=post_titles,
             all_quotes=quotes_dict,
         )
+        title_to_url = self.build_title_to_url_map(subreddit_reports)
+        thematic_clusters = self.enrich_thematic_clusters_with_urls(thematic_clusters, title_to_url)
 
         # Calculate trends
         logger.info("Calculating day-over-day trends...")
@@ -212,8 +238,9 @@ class DailyPipeline(BasePipeline):
         web_path = web_storage.save_daily_report(report)
         logger.info(f"Daily report also saved to {web_path}")
 
-        # Cleanup old reports
+        # Cleanup old reports and raw data
         self.storage.cleanup_old_reports(keep_days=settings.report_retention_days)
         web_storage.cleanup_old_reports(keep_days=settings.report_retention_days)
+        self.raw_storage.cleanup_old_raw(keep_days=settings.report_retention_days)
 
         return report
