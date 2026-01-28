@@ -1,247 +1,300 @@
 "use client";
 
-import { DailySentimentScore } from "@/types";
+import { OverallSentiment, Intensity, AllQuotes, QuoteWithMetadata } from "@/types";
 
 interface CategoryHeatmapProps {
-  dataPoints: DailySentimentScore[];
+  overallSentiment?: OverallSentiment;
+  quotes?: AllQuotes;
+  /** Compact mode with smaller padding and flexible height */
+  compact?: boolean;
 }
 
 type CategoryKey = "fears" | "frustrations" | "optimism";
 
-interface CategoryConfig {
-  key: CategoryKey;
-  label: string;
-  shortLabel: string;
-  zscoreField: keyof DailySentimentScore;
-  countField: keyof DailySentimentScore;
+// Category-specific colors
+const categoryColors: Record<CategoryKey, { text: string; rgb: string; label: string }> = {
+  fears: { text: "text-amber-400", rgb: "245, 158, 11", label: "Fears" },
+  frustrations: { text: "text-red-400", rgb: "239, 68, 68", label: "Frustrations" },
+  optimism: { text: "text-emerald-400", rgb: "16, 185, 129", label: "Optimism" },
+};
+
+// Intensity opacity modifiers
+const intensityOpacity: Record<Intensity, number> = {
+  mild: 0.5,
+  moderate: 0.7,
+  strong: 0.9,
+};
+
+// Y-axis position for intensity levels
+const intensityYPosition: Record<Intensity, number> = {
+  mild: 20,
+  moderate: 50,
+  strong: 80,
+};
+
+interface BubbleData {
+  category: CategoryKey;
+  intensity: Intensity;
+  count: number;
+  avgEngagement: number;
 }
 
-const CATEGORIES: CategoryConfig[] = [
-  { key: "fears", label: "Fears", shortLabel: "FRS", zscoreField: "fears_zscore_sum", countField: "fears_count" },
-  { key: "frustrations", label: "Frustrations", shortLabel: "FRT", zscoreField: "frustrations_zscore_sum", countField: "frustrations_count" },
-  { key: "optimism", label: "Optimism", shortLabel: "OPT", zscoreField: "optimism_zscore_sum", countField: "optimism_count" },
-];
+/**
+ * Compute bubble data from quotes - groups by category and intensity,
+ * calculates count and average engagement for each group.
+ */
+function computeBubbleData(quotes: AllQuotes): BubbleData[] {
+  const categories: CategoryKey[] = ["fears", "frustrations", "optimism"];
+  const intensities: Intensity[] = ["mild", "moderate", "strong"];
+  const bubbles: BubbleData[] = [];
+
+  for (const category of categories) {
+    const categoryQuotes = quotes[category] || [];
+
+    for (const intensity of intensities) {
+      const filtered = categoryQuotes.filter((q: QuoteWithMetadata) => q.intensity === intensity);
+      if (filtered.length > 0) {
+        const totalEngagement = filtered.reduce((sum: number, q: QuoteWithMetadata) =>
+          sum + (q.comment_score || 0), 0);
+        bubbles.push({
+          category,
+          intensity,
+          count: filtered.length,
+          avgEngagement: totalEngagement / filtered.length,
+        });
+      }
+    }
+  }
+
+  return bubbles;
+}
 
 /**
- * Category heatmap showing daily z-score intensity by category.
- * Color intensity indicates strength of each category per day.
+ * Fallback: compute bubble data from overallSentiment counts only (no engagement data)
  */
-export function CategoryHeatmap({ dataPoints }: CategoryHeatmapProps) {
-  // Calculate max absolute z-score for normalization
-  const allZScores = dataPoints.flatMap(dp =>
-    CATEGORIES.map(cat => Math.abs(dp[cat.zscoreField] as number))
-  );
-  const maxAbsZScore = Math.max(...allZScores, 1);
+function computeBubbleDataFromSentiment(overallSentiment: OverallSentiment): BubbleData[] {
+  const categories: CategoryKey[] = ["fears", "frustrations", "optimism"];
+  const intensities: Intensity[] = ["mild", "moderate", "strong"];
+  const bubbles: BubbleData[] = [];
+
+  for (const category of categories) {
+    const breakdown = overallSentiment[category].intensity_breakdown;
+    for (const intensity of intensities) {
+      const count = breakdown[intensity];
+      if (count > 0) {
+        bubbles.push({
+          category,
+          intensity,
+          count,
+          avgEngagement: 0, // No engagement data available
+        });
+      }
+    }
+  }
+
+  return bubbles;
+}
+
+/**
+ * Scatter bubble chart showing sentiment distribution by category and intensity.
+ * X-axis: Average engagement (comment score)
+ * Y-axis: Intensity level (mild/moderate/strong)
+ * Bubble size: Quote count
+ */
+export function CategoryHeatmap({ overallSentiment, quotes, compact = false }: CategoryHeatmapProps) {
+  if (!overallSentiment && !quotes) {
+    return (
+      <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm p-4 h-full">
+        <p className="text-white/40 text-sm">No sentiment data available</p>
+      </div>
+    );
+  }
+
+  // Compute bubble data from quotes if available, otherwise from sentiment counts
+  const bubbles = quotes
+    ? computeBubbleData(quotes)
+    : overallSentiment
+      ? computeBubbleDataFromSentiment(overallSentiment)
+      : [];
+
+  if (bubbles.length === 0) {
+    return (
+      <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm p-4">
+        <p className="text-white/40 text-sm">No data to display</p>
+      </div>
+    );
+  }
+
+  // Calculate scales
+  const maxEngagement = Math.max(...bubbles.map(b => b.avgEngagement), 1);
+  const maxCount = Math.max(...bubbles.map(b => b.count), 1);
+  const totalQuotes = bubbles.reduce((sum, b) => sum + b.count, 0);
+
+  // Chart dimensions (percentage-based)
+  // In compact mode, add space for axis labels
+  const chartLeft = compact ? 12 : 12;
+  const chartRight = 96;
+  const chartTop = 6;
+  const chartBottom = 90;
+  const chartWidth = chartRight - chartLeft;
+  const chartHeightPercent = chartBottom - chartTop;
+
+  const minChartHeight = compact ? 140 : 200;
 
   return (
-    <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
+    <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm h-full flex flex-col">
       {/* Header */}
-      <div className="p-4 border-b border-white/[0.06]">
+      <div className={`${compact ? "p-3" : "p-4"} border-b border-white/[0.06]`}>
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div>
-              <p className="text-[11px] uppercase tracking-wider text-white/40 font-medium">
-                Category Heatmap
-              </p>
-              <p className="text-xs text-white/30 mt-0.5">Brighter = stronger sentiment that day</p>
-            </div>
-            {/* Z-score info tooltip */}
-            <div className="relative group">
-              <button className="w-4 h-4 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-[10px] text-white/40 hover:text-white/60 transition-colors">
-                ?
-              </button>
-              <div className="absolute left-0 top-full mt-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-30">
-                <div className="bg-[#18181b] border border-white/10 rounded-lg px-3 py-2.5 shadow-xl shadow-black/50 w-64">
-                  <p className="text-[10px] font-medium text-white/70 mb-1.5">How to read this</p>
-                  <div className="text-[9px] text-white/50 space-y-1">
-                    <p>Each cell shows one day&apos;s sentiment strength for that category.</p>
-                    <p className="mt-1.5"><span className="text-white/70">Brighter color</span> = more intense/engaged discussion</p>
-                    <p><span className="text-white/70">Darker color</span> = quieter day for that emotion</p>
-                    <p className="text-white/30 mt-2">Hover over any cell for details.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div>
+            <p className="text-[11px] uppercase tracking-wider text-white/40 font-medium">
+              Sentiment Distribution
+            </p>
+            {!compact && <p className="text-xs text-white/30 mt-0.5">Engagement vs Intensity</p>}
           </div>
-          <div className="flex items-center gap-3 text-[9px]">
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 rounded-sm bg-amber-500/50" />
-              <span className="text-amber-400">Fears</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 rounded-sm bg-red-500/50" />
-              <span className="text-red-400">Frust</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <div className="w-3 h-3 rounded-sm bg-emerald-500/50" />
-              <span className="text-emerald-400">Optim</span>
-            </div>
+          <div className="flex items-center gap-1.5 text-[8px] text-white/30">
+            <span className="flex items-center gap-0.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-500/70" />
+              <span className="text-amber-400/80">Fear</span>
+            </span>
+            <span className="flex items-center gap-0.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-red-500/70" />
+              <span className="text-red-400/80">Frust</span>
+            </span>
+            <span className="flex items-center gap-0.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500/70" />
+              <span className="text-emerald-400/80">Optim</span>
+            </span>
           </div>
         </div>
       </div>
 
-      {/* Heatmap grid - scrollable on mobile */}
-      <div className="p-3 sm:p-4 overflow-x-auto">
-        <div className="min-w-[500px]">
-        {/* Date headers */}
-        <div className="flex mb-2">
-          <div className="w-16 sm:w-20 shrink-0" /> {/* Spacer for row labels */}
-          <div className="flex-1 flex gap-[2px]">
-            {dataPoints.map((dp, i) => (
+      {/* Chart container */}
+      <div className={`${compact ? "p-2" : "p-4"} flex-1`}>
+        <div className="relative w-full h-full" style={{ minHeight: `${minChartHeight}px` }}>
+          {/* Y-axis labels - only in non-compact mode */}
+          {!compact && (
+            <div className="absolute left-0 top-0 bottom-0 w-[10%] flex flex-col justify-between text-[9px] text-white/40 py-2">
+              <span className="text-right pr-2">Strong</span>
+              <span className="text-right pr-2">Moderate</span>
+              <span className="text-right pr-2">Mild</span>
+            </div>
+          )}
+
+          {/* Chart area with grid */}
+          <div
+            className="absolute bg-white/[0.02] rounded-lg overflow-hidden"
+            style={{
+              left: `${chartLeft}%`,
+              right: `${100 - chartRight}%`,
+              top: `${chartTop}%`,
+              bottom: `${100 - chartBottom}%`
+            }}
+          >
+            {/* Horizontal grid lines */}
+            <div className="absolute w-full border-t border-white/[0.06]" style={{ top: "33.3%" }} />
+            <div className="absolute w-full border-t border-white/[0.06]" style={{ top: "66.6%" }} />
+
+            {/* Vertical grid lines */}
+            <div className="absolute h-full border-l border-white/[0.06]" style={{ left: "25%" }} />
+            <div className="absolute h-full border-l border-white/[0.06]" style={{ left: "50%" }} />
+            <div className="absolute h-full border-l border-white/[0.06]" style={{ left: "75%" }} />
+          </div>
+
+          {/* Bubbles */}
+          {bubbles.map((bubble) => {
+            const colors = categoryColors[bubble.category];
+            const opacity = intensityOpacity[bubble.intensity];
+
+            // X position based on engagement (0 to maxEngagement)
+            const xPercent = chartLeft + (bubble.avgEngagement / maxEngagement) * chartWidth * 0.9 + chartWidth * 0.05;
+
+            // Y position based on intensity level
+            const yPercent = chartTop + ((100 - intensityYPosition[bubble.intensity]) / 100) * chartHeightPercent;
+
+            // Bubble size: Linear radius proportional to count for better visual discrimination
+            const minRadius = compact ? 8 : 10; // Minimum visible size
+            const maxRadius = compact ? 40 : 52; // Maximum size for largest bubble
+
+            // Linear interpolation: smallest count gets minRadius, largest gets maxRadius
+            const minCount = Math.min(...bubbles.map(b => b.count));
+            const countRange = maxCount - minCount || 1;
+            const radiusRange = maxRadius - minRadius;
+
+            // Linear scale for radius (not area) - makes differences more visible
+            const radius = minRadius + ((bubble.count - minCount) / countRange) * radiusRange;
+
+            const percentage = ((bubble.count / totalQuotes) * 100).toFixed(0);
+
+            return (
               <div
-                key={dp.date}
-                className="flex-1 text-center text-[9px] text-white/30 tabular-nums"
+                key={`${bubble.category}-${bubble.intensity}`}
+                className="absolute group cursor-crosshair transition-all duration-200 hover:scale-110 hover:z-10 rounded-full flex items-center justify-center"
+                style={{
+                  left: `${xPercent}%`,
+                  top: `${yPercent}%`,
+                  width: `${radius}px`,
+                  height: `${radius}px`,
+                  transform: "translate(-50%, -50%)",
+                  backgroundColor: `rgba(${colors.rgb}, ${opacity})`,
+                  boxShadow: `0 0 ${radius/3}px rgba(${colors.rgb}, 0.3)`,
+                }}
               >
-                {i === 0 || i === dataPoints.length - 1 ? formatDateShort(dp.date) : ""}
-              </div>
-            ))}
-          </div>
-        </div>
+                {/* Count label inside bubble */}
+                {radius > 20 && (
+                  <span className="text-white/90 font-semibold text-[10px] tabular-nums">
+                    {bubble.count}
+                  </span>
+                )}
 
-        {/* Category rows */}
-        <div className="space-y-[2px]">
-          {CATEGORIES.map((cat) => (
-            <HeatmapRow
-              key={cat.key}
-              category={cat}
-              dataPoints={dataPoints}
-              maxAbsZScore={maxAbsZScore}
-            />
-          ))}
-        </div>
-
-        {/* Summary row - total activity */}
-        <div className="flex mt-3 pt-3 border-t border-white/[0.04]">
-          <div className="w-16 sm:w-20 shrink-0 flex items-center">
-            <span className="text-[10px] text-white/40">Total</span>
-          </div>
-          <div className="flex-1 flex gap-[2px]">
-            {dataPoints.map((dp) => {
-              const total = dp.total_quotes;
-              const maxTotal = Math.max(...dataPoints.map(d => d.total_quotes));
-              const intensity = total / maxTotal;
-
-              return (
-                <div
-                  key={`total-${dp.date}`}
-                  className="flex-1 h-4 rounded-sm relative group cursor-crosshair"
-                  style={{
-                    backgroundColor: `rgba(255, 255, 255, ${0.05 + intensity * 0.2})`,
-                  }}
-                >
-                  {/* Tooltip */}
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
-                    <div className="bg-[#18181b] border border-white/10 rounded px-2 py-1 shadow-xl whitespace-nowrap">
-                      <p className="text-[9px] text-white/40">{formatDate(dp.date)}</p>
-                      <p className="text-[10px] text-white/70 tabular-nums">{total} quotes</p>
+                {/* Tooltip */}
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
+                  <div className="bg-[#18181b] border border-white/10 rounded-lg px-2.5 py-2 shadow-xl shadow-black/50 whitespace-nowrap">
+                    <p className={`text-[11px] font-medium ${colors.text}`}>
+                      {colors.label}
+                    </p>
+                    <p className="text-[10px] text-white/60 mt-0.5 capitalize">
+                      {bubble.intensity} intensity
+                    </p>
+                    <div className="text-[10px] text-white/50 mt-1 pt-1 border-t border-white/10 space-y-0.5">
+                      <p>{bubble.count} quotes ({percentage}%)</p>
+                      {bubble.avgEngagement > 0 && (
+                        <p>Avg engagement: {bubble.avgEngagement.toFixed(1)}</p>
+                      )}
                     </div>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            );
+          })}
+
+          {/* X-axis label */}
+          <div
+            className={`absolute text-white/40 text-center ${compact ? "text-[8px]" : "text-[9px]"}`}
+            style={{
+              left: `${chartLeft}%`,
+              right: `${100 - chartRight}%`,
+              bottom: "0"
+            }}
+          >
+            <span>Engagement →</span>
+          </div>
+
+          {/* Y-axis label */}
+          <div
+            className={`absolute text-white/40 ${compact ? "text-[8px]" : "text-[9px]"}`}
+            style={{
+              left: "2px",
+              top: "50%",
+              transform: "rotate(-90deg) translateX(-50%)",
+              transformOrigin: "left center",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Intensity ↑
           </div>
         </div>
-        </div>
       </div>
     </div>
   );
-}
-
-interface HeatmapRowProps {
-  category: CategoryConfig;
-  dataPoints: DailySentimentScore[];
-  maxAbsZScore: number;
-}
-
-// Category-specific colors
-const categoryColorMap: Record<CategoryKey, { r: number; g: number; b: number; textClass: string }> = {
-  fears: { r: 245, g: 158, b: 11, textClass: "text-amber-400" },        // amber
-  frustrations: { r: 239, g: 68, b: 68, textClass: "text-red-400" },    // red
-  optimism: { r: 16, g: 185, b: 129, textClass: "text-emerald-400" },   // emerald
-};
-
-function HeatmapRow({ category, dataPoints, maxAbsZScore }: HeatmapRowProps) {
-  const color = categoryColorMap[category.key];
-
-  return (
-    <div className="flex">
-      {/* Row label */}
-      <div className="w-16 sm:w-20 shrink-0 flex items-center gap-2">
-        <span className={`text-[9px] font-mono bg-white/5 px-1.5 py-0.5 rounded ${color.textClass}`}>
-          {category.shortLabel}
-        </span>
-      </div>
-
-      {/* Cells */}
-      <div className="flex-1 flex gap-[2px]">
-        {dataPoints.map((dp, index) => {
-          const zscore = (dp[category.zscoreField] as number) ?? 0;
-          const quoteCount = (dp[category.countField] as number) ?? 0;
-          const normalizedIntensity = Math.abs(zscore) / maxAbsZScore;
-
-          // Calculate change from previous day
-          const prevZscore = index > 0 ? (dataPoints[index - 1][category.zscoreField] as number) ?? 0 : zscore;
-          const zscoreChange = zscore - prevZscore;
-          const hasChange = index > 0;
-
-          // Format z-score for display in cell
-          const displayZ = zscore.toFixed(0);
-
-          return (
-            <div
-              key={`${category.key}-${dp.date}`}
-              className="flex-1 h-8 rounded-sm relative group cursor-crosshair transition-all hover:ring-1 hover:ring-white/20 flex items-center justify-center"
-              style={{
-                backgroundColor: `rgba(${color.r}, ${color.g}, ${color.b}, ${0.15 + normalizedIntensity * 0.5})`,
-              }}
-            >
-              {/* Z-score in cell */}
-              <span className={`text-[9px] font-medium tabular-nums ${
-                normalizedIntensity > 0.5 ? "text-white/90" : "text-white/50"
-              }`}>
-                {displayZ}
-              </span>
-
-              {/* Enhanced Tooltip */}
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
-                <div className="bg-[#18181b] border border-white/10 rounded-lg px-2.5 py-2 shadow-xl shadow-black/50 whitespace-nowrap">
-                  <p className="text-[9px] text-white/40 mb-1">{formatDate(dp.date)}</p>
-                  <p className={`text-[11px] font-medium ${color.textClass}`}>{category.label}</p>
-
-                  {/* Z-score with change */}
-                  <div className="flex items-center gap-1.5 mt-1">
-                    <span className={`text-[11px] font-medium tabular-nums ${color.textClass}`}>
-                      z = {zscore >= 0 ? "+" : ""}{zscore.toFixed(1)}
-                    </span>
-                    {hasChange && (
-                      <span className={`text-[9px] tabular-nums ${
-                        zscoreChange > 0 ? "text-white/50" : zscoreChange < 0 ? "text-white/50" : "text-white/30"
-                      }`}>
-                        ({zscoreChange >= 0 ? "+" : ""}{zscoreChange.toFixed(1)})
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Quote count */}
-                  <p className="text-[10px] text-white/50 mt-1 pt-1 border-t border-white/10">
-                    {quoteCount} {quoteCount === 1 ? "quote" : "quotes"}
-                  </p>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-
-function formatDateShort(dateStr: string): string {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-}
-
-function formatDate(dateStr: string): string {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
 }

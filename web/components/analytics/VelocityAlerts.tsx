@@ -62,7 +62,7 @@ export function VelocityAlerts({ velocity }: VelocityAlertsProps) {
           <p className="text-[10px] text-white/30 mt-1">No anomalies detected (|z| &lt; 2.0)</p>
         </div>
       ) : (
-        <div className="divide-y divide-white/[0.04] max-h-80 overflow-y-auto">
+        <div className="divide-y divide-white/[0.04] max-h-48 overflow-y-auto scrollbar-thin">
           {sortedAlerts.map((alert) => (
             <AlertRow key={alert.alert_id} alert={alert} />
           ))}

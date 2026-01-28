@@ -28,7 +28,7 @@ export function ModeToggle({ mode, onModeChange }: ModeToggleProps) {
             : "text-zinc-400 hover:text-zinc-200"
         }`}
       >
-        7 Days
+        Week
       </button>
     </div>
   );

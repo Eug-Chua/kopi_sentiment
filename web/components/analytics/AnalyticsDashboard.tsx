@@ -1,11 +1,11 @@
 "use client";
 
-import { AnalyticsReport, OverallSentiment, Signal } from "@/types";
+import { AnalyticsReport, OverallSentiment, Signal, AllQuotes, DailySentimentScore } from "@/types";
 import { SentimentChart } from "./SentimentChart";
 import { CategoryHeatmap } from "./CategoryHeatmap";
 import { MomentumDisplay } from "./MomentumDisplay";
 import { VelocityAlerts } from "./VelocityAlerts";
-import { SentimentComposition } from "./MarketBreadth";
+import { SentimentComposition } from "./SentimentComposition";
 import { DivergencePanel } from "./DivergencePanel";
 import { EntityTrendsCompact } from "./EntityTrends";
 import { SignalsDisplay } from "./SignalsDisplay";
@@ -14,16 +14,20 @@ interface AnalyticsDashboardProps {
   report: AnalyticsReport;
   overallSentiment?: OverallSentiment;
   signals?: Signal[];
+  quotes?: AllQuotes;
+  isDaily?: boolean;
+  /** Full historical data points for week-over-week comparison */
+  allDataPoints?: DailySentimentScore[];
 }
 
 /**
  * Main analytics dashboard combining all trend analysis components.
  * Designed like a Bloomberg terminal for Singapore vibes.
  */
-export function AnalyticsDashboard({ report, overallSentiment, signals }: AnalyticsDashboardProps) {
+export function AnalyticsDashboard({ report, overallSentiment, signals, quotes, isDaily, allDataPoints }: AnalyticsDashboardProps) {
   return (
     <div className="space-y-4 sm:space-y-6">
-      {/* Row 1: Sentiment Pulse (wider) + Main Characters (narrower) */}
+      {/* Row 1: Sentiment Pulse (wider) + Main Characters + Sentiment Distribution (narrower, stacked) */}
       <div className="grid grid-cols-1 md:grid-cols-5 gap-4 sm:gap-6">
         <div className="md:col-span-3">
           <SentimentChart
@@ -31,11 +35,14 @@ export function AnalyticsDashboard({ report, overallSentiment, signals }: Analyt
             commentary={report.sentiment_commentary}
           />
         </div>
-        {report.entity_trends && (
-          <div className="md:col-span-2">
-            <EntityTrendsCompact report={report.entity_trends} />
+        <div className="md:col-span-2 flex flex-col gap-4">
+          {report.entity_trends && (
+            <EntityTrendsCompact report={report.entity_trends} maxEntities={3} todayOnly={isDaily} />
+          )}
+          <div className="flex-1">
+            <CategoryHeatmap overallSentiment={overallSentiment} quotes={quotes} compact />
           </div>
-        )}
+        </div>
       </div>
 
       {/* Read the Room - Signals display */}
@@ -43,18 +50,18 @@ export function AnalyticsDashboard({ report, overallSentiment, signals }: Analyt
         <SignalsDisplay signals={signals} />
       )}
 
-      {/* Category Heatmap - Daily z-score intensity */}
-      <CategoryHeatmap dataPoints={report.sentiment_timeseries.data_points} />
-
       {/* Two column: Momentum tiles + Velocity alerts */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-        <MomentumDisplay momentum={report.momentum} />
+        <MomentumDisplay momentum={report.momentum} velocity={report.velocity} />
         <VelocityAlerts velocity={report.velocity} />
       </div>
 
       {/* Two column: Sentiment Composition + Divergence Detection */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-        <SentimentComposition dataPoints={report.sentiment_timeseries.data_points} />
+        <SentimentComposition
+          dataPoints={isDaily ? report.sentiment_timeseries.data_points : (allDataPoints || report.sentiment_timeseries.data_points)}
+          isDaily={isDaily}
+        />
         <DivergencePanel dataPoints={report.sentiment_timeseries.data_points} />
       </div>
 

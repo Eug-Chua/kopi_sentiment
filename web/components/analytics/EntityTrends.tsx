@@ -194,59 +194,104 @@ function formatEngagement(value: number): string {
 
 /**
  * Compact version of EntityTrends for side-by-side layout with SentimentChart.
- * Shows top 5 entities in a condensed format.
+ * Shows top entities in a condensed format.
  */
 interface EntityTrendsCompactProps {
   report: EntityTrendsReport;
+  /** Maximum number of entities to display (default: 3) */
+  maxEntities?: number;
+  /** Show only today's engagement (daily mode) vs total (weekly mode) */
+  todayOnly?: boolean;
 }
 
-export function EntityTrendsCompact({ report }: EntityTrendsCompactProps) {
+interface EntityWithTodayData extends EntityTrend {
+  todayEngagement: number;
+  todayCategory: string;
+}
+
+export function EntityTrendsCompact({ report, maxEntities = 3, todayOnly = false }: EntityTrendsCompactProps) {
   if (!report.top_entities || report.top_entities.length === 0) {
     return (
-      <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm p-4">
+      <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm p-3">
         <p className="text-white/40 text-sm">No topic data available.</p>
       </div>
     );
   }
 
+  // For todayOnly mode, get the latest date and filter/sort by today's engagement
+  let entitiesToShow: (EntityTrend | EntityWithTodayData)[] = report.top_entities;
+
+  if (todayOnly) {
+    // Find the latest date across all entities
+    const latestDate = report.top_entities.reduce((latest, entity) => {
+      const entityLatest = entity.daily_data[entity.daily_data.length - 1]?.date;
+      return entityLatest && entityLatest > latest ? entityLatest : latest;
+    }, "");
+
+    // Filter to entities that have data for today and sort by today's engagement
+    entitiesToShow = report.top_entities
+      .map(entity => {
+        const todayData = entity.daily_data.find(d => d.date === latestDate);
+        return {
+          ...entity,
+          todayEngagement: todayData?.engagement || 0,
+          todayCategory: todayData?.categories?.[0] || entity.dominant_category,
+        } as EntityWithTodayData;
+      })
+      .filter(e => e.todayEngagement > 0)
+      .sort((a, b) => b.todayEngagement - a.todayEngagement);
+  }
+
   return (
-    <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm h-full flex flex-col">
+    <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
       {/* Header */}
-      <div className="p-4 border-b border-white/[0.06]">
+      <div className="p-3 border-b border-white/[0.06]">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-[11px] uppercase tracking-wider text-white/40 font-medium">
               Main Characters
             </p>
-            <p className="text-xs text-white/30 mt-0.5">
-              Sorted by topic cluster upvotes
+            <p className="text-[10px] text-white/30 mt-0.5">
+              {todayOnly ? "Today's engagement" : "By engagement"}
             </p>
           </div>
           <div className="flex items-center gap-2 text-[9px] text-white/30">
             <span className="flex items-center gap-1">
-              <span className="text-emerald-400">↗</span> Rising
+              <span className="text-emerald-400">↗</span> Up
             </span>
             <span className="flex items-center gap-1">
-              <span className="text-red-400">↘</span> Falling
+              <span className="text-red-400">↘</span> Down
             </span>
           </div>
         </div>
       </div>
 
       {/* Compact entity list */}
-      <div className="p-3 space-y-2 flex-1">
-        {report.top_entities.slice(0, 8).map((entity, index) => (
-          <EntityRowCompact key={entity.entity} entity={entity} rank={index + 1} />
+      <div className="p-2 space-y-1.5">
+        {entitiesToShow.slice(0, maxEntities).map((entity, index) => (
+          <EntityRowCompact
+            key={entity.entity}
+            entity={entity}
+            rank={index + 1}
+            engagementOverride={todayOnly ? (entity as EntityWithTodayData).todayEngagement : undefined}
+          />
         ))}
       </div>
     </div>
   );
 }
 
-function EntityRowCompact({ entity, rank }: EntityRowProps) {
+interface EntityRowCompactProps {
+  entity: EntityTrend;
+  rank: number;
+  engagementOverride?: number;
+}
+
+function EntityRowCompact({ entity, rank, engagementOverride }: EntityRowCompactProps) {
   const colors = categoryColors[entity.dominant_category] || categoryColors.unknown;
   const trendColor = trendColors[entity.trend_direction];
   const trendIcon = trendIcons[entity.trend_direction];
+  const engagement = engagementOverride ?? entity.total_engagement;
 
   return (
     <div className={`rounded-lg px-2.5 py-1.5 border ${colors.border} ${colors.bg} flex items-center justify-between gap-2`}>
@@ -267,7 +312,7 @@ function EntityRowCompact({ entity, rank }: EntityRowProps) {
       <div className="flex items-center gap-2 flex-shrink-0">
         <span className={`text-sm ${trendColor}`}>{trendIcon}</span>
         <span className="text-[10px] font-medium text-white/60 tabular-nums w-8 text-right">
-          {formatEngagement(entity.total_engagement)}
+          {formatEngagement(engagement)}
         </span>
       </div>
     </div>
