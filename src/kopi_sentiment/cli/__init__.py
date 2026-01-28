@@ -32,7 +32,41 @@ def run_daily(args):
 
     report = pipeline.run(date_id)
     logger.info(f"Daily analysis complete. Report saved for {report.date_id}")
+
+    # Auto-regenerate analytics unless --no-analytics flag is set
+    if not args.no_analytics:
+        logger.info("Regenerating analytics report...")
+        _regenerate_analytics(args.output or settings.data_path_daily)
+
     return 0
+
+
+def _regenerate_analytics(daily_data_dir: str | None = None):
+    """Helper to regenerate analytics after daily pipeline."""
+    import json
+    from pathlib import Path
+
+    from kopi_sentiment.analytics.calculator import AnalyticsCalculator
+
+    input_dir = daily_data_dir or "web/public/data/daily"
+    output_file = "web/public/data/analytics.json"
+
+    try:
+        calculator = AnalyticsCalculator()
+        report = calculator.generate_report(input_dir)
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, "w") as f:
+            json.dump(report.model_dump(mode="json"), f, indent=2, default=str)
+
+        logger.info(
+            f"Analytics updated: {report.data_range_start} to {report.data_range_end} "
+            f"({report.days_analyzed} days)"
+        )
+    except Exception as e:
+        logger.warning(f"Could not regenerate analytics: {e}")
 
 
 def run_weekly(args):
@@ -52,6 +86,36 @@ def run_weekly(args):
 
     report = pipeline.run(week_id)
     logger.info(f"Weekly analysis complete. Report saved for {report.week_id}")
+    return 0
+
+
+def run_analytics(args):
+    """Generate analytics report from daily data."""
+    import json
+    from pathlib import Path
+
+    from kopi_sentiment.analytics.calculator import AnalyticsCalculator
+
+    input_dir = args.input or "web/public/data/daily"
+    output_file = args.output or "web/public/data/analytics.json"
+
+    logger.info(f"Generating analytics from {input_dir}")
+
+    calculator = AnalyticsCalculator()
+    report = calculator.generate_report(input_dir)
+
+    # Save report
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w") as f:
+        json.dump(report.model_dump(mode="json"), f, indent=2, default=str)
+
+    logger.info(
+        f"Analytics report saved to {output_file} "
+        f"(range: {report.data_range_start} to {report.data_range_end}, "
+        f"{report.days_analyzed} days)"
+    )
     return 0
 
 
@@ -88,6 +152,11 @@ def main():
         type=str,
         help="Output directory for reports",
     )
+    daily_parser.add_argument(
+        "--no-analytics",
+        action="store_true",
+        help="Skip automatic analytics regeneration",
+    )
     daily_parser.set_defaults(func=run_daily)
 
     # Weekly command
@@ -115,6 +184,22 @@ def main():
         help="Output directory for reports",
     )
     weekly_parser.set_defaults(func=run_weekly)
+
+    # Analytics command
+    analytics_parser = subparsers.add_parser(
+        "analytics", help="Generate trend analytics from daily reports"
+    )
+    analytics_parser.add_argument(
+        "--input",
+        type=str,
+        help="Input directory with daily JSON reports (default: web/public/data/daily)",
+    )
+    analytics_parser.add_argument(
+        "--output",
+        type=str,
+        help="Output file path (default: web/public/data/analytics.json)",
+    )
+    analytics_parser.set_defaults(func=run_analytics)
 
     args = parser.parse_args()
 
