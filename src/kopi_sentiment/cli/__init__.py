@@ -92,17 +92,47 @@ def run_weekly(args):
 def run_analytics(args):
     """Generate analytics report from daily data."""
     import json
+    from datetime import datetime, timedelta
     from pathlib import Path
 
     from kopi_sentiment.analytics.calculator import AnalyticsCalculator
 
     input_dir = args.input or "web/public/data/daily"
-    output_file = args.output or "web/public/data/analytics.json"
 
-    logger.info(f"Generating analytics from {input_dir}")
+    # Determine output file based on --weekly flag
+    if args.weekly:
+        output_file = args.output or "web/public/data/analytics_weekly.json"
+    else:
+        output_file = args.output or "web/public/data/analytics.json"
+
+    # Calculate date range for weekly analytics
+    start_date = None
+    end_date = None
+
+    if args.weekly:
+        if args.week:
+            # Parse week ID (e.g., "2026-W04") using ISO week format
+            year, week_num = args.week.split("-W")
+            # Use ISO week format: %G=ISO year, %V=ISO week number, %u=weekday (1=Monday)
+            week_start = datetime.strptime(f"{year}-W{week_num}-1", "%G-W%V-%u").date()
+            start_date = week_start
+            end_date = week_start + timedelta(days=6)
+        else:
+            # Default to last complete week
+            today = date.today()
+            # Go back to last Sunday
+            days_since_sunday = (today.weekday() + 1) % 7
+            last_sunday = today - timedelta(days=days_since_sunday)
+            end_date = last_sunday
+            start_date = last_sunday - timedelta(days=6)
+
+        logger.info(f"Generating weekly analytics from {input_dir}")
+        logger.info(f"Date range: {start_date} to {end_date}")
+    else:
+        logger.info(f"Generating analytics from {input_dir}")
 
     calculator = AnalyticsCalculator()
-    report = calculator.generate_report(input_dir)
+    report = calculator.generate_report(input_dir, start_date=start_date, end_date=end_date)
 
     # Save report
     output_path = Path(output_file)
@@ -198,6 +228,16 @@ def main():
         "--output",
         type=str,
         help="Output file path (default: web/public/data/analytics.json)",
+    )
+    analytics_parser.add_argument(
+        "--weekly",
+        action="store_true",
+        help="Generate weekly analytics (7-day window) instead of rolling daily",
+    )
+    analytics_parser.add_argument(
+        "--week",
+        type=str,
+        help="Week ID to analyze (e.g., 2026-W04). Only used with --weekly flag.",
     )
     analytics_parser.set_defaults(func=run_analytics)
 
