@@ -197,47 +197,6 @@ class VelocityReport(BaseModel):
 
 
 # =============================================================================
-# Forecasting
-# =============================================================================
-
-class ForecastPoint(BaseModel):
-    """Single forecast with confidence interval."""
-    date: date
-    predicted_value: float
-    lower_bound: float
-    upper_bound: float
-
-
-class SentimentForecast(BaseModel):
-    """Linear regression forecast with train/test evaluation."""
-    generated_at: date
-
-    # Training set
-    training_start: date
-    training_end: date
-    training_points: int
-
-    # Test set evaluation
-    test_start: date
-    test_end: date
-    test_points: int
-    mae: float
-    rmse: float
-
-    # Model
-    slope: float
-    intercept: float
-    r_squared: float
-
-    # Forecast
-    forecast_horizon_days: int
-    forecasts: list[ForecastPoint]
-
-    trend_interpretation: str
-    model_quality: Literal["poor", "fair", "good"]
-
-
-# =============================================================================
 # Complete Report
 # =============================================================================
 
@@ -252,7 +211,6 @@ class AnalyticsReport(BaseModel):
     sentiment_timeseries: SentimentTimeSeries
     momentum: MomentumReport
     velocity: VelocityReport
-    forecast: SentimentForecast
 
     headline: str
     key_insights: list[str]

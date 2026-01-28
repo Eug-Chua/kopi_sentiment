@@ -41,17 +41,6 @@
     "min_periods": 3
   },
 
-  "forecast": {
-    "_comment": "Forecasting parameters",
-    "train_ratio": 0.7,
-    "forecast_horizon_days": 3,
-    "confidence_level": 0.95,
-    "z_critical": 1.96,
-    "min_ci_margin": 0.1,
-    "r_squared_poor": 0.3,
-    "r_squared_fair": 0.6
-  },
-
   "trend": {
     "_comment": "Trend classification thresholds",
     "slope_stable_threshold": 0.5,
