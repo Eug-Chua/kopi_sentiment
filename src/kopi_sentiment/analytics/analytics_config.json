@@ -1,0 +1,84 @@
+{
+  "_comment": "Analytics Scoring Configuration - See METHODOLOGY.md for derivation details",
+  "version": "1.1",
+
+  "intensity_z_scores": {
+    "_comment": "Maps intensity to z-scores based on empirical distribution (2,000 quotes, Jan 15-24, 2026)",
+    "mild": -1.64,
+    "moderate": -0.49,
+    "strong": 0.71
+  },
+
+  "calibration": {
+    "_comment": "Metadata about when/how the calibration was done",
+    "calibrated_at": "2026-01-24",
+    "data_range_start": "2026-01-15",
+    "data_range_end": "2026-01-24",
+    "total_quotes_analyzed": 2000,
+    "distribution": {
+      "mild": 10.1,
+      "moderate": 41.9,
+      "strong": 47.9
+    }
+  },
+
+  "alert_thresholds": {
+    "_comment": "Z-score thresholds for anomaly detection (|z| >= 2.0 is p < 0.05)",
+    "notable": 1.0,
+    "warning": 1.5,
+    "alert": 2.0,
+    "significant_z": 2.0
+  },
+
+  "engagement": {
+    "_comment": "Engagement scoring parameters",
+    "z_floor": -2.0
+  },
+
+  "ema": {
+    "_comment": "Exponential moving average parameters",
+    "span": 7,
+    "min_periods": 3
+  },
+
+  "forecast": {
+    "_comment": "Forecasting parameters",
+    "train_ratio": 0.7,
+    "forecast_horizon_days": 3,
+    "confidence_level": 0.95,
+    "z_critical": 1.96,
+    "min_ci_margin": 0.1,
+    "r_squared_poor": 0.3,
+    "r_squared_fair": 0.6
+  },
+
+  "trend": {
+    "_comment": "Trend classification thresholds",
+    "slope_stable_threshold": 0.5,
+    "roc_weak_threshold": 10,
+    "roc_strong_threshold": 25
+  },
+
+  "momentum": {
+    "_comment": "Momentum calculation parameters (lookback in days, stored as index offsets)",
+    "roc_1d_lookback": 2,
+    "roc_3d_lookback": 4,
+    "roc_7d_lookback": 8
+  },
+
+  "velocity": {
+    "_comment": "Velocity calculation parameters",
+    "lookback_days": 7
+  },
+
+  "pipeline": {
+    "_comment": "Pipeline requirements",
+    "min_days_required": 3
+  },
+
+  "commentary": {
+    "_comment": "LLM commentary generation settings",
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 500
+  }
+}
