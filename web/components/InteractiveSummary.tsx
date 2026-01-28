@@ -7,16 +7,15 @@ interface InteractiveSummaryProps {
   sentiment: OverallSentiment;
 }
 
-type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
+type CategoryKey = "fears" | "frustrations" | "optimism";
 
 const categoryConfig: Record<CategoryKey, { label: string }> = {
   fears: { label: "Fears" },
   frustrations: { label: "Frustrations" },
-  goals: { label: "Goals" },
-  aspirations: { label: "Aspirations" },
+  optimism: { label: "Optimism" },
 };
 
-const categories: CategoryKey[] = ["fears", "frustrations", "goals", "aspirations"];
+const categories: CategoryKey[] = ["fears", "frustrations", "optimism"];
 
 export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -157,7 +156,11 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
           <div className="flex">
             {categories.map((cat) => {
               const config = categoryConfig[cat];
-              const summary = sentiment[cat].summary;
+              // Handle old FFGA data format: map optimism to goals+aspirations fallback
+              const sentimentAny = sentiment as unknown as Record<string, { summary: string } | undefined>;
+              const categoryData = sentimentAny[cat] ||
+                (cat === "optimism" && sentimentAny.goals ? sentimentAny.goals : null);
+              const summary = categoryData?.summary || "No data available.";
 
               return (
                 <div
@@ -168,9 +171,23 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
                     <h3 className="text-sm font-semibold text-zinc-300 mb-2 font-[family-name:var(--font-space-mono)]">
                       {config.label}
                     </h3>
-                    <p className="text-sm text-zinc-400 leading-relaxed">
-                      {summary}
-                    </p>
+                    <ul className="text-sm text-zinc-400 leading-relaxed space-y-2">
+                      {summary
+                        .split(/(?<=[.!?])\s+/)
+                        .filter((sentence) => sentence.trim())
+                        .map((sentence, idx) => (
+                          <li key={idx} className="flex gap-2">
+                            <span className="text-zinc-600 mt-0.5">•</span>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: sentence
+                                  // Bold words at start of sentence (first 2-4 words before a comma or colon)
+                                  .replace(/^([^,.:]+[,.:]?)/, '<strong class="text-zinc-200">$1</strong>')
+                              }}
+                            />
+                          </li>
+                        ))}
+                    </ul>
                   </div>
                 </div>
               );

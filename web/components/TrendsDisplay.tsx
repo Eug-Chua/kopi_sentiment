@@ -58,8 +58,7 @@ export function TrendsDisplay({ trends }: TrendsDisplayProps) {
     <div className="flex flex-wrap items-center gap-2">
       <CompactTrendBadge trend={trends.fears} label="F" />
       <CompactTrendBadge trend={trends.frustrations} label="Fr" />
-      <CompactTrendBadge trend={trends.goals} label="G" />
-      <CompactTrendBadge trend={trends.aspirations} label="A" />
+      <CompactTrendBadge trend={trends.optimism} label="O" />
     </div>
   );
 }

@@ -9,8 +9,7 @@ export function SentimentSummary({ sentiment }: SentimentSummaryProps) {
     const categories = [
         { key: "fears", label: "Fears", summary: sentiment.fears.summary},
         { key: "frustrations", label: "Frustrations", summary: sentiment.frustrations.summary},
-        { key: "goals", label: "Goals", summary: sentiment.goals.summary},
-        { key: "aspirations", label: "Aspirations", summary: sentiment.aspirations.summary},
+        { key: "optimism", label: "Optimism", summary: sentiment.optimism.summary},
       ];
       
 

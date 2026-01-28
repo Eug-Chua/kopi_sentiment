@@ -1,15 +1,14 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, Signal, ThematicCluster } from "@/types";
+import { OverallSentiment, AllQuotes, Intensity, PostAnalysis, ThematicCluster } from "@/types";
 import { IntensityHeatmap } from "./IntensityHeatmap";
 import { HotPostsTicker } from "./HotPostsTicker";
 import { CategoryTabs } from "./CategoryTabs";
 import { TrendingThemes } from "./TrendingThemes";
 import { InteractiveSummary } from "./InteractiveSummary";
-import { RiskMonitor } from "./RiskMonitor";
 
-type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
+type CategoryKey = "fears" | "frustrations" | "optimism";
 
 export interface QuoteFilter {
   category: CategoryKey;
@@ -21,10 +20,9 @@ interface HeatmapQuotesSectionProps {
   quotes: AllQuotes;
   hotPosts: PostAnalysis[];
   thematicClusters?: ThematicCluster[];
-  signals?: Signal[];
 }
 
-export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClusters, signals }: HeatmapQuotesSectionProps) {
+export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClusters }: HeatmapQuotesSectionProps) {
   const [filter, setFilter] = useState<QuoteFilter | null>(null);
   const quotesRef = useRef<HTMLDivElement>(null);
 
@@ -71,13 +69,6 @@ export function HeatmapQuotesSection({ sentiment, quotes, hotPosts, thematicClus
           </div>
         </div>
       </section>
-
-      {signals && signals.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-4 font-[family-name:var(--font-space-mono)]">What The People Are Saying</h2>
-          <RiskMonitor signals={signals} />
-        </section>
-      )}
 
       <section ref={quotesRef}>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-2">

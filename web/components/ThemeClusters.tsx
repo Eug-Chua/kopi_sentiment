@@ -1,22 +1,21 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ThemeCluster, FFGACategory } from "@/types";
+import { ThemeCluster, FFOCategory } from "@/types";
 
 interface ThemeClustersProps {
   clusters: ThemeCluster[];
 }
 
-function getCategoryColor(category: FFGACategory): string {
+function getCategoryColor(category: FFOCategory): string {
   switch (category) {
-    case "fear": return "bg-purple-500/20 text-purple-400 border-purple-500/30";
+    case "fear": return "bg-amber-500/20 text-amber-400 border-amber-500/30";
     case "frustration": return "bg-red-500/20 text-red-400 border-red-500/30";
-    case "goal": return "bg-blue-500/20 text-blue-400 border-blue-500/30";
-    case "aspiration": return "bg-green-500/20 text-green-400 border-green-500/30";
+    case "optimism": return "bg-emerald-500/20 text-emerald-400 border-emerald-500/30";
     default: return "bg-gray-500/20 text-gray-400 border-gray-500/30";
   }
 }
 
-function getCategoryLabel(category: FFGACategory): string {
+function getCategoryLabel(category: FFOCategory): string {
   return category.charAt(0).toUpperCase() + category.slice(1);
 }
 

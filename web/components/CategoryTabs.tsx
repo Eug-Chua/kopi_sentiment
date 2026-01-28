@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { QuoteCard } from "./QuoteCard";
 import { AllQuotes, QuoteWithMetadata, Intensity } from "@/types";
 
-type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
+type CategoryKey = "fears" | "frustrations" | "optimism";
 
 export interface QuoteFilter {
   category: CategoryKey;
@@ -60,8 +60,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>({
     fears: QUOTES_PER_PAGE,
     frustrations: QUOTES_PER_PAGE,
-    goals: QUOTES_PER_PAGE,
-    aspirations: QUOTES_PER_PAGE,
+    optimism: QUOTES_PER_PAGE,
   });
   const [loadingCategory, setLoadingCategory] = useState<string | null>(null);
 
@@ -101,8 +100,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
   const categories = [
     { key: "fears", label: "Fears", data: quotes.fears },
     { key: "frustrations", label: "Frustrations", data: quotes.frustrations },
-    { key: "goals", label: "Goals", data: quotes.goals },
-    { key: "aspirations", label: "Aspirations", data: quotes.aspirations },
+    { key: "optimism", label: "Optimism", data: quotes.optimism },
   ];
 
   const handleLoadMore = useCallback((categoryKey: string) => {
@@ -129,7 +127,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
         />
       </div>
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-      <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto gap-1">
+      <TabsList className="grid w-full grid-cols-3 h-auto gap-1">
         {categories.map((cat) => {
           const filteredData = filterQuotes(cat.data, cat.key);
           const isFiltered = filter && filter.category === cat.key;

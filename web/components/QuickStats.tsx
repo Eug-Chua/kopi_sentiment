@@ -9,20 +9,18 @@ interface QuickStatsProps {
   trends?: Trends | null;
 }
 
-type CategoryKey = "fears" | "frustrations" | "goals" | "aspirations";
+type CategoryKey = "fears" | "frustrations" | "optimism";
 
 const categoryLabels: Record<CategoryKey, string> = {
   fears: "Fears",
   frustrations: "Frustrations",
-  goals: "Goals",
-  aspirations: "Aspirations",
+  optimism: "Optimism",
 };
 
 const categoryColors: Record<CategoryKey, { fill: string; stroke: string; text: string }> = {
-  fears: { fill: "rgba(168, 85, 247, 0.15)", stroke: "#a855f7", text: "text-purple-400" },
+  fears: { fill: "rgba(245, 158, 11, 0.15)", stroke: "#f59e0b", text: "text-amber-400" },
   frustrations: { fill: "rgba(239, 68, 68, 0.15)", stroke: "#ef4444", text: "text-red-400" },
-  goals: { fill: "rgba(59, 130, 246, 0.15)", stroke: "#3b82f6", text: "text-blue-400" },
-  aspirations: { fill: "rgba(34, 197, 94, 0.15)", stroke: "#22c55e", text: "text-green-400" },
+  optimism: { fill: "rgba(16, 185, 129, 0.15)", stroke: "#10b981", text: "text-emerald-400" },
 };
 
 // Type guard to check if trends has data
@@ -35,7 +33,7 @@ function hasPreviousData(trends: Trends): boolean {
 
 // Radar chart component
 interface RadarChartProps {
-  values: number[]; // 4 values (0-1 normalized) for fears, frustrations, goals, aspirations
+  values: number[]; // 3 values (0-1 normalized) for fears, frustrations, optimism
   previousValues?: number[]; // Optional previous period values
   labels: string[];
   size?: number;
@@ -44,7 +42,8 @@ interface RadarChartProps {
 function RadarChart({ values, previousValues, labels, size = 160 }: RadarChartProps) {
   const center = size / 2;
   const radius = (size / 2) - 16; // Leave room for labels (reduced from 24)
-  const angleStep = (2 * Math.PI) / 4;
+  const numAxes = values.length; // 3 for FFO
+  const angleStep = (2 * Math.PI) / numAxes;
   const startAngle = -Math.PI / 2; // Start from top
 
   // Calculate point positions
@@ -94,7 +93,7 @@ function RadarChart({ values, previousValues, labels, size = 160 }: RadarChartPr
       ))}
 
       {/* Grid lines from center to each axis */}
-      {[0, 1, 2, 3].map((i) => {
+      {values.map((_, i) => {
         const point = getPoint(1, i);
         return (
           <line
@@ -189,8 +188,7 @@ export function QuickStats({ sentiment, trends }: QuickStatsProps) {
   const categories: { key: CategoryKey; data: typeof sentiment.fears }[] = [
     { key: "fears", data: sentiment.fears },
     { key: "frustrations", data: sentiment.frustrations },
-    { key: "goals", data: sentiment.goals },
-    { key: "aspirations", data: sentiment.aspirations },
+    { key: "optimism", data: sentiment.optimism },
   ];
 
   // Get trend for a category
@@ -231,7 +229,7 @@ export function QuickStats({ sentiment, trends }: QuickStatsProps) {
           <RadarChart
             values={normalizedValues}
             previousValues={previousNormalizedValues}
-            labels={["F", "Fr", "G", "A"]}
+            labels={["F", "Fr", "O"]}
             size={150}
           />
         </div>
