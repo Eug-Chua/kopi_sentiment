@@ -2,10 +2,10 @@
   "schema_version": "daily_report_v1",
   "date_id": "2026-01-19",
   "report_date": "2026-01-19",
-  "generated_at": "2026-01-19T11:57:22.974627",
+  "generated_at": "2026-01-27T20:02:55.912343",
   "metadata": {
     "total_posts_analyzed": 27,
-    "total_comments_analyzed": 498,
+    "total_comments_analyzed": 156,
     "subreddits": [
       "singapore",
       "askSingapore",
@@ -16,40 +16,30 @@
   "overall_sentiment": {
     "fears": {
       "intensity": "moderate",
-      "summary": "Singaporeans are primarily anxious about job security when transitioning from public to private sector roles, with concerns about sudden layoffs due to restructuring. Career burnout and personal safety issues, including neighborhood theft concerns, are also weighing on residents' minds.",
-      "quote_count": 15,
+      "summary": "Job security concerns dominate workplace anxieties today. Singaporeans worry about the vulnerability of MNC positions, where restructuring can eliminate roles regardless of performance, contrasting with the stability of public sector jobs. Personal safety fears also emerge around neighborhood theft incidents, with residents questioning police follow-through on CCTV evidence. Career transitions and relationship decisions add another layer of uncertainty to an already complex landscape.",
+      "quote_count": 16,
       "intensity_breakdown": {
         "mild": 2,
-        "moderate": 9,
-        "strong": 4
+        "moderate": 8,
+        "strong": 6
       }
     },
     "frustrations": {
       "intensity": "strong",
-      "summary": "Strong frustrations dominate today's discussions, centered on perceived unfair business practices like misleading roast pork weights and inadequate police response to theft cases despite CCTV evidence. Citizens express anger at systemic issues ranging from poor civic behavior like not returning food court trays to political integrity concerns in Parliament.",
-      "quote_count": 68,
+      "summary": "Public service delivery failures spark widespread anger. Citizens are fed up with police inaction on theft cases despite clear CCTV evidence, while basic civic responsibilities like tray return enforcement remain neglected. Commercial disputes over misleading pricing practices add to the grievances, with businesses failing to honor refunds when closing down. Political discourse and civil service promotion structures also draw sharp criticism from residents seeking transparency and accountability.",
+      "quote_count": 50,
       "intensity_breakdown": {
         "mild": 0,
-        "moderate": 10,
-        "strong": 58
+        "moderate": 4,
+        "strong": 46
       }
     },
-    "goals": {
+    "optimism": {
       "intensity": "moderate",
-      "summary": "Singaporeans are setting practical goals focused on personal wellbeing, with many prioritizing mental health over financial pressures and considering career breaks when jobs become unsustainable. There's a moderate push toward self-empowerment, whether addressing air quality concerns independently or seeking compatible life partners regardless of societal expectations.",
-      "quote_count": 36,
+      "summary": "Career transitions and personal relationships fuel positive sentiment today. Many Singaporeans express confidence about mental health priorities and brave career moves, viewing job changes as opportunities for growth rather than risks. Relationship discussions reveal genuine appreciation for partners who share life outlooks and demonstrate reliability. The optimism extends to practical matters like business transactions, where people maintain trust in fair dealing despite occasional setbacks.",
+      "quote_count": 32,
       "intensity_breakdown": {
-        "mild": 2,
-        "moderate": 31,
-        "strong": 3
-      }
-    },
-    "aspirations": {
-      "intensity": "moderate",
-      "summary": "Citizens aspire toward a more inclusive and progressive Singapore where social mobility allows even the least privileged to afford quality goods like Muji or Uniqlo. Personal growth and authentic relationships take precedence over conformity, with many expressing desires to prioritize individual achievement and genuine compatibility over traditional social constructs.",
-      "quote_count": 37,
-      "intensity_breakdown": {
-        "mild": 10,
+        "mild": 5,
         "moderate": 24,
         "strong": 3
       }
@@ -59,7 +49,7 @@
     {
       "name": "singapore",
       "posts_analyzed": 1,
-      "comments_analyzed": 25,
+      "comments_analyzed": 3,
       "top_posts": [
         {
           "id": "t3_1qfy8do",
@@ -81,34 +71,19 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is palpable frustration regarding theft in Singapore, particularly about the perceived inefficacy of law enforcement despite the existence of CCTV footage.",
+              "summary": "The individual expresses significant frustration about the lack of police action regarding thefts, emphasizing a perceived failure in law enforcement despite the availability of evidence.",
               "quotes": [
                 {
-                  "quote": "This is why nowadays people don’t hang their lingerie out to dry. Even with CCTV, still got people steal them",
-                  "score": 86
-                },
-                {
-                  "quote": "You just go around the sg related subreddits of people reporting thefts with cctv and police not doing anything about it One I remember is bicycle stolen right in front of the cctv at the parking racks and the IO never followup, eventually closing the case when reminded Its no secret that the policecantrack someone down via CCTV, the important questionwillthey do it. How important is the case that its prioritized over the others in the list?",
+                  "quote": "You just go around the sg related subreddits of people reporting thefts with cctv and police not doing anything about it One I remember is bicycle stolen right in front of the cctv at the parking racks and the IO never followup, eventually closing the case when reminded Its no secret that the policecantrack someone down via CCTV, the important questionwillthey do it.",
                   "score": 9
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a desire for social progress in Singapore, particularly for improving the living standards of all residents.",
-              "quotes": [
-                {
-                  "quote": "The best yardstick for social progress is the day when even the least well-off denizens of Singapore can afford to hang Muji/Uniqlo outside.",
-                  "score": -1
-                }
-              ]
             }
           }
         }
@@ -117,7 +92,7 @@
     {
       "name": "askSingapore",
       "posts_analyzed": 10,
-      "comments_analyzed": 221,
+      "comments_analyzed": 66,
       "top_posts": [
         {
           "id": "t3_1qg5xe1",
@@ -139,7 +114,22 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The frustrations expressed regarding the pricing and weight of roast pork are intense, highlighting feelings of injustice and dissatisfaction with the transparency of pricing in the industry.",
+              "summary": "There is a strong sense of frustration expressed regarding the weight of the roast pork, with emphasis on the perceived unfairness of receiving less than expected and the lack of transparency from businesses.",
+              "quotes": [
+                {
+                  "quote": "Getting less than 700g roast pork for 1kg is quite insane in this day and age. Most, if not all in the industry are very transparent.",
+                  "score": 145
+                },
+                {
+                  "quote": "What sort of biz need to go out of biz. They don’t even bother to refund u…..",
+                  "score": 21
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "A moderate level of optimism is visible in the belief that the roast pork should be advertised as the final product weight, suggesting clarity and fairness in the transaction.",
               "quotes": [
                 {
                   "quote": "I think it was advertised as roast pork at 65 per kg, not raw pork at 65 per kg to be roasted for you.",
@@ -148,32 +138,8 @@
                 {
                   "quote": "1kg after cooking. Unless clearly stated, you're paying for the final product, not the raw ingredients",
                   "score": 269
-                },
-                {
-                  "quote": "Getting less than 700g roast pork for 1kg is quite insane in this day and age. Most, if not all in the industry are very transparent.",
-                  "score": 145
-                },
-                {
-                  "quote": "What sort of biz need to go out of biz. They don’t even bother to refund u…..",
-                  "score": 21
-                },
-                {
-                  "quote": "Make it make sense bruh",
-                  "score": 2
                 }
               ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -191,25 +157,19 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             }
           }
@@ -234,12 +194,8 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a notable sense of outrage and intensity in the frustrations expressed about the haze, particularly regarding the local news blackout and the physical discomfort caused by the haze.",
+              "summary": "The frustrations are expressed passionately, highlighting the severe impact of the haze on health and the lack of sufficient news coverage.",
               "quotes": [
-                {
-                  "quote": "dk why local news not reporting on it",
-                  "score": 6
-                },
                 {
                   "quote": "Same here. The haze is damn bad and I can't find other news about it",
                   "score": 30
@@ -250,19 +206,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The quotes reflect a clear motivational stance, emphasizing individual empowerment and the importance of taking proactive steps in response to the haze, even without government guidance.",
-              "quotes": [
-                {
-                  "quote": "we don't need the gov to tell us the air is irritating/toxic to do something about it. If it's causing you to sneeze or feel irritated, you are empowered to close window and on air purifier 💪🏻",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -282,11 +227,11 @@
             "post_title": "I’ve checked out so badly and I wanna quit my job",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "There is a clear concern about health and the anxiety of financial planning when contemplating a break, emphasizing the balance between wellbeing and financial stability.",
+              "intensity": "mild",
+              "summary": "The comment indicates a slight concern regarding the fear of making substantial life changes but suggests that planning can alleviate these fears.",
               "quotes": [
                 {
-                  "quote": "It’s ok to take a break, most important thing is health. It’s scary but I think if you plan for contingencies financially, you can remove most of the scary parts.",
+                  "quote": "It’s scary but I think if you plan for contingencies financially, you can remove most of the scary parts.",
                   "score": 80
                 }
               ]
@@ -294,45 +239,26 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The quotes express intense frustration towards the job situation, highlighting the stress of unemployment and the mental toll of working in a challenging environment, with an emphatic recommendation against resigning without security.",
+              "summary": "There is an emphatic expression of frustration about the toll that the auditing profession takes on mental health, suggesting deep dissatisfaction and distress.",
               "quotes": [
-                {
-                  "quote": "First rule. Never RESIGN before you got a replacement. I know it is stressful in that job. But it is more stressful to find a job when you are unemployed. HR will lowball you like hell Just do quite-quitting, where you just come and work with minimum efforts",
-                  "score": 71
-                },
                 {
                   "quote": "Audit is truly a mental health breaker",
                   "score": 2
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The comments reflect a noticeable intention to prioritize mental health and find a sustainable job, indicating a definite stance on the importance of well-being over financial compensation.",
+              "summary": "While acknowledging the importance of mental health, the comments reflect a noticeable sense of optimism mixed with a recognition of the burdens of adult life in Singapore.",
               "quotes": [
                 {
-                  "quote": "Just quit and find a part-time job to sustain first? If you are badly burnt out at a job that only pays $4k it's not worth your time. Use the time to rest, work on your mental health and home-based business.",
-                  "score": 30
-                },
-                {
-                  "quote": "I think 20k is enough to take a career break for awhile. Mental health is important.",
+                  "quote": "Mental health is important.",
                   "score": 14
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": [
-                {
-                  "quote": "Cool. Wish I was that brave, adult life in Singapore is endless financial commitments and obligations.",
-                  "score": 8
                 },
                 {
-                  "quote": "Hahaha that doesn’t affect me. I’m only in competition with myself. What I want to achieve for 2026.",
-                  "score": 0
+                  "quote": "I wish I was that brave, adult life in Singapore is endless financial commitments and obligations.",
+                  "score": 8
                 }
               ]
             }
@@ -358,42 +284,23 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The responses express a clear and intense frustration with dismissive comments and perceived invalidations of personal experiences surrounding age differences in relationships.",
+              "summary": "The expression of frustration is intense, highlighting annoyance at perceived invalidation of an individual's experience.",
               "quotes": [
                 {
                   "quote": "this reply somehow irks me. are you trying to be smart or invalidating op's story? what a pointless response",
                   "score": 60
-                },
-                {
-                  "quote": "I’m sure dating at 10 is considered a serious r/s. I’ll humor you but bring it up to at least legal age of sexual consent.",
-                  "score": 14
-                },
-                {
-                  "quote": "When you dated the senior, you were too young as you said, and he was only 4 years older. your current husband must have been older than that senior when you both met.",
-                  "score": 106
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There are notable aspirations for compatibility, shared values, and mutual care within relationships, indicating a focused approach to partnership.",
+              "summary": "There is a clear expression of optimism regarding relationships, emphasizing love, happiness, and shared values despite age differences.",
               "quotes": [
                 {
                   "quote": "He works hard and we have similar outlooks on life. He plans for the future, takes care of people, family and things in general.",
                   "score": 235
                 },
-                {
-                  "quote": "social constructs aside, I strongly feel it’s really about how compatible you are with the other person, how your morals and values align and really just… if you’re both on similar frequencies.",
-                  "score": 6
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The comments emphasize the importance of love and shared happiness over age differences, illustrating a hopeful outlook on relationships.",
-              "quotes": [
                 {
                   "quote": "What does it matter if there's an age difference in either direction? It's just a number. The important thing is to be happy, to feel good together, to share, to love each other, and to move forward on the same path.",
                   "score": 14
@@ -420,7 +327,7 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "The fear expressed revolves around a potential violent confrontation, reflecting a noticeable concern for personal safety and precautionary measures taken by the family.",
+              "summary": "There is a clear expression of concern about potential violent behavior from the thief, leading to a noticeable feeling of anxiety regarding personal safety.",
               "quotes": [
                 {
                   "quote": "The only cause of concern i could see is if she just loses it one day and runs at us with a knife or something but my family and made sure to always never leave alone or at least keep watch whenever someone leaves or comes home.",
@@ -431,16 +338,8 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is intense frustration directed towards the ineffectiveness of authorities and the police, with repeated calls for action and dissatisfaction with the responses received.",
+              "summary": "The individual is highly frustrated with the inaction from authorities, showing a passionate sentiment about the lack of solutions despite multiple attempts to address the issue.",
               "quotes": [
-                {
-                  "quote": "Could I ask why the authorities don’t help at all? I’ve been having a similar issue recently and I’ve been calling the town council for help. They are pretty useless.",
-                  "score": 22
-                },
-                {
-                  "quote": "I don’t get it. If you have a video of her stealing why hasn’t she been arrested? Record your interactions with police too. Escalate if they don’t take any action / leave her be.",
-                  "score": 24
-                },
                 {
                   "quote": "Hmm, I get it. It's super frustrating 😪. Police told me there's nothing they can do now, I'm guessing they need to process the case? And even so, it might not be on their high priority list.",
                   "score": 20
@@ -451,25 +350,14 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "The goal of raising awareness about the thief's actions is mentioned, but it is presented as a basic intention rather than a strong motivating force.",
+              "summary": "There is a slight optimism expressed through the effort to raise awareness and encourage others to take action against theft.",
               "quotes": [
                 {
                   "quote": "That's why im trying to raise awareness so people can report her if they see her steal.",
                   "score": 20
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The aspiration to address the theft issue is noted, but it is expressed as a mild concern about the thief’s deceptive behavior rather than a strong ambition.",
-              "quotes": [
-                {
-                  "quote": "But I'm more concerned about her stealing habits now. She acts like an innocent old lady whenever she wants, and people unaware fall for it.",
-                  "score": 13
                 }
               ]
             }
@@ -495,7 +383,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a strong expression of frustration regarding family dynamics and financial burden, highlighting feelings of being trapped by selfish relatives.",
+              "summary": "There is a deep frustration expressed regarding family dynamics and the burden of financial responsibilities placed on individuals due to selfishness, creating a feeling of being trapped.",
               "quotes": [
                 {
                   "quote": "Then also the parents used their names to buy private property for the grandparent to collect rental money from. Meanwhile grandparent refuses to pay for the property tax, then my friend has to pay the tax since the property is under their name. Now they (including sibling) kena trapped in their toxic house cannot buy their own properties because their parents/grandparents fucking selfish.",
@@ -503,26 +391,15 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The goals expressed focus on the desire for emotional safety and intelligence, with a clear emphasis on not wanting a traumatic upbringing.",
+              "summary": "The optimism shared revolves around the importance of having a supportive and financially stable upbringing, with a light-hearted wish to be in a nurturing environment.",
               "quotes": [
                 {
                   "quote": "I don't care about male/female, as long as I am not traumatised as a child and have a pair of empathetic parents who feel safe to bond, I will feel blessed.",
                   "score": 40
                 },
-                {
-                  "quote": "Pretty AND smart. If you aren't smart you'll fall prey easily to people with bad intentions and suffer more instead of enjoying life with pretty privileges.",
-                  "score": 8
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "Aspirations reflect a broad desire for wealth and familial love, with variations depending on gender, indicating a practical approach to life preferences.",
-              "quotes": [
                 {
                   "quote": "Any gender as long as I'm rich and healthy.",
                   "score": 472
@@ -534,10 +411,6 @@
                 {
                   "quote": "And in a loving rich family that is willing to pass the wealth to me",
                   "score": 161
-                },
-                {
-                  "quote": "Female if I am pretty, male if I am rich.",
-                  "score": 122
                 },
                 {
                   "quote": "Financially sound and loving parents more important.",
@@ -565,7 +438,7 @@
             "fears": {
               "category": "fear",
               "intensity": "strong",
-              "summary": "There is a deep concern about job security in MNCs compared to public service, with strong emphasis on the potential for sudden job loss due to restructuring.",
+              "summary": "There is a deep anxiety expressed about the job security in MNCs, particularly concerning job loss due to restructuring rather than individual performance.",
               "quotes": [
                 {
                   "quote": "If u lose ur job in mnc, this will be more damaging than in public sector.",
@@ -580,12 +453,8 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The comments reflect intense dissatisfaction with the workload and lack of respect for public service practices in the MNC environment.",
+              "summary": "There is a strong sense of frustration regarding the perceived lack of respect for public service experiences in the private MNC environment.",
               "quotes": [
-                {
-                  "quote": "All the extra “work” like writing NOM, buying stuff, AOR etc. were all removed from my job scope.",
-                  "score": 68
-                },
                 {
                   "quote": "Not sure where you get the impression that MNCs care about output and impact.",
                   "score": 39
@@ -596,37 +465,18 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear recommendation to prepare an emergency fund, indicating a proactive approach to potential job instability.",
-              "quotes": [
-                {
-                  "quote": "I highly recommend you set aside an emergency fund of 6-12 months just in case you do and need to find a job (especially in this economy).",
-                  "score": 68
-                },
-                {
-                  "quote": "If stagnation is what is bothering you, the private sector can be refreshing. It rewards competence, not tenure.",
-                  "score": 114
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The aspirations depict a positive outlook on growth and adaptation in the private sector, suggesting that the change can lead to valuable personal development.",
+              "summary": "There is a clear and positive feeling about the opportunities for growth and skill development in the private sector compared to stagnation in public service.",
               "quotes": [
                 {
                   "quote": "I moved from civil to private and never regretted it. My boss in the private sector actually knows his shit and I grew so much in my skills because of that.",
                   "score": 10
                 },
                 {
-                  "quote": "The greatest difference is that private sector is flatter system and things moves faster - for better or worse from your pov.",
-                  "score": 21
-                },
-                {
-                  "quote": "Good that you're getting out early. The first 6 months can be tough adjustment but you can think of it as training your ability to adapt as well which is valued given that things are definitely fast changing in these times.",
-                  "score": 7
+                  "quote": "If stagnation is what is bothering you, the private sector can be refreshing. It rewards competence, not tenure.",
+                  "score": 114
                 }
               ]
             }
@@ -652,61 +502,30 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The frustrations expressed are intense, particularly regarding public manners and spatial awareness, with strong language used to convey annoyance towards individuals who lack consideration in public spaces.",
+              "summary": "The frustration expressed is intense, highlighting strong feelings of annoyance towards others’ lack of awareness and consideration in public spaces.",
               "quotes": [
                 {
-                  "quote": "manners in public, specifically spatial awareness. Don’t be a dick. The mall isn’t your house.",
-                  "score": 71
+                  "quote": "I dunno why some idiots cannot respect the 'leave a step in front/behind you empty' silent rule. There’s also the person who apparently is numb in every part of their body cos why the fck are they not apologising for bumping into me??",
+                  "score": 5
                 },
                 {
                   "quote": "Lack of spatial awareness seems to be a surprisingly common issue. For every person who remembers to stand on the left side of the escalator, there is another person who runs into you while looking at their phone on the sidewalk, or stands 0.1cm behind while breathing down your neck in queue.",
                   "score": 21
-                },
-                {
-                  "quote": "Phew, thanks for the reminder. I almost forgot to post the daily check-in on your expected bonuses/ increment for 2026.",
-                  "score": 32
-                },
-                {
-                  "quote": "I dunno why some idiots cannot respect the 'leave a step in front/behind you empty' silent rule. There’s also the person who apparently is numb in every part of their body cos why the fck are they not apologising for bumping into me??",
-                  "score": 5
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear desire for a shift in politics towards citizen well-being, although the expressions are more analytical than emotive.",
+              "summary": "There is a clear sense of optimism regarding the potential improvement of Singapore, emphasizing a desire for a political focus on citizens' wellbeing and reflection on societal values.",
               "quotes": [
                 {
                   "quote": "Politics should be re-focused to improving citizens’ lives",
                   "score": 81
                 },
                 {
-                  "quote": "I think this is mostly confined to boomers and foreigners.",
-                  "score": 10
-                },
-                {
-                  "quote": "It’s also easy to follow the beaten path and build up the basic economy, public services and infrastructure in one city from the ashes of war.",
-                  "score": 8
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The aspirations indicate a reflective understanding of societal issues, such as the obsession with wealth and societal comparisons impacting happiness.",
-              "quotes": [
-                {
                   "quote": "Probably our obsession, conscious or otherwise, with other people’s definition of wealth and what success and happiness mean.",
                   "score": 151
-                },
-                {
-                  "quote": "A culture of not talking loudly in public transport, like they have in Japan",
-                  "score": 38
-                },
-                {
-                  "quote": "Oh this is a good one. Singaporeans love to compare,which makes the population in general one of the most unhappy populations in the world",
-                  "score": 4
                 }
               ]
             }
@@ -726,52 +545,40 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "The concern about missing out in the civil service compared to the private sector is present but not deeply anxious.",
-              "quotes": [
-                {
-                  "quote": "Looks like I’m missing out while staying in private sector for countless years. I guess the only upside is private more willing to give good increment % when jump job…",
-                  "score": 2
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a clear sense of frustration with the disparity in pay raises between the civil service and private sector, highlighting dissatisfaction with loyalty not being rewarded.",
+              "summary": "There is a significant expression of frustration regarding income disparity between the private and civil sectors, emphasizing feelings of being undervalued and misinformed.",
               "quotes": [
+                {
+                  "quote": "Looks like I’m missing out while staying in private sector for countless years.",
+                  "score": 2
+                },
                 {
                   "quote": "As usual, depends. Its usually nothing compared to the private sector though. I’ve seen 30%-40% raises for some people.",
                   "score": 3
                 },
                 {
-                  "quote": "Being loyal doesn't pay well these days. Hope you jump higher, good luck!",
+                  "quote": "Being loyal doesn't pay well these days.",
                   "score": 1
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The advice regarding seeking salary information from immediate seniors shows a thoughtful approach but lacks strong emotional expression.",
-              "quotes": [
-                {
-                  "quote": "Ask your immediate seniors what their grade's pay range is. This is the same for all, so they'll be more open to share.",
-                  "score": 4
                 },
                 {
-                  "quote": "Ask your HR or superior? Reddit is a bad source of information for salary related numbers IMO because it's frequently inflated",
+                  "quote": "Reddit is a bad source of information for salary related numbers IMO because it's frequently inflated",
                   "score": 2
                 }
               ]
             },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "There is a slight mention of the importance of promotion timelines and bonuses, indicating some aspirations, though not strongly felt.",
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a hopeful tone in the optimism, suggesting that potential benefits and good fortune may come through loyalty to the civil service.",
               "quotes": [
                 {
-                  "quote": "Yes. How long you stayed in a salary band before promoting matters too.",
-                  "score": 10
+                  "quote": "Hope you jump higher, good luck!",
+                  "score": 1
                 },
                 {
                   "quote": "I always thought it evens out if u compare by annum since civil service are very generous with their bonuses.",
@@ -786,7 +593,7 @@
     {
       "name": "SingaporeRaw",
       "posts_analyzed": 10,
-      "comments_analyzed": 174,
+      "comments_analyzed": 54,
       "top_posts": [
         {
           "id": "t3_1qg5vpj",
@@ -801,8 +608,8 @@
             "post_title": "Walking around IKEA as a single is the most depressing shit ever",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "There is a noticeable concern about returning to a corporate job and the difficulty in finding a partner, suggesting a deeper underlying anxiety.",
+              "intensity": "strong",
+              "summary": "The speaker expresses deep anxiety about returning to their corporate job, highlighting a prolonged struggle with loneliness and dating.",
               "quotes": [
                 {
                   "quote": "and dreading going back to my corporate job on Monday.",
@@ -817,45 +624,22 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "Expressions of mild annoyance with IKEA's food and the complexity of making choices reveal a clear feeling of frustration.",
+              "summary": "There is a clear expression of dissatisfaction with IKEA’s ice cream change, indicating a noticeable annoyance.",
               "quotes": [
-                {
-                  "quote": "I go IKEA for the food only HAHA",
-                  "score": 213
-                },
                 {
                   "quote": "I am still mad that they replaced their original ice cream with this soy knockoff",
                   "score": 7
-                },
-                {
-                  "quote": "Making a choice doesn’t necessarily mean you’re happy with it.. like bf/gf, politics, etc.",
-                  "score": 3
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "The desire to find someone is mentioned but lacks strong emotion, indicating it is more of a passing thought.",
-              "quotes": [
-                {
-                  "quote": "just want to try my all to find someone",
-                  "score": 0
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The humorous angle on enjoying food alone reflects a light-hearted perspective, with no intense aspirations expressed.",
+              "summary": "A casual positive spin is offered about enjoying more food without the need to share, showing a light-hearted perspective.",
               "quotes": [
                 {
                   "quote": "Think of it this way. You can order 6 pieces of chicken wings and not need to share.",
                   "score": 35
-                },
-                {
-                  "quote": "If it’s any consolation- recent reports have indicated that marriages have fallen the most since the post covid bump and divorces are at an all time high.",
-                  "score": 21
                 }
               ]
             }
@@ -881,57 +665,26 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The quotes reflect deep anger and disappointment towards the perceived lack of competitiveness and creativity among Singaporeans, highlighting frustrations with both work attitudes and educational dynamics.",
+              "summary": "There is a strong sense of frustration regarding Singaporeans' work attitudes and their perceived lack of competitiveness in the job market.",
               "quotes": [
                 {
                   "quote": "This is one of the reasons why Singaporeans are not sought after in employment. The cost of hiring a Singaporean is high and the value they provide can't match. The work attitude is lousy too.",
                   "score": 40
                 },
                 {
-                  "quote": "I remember I poly and uni, I often want to ask questions but fellow students will stop me.",
-                  "score": 21
-                },
-                {
-                  "quote": "The best part is those fellow students will stop you from asking questions because all they want is to faster finish and go home.",
-                  "score": 21
-                },
-                {
-                  "quote": "A lot of my Singaporean candidates attended the interview unemployed.",
-                  "score": 2
+                  "quote": "Kinda obvious. Timid obedience is literally a crucial part of the Singaporean identity.",
+                  "score": 6
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a noticeable intention to promote questioning and innovation in one's career, indicating a desire for growth and improvement in the Singaporean context.",
+              "summary": "The sentiment reflects a moderate optimism as the individual mentions personal growth and the importance of asking questions in their career.",
               "quotes": [
                 {
                   "quote": "As I grew in my career, the more questions I ask.",
                   "score": 12
-                },
-                {
-                  "quote": "This why sg don't really have much of creative or innovation brain cells.",
-                  "score": 3
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "strong",
-              "summary": "The expression of aspirations identifies a strong critique of the societal norms in Singapore, emphasizing a desire for a shift away from conventional definitions of success towards more creative and independent thinking.",
-              "quotes": [
-                {
-                  "quote": "I made a similar post a while back on how Sg definition of “success” is defined by “not” thinking outside the box.",
-                  "score": 59
-                },
-                {
-                  "quote": "Kinda obvious. Timid obedience is literally a crucial part of the Singaporean identity.",
-                  "score": 6
-                },
-                {
-                  "quote": "Anything else? Forget it.",
-                  "score": 26
                 }
               ]
             }
@@ -951,25 +704,19 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             }
           }
@@ -994,28 +741,18 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is an intense disdain expressed towards TikTok content creators, with emphatic statements about young people's behavior and a strong call for accountability against perceived wrongdoers.",
+              "summary": "The comment expresses intense anger towards the individual mentioned, using strong language to convey frustration.",
               "quotes": [
-                {
-                  "quote": "Is this the typical type of unhinged trash content creators on tiktok? Yikes.. Whats up with youngsters thesedays..",
-                  "score": 5
-                },
                 {
                   "quote": "This liar and hamasnik needs to kicked out.",
                   "score": 0
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear appreciation for the content of Pritam Singh, indicating a preference for engaging local creators.",
+              "summary": "There is a clear positive sentiment towards the local creator, indicating a noticeable appreciation for his content.",
               "quotes": [
                 {
                   "quote": "I like his content and he is one of the better local creator 👍",
@@ -1039,7 +776,7 @@
             "fears": {
               "category": "fear",
               "intensity": "strong",
-              "summary": "There is a palpable sense of anxiety regarding global conflicts and the limitations of local advancements, highlighting deep concerns about the future.",
+              "summary": "There is a deep anxiety regarding impending global crises, highlighting a feeling of urgency and concern about the future.",
               "quotes": [
                 {
                   "quote": "WW3 is looming and PAP is talking about upgrading ourselves... Wtf man...",
@@ -1054,7 +791,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "Frustration is intensely expressed over the perceived lack of recognition for local qualifications and the pressures of societal expectations, reflecting a sense of injustice and overwhelm.",
+              "summary": "There is an intense frustration over the perceived futility of self-improvement efforts when faced with systemic issues and unrecognized qualifications.",
               "quotes": [
                 {
                   "quote": "We upgrade and upgrade, but you give all the jobs to Malaysians with unnaccredited kampung degrees?",
@@ -1074,26 +811,16 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The ambition to rise to significant positions, such as becoming PM, indicates a moderate level of aspiration and intent to influence the future positively.",
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "One individual expresses a casual desire to achieve a high goal, reflecting a basic level of positive ambition.",
               "quotes": [
                 {
                   "quote": "I'm going to set my goals on becoming PM.",
                   "score": 5
-                },
-                {
-                  "quote": "if a foreign hire is brought in because they supposedly have finance knowledge and Python skills, while a Singaporean only has finance knowledge, then there should be a way to objectively test that difference.",
-                  "score": 14
                 }
               ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -1117,10 +844,10 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "There is a noticeable disappointment regarding the closure of a beloved pizza stall, with some dissatisfaction expressed about the replacement by a chain restaurant.",
+              "summary": "There is a noticeable frustration regarding the closure of the pizza stall, with comments reflecting disappointment over the loss of unique food options.",
               "quotes": [
                 {
-                  "quote": "Renee's western food now occupies the stall in Anchorpoint. Another soulless chain serving pretty meh food imo. A pity really.",
+                  "quote": "Another soulless chain serving pretty meh food imo. A pity really.",
                   "score": 8
                 },
                 {
@@ -1129,16 +856,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The mention of nostalgic visits suggests a mild longing for the past connection to the pizza stall.",
+              "summary": "A casual nostalgia is expressed, recalling positive memories associated with the stall during childhood visits.",
               "quotes": [
                 {
                   "quote": "Nooo I used to go there as a teenager when visiting my grandma in Queenstown",
@@ -1168,7 +889,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a palpable anger towards the inefficiency of the tray return system and concern for the workers' plight, highlighting the strain caused by cost-cutting measures.",
+              "summary": "There is a deep frustration regarding the inadequacy of tray return facilities and the overall treatment of cleaners. Comments express anger at cost-cutting measures that have led to insufficient staffing and resources.",
               "quotes": [
                 {
                   "quote": "What are the enforcement officers supposed to do? People are returning trays. There is just no place to put them. That's what you get for cutting costs and having 1 person do a 3 person job.",
@@ -1179,31 +900,25 @@
                   "score": 3
                 },
                 {
-                  "quote": "i see a poor cleaner working like hell with miserable pay... other profits goes to the \"middleman\".",
+                  "quote": "i see a poor cleaner working like hell with miserable pay... other profits goes to the 'middleman'.",
                   "score": 3
                 },
-                {
-                  "quote": "Monitoring in progress..",
-                  "score": 5
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "There is a clear desire for more cleaners to be hired, reflecting a recognition of the problem and suggesting a solution.",
-              "quotes": [
                 {
                   "quote": "Need more cleaners, they really should hire banglas",
                   "score": 3
                 }
               ]
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
+              "summary": "A slight sense of positivity is indicated by the mention of monitoring in progress, though it lacks strong enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Monitoring in progress..",
+                  "score": 5
+                }
+              ]
             }
           }
         },
@@ -1227,7 +942,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The comments express deep outrage and frustration towards perceived breaches of trust and conflicts of interest by public figures, highlighting a strong distrust in the political system.",
+              "summary": "The frustrations expressed highlight deep disappointment and anger towards the perceived lack of integrity and trust in political representatives, with emphatic statements about broken trust and conflicts of interest.",
               "quotes": [
                 {
                   "quote": "Trust? I think they broke our trust hundreds of times again and again and then spitted on it before crushing the pieces with the soles of their shoes already.",
@@ -1247,14 +962,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1275,22 +984,22 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "There is a noticeable concern regarding past experiences influencing people's decisions on parenthood, indicating a deeper apprehension about parenting.",
+              "summary": "The fears expressed reflect a clear concern about parenting, influenced by past experiences and societal pressures, indicating an underlying anxiety about potential challenges.",
               "quotes": [
                 {
                   "quote": "Some had bad or unpleasant upbringing which made them fearful of being parents.",
                   "score": 11
                 },
                 {
-                  "quote": "In the end, I chose to compromise only because my husband is a great guy. He is able and willing to support and provide for me (and potentially a kid/s).",
+                  "quote": "Many reasons. Finances, society (competitive), the thought of committing for potentially 20-25 years (that is, if the kid doesn't end up being a bummer in life)... plus, I've never seen myself as someone with maternal instincts.",
                   "score": 1
                 }
               ]
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "moderate",
-              "summary": "Clear frustration is expressed about the lack of communication among couples regarding their views on having children before marriage.",
+              "intensity": "strong",
+              "summary": "There is an intense frustration regarding the lack of alignment on childbearing decisions within relationships, highlighting the emotional toll these disagreements can take.",
               "quotes": [
                 {
                   "quote": "Divorced now, although the not having kids was just one of the few reasons for that. Before marriage I wasn't very keen to have any, but I relented and agreed to just 1.",
@@ -1302,33 +1011,14 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "Individuals reflect on their personal journeys toward parenthood, highlighting the importance of resolving differences before committing to having kids.",
+              "summary": "A moderate level of optimism is expressed through a positive outcome of parenting despite initial disagreements, showcasing hope in the potential for compromise and happiness.",
               "quotes": [
                 {
                   "quote": "my wife initially didn’t want kids when we dated, i always wanted kids. we are happy parents of a beautiful girl today. it takes time",
                   "score": 4
-                },
-                {
-                  "quote": "Don’t have them until you’ve sorted it out",
-                  "score": 5
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "There are casual mentions of alternative life choices and considerations regarding parenthood, but no strong feelings are conveyed.",
-              "quotes": [
-                {
-                  "quote": "If no kid, I'll just get another cat.",
-                  "score": 3
-                },
-                {
-                  "quote": "Many reasons. Finances, society (competitive), the thought of committing for potentially 20-25 years (that is, if the kid doesn't end up being a bummer in life)... plus, I've never seen myself as someone with maternal instincts.",
-                  "score": 1
                 }
               ]
             }
@@ -1347,14 +1037,8 @@
             "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
             "fears": {
               "category": "fear",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "frustrations": {
-              "category": "frustration",
               "intensity": "moderate",
-              "summary": "There is a clear expression of frustration about the unrealistic scenario of waiting for the police after a burglary, highlighting concerns about response times.",
+              "summary": "There is a clear expression of concern regarding the potential dangers of a thief entering one's home and the delay in police response.",
               "quotes": [
                 {
                   "quote": "are you saying to imagine that if a thief come into your house and take all your belongings and you wait for the police to come in the morning",
@@ -1362,36 +1046,19 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "strong",
-              "summary": "The quotes demonstrate an emphatic determination to involve the police immediately for safety, emphasizing reliability and swift action.",
-              "quotes": [
-                {
-                  "quote": "download sgsecure",
-                  "score": 25
-                },
-                {
-                  "quote": "call the police, this ain’t America",
-                  "score": 1
-                },
-                {
-                  "quote": "Call police, live stream",
-                  "score": 1
-                }
-              ]
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a noticeable confidence in the police's ability to help quickly, reflecting a positive view of law enforcement despite concerns about population growth.",
+              "summary": "The quote expresses a noticeable sense of relief and trust in the police's ability to respond, despite some challenges.",
               "quotes": [
                 {
-                  "quote": "Pretty sure going to the police would get you help quick.",
-                  "score": 4
-                },
-                {
-                  "quote": "Thankfully, our police department is trustworthy and moderately efficient despite the crazy population increase. Call 999.",
+                  "quote": "Thankfully, our police department is trustworthy and moderately efficient despite the crazy population increase.",
                   "score": 1
                 }
               ]
@@ -1403,7 +1070,7 @@
     {
       "name": "singaporefi",
       "posts_analyzed": 6,
-      "comments_analyzed": 78,
+      "comments_analyzed": 33,
       "top_posts": [
         {
           "id": "t3_1qg1mgf",
@@ -1418,54 +1085,35 @@
             "post_title": "[followup] I tried my luck instead of using a more rational approach",
             "fears": {
               "category": "fear",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "frustrations": {
-              "category": "frustration",
               "intensity": "moderate",
-              "summary": "There are noticeable feelings of frustration regarding the difficulty in checking investment portfolios and the user interface, especially when comparing different platforms.",
-              "quotes": [
-                {
-                  "quote": "The question is more how are you feeling when you check your portfolio. It's not unhealthy to just look if you're not stressing over it or making impulsive moves",
-                  "score": 6
-                },
-                {
-                  "quote": "I keep checking. And Syfe has the worst UI that it’s not as straightforward to check and recall where your money is going. Endowus is the best.",
-                  "score": 4
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "There is a clear expression of goals related to managing emotional responses and setting specific habits for checking investments more cautiously.",
-              "quotes": [
-                {
-                  "quote": "Maybe try to set yourself the goal of checking just once a night?",
-                  "score": 4
-                },
-                {
-                  "quote": "Learning to manage your own emotions is a personal journey that you need to sort out yourself.",
-                  "score": 4
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There's a definite sense of aspiration to remain grounded while feeling positive about gains, along with a recognition of the ongoing grind of work.",
+              "summary": "The individual expresses a noticeable concern about the volatility of investments, recognizing the difference between paper gains and the potential for future corrections.",
               "quotes": [
                 {
                   "quote": "When it goes up, I feel damn shiok but remind myself it’s paper gain and tmr may have correction.",
                   "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is intense frustration with the investment platform's user interface and a sense of resignation about the ongoing grind of work.",
+              "quotes": [
+                {
+                  "quote": "I keep checking. And Syfe has the worst UI that it’s not as straightforward to check and recall where your money is going. Endowus is the best.",
+                  "score": 4
                 },
                 {
                   "quote": "I just close and go back to the grind after being reminded that I'm still cursed to continue working",
                   "score": 10
                 }
               ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         },
@@ -1483,25 +1131,19 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "No analysis available.",
               "quotes": []
             }
           }
@@ -1520,7 +1162,7 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "There is a clear concern about planning for worst-case scenarios, indicating that fear is felt but not overwhelmingly intense.",
+              "summary": "The quote reflects a clear expression of concern about potential worst-case scenarios regarding insurance, indicating a thoughtful approach to planning.",
               "quotes": [
                 {
                   "quote": "I know all this sounds ominous but you have to think about the worst scenarios when planning insurance.",
@@ -1530,32 +1172,17 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "strong",
-              "summary": "The frustration is intensely expressed regarding insurance options, emphasizing dissatisfaction with the affordability and necessity of plans.",
+              "intensity": "moderate",
+              "summary": "The mention of affordability and a cautionary note about the implications of cheaper plans shows noticeable frustration regarding the cost-value balance of insurance options.",
               "quotes": [
                 {
                   "quote": "Remember, the MINDEF/MHA group plans are affordable, but they are cheaper for a reason.",
                   "score": 4
-                },
-                {
-                  "quote": "You dont have to go for the second quotation (5k annual). The critical illness (CI) coverage is too extreme already.",
-                  "score": 2
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The discussion around goals shows a noticeable consideration of specific needs for insurance, suggesting a thoughtful approach to planning.",
-              "quotes": [
-                {
-                  "quote": "It depends. Are you looking for income replacement and making provisions for future dependents strictly; or do you want something with cash value too?",
-                  "score": 2
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1576,7 +1203,7 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "The fear expressed is a minor concern about financial issues arising from unexpected expenses.",
+              "summary": "The mention of a small mistake leading to financial problems reflects a slight concern about unexpected expenses.",
               "quotes": [
                 {
                   "quote": "small mistake or unexpected school or medical expense could create a financial problem for me.",
@@ -1587,7 +1214,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a strong frustration regarding the constant changes in interest rates and the limitations of liquidating funds.",
+              "summary": "There is a passionate expression of frustration towards the frequent changes in rates and low returns, indicating significant dissatisfaction with the financial products.",
               "quotes": [
                 {
                   "quote": "They change their rates every few months, or in the money market funds like MariInvest Save Plus, it's constantly changing.",
@@ -1603,34 +1230,11 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The goals mentioned reflect a clear intention to build a small emergency fund and conduct research on funding options.",
+              "summary": "The expression of happiness regarding the research outcomes shows a clear sense of satisfaction, indicating a noticeable positive feeling.",
               "quotes": [
-                {
-                  "quote": "Looked into some HYSA to maybe build an \"emergency\" fund of about $1k only.",
-                  "score": 0
-                },
-                {
-                  "quote": "do some research into where you want to place your emergency funds.",
-                  "score": 2
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a moderate aspiration to find a convenient banking option and satisfaction from research efforts.",
-              "quotes": [
-                {
-                  "quote": "just choose one where you like the look of the app and seems convenient to you.",
-                  "score": 6
-                },
-                {
-                  "quote": "I just want to min-max things haha.",
-                  "score": 1
-                },
                 {
                   "quote": "Really happy that my hours of research resulted in something I'm satisfied with :D",
                   "score": 1
@@ -1659,7 +1263,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a notable level of frustration expressed regarding the lack of clear information and high fees associated with S27 and SRS options.",
+              "summary": "There is a strong sense of frustration regarding the lack of clear and relevant information about the S27 ETF, alongside mentions of excessive fees and poor search results.",
               "quotes": [
                 {
                   "quote": "Why did you drop that link with zero explanation when OP asked for S27? And there's only one small mention of SRS?",
@@ -1680,30 +1284,15 @@
                 {
                   "quote": "I put in as much effort as OP in finding the answer 🤷 Edit: dropped OP another bone in the comments.",
                   "score": 1
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "Participants are actively seeking reliable information and providers for S27, reflecting a clear intent to navigate the investment landscape effectively.",
-              "quotes": [
-                {
-                  "quote": "Thanks! If you want a whole list just google but it's pretty pointless since there's no competition I'm a bit surprised. I would have thought low competition would mean there is a finite short list of providers that has been documented.",
-                  "score": 1
                 },
                 {
                   "quote": "But I would still have to check all the other providers as well. The key claim that will save me immense time and effort if I can trust that the 2 options analyzed are a really the best, at least at the time of release of the video.",
                   "score": 1
-                },
-                {
-                  "quote": "I’m looking for a broker who can support buying and selling of S27 specifically as I already have position in that.",
-                  "score": 1
                 }
               ]
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1724,7 +1313,7 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "There is a noticeable concern about the stability of investments in Southeast Asia, particularly with the mention of hot money and geopolitical dangers.",
+              "summary": "There is a noticeable concern about potential market volatility, especially regarding hot money in Southeast Asia and geopolitical dangers like Taiwan. The quotes reflect a sense of caution amid uncertainty.",
               "quotes": [
                 {
                   "quote": "The money got into South East Asia could be easily hot money, don't mind if you keep DCA into DBS, just be calm if suddenly overnight selloffs.",
@@ -1738,19 +1327,14 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "strong",
-              "summary": "There is an emphatic dissatisfaction with the dynamics between the US and EU, indicating a strong belief that the situation is unproductive and merely performative.",
-              "quotes": [
-                {
-                  "quote": "US vs EU is BS lah.  EU will just make a lot of noise, that's it.",
-                  "score": 1
-                }
-              ]
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The sentiment reflects a clear intention to continue investing in Singapore, with a hopeful outlook on market conditions, especially regarding specific stocks.",
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "There is an emphatic and passionate belief in future investment opportunities, with excitement about potential gains in the market, particularly in defense stocks and general market conditions.",
               "quotes": [
                 {
                   "quote": "I continue to remain invested in SG and will buy more DBS should the stock market tank.",
@@ -1759,14 +1343,7 @@
                 {
                   "quote": "Glad my bets on defence stocks finally worked out.",
                   "score": 0
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a clear excitement about the potential opportunities in the market, linked to cultural symbolism, suggesting optimism in the face of chaos.",
-              "quotes": [
+                },
                 {
                   "quote": "This year is the year of the fire horse. So expect chaos and lots of opportunities in the market !",
                   "score": 0
@@ -1781,13 +1358,13 @@
   "all_quotes": {
     "fears": [
       {
-        "text": "It’s ok to take a break, most important thing is health. It’s scary but I think if you plan for contingencies financially, you can remove most of the scary parts.",
+        "text": "It’s scary but I think if you plan for contingencies financially, you can remove most of the scary parts.",
         "post_id": "t3_1qgq4k5",
         "post_title": "I’ve checked out so badly and I wanna quit my job",
         "subreddit": "askSingapore",
         "score": 143,
         "comment_score": 80,
-        "intensity": "moderate"
+        "intensity": "mild"
       },
       {
         "text": "The only cause of concern i could see is if she just loses it one day and runs at us with a knife or something but my family and made sure to always never leave alone or at least keep watch whenever someone leaves or comes home.",
@@ -1817,22 +1394,13 @@
         "intensity": "strong"
       },
       {
-        "text": "Looks like I’m missing out while staying in private sector for countless years. I guess the only upside is private more willing to give good increment % when jump job…",
-        "post_id": "t3_1qga9qa",
-        "post_title": "Promotion income increment percentage for civil service?",
-        "subreddit": "askSingapore",
-        "score": 30,
-        "comment_score": 2,
-        "intensity": "mild"
-      },
-      {
         "text": "and dreading going back to my corporate job on Monday.",
         "post_id": "t3_1qg5vpj",
         "post_title": "Walking around IKEA as a single is the most depressing shit ever",
         "subreddit": "SingaporeRaw",
         "score": 162,
         "comment_score": 0,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "I already tried for many years and still can’t find someone.",
@@ -1841,7 +1409,7 @@
         "subreddit": "SingaporeRaw",
         "score": 162,
         "comment_score": 0,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "WW3 is looming and PAP is talking about upgrading ourselves... Wtf man...",
@@ -1871,12 +1439,30 @@
         "intensity": "moderate"
       },
       {
-        "text": "In the end, I chose to compromise only because my husband is a great guy. He is able and willing to support and provide for me (and potentially a kid/s).",
+        "text": "Many reasons. Finances, society (competitive), the thought of committing for potentially 20-25 years (that is, if the kid doesn't end up being a bummer in life)... plus, I've never seen myself as someone with maternal instincts.",
         "post_id": "t3_1qgdc5o",
         "post_title": "Couples With Different Views on Having Kids: How Did It Work Out?",
         "subreddit": "SingaporeRaw",
         "score": 9,
         "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "are you saying to imagine that if a thief come into your house and take all your belongings and you wait for the police to come in the morning",
+        "post_id": "t3_1qg8pd8",
+        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "When it goes up, I feel damn shiok but remind myself it’s paper gain and tmr may have correction.",
+        "post_id": "t3_1qg1mgf",
+        "post_title": "[followup] I tried my luck instead of using a more rational approach",
+        "subreddit": "singaporefi",
+        "score": 67,
+        "comment_score": 5,
         "intensity": "moderate"
       },
       {
@@ -1918,39 +1504,12 @@
     ],
     "frustrations": [
       {
-        "text": "This is why nowadays people don’t hang their lingerie out to dry. Even with CCTV, still got people steal them",
-        "post_id": "t3_1qfy8do",
-        "post_title": "Man steals black bra from outside Serangoon Central HDB flat",
-        "subreddit": "singapore",
-        "score": 107,
-        "comment_score": 86,
-        "intensity": "strong"
-      },
-      {
-        "text": "You just go around the sg related subreddits of people reporting thefts with cctv and police not doing anything about it One I remember is bicycle stolen right in front of the cctv at the parking racks and the IO never followup, eventually closing the case when reminded Its no secret that the policecantrack someone down via CCTV, the important questionwillthey do it. How important is the case that its prioritized over the others in the list?",
+        "text": "You just go around the sg related subreddits of people reporting thefts with cctv and police not doing anything about it One I remember is bicycle stolen right in front of the cctv at the parking racks and the IO never followup, eventually closing the case when reminded Its no secret that the policecantrack someone down via CCTV, the important questionwillthey do it.",
         "post_id": "t3_1qfy8do",
         "post_title": "Man steals black bra from outside Serangoon Central HDB flat",
         "subreddit": "singapore",
         "score": 107,
         "comment_score": 9,
-        "intensity": "strong"
-      },
-      {
-        "text": "I think it was advertised as roast pork at 65 per kg, not raw pork at 65 per kg to be roasted for you.",
-        "post_id": "t3_1qg5xe1",
-        "post_title": "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)",
-        "subreddit": "askSingapore",
-        "score": 439,
-        "comment_score": 557,
-        "intensity": "strong"
-      },
-      {
-        "text": "1kg after cooking. Unless clearly stated, you're paying for the final product, not the raw ingredients",
-        "post_id": "t3_1qg5xe1",
-        "post_title": "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)",
-        "subreddit": "askSingapore",
-        "score": 439,
-        "comment_score": 269,
         "intensity": "strong"
       },
       {
@@ -1972,24 +1531,6 @@
         "intensity": "strong"
       },
       {
-        "text": "Make it make sense bruh",
-        "post_id": "t3_1qg5xe1",
-        "post_title": "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)",
-        "subreddit": "askSingapore",
-        "score": 439,
-        "comment_score": 2,
-        "intensity": "strong"
-      },
-      {
-        "text": "dk why local news not reporting on it",
-        "post_id": "t3_1qg9hjm",
-        "post_title": "Haze or smoke smell in the air (18 jan)",
-        "subreddit": "askSingapore",
-        "score": 198,
-        "comment_score": 6,
-        "intensity": "strong"
-      },
-      {
         "text": "Same here. The haze is damn bad and I can't find other news about it",
         "post_id": "t3_1qg9hjm",
         "post_title": "Haze or smoke smell in the air (18 jan)",
@@ -2008,15 +1549,6 @@
         "intensity": "strong"
       },
       {
-        "text": "First rule. Never RESIGN before you got a replacement. I know it is stressful in that job. But it is more stressful to find a job when you are unemployed. HR will lowball you like hell Just do quite-quitting, where you just come and work with minimum efforts",
-        "post_id": "t3_1qgq4k5",
-        "post_title": "I’ve checked out so badly and I wanna quit my job",
-        "subreddit": "askSingapore",
-        "score": 143,
-        "comment_score": 71,
-        "intensity": "strong"
-      },
-      {
         "text": "Audit is truly a mental health breaker",
         "post_id": "t3_1qgq4k5",
         "post_title": "I’ve checked out so badly and I wanna quit my job",
@@ -2032,42 +1564,6 @@
         "subreddit": "askSingapore",
         "score": 108,
         "comment_score": 60,
-        "intensity": "strong"
-      },
-      {
-        "text": "I’m sure dating at 10 is considered a serious r/s. I’ll humor you but bring it up to at least legal age of sexual consent.",
-        "post_id": "t3_1qg31ih",
-        "post_title": "Age gap between married couples, how common is a guy marrying an older lady?",
-        "subreddit": "askSingapore",
-        "score": 108,
-        "comment_score": 14,
-        "intensity": "strong"
-      },
-      {
-        "text": "When you dated the senior, you were too young as you said, and he was only 4 years older. your current husband must have been older than that senior when you both met.",
-        "post_id": "t3_1qg31ih",
-        "post_title": "Age gap between married couples, how common is a guy marrying an older lady?",
-        "subreddit": "askSingapore",
-        "score": 108,
-        "comment_score": 106,
-        "intensity": "strong"
-      },
-      {
-        "text": "Could I ask why the authorities don’t help at all? I’ve been having a similar issue recently and I’ve been calling the town council for help. They are pretty useless.",
-        "post_id": "t3_1qg64kq",
-        "post_title": "I live near someone who regularly steals",
-        "subreddit": "askSingapore",
-        "score": 67,
-        "comment_score": 22,
-        "intensity": "strong"
-      },
-      {
-        "text": "I don’t get it. If you have a video of her stealing why hasn’t she been arrested? Record your interactions with police too. Escalate if they don’t take any action / leave her be.",
-        "post_id": "t3_1qg64kq",
-        "post_title": "I live near someone who regularly steals",
-        "subreddit": "askSingapore",
-        "score": 67,
-        "comment_score": 24,
         "intensity": "strong"
       },
       {
@@ -2098,15 +1594,6 @@
         "intensity": "strong"
       },
       {
-        "text": "All the extra “work” like writing NOM, buying stuff, AOR etc. were all removed from my job scope.",
-        "post_id": "t3_1qgo579",
-        "post_title": "Moving from Public Service to Private MNC",
-        "subreddit": "askSingapore",
-        "score": 62,
-        "comment_score": 68,
-        "intensity": "strong"
-      },
-      {
         "text": "Not sure where you get the impression that MNCs care about output and impact.",
         "post_id": "t3_1qgo579",
         "post_title": "Moving from Public Service to Private MNC",
@@ -2125,12 +1612,12 @@
         "intensity": "strong"
       },
       {
-        "text": "manners in public, specifically spatial awareness. Don’t be a dick. The mall isn’t your house.",
+        "text": "I dunno why some idiots cannot respect the 'leave a step in front/behind you empty' silent rule. There’s also the person who apparently is numb in every part of their body cos why the fck are they not apologising for bumping into me??",
         "post_id": "t3_1qg6lpl",
         "post_title": "What is ONE thing you hope to improve in Singapore?",
         "subreddit": "askSingapore",
         "score": 48,
-        "comment_score": 71,
+        "comment_score": 5,
         "intensity": "strong"
       },
       {
@@ -2143,21 +1630,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Phew, thanks for the reminder. I almost forgot to post the daily check-in on your expected bonuses/ increment for 2026.",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
+        "text": "Looks like I’m missing out while staying in private sector for countless years.",
+        "post_id": "t3_1qga9qa",
+        "post_title": "Promotion income increment percentage for civil service?",
         "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 32,
-        "intensity": "strong"
-      },
-      {
-        "text": "I dunno why some idiots cannot respect the 'leave a step in front/behind you empty' silent rule. There’s also the person who apparently is numb in every part of their body cos why the fck are they not apologising for bumping into me??",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 5,
+        "score": 30,
+        "comment_score": 2,
         "intensity": "strong"
       },
       {
@@ -2170,7 +1648,7 @@
         "intensity": "strong"
       },
       {
-        "text": "Being loyal doesn't pay well these days. Hope you jump higher, good luck!",
+        "text": "Being loyal doesn't pay well these days.",
         "post_id": "t3_1qga9qa",
         "post_title": "Promotion income increment percentage for civil service?",
         "subreddit": "askSingapore",
@@ -2179,13 +1657,13 @@
         "intensity": "strong"
       },
       {
-        "text": "I go IKEA for the food only HAHA",
-        "post_id": "t3_1qg5vpj",
-        "post_title": "Walking around IKEA as a single is the most depressing shit ever",
-        "subreddit": "SingaporeRaw",
-        "score": 162,
-        "comment_score": 213,
-        "intensity": "moderate"
+        "text": "Reddit is a bad source of information for salary related numbers IMO because it's frequently inflated",
+        "post_id": "t3_1qga9qa",
+        "post_title": "Promotion income increment percentage for civil service?",
+        "subreddit": "askSingapore",
+        "score": 30,
+        "comment_score": 2,
+        "intensity": "strong"
       },
       {
         "text": "I am still mad that they replaced their original ice cream with this soy knockoff",
@@ -2194,15 +1672,6 @@
         "subreddit": "SingaporeRaw",
         "score": 162,
         "comment_score": 7,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Making a choice doesn’t necessarily mean you’re happy with it.. like bf/gf, politics, etc.",
-        "post_id": "t3_1qg5vpj",
-        "post_title": "Walking around IKEA as a single is the most depressing shit ever",
-        "subreddit": "SingaporeRaw",
-        "score": 162,
-        "comment_score": 3,
         "intensity": "moderate"
       },
       {
@@ -2215,39 +1684,12 @@
         "intensity": "strong"
       },
       {
-        "text": "I remember I poly and uni, I often want to ask questions but fellow students will stop me.",
+        "text": "Kinda obvious. Timid obedience is literally a crucial part of the Singaporean identity.",
         "post_id": "t3_1qg8suk",
         "post_title": "Are we being conditioned to be timid and obedient?",
         "subreddit": "SingaporeRaw",
         "score": 117,
-        "comment_score": 21,
-        "intensity": "strong"
-      },
-      {
-        "text": "The best part is those fellow students will stop you from asking questions because all they want is to faster finish and go home.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 21,
-        "intensity": "strong"
-      },
-      {
-        "text": "A lot of my Singaporean candidates attended the interview unemployed.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 2,
-        "intensity": "strong"
-      },
-      {
-        "text": "Is this the typical type of unhinged trash content creators on tiktok? Yikes.. Whats up with youngsters thesedays..",
-        "post_id": "t3_1qg2crh",
-        "post_title": "🔨🔨WP Pritam Singh Approved \"We are Pritam Singh\"!!🔨🔨",
-        "subreddit": "SingaporeRaw",
-        "score": 88,
-        "comment_score": 5,
+        "comment_score": 6,
         "intensity": "strong"
       },
       {
@@ -2296,7 +1738,7 @@
         "intensity": "strong"
       },
       {
-        "text": "Renee's western food now occupies the stall in Anchorpoint. Another soulless chain serving pretty meh food imo. A pity really.",
+        "text": "Another soulless chain serving pretty meh food imo. A pity really.",
         "post_id": "t3_1qg1m0x",
         "post_title": "Pizza stall at Anchor Point gone!",
         "subreddit": "SingaporeRaw",
@@ -2332,7 +1774,7 @@
         "intensity": "strong"
       },
       {
-        "text": "i see a poor cleaner working like hell with miserable pay... other profits goes to the \"middleman\".",
+        "text": "i see a poor cleaner working like hell with miserable pay... other profits goes to the 'middleman'.",
         "post_id": "t3_1qg3h6c",
         "post_title": "This is too much. How to return trays? Where are the enforcement officers???",
         "subreddit": "SingaporeRaw",
@@ -2341,12 +1783,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Monitoring in progress..",
+        "text": "Need more cleaners, they really should hire banglas",
         "post_id": "t3_1qg3h6c",
         "post_title": "This is too much. How to return trays? Where are the enforcement officers???",
         "subreddit": "SingaporeRaw",
         "score": 18,
-        "comment_score": 5,
+        "comment_score": 3,
         "intensity": "strong"
       },
       {
@@ -2392,7 +1834,7 @@
         "subreddit": "SingaporeRaw",
         "score": 9,
         "comment_score": 1,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "I’m sorry, genuinely i dont understand married couples with opposing views on having kids. Is this not something you discuss before getting engaged?",
@@ -2401,25 +1843,7 @@
         "subreddit": "SingaporeRaw",
         "score": 9,
         "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "are you saying to imagine that if a thief come into your house and take all your belongings and you wait for the police to come in the morning",
-        "post_id": "t3_1qg8pd8",
-        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
-        "subreddit": "SingaporeRaw",
-        "score": 7,
-        "comment_score": 10,
-        "intensity": "moderate"
-      },
-      {
-        "text": "The question is more how are you feeling when you check your portfolio. It's not unhealthy to just look if you're not stressing over it or making impulsive moves",
-        "post_id": "t3_1qg1mgf",
-        "post_title": "[followup] I tried my luck instead of using a more rational approach",
-        "subreddit": "singaporefi",
-        "score": 67,
-        "comment_score": 6,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "I keep checking. And Syfe has the worst UI that it’s not as straightforward to check and recall where your money is going. Endowus is the best.",
@@ -2428,7 +1852,16 @@
         "subreddit": "singaporefi",
         "score": 67,
         "comment_score": 4,
-        "intensity": "moderate"
+        "intensity": "strong"
+      },
+      {
+        "text": "I just close and go back to the grind after being reminded that I'm still cursed to continue working",
+        "post_id": "t3_1qg1mgf",
+        "post_title": "[followup] I tried my luck instead of using a more rational approach",
+        "subreddit": "singaporefi",
+        "score": 67,
+        "comment_score": 10,
+        "intensity": "strong"
       },
       {
         "text": "Remember, the MINDEF/MHA group plans are affordable, but they are cheaper for a reason.",
@@ -2437,16 +1870,7 @@
         "subreddit": "singaporefi",
         "score": 7,
         "comment_score": 4,
-        "intensity": "strong"
-      },
-      {
-        "text": "You dont have to go for the second quotation (5k annual). The critical illness (CI) coverage is too extreme already.",
-        "post_id": "t3_1qfy7ir",
-        "post_title": "Is the premium to coverage ratio decent?",
-        "subreddit": "singaporefi",
-        "score": 7,
-        "comment_score": 2,
-        "intensity": "strong"
+        "intensity": "moderate"
       },
       {
         "text": "They change their rates every few months, or in the money market funds like MariInvest Save Plus, it's constantly changing.",
@@ -2521,41 +1945,50 @@
         "intensity": "strong"
       },
       {
-        "text": "US vs EU is BS lah.  EU will just make a lot of noise, that's it.",
-        "post_id": "t3_1qg0ayg",
-        "post_title": "You know the drill",
+        "text": "But I would still have to check all the other providers as well. The key claim that will save me immense time and effort if I can trust that the 2 options analyzed are a really the best, at least at the time of release of the video.",
+        "post_id": "t3_1qg219w",
+        "post_title": "Qns about SRS in USD-denominated SGX-listed ETF S27",
         "subreddit": "singaporefi",
-        "score": 0,
+        "score": 1,
         "comment_score": 1,
         "intensity": "strong"
       }
     ],
-    "goals": [
+    "optimism": [
       {
-        "text": "we don't need the gov to tell us the air is irritating/toxic to do something about it. If it's causing you to sneeze or feel irritated, you are empowered to close window and on air purifier 💪🏻",
-        "post_id": "t3_1qg9hjm",
-        "post_title": "Haze or smoke smell in the air (18 jan)",
+        "text": "I think it was advertised as roast pork at 65 per kg, not raw pork at 65 per kg to be roasted for you.",
+        "post_id": "t3_1qg5xe1",
+        "post_title": "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)",
         "subreddit": "askSingapore",
-        "score": 198,
-        "comment_score": 1,
+        "score": 439,
+        "comment_score": 557,
         "intensity": "moderate"
       },
       {
-        "text": "Just quit and find a part-time job to sustain first? If you are badly burnt out at a job that only pays $4k it's not worth your time. Use the time to rest, work on your mental health and home-based business.",
-        "post_id": "t3_1qgq4k5",
-        "post_title": "I’ve checked out so badly and I wanna quit my job",
+        "text": "1kg after cooking. Unless clearly stated, you're paying for the final product, not the raw ingredients",
+        "post_id": "t3_1qg5xe1",
+        "post_title": "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)",
         "subreddit": "askSingapore",
-        "score": 143,
-        "comment_score": 30,
+        "score": 439,
+        "comment_score": 269,
         "intensity": "moderate"
       },
       {
-        "text": "I think 20k is enough to take a career break for awhile. Mental health is important.",
+        "text": "Mental health is important.",
         "post_id": "t3_1qgq4k5",
         "post_title": "I’ve checked out so badly and I wanna quit my job",
         "subreddit": "askSingapore",
         "score": 143,
         "comment_score": 14,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wish I was that brave, adult life in Singapore is endless financial commitments and obligations.",
+        "post_id": "t3_1qgq4k5",
+        "post_title": "I’ve checked out so badly and I wanna quit my job",
+        "subreddit": "askSingapore",
+        "score": 143,
+        "comment_score": 8,
         "intensity": "moderate"
       },
       {
@@ -2566,323 +1999,6 @@
         "score": 108,
         "comment_score": 235,
         "intensity": "moderate"
-      },
-      {
-        "text": "social constructs aside, I strongly feel it’s really about how compatible you are with the other person, how your morals and values align and really just… if you’re both on similar frequencies.",
-        "post_id": "t3_1qg31ih",
-        "post_title": "Age gap between married couples, how common is a guy marrying an older lady?",
-        "subreddit": "askSingapore",
-        "score": 108,
-        "comment_score": 6,
-        "intensity": "moderate"
-      },
-      {
-        "text": "That's why im trying to raise awareness so people can report her if they see her steal.",
-        "post_id": "t3_1qg64kq",
-        "post_title": "I live near someone who regularly steals",
-        "subreddit": "askSingapore",
-        "score": 67,
-        "comment_score": 20,
-        "intensity": "mild"
-      },
-      {
-        "text": "I don't care about male/female, as long as I am not traumatised as a child and have a pair of empathetic parents who feel safe to bond, I will feel blessed.",
-        "post_id": "t3_1qfzi8r",
-        "post_title": "If you were reborn in Singapore, would you prefer to be male or female?",
-        "subreddit": "askSingapore",
-        "score": 72,
-        "comment_score": 40,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Pretty AND smart. If you aren't smart you'll fall prey easily to people with bad intentions and suffer more instead of enjoying life with pretty privileges.",
-        "post_id": "t3_1qfzi8r",
-        "post_title": "If you were reborn in Singapore, would you prefer to be male or female?",
-        "subreddit": "askSingapore",
-        "score": 72,
-        "comment_score": 8,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I highly recommend you set aside an emergency fund of 6-12 months just in case you do and need to find a job (especially in this economy).",
-        "post_id": "t3_1qgo579",
-        "post_title": "Moving from Public Service to Private MNC",
-        "subreddit": "askSingapore",
-        "score": 62,
-        "comment_score": 68,
-        "intensity": "moderate"
-      },
-      {
-        "text": "If stagnation is what is bothering you, the private sector can be refreshing. It rewards competence, not tenure.",
-        "post_id": "t3_1qgo579",
-        "post_title": "Moving from Public Service to Private MNC",
-        "subreddit": "askSingapore",
-        "score": 62,
-        "comment_score": 114,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Politics should be re-focused to improving citizens’ lives",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 81,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I think this is mostly confined to boomers and foreigners.",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 10,
-        "intensity": "moderate"
-      },
-      {
-        "text": "It’s also easy to follow the beaten path and build up the basic economy, public services and infrastructure in one city from the ashes of war.",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 8,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Ask your immediate seniors what their grade's pay range is. This is the same for all, so they'll be more open to share.",
-        "post_id": "t3_1qga9qa",
-        "post_title": "Promotion income increment percentage for civil service?",
-        "subreddit": "askSingapore",
-        "score": 30,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Ask your HR or superior? Reddit is a bad source of information for salary related numbers IMO because it's frequently inflated",
-        "post_id": "t3_1qga9qa",
-        "post_title": "Promotion income increment percentage for civil service?",
-        "subreddit": "askSingapore",
-        "score": 30,
-        "comment_score": 2,
-        "intensity": "moderate"
-      },
-      {
-        "text": "just want to try my all to find someone",
-        "post_id": "t3_1qg5vpj",
-        "post_title": "Walking around IKEA as a single is the most depressing shit ever",
-        "subreddit": "SingaporeRaw",
-        "score": 162,
-        "comment_score": 0,
-        "intensity": "mild"
-      },
-      {
-        "text": "As I grew in my career, the more questions I ask.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 12,
-        "intensity": "moderate"
-      },
-      {
-        "text": "This why sg don't really have much of creative or innovation brain cells.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 3,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I'm going to set my goals on becoming PM.",
-        "post_id": "t3_1qgcj6d",
-        "post_title": "Singaporeans should upgrade themselves in the midst of an uncertain world: SM Lee",
-        "subreddit": "SingaporeRaw",
-        "score": 59,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "if a foreign hire is brought in because they supposedly have finance knowledge and Python skills, while a Singaporean only has finance knowledge, then there should be a way to objectively test that difference.",
-        "post_id": "t3_1qgcj6d",
-        "post_title": "Singaporeans should upgrade themselves in the midst of an uncertain world: SM Lee",
-        "subreddit": "SingaporeRaw",
-        "score": 59,
-        "comment_score": 14,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Need more cleaners, they really should hire banglas",
-        "post_id": "t3_1qg3h6c",
-        "post_title": "This is too much. How to return trays? Where are the enforcement officers???",
-        "subreddit": "SingaporeRaw",
-        "score": 18,
-        "comment_score": 3,
-        "intensity": "moderate"
-      },
-      {
-        "text": "my wife initially didn’t want kids when we dated, i always wanted kids. we are happy parents of a beautiful girl today. it takes time",
-        "post_id": "t3_1qgdc5o",
-        "post_title": "Couples With Different Views on Having Kids: How Did It Work Out?",
-        "subreddit": "SingaporeRaw",
-        "score": 9,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Don’t have them until you’ve sorted it out",
-        "post_id": "t3_1qgdc5o",
-        "post_title": "Couples With Different Views on Having Kids: How Did It Work Out?",
-        "subreddit": "SingaporeRaw",
-        "score": 9,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "download sgsecure",
-        "post_id": "t3_1qg8pd8",
-        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
-        "subreddit": "SingaporeRaw",
-        "score": 7,
-        "comment_score": 25,
-        "intensity": "strong"
-      },
-      {
-        "text": "call the police, this ain’t America",
-        "post_id": "t3_1qg8pd8",
-        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
-        "subreddit": "SingaporeRaw",
-        "score": 7,
-        "comment_score": 1,
-        "intensity": "strong"
-      },
-      {
-        "text": "Call police, live stream",
-        "post_id": "t3_1qg8pd8",
-        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
-        "subreddit": "SingaporeRaw",
-        "score": 7,
-        "comment_score": 1,
-        "intensity": "strong"
-      },
-      {
-        "text": "Maybe try to set yourself the goal of checking just once a night?",
-        "post_id": "t3_1qg1mgf",
-        "post_title": "[followup] I tried my luck instead of using a more rational approach",
-        "subreddit": "singaporefi",
-        "score": 67,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Learning to manage your own emotions is a personal journey that you need to sort out yourself.",
-        "post_id": "t3_1qg1mgf",
-        "post_title": "[followup] I tried my luck instead of using a more rational approach",
-        "subreddit": "singaporefi",
-        "score": 67,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "It depends. Are you looking for income replacement and making provisions for future dependents strictly; or do you want something with cash value too?",
-        "post_id": "t3_1qfy7ir",
-        "post_title": "Is the premium to coverage ratio decent?",
-        "subreddit": "singaporefi",
-        "score": 7,
-        "comment_score": 2,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Looked into some HYSA to maybe build an \"emergency\" fund of about $1k only.",
-        "post_id": "t3_1qg17qj",
-        "post_title": "Maribank invest saveplus Vs GXS Vs Sif Gosavers vs SC Jumpstart for \"HY\"SA as a student",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 0,
-        "intensity": "moderate"
-      },
-      {
-        "text": "do some research into where you want to place your emergency funds.",
-        "post_id": "t3_1qg17qj",
-        "post_title": "Maribank invest saveplus Vs GXS Vs Sif Gosavers vs SC Jumpstart for \"HY\"SA as a student",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 2,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Thanks! If you want a whole list just google but it's pretty pointless since there's no competition I'm a bit surprised. I would have thought low competition would mean there is a finite short list of providers that has been documented.",
-        "post_id": "t3_1qg219w",
-        "post_title": "Qns about SRS in USD-denominated SGX-listed ETF S27",
-        "subreddit": "singaporefi",
-        "score": 1,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "But I would still have to check all the other providers as well. The key claim that will save me immense time and effort if I can trust that the 2 options analyzed are a really the best, at least at the time of release of the video.",
-        "post_id": "t3_1qg219w",
-        "post_title": "Qns about SRS in USD-denominated SGX-listed ETF S27",
-        "subreddit": "singaporefi",
-        "score": 1,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I’m looking for a broker who can support buying and selling of S27 specifically as I already have position in that.",
-        "post_id": "t3_1qg219w",
-        "post_title": "Qns about SRS in USD-denominated SGX-listed ETF S27",
-        "subreddit": "singaporefi",
-        "score": 1,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I continue to remain invested in SG and will buy more DBS should the stock market tank.",
-        "post_id": "t3_1qg0ayg",
-        "post_title": "You know the drill",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 0,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Glad my bets on defence stocks finally worked out.",
-        "post_id": "t3_1qg0ayg",
-        "post_title": "You know the drill",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 0,
-        "intensity": "moderate"
-      }
-    ],
-    "aspirations": [
-      {
-        "text": "The best yardstick for social progress is the day when even the least well-off denizens of Singapore can afford to hang Muji/Uniqlo outside.",
-        "post_id": "t3_1qfy8do",
-        "post_title": "Man steals black bra from outside Serangoon Central HDB flat",
-        "subreddit": "singapore",
-        "score": 107,
-        "comment_score": -1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Cool. Wish I was that brave, adult life in Singapore is endless financial commitments and obligations.",
-        "post_id": "t3_1qgq4k5",
-        "post_title": "I’ve checked out so badly and I wanna quit my job",
-        "subreddit": "askSingapore",
-        "score": 143,
-        "comment_score": 8,
-        "intensity": "mild"
-      },
-      {
-        "text": "Hahaha that doesn’t affect me. I’m only in competition with myself. What I want to achieve for 2026.",
-        "post_id": "t3_1qgq4k5",
-        "post_title": "I’ve checked out so badly and I wanna quit my job",
-        "subreddit": "askSingapore",
-        "score": 143,
-        "comment_score": 0,
-        "intensity": "mild"
       },
       {
         "text": "What does it matter if there's an age difference in either direction? It's just a number. The important thing is to be happy, to feel good together, to share, to love each other, and to move forward on the same path.",
@@ -2903,13 +2019,22 @@
         "intensity": "moderate"
       },
       {
-        "text": "But I'm more concerned about her stealing habits now. She acts like an innocent old lady whenever she wants, and people unaware fall for it.",
+        "text": "That's why im trying to raise awareness so people can report her if they see her steal.",
         "post_id": "t3_1qg64kq",
         "post_title": "I live near someone who regularly steals",
         "subreddit": "askSingapore",
         "score": 67,
-        "comment_score": 13,
+        "comment_score": 20,
         "intensity": "mild"
+      },
+      {
+        "text": "I don't care about male/female, as long as I am not traumatised as a child and have a pair of empathetic parents who feel safe to bond, I will feel blessed.",
+        "post_id": "t3_1qfzi8r",
+        "post_title": "If you were reborn in Singapore, would you prefer to be male or female?",
+        "subreddit": "askSingapore",
+        "score": 72,
+        "comment_score": 40,
+        "intensity": "moderate"
       },
       {
         "text": "Any gender as long as I'm rich and healthy.",
@@ -2936,15 +2061,6 @@
         "subreddit": "askSingapore",
         "score": 72,
         "comment_score": 161,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Female if I am pretty, male if I am rich.",
-        "post_id": "t3_1qfzi8r",
-        "post_title": "If you were reborn in Singapore, would you prefer to be male or female?",
-        "subreddit": "askSingapore",
-        "score": 72,
-        "comment_score": 122,
         "intensity": "moderate"
       },
       {
@@ -2975,21 +2091,21 @@
         "intensity": "moderate"
       },
       {
-        "text": "The greatest difference is that private sector is flatter system and things moves faster - for better or worse from your pov.",
+        "text": "If stagnation is what is bothering you, the private sector can be refreshing. It rewards competence, not tenure.",
         "post_id": "t3_1qgo579",
         "post_title": "Moving from Public Service to Private MNC",
         "subreddit": "askSingapore",
         "score": 62,
-        "comment_score": 21,
+        "comment_score": 114,
         "intensity": "moderate"
       },
       {
-        "text": "Good that you're getting out early. The first 6 months can be tough adjustment but you can think of it as training your ability to adapt as well which is valued given that things are definitely fast changing in these times.",
-        "post_id": "t3_1qgo579",
-        "post_title": "Moving from Public Service to Private MNC",
+        "text": "Politics should be re-focused to improving citizens’ lives",
+        "post_id": "t3_1qg6lpl",
+        "post_title": "What is ONE thing you hope to improve in Singapore?",
         "subreddit": "askSingapore",
-        "score": 62,
-        "comment_score": 7,
+        "score": 48,
+        "comment_score": 81,
         "intensity": "moderate"
       },
       {
@@ -3002,31 +2118,13 @@
         "intensity": "moderate"
       },
       {
-        "text": "A culture of not talking loudly in public transport, like they have in Japan",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 38,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Oh this is a good one. Singaporeans love to compare,which makes the population in general one of the most unhappy populations in the world",
-        "post_id": "t3_1qg6lpl",
-        "post_title": "What is ONE thing you hope to improve in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 48,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Yes. How long you stayed in a salary band before promoting matters too.",
+        "text": "Hope you jump higher, good luck!",
         "post_id": "t3_1qga9qa",
         "post_title": "Promotion income increment percentage for civil service?",
         "subreddit": "askSingapore",
         "score": 30,
-        "comment_score": 10,
-        "intensity": "mild"
+        "comment_score": 1,
+        "intensity": "moderate"
       },
       {
         "text": "I always thought it evens out if u compare by annum since civil service are very generous with their bonuses.",
@@ -3035,7 +2133,7 @@
         "subreddit": "askSingapore",
         "score": 30,
         "comment_score": 3,
-        "intensity": "mild"
+        "intensity": "moderate"
       },
       {
         "text": "Think of it this way. You can order 6 pieces of chicken wings and not need to share.",
@@ -3047,40 +2145,13 @@
         "intensity": "mild"
       },
       {
-        "text": "If it’s any consolation- recent reports have indicated that marriages have fallen the most since the post covid bump and divorces are at an all time high.",
-        "post_id": "t3_1qg5vpj",
-        "post_title": "Walking around IKEA as a single is the most depressing shit ever",
-        "subreddit": "SingaporeRaw",
-        "score": 162,
-        "comment_score": 21,
-        "intensity": "mild"
-      },
-      {
-        "text": "I made a similar post a while back on how Sg definition of “success” is defined by “not” thinking outside the box.",
+        "text": "As I grew in my career, the more questions I ask.",
         "post_id": "t3_1qg8suk",
         "post_title": "Are we being conditioned to be timid and obedient?",
         "subreddit": "SingaporeRaw",
         "score": 117,
-        "comment_score": 59,
-        "intensity": "strong"
-      },
-      {
-        "text": "Kinda obvious. Timid obedience is literally a crucial part of the Singaporean identity.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 6,
-        "intensity": "strong"
-      },
-      {
-        "text": "Anything else? Forget it.",
-        "post_id": "t3_1qg8suk",
-        "post_title": "Are we being conditioned to be timid and obedient?",
-        "subreddit": "SingaporeRaw",
-        "score": 117,
-        "comment_score": 26,
-        "intensity": "strong"
+        "comment_score": 12,
+        "intensity": "moderate"
       },
       {
         "text": "I like his content and he is one of the better local creator 👍",
@@ -3092,6 +2163,15 @@
         "intensity": "moderate"
       },
       {
+        "text": "I'm going to set my goals on becoming PM.",
+        "post_id": "t3_1qgcj6d",
+        "post_title": "Singaporeans should upgrade themselves in the midst of an uncertain world: SM Lee",
+        "subreddit": "SingaporeRaw",
+        "score": 59,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
         "text": "Nooo I used to go there as a teenager when visiting my grandma in Queenstown",
         "post_id": "t3_1qg1m0x",
         "post_title": "Pizza stall at Anchor Point gone!",
@@ -3101,74 +2181,29 @@
         "intensity": "mild"
       },
       {
-        "text": "If no kid, I'll just get another cat.",
+        "text": "Monitoring in progress..",
+        "post_id": "t3_1qg3h6c",
+        "post_title": "This is too much. How to return trays? Where are the enforcement officers???",
+        "subreddit": "SingaporeRaw",
+        "score": 18,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "my wife initially didn’t want kids when we dated, i always wanted kids. we are happy parents of a beautiful girl today. it takes time",
         "post_id": "t3_1qgdc5o",
         "post_title": "Couples With Different Views on Having Kids: How Did It Work Out?",
         "subreddit": "SingaporeRaw",
         "score": 9,
-        "comment_score": 3,
-        "intensity": "mild"
-      },
-      {
-        "text": "Many reasons. Finances, society (competitive), the thought of committing for potentially 20-25 years (that is, if the kid doesn't end up being a bummer in life)... plus, I've never seen myself as someone with maternal instincts.",
-        "post_id": "t3_1qgdc5o",
-        "post_title": "Couples With Different Views on Having Kids: How Did It Work Out?",
-        "subreddit": "SingaporeRaw",
-        "score": 9,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "Pretty sure going to the police would get you help quick.",
-        "post_id": "t3_1qg8pd8",
-        "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
-        "subreddit": "SingaporeRaw",
-        "score": 7,
         "comment_score": 4,
         "intensity": "moderate"
       },
       {
-        "text": "Thankfully, our police department is trustworthy and moderately efficient despite the crazy population increase. Call 999.",
+        "text": "Thankfully, our police department is trustworthy and moderately efficient despite the crazy population increase.",
         "post_id": "t3_1qg8pd8",
         "post_title": "If you're Kevin in Home Alone, Singapore context, how would you defend your house?",
         "subreddit": "SingaporeRaw",
         "score": 7,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "When it goes up, I feel damn shiok but remind myself it’s paper gain and tmr may have correction.",
-        "post_id": "t3_1qg1mgf",
-        "post_title": "[followup] I tried my luck instead of using a more rational approach",
-        "subreddit": "singaporefi",
-        "score": 67,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I just close and go back to the grind after being reminded that I'm still cursed to continue working",
-        "post_id": "t3_1qg1mgf",
-        "post_title": "[followup] I tried my luck instead of using a more rational approach",
-        "subreddit": "singaporefi",
-        "score": 67,
-        "comment_score": 10,
-        "intensity": "moderate"
-      },
-      {
-        "text": "just choose one where you like the look of the app and seems convenient to you.",
-        "post_id": "t3_1qg17qj",
-        "post_title": "Maribank invest saveplus Vs GXS Vs Sif Gosavers vs SC Jumpstart for \"HY\"SA as a student",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 6,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I just want to min-max things haha.",
-        "post_id": "t3_1qg17qj",
-        "post_title": "Maribank invest saveplus Vs GXS Vs Sif Gosavers vs SC Jumpstart for \"HY\"SA as a student",
-        "subreddit": "singaporefi",
-        "score": 3,
         "comment_score": 1,
         "intensity": "moderate"
       },
@@ -3182,54 +2217,91 @@
         "intensity": "moderate"
       },
       {
+        "text": "I continue to remain invested in SG and will buy more DBS should the stock market tank.",
+        "post_id": "t3_1qg0ayg",
+        "post_title": "You know the drill",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Glad my bets on defence stocks finally worked out.",
+        "post_id": "t3_1qg0ayg",
+        "post_title": "You know the drill",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
         "text": "This year is the year of the fire horse. So expect chaos and lots of opportunities in the market !",
         "post_id": "t3_1qg0ayg",
         "post_title": "You know the drill",
         "subreddit": "singaporefi",
         "score": 0,
         "comment_score": 0,
-        "intensity": "moderate"
+        "intensity": "strong"
       }
     ]
   },
   "thematic_clusters": [
     {
-      "topic": "Food pricing and weight measurement practices",
+      "topic": "Food vendor pricing and weight measurement practices",
       "engagement_score": 439,
       "dominant_emotion": "frustration",
       "sample_posts": [
         "If you purchase roast pork, and it is sold at $65 per kg, would you expect the 1kg to be the weight of the pork after roasting, or raw pork prior to roasting (meat shrinks and loses weight when cooked)"
       ],
-      "entities": []
-    },
-    {
-      "topic": "Career transitions from public to private sector",
-      "engagement_score": 235,
-      "dominant_emotion": "fear",
-      "sample_posts": [
-        "I've checked out so badly and I wanna quit my job",
-        "Moving from Public Service to Private MNC",
-        "Promotion income increment percentage for civil service?"
-      ],
       "entities": [
-        "MOM",
-        "Public Service",
-        "Employment",
-        "Promotion",
-        "Civil Service"
+        "Food Pricing",
+        "Consumer Rights",
+        "Hawker"
       ]
     },
     {
-      "topic": "Air quality and haze pollution concerns",
+      "topic": "Air quality concerns and haze detection",
       "engagement_score": 198,
       "dominant_emotion": "frustration",
       "sample_posts": [
         "Haze or smoke smell in the air (18 jan)"
       ],
-      "entities": []
+      "entities": [
+        "Haze",
+        "Air Quality",
+        "NEA"
+      ]
     },
     {
-      "topic": "Property theft and security issues in HDB",
+      "topic": "Job satisfaction and career transition decisions",
+      "engagement_score": 235,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        "I've checked out so badly and I wanna quit my job",
+        "Moving from Public Service to Private MNC"
+      ],
+      "entities": [
+        "Employment",
+        "Public Service",
+        "MNC",
+        "Career Change"
+      ]
+    },
+    {
+      "topic": "Social conditioning and behavioral compliance concerns",
+      "engagement_score": 117,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        "Are we being conditioned to be timid and obedient?"
+      ],
+      "entities": [
+        "Social Control",
+        "Education",
+        "Government Policy"
+      ]
+    },
+    {
+      "topic": "Neighborhood theft and security enforcement issues",
       "engagement_score": 174,
       "dominant_emotion": "frustration",
       "sample_posts": [
@@ -3238,150 +2310,80 @@
       ],
       "entities": [
         "HDB",
-        "Housing Costs"
+        "Police",
+        "Community Safety",
+        "Crime"
       ]
-    },
-    {
-      "topic": "Shopping and lifestyle experiences as singles",
-      "engagement_score": 162,
-      "dominant_emotion": "frustration",
-      "sample_posts": [
-        "Walking around IKEA as a single is the most depressing shit ever"
-      ],
-      "entities": []
     }
   ],
   "insights": {
-    "headline": "Singaporeans voice growing frustrations over transparency and safety as job security fears linger.",
+    "headline": "Job Security and Public Trust Concerns Highlight Singapore's Urban Challenges This Week",
     "key_takeaways": [
-      "Frustrations regarding misleading food pricing have surged, with hopes for greater transparency or regulations in the food industry.",
-      "Residents are feeling unsafe in HDB neighborhoods due to theft incidents, highlighting a demand for enhanced community safety measures and engagement with local police.",
-      "Job security fears are prompting Singaporeans to consider career transitions, particularly from public to private sectors, indicating a need for supportive resources during these changes."
+      "Job security fears, particularly regarding MNCs, have intensified, with many discussing potential job losses amid restructuring, while public sector roles are viewed as more secure.",
+      "A strong public outcry regarding police inaction on theft cases reveals a growing frustration with local law enforcement and the effectiveness of civic responsibilities, particularly in urban settings.",
+      "Despite the negative public sentiment, there remains a segment that sees career transitions positively, indicating a potential rise in skills development and entrepreneurship as people adapt to changing job markets."
     ],
     "opportunities": [
-      "Develop a local app for reporting food pricing discrepancies and other business malpractices to foster consumer empowerment.",
-      "Launch community safety initiatives or partnerships with police to increase awareness and responsiveness to neighborhood crime, especially in HDB estates."
+      "Businesses can address job insecurity by offering retraining programs and career transition services for employees, potentially positioning themselves as supportive employers during these uncertain times.",
+      "Brands in the food and retail sectors should ensure transparent pricing and weight practices, leveraging the current dissatisfaction to gain consumer trust and differentiate from competitors."
     ],
     "risks": [
-      "Ongoing job transition anxieties could deter consumer spending and negatively impact local businesses if not addressed through engagement or supportive services.",
-      "Continued neglect of air quality and public safety concerns may result in public backlash against government entities, leading to calls for greater accountability."
+      "Continued public dissatisfaction with policing and safety measures could escalate into larger civic unrest if not addressed, presenting a reputational risk for the government and law enforcement.",
+      "Growing frustrations regarding transparency and fairness in public services may lead to increased scrutiny of government accountability, prompting political instability if left unchecked."
     ]
   },
   "trends": {
-    "has_previous_day": true,
-    "previous_date": "2026-01-18",
-    "fears": {
-      "direction": "down",
-      "change_pct": -25.0,
-      "intensity_shift": "stable",
-      "previous_count": 20,
-      "current_count": 15
-    },
-    "frustrations": {
-      "direction": "down",
-      "change_pct": -28.4,
-      "intensity_shift": "stable",
-      "previous_count": 95,
-      "current_count": 68
-    },
-    "goals": {
-      "direction": "down",
-      "change_pct": -26.5,
-      "intensity_shift": "stable",
-      "previous_count": 49,
-      "current_count": 36
-    },
-    "aspirations": {
-      "direction": "stable",
-      "change_pct": -5.1,
-      "intensity_shift": "stable",
-      "previous_count": 39,
-      "current_count": 37
-    }
+    "has_previous_day": false,
+    "previous_date": null,
+    "fears": null,
+    "frustrations": null,
+    "optimism": null
   },
-  "theme_clusters": [
-    {
-      "theme": "Job Insecurity and Economic Anxiety",
-      "description": "Concerns about job stability, especially in MNCs and the public sector, reflect broader economic anxieties.",
-      "category": "fear",
-      "quote_count": 6,
-      "sample_quotes": [
-        "If u lose ur job in mnc, this will be more damaging than in public sector.",
-        "You can lose your job easily in foreign MNCs due to restructuring. Not due to your performance. That's the biggest minus.",
-        "I already tried for many years and still can’t find someone."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Frustrations with Daily Life and Services",
-      "description": "Frustrations surrounding service inefficiencies and local incidents, reflecting dissatisfaction with societal norms and responses.",
-      "category": "frustration",
-      "quote_count": 7,
-      "sample_quotes": [
-        "You just go around the sg related subreddits of people reporting thefts with cctv and police not doing anything about it.",
-        "Getting less than 700g roast pork for 1kg is quite insane in this day and age.",
-        "I think it was advertised as roast pork at 65 per kg, not raw pork at 65 per kg to be roasted for you."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Pursuit of Mental Health and Work-life Balance",
-      "description": "A focus on mental well-being and the importance of balance in work and life choices.",
-      "category": "goal",
-      "quote_count": 6,
-      "sample_quotes": [
-        "Just quit and find a part-time job to sustain first? If you are badly burnt out at a job that only pays $4k it's not worth your time.",
-        "I think 20k is enough to take a career break for awhile. Mental health is important.",
-        "If stagnation is what is bothering you, the private sector can be refreshing."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Aspirations for Personal and Social Progress",
-      "description": "Desires for personal growth, financial stability, and an improved socio-economic landscape in Singapore.",
-      "category": "aspiration",
-      "quote_count": 7,
-      "sample_quotes": [
-        "The best yardstick for social progress is the day when even the least well-off denizens of Singapore can afford to hang Muji/Uniqlo outside.",
-        "Cool. Wish I was that brave, adult life in Singapore is endless financial commitments and obligations.",
-        "Any gender as long as I'm rich and healthy."
-      ],
-      "avg_score": 0.0
-    }
-  ],
+  "theme_clusters": [],
   "signals": [
     {
-      "signal_type": "high_engagement",
-      "title": "Food pricing transparency driving strong community agreement",
-      "description": "A food vendor charging for raw weight while delivering cooked product has generated exceptional community consensus with +439 engagement. This reflects broader concerns about business transparency and fair pricing practices in Singapore's food industry.",
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Show Extreme Intensity Distribution",
+      "description": "92% of frustration quotes (46 out of 50) are classified as strong intensity with zero mild cases, indicating highly concentrated emotional distress rather than typical scattered complaints. This suggests underlying issues are reaching boiling points.",
       "category": "frustration",
       "related_quotes": [
-        "I think it was advertised as roast pork at 65 per kg, not raw pork at 65 per kg to be roasted for you.",
-        "Getting less than 700g roast pork for 1kg is quite insane in this day and age. Most, if not all in the industry are very transparent."
+        "Getting less than 700g roast pork for 1kg is quite insane in this day and age. Most, if not all in the industry are very transparent.",
+        "What sort of biz need to go out of biz. They don't even bother to refund u….."
       ],
       "urgency": "medium"
     },
     {
-      "signal_type": "intensity_spike",
-      "title": "Frustrations show concentrated strong intensity levels",
-      "description": "85% of frustration quotes (58 of 68) are strong intensity, indicating deeply felt grievances rather than mild annoyances. This suggests community members are experiencing significant rather than superficial issues.",
+      "signal_type": "high_engagement",
+      "title": "Food Vendor Pricing Dispute Generates 439 Upvotes",
+      "description": "Multiple quotes about roast pork weight measurement each received 439 upvotes, indicating widespread community resonance with vendor transparency concerns. This level of engagement suggests a broader trust issue with local food businesses.",
       "category": "frustration",
       "related_quotes": [
-        "What sort of biz need to go out of biz. They don't even bother to refund u…..",
-        "Make it make sense bruh"
+        "Getting less than 700g roast pork for 1kg is quite insane in this day and age. Most, if not all in the industry are very transparent.",
+        "1kg after cooking. Unless clearly stated, you're paying for the final product, not the raw ingredients"
       ],
       "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate Discussion Volume",
+      "description": "Frustrations account for 51% of all quotes (50 out of 98 total), significantly outweighing fears (16) and optimism (32). This 3:1 ratio over optimism suggests community discourse is heavily skewed toward negative experiences.",
+      "category": "frustration",
+      "related_quotes": [
+        "I am still mad that they replaced their original ice cream with this soy knockoff",
+        "and dreading going back to my corporate job on Monday."
+      ],
+      "urgency": "low"
     },
     {
       "signal_type": "emerging_topic",
-      "title": "Air quality concerns gaining traction without official coverage",
-      "description": "Haze and air quality issues are generating notable community discussion and +198 engagement, with residents noting the absence of local news reporting. This gap between public experience and media coverage suggests an underreported environmental concern.",
-      "category": "frustration",
+      "title": "Air Quality Concerns Gain Traction",
+      "description": "Haze-related health impacts are generating notable engagement (198 upvotes) despite limited news coverage, suggesting a gap between public concern and media attention on environmental health issues.",
+      "category": "fear",
       "related_quotes": [
-        "dk why local news not reporting on it",
-        "Same here. The haze is damn bad and I can't find other news about it"
+        "Same here. The haze is damn bad and I can't find other news about it",
+        "It's hurting my throat"
       ],
-      "urgency": "low"
+      "urgency": "medium"
     }
   ]
 }
