@@ -46,9 +46,9 @@ function InfiniteScrollTrigger({ onIntersect, hasMore, isLoading }: { onIntersec
   return (
     <div ref={triggerRef} className="py-4 text-center">
       {isLoading ? (
-        <span className="text-sm text-zinc-400 animate-pulse">Loading more...</span>
+        <span className="text-sm text-white/40 animate-pulse">Loading more...</span>
       ) : (
-        <span className="text-sm text-zinc-600">Scroll for more</span>
+        <span className="text-sm text-white/30">Scroll for more</span>
       )}
     </div>
   );
@@ -123,7 +123,7 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
           placeholder="Search quotes..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full px-4 py-2 bg-zinc-800/50 border border-zinc-700 rounded-lg text-sm text-white placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-zinc-600"
+          className="w-full px-4 py-2 bg-black/40 border border-white/[0.1] rounded-lg text-sm text-white placeholder-white/40 focus:outline-none focus:ring-1 focus:ring-white/20"
         />
       </div>
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
@@ -148,12 +148,12 @@ export function CategoryTabs({ quotes, filter }: CategoryTabsProps) {
             <div className="space-y-3 mt-4">
               {/* Progress indicator */}
               {filteredData.length > 0 && (
-                <div className="text-xs text-zinc-500 text-center pb-2">
+                <div className="text-xs text-white/40 text-center pb-2">
                   Showing {Math.min(visibleCounts[cat.key], filteredData.length)} of {filteredData.length} quotes
                 </div>
               )}
               {visibleQuotes.length === 0 ? (
-                <div className="text-center text-zinc-500 py-8">
+                <div className="text-center text-white/40 py-8">
                   No quotes found for this filter
                 </div>
               ) : (

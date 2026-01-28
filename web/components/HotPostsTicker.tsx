@@ -19,7 +19,7 @@ export function HotPostsTicker({ posts }: HotPostsTickerProps) {
   const tickerContent = [...topPosts, ...topPosts];
 
   return (
-    <div className="bg-zinc-900/50 rounded-lg border border-zinc-800 overflow-hidden">
+    <div className="bg-black/40 backdrop-blur-sm rounded-xl border border-white/[0.08] overflow-hidden">
       <div className="flex items-center">
         <div className="flex-1 overflow-hidden">
           <div className="ticker-wrapper">
@@ -32,11 +32,11 @@ export function HotPostsTicker({ posts }: HotPostsTickerProps) {
                   rel="noopener noreferrer"
                   className="ticker-item group"
                 >
-                  <span className="text-zinc-500">r/{post.subreddit}</span>
-                  <span className="text-white group-hover:text-[#FF4500] transition-colors">{post.title}</span>
-                  <span className="text-zinc-600 text-xs">↑{post.score}</span>
-                  <span className="text-zinc-600 text-xs">💬{post.num_comments}</span>
-                  <span className="text-zinc-700 mx-4">|</span>
+                  <span className="text-white/40">r/{post.subreddit}</span>
+                  <span className="text-white/80 group-hover:text-[#FF4500] transition-colors">{post.title}</span>
+                  <span className="text-white/30 text-xs">↑{post.score}</span>
+                  <span className="text-white/30 text-xs">💬{post.num_comments}</span>
+                  <span className="text-white/20 mx-4">|</span>
                 </a>
               ))}
             </div>

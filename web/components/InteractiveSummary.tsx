@@ -116,13 +116,13 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
   }, [activeIndex]);
 
   return (
-    <div className="bg-zinc-900/50 rounded-2xl border border-zinc-800 p-4">
+    <div className="bg-black/40 backdrop-blur-sm rounded-xl border border-white/[0.08] p-4">
       {/* Carousel container */}
       <div className="relative">
         {/* Navigation arrows */}
         <button
           onClick={handlePrev}
-          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-10 w-8 h-8 rounded-full bg-zinc-800/80 hover:bg-zinc-700 flex items-center justify-center transition-colors text-zinc-400 hover:text-white"
+          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 sm:-translate-x-4 z-10 w-8 h-8 rounded-full bg-white/[0.05] border border-white/[0.1] hover:bg-white/[0.1] flex items-center justify-center transition-colors text-white/40 hover:text-white/80"
           aria-label="Previous"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -132,7 +132,7 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
 
         <button
           onClick={handleNext}
-          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 z-10 w-8 h-8 rounded-full bg-zinc-800/80 hover:bg-zinc-700 flex items-center justify-center transition-colors text-zinc-400 hover:text-white"
+          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 sm:translate-x-4 z-10 w-8 h-8 rounded-full bg-white/[0.05] border border-white/[0.1] hover:bg-white/[0.1] flex items-center justify-center transition-colors text-white/40 hover:text-white/80"
           aria-label="Next"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -168,21 +168,21 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
                   className="w-full flex-shrink-0 snap-center px-2 sm:px-8"
                 >
                   <div>
-                    <h3 className="text-sm font-semibold text-zinc-300 mb-2 font-[family-name:var(--font-space-mono)]">
+                    <h3 className="text-sm font-semibold text-white/80 mb-2 font-[family-name:var(--font-space-mono)]">
                       {config.label}
                     </h3>
-                    <ul className="text-sm text-zinc-400 leading-relaxed space-y-2">
+                    <ul className="text-sm text-white/50 leading-relaxed space-y-2">
                       {summary
                         .split(/(?<=[.!?])\s+/)
                         .filter((sentence) => sentence.trim())
                         .map((sentence, idx) => (
                           <li key={idx} className="flex gap-2">
-                            <span className="text-zinc-600 mt-0.5">•</span>
+                            <span className="text-white/30 mt-0.5">•</span>
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: sentence
                                   // Bold words at start of sentence (first 2-4 words before a comma or colon)
-                                  .replace(/^([^,.:]+[,.:]?)/, '<strong class="text-zinc-200">$1</strong>')
+                                  .replace(/^([^,.:]+[,.:]?)/, '<strong class="text-white/80">$1</strong>')
                               }}
                             />
                           </li>
@@ -204,8 +204,8 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
             onClick={() => handleDotClick(index)}
             className={`w-2 h-2 rounded-full transition-all ${
               index === activeIndex
-                ? "bg-zinc-300 w-4"
-                : "bg-zinc-600 hover:bg-zinc-500"
+                ? "bg-white/60 w-4"
+                : "bg-white/20 hover:bg-white/30"
             }`}
             aria-label={`Go to ${categoryConfig[cat].label}`}
           />

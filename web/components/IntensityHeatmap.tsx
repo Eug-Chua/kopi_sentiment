@@ -11,7 +11,7 @@ interface IntensityHeatmapProps {
 }
 
 function getHeatColor(value: number, max: number, level: Intensity, category: CategoryKey): string {
-  if (value === 0) return "bg-zinc-800/50";
+  if (value === 0) return "bg-white/[0.03]";
 
   const intensity = max > 0 ? value / max : 0;
 
@@ -64,7 +64,7 @@ function HeatCell({
   category: CategoryKey;
   onClick?: () => void;
 }) {
-  const textColor = value === 0 ? "text-zinc-600" : "text-white";
+  const textColor = value === 0 ? "text-white/30" : "text-white";
   const isClickable = onClick && value > 0;
 
   return (
@@ -101,21 +101,21 @@ export function IntensityHeatmap({ sentiment, onCellClick, className }: Intensit
   };
 
   return (
-    <div className={`bg-zinc-900/50 rounded-lg p-3 border border-zinc-800 flex flex-col ${className || ""}`}>
+    <div className={`bg-black/40 backdrop-blur-sm rounded-xl p-3 border border-white/[0.08] flex flex-col ${className || ""}`}>
       {/* Header */}
       <div className="grid grid-cols-[minmax(70px,1fr)_1fr_1fr_1fr_minmax(35px,0.5fr)] gap-1.5 mb-1.5">
-        <div className="text-[10px] text-muted-foreground"></div>
-        <div className="text-[10px] text-muted-foreground text-center">Mild</div>
-        <div className="text-[10px] text-muted-foreground text-center">Moderate</div>
-        <div className="text-[10px] text-muted-foreground text-center">Strong</div>
-        <div className="text-[10px] text-muted-foreground text-center">Total</div>
+        <div className="text-[10px] text-white/40"></div>
+        <div className="text-[10px] text-white/40 text-center">Mild</div>
+        <div className="text-[10px] text-white/40 text-center">Moderate</div>
+        <div className="text-[10px] text-white/40 text-center">Strong</div>
+        <div className="text-[10px] text-white/40 text-center">Total</div>
       </div>
 
       {/* Rows */}
       <div className="flex-1 flex flex-col gap-1.5">
         {categoryStats.map((cat) => (
           <div key={cat.key} className="grid grid-cols-[minmax(70px,1fr)_1fr_1fr_1fr_minmax(35px,0.5fr)] gap-1.5 flex-1">
-            <div className="flex items-center text-xs text-white font-medium">
+            <div className="flex items-center text-xs text-white/80 font-medium">
               {cat.label}
             </div>
             <HeatCell
@@ -141,7 +141,7 @@ export function IntensityHeatmap({ sentiment, onCellClick, className }: Intensit
             />
             <div
               onClick={() => cat.total > 0 && handleCellClick(cat.key)}
-              className={`flex items-center justify-center text-xs text-zinc-400 bg-zinc-800/50 rounded h-full min-h-8 ${cat.total > 0 ? "cursor-pointer hover:ring-2 hover:ring-white/30" : ""}`}
+              className={`flex items-center justify-center text-xs text-white/50 bg-white/[0.03] rounded h-full min-h-8 ${cat.total > 0 ? "cursor-pointer hover:ring-2 hover:ring-white/30" : ""}`}
             >
               {cat.total}
             </div>
@@ -150,7 +150,7 @@ export function IntensityHeatmap({ sentiment, onCellClick, className }: Intensit
       </div>
 
       {/* Legend - more compact */}
-      <div className="mt-auto pt-2 border-t border-zinc-800 flex flex-col gap-1.5 text-[10px] text-muted-foreground">
+      <div className="mt-auto pt-2 border-t border-white/[0.06] flex flex-col gap-1.5 text-[10px] text-white/40">
         <div className="flex items-center gap-3">
           <span className="text-white/50">Negative:</span>
           <div className="flex items-center gap-1">

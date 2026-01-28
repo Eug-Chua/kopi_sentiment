@@ -27,8 +27,8 @@ export function TrendingThemes({ clusters }: TrendingThemesProps) {
 
   if (!items || items.length === 0) {
     return (
-      <div className="bg-zinc-900/50 rounded-lg p-4 border border-zinc-800 h-full flex flex-col">
-        <div className="text-sm text-zinc-500 italic">No thematic clusters</div>
+      <div className="bg-black/40 backdrop-blur-sm rounded-xl p-4 border border-white/[0.08] h-full flex flex-col">
+        <div className="text-sm text-white/40 italic">No thematic clusters</div>
       </div>
     );
   }
@@ -53,20 +53,20 @@ export function TrendingThemes({ clusters }: TrendingThemesProps) {
   };
 
   return (
-    <div className="bg-zinc-900/50 rounded-lg p-4 border border-zinc-800 h-full flex flex-col">
+    <div className="bg-black/40 backdrop-blur-sm rounded-xl p-4 border border-white/[0.08] h-full flex flex-col">
       <div className="space-y-2 flex-1 flex flex-col justify-between">
         {items.slice(0, 5).map((item, i) => (
           <button
             key={i}
             onClick={(e) => handleClick(item, e)}
-            className="flex items-start gap-2 text-left w-full hover:bg-white/5 rounded-md p-1 -m-1 transition-colors cursor-pointer"
+            className="flex items-start gap-2 text-left w-full hover:bg-white/[0.03] rounded-md p-1 -m-1 transition-colors cursor-pointer"
           >
-            <span className="text-zinc-600 text-sm font-medium w-4 flex-shrink-0">{i + 1}</span>
+            <span className="text-white/30 text-sm font-medium w-4 flex-shrink-0">{i + 1}</span>
             <div className="flex-1 min-w-0 flex items-center justify-between gap-2">
-              <span className="text-sm text-white font-medium truncate hover:text-zinc-300" title={item.topic}>
+              <span className="text-sm text-white/80 font-medium truncate hover:text-white" title={item.topic}>
                 {item.topic}
               </span>
-              <span className="text-xs text-zinc-500 flex-shrink-0">↑{formatEngagement(item.engagement_score)}</span>
+              <span className="text-xs text-white/40 flex-shrink-0">↑{formatEngagement(item.engagement_score)}</span>
             </div>
           </button>
         ))}
@@ -100,7 +100,7 @@ function ThemePopover({ cluster, onClose, position }: ThemePopoverProps) {
 
       {/* Popover - positioned over clicked item */}
       <div
-        className="fixed w-80 z-50 rounded-lg border border-zinc-700/50 bg-zinc-800/95 backdrop-blur-sm shadow-lg"
+        className="fixed w-80 z-50 rounded-xl border border-white/[0.1] bg-black/90 backdrop-blur-sm shadow-xl"
         style={{
           top: position.top,
           left: position.left,
@@ -114,13 +114,13 @@ function ThemePopover({ cluster, onClose, position }: ThemePopoverProps) {
             <span className={`text-[10px] uppercase tracking-wider font-medium ${config.color}`}>
               {config.label}
             </span>
-            <span className="text-[10px] text-zinc-500">
+            <span className="text-[10px] text-white/40">
               ↑{formatEngagement(cluster.engagement_score)}
             </span>
           </div>
 
           {/* Topic title */}
-          <h3 className="text-sm font-medium text-zinc-200 mb-3">
+          <h3 className="text-sm font-medium text-white/80 mb-3">
             {cluster.topic}
           </h3>
 
@@ -134,14 +134,14 @@ function ThemePopover({ cluster, onClose, position }: ThemePopoverProps) {
                 return (
                   <div
                     key={i}
-                    className="text-xs text-zinc-500 pl-2 border-l border-zinc-600/50"
+                    className="text-xs text-white/50 pl-2 border-l border-white/[0.1]"
                   >
                     {url ? (
                       <a
                         href={url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-zinc-300 transition-colors"
+                        className="hover:text-white transition-colors"
                         onClick={(e) => e.stopPropagation()}
                       >
                         {title}

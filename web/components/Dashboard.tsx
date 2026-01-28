@@ -84,10 +84,10 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
         <div className="mb-4 sm:mb-6">
           <button
             onClick={() => setShowAnalytics(!showAnalytics)}
-            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors ${
+            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all ${
               showAnalytics
-                ? "bg-blue-600 text-white"
-                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+                ? "border border-white/30 bg-white/[0.08] text-white"
+                : "border border-white/[0.15] bg-transparent text-white/60 hover:bg-white/[0.05] hover:text-white/80 hover:border-white/[0.25]"
             }`}
           >
             {showAnalytics ? "← Vibes" : "Signals"}
