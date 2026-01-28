@@ -4,9 +4,11 @@ import json
 import logging
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from typing import Any
 
 from kopi_sentiment.config.settings import settings
 from kopi_sentiment.analyzer.models import WeeklyReport, DailyReport
+from kopi_sentiment.scraper.reddit import RedditPost
 
 logger = logging.getLogger(__name__)
 
@@ -268,4 +270,165 @@ class DailyJSONStorage:
                 continue
 
         logger.info(f"Cleaned up {deleted_count} old daily reports (keeping {keep_days} days)")
+        return deleted_count
+
+
+class RawDataStorage:
+    """Manages JSON file storage for raw scraped Reddit data.
+
+    Stores the full scraped posts and comments before LLM analysis,
+    enabling future re-analysis without re-scraping.
+    """
+
+    def __init__(self, base_path: Path | str | None = None, data_type: str = "daily"):
+        """Initialize storage with a base path.
+
+        Args:
+            base_path: Directory for storing JSON files. Defaults to 'data/raw/{data_type}'.
+            data_type: Either 'daily' or 'weekly' to organize raw data.
+        """
+        if base_path is None:
+            # Use appropriate data path based on data type
+            if data_type == "weekly":
+                base_path = Path(settings.data_path_weekly).parent / "raw" / data_type
+            else:
+                base_path = Path(settings.data_path_daily).parent / "raw" / data_type
+        elif isinstance(base_path, str):
+            base_path = Path(base_path)
+
+        self.base_path = base_path
+        self.base_path.mkdir(parents=True, exist_ok=True)
+        logger.info(f"RawDataStorage initialized at {self.base_path.absolute()}")
+
+    def save_raw_scrape(
+        self,
+        report_id: str,
+        posts: list[RedditPost],
+        subreddits: list[str],
+    ) -> Path:
+        """Save raw scraped data to JSON.
+
+        Args:
+            report_id: Date ID (YYYY-MM-DD) or week ID (YYYY-Www)
+            posts: List of RedditPost objects with all comments
+            subreddits: List of subreddit names that were scraped
+
+        Returns:
+            Path to the saved file
+        """
+        file_path = self.base_path / f"{report_id}.json"
+
+        # Build the raw data structure
+        data: dict[str, Any] = {
+            "schema_version": "raw_scrape_v1",
+            "report_id": report_id,
+            "scraped_at": datetime.now().isoformat(),
+            "subreddits": subreddits,
+            "total_posts": len(posts),
+            "total_comments": sum(len(p.comments) for p in posts),
+            "posts": [
+                {
+                    "id": post.id,
+                    "subreddit": post.subreddit,
+                    "title": post.title,
+                    "url": post.url,
+                    "score": post.score,
+                    "num_comments": post.num_comments,
+                    "created_at": post.created_at.isoformat() if isinstance(post.created_at, datetime) else post.created_at,
+                    "selftext": post.selftext,
+                    "comments": [
+                        {
+                            "text": comment.text,
+                            "score": comment.score,
+                        }
+                        for comment in post.comments
+                    ],
+                }
+                for post in posts
+            ],
+        }
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        logger.info(
+            f"Saved raw scrape to {file_path} "
+            f"({len(posts)} posts, {data['total_comments']} comments)"
+        )
+        return file_path
+
+    def load_raw_scrape(self, report_id: str) -> dict[str, Any]:
+        """Load raw scraped data from JSON.
+
+        Args:
+            report_id: Date ID or week ID
+
+        Returns:
+            Dict with raw scrape data
+
+        Raises:
+            FileNotFoundError: If the raw data doesn't exist
+        """
+        file_path = self.base_path / f"{report_id}.json"
+
+        if not file_path.exists():
+            raise FileNotFoundError(f"No raw data found for {report_id}")
+
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def raw_exists(self, report_id: str) -> bool:
+        """Check if raw data exists for the given report ID."""
+        file_path = self.base_path / f"{report_id}.json"
+        return file_path.exists()
+
+    def list_all_raw(self) -> list[str]:
+        """List all available raw data IDs, sorted newest first."""
+        ids = sorted(
+            [f.stem for f in self.base_path.glob("*.json")],
+            reverse=True,
+        )
+        return ids
+
+    def delete_raw(self, report_id: str) -> bool:
+        """Delete raw data for a report."""
+        file_path = self.base_path / f"{report_id}.json"
+
+        if file_path.exists():
+            file_path.unlink()
+            logger.info(f"Deleted raw data for {report_id}")
+            return True
+
+        return False
+
+    def cleanup_old_raw(self, keep_days: int = 30) -> int:
+        """Delete raw data older than keep_days.
+
+        Args:
+            keep_days: Number of days of raw data to keep (default 30)
+
+        Returns:
+            Number of files deleted
+        """
+        cutoff_date = date.today() - timedelta(days=keep_days)
+        deleted_count = 0
+
+        for report_id in self.list_all_raw():
+            try:
+                # Handle both date format (YYYY-MM-DD) and week format (YYYY-Www)
+                if "-W" in report_id:
+                    # Week format: use Monday of that week
+                    year, week = report_id.split("-W")
+                    report_date = date.fromisocalendar(int(year), int(week), 1)
+                else:
+                    report_date = date.fromisoformat(report_id)
+
+                if report_date < cutoff_date:
+                    if self.delete_raw(report_id):
+                        deleted_count += 1
+            except ValueError:
+                logger.warning(f"Invalid format in raw filename: {report_id}")
+                continue
+
+        logger.info(f"Cleaned up {deleted_count} old raw data files (keeping {keep_days} days)")
         return deleted_count
