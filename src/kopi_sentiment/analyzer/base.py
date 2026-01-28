@@ -5,8 +5,8 @@ import logging
 from abc import ABC, abstractmethod
 from kopi_sentiment.analyzer.models import (
     Intensity,
-    FFGACategory,
-    FFGAResult,
+    FFOCategory,
+    FFOResult,
     ExtractedQuote,
     AnalysisResult,
     CategorySummary,
@@ -66,7 +66,7 @@ class BaseAnalyzer:
             raw_data = json.loads(response)
             # Convert to ExtractedQuote objects, handling both old (string) and new (dict) formats
             result = {}
-            for key in ["fears", "frustrations", "goals", "aspirations"]:
+            for key in ["fears", "frustrations", "optimism"]:
                 quotes = []
                 for item in raw_data.get(key, []):
                     if isinstance(item, str):
@@ -82,7 +82,7 @@ class BaseAnalyzer:
             return result
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse extraction response: {e}")
-            return {"fears": [], "frustrations": [], "goals": [], "aspirations": []}
+            return {"fears": [], "frustrations": [], "optimism": []}
 
 
     def _assess_intensity(self, title: str, quotes: dict[str, list[ExtractedQuote]]) -> dict:
@@ -92,8 +92,7 @@ class BaseAnalyzer:
             title=title,
             fears=[q.quote for q in quotes.get("fears", [])],
             frustrations=[q.quote for q in quotes.get("frustrations", [])],
-            goals=[q.quote for q in quotes.get("goals", [])],
-            aspirations=[q.quote for q in quotes.get("aspirations", [])],
+            optimism=[q.quote for q in quotes.get("optimism", [])],
         )
 
         response = self._call_llm(INTENSITY_SYSTEM_PROMPT, user_prompt)
@@ -122,18 +121,18 @@ class BaseAnalyzer:
         
         return response.strip()
 
-    def _build_ffga_result(self,
-                           category: FFGACategory,
-                           key: str,
-                           quotes: dict[str, list[ExtractedQuote]],
-                           intensity_data: dict) -> FFGAResult:
-        """Build a single FFGA result"""
+    def _build_ffo_result(self,
+                          category: FFOCategory,
+                          key: str,
+                          quotes: dict[str, list[ExtractedQuote]],
+                          intensity_data: dict) -> FFOResult:
+        """Build a single FFO result"""
 
         data = intensity_data.get(key, {})
-        return FFGAResult(category=category,
-                          intensity=data.get('intensity', 'moderate'),
-                          summary=data.get('summary', 'No analysis available.'),
-                          quotes=quotes.get(key, [])
+        return FFOResult(category=category,
+                         intensity=data.get('intensity', 'moderate'),
+                         summary=data.get('summary', 'No analysis available.'),
+                         quotes=quotes.get(key, [])
         )
 
     def _build_analysis_result(self,
@@ -141,20 +140,18 @@ class BaseAnalyzer:
                                quotes: dict[str, list[ExtractedQuote]],
                                intensity_data: dict) -> AnalysisResult:
         """Build the complete analysis result"""
-        fears = self._build_ffga_result(FFGACategory.FEAR, "fears", quotes, intensity_data)
-        frustrations = self._build_ffga_result(FFGACategory.FRUSTRATION, "frustrations", quotes, intensity_data)
-        goals = self._build_ffga_result(FFGACategory.GOAL, "goals", quotes, intensity_data)
-        aspirations = self._build_ffga_result(FFGACategory.ASPIRATION, "aspirations", quotes, intensity_data)
+        fears = self._build_ffo_result(FFOCategory.FEAR, "fears", quotes, intensity_data)
+        frustrations = self._build_ffo_result(FFOCategory.FRUSTRATION, "frustrations", quotes, intensity_data)
+        optimism = self._build_ffo_result(FFOCategory.OPTIMISM, "optimism", quotes, intensity_data)
 
         return AnalysisResult(post_id=post.id,
                               post_title=post.title,
                               fears=fears,
                               frustrations=frustrations,
-                              goals=goals,
-                              aspirations=aspirations)
+                              optimism=optimism)
 
     def analyze(self, post: RedditPost) -> AnalysisResult:
-        """Analyze a Reddit post and return FFGA analysis"""
+        """Analyze a Reddit post and return FFO analysis"""
         quotes = self._extract_quotes(post)
         intensity_data = self._assess_intensity(post.title, quotes)
         return self._build_analysis_result(post, quotes, intensity_data)
@@ -178,7 +175,7 @@ class BaseAnalyzer:
         all_quotes: dict[str, list[str]],
         is_daily: bool = False,
     ) -> OverallSentiment:
-        """Step 3: Generate 2-sentence summaries for each FFGA category.
+        """Step 3: Generate 2-sentence summaries for each FFO category.
 
         Args:
             week_id: ISO week format (e.g., "2025-W02") or date (e.g., "2025-01-15")
@@ -193,16 +190,14 @@ class BaseAnalyzer:
         intensity_counts = {
             "fears": {"mild": 0, "moderate": 0, "strong": 0},
             "frustrations": {"mild": 0, "moderate": 0, "strong": 0},
-            "goals": {"mild": 0, "moderate": 0, "strong": 0},
-            "aspirations": {"mild": 0, "moderate": 0, "strong": 0},
+            "optimism": {"mild": 0, "moderate": 0, "strong": 0},
         }
 
         for analysis in analyses:
             for key, result in [
                 ("fears", analysis.fears),
                 ("frustrations", analysis.frustrations),
-                ("goals", analysis.goals),
-                ("aspirations", analysis.aspirations),
+                ("optimism", analysis.optimism),
             ]:
                 intensity = result.intensity.value if hasattr(result.intensity, 'value') else result.intensity
                 if intensity in intensity_counts[key]:
@@ -217,10 +212,8 @@ class BaseAnalyzer:
                 parts.append(f"{len(analysis.fears.quotes)} fear quotes ({analysis.fears.intensity})")
             if analysis.frustrations.quotes:
                 parts.append(f"{len(analysis.frustrations.quotes)} frustration quotes ({analysis.frustrations.intensity})")
-            if analysis.goals.quotes:
-                parts.append(f"{len(analysis.goals.quotes)} goal quotes ({analysis.goals.intensity})")
-            if analysis.aspirations.quotes:
-                parts.append(f"{len(analysis.aspirations.quotes)} aspiration quotes ({analysis.aspirations.intensity})")
+            if analysis.optimism.quotes:
+                parts.append(f"{len(analysis.optimism.quotes)} optimism quotes ({analysis.optimism.intensity})")
             summary += ", ".join(parts) if parts else "no significant quotes"
             post_summaries.append(summary)
 
@@ -236,18 +229,13 @@ class BaseAnalyzer:
             frustration_mild=intensity_counts["frustrations"]["mild"],
             frustration_moderate=intensity_counts["frustrations"]["moderate"],
             frustration_strong=intensity_counts["frustrations"]["strong"],
-            goal_count=len(all_quotes.get("goals", [])),
-            goal_mild=intensity_counts["goals"]["mild"],
-            goal_moderate=intensity_counts["goals"]["moderate"],
-            goal_strong=intensity_counts["goals"]["strong"],
-            aspiration_count=len(all_quotes.get("aspirations", [])),
-            aspiration_mild=intensity_counts["aspirations"]["mild"],
-            aspiration_moderate=intensity_counts["aspirations"]["moderate"],
-            aspiration_strong=intensity_counts["aspirations"]["strong"],
+            optimism_count=len(all_quotes.get("optimism", [])),
+            optimism_mild=intensity_counts["optimism"]["mild"],
+            optimism_moderate=intensity_counts["optimism"]["moderate"],
+            optimism_strong=intensity_counts["optimism"]["strong"],
             sample_fears=all_quotes.get("fears", [])[:5],
             sample_frustrations=all_quotes.get("frustrations", [])[:5],
-            sample_goals=all_quotes.get("goals", [])[:5],
-            sample_aspirations=all_quotes.get("aspirations", [])[:5],
+            sample_optimism=all_quotes.get("optimism", [])[:5],
             is_daily=is_daily,
         )
 
@@ -278,8 +266,7 @@ class BaseAnalyzer:
         return OverallSentiment(
             fears=build_category_summary("fears"),
             frustrations=build_category_summary("frustrations"),
-            goals=build_category_summary("goals"),
-            aspirations=build_category_summary("aspirations"),
+            optimism=build_category_summary("optimism"),
         )
 
     def detect_thematic_clusters(
@@ -302,8 +289,7 @@ class BaseAnalyzer:
             post_titles=post_titles,
             sample_fears=all_quotes.get("fears", [])[:10],
             sample_frustrations=all_quotes.get("frustrations", [])[:10],
-            sample_goals=all_quotes.get("goals", [])[:10],
-            sample_aspirations=all_quotes.get("aspirations", [])[:10],
+            sample_optimism=all_quotes.get("optimism", [])[:10],
         )
 
         response = self._call_llm(THEMATIC_CLUSTERS_SYSTEM_PROMPT, user_prompt)
@@ -321,8 +307,9 @@ class BaseAnalyzer:
                 clusters.append(ThematicCluster(
                     topic=cluster_data["topic"],
                     engagement_score=cluster_data.get("engagement_score", 0),
-                    dominant_emotion=FFGACategory(cluster_data["dominant_emotion"]),
+                    dominant_emotion=FFOCategory(cluster_data["dominant_emotion"]),
                     sample_posts=cluster_data.get("sample_posts", [])[:3],
+                    entities=cluster_data.get("entities", []),
                 ))
             except (KeyError, ValueError) as e:
                 logger.warning(f"Skipping invalid thematic cluster: {e}")
@@ -357,12 +344,9 @@ class BaseAnalyzer:
             frustrations_summary=overall_sentiment.frustrations.summary,
             frustrations_intensity=overall_sentiment.frustrations.intensity.value,
             frustrations_count=overall_sentiment.frustrations.quote_count,
-            goals_summary=overall_sentiment.goals.summary,
-            goals_intensity=overall_sentiment.goals.intensity.value,
-            goals_count=overall_sentiment.goals.quote_count,
-            aspirations_summary=overall_sentiment.aspirations.summary,
-            aspirations_intensity=overall_sentiment.aspirations.intensity.value,
-            aspirations_count=overall_sentiment.aspirations.quote_count,
+            optimism_summary=overall_sentiment.optimism.summary,
+            optimism_intensity=overall_sentiment.optimism.intensity.value,
+            optimism_count=overall_sentiment.optimism.quote_count,
             trend_summary=trend_summary,
             high_engagement_quotes=high_engagement_quotes,
             trending_topics=trending_topics,
@@ -399,8 +383,7 @@ class BaseAnalyzer:
         user_prompt = build_theme_clustering_prompt(
             fears_quotes=all_quotes.get("fears", []),
             frustrations_quotes=all_quotes.get("frustrations", []),
-            goals_quotes=all_quotes.get("goals", []),
-            aspirations_quotes=all_quotes.get("aspirations", []),
+            optimism_quotes=all_quotes.get("optimism", []),
         )
 
         response = self._call_llm(THEME_CLUSTERING_SYSTEM_PROMPT, user_prompt)
@@ -418,7 +401,7 @@ class BaseAnalyzer:
                 clusters.append(ThemeCluster(
                     theme=cluster_data["theme"],
                     description=cluster_data["description"],
-                    category=FFGACategory(cluster_data["category"]),
+                    category=FFOCategory(cluster_data["category"]),
                     quote_count=cluster_data["quote_count"],
                     sample_quotes=cluster_data.get("sample_quotes", [])[:3],
                     avg_score=cluster_data.get("avg_score", 0.0),
@@ -455,14 +438,10 @@ class BaseAnalyzer:
             frustrations_mild=intensity_counts.get("frustrations", {}).get("mild", 0),
             frustrations_moderate=intensity_counts.get("frustrations", {}).get("moderate", 0),
             frustrations_strong=intensity_counts.get("frustrations", {}).get("strong", 0),
-            goals_count=sum(intensity_counts.get("goals", {}).values()),
-            goals_mild=intensity_counts.get("goals", {}).get("mild", 0),
-            goals_moderate=intensity_counts.get("goals", {}).get("moderate", 0),
-            goals_strong=intensity_counts.get("goals", {}).get("strong", 0),
-            aspirations_count=sum(intensity_counts.get("aspirations", {}).values()),
-            aspirations_mild=intensity_counts.get("aspirations", {}).get("mild", 0),
-            aspirations_moderate=intensity_counts.get("aspirations", {}).get("moderate", 0),
-            aspirations_strong=intensity_counts.get("aspirations", {}).get("strong", 0),
+            optimism_count=sum(intensity_counts.get("optimism", {}).values()),
+            optimism_mild=intensity_counts.get("optimism", {}).get("mild", 0),
+            optimism_moderate=intensity_counts.get("optimism", {}).get("moderate", 0),
+            optimism_strong=intensity_counts.get("optimism", {}).get("strong", 0),
             previous_week_comparison=previous_week_comparison,
             high_engagement_quotes=high_engagement_quotes,
             trending_topics=trending_topics,
@@ -470,13 +449,16 @@ class BaseAnalyzer:
 
         response = self._call_llm(SIGNAL_DETECTION_SYSTEM_PROMPT, user_prompt)
         response = self._clean_json_response(response)
+        logger.debug(f"Signal detection raw response: {response[:500]}...")
 
         try:
             data = json.loads(response)
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse signal detection response: {e}")
+            logger.error(f"Raw response: {response}")
             return []
 
+        logger.info(f"Signal detection returned {len(data.get('signals', []))} signals")
         signals = []
         for signal_data in data.get("signals", []):
             try:
@@ -485,7 +467,7 @@ class BaseAnalyzer:
                     signal_type=SignalType(signal_data["signal_type"]),
                     title=signal_data["title"],
                     description=signal_data["description"],
-                    category=FFGACategory(category) if category else None,
+                    category=FFOCategory(category) if category else None,
                     related_quotes=signal_data.get("related_quotes", [])[:3],
                     urgency=signal_data.get("urgency", "medium"),
                 ))

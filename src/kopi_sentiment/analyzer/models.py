@@ -7,17 +7,21 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 class Intensity(str, Enum):
-    """How strongly the FFGA emotion is expressed"""
+    """How strongly the FFO emotion is expressed"""
     MILD = "mild"          # Slight, passing mention
     MODERATE = "moderate"  # Clear expression
     STRONG = "strong"      # Intense, emphatic expression
 
-class FFGACategory(str, Enum):
-    """FFGA framework categories"""
+
+class FFOCategory(str, Enum):
+    """FFO framework categories (Fears, Frustrations, Optimism)"""
     FEAR = "fear"
     FRUSTRATION = "frustration"
-    GOAL = "goal"
-    ASPIRATION = "aspiration"
+    OPTIMISM = "optimism"
+
+
+# Backwards compatibility alias
+FFGACategory = FFOCategory
 
 class ExtractedQuote(BaseModel):
     """A quote extracted by the LLM with its comment score"""
@@ -25,21 +29,25 @@ class ExtractedQuote(BaseModel):
     score: int = 0  # Comment upvote score
 
 
-class FFGAResult(BaseModel):
-    """Result for a single FFGA category"""
-    category: FFGACategory
+class FFOResult(BaseModel):
+    """Result for a single FFO category"""
+    category: FFOCategory
     intensity: Intensity
     summary: str
     quotes: list[ExtractedQuote] = []
 
+
+# Backwards compatibility alias
+FFGAResult = FFOResult
+
+
 class AnalysisResult(BaseModel):
-    """Complete FFGA analysis for a post"""
+    """Complete FFO analysis for a post"""
     post_id: str
     post_title: str
-    fears: FFGAResult
-    frustrations: FFGAResult
-    goals: FFGAResult
-    aspirations: FFGAResult
+    fears: FFOResult
+    frustrations: FFOResult
+    optimism: FFOResult
 
 
 # ============================================================================
@@ -65,7 +73,7 @@ class IntensityBreakdown(BaseModel):
 
 
 class CategorySummary(BaseModel):
-    """Aggregated summary for one FFGA category"""
+    """Aggregated summary for one FFO category"""
     intensity: Intensity
     summary: str = Field(description="3-4 sentence LLM-generated summary")
     quote_count: int
@@ -76,8 +84,7 @@ class OverallSentiment(BaseModel):
     """Weekly sentiment across all subreddits"""
     fears: CategorySummary
     frustrations: CategorySummary
-    goals: CategorySummary
-    aspirations: CategorySummary
+    optimism: CategorySummary
 
 
 class PostAnalysis(BaseModel):
@@ -100,12 +107,19 @@ class SubredditReport(BaseModel):
     top_posts: list[PostAnalysis]
 
 
+class SamplePost(BaseModel):
+    """A sample post with title and optional URL"""
+    title: str
+    url: str | None = None
+
+
 class ThematicCluster(BaseModel):
     """A topic cluster representing what people are discussing, weighted by engagement"""
     topic: str = Field(description="Specific topic name (5-8 words)")
     engagement_score: int = Field(description="Sum of upvotes from posts discussing this topic")
-    dominant_emotion: FFGACategory
-    sample_posts: list[str] = Field(default=[], description="Representative post titles (max 3)")
+    dominant_emotion: FFOCategory
+    sample_posts: list[str | SamplePost] = Field(default=[], description="Representative post titles (max 3)")
+    entities: list[str] = Field(default=[], description="Key entities for trend tracking (e.g., HDB, CPF, Employment)")
 
 
 class WeeklyReportMetadata(BaseModel):
@@ -119,8 +133,7 @@ class AllQuotes(BaseModel):
     """All quotes organized by category"""
     fears: list[QuoteWithMetadata] = []
     frustrations: list[QuoteWithMetadata] = []
-    goals: list[QuoteWithMetadata] = []
-    aspirations: list[QuoteWithMetadata] = []
+    optimism: list[QuoteWithMetadata] = []
 
 
 # ============================================================================
@@ -135,7 +148,7 @@ class TrendDirection(str, Enum):
 
 
 class CategoryTrend(BaseModel):
-    """Week-over-week trend for a single FFGA category"""
+    """Week-over-week trend for a single FFO category"""
     direction: TrendDirection
     change_pct: float = Field(description="Percentage change in quote count")
     intensity_shift: str = Field(description="e.g., 'mild → moderate' or 'stable'")
@@ -149,15 +162,14 @@ class WeeklyTrends(BaseModel):
     previous_week_id: str | None = None
     fears: CategoryTrend | None = None
     frustrations: CategoryTrend | None = None
-    goals: CategoryTrend | None = None
-    aspirations: CategoryTrend | None = None
+    optimism: CategoryTrend | None = None
 
 
 class ThemeCluster(BaseModel):
     """A cluster of related quotes around a common theme"""
     theme: str = Field(description="Short theme name, e.g., 'Housing Affordability'")
     description: str = Field(description="1-sentence description of the theme")
-    category: FFGACategory
+    category: FFOCategory
     quote_count: int
     sample_quotes: list[str] = Field(description="Representative quotes (max 3)")
     avg_score: float = Field(description="Average engagement score of quotes in cluster")
@@ -176,7 +188,7 @@ class Signal(BaseModel):
     signal_type: SignalType
     title: str = Field(description="Short signal headline")
     description: str = Field(description="Why this signal matters")
-    category: FFGACategory | None = None
+    category: FFOCategory | None = None
     related_quotes: list[str] = []
     urgency: Literal["low", "medium", "high"] = "medium"
 
@@ -227,8 +239,7 @@ class DailyTrends(BaseModel):
     previous_date: date | None = None
     fears: CategoryTrend | None = None
     frustrations: CategoryTrend | None = None
-    goals: CategoryTrend | None = None
-    aspirations: CategoryTrend | None = None
+    optimism: CategoryTrend | None = None
 
 
 class DailyInsights(BaseModel):
