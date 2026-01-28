@@ -2,10 +2,10 @@
   "schema_version": "daily_report_v1",
   "date_id": "2026-01-16",
   "report_date": "2026-01-16",
-  "generated_at": "2026-01-16T11:18:06.364768",
+  "generated_at": "2026-01-27T19:50:41.438257",
   "metadata": {
     "total_posts_analyzed": 40,
-    "total_comments_analyzed": 766,
+    "total_comments_analyzed": 217,
     "subreddits": [
       "singapore",
       "askSingapore",
@@ -15,43 +15,33 @@
   },
   "overall_sentiment": {
     "fears": {
-      "intensity": "moderate",
-      "summary": "Singaporeans express moderate concerns about career consequences from taking principled stands and the long-term impact of criminal records on job prospects. There are also underlying anxieties about safety on public transport with perverts and the lenient punishments for serious traffic offenses like drink driving causing fatalities.",
-      "quote_count": 18,
+      "intensity": "mild",
+      "summary": "Job market anxieties are quietly simmering among Singaporeans today. The declining polytechnic graduate employment rates - dropping from 59.8% in 2023 to 54.2% in 2025 - have sparked concerns about career prospects for young graduates. Parents and students are also worried about the long-term impact of recent controversies on educational institutions like HCI. There's underlying concern that young people with police records may struggle with future employment opportunities.",
+      "quote_count": 12,
       "intensity_breakdown": {
-        "mild": 7,
-        "moderate": 8,
-        "strong": 3
+        "mild": 5,
+        "moderate": 6,
+        "strong": 1
       }
     },
     "frustrations": {
       "intensity": "strong",
-      "summary": "Strong frustrations dominate today's discussions, particularly around political developments with PM Wong's removal of Pritam Singh as Leader of Opposition, which many view as orchestrated drama. Workplace culture issues like sick colleagues spreading germs, housing market ethics, institutional food quality at elite schools, and Singapore's perceived lack of international recognition fuel widespread anger.",
-      "quote_count": 123,
+      "summary": "Singaporeans are expressing intense frustration across multiple fronts today. Political anger dominates, with widespread outrage over PM Wong's removal of Pritam Singh as Leader of Opposition and perceived government overreach. Housing agents are drawing particular ire for unethical practices, while residents are fed up with poor food quality at institutions like HCI and streaming service geo-blocking issues. The frustration extends to workplace culture, with many criticizing colleagues who come to work sick and spread illness - a mindset they feel should have changed post-COVID.",
+      "quote_count": 87,
       "intensity_breakdown": {
-        "mild": 3,
-        "moderate": 28,
-        "strong": 92
+        "mild": 1,
+        "moderate": 18,
+        "strong": 68
       }
     },
-    "goals": {
+    "optimism": {
       "intensity": "moderate",
-      "summary": "Singaporeans are setting moderate personal and financial goals, from fitness achievements like deadlifting milestones to career transitions and investment planning. There's practical focus on finding legal streaming options for anime and managing personal finances through various banking and investment products.",
-      "quote_count": 35,
+      "summary": "Despite the prevailing frustrations, Singaporeans are finding reasons to celebrate personal achievements and community spirit. Many are sharing fitness milestones and expressing excitement about upcoming concerts and events. There's genuine appreciation for those who show courage in difficult situations, particularly individuals willing to confront wrongdoing in public spaces like the MRT. The optimism tends to center around personal growth, leisure activities, and Singapore's continued appeal as a safe place to live and work.",
+      "quote_count": 43,
       "intensity_breakdown": {
-        "mild": 11,
-        "moderate": 20,
-        "strong": 4
-      }
-    },
-    "aspirations": {
-      "intensity": "moderate",
-      "summary": "Citizens express moderate hopes for positive change, particularly praising civic courage in confronting wrongdoers and hoping for better political representation. Cultural experiences like live concerts and celebrity visits to Singapore generate enthusiasm, alongside desires for improved institutional accountability and transparency.",
-      "quote_count": 41,
-      "intensity_breakdown": {
-        "mild": 7,
-        "moderate": 29,
-        "strong": 5
+        "mild": 6,
+        "moderate": 25,
+        "strong": 12
       }
     }
   },
@@ -59,7 +49,7 @@
     {
       "name": "singapore",
       "posts_analyzed": 10,
-      "comments_analyzed": 212,
+      "comments_analyzed": 60,
       "top_posts": [
         {
           "id": "t3_1qdx9qd",
@@ -81,12 +71,8 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a passionate expression of frustration regarding colleagues who come to work sick, with references to their spreading illness and the misguided notion that attendance equates to dedication.",
+              "summary": "There is a palpable frustration regarding colleagues coming to work sick, highlighting a workplace culture that values attendance over health.",
               "quotes": [
-                {
-                  "quote": "Do you have colleagues or office mates who keeps coughing? If unwell they should not be in the office spreading their germs everywhere.",
-                  "score": 4
-                },
                 {
                   "quote": "Screw that.. even long ago, my boss kept turning up for work when she was coughing her guts out and kept saying she was feverish She proceeded to spread her illness through all the office people.. twice!! The only one who didn't kena was me and I ended up covering for everyone who was sick 😓",
                   "score": 0
@@ -101,10 +87,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "Participants express clear enthusiasm about personal goals, such as completing a work contract and achieving weightlifting milestones, showcasing a noticeable sense of achievement.",
+              "summary": "The quotes reflect a moderate level of optimism, showcasing personal achievements and excitement about upcoming events, although tinged with a hint of frustration about transportation costs.",
               "quotes": [
                 {
                   "quote": "Last day of work! End of contract! Wheeeee Lazy to take bus and mrt. Going to take grab cause SPLURGE BUT DAMN EX SIA",
@@ -113,14 +99,7 @@
                 {
                   "quote": "I did 70 kg 5RM deadlifts! Not too long ago I could barely handle 25 kg!",
                   "score": 4
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The mention of enjoying live music indicates a casual appreciation for experiences that enhance personal joy.",
-              "quotes": [
+                },
                 {
                   "quote": "Went concert last night and damn I forgot how much j love live music",
                   "score": 3
@@ -144,49 +123,34 @@
               "category": "fear",
               "intensity": "mild",
               "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is a clear expression of discomfort regarding the situation, with some emphasis on legalities and feelings of disgust.",
+              "quotes": [
+                {
+                  "quote": "Creepy but not illegal. Illegal is when it’s like upskirt or similar. It’s one thing to feel disgusted but eh maybe check the laws first?",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "The responses express strong appreciation for bravery and commend the efforts to address the issue, reflecting an optimistic view of civic responsibility.",
               "quotes": [
                 {
                   "quote": "Firstly, I would commend your courage for acting on what you believe is right, this is courageous and commendable.",
                   "score": 0
                 },
                 {
-                  "quote": "Guilty people are usually super defensive when caught so not surprised that he berates you",
+                  "quote": "Thanks for being brave enough to confront him 🙌🏻",
                   "score": 0
-                }
-              ]
-            },
-            "frustrations": {
-              "category": "frustration",
-              "intensity": "moderate",
-              "summary": "There is a clear expression of frustration regarding the presence of perverts on trains and the accompanying legal ambiguity.",
-              "quotes": [
+                },
                 {
                   "quote": "It's ok you are just trying your best to perform a civic duty. Besides it's a fact there are many perverts on the trains. Better safe than sorry and let them get away",
-                  "score": 0
-                },
-                {
-                  "quote": "Creepy but not illegal. Illegal is when it’s like upskirt or similar. It’s one thing to feel disgusted but eh maybe check the laws first?",
-                  "score": 0
-                },
-                {
-                  "quote": "You can let the mrt staff know",
-                  "score": 0
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "strong",
-              "summary": "There's a passionate expression of support for bravery in confronting inappropriate behavior, highlighting a strong value placed on civic duty.",
-              "quotes": [
-                {
-                  "quote": "Thanks for being brave enough to confront him 🙌🏻",
                   "score": 0
                 }
               ]
@@ -207,7 +171,7 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "Only a slight concern is expressed regarding a potential threat, with no further elaboration.",
+              "summary": "The fear expressed is subtle, indicating a slight apprehension towards PM Wong's influence.",
               "quotes": [
                 {
                   "quote": "I am afraid she is a nexus being.",
@@ -218,7 +182,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a passionate expression of outrage and disbelief towards the actions of Raeesah Khan, reflecting deep dissatisfaction with the political situation.",
+              "summary": "There is a deep sense of frustration and outrage directed towards Raeesah Khan's actions and their negative implications for Singapore's future.",
               "quotes": [
                 {
                   "quote": "Raeesah khan really singlehandedly changed the cours of Singapore's future with her stupid lies smh",
@@ -242,16 +206,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
+              "summary": "The optimism is lightly expressed, reflecting a hope for Pritam Singh's response but lacking strong enthusiasm.",
               "quotes": [
                 {
                   "quote": "Hope Pritam gives them the middle finger",
@@ -274,20 +232,19 @@
             "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
             "fears": {
               "category": "fear",
-              "intensity": "strong",
-              "summary": "There is a deep concern regarding the lax nature of traffic laws and the insufficient penalties for serious offenses like drink driving, which raises anxieties about public safety.",
-              "quotes": [
-                {
-                  "quote": "With all the news about fatal accidents due to drink driving or driving without valid licence, there are still so many people doing it without hesitation. This goes to show how lax our traffic laws are. The punishments are so minor that they are willing to take a risk and pay the price. Till today, I still wonder how killing someone while drinking driving only gets you a few years in jail and a few years driving ban.",
-                  "score": 14
-                }
-              ]
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The quotes express intense frustration over the perceived leniency towards drink driving laws and inadequate enforcement measures, highlighting a sense of outrage about the inconsistent legal consequences.",
+              "summary": "There is significant frustration regarding lax traffic laws and the perceived inadequacy of punishments for serious offenses like drink driving, with emphatic language highlighting outrage and disbelief.",
               "quotes": [
+                {
+                  "quote": "With all the news about fatal accidents due to drink driving or driving without valid licence, there are still so many people doing it without hesitation. This goes to show how lax our traffic laws are. The punishments are so minor that they are willing to take a risk and pay the price. Till today, I still wonder how killing someone while drinking driving only gets you a few years in jail and a few years driving ban.",
+                  "score": 14
+                },
                 {
                   "quote": "eeeah, they'll be in and out in a few months. ezpz risk reward matrix heavily favours just yolo-ing it. Zero tolerance for drugs, kpods, and truck speed limiters ✖, but drink driving 〇",
                   "score": 6
@@ -302,25 +259,14 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "The sentiment suggests a practical approach to preventing drink driving by advocating for planning ahead, indicating a casual mention of responsible behavior.",
-              "quotes": [
-                {
-                  "quote": "It’s quite easy to not drive if you plan to drink. If you didn’t drive there, you won’t have to drive back",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "There is a light-hearted hope that the recent actions will serve as a warning to others, though the expression of this aspiration is quite mild.",
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a moderate sense of optimism that this enforcement could serve as a warning and deterrent for others, though it is somewhat tempered by the broader context of ongoing issues.",
               "quotes": [
                 {
                   "quote": "Nice. Seriously, Hope this will be a clear to the rest.",
-                  "score": 0
+                  "score": 1
                 }
               ]
             }
@@ -340,7 +286,7 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "There is a slight concern about the long-term implications of the young person's police record on future employment.",
+              "summary": "There is a slight concern that having a police record may hinder the teenager's future employment opportunities.",
               "quotes": [
                 {
                   "quote": "This young got police record. next time finding work, could be a challenge",
@@ -351,7 +297,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The comments convey intense frustration and disdain toward the teenager's actions, indicating a clear emotional response to the situation.",
+              "summary": "There is an intense frustration towards the teenager's actions, highlighting the consequences of foolish decisions.",
               "quotes": [
                 {
                   "quote": "Play stupid game, win stupid prize…",
@@ -360,24 +306,19 @@
                 {
                   "quote": "Wah he sucks",
                   "score": 0
-                },
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual mention of a potential bright future suggests a small degree of hope amidst the situation.",
+              "quotes": [
                 {
                   "quote": "Wah bright future",
                   "score": 0
                 }
               ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -401,7 +342,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a passionate and emphatic expression of discontent regarding the newer Star Wars films, with multiple users expressing intense dissatisfaction with the trilogy's storyline and production.",
+              "summary": "There is a clear and passionate expression of frustration regarding the Star Wars sequels, with users feeling that the films are incoherent and disappointing compared to earlier installments.",
               "quotes": [
                 {
                   "quote": "The new movies got so bad that I refused to watch the last part of the latest trilogy....",
@@ -414,27 +355,21 @@
                 {
                   "quote": "I dont rmb what the sequel trilogy storyline having watched all of them. The first one had some potential I actually went to cinema to watch it twice. John Williams and JJ Abrams carried the movie well. But the next 2 films were underwhelming at best. The whole premise was built on the characters relation to the OG characters. I think that's the start of all the Disney exec influencing the actual production.",
                   "score": 6
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The quotes reflect a definite appreciation for the significance of having a Skywalker visit Singapore, highlighting a connection to the broader Star Wars narrative.",
-              "quotes": [
-                {
-                  "quote": "it's an honour to have a skywalker to visit this humble country.",
-                  "score": 70
                 },
                 {
                   "quote": "The prequels at least have a good story that can be told in better ways, esp when viewed with the originals that formed the tragedy of Anakin. The sequels are just... incoherent.",
                   "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The comment expresses a noticeable sense of pride and positivity about a significant figure visiting Singapore, reflecting a cultural appreciation.",
+              "quotes": [
+                {
+                  "quote": "it's an honour to have a skywalker to visit this humble country.",
+                  "score": 70
                 }
               ]
             }
@@ -454,13 +389,22 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
+              "summary": "The comments reflect a slight concern regarding the lessons students might take from this episode.",
+              "quotes": [
+                {
+                  "quote": "Hope that's not the takeaway that students learn from this episode though...",
+                  "score": 188
+                },
+                {
+                  "quote": "I only hope the students learn from this as a negative example",
+                  "score": 17
+                }
+              ]
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a deep frustration with the perceived incompetence and arrogance of the institution and the broader education system, highlighting a lack of responsiveness to feedback and criticism.",
+              "summary": "There is intense frustration expressed over the handling of the situation by Hwa Chong Institution and the broader education system, with multiple references to mismanagement and a lack of accountability.",
               "quotes": [
                 {
                   "quote": "If only someone at HCI had the brains to say this from the start, they would have saved themselves a whole lot of bad press and looking stupid. Really PR fail.",
@@ -484,26 +428,11 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a desire for students to learn valuable lessons from the situation, although the remarks reflect concern about negative takeaways from the experience.",
-              "quotes": [
-                {
-                  "quote": "Hope that's not the takeaway that students learn from this episode though...",
-                  "score": 188
-                },
-                {
-                  "quote": "I only hope the students learn from this as a negative example",
-                  "score": 17
-                }
-              ]
             }
           }
         },
@@ -526,16 +455,12 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "moderate",
-              "summary": "The quotes express noticeable frustration regarding the slow response and perceived heartlessness in the legal process.",
+              "intensity": "strong",
+              "summary": "There is a clear and passionate expression of frustration regarding the slow response time and the perceived heartlessness of the lawyers involved.",
               "quotes": [
                 {
                   "quote": "How to take one year to respond 😵‍💫",
                   "score": 107
-                },
-                {
-                  "quote": "Well that shows it's about justice and not just someone looking for a quick payday.",
-                  "score": 28
                 },
                 {
                   "quote": "Heartless lawyers.",
@@ -543,17 +468,16 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The mention of justice suggests a noticeable positive sentiment about the legal system, emphasizing values beyond merely seeking financial gain.",
+              "quotes": [
+                {
+                  "quote": "Well that shows it's about justice and not just someone looking for a quick payday.",
+                  "score": 28
+                }
+              ]
             }
           }
         },
@@ -577,7 +501,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a palpable frustration regarding the complicated nature of legal streaming services, heralded by emphatic statements highlighting high costs and a turn to piracy due to poor service.",
+              "summary": "There is intense frustration regarding the complexity and cost of legal streaming services, with several users expressing their dissatisfaction and considering piracy as a result of poor service.",
               "quotes": [
                 {
                   "quote": "damn legal streaming is really getting too complicated",
@@ -597,25 +521,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "Users are actively seeking recommendations for popular anime series, showing a clear intention to continue watching within legal means.",
-              "quotes": [
-                {
-                  "quote": "any good recommendation? I enjoyed the popular ones like demon slayer, blue lock and haikyuu",
-                  "score": 4
-                },
-                {
-                  "quote": "I know you didn't include 'One Piece' but can someone tell me where can I watch it? T.T I've been stucked at Dressrosa arc since netflix stopped there, then jumped to egghead arc. Preferably legal means please!",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The enthusiasm surrounding new anime series is evident, with users expressing excitement for quality content and encouraging others to watch.",
+              "summary": "There is clear enthusiasm for specific anime series, with positive remarks about their quality and production values, encouraging others to watch them.",
               "quotes": [
                 {
                   "quote": "Just watched the first episode of ‘SHIBOYUGI: Playing Death Games To Put Food On The Table’, and it was one of the best first episodes i’ve ever watched. The production quality, shots, sound design, pacing and music choice were all on point. Do give it a watch if you are thinking of picking up something new this season, especially since it’s available for free on MeWatch/YouTube! Thank you OP for this list!",
@@ -642,14 +551,19 @@
             "post_title": "9 in 10 polytechnic graduates found work within 6 months of completing school or NS in 2025",
             "fears": {
               "category": "fear",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
+              "intensity": "moderate",
+              "summary": "There is a notable concern regarding the declining employment rates of polytechnic graduates, with questions about future trends adding to the unease.",
+              "quotes": [
+                {
+                  "quote": "54.2% secured full time jobs in 2025 In 2024 it was around 54.6%. 2023 was 59.8%. 2022 was 58%. Quite a big drop from 2023 to 2024, and continuing to drop in 2025. Wonder how 2026 would look.",
+                  "score": 12
+                }
+              ]
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There are significant frustrations regarding the misleading statistics about employment relevance and job quality for graduates, with emphatic comments on stagnant wages and the types of jobs available.",
+              "summary": "The frustrations are expressed emphatically, focusing on issues such as misleading employment statistics, irrelevant job placements, and stagnant wages, reflecting deep dissatisfaction with the job market.",
               "quotes": [
                 {
                   "quote": "so are the 28.2% of students who work part time working in the relevant field/industry that they studied years for? employment % itself as a stat is misleading because it does not mention if those who are employed even work in jobs that are relevant to their diplomas and are simply working elsewhere for an income",
@@ -658,10 +572,6 @@
                 {
                   "quote": "Do they take in FA, Property agent as employed as well? Or Jobs that have no link and/or don’t require their diploma at all A large subset of the unemployed do not take this stupid survey too",
                   "score": 75
-                },
-                {
-                  "quote": "“Found work” - definition. This is what should be raised and debated in parliament.",
-                  "score": 18
                 },
                 {
                   "quote": "Poly grads are cheap to hire mah. Wages so stagnant for 10+ years liao.",
@@ -673,23 +583,13 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There are aspirations expressed about the success of polytechnic graduates who did not pursue university, indicating a nuanced perspective on educational achievements relative to career outcomes.",
+              "summary": "There is a slight optimism based on personal success stories of polytechnic graduates who have thrived without attending university.",
               "quotes": [
                 {
                   "quote": "You would be surprised though. I have a few friends who were above average in poly, and did not attend uni, who are doing pretty damn well, better than those who were average in uni.",
-                  "score": 12
-                },
-                {
-                  "quote": "54.2% secured full time jobs in 2025 In 2024 it was around 54.6%. 2023 was 59.8%. 2022 was 58%. Quite a big drop from 2023 to 2024, and continuing to drop in 2025. Wonder how 2026 would look.",
                   "score": 12
                 }
               ]
@@ -701,7 +601,7 @@
     {
       "name": "askSingapore",
       "posts_analyzed": 10,
-      "comments_analyzed": 229,
+      "comments_analyzed": 68,
       "top_posts": [
         {
           "id": "t3_1qdgk7p",
@@ -723,46 +623,23 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a strong sense of frustration regarding the recklessness displayed by individuals who cheat, with an emphasis on the significant risks involved, including losing one's job and reputation.",
+              "summary": "The quotes reflect a deep frustration and disbelief towards the irrationality of cheating, emphasizing the significant personal and professional consequences involved.",
               "quotes": [
-                {
-                  "quote": "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room? I mean, it’s not by game at all but I definitely can’t wrap my head around it from a risk vs reward perspective.",
-                  "score": 192
-                },
-                {
-                  "quote": "Bloody hell",
-                  "score": 63
-                },
-                {
-                  "quote": "looks like someone got quite the reputation at work",
-                  "score": 61
-                },
                 {
                   "quote": "Yeah I don’t understand what people are thinking like don’t shit where you eat. Would never want to lose a good job over some stupid affair",
                   "score": 57
                 },
                 {
-                  "quote": "Moral of the story. Don't shit where you eat",
-                  "score": 46
+                  "quote": "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room? I mean, it’s not by game at all but I definitely can’t wrap my head around it from a risk vs reward perspective.",
+                  "score": 192
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The mention of the 'forbidden fruit' suggests a mild intrigue regarding the allure of temptation, but lacks depth in exploration.",
-              "quotes": [
-                {
-                  "quote": "It's the temptation of the forbidden fruit.",
-                  "score": 38
-                }
-              ]
             }
           }
         },
@@ -786,31 +663,15 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The quotes express a strong frustration regarding the lack of recognition and understanding of Singapore's culture and identity in the West, with some feeling that the global perception is heavily skewed.",
+              "summary": "There is a strong sense of frustration regarding Singapore's limited cultural recognition and the perception of it being an authoritarian state, as many express dismay over the lack of awareness and understanding of Singapore globally.",
               "quotes": [
                 {
                   "quote": "Don't think it's just gotta do with size tho. Singapore culturally exports nothing other than making the world think we are under an authoritarian govt.",
                   "score": 31
                 },
                 {
-                  "quote": "Actually, I go to US ~6 times a year and whenever someone asks where I'm from, most people from Uber drivers to restaurant staffs know us for only good things.",
-                  "score": 27
-                },
-                {
-                  "quote": "If they are even aware of the world map",
-                  "score": 26
-                },
-                {
                   "quote": "I live in the UK and most Brits only know \"Singapore noodles\" that they've created.",
                   "score": 14
-                },
-                {
-                  "quote": "This. America thinks of CRA’s first.",
-                  "score": 12
-                },
-                {
-                  "quote": "Where I'm from (North west of France), very few know or are interested in Singapore whatsoever, I'm sorry to say.",
-                  "score": 9
                 },
                 {
                   "quote": "It’s not unique to Americans LOL Most countries in the world won’t know much about SG and it’s not surprising despite what our media and gov tells us.",
@@ -818,17 +679,15 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The comments reflect a mild aspiration to enhance Singapore's global image, noting that its appeal may not be as strong as that of other countries.",
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a moderate level of optimism, with individuals acknowledging that while Singapore may not be widely known, those who do encounter Singaporeans often have positive impressions.",
               "quotes": [
+                {
+                  "quote": "Actually, I go to US ~6 times a year and whenever someone asks where I'm from, most people from Uber drivers to restaurant staffs know us for only good things.",
+                  "score": 27
+                },
                 {
                   "quote": "I believe the \"likability\" is just because not many of them have been here, and honestly most of them have no reason to either, unlike JP/KR for the tourism/culture, TH for the beaches etc.",
                   "score": 27
@@ -850,54 +709,31 @@
             "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
             "fears": {
               "category": "fear",
-              "intensity": "strong",
-              "summary": "There is a significant fear expressed about the regret of making a poor career decision, highlighting a deep concern over the state of the economy and its impact on judgement.",
+              "intensity": "moderate",
+              "summary": "The individual expresses noticeable regret and self-blame for rejecting a stable job, reflecting a clear concern about their decision amidst economic uncertainties.",
               "quotes": [
                 {
                   "quote": "I feel so stupid for rejecting the stable option in this economy.",
                   "score": 29
-                },
-                {
-                  "quote": "you wouldn’t want to be in a situation where desperation clouds your judgement.",
-                  "score": 2
                 }
               ]
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "mild",
-              "summary": "Frustrations are mentioned in a light manner, suggesting that transitioning to a new role is simply part of the process rather than a significant issue.",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The optimism expressed is casual, suggesting a positive takeaway from the situation but lacking strong enthusiasm.",
               "quotes": [
-                {
-                  "quote": "It’s just a transition and adjustment period. You haven’t gotten use to it",
-                  "score": 3
-                },
                 {
                   "quote": "well, at least you found out more about yourself.",
                   "score": 7
                 }
               ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The goals are expressed with a clear intent to reapply and explore other job opportunities, showing a proactive approach to the situation.",
-              "quotes": [
-                {
-                  "quote": "Just reapply, never try never know.",
-                  "score": 10
-                },
-                {
-                  "quote": "You can apply elsewhere while staying at your current job.",
-                  "score": 29
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -921,53 +757,30 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "Expressions of frustration are intense, highlighting the burdensome financial demands imposed by parents and the absurdity of adult children living in unsuitable conditions.",
+              "summary": "There is a palpable sense of deep frustration regarding financial constraints and perceived family obligations, with expressions indicating severe dissatisfaction.",
               "quotes": [
-                {
-                  "quote": "2/3 your take home pay is fucking nuts. Make it a symbolic $200 and be done with it.",
-                  "score": 22
-                },
                 {
                   "quote": "Cant even save for future housing Cant even save for emergency Cant even save for marriage Crazy shit",
                   "score": 8
                 },
                 {
-                  "quote": "Fully grown adults sleeping in a bunk bed at home while earning money is ridiculous.",
-                  "score": 15
-                },
-                {
-                  "quote": "You have shit parents who are exploitative and care little about your wellbeing",
-                  "score": 5
+                  "quote": "Your parents are financially abusing you.",
+                  "score": 53
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear sense of direction towards reducing the financial burden from parents, emphasizing the need for fairer contributions.",
+              "summary": "There are moderate expressions of optimism reflecting a perspective on parental responsibilities, with a belief that allowance should be voluntary based on context.",
               "quotes": [
-                {
-                  "quote": "Tell them you need to pay rent outside to keep your job and cut it down to 10% of your take-home pay or so.",
-                  "score": 3
-                },
                 {
                   "quote": "As a parent, fully agree with this. Allowance should be something voluntary, like a gift.",
                   "score": 27
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "Aspirations focus on questioning the necessity of payments and highlighting financial abuse, showcasing a desire for independence and fair treatment.",
-              "quotes": [
+                },
                 {
                   "quote": "Why do you even need to pay if you are no longer living with them?",
                   "score": 93
-                },
-                {
-                  "quote": "Your parents are financially abusing you.",
-                  "score": 53
                 }
               ]
             }
@@ -986,11 +799,11 @@
             "post_title": "AIO - called 995 when suck in HDB lift",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "The concern about potential dangers and making the right call in a critical situation is clearly expressed, highlighting the responsibility felt by the individual.",
+              "intensity": "mild",
+              "summary": "The concern expressed is slight, mainly focusing on the potential consequences of not making the call.",
               "quotes": [
                 {
-                  "quote": "What if you didnt call and something bad happens (touch wood)? Agree that leave nothing to chance since you have a vulnerable newborn.",
+                  "quote": "What if you didnt call and something bad happens (touch wood)?",
                   "score": 9
                 }
               ]
@@ -1001,26 +814,15 @@
               "summary": "No relevant comments found.",
               "quotes": []
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "strong",
-              "summary": "The affirmation of the decision to call for help emphasizes the importance of safety, showcasing strong support for proactive measures.",
+              "summary": "The quotes show a passionate affirmation of the actions taken, celebrating the person's heroism and instinct to protect their family.",
               "quotes": [
                 {
                   "quote": "You did the right thing. You have a baby trapped in an unventilated space.",
                   "score": 104
                 },
-                {
-                  "quote": "Any emergency call you make in good faith will not be considered over reacting or a crime (by police or emergency services like SCDF)",
-                  "score": 15
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "strong",
-              "summary": "The heroic metaphors and strong affirmations reflect a deep appreciation for protective instincts, portraying the individual as a defender in a critical moment.",
-              "quotes": [
                 {
                   "quote": "You did the right move. You are a Hero! You will return in Avengers DoomsDay",
                   "score": 44
@@ -1046,8 +848,8 @@
             "post_title": "Do Singaporeans generally have a good dental habit?",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "The fear expressed relates to personal dental health and the anxiety of ending up with dentures like family members.",
+              "intensity": "strong",
+              "summary": "The fear of dental issues is expressed intensely, with a personal anecdote highlighting anxiety about future dental problems and the implications of wearing dentures.",
               "quotes": [
                 {
                   "quote": "My parents had bad teeth. Now wearing dentures. Pretty smiles but fake you know. I don’t want that to happen to me.",
@@ -1058,7 +860,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "Frustration is shown regarding the unpleasant nature of dental visits, the tediousness of dental care, and minor issues with dental products.",
+              "summary": "There is a clear expression of frustration regarding dental care experiences and the tedium involved, although it's not overwhelmingly intense.",
               "quotes": [
                 {
                   "quote": "but yea i can see why people dont like to go, its always an unpleasant experience",
@@ -1069,19 +871,15 @@
                   "score": 37
                 },
                 {
-                  "quote": "Depends on the people around you, I think some do have good dental habits.",
-                  "score": 9
-                },
-                {
                   "quote": "I bought a water flosser but it hurts the gums so much I couldn't even use it once properly haha",
                   "score": 8
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "strong",
-              "summary": "There is a strong commitment to dental hygiene with regular visits to the dentist and a disciplined routine in brushing and flossing.",
+              "summary": "A strong sense of optimism is evident as individuals share their proactive dental hygiene habits and the positive impact of tools like electric toothbrushes.",
               "quotes": [
                 {
                   "quote": "i go to the dentist at least twice a year, floss my teeth daily, brush at least twice a day.",
@@ -1090,14 +888,7 @@
                 {
                   "quote": "I visit dentist every 6 months, floss daily, tongue scraper.",
                   "score": 7
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "Aspirations focus on maintaining a consistent dental hygiene routine and improving the experience of brushing teeth.",
-              "quotes": [
+                },
                 {
                   "quote": "I always brush my teeth before sleeping and never take anything but water once I do that, until the next morning.",
                   "score": 24
@@ -1124,18 +915,13 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "The concern expressed is slight, indicating an awareness of potential health issues without a strong emotional reaction.",
-              "quotes": [
-                {
-                  "quote": "Not to be alarmist, but smelling smoke (when there's none) might be an underlying symptom of something else -- see herehttps://my.clevelandclinic.org/health/diseases/24799-phantosmia",
-                  "score": 6
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The frustration is intense and clearly articulated, with an emphatic mention of discomfort and ongoing issues with air quality.",
+              "summary": "The frustration expressed is intense, with vivid descriptions of discomfort and a sense of annoyance regarding the prolonged poor air quality.",
               "quotes": [
                 {
                   "quote": "My nostrils are burning",
@@ -1147,14 +933,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1181,22 +961,14 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a strong frustration toward property agents, highlighting their perceived inefficiencies and unethical practices that waste people's time.",
+              "summary": "The quotes express significant frustration with property agents, describing them as time-wasters and untrustworthy, reflecting a deep annoyance with the prevailing ethical standards in the industry.",
               "quotes": [
                 {
                   "quote": "Not really unethical but they are bloody idiots wasting people’s time. So I get you and give them sellers a piece of my mind if I could. Why make life so difficult.",
                   "score": 22
                 },
                 {
-                  "quote": "Waste back their time. Tell them u will consider. Drag it for weeks. Tell them u need more time. Then reject.",
-                  "score": 12
-                },
-                {
                   "quote": "exactly, when it comes to property agents the \"ethics\" bar is so low it's the proverbial tripping hazard. i wouldn't trust what they say for anything.",
-                  "score": 8
-                },
-                {
-                  "quote": "It is unethical. The only way this isn’t is if the agent or seller genuinely underpriced it earlier, and received much higher bids between first offer and the seller agent saying to offer higher.",
                   "score": 8
                 },
                 {
@@ -1208,45 +980,22 @@
                   "score": 6
                 },
                 {
-                  "quote": "Some agencies/agents have that tactic to draw in viewers and play on their emotions. Not ethical, but not against any laws.",
-                  "score": 5
-                },
-                {
                   "quote": "this is how it should be, ideal price and then negotiable, or minimum price stated up front. not falsely low and then push the price up by 100k when you bid. i had the same thing, bid the asking price then a bit above. they held out for another 50k and i was like whut and called it quits.",
                   "score": 10
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The goals expressed reflect a clear intent to negotiate effectively and ensure that the home-buying process is efficient and respectful of everyone's time.",
+              "summary": "There is a clear sense of optimism in finding a house within budget and working with honest agents, indicating a positive outcome despite the frustrations faced.",
               "quotes": [
                 {
                   "quote": "Fortunately we found a house within our budget. We told our agent to market our house at a higher price to allow room for negotiations because we don’t wish to waste anybody’s time.",
                   "score": 15
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a moderate aspiration for better accountability in the real estate sector, such as implementing a rating system for agents to prevent unethical behavior.",
-              "quotes": [
-                {
-                  "quote": "I feel like people should be able to rate Agents. So that they don’t get away with unethical stuff",
-                  "score": 5
-                },
-                {
-                  "quote": "Yea thats a mistake on our part. Because majority of the listings we were interested in, sellers do prompt us their expected selling price so we have time to decide to proceed for viewing or not.",
-                  "score": 2
                 },
                 {
                   "quote": "Fortunately we have already purchased our second home with an honest agent/owners. Price wasn’t above market price, plenty of room for negotiations. Bonus, no time wasted.",
-                  "score": 2
-                },
-                {
-                  "quote": "Exactly. We had several agents that prompted us on the actual price to give us time to decide if we’d like to proceed for viewing. When we came to view the unit we asked asking price is $6XX,XXX right? Agent said ya, then actually got hidden numbers upon offering.",
                   "score": 2
                 }
               ]
@@ -1267,7 +1016,7 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "The concern about potential financial loss from a confiscated banknote due to illicit traceability shows a clear expression of fear regarding the future.",
+              "summary": "The concern expressed reflects a clear anxiety about the potential repercussions of handling banknotes linked to illegal activities, indicating a tangible worry about future financial security.",
               "quotes": [
                 {
                   "quote": "My concern is in the future if I am desperate for money, if said 10K note is to be deposit at the bank, and supposedly traced to money laundering/stolen, it could get confiscated and loee the value.",
@@ -1277,32 +1026,12 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "moderate",
-              "summary": "There is a noticeable frustration with the lack of clarity from the banks on the authentication process, which limits individuals' ability to verify their banknotes.",
-              "quotes": [
-                {
-                  "quote": "They won’t tell you one la. It’s not even done at the counter. They can only tell you if it’s real or not.",
-                  "score": 0
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
               "intensity": "mild",
-              "summary": "The suggestions to check with bankers or banks indicate a slight expectation of assistance in resolving the authentication issue.",
-              "quotes": [
-                {
-                  "quote": "I guess you can check with your banker and see if they can help",
-                  "score": 8
-                },
-                {
-                  "quote": "Check with the bank i think they are your safest bet",
-                  "score": 1
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1329,30 +1058,18 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "There are clear frustrations expressed about the value of living in a condo with underutilized facilities, reflecting a sense of discontent and practicality.",
+              "summary": "There is a clear expression of frustration related to high condo fees and a sense of relief after moving back to HDB living.",
               "quotes": [
                 {
                   "quote": "Stayed in a condo for 6 years. So decided didn't make sense to pay so much for things we don't use (450 a month). Sold the condo, moved back to hdb. Feels lighter and happier.",
                   "score": 194
-                },
-                {
-                  "quote": "I know a friend who in order to make use of the fee he paid for, shit and shower in the condo facilities, swim every week and go to the gym everyday",
-                  "score": 96
-                },
-                {
-                  "quote": "This for sure. If you have kids, worth it. Otherwise? No point (for me)",
-                  "score": 26
-                },
-                {
-                  "quote": "Ok la at least he got motivation to be healthier lol",
-                  "score": 19
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There are moderate expressions of personal fitness goals, with mentions of regular gym use and adapting activities to lifestyle changes.",
+              "summary": "Users express a noticeable positivity about their regular utilization of gym and swimming facilities as part of their fitness routine.",
               "quotes": [
                 {
                   "quote": "very regular user of the gym, 3 times a week average",
@@ -1363,12 +1080,6 @@
                   "score": 20
                 }
               ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         }
@@ -1377,7 +1088,7 @@
     {
       "name": "SingaporeRaw",
       "posts_analyzed": 10,
-      "comments_analyzed": 213,
+      "comments_analyzed": 49,
       "top_posts": [
         {
           "id": "t3_1qe2013",
@@ -1399,14 +1110,10 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is an intense frustration expressed regarding the political circumstances surrounding the appointment of the LO, with strong feelings about it being a manipulation by the ruling party.",
+              "summary": "The expressions of frustration reflect a deep disdain for perceived political manipulation and removal of authority, comparing it to a lack of democratic integrity.",
               "quotes": [
                 {
-                  "quote": "So the LO is a political appointee, appointed by the ruling party. facepalm",
-                  "score": 61
-                },
-                {
-                  "quote": "It's kinda disturbing they can just remove a MP like that. Oh wait, he's not a MP, he just sitting in a figurehead role made by the \"government\"?",
+                  "quote": "It's kinda disturbing they can just remove a MP like that.",
                   "score": 7
                 },
                 {
@@ -1415,23 +1122,13 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a clear hope that Singapore politics can evolve, with aspirations for a more official and respected position for the LO being articulated.",
+              "summary": "The mention of hopefulness for political maturity indicates a casual sense of optimism, albeit not strongly emphasized.",
               "quotes": [
                 {
-                  "quote": "Correct. Time for the LO to be enshrined in the Constitution. It's a farce otherwise.",
-                  "score": 14
-                },
-                {
-                  "quote": "For context, LHL offered LTK the title of \"unofficial leader of the opposition\" some time back. LTK declined, saying that it's either official or not, wth is \"unofficial leader\"? So, this time when LHL offered PS this position it would seem more sincere than before. It's difficult (and unpopular) to jump the gun and call something a poisoned chalice before even trying it out. I for one was hopeful that Singapore politics would have matured just a little bit.",
+                  "quote": "I for one was hopeful that Singapore politics would have matured just a little bit.",
                   "score": 1
                 }
               ]
@@ -1457,23 +1154,21 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "strong",
-              "summary": "The quote expresses a strong frustration regarding perceived intentions behind the decor and the act of mocking, indicating a heightened emotional response.",
+              "intensity": "moderate",
+              "summary": "There is a noticeable frustration regarding perceived intentions behind the actions, suggesting the decor is being misrepresented to incite conflict.",
               "quotes": [
                 {
-                  "quote": "It’s probably not CNY decor. OP and video is meant to stir interracial shit by saying so. I think they used the neighbour’s face to make some mockery. If it’s just to whack the decor, no one stands there for a long time trying to ring the bell.",
+                  "quote": "It’s probably not CNY decor. OP and video is meant to stir interracial shit by saying so.",
+                  "score": 5
+                },
+                {
+                  "quote": "I think they used the neighbour’s face to make some mockery.",
                   "score": 5
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1500,26 +1195,16 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a strong expression of frustration regarding the frequency of MRT disruptions, implying disappointment with the government's response and suggesting the public transport system has become inadequate.",
+              "summary": "There is a deep sense of frustration regarding the frequent MRT disruptions, with an emphatic portrayal of the public transport system as inadequate and chaotic.",
               "quotes": [
                 {
                   "quote": "Reslly dont know what our MRT “taskforce” is doing…Why are the disruptions getting more frequent? Our public transport system is really becoming a clown show 😢",
                   "score": 1
-                },
-                {
-                  "quote": "you provide a service that is under maintenance for 1 quarter for the year",
-                  "score": 0
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1546,7 +1231,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The commenters express significant frustration about the food quality, comparing it to negative experiences and finding it unacceptable, indicating a strong emotional reaction.",
+              "summary": "The frustration is expressed emphatically, highlighting a significant dissatisfaction with the food quality and experiences compared to previous expectations.",
               "quotes": [
                 {
                   "quote": "Feels like going to jail without committing crime. Well done SATS!",
@@ -1567,21 +1252,11 @@
                 {
                   "quote": "Even Don Don Donki bento looks way nicer",
                   "score": 6
-                },
-                {
-                  "quote": "I think tekong still decent, you see what those ulu units are getting, can cry. Camp canteens are still getting alot of business from the regulars because of that haha.",
-                  "score": 5
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1608,7 +1283,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The quotes express intense frustration towards the judicial system and political maneuvering, highlighting feelings of disillusionment and skepticism about the motivations behind political actions.",
+              "summary": "There is an intense frustration with the perceived incompetence of judges and the dismissal of concerns regarding the Political Action Party (PAP), highlighting a disillusionment with the political system.",
               "quotes": [
                 {
                   "quote": "Our sg judges are puppets. Noticed most of them are fresh grads out of law school? Yep, kids with no real world working experience (outside court house) and no clue about how to assess cases properly.",
@@ -1617,24 +1292,19 @@
                 {
                   "quote": "Of course not relevant... PAP mah, just close eyes and move on guys.",
                   "score": 15
-                },
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a cautious optimism regarding the political landscape, with a recognition of the complexities involved in political roles and a belief that the opposition can thrive without a formal leader.",
+              "quotes": [
                 {
                   "quote": "It takes 2 hands to clap. I was genuinely puzzled when Pritam accepted the title along with the benefits. I remember thinking to myself everyone can see it's a Trojan horse even if it was not apparent then. There is zero incentive for a political party to 'reward' or acknowledge it's opponent so there must be an agenda somewhere. WP and the opposition never had an official 'leader', they didn't need one before and doesn't need one.",
                   "score": 31
                 }
               ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -1658,19 +1328,11 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a passionate outcry against the relevance and effectiveness of NMPs in Parliament, highlighting a deep frustration with their perceived lack of representation and commitment.",
+              "summary": "There is a strong sentiment against the presence and effectiveness of NMPs in parliament, emphasizing their lack of representation and wastefulness in governmental processes.",
               "quotes": [
                 {
                   "quote": "A post like this is worth more than the entire \"selected\" 9 NMPs to the house presently. We have Opposition MPs in place; if not, the 12 spots reserved for NCMPs, which carry more weight and legitimacy. Scrapped the NMP scheme. They are not elected, nor do they represent the people, and they are a waste of the parliament's time and the public's money.",
                   "score": 17
-                },
-                {
-                  "quote": "It seems to be her habit possibly dating from the times when Facebook posts prompted users to write statuses that continued from prompts. E.g. \"John Tan is....\"",
-                  "score": 14
-                },
-                {
-                  "quote": "Didn't read the line immediately after that? \"That convergence may be sincere and expected\" Don't cherry pick to suit your own narrative",
-                  "score": 5
                 },
                 {
                   "quote": "common, most of them only dare to speak up after 'leaving office'. some tried to speak up, most don't... same for many civil servants...",
@@ -1678,16 +1340,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear desire to return to a time when NMPs exemplified impartiality and non-partisanship, with a hope that current NMPs will learn from past examples.",
+              "summary": "There is a moderate sense of hope that future NMPs can learn from past examples of impartiality and effective representation.",
               "quotes": [
                 {
                   "quote": "Missed the times when NMPs were people like her, Laurence Lien, Walter Thereisa, Chandra Mohan and Irene Quay, etc.",
@@ -1721,43 +1377,19 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is significant frustration expressed towards local men's realism contrasted with perceived delusion among women, alongside anger towards a specific individual influencing the speaker's wife with unsolicited advice.",
+              "summary": "There is an intense expression of frustration regarding unsolicited career advice from a stay-at-home mother influencing the user's wife.",
               "quotes": [
-                {
-                  "quote": "Local men are realistic, but sinkie women are not. Social media made them demented and delusional.",
-                  "score": 28
-                },
                 {
                   "quote": "I hate this kind. My wife has a friend who's a SAHM, never held a full time job after marriage and poisoning my wife to give me career advice. Like wtf",
                   "score": 4
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "The quotes reflect a casual reference to personal beliefs about relationships, indicating a mild expression of goals regarding fidelity.",
-              "quotes": [
-                {
-                  "quote": "Thats why he says poor men cannot cheat",
-                  "score": 9
-                },
-                {
-                  "quote": "That's what i always told my wife. One is enough lol.",
-                  "score": 9
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a clear desire to address issues of privilege and nepotism in society, highlighting a moderate aspiration for a more equitable world.",
-              "quotes": [
-                {
-                  "quote": "We need to eradicate nepotism/ nepobabies, some kids just start off too privileged. It would be such a better world where kids started with equal resources instead of having nepobaby",
-                  "score": 1
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         },
@@ -1774,32 +1406,24 @@
             "post_title": "This guy should be the next Leader of Opposition",
             "fears": {
               "category": "fear",
-              "intensity": "mild",
-              "summary": "There is a slight concern expressed about the individual's straightforwardness potentially leading to harm.",
+              "intensity": "moderate",
+              "summary": "There are clear concerns regarding the potential risks associated with being too straightforward in politics and the long journey ahead for the candidate, suggesting a cautious attitude.",
               "quotes": [
                 {
                   "quote": "However, too straightforward may end up harm himself.",
                   "score": 35
+                },
+                {
+                  "quote": "long way to go, at this stage will become just another target board",
+                  "score": 7
                 }
               ]
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a passionate and emphatic expression of frustration regarding political dynamics and the perceived shortcomings of potential leaders.",
+              "summary": "There is intense frustration expressed about the political situation, particularly regarding past refusals of the opposition leader role and perceived voter preferences for political games over meaningful engagement.",
               "quotes": [
-                {
-                  "quote": "All gas no brakes. He’s just a few steps away from Charles Yeo. Even the face look the same.",
-                  "score": 43
-                },
-                {
-                  "quote": "long way to go, at this stage will become just another target board",
-                  "score": 7
-                },
-                {
-                  "quote": "Give it a few years and he’ll make RK look like a saint",
-                  "score": 6
-                },
                 {
                   "quote": "The LO position is a trap - previously LTK rejected the offer.",
                   "score": 4
@@ -1810,21 +1434,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "A clear stance is taken against political manipulation and for straightforward communication in leadership.",
-              "quotes": [
-                {
-                  "quote": "Why would you want someone to beat around the bush, manipulate the public and phrase things politically right just so that sensitive people wont be offended?",
-                  "score": 5
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a hopeful desire for new leadership types, particularly a strong female leader in the upcoming election.",
+              "summary": "There's a definite sense of hope for a new female leader and a need for straightforward politicians, indicating a positive outlook for future political shifts.",
               "quotes": [
                 {
                   "quote": "We might see a female leader making a comeback in 2026 year of the Fire horse.",
@@ -1851,20 +1464,19 @@
             "post_title": "Reminder this was the headline CNA chose during the tracetogether lie",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "There is a noticeable distrust towards the media and its perceived role as a propagandist for the government, with concerns about the lack of real media independence.",
-              "quotes": [
-                {
-                  "quote": "i honestly don’t believe that “media licenses” are a real thing here (it’s 100% a reserved specialty for propagandacorp) if it were there would be more than one broadcaster doing free to air tv but currently only TEMASEK HOLDINGS has that privilege to broadcast fear mongering propaganda 24/7 in 4 languages",
-                  "score": 2
-                }
-              ]
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "The frustration is deeply felt regarding the control of the media by the government, with emphatic claims of censorship and propaganda, reflecting a strong desire for independent journalism.",
+              "summary": "The quotes express intense frustration about the perceived control and manipulation of media in Singapore, highlighting a lack of genuine journalism and concerns about governmental influence.",
               "quotes": [
+                {
+                  "quote": "i honestly don’t believe that “media licenses” are a real thing here (it’s 100% a reserved specialty for propagandacorp) if it were there would be more than one broadcaster doing free to air tv but currently only TEMASEK HOLDINGS has that privilege to broadcast fear mongering propaganda 24/7 in 4 languages",
+                  "score": 2
+                },
                 {
                   "quote": "not surprising...everyone should know that the local news is controlled and owned by the govt, whatever is said however it should be said must favor the ruling govt else it would be removed and consequence is severe look at who is the main investing parent company of CNA? Hint: starts with the huge \"T\"",
                   "score": 18
@@ -1883,19 +1495,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "There is a clear intention to disengage from governmental media in favor of more impartial broadcasters, indicating a desire for genuine and fair news sources.",
-              "quotes": [
-                {
-                  "quote": "stop engaging with propagandacorp news and let these poor wage workers come to their senses and resign so they can contribute their talents to fairer and impartial broadcasters (BBC for example)",
-                  "score": 2
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -1922,41 +1523,18 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "There is a clear expression of frustration regarding the disparity between richer and poorer elderly, as well as concerns about their dietary habits.",
+              "summary": "There is a noticeable expression of frustration about the disparity in aging among the wealthy and poor elderly, highlighting social grievances and neglect.",
               "quotes": [
                 {
                   "quote": "Rich old folk look younger, less stressed and more money to maintain. Poor old folk look older and crankier as more grievances and stress and no one cares about them.",
                   "score": 3
-                },
-                {
-                  "quote": "Maybe some young Singaporeans you see are actually old Singaporeans. Possibly confirmation bias:",
-                  "score": 1
-                },
-                {
-                  "quote": "The food… I regularly see old people in kopitiam chomping down those meepok noodles with 0 quality protein / veg.",
-                  "score": 1
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The comments reflect a noticeable commitment to improving personal health through mindful eating and nutrition.",
-              "quotes": [
-                {
-                  "quote": "I have to be mindful to eat eggs every 2 days, drink soy milk and eat more grains: lentils walnuts.",
-                  "score": 1
-                },
-                {
-                  "quote": "I always tell the store to add more veg and meat.",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The quotes highlight a recognition of the sacrifices made by older generations in transforming Singapore, indicating a sense of respect and aspiration for understanding their struggles.",
+              "summary": "There is a clear acknowledgment of the hard work and sacrifices made by older generations in transforming Singapore, conveying a sense of respect and appreciation.",
               "quotes": [
                 {
                   "quote": "That is the price of carrying this country on their backs from third world to first world. Something which we will never understand anyway.",
@@ -1971,7 +1549,7 @@
     {
       "name": "singaporefi",
       "posts_analyzed": 10,
-      "comments_analyzed": 112,
+      "comments_analyzed": 40,
       "top_posts": [
         {
           "id": "t3_1qdwxub",
@@ -1993,7 +1571,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "There is a noticeable concern regarding the high costs associated with insurance claims.",
+              "summary": "The mention of high costs for claims indicates a noticeable feeling of frustration with the insurance system.",
               "quotes": [
                 {
                   "quote": "Too many high costs for claims for AXA",
@@ -2001,14 +1579,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -2029,7 +1601,7 @@
             "fears": {
               "category": "fear",
               "intensity": "moderate",
-              "summary": "There is a tangible concern regarding the diminishing value of money due to inflation, signifying anxiety about future financial security.",
+              "summary": "The fear expressed hinges on the realization that inflation significantly undermines the value of savings over time, showcasing a clear concern about financial planning.",
               "quotes": [
                 {
                   "quote": "Yikes, just did the math and $1m in 19 years' time is worth $566k in today's dollars (at 3% inflation) 🫠",
@@ -2039,34 +1611,14 @@
             },
             "frustrations": {
               "category": "frustration",
-              "intensity": "strong",
-              "summary": "The speaker expresses intense frustration towards the unrealistic expectations of wealth accumulation and the acknowledgment that it takes decades of disciplined investing to attain financial freedom.",
-              "quotes": [
-                {
-                  "quote": "other than the snark comments, here's how the average person can earn $1M without luck: Some numbers, assume a 8% p.a. average return: - $500 a month, requires 35 years on average to hit $1M (24 years old --> 59 years old) - $1,000 a month, requires 26 years on average to hit $1M (24 years old --> 50 years old) - $2,000 a month, requires 19 years on average to hit $1M (24 years old --> 43 years old) This is in your investment portfolio.",
-                  "score": 108
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
               "intensity": "mild",
-              "summary": "The discussion includes casual references to personal financial goals, such as earning through inheritance and making wise investments.",
-              "quotes": [
-                {
-                  "quote": "Just doing my 9 to 5 Then i got inheritance",
-                  "score": 342
-                },
-                {
-                  "quote": "Join company with RSU. Spend less than you earn",
-                  "score": 44
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "strong",
-              "summary": "There are passionate aspirations expressed, with individuals setting ambitious targets like achieving financial independence at a very young age.",
+              "summary": "The optimism is expressed with enthusiasm and ambition, particularly with the audacious goals set for financial independence at a very young age.",
               "quotes": [
                 {
                   "quote": "Aiming to FIRE by 10",
@@ -2100,7 +1652,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "The individual expresses a clear sense of frustration after failing to find a conclusive answer, prompting them to seek help from the community.",
+              "summary": "The speaker expresses a noticeable sense of frustration in not finding a conclusive answer, prompting them to seek help.",
               "quotes": [
                 {
                   "quote": "Well, I did but I wasn't able to find any conclusive answer, hence posting here.",
@@ -2108,16 +1660,10 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "The user mentions they are in the process of spring cleaning their bank accounts, indicating a mild aspiration to organize their finances.",
+              "summary": "The individual conveys a casual sense of optimism regarding organizing their bank accounts, indicating a positive mindset.",
               "quotes": [
                 {
                   "quote": "I know, but I am going through spring cleaning of my bank accounts.",
@@ -2147,7 +1693,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "strong",
-              "summary": "There is a clear and emphatic frustration regarding perceived incompetence in investment products, with a strong warning against buying ILPs.",
+              "summary": "The expression of frustration is intense, emphasizing a strong discontent towards investment products marketed by insurance companies.",
               "quotes": [
                 {
                   "quote": "This level of incompetence seems intentional. Thats why I feel it is better to stay away from investments products which are marketed by insurance companies. DONT BUY ILPs.",
@@ -2155,27 +1701,11 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "There is a notable awareness of the need for improved financial education and literacy among individuals.",
-              "quotes": [
-                {
-                  "quote": "The real problem is still a lack of financial awareness and education.",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "A positive and practical approach to investing is highlighted, emphasizing the accessibility of fractional shares to encourage participation.",
-              "quotes": [
-                {
-                  "quote": "People don’t even need to buy a full share. They can start with fractions of solid companies like Google.",
-                  "score": 1
-                }
-              ]
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         },
@@ -2192,41 +1722,17 @@
             "post_title": "Gold - ETF or UOB Gold account?",
             "fears": {
               "category": "fear",
-              "intensity": "moderate",
-              "summary": "The quotes reflect a clear concern about investment risks, particularly emphasizing tax risks and the relative safety of ETFs compared to personal security.",
-              "quotes": [
-                {
-                  "quote": "for long term investment, remember to buy a UCITS one like XGDU so there's no US estate tax risk.",
-                  "score": 1
-                },
-                {
-                  "quote": "the risk of an etf collapsing is magnitudes smaller than the risk of your home being broken into",
-                  "score": 1
-                }
-              ]
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             },
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "The frustration is evident in the critique of fees and product suitability, indicating dissatisfaction with the associated costs and limitations of certain gold investment options.",
+              "summary": "There are some clear frustrations regarding fees and the implications of owning gold as an investment, indicating a noticeable level of dissatisfaction with current options.",
               "quotes": [
                 {
-                  "quote": "The UOB savings account has a fee and also a buy sell spread.",
-                  "score": 2
-                },
-                {
-                  "quote": "if you don’t care for the “pet rock” and if you don’t have 109k to dump into gold, it’s not an appropriate product.",
-                  "score": 2
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "The quotes provide a slight exploration of calculations related to fees and express a critical perspective on gold ownership, indicating a general understanding rather than a strong ambition.",
-              "quotes": [
-                {
-                  "quote": "If however you have 576 g your fee is (0.25% x 100)/12 = 0.12 g (which is the minimum that will be charged).",
+                  "quote": "the UOB savings account has a fee and also a buy sell spread.",
                   "score": 2
                 },
                 {
@@ -2235,11 +1741,15 @@
                 }
               ]
             },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "The aspiration for gold as a safe haven and hedge is presented clearly, indicating a noticeable desire to view gold as a protective financial asset.",
+              "summary": "The comments reflect a clear sense of optimism regarding gold as a safe investment, highlighting its advantages over other forms of assets.",
               "quotes": [
+                {
+                  "quote": "the risk of an etf collapsing is magnitudes smaller than the risk of your home being broken into",
+                  "score": 1
+                },
                 {
                   "quote": "The point of gold is that it’s a safe haven, insurance, and hedge.",
                   "score": -3
@@ -2268,7 +1778,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "mild",
-              "summary": "The comment indicates a lack of concern or frustration regarding the insurance, displaying a casual dismissal.",
+              "summary": "The response indicates a lack of frustration, as the speaker suggests others should handle their own insurance.",
               "quotes": [
                 {
                   "quote": "Nope none. Get your own insurance",
@@ -2276,22 +1786,16 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "moderate",
-              "summary": "There is a clear intention to utilize online travel platforms for car rentals and insurance, demonstrating a practical approach.",
+              "summary": "There is a clear expression of optimism about using online platforms for car rentals and suggesting practical solutions.",
               "quotes": [
                 {
                   "quote": "Rent the car using online travel platforms like Trip and Booking, and opt for the insurance there, and pay using credit card as you would for travel.",
                   "score": 1
                 }
               ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "mild",
-              "summary": "No relevant comments found.",
-              "quotes": []
             }
           }
         },
@@ -2309,19 +1813,18 @@
             "fears": {
               "category": "fear",
               "intensity": "mild",
-              "summary": "The individual expresses a slight anxiety about the waiting time for their withdrawal.",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express noticeable frustration with the slow withdrawal process, referring to it as 'antsy' and criticizing the inefficiency of wire transfers and the GIRO option.",
               "quotes": [
                 {
                   "quote": "as I'm getting slightly antsy.",
                   "score": 5
-                }
-              ]
-            },
-            "frustrations": {
-              "category": "frustration",
-              "intensity": "strong",
-              "summary": "There is a strong sense of frustration regarding the slow processing of withdrawals, particularly criticizing the wire transfer and GIRO options.",
-              "quotes": [
+                },
                 {
                   "quote": "Ibkr damn slow in withdrawals cos is wire xfer.",
                   "score": 5
@@ -2332,19 +1835,8 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "mild",
-              "summary": "A minor step is taken towards resolving the issue by raising a ticket with IBKR.",
-              "quotes": [
-                {
-                  "quote": "Thank you everyone, I just raised a ticket to IBKR.",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
               "summary": "No relevant comments found.",
               "quotes": []
@@ -2371,51 +1863,19 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "Users express clear frustration over the lack of access to data sources like Bloomberg and raise concerns about transparency issues regarding the Straits Times Index.",
+              "summary": "The quote expresses a clear concern about the lack of transparency regarding the Straits Times Index's current PE ratio.",
               "quotes": [
-                {
-                  "quote": "I dont have access to Bloomberg , where to find the data besides using bloomberg ?",
-                  "score": 1
-                },
-                {
-                  "quote": "Where to find it without using bloomberg sir ?",
-                  "score": 1
-                },
-                {
-                  "quote": "Since you jumped to the conclusion that there is a transparency issue, you can go look for it yourself.",
-                  "score": 1
-                },
                 {
                   "quote": "Thx for the input, so straits times index doesnt even release its current PE ratio ? Then that means they got transparency issue right ?",
                   "score": 0
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "The participant is passively seeking assistance in finding alternative data sources.",
-              "quotes": [
-                {
-                  "quote": "let me know if you managed to find someone, i’m also looking for alternative data",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "There is a noticeable aspiration to gain access to historical data and understand valuation references for the Straits Times Index.",
-              "quotes": [
-                {
-                  "quote": "The historical data u want is found in 2 seconds on a bloomberg terminal. What, you mean you dont have access to Bloomberg ?",
-                  "score": -1
-                },
-                {
-                  "quote": "Below is a historical P/E timeline for the Straits Times Index (STI), using Singapore equity market / STI ETF proxies that institutional research desks commonly rely on (CEIC, WorldPEratio, Bloomberg summaries). While STI does not publish a single continuous official P/E series going back decades, these figures are widely accepted valuation references for cycle analysis.",
-                  "score": -6
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         },
@@ -2439,7 +1899,7 @@
             "frustrations": {
               "category": "frustration",
               "intensity": "moderate",
-              "summary": "The individual expresses noticeable frustration due to the difficulty in navigating financial transactions without conventional salary-based income and the dismissive behavior of agents.",
+              "summary": "The individual expresses noticeable frustration about the challenges faced when trying to make purchases in cash, feeling misunderstood and lacking support from agents.",
               "quotes": [
                 {
                   "quote": "Im in this weird hole currently. Not earning conventionally via a salary but have enough net worth. Went to view a few houses and cars and all the agents face turn sour when i said i will be purchasing in cash. No comms for them for loans. No choice i dont even have credit cards lol my debit cards are my best friends. Havent got around to calling my bank to ask abt this also 🥹",
@@ -2447,31 +1907,11 @@
                 }
               ]
             },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "There is a clear expression of understanding that proof of assets can suffice for financial arrangements, indicating a practical approach to reaching financial objectives.",
-              "quotes": [
-                {
-                  "quote": "Proof of assets can be enough.",
-                  "score": 2
-                },
-                {
-                  "quote": "You probably can report rental income, dividend income and capital gains from asset sales in lieu of employment income.",
-                  "score": 1
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
-              "intensity": "moderate",
-              "summary": "The suggestion reflects a definite stance on leveraging mortgage opportunities for better financial returns, demonstrating a proactive mindset in investment.",
-              "quotes": [
-                {
-                  "quote": "Just a suggestion, do consider that the bank can lend you that mortgage money at let’s say 1.6% interest, which any investor worth their salt can turn around and invest at a much higher rate of return, why would you pay cash and pass up the opportunity?",
-                  "score": 1
-                }
-              ]
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         },
@@ -2488,8 +1928,14 @@
             "post_title": "Credit card advice",
             "fears": {
               "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
               "intensity": "moderate",
-              "summary": "The individual expresses a noticeable concern regarding their job's low pay, indicating it might affect their ability to apply for credit cards.",
+              "summary": "The individual expresses clear frustration about their low salary and the difficulties it causes in applying for credit.",
               "quotes": [
                 {
                   "quote": "Just realised my job only pays 2.3k and when trying to apply they said i cant apply under the current ammount...",
@@ -2497,38 +1943,11 @@
                 }
               ]
             },
-            "frustrations": {
-              "category": "frustration",
-              "intensity": "moderate",
-              "summary": "There is a clear expression of frustration about the varying cashback conditions of credit cards, emphasizing a need for more information.",
-              "quotes": [
-                {
-                  "quote": "How much is a lot? Each CC cashback condition is different so you have to provide some data.",
-                  "score": 5
-                }
-              ]
-            },
-            "goals": {
-              "category": "goal",
-              "intensity": "moderate",
-              "summary": "The person is actively contemplating their spending on Taobao and is interested in finding ways to earn cashback or rewards.",
-              "quotes": [
-                {
-                  "quote": "I think i drop alot of money on taobao truthfully, so i'd like to get some cashback or rewards with that if theres anyway to do so?",
-                  "score": -3
-                }
-              ]
-            },
-            "aspirations": {
-              "category": "aspiration",
+            "optimism": {
+              "category": "optimism",
               "intensity": "mild",
-              "summary": "There are casual suggestions about the best credit card options, but the tone lacks a strong passion or emphasis.",
-              "quotes": [
-                {
-                  "quote": "My advice, if you’ve just started work and your spending is low your cashback and miles don’t matter that much. Pick the card with the best sign-up bonus, eg. Citibank cashback card often has offers of $300-400 when you sign up.",
-                  "score": 1
-                }
-              ]
+              "summary": "No relevant comments found.",
+              "quotes": []
             }
           }
         }
@@ -2538,24 +1957,6 @@
   "all_quotes": {
     "fears": [
       {
-        "text": "Firstly, I would commend your courage for acting on what you believe is right, this is courageous and commendable.",
-        "post_id": "t3_1qe32ww",
-        "post_title": "Pervert taking pictures of others on the MRT",
-        "subreddit": "singapore",
-        "score": 64,
-        "comment_score": 0,
-        "intensity": "mild"
-      },
-      {
-        "text": "Guilty people are usually super defensive when caught so not surprised that he berates you",
-        "post_id": "t3_1qe32ww",
-        "post_title": "Pervert taking pictures of others on the MRT",
-        "subreddit": "singapore",
-        "score": 64,
-        "comment_score": 0,
-        "intensity": "mild"
-      },
-      {
         "text": "I am afraid she is a nexus being.",
         "post_id": "t3_1qddq6v",
         "post_title": "PM Wong removes Pritam Singh as Leader of the Opposition, invites Workers' Party to nominate another MP to fill the role",
@@ -2563,15 +1964,6 @@
         "score": 1266,
         "comment_score": 148,
         "intensity": "mild"
-      },
-      {
-        "text": "With all the news about fatal accidents due to drink driving or driving without valid licence, there are still so many people doing it without hesitation. This goes to show how lax our traffic laws are. The punishments are so minor that they are willing to take a risk and pay the price. Till today, I still wonder how killing someone while drinking driving only gets you a few years in jail and a few years driving ban.",
-        "post_id": "t3_1qe1ent",
-        "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
-        "subreddit": "singapore",
-        "score": 43,
-        "comment_score": 14,
-        "intensity": "strong"
       },
       {
         "text": "This young got police record. next time finding work, could be a challenge",
@@ -2583,31 +1975,49 @@
         "intensity": "mild"
       },
       {
+        "text": "Hope that's not the takeaway that students learn from this episode though...",
+        "post_id": "t3_1qderji",
+        "post_title": "Hwa Chong Institution to revise recipe, food presentation of bento meals after students' feedback",
+        "subreddit": "singapore",
+        "score": 461,
+        "comment_score": 188,
+        "intensity": "mild"
+      },
+      {
+        "text": "I only hope the students learn from this as a negative example",
+        "post_id": "t3_1qderji",
+        "post_title": "Hwa Chong Institution to revise recipe, food presentation of bento meals after students' feedback",
+        "subreddit": "singapore",
+        "score": 461,
+        "comment_score": 17,
+        "intensity": "mild"
+      },
+      {
+        "text": "54.2% secured full time jobs in 2025 In 2024 it was around 54.6%. 2023 was 59.8%. 2022 was 58%. Quite a big drop from 2023 to 2024, and continuing to drop in 2025. Wonder how 2026 would look.",
+        "post_id": "t3_1qdf4r6",
+        "post_title": "9 in 10 polytechnic graduates found work within 6 months of completing school or NS in 2025",
+        "subreddit": "singapore",
+        "score": 132,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
         "text": "I feel so stupid for rejecting the stable option in this economy.",
         "post_id": "t3_1qe1t35",
         "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
         "subreddit": "askSingapore",
         "score": 27,
         "comment_score": 29,
-        "intensity": "strong"
+        "intensity": "moderate"
       },
       {
-        "text": "you wouldn’t want to be in a situation where desperation clouds your judgement.",
-        "post_id": "t3_1qe1t35",
-        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 2,
-        "intensity": "strong"
-      },
-      {
-        "text": "What if you didnt call and something bad happens (touch wood)? Agree that leave nothing to chance since you have a vulnerable newborn.",
+        "text": "What if you didnt call and something bad happens (touch wood)?",
         "post_id": "t3_1qdfqny",
         "post_title": "AIO - called 995 when suck in HDB lift",
         "subreddit": "askSingapore",
         "score": 258,
         "comment_score": 9,
-        "intensity": "moderate"
+        "intensity": "mild"
       },
       {
         "text": "My parents had bad teeth. Now wearing dentures. Pretty smiles but fake you know. I don’t want that to happen to me.",
@@ -2616,16 +2026,7 @@
         "subreddit": "askSingapore",
         "score": 39,
         "comment_score": 24,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Not to be alarmist, but smelling smoke (when there's none) might be an underlying symptom of something else -- see herehttps://my.clevelandclinic.org/health/diseases/24799-phantosmia",
-        "post_id": "t3_1qdnc2b",
-        "post_title": "Anyone else smell haze in the air?",
-        "subreddit": "askSingapore",
-        "score": 40,
-        "comment_score": 6,
-        "intensity": "mild"
+        "intensity": "strong"
       },
       {
         "text": "My concern is in the future if I am desperate for money, if said 10K note is to be deposit at the bank, and supposedly traced to money laundering/stolen, it could get confiscated and loee the value.",
@@ -2643,15 +2044,15 @@
         "subreddit": "SingaporeRaw",
         "score": 93,
         "comment_score": 35,
-        "intensity": "mild"
+        "intensity": "moderate"
       },
       {
-        "text": "i honestly don’t believe that “media licenses” are a real thing here (it’s 100% a reserved specialty for propagandacorp) if it were there would be more than one broadcaster doing free to air tv but currently only TEMASEK HOLDINGS has that privilege to broadcast fear mongering propaganda 24/7 in 4 languages",
-        "post_id": "t3_1qdeojy",
-        "post_title": "Reminder this was the headline CNA chose during the tracetogether lie",
+        "text": "long way to go, at this stage will become just another target board",
+        "post_id": "t3_1qdi6oe",
+        "post_title": "This guy should be the next Leader of Opposition",
         "subreddit": "SingaporeRaw",
-        "score": 157,
-        "comment_score": 2,
+        "score": 93,
+        "comment_score": 7,
         "intensity": "moderate"
       },
       {
@@ -2662,54 +2063,9 @@
         "score": 84,
         "comment_score": 11,
         "intensity": "moderate"
-      },
-      {
-        "text": "for long term investment, remember to buy a UCITS one like XGDU so there's no US estate tax risk.",
-        "post_id": "t3_1qdi0wc",
-        "post_title": "Gold - ETF or UOB Gold account?",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "the risk of an etf collapsing is magnitudes smaller than the risk of your home being broken into",
-        "post_id": "t3_1qdi0wc",
-        "post_title": "Gold - ETF or UOB Gold account?",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "as I'm getting slightly antsy.",
-        "post_id": "t3_1qdapfn",
-        "post_title": "IBKR first withdrawal - 4 days and pending.",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 5,
-        "intensity": "mild"
-      },
-      {
-        "text": "Just realised my job only pays 2.3k and when trying to apply they said i cant apply under the current ammount...",
-        "post_id": "t3_1qdnbkx",
-        "post_title": "Credit card advice",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 12,
-        "intensity": "moderate"
       }
     ],
     "frustrations": [
-      {
-        "text": "Do you have colleagues or office mates who keeps coughing? If unwell they should not be in the office spreading their germs everywhere.",
-        "post_id": "t3_1qdx9qd",
-        "post_title": "r/singapore random discussion and small questions thread for January 16, 2026",
-        "subreddit": "singapore",
-        "score": 6,
-        "comment_score": 4,
-        "intensity": "strong"
-      },
       {
         "text": "Screw that.. even long ago, my boss kept turning up for work when she was coughing her guts out and kept saying she was feverish She proceeded to spread her illness through all the office people.. twice!! The only one who didn't kena was me and I ended up covering for everyone who was sick 😓",
         "post_id": "t3_1qdx9qd",
@@ -2738,25 +2094,7 @@
         "intensity": "strong"
       },
       {
-        "text": "It's ok you are just trying your best to perform a civic duty. Besides it's a fact there are many perverts on the trains. Better safe than sorry and let them get away",
-        "post_id": "t3_1qe32ww",
-        "post_title": "Pervert taking pictures of others on the MRT",
-        "subreddit": "singapore",
-        "score": 64,
-        "comment_score": 0,
-        "intensity": "moderate"
-      },
-      {
         "text": "Creepy but not illegal. Illegal is when it’s like upskirt or similar. It’s one thing to feel disgusted but eh maybe check the laws first?",
-        "post_id": "t3_1qe32ww",
-        "post_title": "Pervert taking pictures of others on the MRT",
-        "subreddit": "singapore",
-        "score": 64,
-        "comment_score": 0,
-        "intensity": "moderate"
-      },
-      {
-        "text": "You can let the mrt staff know",
         "post_id": "t3_1qe32ww",
         "post_title": "Pervert taking pictures of others on the MRT",
         "subreddit": "singapore",
@@ -2810,6 +2148,15 @@
         "intensity": "strong"
       },
       {
+        "text": "With all the news about fatal accidents due to drink driving or driving without valid licence, there are still so many people doing it without hesitation. This goes to show how lax our traffic laws are. The punishments are so minor that they are willing to take a risk and pay the price. Till today, I still wonder how killing someone while drinking driving only gets you a few years in jail and a few years driving ban.",
+        "post_id": "t3_1qe1ent",
+        "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
+        "subreddit": "singapore",
+        "score": 43,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
         "text": "eeeah, they'll be in and out in a few months. ezpz risk reward matrix heavily favours just yolo-ing it. Zero tolerance for drugs, kpods, and truck speed limiters ✖, but drink driving 〇",
         "post_id": "t3_1qe1ent",
         "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
@@ -2855,15 +2202,6 @@
         "intensity": "strong"
       },
       {
-        "text": "Wah bright future",
-        "post_id": "t3_1qe2uat",
-        "post_title": "Teenager admits to stealing delivery parcels left outside Bishan flats, including S$140 vacuum cleaner",
-        "subreddit": "singapore",
-        "score": 31,
-        "comment_score": 0,
-        "intensity": "strong"
-      },
-      {
         "text": "The new movies got so bad that I refused to watch the last part of the latest trilogy....",
         "post_id": "t3_1qdk0wj",
         "post_title": "Star Wars actress Daisy Ridley visited Singapore’s Chinatown during the Christmas holidays",
@@ -2888,6 +2226,15 @@
         "subreddit": "singapore",
         "score": 215,
         "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "The prequels at least have a good story that can be told in better ways, esp when viewed with the originals that formed the tragedy of Anakin. The sequels are just... incoherent.",
+        "post_id": "t3_1qdk0wj",
+        "post_title": "Star Wars actress Daisy Ridley visited Singapore’s Chinatown during the Christmas holidays",
+        "subreddit": "singapore",
+        "score": 215,
+        "comment_score": 5,
         "intensity": "strong"
       },
       {
@@ -2942,16 +2289,7 @@
         "subreddit": "singapore",
         "score": 416,
         "comment_score": 107,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Well that shows it's about justice and not just someone looking for a quick payday.",
-        "post_id": "t3_1qdabzr",
-        "post_title": "S'pore woman whose mother had leg amputated sues NUH & AMK-Thye Hua Kwan Hospital, loses, ordered to pay S$975,403",
-        "subreddit": "singapore",
-        "score": 416,
-        "comment_score": 28,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "Heartless lawyers.",
@@ -2960,7 +2298,7 @@
         "subreddit": "singapore",
         "score": 416,
         "comment_score": 9,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "damn legal streaming is really getting too complicated",
@@ -3017,15 +2355,6 @@
         "intensity": "strong"
       },
       {
-        "text": "“Found work” - definition. This is what should be raised and debated in parliament.",
-        "post_id": "t3_1qdf4r6",
-        "post_title": "9 in 10 polytechnic graduates found work within 6 months of completing school or NS in 2025",
-        "subreddit": "singapore",
-        "score": 132,
-        "comment_score": 18,
-        "intensity": "strong"
-      },
-      {
         "text": "Poly grads are cheap to hire mah. Wages so stagnant for 10+ years liao.",
         "post_id": "t3_1qdf4r6",
         "post_title": "9 in 10 polytechnic graduates found work within 6 months of completing school or NS in 2025",
@@ -3044,33 +2373,6 @@
         "intensity": "strong"
       },
       {
-        "text": "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room? I mean, it’s not by game at all but I definitely can’t wrap my head around it from a risk vs reward perspective.",
-        "post_id": "t3_1qdgk7p",
-        "post_title": "How common is cheating in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 890,
-        "comment_score": 192,
-        "intensity": "strong"
-      },
-      {
-        "text": "Bloody hell",
-        "post_id": "t3_1qdgk7p",
-        "post_title": "How common is cheating in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 890,
-        "comment_score": 63,
-        "intensity": "strong"
-      },
-      {
-        "text": "looks like someone got quite the reputation at work",
-        "post_id": "t3_1qdgk7p",
-        "post_title": "How common is cheating in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 890,
-        "comment_score": 61,
-        "intensity": "strong"
-      },
-      {
         "text": "Yeah I don’t understand what people are thinking like don’t shit where you eat. Would never want to lose a good job over some stupid affair",
         "post_id": "t3_1qdgk7p",
         "post_title": "How common is cheating in Singapore?",
@@ -3080,12 +2382,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Moral of the story. Don't shit where you eat",
+        "text": "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room? I mean, it’s not by game at all but I definitely can’t wrap my head around it from a risk vs reward perspective.",
         "post_id": "t3_1qdgk7p",
         "post_title": "How common is cheating in Singapore?",
         "subreddit": "askSingapore",
         "score": 890,
-        "comment_score": 46,
+        "comment_score": 192,
         "intensity": "strong"
       },
       {
@@ -3098,48 +2400,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Actually, I go to US ~6 times a year and whenever someone asks where I'm from, most people from Uber drivers to restaurant staffs know us for only good things.",
-        "post_id": "t3_1qe2jvi",
-        "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
-        "subreddit": "askSingapore",
-        "score": 43,
-        "comment_score": 27,
-        "intensity": "strong"
-      },
-      {
-        "text": "If they are even aware of the world map",
-        "post_id": "t3_1qe2jvi",
-        "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
-        "subreddit": "askSingapore",
-        "score": 43,
-        "comment_score": 26,
-        "intensity": "strong"
-      },
-      {
         "text": "I live in the UK and most Brits only know \"Singapore noodles\" that they've created.",
         "post_id": "t3_1qe2jvi",
         "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
         "subreddit": "askSingapore",
         "score": 43,
         "comment_score": 14,
-        "intensity": "strong"
-      },
-      {
-        "text": "This. America thinks of CRA’s first.",
-        "post_id": "t3_1qe2jvi",
-        "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
-        "subreddit": "askSingapore",
-        "score": 43,
-        "comment_score": 12,
-        "intensity": "strong"
-      },
-      {
-        "text": "Where I'm from (North west of France), very few know or are interested in Singapore whatsoever, I'm sorry to say.",
-        "post_id": "t3_1qe2jvi",
-        "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
-        "subreddit": "askSingapore",
-        "score": 43,
-        "comment_score": 9,
         "intensity": "strong"
       },
       {
@@ -3152,33 +2418,6 @@
         "intensity": "strong"
       },
       {
-        "text": "It’s just a transition and adjustment period. You haven’t gotten use to it",
-        "post_id": "t3_1qe1t35",
-        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 3,
-        "intensity": "mild"
-      },
-      {
-        "text": "well, at least you found out more about yourself.",
-        "post_id": "t3_1qe1t35",
-        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 7,
-        "intensity": "mild"
-      },
-      {
-        "text": "2/3 your take home pay is fucking nuts. Make it a symbolic $200 and be done with it.",
-        "post_id": "t3_1qdyir9",
-        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 22,
-        "intensity": "strong"
-      },
-      {
         "text": "Cant even save for future housing Cant even save for emergency Cant even save for marriage Crazy shit",
         "post_id": "t3_1qdyir9",
         "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
@@ -3188,21 +2427,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Fully grown adults sleeping in a bunk bed at home while earning money is ridiculous.",
+        "text": "Your parents are financially abusing you.",
         "post_id": "t3_1qdyir9",
         "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
         "subreddit": "askSingapore",
         "score": 27,
-        "comment_score": 15,
-        "intensity": "strong"
-      },
-      {
-        "text": "You have shit parents who are exploitative and care little about your wellbeing",
-        "post_id": "t3_1qdyir9",
-        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 5,
+        "comment_score": 53,
         "intensity": "strong"
       },
       {
@@ -3221,15 +2451,6 @@
         "subreddit": "askSingapore",
         "score": 39,
         "comment_score": 37,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Depends on the people around you, I think some do have good dental habits.",
-        "post_id": "t3_1qdt3ik",
-        "post_title": "Do Singaporeans generally have a good dental habit?",
-        "subreddit": "askSingapore",
-        "score": 39,
-        "comment_score": 9,
         "intensity": "moderate"
       },
       {
@@ -3269,25 +2490,7 @@
         "intensity": "strong"
       },
       {
-        "text": "Waste back their time. Tell them u will consider. Drag it for weeks. Tell them u need more time. Then reject.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
-        "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 12,
-        "intensity": "strong"
-      },
-      {
         "text": "exactly, when it comes to property agents the \"ethics\" bar is so low it's the proverbial tripping hazard. i wouldn't trust what they say for anything.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
-        "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 8,
-        "intensity": "strong"
-      },
-      {
-        "text": "It is unethical. The only way this isn’t is if the agent or seller genuinely underpriced it earlier, and received much higher bids between first offer and the seller agent saying to offer higher.",
         "post_id": "t3_1qdhf18",
         "post_title": "Housing agent - ethical or not?",
         "subreddit": "askSingapore",
@@ -3314,15 +2517,6 @@
         "intensity": "strong"
       },
       {
-        "text": "Some agencies/agents have that tactic to draw in viewers and play on their emotions. Not ethical, but not against any laws.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
-        "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 5,
-        "intensity": "strong"
-      },
-      {
         "text": "this is how it should be, ideal price and then negotiable, or minimum price stated up front. not falsely low and then push the price up by 100k when you bid. i had the same thing, bid the asking price then a bit above. they held out for another 50k and i was like whut and called it quits.",
         "post_id": "t3_1qdhf18",
         "post_title": "Housing agent - ethical or not?",
@@ -3330,15 +2524,6 @@
         "score": 65,
         "comment_score": 10,
         "intensity": "strong"
-      },
-      {
-        "text": "They won’t tell you one la. It’s not even done at the counter. They can only tell you if it’s real or not.",
-        "post_id": "t3_1qe1mpa",
-        "post_title": "Anyway to get Banknotes (e.g. SGD10K) authenticated?",
-        "subreddit": "askSingapore",
-        "score": 5,
-        "comment_score": 0,
-        "intensity": "moderate"
       },
       {
         "text": "Stayed in a condo for 6 years. So decided didn't make sense to pay so much for things we don't use (450 a month). Sold the condo, moved back to hdb. Feels lighter and happier.",
@@ -3350,43 +2535,7 @@
         "intensity": "moderate"
       },
       {
-        "text": "I know a friend who in order to make use of the fee he paid for, shit and shower in the condo facilities, swim every week and go to the gym everyday",
-        "post_id": "t3_1qdgkbw",
-        "post_title": "To those staying in condos, how often do you use the facilities?",
-        "subreddit": "askSingapore",
-        "score": 33,
-        "comment_score": 96,
-        "intensity": "moderate"
-      },
-      {
-        "text": "This for sure. If you have kids, worth it. Otherwise? No point (for me)",
-        "post_id": "t3_1qdgkbw",
-        "post_title": "To those staying in condos, how often do you use the facilities?",
-        "subreddit": "askSingapore",
-        "score": 33,
-        "comment_score": 26,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Ok la at least he got motivation to be healthier lol",
-        "post_id": "t3_1qdgkbw",
-        "post_title": "To those staying in condos, how often do you use the facilities?",
-        "subreddit": "askSingapore",
-        "score": 33,
-        "comment_score": 19,
-        "intensity": "moderate"
-      },
-      {
-        "text": "So the LO is a political appointee, appointed by the ruling party. facepalm",
-        "post_id": "t3_1qe2013",
-        "post_title": "PSP: The LO should not be appointed with the pleasure of the Prime Minister",
-        "subreddit": "SingaporeRaw",
-        "score": 121,
-        "comment_score": 61,
-        "intensity": "strong"
-      },
-      {
-        "text": "It's kinda disturbing they can just remove a MP like that. Oh wait, he's not a MP, he just sitting in a figurehead role made by the \"government\"?",
+        "text": "It's kinda disturbing they can just remove a MP like that.",
         "post_id": "t3_1qe2013",
         "post_title": "PSP: The LO should not be appointed with the pleasure of the Prime Minister",
         "subreddit": "SingaporeRaw",
@@ -3404,13 +2553,22 @@
         "intensity": "strong"
       },
       {
-        "text": "It’s probably not CNY decor. OP and video is meant to stir interracial shit by saying so. I think they used the neighbour’s face to make some mockery. If it’s just to whack the decor, no one stands there for a long time trying to ring the bell.",
+        "text": "It’s probably not CNY decor. OP and video is meant to stir interracial shit by saying so.",
         "post_id": "t3_1qdzbnp",
         "post_title": "Mischief by Woman to HDB flat's CNY decor",
         "subreddit": "SingaporeRaw",
         "score": 52,
         "comment_score": 5,
-        "intensity": "strong"
+        "intensity": "moderate"
+      },
+      {
+        "text": "I think they used the neighbour’s face to make some mockery.",
+        "post_id": "t3_1qdzbnp",
+        "post_title": "Mischief by Woman to HDB flat's CNY decor",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 5,
+        "intensity": "moderate"
       },
       {
         "text": "Reslly dont know what our MRT “taskforce” is doing…Why are the disruptions getting more frequent? Our public transport system is really becoming a clown show 😢",
@@ -3419,15 +2577,6 @@
         "subreddit": "SingaporeRaw",
         "score": 55,
         "comment_score": 1,
-        "intensity": "strong"
-      },
-      {
-        "text": "you provide a service that is under maintenance for 1 quarter for the year",
-        "post_id": "t3_1qduves",
-        "post_title": "They should rename the Circle Line to the 'Pritam Line', that way the government will be more motivated to fix it up.",
-        "subreddit": "SingaporeRaw",
-        "score": 55,
-        "comment_score": 0,
         "intensity": "strong"
       },
       {
@@ -3476,15 +2625,6 @@
         "intensity": "strong"
       },
       {
-        "text": "I think tekong still decent, you see what those ulu units are getting, can cry. Camp canteens are still getting alot of business from the regulars because of that haha.",
-        "post_id": "t3_1qdf9xc",
-        "post_title": "Yes, HCI. This food is great.",
-        "subreddit": "SingaporeRaw",
-        "score": 358,
-        "comment_score": 5,
-        "intensity": "strong"
-      },
-      {
         "text": "Our sg judges are puppets. Noticed most of them are fresh grads out of law school? Yep, kids with no real world working experience (outside court house) and no clue about how to assess cases properly.",
         "post_id": "t3_1qds6tt",
         "post_title": "PAP orchestrated the wasteful drama against Pritam Singh, only for BBC to write this headline: \"Pritam Singh: Singapore's leader of opposition stripped of title after lying conviction\"",
@@ -3503,39 +2643,12 @@
         "intensity": "strong"
       },
       {
-        "text": "It takes 2 hands to clap. I was genuinely puzzled when Pritam accepted the title along with the benefits. I remember thinking to myself everyone can see it's a Trojan horse even if it was not apparent then. There is zero incentive for a political party to 'reward' or acknowledge it's opponent so there must be an agenda somewhere. WP and the opposition never had an official 'leader', they didn't need one before and doesn't need one.",
-        "post_id": "t3_1qds6tt",
-        "post_title": "PAP orchestrated the wasteful drama against Pritam Singh, only for BBC to write this headline: \"Pritam Singh: Singapore's leader of opposition stripped of title after lying conviction\"",
-        "subreddit": "SingaporeRaw",
-        "score": 57,
-        "comment_score": 31,
-        "intensity": "strong"
-      },
-      {
         "text": "A post like this is worth more than the entire \"selected\" 9 NMPs to the house presently. We have Opposition MPs in place; if not, the 12 spots reserved for NCMPs, which carry more weight and legitimacy. Scrapped the NMP scheme. They are not elected, nor do they represent the people, and they are a waste of the parliament's time and the public's money.",
         "post_id": "t3_1qdlqrt",
         "post_title": "Former NMP Anthea Ong on the PS motion",
         "subreddit": "SingaporeRaw",
         "score": 113,
         "comment_score": 17,
-        "intensity": "strong"
-      },
-      {
-        "text": "It seems to be her habit possibly dating from the times when Facebook posts prompted users to write statuses that continued from prompts. E.g. \"John Tan is....\"",
-        "post_id": "t3_1qdlqrt",
-        "post_title": "Former NMP Anthea Ong on the PS motion",
-        "subreddit": "SingaporeRaw",
-        "score": 113,
-        "comment_score": 14,
-        "intensity": "strong"
-      },
-      {
-        "text": "Didn't read the line immediately after that? \"That convergence may be sincere and expected\" Don't cherry pick to suit your own narrative",
-        "post_id": "t3_1qdlqrt",
-        "post_title": "Former NMP Anthea Ong on the PS motion",
-        "subreddit": "SingaporeRaw",
-        "score": 113,
-        "comment_score": 5,
         "intensity": "strong"
       },
       {
@@ -3548,48 +2661,12 @@
         "intensity": "strong"
       },
       {
-        "text": "Local men are realistic, but sinkie women are not. Social media made them demented and delusional.",
-        "post_id": "t3_1qdm5my",
-        "post_title": "SG men are the best?",
-        "subreddit": "SingaporeRaw",
-        "score": 95,
-        "comment_score": 28,
-        "intensity": "strong"
-      },
-      {
         "text": "I hate this kind. My wife has a friend who's a SAHM, never held a full time job after marriage and poisoning my wife to give me career advice. Like wtf",
         "post_id": "t3_1qdm5my",
         "post_title": "SG men are the best?",
         "subreddit": "SingaporeRaw",
         "score": 95,
         "comment_score": 4,
-        "intensity": "strong"
-      },
-      {
-        "text": "All gas no brakes. He’s just a few steps away from Charles Yeo. Even the face look the same.",
-        "post_id": "t3_1qdi6oe",
-        "post_title": "This guy should be the next Leader of Opposition",
-        "subreddit": "SingaporeRaw",
-        "score": 93,
-        "comment_score": 43,
-        "intensity": "strong"
-      },
-      {
-        "text": "long way to go, at this stage will become just another target board",
-        "post_id": "t3_1qdi6oe",
-        "post_title": "This guy should be the next Leader of Opposition",
-        "subreddit": "SingaporeRaw",
-        "score": 93,
-        "comment_score": 7,
-        "intensity": "strong"
-      },
-      {
-        "text": "Give it a few years and he’ll make RK look like a saint",
-        "post_id": "t3_1qdi6oe",
-        "post_title": "This guy should be the next Leader of Opposition",
-        "subreddit": "SingaporeRaw",
-        "score": 93,
-        "comment_score": 6,
         "intensity": "strong"
       },
       {
@@ -3607,6 +2684,15 @@
         "post_title": "This guy should be the next Leader of Opposition",
         "subreddit": "SingaporeRaw",
         "score": 93,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "i honestly don’t believe that “media licenses” are a real thing here (it’s 100% a reserved specialty for propagandacorp) if it were there would be more than one broadcaster doing free to air tv but currently only TEMASEK HOLDINGS has that privilege to broadcast fear mongering propaganda 24/7 in 4 languages",
+        "post_id": "t3_1qdeojy",
+        "post_title": "Reminder this was the headline CNA chose during the tracetogether lie",
+        "subreddit": "SingaporeRaw",
+        "score": 157,
         "comment_score": 2,
         "intensity": "strong"
       },
@@ -3656,24 +2742,6 @@
         "intensity": "moderate"
       },
       {
-        "text": "Maybe some young Singaporeans you see are actually old Singaporeans. Possibly confirmation bias:",
-        "post_id": "t3_1qdyrov",
-        "post_title": "Why do old singaporeans look so old?",
-        "subreddit": "SingaporeRaw",
-        "score": 11,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "The food… I regularly see old people in kopitiam chomping down those meepok noodles with 0 quality protein / veg.",
-        "post_id": "t3_1qdyrov",
-        "post_title": "Why do old singaporeans look so old?",
-        "subreddit": "SingaporeRaw",
-        "score": 11,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
         "text": "Too many high costs for claims for AXA",
         "post_id": "t3_1qdwxub",
         "post_title": "HSBC considers selling its Singapore insurance business",
@@ -3681,15 +2749,6 @@
         "score": 35,
         "comment_score": 1,
         "intensity": "moderate"
-      },
-      {
-        "text": "other than the snark comments, here's how the average person can earn $1M without luck: Some numbers, assume a 8% p.a. average return: - $500 a month, requires 35 years on average to hit $1M (24 years old --> 59 years old) - $1,000 a month, requires 26 years on average to hit $1M (24 years old --> 50 years old) - $2,000 a month, requires 19 years on average to hit $1M (24 years old --> 43 years old) This is in your investment portfolio.",
-        "post_id": "t3_1qdaafd",
-        "post_title": "How did you earn your first million? Can it still be done in 2026?",
-        "subreddit": "singaporefi",
-        "score": 84,
-        "comment_score": 108,
-        "intensity": "strong"
       },
       {
         "text": "Well, I did but I wasn't able to find any conclusive answer, hence posting here.",
@@ -3710,7 +2769,7 @@
         "intensity": "strong"
       },
       {
-        "text": "The UOB savings account has a fee and also a buy sell spread.",
+        "text": "the UOB savings account has a fee and also a buy sell spread.",
         "post_id": "t3_1qdi0wc",
         "post_title": "Gold - ETF or UOB Gold account?",
         "subreddit": "singaporefi",
@@ -3719,12 +2778,12 @@
         "intensity": "moderate"
       },
       {
-        "text": "if you don’t care for the “pet rock” and if you don’t have 109k to dump into gold, it’s not an appropriate product.",
+        "text": "Owning gold is on the level of distrusting the government and distrusting equities.",
         "post_id": "t3_1qdi0wc",
         "post_title": "Gold - ETF or UOB Gold account?",
         "subreddit": "singaporefi",
         "score": 3,
-        "comment_score": 2,
+        "comment_score": 1,
         "intensity": "moderate"
       },
       {
@@ -3737,13 +2796,22 @@
         "intensity": "mild"
       },
       {
+        "text": "as I'm getting slightly antsy.",
+        "post_id": "t3_1qdapfn",
+        "post_title": "IBKR first withdrawal - 4 days and pending.",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
         "text": "Ibkr damn slow in withdrawals cos is wire xfer.",
         "post_id": "t3_1qdapfn",
         "post_title": "IBKR first withdrawal - 4 days and pending.",
         "subreddit": "singaporefi",
         "score": 3,
         "comment_score": 5,
-        "intensity": "strong"
+        "intensity": "moderate"
       },
       {
         "text": "If you use the GIRO option it's super slow.",
@@ -3751,33 +2819,6 @@
         "post_title": "IBKR first withdrawal - 4 days and pending.",
         "subreddit": "singaporefi",
         "score": 3,
-        "comment_score": 1,
-        "intensity": "strong"
-      },
-      {
-        "text": "I dont have access to Bloomberg , where to find the data besides using bloomberg ?",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Where to find it without using bloomberg sir ?",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Since you jumped to the conclusion that there is a transparency issue, you can go look for it yourself.",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
         "comment_score": 1,
         "intensity": "moderate"
       },
@@ -3800,16 +2841,16 @@
         "intensity": "moderate"
       },
       {
-        "text": "How much is a lot? Each CC cashback condition is different so you have to provide some data.",
+        "text": "Just realised my job only pays 2.3k and when trying to apply they said i cant apply under the current ammount...",
         "post_id": "t3_1qdnbkx",
         "post_title": "Credit card advice",
         "subreddit": "singaporefi",
         "score": 0,
-        "comment_score": 5,
+        "comment_score": 12,
         "intensity": "moderate"
       }
     ],
-    "goals": [
+    "optimism": [
       {
         "text": "Last day of work! End of contract! Wheeeee Lazy to take bus and mrt. Going to take grab cause SPLURGE BUT DAMN EX SIA",
         "post_id": "t3_1qdx9qd",
@@ -3829,315 +2870,34 @@
         "intensity": "moderate"
       },
       {
-        "text": "It’s quite easy to not drive if you plan to drink. If you didn’t drive there, you won’t have to drive back",
-        "post_id": "t3_1qe1ent",
-        "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
-        "subreddit": "singapore",
-        "score": 43,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "any good recommendation? I enjoyed the popular ones like demon slayer, blue lock and haikyuu",
-        "post_id": "t3_1qdd6f8",
-        "post_title": "Where to watch currently-airing anime in Singapore (legally) - Winter 2026 guide",
-        "subreddit": "singapore",
-        "score": 209,
-        "comment_score": 4,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I know you didn't include 'One Piece' but can someone tell me where can I watch it? T.T I've been stucked at Dressrosa arc since netflix stopped there, then jumped to egghead arc. Preferably legal means please!",
-        "post_id": "t3_1qdd6f8",
-        "post_title": "Where to watch currently-airing anime in Singapore (legally) - Winter 2026 guide",
-        "subreddit": "singapore",
-        "score": 209,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Just reapply, never try never know.",
-        "post_id": "t3_1qe1t35",
-        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 10,
-        "intensity": "moderate"
-      },
-      {
-        "text": "You can apply elsewhere while staying at your current job.",
-        "post_id": "t3_1qe1t35",
-        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 29,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Tell them you need to pay rent outside to keep your job and cut it down to 10% of your take-home pay or so.",
-        "post_id": "t3_1qdyir9",
-        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 3,
-        "intensity": "moderate"
-      },
-      {
-        "text": "As a parent, fully agree with this. Allowance should be something voluntary, like a gift.",
-        "post_id": "t3_1qdyir9",
-        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
-        "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 27,
-        "intensity": "moderate"
-      },
-      {
-        "text": "You did the right thing. You have a baby trapped in an unventilated space.",
-        "post_id": "t3_1qdfqny",
-        "post_title": "AIO - called 995 when suck in HDB lift",
-        "subreddit": "askSingapore",
-        "score": 258,
-        "comment_score": 104,
-        "intensity": "strong"
-      },
-      {
-        "text": "Any emergency call you make in good faith will not be considered over reacting or a crime (by police or emergency services like SCDF)",
-        "post_id": "t3_1qdfqny",
-        "post_title": "AIO - called 995 when suck in HDB lift",
-        "subreddit": "askSingapore",
-        "score": 258,
-        "comment_score": 15,
-        "intensity": "strong"
-      },
-      {
-        "text": "i go to the dentist at least twice a year, floss my teeth daily, brush at least twice a day.",
-        "post_id": "t3_1qdt3ik",
-        "post_title": "Do Singaporeans generally have a good dental habit?",
-        "subreddit": "askSingapore",
-        "score": 39,
-        "comment_score": 24,
-        "intensity": "strong"
-      },
-      {
-        "text": "I visit dentist every 6 months, floss daily, tongue scraper.",
-        "post_id": "t3_1qdt3ik",
-        "post_title": "Do Singaporeans generally have a good dental habit?",
-        "subreddit": "askSingapore",
-        "score": 39,
-        "comment_score": 7,
-        "intensity": "strong"
-      },
-      {
-        "text": "Fortunately we found a house within our budget. We told our agent to market our house at a higher price to allow room for negotiations because we don’t wish to waste anybody’s time.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
-        "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 15,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I guess you can check with your banker and see if they can help",
-        "post_id": "t3_1qe1mpa",
-        "post_title": "Anyway to get Banknotes (e.g. SGD10K) authenticated?",
-        "subreddit": "askSingapore",
-        "score": 5,
-        "comment_score": 8,
-        "intensity": "mild"
-      },
-      {
-        "text": "Check with the bank i think they are your safest bet",
-        "post_id": "t3_1qe1mpa",
-        "post_title": "Anyway to get Banknotes (e.g. SGD10K) authenticated?",
-        "subreddit": "askSingapore",
-        "score": 5,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "very regular user of the gym, 3 times a week average",
-        "post_id": "t3_1qdgkbw",
-        "post_title": "To those staying in condos, how often do you use the facilities?",
-        "subreddit": "askSingapore",
-        "score": 33,
-        "comment_score": 30,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Used the pool once a week. Can’t run anymore. Wonky knees. Swimming is replacement cardio.",
-        "post_id": "t3_1qdgkbw",
-        "post_title": "To those staying in condos, how often do you use the facilities?",
-        "subreddit": "askSingapore",
-        "score": 33,
-        "comment_score": 20,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Thats why he says poor men cannot cheat",
-        "post_id": "t3_1qdm5my",
-        "post_title": "SG men are the best?",
-        "subreddit": "SingaporeRaw",
-        "score": 95,
-        "comment_score": 9,
-        "intensity": "mild"
-      },
-      {
-        "text": "That's what i always told my wife. One is enough lol.",
-        "post_id": "t3_1qdm5my",
-        "post_title": "SG men are the best?",
-        "subreddit": "SingaporeRaw",
-        "score": 95,
-        "comment_score": 9,
-        "intensity": "mild"
-      },
-      {
-        "text": "Why would you want someone to beat around the bush, manipulate the public and phrase things politically right just so that sensitive people wont be offended?",
-        "post_id": "t3_1qdi6oe",
-        "post_title": "This guy should be the next Leader of Opposition",
-        "subreddit": "SingaporeRaw",
-        "score": 93,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "stop engaging with propagandacorp news and let these poor wage workers come to their senses and resign so they can contribute their talents to fairer and impartial broadcasters (BBC for example)",
-        "post_id": "t3_1qdeojy",
-        "post_title": "Reminder this was the headline CNA chose during the tracetogether lie",
-        "subreddit": "SingaporeRaw",
-        "score": 157,
-        "comment_score": 2,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I have to be mindful to eat eggs every 2 days, drink soy milk and eat more grains: lentils walnuts.",
-        "post_id": "t3_1qdyrov",
-        "post_title": "Why do old singaporeans look so old?",
-        "subreddit": "SingaporeRaw",
-        "score": 11,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I always tell the store to add more veg and meat.",
-        "post_id": "t3_1qdyrov",
-        "post_title": "Why do old singaporeans look so old?",
-        "subreddit": "SingaporeRaw",
-        "score": 11,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Just doing my 9 to 5 Then i got inheritance",
-        "post_id": "t3_1qdaafd",
-        "post_title": "How did you earn your first million? Can it still be done in 2026?",
-        "subreddit": "singaporefi",
-        "score": 84,
-        "comment_score": 342,
-        "intensity": "mild"
-      },
-      {
-        "text": "Join company with RSU. Spend less than you earn",
-        "post_id": "t3_1qdaafd",
-        "post_title": "How did you earn your first million? Can it still be done in 2026?",
-        "subreddit": "singaporefi",
-        "score": 84,
-        "comment_score": 44,
-        "intensity": "mild"
-      },
-      {
-        "text": "The real problem is still a lack of financial awareness and education.",
-        "post_id": "t3_1qdgpyj",
-        "post_title": "Spot the FAs in the comments",
-        "subreddit": "singaporefi",
-        "score": 13,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "If however you have 576 g your fee is (0.25% x 100)/12 = 0.12 g (which is the minimum that will be charged).",
-        "post_id": "t3_1qdi0wc",
-        "post_title": "Gold - ETF or UOB Gold account?",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 2,
-        "intensity": "mild"
-      },
-      {
-        "text": "Owning gold is on the level of distrusting the government and distrusting equities.",
-        "post_id": "t3_1qdi0wc",
-        "post_title": "Gold - ETF or UOB Gold account?",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "Rent the car using online travel platforms like Trip and Booking, and opt for the insurance there, and pay using credit card as you would for travel.",
-        "post_id": "t3_1qdk7tq",
-        "post_title": "Card that covers car rentals",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Thank you everyone, I just raised a ticket to IBKR.",
-        "post_id": "t3_1qdapfn",
-        "post_title": "IBKR first withdrawal - 4 days and pending.",
-        "subreddit": "singaporefi",
-        "score": 3,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "let me know if you managed to find someone, i’m also looking for alternative data",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "mild"
-      },
-      {
-        "text": "Proof of assets can be enough.",
-        "post_id": "t3_1qdgbjf",
-        "post_title": "For those who FIRED, ....",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 2,
-        "intensity": "moderate"
-      },
-      {
-        "text": "You probably can report rental income, dividend income and capital gains from asset sales in lieu of employment income.",
-        "post_id": "t3_1qdgbjf",
-        "post_title": "For those who FIRED, ....",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I think i drop alot of money on taobao truthfully, so i'd like to get some cashback or rewards with that if theres anyway to do so?",
-        "post_id": "t3_1qdnbkx",
-        "post_title": "Credit card advice",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": -3,
-        "intensity": "moderate"
-      }
-    ],
-    "aspirations": [
-      {
         "text": "Went concert last night and damn I forgot how much j love live music",
         "post_id": "t3_1qdx9qd",
         "post_title": "r/singapore random discussion and small questions thread for January 16, 2026",
         "subreddit": "singapore",
         "score": 6,
         "comment_score": 3,
-        "intensity": "mild"
+        "intensity": "moderate"
+      },
+      {
+        "text": "Firstly, I would commend your courage for acting on what you believe is right, this is courageous and commendable.",
+        "post_id": "t3_1qe32ww",
+        "post_title": "Pervert taking pictures of others on the MRT",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 0,
+        "intensity": "strong"
       },
       {
         "text": "Thanks for being brave enough to confront him 🙌🏻",
+        "post_id": "t3_1qe32ww",
+        "post_title": "Pervert taking pictures of others on the MRT",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's ok you are just trying your best to perform a civic duty. Besides it's a fact there are many perverts on the trains. Better safe than sorry and let them get away",
         "post_id": "t3_1qe32ww",
         "post_title": "Pervert taking pictures of others on the MRT",
         "subreddit": "singapore",
@@ -4160,6 +2920,15 @@
         "post_title": "Four arrested, 103 summonses issued in New Year’s Eve traffic enforcement blitz",
         "subreddit": "singapore",
         "score": 43,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wah bright future",
+        "post_id": "t3_1qe2uat",
+        "post_title": "Teenager admits to stealing delivery parcels left outside Bishan flats, including S$140 vacuum cleaner",
+        "subreddit": "singapore",
+        "score": 31,
         "comment_score": 0,
         "intensity": "mild"
       },
@@ -4173,30 +2942,12 @@
         "intensity": "moderate"
       },
       {
-        "text": "The prequels at least have a good story that can be told in better ways, esp when viewed with the originals that formed the tragedy of Anakin. The sequels are just... incoherent.",
-        "post_id": "t3_1qdk0wj",
-        "post_title": "Star Wars actress Daisy Ridley visited Singapore’s Chinatown during the Christmas holidays",
+        "text": "Well that shows it's about justice and not just someone looking for a quick payday.",
+        "post_id": "t3_1qdabzr",
+        "post_title": "S'pore woman whose mother had leg amputated sues NUH & AMK-Thye Hua Kwan Hospital, loses, ordered to pay S$975,403",
         "subreddit": "singapore",
-        "score": 215,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Hope that's not the takeaway that students learn from this episode though...",
-        "post_id": "t3_1qderji",
-        "post_title": "Hwa Chong Institution to revise recipe, food presentation of bento meals after students' feedback",
-        "subreddit": "singapore",
-        "score": 461,
-        "comment_score": 188,
-        "intensity": "moderate"
-      },
-      {
-        "text": "I only hope the students learn from this as a negative example",
-        "post_id": "t3_1qderji",
-        "post_title": "Hwa Chong Institution to revise recipe, food presentation of bento meals after students' feedback",
-        "subreddit": "singapore",
-        "score": 461,
-        "comment_score": 17,
+        "score": 416,
+        "comment_score": 28,
         "intensity": "moderate"
       },
       {
@@ -4224,25 +2975,16 @@
         "subreddit": "singapore",
         "score": 132,
         "comment_score": 12,
-        "intensity": "moderate"
-      },
-      {
-        "text": "54.2% secured full time jobs in 2025 In 2024 it was around 54.6%. 2023 was 59.8%. 2022 was 58%. Quite a big drop from 2023 to 2024, and continuing to drop in 2025. Wonder how 2026 would look.",
-        "post_id": "t3_1qdf4r6",
-        "post_title": "9 in 10 polytechnic graduates found work within 6 months of completing school or NS in 2025",
-        "subreddit": "singapore",
-        "score": 132,
-        "comment_score": 12,
-        "intensity": "moderate"
-      },
-      {
-        "text": "It's the temptation of the forbidden fruit.",
-        "post_id": "t3_1qdgk7p",
-        "post_title": "How common is cheating in Singapore?",
-        "subreddit": "askSingapore",
-        "score": 890,
-        "comment_score": 38,
         "intensity": "mild"
+      },
+      {
+        "text": "Actually, I go to US ~6 times a year and whenever someone asks where I'm from, most people from Uber drivers to restaurant staffs know us for only good things.",
+        "post_id": "t3_1qe2jvi",
+        "post_title": "Do you have any experience that Singapore is not well known or respected in the west as much as you used to imagine?",
+        "subreddit": "askSingapore",
+        "score": 43,
+        "comment_score": 27,
+        "intensity": "moderate"
       },
       {
         "text": "I believe the \"likability\" is just because not many of them have been here, and honestly most of them have no reason to either, unlike JP/KR for the tourism/culture, TH for the beaches etc.",
@@ -4251,7 +2993,25 @@
         "subreddit": "askSingapore",
         "score": 43,
         "comment_score": 27,
+        "intensity": "moderate"
+      },
+      {
+        "text": "well, at least you found out more about yourself.",
+        "post_id": "t3_1qe1t35",
+        "post_title": "Regretting rejecting a stable job to \"challenge myself\"",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 7,
         "intensity": "mild"
+      },
+      {
+        "text": "As a parent, fully agree with this. Allowance should be something voluntary, like a gift.",
+        "post_id": "t3_1qdyir9",
+        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 27,
+        "intensity": "moderate"
       },
       {
         "text": "Why do you even need to pay if you are no longer living with them?",
@@ -4263,13 +3023,13 @@
         "intensity": "moderate"
       },
       {
-        "text": "Your parents are financially abusing you.",
-        "post_id": "t3_1qdyir9",
-        "post_title": "AITA for wanting to move out of the family and thus paying less allowance?",
+        "text": "You did the right thing. You have a baby trapped in an unventilated space.",
+        "post_id": "t3_1qdfqny",
+        "post_title": "AIO - called 995 when suck in HDB lift",
         "subreddit": "askSingapore",
-        "score": 27,
-        "comment_score": 53,
-        "intensity": "moderate"
+        "score": 258,
+        "comment_score": 104,
+        "intensity": "strong"
       },
       {
         "text": "You did the right move. You are a Hero! You will return in Avengers DoomsDay",
@@ -4290,13 +3050,31 @@
         "intensity": "strong"
       },
       {
+        "text": "i go to the dentist at least twice a year, floss my teeth daily, brush at least twice a day.",
+        "post_id": "t3_1qdt3ik",
+        "post_title": "Do Singaporeans generally have a good dental habit?",
+        "subreddit": "askSingapore",
+        "score": 39,
+        "comment_score": 24,
+        "intensity": "strong"
+      },
+      {
+        "text": "I visit dentist every 6 months, floss daily, tongue scraper.",
+        "post_id": "t3_1qdt3ik",
+        "post_title": "Do Singaporeans generally have a good dental habit?",
+        "subreddit": "askSingapore",
+        "score": 39,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
         "text": "I always brush my teeth before sleeping and never take anything but water once I do that, until the next morning.",
         "post_id": "t3_1qdt3ik",
         "post_title": "Do Singaporeans generally have a good dental habit?",
         "subreddit": "askSingapore",
         "score": 39,
         "comment_score": 24,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
         "text": "It not only makes brushing less of a chore, but it also brushes your teeth better.",
@@ -4305,24 +3083,15 @@
         "subreddit": "askSingapore",
         "score": 39,
         "comment_score": 15,
-        "intensity": "moderate"
+        "intensity": "strong"
       },
       {
-        "text": "I feel like people should be able to rate Agents. So that they don’t get away with unethical stuff",
+        "text": "Fortunately we found a house within our budget. We told our agent to market our house at a higher price to allow room for negotiations because we don’t wish to waste anybody’s time.",
         "post_id": "t3_1qdhf18",
         "post_title": "Housing agent - ethical or not?",
         "subreddit": "askSingapore",
         "score": 65,
-        "comment_score": 5,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Yea thats a mistake on our part. Because majority of the listings we were interested in, sellers do prompt us their expected selling price so we have time to decide to proceed for viewing or not.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
-        "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 2,
+        "comment_score": 15,
         "intensity": "moderate"
       },
       {
@@ -4335,30 +3104,39 @@
         "intensity": "moderate"
       },
       {
-        "text": "Exactly. We had several agents that prompted us on the actual price to give us time to decide if we’d like to proceed for viewing. When we came to view the unit we asked asking price is $6XX,XXX right? Agent said ya, then actually got hidden numbers upon offering.",
-        "post_id": "t3_1qdhf18",
-        "post_title": "Housing agent - ethical or not?",
+        "text": "very regular user of the gym, 3 times a week average",
+        "post_id": "t3_1qdgkbw",
+        "post_title": "To those staying in condos, how often do you use the facilities?",
         "subreddit": "askSingapore",
-        "score": 65,
-        "comment_score": 2,
+        "score": 33,
+        "comment_score": 30,
         "intensity": "moderate"
       },
       {
-        "text": "Correct. Time for the LO to be enshrined in the Constitution. It's a farce otherwise.",
-        "post_id": "t3_1qe2013",
-        "post_title": "PSP: The LO should not be appointed with the pleasure of the Prime Minister",
-        "subreddit": "SingaporeRaw",
-        "score": 121,
-        "comment_score": 14,
+        "text": "Used the pool once a week. Can’t run anymore. Wonky knees. Swimming is replacement cardio.",
+        "post_id": "t3_1qdgkbw",
+        "post_title": "To those staying in condos, how often do you use the facilities?",
+        "subreddit": "askSingapore",
+        "score": 33,
+        "comment_score": 20,
         "intensity": "moderate"
       },
       {
-        "text": "For context, LHL offered LTK the title of \"unofficial leader of the opposition\" some time back. LTK declined, saying that it's either official or not, wth is \"unofficial leader\"? So, this time when LHL offered PS this position it would seem more sincere than before. It's difficult (and unpopular) to jump the gun and call something a poisoned chalice before even trying it out. I for one was hopeful that Singapore politics would have matured just a little bit.",
+        "text": "I for one was hopeful that Singapore politics would have matured just a little bit.",
         "post_id": "t3_1qe2013",
         "post_title": "PSP: The LO should not be appointed with the pleasure of the Prime Minister",
         "subreddit": "SingaporeRaw",
         "score": 121,
         "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "It takes 2 hands to clap. I was genuinely puzzled when Pritam accepted the title along with the benefits. I remember thinking to myself everyone can see it's a Trojan horse even if it was not apparent then. There is zero incentive for a political party to 'reward' or acknowledge it's opponent so there must be an agenda somewhere. WP and the opposition never had an official 'leader', they didn't need one before and doesn't need one.",
+        "post_id": "t3_1qds6tt",
+        "post_title": "PAP orchestrated the wasteful drama against Pritam Singh, only for BBC to write this headline: \"Pritam Singh: Singapore's leader of opposition stripped of title after lying conviction\"",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 31,
         "intensity": "moderate"
       },
       {
@@ -4377,15 +3155,6 @@
         "subreddit": "SingaporeRaw",
         "score": 113,
         "comment_score": 57,
-        "intensity": "moderate"
-      },
-      {
-        "text": "We need to eradicate nepotism/ nepobabies, some kids just start off too privileged. It would be such a better world where kids started with equal resources instead of having nepobaby",
-        "post_id": "t3_1qdm5my",
-        "post_title": "SG men are the best?",
-        "subreddit": "SingaporeRaw",
-        "score": 95,
-        "comment_score": 1,
         "intensity": "moderate"
       },
       {
@@ -4443,11 +3212,11 @@
         "intensity": "mild"
       },
       {
-        "text": "People don’t even need to buy a full share. They can start with fractions of solid companies like Google.",
-        "post_id": "t3_1qdgpyj",
-        "post_title": "Spot the FAs in the comments",
+        "text": "the risk of an etf collapsing is magnitudes smaller than the risk of your home being broken into",
+        "post_id": "t3_1qdi0wc",
+        "post_title": "Gold - ETF or UOB Gold account?",
         "subreddit": "singaporefi",
-        "score": 13,
+        "score": 3,
         "comment_score": 1,
         "intensity": "moderate"
       },
@@ -4461,250 +3230,156 @@
         "intensity": "moderate"
       },
       {
-        "text": "The historical data u want is found in 2 seconds on a bloomberg terminal. What, you mean you dont have access to Bloomberg ?",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": -1,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Below is a historical P/E timeline for the Straits Times Index (STI), using Singapore equity market / STI ETF proxies that institutional research desks commonly rely on (CEIC, WorldPEratio, Bloomberg summaries). While STI does not publish a single continuous official P/E series going back decades, these figures are widely accepted valuation references for cycle analysis.",
-        "post_id": "t3_1qdhdbz",
-        "post_title": "Data for singapore stock market",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": -6,
-        "intensity": "moderate"
-      },
-      {
-        "text": "Just a suggestion, do consider that the bank can lend you that mortgage money at let’s say 1.6% interest, which any investor worth their salt can turn around and invest at a much higher rate of return, why would you pay cash and pass up the opportunity?",
-        "post_id": "t3_1qdgbjf",
-        "post_title": "For those who FIRED, ....",
+        "text": "Rent the car using online travel platforms like Trip and Booking, and opt for the insurance there, and pay using credit card as you would for travel.",
+        "post_id": "t3_1qdk7tq",
+        "post_title": "Card that covers car rentals",
         "subreddit": "singaporefi",
         "score": 0,
         "comment_score": 1,
         "intensity": "moderate"
-      },
-      {
-        "text": "My advice, if you’ve just started work and your spending is low your cashback and miles don’t matter that much. Pick the card with the best sign-up bonus, eg. Citibank cashback card often has offers of $300-400 when you sign up.",
-        "post_id": "t3_1qdnbkx",
-        "post_title": "Credit card advice",
-        "subreddit": "singaporefi",
-        "score": 0,
-        "comment_score": 1,
-        "intensity": "mild"
       }
     ]
   },
   "thematic_clusters": [
     {
       "topic": "Pritam Singh Opposition Leader Removal Political Drama",
-      "engagement_score": 1584,
+      "engagement_score": 1693,
       "dominant_emotion": "frustration",
       "sample_posts": [
         "PM Wong removes Pritam Singh as Leader of the Opposition, invites Workers' Party to nominate another MP to fill the role",
-        "PSP: The LO should not be appointed with the pleasure of the Prime Minister",
-        "They should rename the Circle Line to the 'Pritam Line', that way the government will be more motivated to fix it up."
+        "PAP orchestrated the wasteful drama against Pritam Singh, only for BBC to write this headline: \"Pritam Singh: Singapore's leader of opposition stripped of title after lying conviction\"",
+        "PSP: The LO should not be appointed with the pleasure of the Prime Minister"
       ],
       "entities": [
-        "Workers' Party",
-        "Leader of the Opposition",
-        "Circle Line"
+        "Pritam Singh",
+        "Workers Party",
+        "PAP",
+        "Opposition Leader"
       ]
     },
     {
-      "topic": "Relationship Fidelity and Cheating Concerns Singapore",
+      "topic": "Relationship Infidelity Cheating Patterns Singapore Society",
       "engagement_score": 890,
       "dominant_emotion": "fear",
       "sample_posts": [
         "How common is cheating in Singapore?"
       ],
-      "entities": []
+      "entities": [
+        "Relationships",
+        "Marriage",
+        "Dating"
+      ]
     },
     {
-      "topic": "Hwa Chong Institution School Food Quality Issues",
+      "topic": "HCI School Food Quality Student Feedback Response",
       "engagement_score": 819,
-      "dominant_emotion": "aspiration",
+      "dominant_emotion": "optimism",
       "sample_posts": [
         "Hwa Chong Institution to revise recipe, food presentation of bento meals after students' feedback",
         "Yes, HCI. This food is great."
       ],
-      "entities": []
+      "entities": [
+        "HCI",
+        "School Food",
+        "Student Feedback"
+      ]
     },
     {
-      "topic": "Medical Malpractice Hospital Legal Case Costs",
+      "topic": "Medical Malpractice Hospital Lawsuit Compensation Case",
       "engagement_score": 416,
-      "dominant_emotion": "fear",
+      "dominant_emotion": "frustration",
       "sample_posts": [
         "S'pore woman whose mother had leg amputated sues NUH & AMK-Thye Hua Kwan Hospital, loses, ordered to pay S$975,403"
       ],
       "entities": [
+        "NUH",
+        "Medical Malpractice",
         "Healthcare",
-        "Medical Malpractice"
+        "Hospital"
       ]
     },
     {
-      "topic": "MRT Safety and Public Transport Incidents",
-      "engagement_score": 322,
-      "dominant_emotion": "frustration",
+      "topic": "HDB Lift Emergency Services Response Safety",
+      "engagement_score": 258,
+      "dominant_emotion": "fear",
       "sample_posts": [
-        "Pervert taking pictures of others on the MRT",
         "AIO - called 995 when suck in HDB lift"
       ],
       "entities": [
         "HDB",
-        "MRT",
-        "LTA",
-        "Public Transport",
-        "Employment"
+        "Emergency Services",
+        "Lift Safety"
       ]
     }
   ],
   "insights": {
-    "headline": "Frustrations Rise Amid Political Drama and Safety Concerns in Singapore",
+    "headline": "Singaporeans Express Frustration Over Political Drama and Job Market Anxieties, Despite Glimmers of Optimism in Personal Achievements",
     "key_takeaways": [
-      "Frustration over political upheaval, particularly PM Wong's dismissal of Pritam Singh, led to a 19.4% increase in negative sentiment, indicating a demand for more transparency and accountability in governance.",
-      "Concerns regarding safety in public transport and lenient punishments for traffic offenses reflect a need for improved law enforcement measures, highlighting potential public relations strategies for transport and legal sectors.",
-      "Healthcare and education systems are under scrutiny, as seen in complaints about hospital costs and school food quality, suggesting an opportunity for service providers to address these systemic issues and enhance their offerings."
+      "Job market concerns are intensifying, particularly for polytechnic graduates, with employment rates slipping to 54.2%, indicating a potential need for job placement initiatives or upskilling programs.",
+      "Political outrage following PM Wong's decision to remove Pritam Singh reflects a growing disenchantment with governance, signaling a crucial opportunity for new political narratives or public engagement strategies.",
+      "Frustrations regarding HCI's food quality and unethical practices by housing agents highlight areas for improvement in service standards, offering private firms opportunities to engage with community needs."
     ],
     "opportunities": [
-      "Political organizations and civic groups can leverage the current climate to engage citizens in discussions about governance reform, potentially launching initiatives for greater transparency and accountability.",
-      "Food service and hospital management sectors can capitalize on dissatisfaction by improving their offerings and communication strategies, positioning themselves as responsive to community feedback."
+      "Educational institutions should consider enhancing career support services for graduates to combat declining employment figures and reassure parents.",
+      "There is potential for food providers in educational institutions to innovate and improve meal quality, possibly tapping into partnerships with local F&B brands to boost satisfaction and reputation."
     ],
     "risks": [
-      "Ongoing political instability may erode public trust in institutions, leading to heightened scrutiny of local government decisions and potential backlash against perceived mismanagement.",
-      "The rising concern for safety in public transport and public spaces could deter city usage, impacting local economies and requiring immediate intervention from authorities to restore public confidence."
+      "Continued dissatisfaction with government actions could lead to social unrest or loss of trust in political institutions, meriting close monitoring of public sentiment.",
+      "Ongoing frustrations with workplace culture and health issues may result in decreased productivity, necessitating prompt HR interventions to promote a healthier work environment."
     ]
   },
   "trends": {
-    "has_previous_day": true,
-    "previous_date": "2026-01-15",
-    "fears": {
-      "direction": "stable",
-      "change_pct": 0.0,
-      "intensity_shift": "stable",
-      "previous_count": 18,
-      "current_count": 18
-    },
-    "frustrations": {
-      "direction": "up",
-      "change_pct": 19.4,
-      "intensity_shift": "stable",
-      "previous_count": 103,
-      "current_count": 123
-    },
-    "goals": {
-      "direction": "stable",
-      "change_pct": 6.1,
-      "intensity_shift": "stable",
-      "previous_count": 33,
-      "current_count": 35
-    },
-    "aspirations": {
-      "direction": "stable",
-      "change_pct": -4.7,
-      "intensity_shift": "stable",
-      "previous_count": 43,
-      "current_count": 41
-    }
+    "has_previous_day": false,
+    "previous_date": null,
+    "fears": null,
+    "frustrations": null,
+    "optimism": null
   },
-  "theme_clusters": [
-    {
-      "theme": "Road Safety Concerns",
-      "description": "Widespread anxiety over the effectiveness of traffic laws and the consequences of drink driving.",
-      "category": "fear",
-      "quote_count": 5,
-      "sample_quotes": [
-        "With all the news about fatal accidents due to drink driving or driving without valid licence, there are still so many people doing it without hesitation.",
-        "I still wonder how killing someone while drinking driving only gets you a few years in jail and a few years driving ban.",
-        "Unbelievable she got away without consequences."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Workplace Health Practices",
-      "description": "Frustration over unhealthy habits and lack of accountability among colleagues regarding work attendance while sick.",
-      "category": "frustration",
-      "quote_count": 5,
-      "sample_quotes": [
-        "Do you have colleagues or office mates who keeps coughing?",
-        "The worse part is how they brag they never take MC and 100% attendance.",
-        "For some reasons, they still believe that going to office while sick is a sign of dedication."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Financial Uncertainty",
-      "description": "Concerns about the future financial landscape and personal economic security.",
-      "category": "fear",
-      "quote_count": 5,
-      "sample_quotes": [
-        "Yikes, just did the math and $1m in 19 years' time is worth $566k in today's dollars.",
-        "My concern is in the future if I am desperate for money, if said 10K note is to be deposit at the bank.",
-        "I feel so stupid for rejecting the stable option in this economy."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Ambitions and Opportunities",
-      "description": "Expressions of personal aspirations, job transitions, and success stories.",
-      "category": "goal",
-      "quote_count": 5,
-      "sample_quotes": [
-        "Last day of work! End of contract! Wheeeee.",
-        "You can apply elsewhere while staying at your current job.",
-        "Just reapply, never try never know."
-      ],
-      "avg_score": 0.0
-    },
-    {
-      "theme": "Cultural Reflections and Hope",
-      "description": "A blend of enthusiasm about cultural events and critical reflections on societal lessons.",
-      "category": "aspiration",
-      "quote_count": 5,
-      "sample_quotes": [
-        "Went concert last night and damn I forgot how much j love live music.",
-        "Hope Pritam gives them the middle finger.",
-        "Just watched the first episode of ‘SHIBOYUGI: Playing Death Games To Put Food On The Table’, and it was one of the best first episodes i’ve ever watched."
-      ],
-      "avg_score": 0.0
-    }
-  ],
+  "theme_clusters": [],
   "signals": [
     {
-      "signal_type": "intensity_spike",
-      "title": "Frustrations reach 75% strong intensity",
-      "description": "Frustrations category shows unusually concentrated strong emotional responses with 75% of quotes (92 out of 123) rated as strong intensity, significantly higher than typical distributions where strong intensity usually represents 20-30% of responses.",
+      "signal_type": "high_engagement",
+      "title": "Exceptional Engagement on Raeesah Khan Political Fallout",
+      "description": "Multiple quotes about Raeesah Khan receiving identical 1266 upvotes indicates coordinated or viral engagement around political consequences. This represents the highest community agreement levels in the dataset and suggests significant public sentiment around political accountability.",
       "category": "frustration",
       "related_quotes": [
-        "take all the MP / mayor / etc. hourly pay and multiply by how many hours they have spent on this clown topic. they rather use it on this nonsense than to solve real problems",
+        "Raeesah khan really singlehandedly changed the cours of Singapore's future with her stupid lies smh",
         "Unbelievable she got away without consequences."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Category Shows 78% Strong Intensity",
+      "description": "68 out of 87 frustration quotes (78%) are classified as strong intensity, with only 1 mild case. This heavily skewed distribution suggests the community is experiencing particularly intense negative emotions rather than casual complaints.",
+      "category": "frustration",
+      "related_quotes": [
+        "Not gonna lie, this person has single handedly wasted so much resources in the world. Like we should actually get a consultant to estimate how much actual resources are wasted",
+        "take all the MP / mayor / etc. hourly pay and multiply by how many hours they have spent on this clown topic. they rather use it on this nonsense than to solve real problems"
       ],
       "urgency": "medium"
     },
     {
       "signal_type": "volume_spike",
-      "title": "Frustrations volume increases 19.4% week-over-week",
-      "description": "Frustrations category experienced notable growth from 103 to 123 quotes, representing the only significant volume change while other categories remained stable, indicating mounting community irritation around current issues.",
+      "title": "Frustrations Dominate Discussion Volume",
+      "description": "Frustrations account for 87 out of 142 total quotes (61%), significantly outweighing fears (12) and optimism (43). This 7:1 ratio compared to fears suggests the community is currently focused more on expressing anger than concern or hope.",
       "category": "frustration",
       "related_quotes": [
-        "Not gonna lie, this person has single handedly wasted so much resources in the world. Like we should actually get a consultant to estimate how much actual resources are wasted",
-        "Hope Pritam gives them the middle finger"
+        "Yeah I don't understand what people are thinking like don't shit where you eat. Would never want to lose a good job over some stupid affair",
+        "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room?"
       ],
-      "urgency": "medium"
+      "urgency": "low"
     },
     {
-      "signal_type": "high_engagement",
-      "title": "Political drama generates exceptional community agreement",
-      "description": "Multiple quotes about political figures and scandals achieved +1266 engagement scores, indicating unusually strong community consensus around frustration with political leadership and resource allocation decisions.",
+      "signal_type": "emerging_topic",
+      "title": "Professional Risk Assessment in Personal Conduct",
+      "description": "High-engagement discussions around cost-benefit analysis of personal decisions affecting professional reputation represent a notable theme. Community is actively analyzing risk-reward calculations in personal conduct, suggesting broader concerns about professional integrity.",
       "category": "frustration",
       "related_quotes": [
-        "Raeesah khan really singlehandedly changed the cours of Singapore's future with her stupid lies smh",
-        "Time travel back and prevent RK from joining the party"
+        "Yeah I don't understand what people are thinking like don't shit where you eat. Would never want to lose a good job over some stupid affair",
+        "Imagine throwing away your professional reputation and your marriage for a kiss and some groping in a meeting room?"
       ],
-      "urgency": "high"
+      "urgency": "low"
     }
   ]
 }
