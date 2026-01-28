@@ -4,13 +4,13 @@ import { useState } from "react";
 import { WeeklyReport, DailyReport, ReportMode, AnalyticsReport } from "@/types";
 import { ModeToggle } from "./ModeToggle";
 import { HeatmapQuotesSection } from "./HeatmapQuotesSection";
-import { AnalyticsDashboard } from "./analytics/AnalyticsDashboard";
 
 interface DashboardProps {
   weeklyReport: WeeklyReport;
   dailyReport: DailyReport | null;
   availableDates: string[];
   analyticsReport: AnalyticsReport | null;
+  weeklyAnalyticsReport: AnalyticsReport | null;
 }
 
 // Format date from "2026-01-18" to "18 Jan 2026"
@@ -23,7 +23,7 @@ function formatDate(dateStr: string): string {
   });
 }
 
-export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: DashboardProps) {
+export function Dashboard({ weeklyReport, dailyReport, analyticsReport, weeklyAnalyticsReport }: DashboardProps) {
   const [mode, setMode] = useState<ReportMode>("weekly");
   const [showAnalytics, setShowAnalytics] = useState(false);
 
@@ -31,19 +31,21 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
   const report = mode === "daily" && dailyReport ? dailyReport : weeklyReport;
   const isDaily = mode === "daily" && dailyReport;
 
+  // Use the appropriate analytics report based on mode
+  const activeAnalyticsReport = isDaily ? analyticsReport : weeklyAnalyticsReport;
+
   // Collect all top posts from all subreddits and sort by score
   const allTopPosts = report.subreddits
     .flatMap((sub) => sub.top_posts)
     .sort((a, b) => b.score - a.score);
 
-  // Get the period label
-  const getPeriodLabel = () => {
+  // Get display date
+  const getDisplayDate = () => {
     if (isDaily && dailyReport) {
-      return `Updated ${formatDate(dailyReport.report_date)}`;
+      return formatDate(dailyReport.report_date);
     }
-    // Use generated_at for weekly (when the scrape was run)
     const generatedDate = weeklyReport.generated_at.split("T")[0];
-    return `Vibes from the last 7 days till ${formatDate(generatedDate)}`;
+    return formatDate(generatedDate);
   };
 
   return (
@@ -52,7 +54,7 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
       <div className="flex flex-col gap-3 mb-4 sm:mb-6">
         {/* Row 1: Title + Controls */}
         <div className="flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold font-[family-name:var(--font-space-mono)]">
+          <h1 className="text-2xl sm:text-3xl font-bold font-[family-name:var(--font-space-mono)]">
             Kopi Sentiment
           </h1>
           <div className="flex items-center gap-2 sm:gap-3">
@@ -62,13 +64,10 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
             <ModeToggle mode={mode} onModeChange={setMode} />
           </div>
         </div>
-        {/* Row 2: Tagline + Date */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-          <p className="text-gray-500 text-xs sm:text-sm">
-            Singapore's Reddit in a 5-minute TL;DR.
-          </p>
-          <p className="text-gray-600 text-xs">{getPeriodLabel()}</p>
-        </div>
+        {/* Row 2: Tagline */}
+        <p className="text-gray-500 text-xs sm:text-sm">
+          Singapore's Reddit in a 5-minute TL;DR.
+        </p>
       </div>
 
       {!dailyReport && mode === "daily" && (
@@ -79,33 +78,20 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
         </div>
       )}
 
-      {/* Analytics toggle */}
-      {analyticsReport && (
-        <div className="mb-4 sm:mb-6">
-          <button
-            onClick={() => setShowAnalytics(!showAnalytics)}
-            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all ${
-              showAnalytics
-                ? "border border-white/30 bg-white/[0.08] text-white"
-                : "border border-white/[0.15] bg-transparent text-white/60 hover:bg-white/[0.05] hover:text-white/80 hover:border-white/[0.25]"
-            }`}
-          >
-            {showAnalytics ? "← Vibes" : "Signals"}
-          </button>
-        </div>
-      )}
-
-      {/* Conditional rendering: Analytics or main sentiment view */}
-      {showAnalytics && analyticsReport ? (
-        <AnalyticsDashboard report={analyticsReport} overallSentiment={report.overall_sentiment} signals={dailyReport?.signals} />
-      ) : (
-        <HeatmapQuotesSection
-          sentiment={report.overall_sentiment}
-          quotes={report.all_quotes}
-          hotPosts={allTopPosts}
-          thematicClusters={report.thematic_clusters}
-        />
-      )}
+      {/* Main content area with integrated toggle */}
+      <HeatmapQuotesSection
+        sentiment={report.overall_sentiment}
+        quotes={report.all_quotes}
+        hotPosts={allTopPosts}
+        thematicClusters={report.thematic_clusters}
+        analyticsReport={activeAnalyticsReport}
+        showAnalytics={showAnalytics}
+        onToggleAnalytics={() => setShowAnalytics(!showAnalytics)}
+        displayDate={getDisplayDate()}
+        isDaily={!!isDaily}
+        signals={report.signals}
+        allDataPoints={analyticsReport?.sentiment_timeseries?.data_points}
+      />
 
     </main>
   );

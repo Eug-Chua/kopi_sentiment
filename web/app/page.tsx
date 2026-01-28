@@ -88,12 +88,26 @@ async function getAnalyticsReport(): Promise<AnalyticsReport | null> {
   }
 }
 
+async function getWeeklyAnalyticsReport(): Promise<AnalyticsReport | null> {
+  const fs = await import("fs/promises");
+  const path = await import("path");
+
+  try {
+    const filePath = path.join(process.cwd(), "public/data/analytics_weekly.json");
+    const data = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(data);
+  } catch {
+    return null;
+  }
+}
+
 export default async function Page() {
-  const [weeklyReport, dailyReport, availableDates, analyticsReport] = await Promise.all([
+  const [weeklyReport, dailyReport, availableDates, analyticsReport, weeklyAnalyticsReport] = await Promise.all([
     getWeeklyReport(),
     getLatestDailyReport(),
     getAvailableDates(),
     getAnalyticsReport(),
+    getWeeklyAnalyticsReport(),
   ]);
 
   return (
@@ -102,6 +116,7 @@ export default async function Page() {
       dailyReport={dailyReport}
       availableDates={availableDates}
       analyticsReport={analyticsReport}
+      weeklyAnalyticsReport={weeklyAnalyticsReport}
     />
   );
 }
