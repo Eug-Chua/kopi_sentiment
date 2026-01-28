@@ -80,11 +80,12 @@ export function CategoryHeatmap({ dataPoints }: CategoryHeatmapProps) {
         </div>
       </div>
 
-      {/* Heatmap grid */}
-      <div className="p-4">
+      {/* Heatmap grid - scrollable on mobile */}
+      <div className="p-3 sm:p-4 overflow-x-auto">
+        <div className="min-w-[500px]">
         {/* Date headers */}
         <div className="flex mb-2">
-          <div className="w-20 shrink-0" /> {/* Spacer for row labels */}
+          <div className="w-16 sm:w-20 shrink-0" /> {/* Spacer for row labels */}
           <div className="flex-1 flex gap-[2px]">
             {dataPoints.map((dp, i) => (
               <div
@@ -111,7 +112,7 @@ export function CategoryHeatmap({ dataPoints }: CategoryHeatmapProps) {
 
         {/* Summary row - total activity */}
         <div className="flex mt-3 pt-3 border-t border-white/[0.04]">
-          <div className="w-20 shrink-0 flex items-center">
+          <div className="w-16 sm:w-20 shrink-0 flex items-center">
             <span className="text-[10px] text-white/40">Total</span>
           </div>
           <div className="flex-1 flex gap-[2px]">
@@ -140,6 +141,7 @@ export function CategoryHeatmap({ dataPoints }: CategoryHeatmapProps) {
             })}
           </div>
         </div>
+        </div>
       </div>
     </div>
   );
@@ -164,7 +166,7 @@ function HeatmapRow({ category, dataPoints, maxAbsZScore }: HeatmapRowProps) {
   return (
     <div className="flex">
       {/* Row label */}
-      <div className="w-20 shrink-0 flex items-center gap-2">
+      <div className="w-16 sm:w-20 shrink-0 flex items-center gap-2">
         <span className={`text-[9px] font-mono bg-white/5 px-1.5 py-0.5 rounded ${color.textClass}`}>
           {category.shortLabel}
         </span>

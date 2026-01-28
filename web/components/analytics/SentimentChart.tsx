@@ -52,7 +52,7 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
   return (
     <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
       {/* Header */}
-      <div className="p-5 border-b border-white/[0.06]">
+      <div className="p-3 sm:p-5 border-b border-white/[0.06]">
         <div className="flex items-start justify-between">
           <div className="flex items-center gap-2">
             <div>
@@ -97,7 +97,7 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
         </div>
 
         {/* 3 metric cards */}
-        <div className="grid grid-cols-3 gap-3 mt-4 pt-4 border-t border-white/[0.04]">
+        <div className="grid grid-cols-3 gap-2 sm:gap-3 mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-white/[0.04]">
           <MetricCard
             label="Fears"
             value={currentFears}
@@ -136,8 +136,8 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
       </div>
 
       {/* Triple line chart */}
-      <div className="p-5 pt-3">
-        <div className="relative h-32">
+      <div className="p-3 sm:p-5 pt-2 sm:pt-3">
+        <div className="relative h-24 sm:h-32">
           {/* Grid lines */}
           {[0, 25, 50, 75, 100].map((pct) => (
             <div
@@ -267,9 +267,9 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
       </div>
 
       {/* Legend and stats */}
-      <div className="px-5 pb-4">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4 text-[11px] text-white/40">
+      <div className="px-3 sm:px-5 pb-3 sm:pb-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <div className="flex items-center gap-3 sm:gap-4 text-[10px] sm:text-[11px] text-white/40">
             <div className="flex items-center gap-1.5">
               <div className="w-3 h-0.5 rounded-full bg-amber-500" />
               <span>Fears</span>

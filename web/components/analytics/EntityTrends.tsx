@@ -41,7 +41,7 @@ export function EntityTrends({ report }: EntityTrendsProps) {
   return (
     <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
       {/* Header */}
-      <div className="p-4 border-b border-white/[0.06]">
+      <div className="p-3 sm:p-4 border-b border-white/[0.06]">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-[11px] uppercase tracking-wider text-white/40 font-medium">

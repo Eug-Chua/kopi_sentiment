@@ -48,24 +48,28 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
 
   return (
     <main className="container mx-auto p-6 max-w-4xl">
-      <div className="flex items-center justify-between mb-2">
-        <div>
-        <h1 className="text-xl md:text-3xl font-bold font-[family-name:var(--font-space-mono)]">
-          Kopi Sentiment
-        </h1>
-        <p className="text-gray-500 text-xs md:text-sm mt-1">
-          Singapore's Reddit in a 5-minute TL;DR.
-        </p>
+      {/* Header - stacks better on mobile */}
+      <div className="flex flex-col gap-3 mb-4 sm:mb-6">
+        {/* Row 1: Title + Controls */}
+        <div className="flex items-center justify-between">
+          <h1 className="text-xl sm:text-2xl md:text-3xl font-bold font-[family-name:var(--font-space-mono)]">
+            Kopi Sentiment
+          </h1>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <a href="about" className="text-gray-400 hover:text-gray-300 text-xs sm:text-sm">
+              About
+            </a>
+            <ModeToggle mode={mode} onModeChange={setMode} />
+          </div>
         </div>
-        <div className="flex items-center gap-3">
-          <a href="about" className="text-gray-400 hover:text-gray-300 text-xs md:text-sm">
-            About
-          </a>
-          <ModeToggle mode={mode} onModeChange={setMode} />
+        {/* Row 2: Tagline + Date */}
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+          <p className="text-gray-500 text-xs sm:text-sm">
+            Singapore's Reddit in a 5-minute TL;DR.
+          </p>
+          <p className="text-gray-600 text-xs">{getPeriodLabel()}</p>
         </div>
       </div>
-
-      <p className="text-gray-500 mb-6 text-xs md:text-base">{getPeriodLabel()}</p>
 
       {!dailyReport && mode === "daily" && (
         <div className="bg-amber-900/20 border border-amber-700/50 rounded-lg p-4 mb-6">
@@ -77,16 +81,16 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport }: Dashbo
 
       {/* Analytics toggle */}
       {analyticsReport && (
-        <div className="mb-6">
+        <div className="mb-4 sm:mb-6">
           <button
             onClick={() => setShowAnalytics(!showAnalytics)}
-            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors ${
               showAnalytics
                 ? "bg-blue-600 text-white"
                 : "bg-gray-800 text-gray-300 hover:bg-gray-700"
             }`}
           >
-            {showAnalytics ? "← Back to Sentiment" : "📊 View Trend Analytics"}
+            {showAnalytics ? "← Vibes" : "Signals"}
           </button>
         </div>
       )}
