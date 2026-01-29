@@ -148,7 +148,10 @@ class RedditScraper:
             sort: Sort order - "hot", "new", "top", "rising"
             time_filter: Time range for "top" sort - "hour", "day", "week", "month", "year", "all"
         """
-        posts = self.fetch_posts(limit=limit, sort=sort, time_filter=time_filter)
+        # Fetch extra to account for cross-posts, then filter to this subreddit only
+        raw_posts = self.fetch_posts(limit=limit + 2, sort=sort, time_filter=time_filter)
+        posts = [p for p in raw_posts if p.subreddit == self.subreddit][:limit]
+
         for post in posts:
             post.selftext = self.fetch_post_content(post)
             post.comments = self.fetch_post_comments(post)

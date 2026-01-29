@@ -1,96 +1,92 @@
-"""Hybrid analyzer using OpenAI for extraction and Claude for synthesis."""
+"""Hybrid analyzer using different models for extraction vs synthesis.
+
+Follows the Dependency Inversion Principle:
+- Models are configured via settings, not hardcoded
+- Extraction and synthesis can use different providers/models
+"""
 
 import logging
-from anthropic import Anthropic
-from openai import OpenAI
 
-from kopi_sentiment.analyzer.base import BaseAnalyzer
-from kopi_sentiment.analyzer.openai import OpenAIAnalyzer
+from kopi_sentiment.analyzer.claude import ClaudeAnalyzer
 from kopi_sentiment.config.settings import settings
 from kopi_sentiment.analyzer.models import OverallSentiment, Signal, ThematicCluster
-from kopi_sentiment.analyzer.prompts import (
-    WEEKLY_SUMMARY_SYSTEM_PROMPT,
-    SIGNAL_DETECTION_SYSTEM_PROMPT,
-)
 
 logger = logging.getLogger(__name__)
 
 
-class HybridAnalyzer(OpenAIAnalyzer):
-    """Hybrid analyzer: OpenAI for extraction, Claude for synthesis.
+class HybridAnalyzer(ClaudeAnalyzer):
+    """Hybrid analyzer: fast model for extraction, powerful model for synthesis.
 
-    Uses gpt-4o-mini for the heavy lifting (quote extraction, intensity assessment)
-    and Claude for the final synthesis steps (weekly summary, signal detection).
+    Default configuration (from settings):
+    - Extraction: claude-haiku-4-5 (fast, cost-effective for high-volume quote extraction)
+    - Synthesis: claude-sonnet-4 (better reasoning for summaries, insights, signals)
+
+    Models can be overridden via constructor or environment variables.
     """
 
     def __init__(
         self,
-        openai_model: str | None = None,
-        claude_model: str = "claude-sonnet-4-20250514",
+        extraction_model: str | None = None,
+        synthesis_model: str | None = None,
     ):
-        # Initialize OpenAI for extraction (parent class)
-        super().__init__(model=openai_model)
+        """Initialize the hybrid analyzer.
 
-        # Initialize Claude for synthesis
-        self.claude_client = Anthropic(api_key=settings.anthropic_api_key)
-        self.claude_model = claude_model
+        Args:
+            extraction_model: Model for quote extraction/intensity (defaults to settings.extraction_model)
+            synthesis_model: Model for summaries/insights (defaults to settings.synthesis_model)
+        """
+        # Use settings as defaults (Dependency Inversion)
+        self._extraction_model = extraction_model or settings.extraction_model
+        self._synthesis_model = synthesis_model or settings.synthesis_model
 
-        logger.info(f"HybridAnalyzer initialized: OpenAI ({self.model}) + Claude ({self.claude_model})")
+        # Initialize parent with extraction model
+        super().__init__(model=self._extraction_model)
 
-    def _call_claude(self, system_prompt: str, user_prompt: str) -> str:
-        """Make a call to Claude API for synthesis tasks."""
-        response = self.claude_client.messages.create(
-            model=self.claude_model,
+        logger.info(
+            f"HybridAnalyzer initialized: "
+            f"extraction={self._extraction_model}, synthesis={self._synthesis_model}"
+        )
+
+    def _call_synthesis_model(self, system_prompt: str, user_prompt: str) -> str:
+        """Make a call using the synthesis model."""
+        response = self.client.messages.create(
+            model=self._synthesis_model,
             max_tokens=settings.llm_max_tokens,
             system=system_prompt,
             messages=[{"role": "user", "content": user_prompt}],
         )
         return response.content[0].text
 
+    def _with_synthesis_model(self, method_name: str):
+        """Decorator pattern: temporarily swap to synthesis model for a method call."""
+        def wrapper(*args, **kwargs):
+            original_call_llm = self._call_llm
+            self._call_llm = self._call_synthesis_model
+            try:
+                method = getattr(super(HybridAnalyzer, self), method_name)
+                result = method(*args, **kwargs)
+                logger.info(f"{method_name} completed using synthesis model")
+                return result
+            finally:
+                self._call_llm = original_call_llm
+        return wrapper
+
     def generate_weekly_summary(self, *args, **kwargs) -> OverallSentiment:
-        """Override to use Claude for weekly summary generation."""
-        # Store original _call_llm
-        original_call_llm = self._call_llm
-
-        # Temporarily replace with Claude
-        self._call_llm = self._call_claude
-
-        try:
-            result = super().generate_weekly_summary(*args, **kwargs)
-            logger.info("Weekly summary generated using Claude")
-            return result
-        finally:
-            # Restore original
-            self._call_llm = original_call_llm
+        """Use synthesis model for weekly summary generation."""
+        return self._with_synthesis_model("generate_weekly_summary")(*args, **kwargs)
 
     def detect_signals(self, *args, **kwargs) -> list[Signal]:
-        """Override to use Claude for signal detection."""
-        # Store original _call_llm
-        original_call_llm = self._call_llm
-
-        # Temporarily replace with Claude
-        self._call_llm = self._call_claude
-
-        try:
-            result = super().detect_signals(*args, **kwargs)
-            logger.info("Signal detection completed using Claude")
-            return result
-        finally:
-            # Restore original
-            self._call_llm = original_call_llm
+        """Use synthesis model for signal detection."""
+        return self._with_synthesis_model("detect_signals")(*args, **kwargs)
 
     def detect_thematic_clusters(self, *args, **kwargs) -> list[ThematicCluster]:
-        """Override to use Claude for thematic cluster detection."""
-        # Store original _call_llm
-        original_call_llm = self._call_llm
+        """Use synthesis model for thematic cluster detection."""
+        return self._with_synthesis_model("detect_thematic_clusters")(*args, **kwargs)
 
-        # Temporarily replace with Claude
-        self._call_llm = self._call_claude
+    def generate_weekly_insights(self, *args, **kwargs):
+        """Use synthesis model for weekly insights generation."""
+        return self._with_synthesis_model("generate_weekly_insights")(*args, **kwargs)
 
-        try:
-            result = super().detect_thematic_clusters(*args, **kwargs)
-            logger.info("Thematic clusters detected using Claude")
-            return result
-        finally:
-            # Restore original
-            self._call_llm = original_call_llm
+    def cluster_themes(self, *args, **kwargs):
+        """Use synthesis model for theme clustering."""
+        return self._with_synthesis_model("cluster_themes")(*args, **kwargs)

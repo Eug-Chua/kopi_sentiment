@@ -18,8 +18,19 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     llm_provider: str = "hybrid"
     llm_max_tokens: int = 2048
-    claude_model: str = "claude-sonnet-4-20250514"
+
+    # Model configuration
+    # Extraction model: used for quote extraction and intensity assessment (high volume)
+    extraction_model: str = "claude-haiku-4-5-20251001"
+    # Synthesis model: used for summaries, insights, signals (requires more reasoning)
+    synthesis_model: str = "claude-sonnet-4-20250514"
+    # Fallback model (OpenAI)
     openai_model: str = "gpt-4o-mini"
+
+    # Legacy alias for backwards compatibility
+    @property
+    def claude_model(self) -> str:
+        return self.synthesis_model
 
     # Scraper settings
     scraper_delay: float = 1.0

@@ -9,9 +9,9 @@ from kopi_sentiment.config.settings import settings
 class ClaudeAnalyzer(BaseAnalyzer):
     """Sentiment analyzer using Claude API."""
 
-    def __init__(self, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, model: str | None = None):
         self.client = Anthropic(api_key=settings.anthropic_api_key)
-        self.model = model
+        self.model = model or settings.extraction_model
 
     def _call_llm(self, system_prompt: str, user_prompt: str) -> str:
         """Make a call to Claude API."""
