@@ -52,7 +52,7 @@ class Settings(BaseSettings):
     trend_threshold_pct: float = 10.0
 
     # Parallel processing
-    analysis_max_workers: int = 7  # Number of parallel LLM calls for post analysis
+    analysis_max_workers: int = 5  # Number of parallel LLM calls for post analysis
 
     # Storage paths
     data_path_weekly: str = "data/weekly"
