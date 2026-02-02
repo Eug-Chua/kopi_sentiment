@@ -1,6 +1,8 @@
 "use client";
 
+import { useState, useRef } from "react";
 import { SentimentTimeSeries } from "@/types";
+import { MethodologyModal, compositeMethodology } from "./methodology";
 
 interface SentimentChartProps {
   timeseries: SentimentTimeSeries;
@@ -12,6 +14,8 @@ interface SentimentChartProps {
  * Shows the individual z-score intensity for each emotion category.
  */
 export function SentimentChart({ timeseries, commentary: llmCommentary }: SentimentChartProps) {
+  const [showMethodology, setShowMethodology] = useState(false);
+  const helpButtonRef = useRef<HTMLButtonElement>(null);
   const { data_points, overall_trend, trend_slope, trend_r_squared } = timeseries;
 
   // Extract 3 separate z-score arrays
@@ -51,6 +55,14 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
 
   return (
     <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
+      {/* Methodology Modal */}
+      <MethodologyModal
+        config={compositeMethodology}
+        isOpen={showMethodology}
+        onClose={() => setShowMethodology(false)}
+        anchorRef={helpButtonRef}
+      />
+
       {/* Header */}
       <div className="p-3 sm:p-5 border-b border-white/[0.06]">
         <div className="flex items-start justify-between">
@@ -61,27 +73,14 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
               </p>
               <p className="text-xs text-white/30 mt-0.5">Z-score intensity by category</p>
             </div>
-            {/* Z-score info tooltip */}
-            <div className="relative group">
-              <button className="w-4 h-4 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-[10px] text-white/40 hover:text-white/60 transition-colors">
-                ?
-              </button>
-              <div className="absolute left-0 top-full mt-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-30">
-                <div className="bg-[#18181b] border border-white/10 rounded-lg px-3 py-2.5 shadow-xl shadow-black/50 w-64">
-                  <p className="text-[10px] font-medium text-white/70 mb-1.5">Z-Score Formula</p>
-                  <div className="text-[9px] text-white/50 space-y-1 font-mono">
-                    <p>quote_score = engagement_z + intensity_z</p>
-                    <p className="text-white/30 mt-2">where:</p>
-                    <p>engagement_z = (upvotes - mean) / std</p>
-                    <p>intensity_z = weight per intensity level</p>
-                    <p className="text-white/30 mt-1">(mild: -0.5, moderate: 0, strong: +1.0)</p>
-                  </div>
-                  <p className="text-[9px] text-white/40 mt-2 pt-2 border-t border-white/10">
-                    Higher values = stronger sentiment signal
-                  </p>
-                </div>
-              </div>
-            </div>
+            {/* Z-score info button */}
+            <button
+              ref={helpButtonRef}
+              onClick={() => setShowMethodology(true)}
+              className="w-4 h-4 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center text-[10px] text-white/40 hover:text-white/60 transition-colors"
+            >
+              ?
+            </button>
           </div>
 
           {/* Trend badge */}

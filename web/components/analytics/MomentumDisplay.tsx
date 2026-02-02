@@ -1,6 +1,8 @@
 "use client";
 
+import { useState, useRef } from "react";
 import { MomentumReport, CategoryMomentum, VelocityReport, VelocityMetric } from "@/types";
+import { MethodologyModal, velocityMethodology } from "./methodology";
 
 interface MomentumDisplayProps {
   momentum: MomentumReport;
@@ -19,6 +21,9 @@ const categoryToMetricName: Record<string, string> = {
  * Shows current intensity (z-score sum) and velocity z-score for anomaly detection.
  */
 export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
+  const [showMethodology, setShowMethodology] = useState(false);
+  const helpButtonRef = useRef<HTMLButtonElement>(null);
+
   const categories: {
     key: keyof Pick<MomentumReport, "fears" | "frustrations" | "optimism">;
     label: string;
@@ -47,15 +52,33 @@ export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
             </p>
             <p className="text-xs text-white/30 mt-0.5">Today's change vs historical</p>
           </div>
-          {/* Legend for z-score interpretation */}
-          <div className="flex items-center gap-2 text-[9px] text-white/40">
-            <span className="text-white/50">|σ|:</span>
-            <span className="text-white/50">&lt;1 normal</span>
-            <span className="text-amber-400">1-2 notable</span>
-            <span className="text-red-400">&gt;2 unusual</span>
+          <div className="flex items-center gap-3">
+            {/* How it works button */}
+            <button
+              ref={helpButtonRef}
+              onClick={() => setShowMethodology(true)}
+              className="text-[10px] text-white/40 hover:text-white/60 transition-colors"
+            >
+              ?
+            </button>
+            {/* Legend for z-score interpretation */}
+            <div className="flex items-center gap-2 text-[9px] text-white/40">
+              <span className="text-white/50">|σ|:</span>
+              <span className="text-white/50">&lt;1 normal</span>
+              <span className="text-amber-400">1-2 notable</span>
+              <span className="text-red-400">&gt;2 unusual</span>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Methodology Modal */}
+      <MethodologyModal
+        config={velocityMethodology}
+        isOpen={showMethodology}
+        onClose={() => setShowMethodology(false)}
+        anchorRef={helpButtonRef}
+      />
 
       {/* Watchlist-style rows */}
       <div className="divide-y divide-white/[0.04]">
