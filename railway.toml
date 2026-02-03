@@ -6,9 +6,9 @@ builder = "dockerfile"
 dockerfilePath = "railway/Dockerfile"
 
 [deploy]
-# No persistent service - only runs via cron
-numReplicas = 0
-restartPolicyType = "never"
+# Cron-only service - no always-on replicas needed
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
 
 # Daily analysis cron job
 # Runs at 11:30 SGT (03:30 UTC) every day
