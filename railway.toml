@@ -1,0 +1,27 @@
+# Railway configuration for kopi_sentiment cron jobs
+# Docs: https://docs.railway.app/reference/config-as-code
+
+[build]
+builder = "dockerfile"
+dockerfilePath = "railway/Dockerfile"
+
+[deploy]
+# No persistent service - only runs via cron
+numReplicas = 0
+restartPolicyType = "never"
+
+# Daily analysis cron job
+# Runs at 11:30 SGT (03:30 UTC) every day
+[[crons]]
+name = "daily-analysis"
+schedule = "30 3 * * *"
+command = "python run.py daily"
+timeout = 1800  # 30 minutes max
+
+# Weekly analysis cron job
+# Runs at 11:30 SGT (03:30 UTC) every Sunday
+[[crons]]
+name = "weekly-analysis"
+schedule = "30 3 * * 0"
+command = "python run.py weekly"
+timeout = 3600  # 60 minutes max (weekly takes longer)
