@@ -223,38 +223,54 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
             }}
           />
 
-          {/* Interactive hover zones */}
-          <div className="absolute inset-0 flex">
-            {data_points.map((point, index) => (
-              <div
-                key={point.date}
-                className="flex-1 relative group cursor-crosshair"
-              >
-                {/* Hover line */}
-                <div className="absolute inset-y-0 left-1/2 w-px bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
+          {/* Interactive hover zones - positioned to match SVG data points */}
+          <div className="absolute inset-0">
+            {data_points.map((point, index) => {
+              // Match SVG positioning: x = (i / (count - 1)) * 100
+              const xPercent = data_points.length > 1
+                ? (index / (data_points.length - 1)) * 100
+                : 50;
+              // Zone width for hit area (half distance to neighbors)
+              const zoneWidth = data_points.length > 1
+                ? 100 / (data_points.length - 1)
+                : 100;
 
-                {/* Tooltip */}
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
-                  <div className="bg-[#18181b] border border-white/10 rounded-lg px-3 py-2 shadow-xl shadow-black/50 whitespace-nowrap">
-                    <p className="text-[10px] text-white/40 font-medium mb-1">{formatDate(point.date)}</p>
-                    <div className="space-y-0.5 text-xs">
-                      <div className="flex items-center justify-between gap-3">
-                        <span className="text-amber-400">Fears</span>
-                        <span className="text-amber-400 tabular-nums">{fearsScores[index].toFixed(1)}</span>
-                      </div>
-                      <div className="flex items-center justify-between gap-3">
-                        <span className="text-red-400">Frust</span>
-                        <span className="text-red-400 tabular-nums">{frustScores[index].toFixed(1)}</span>
-                      </div>
-                      <div className="flex items-center justify-between gap-3">
-                        <span className="text-emerald-400">Optim</span>
-                        <span className="text-emerald-400 tabular-nums">{optimScores[index].toFixed(1)}</span>
+              return (
+                <div
+                  key={point.date}
+                  className="absolute inset-y-0 group cursor-crosshair"
+                  style={{
+                    left: `${xPercent}%`,
+                    width: `${zoneWidth}%`,
+                    transform: "translateX(-50%)",
+                  }}
+                >
+                  {/* Hover line - centered on data point */}
+                  <div className="absolute inset-y-0 left-1/2 w-px bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity" />
+
+                  {/* Tooltip */}
+                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
+                    <div className="bg-[#18181b] border border-white/10 rounded-lg px-3 py-2 shadow-xl shadow-black/50 whitespace-nowrap">
+                      <p className="text-[10px] text-white/40 font-medium mb-1">{formatDate(point.date)}</p>
+                      <div className="space-y-0.5 text-xs">
+                        <div className="flex items-center justify-between gap-3">
+                          <span className="text-amber-400">Fears</span>
+                          <span className="text-amber-400 tabular-nums">{fearsScores[index].toFixed(1)}</span>
+                        </div>
+                        <div className="flex items-center justify-between gap-3">
+                          <span className="text-red-400">Frust</span>
+                          <span className="text-red-400 tabular-nums">{frustScores[index].toFixed(1)}</span>
+                        </div>
+                        <div className="flex items-center justify-between gap-3">
+                          <span className="text-emerald-400">Optim</span>
+                          <span className="text-emerald-400 tabular-nums">{optimScores[index].toFixed(1)}</span>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 
