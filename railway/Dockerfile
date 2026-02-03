@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy project files
-COPY pyproject.toml .
+# Copy project files (include README.md as required by pyproject.toml)
+COPY pyproject.toml README.md ./
 COPY src/ src/
 
 # Install Python dependencies
