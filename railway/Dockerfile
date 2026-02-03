@@ -18,5 +18,5 @@ RUN pip install --no-cache-dir -e .
 # Copy the runner script
 COPY railway/run.py .
 
-# Default command (overridden by cron jobs)
-CMD ["python", "run.py", "--help"]
+# Default command for cron execution
+CMD ["python", "run.py", "daily"]
