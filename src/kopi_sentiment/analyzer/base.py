@@ -82,6 +82,7 @@ class BaseAnalyzer:
             return result
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse extraction response: {e}")
+            logger.error(f"Raw response (first 1000 chars): {response[:1000]}")
             return {"fears": [], "frustrations": [], "optimism": []}
 
 
@@ -102,6 +103,7 @@ class BaseAnalyzer:
             return json.loads(response)
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse intensity response: {e}")
+            logger.error(f"Raw response (first 1000 chars): {response[:1000]}")
             return {}
 
         
