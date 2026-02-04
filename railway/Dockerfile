@@ -18,5 +18,5 @@ RUN pip install --no-cache-dir -e .
 # Copy the runner script
 COPY railway/run.py .
 
-# Default command for cron execution
-CMD ["python", "run.py", "daily"]
+# Default command for cron execution (runs daily then weekly)
+CMD ["sh", "-c", "python run.py daily && python run.py weekly"]

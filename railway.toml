@@ -10,13 +10,13 @@ dockerfilePath = "railway/Dockerfile"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 3
 
-# Daily analysis cron job
+# Daily + Weekly analysis cron job
 # Runs at 11:30 SGT (03:30 UTC) every day
 [[crons]]
-name = "daily-analysis"
+name = "sentiment-analysis"
 schedule = "30 3 * * *"
-command = "python run.py daily"
-timeout = 1800  # 30 minutes max
+command = "python run.py daily && python run.py weekly"
+timeout = 3600  # 60 minutes max (weekly takes longer)
 
 # Weekly analysis cron job
 # Runs at 11:30 SGT (03:30 UTC) every Sunday
