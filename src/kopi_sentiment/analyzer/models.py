@@ -20,8 +20,6 @@ class FFOCategory(str, Enum):
     OPTIMISM = "optimism"
 
 
-# Backwards compatibility alias
-FFGACategory = FFOCategory
 
 class ExtractedQuote(BaseModel):
     """A quote extracted by the LLM with its comment score"""
@@ -37,8 +35,6 @@ class FFOResult(BaseModel):
     quotes: list[ExtractedQuote] = []
 
 
-# Backwards compatibility alias
-FFGAResult = FFOResult
 
 
 class AnalysisResult(BaseModel):

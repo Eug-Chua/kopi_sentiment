@@ -3,7 +3,7 @@
 import pytest
 from datetime import datetime
 from kopi_sentiment.scraper.reddit import RedditPost, Comment
-from kopi_sentiment.analyzer.models import Intensity, FFGACategory, FFGAResult, AnalysisResult
+from kopi_sentiment.analyzer.models import Intensity, FFOCategory, FFOResult, AnalysisResult, ExtractedQuote
 
 
 @pytest.fixture
@@ -61,8 +61,7 @@ def sample_extraction_response():
     return {
         "fears": ["I'm worried about affording a flat"],
         "frustrations": ["The government needs to do something"],
-        "goals": ["BTO is the only way for young couples"],
-        "aspirations": ["Hope prices stabilize soon"],
+        "optimism": ["Hope prices stabilize soon"],
     }
 
 
@@ -78,11 +77,7 @@ def sample_intensity_response():
             "intensity": "strong",
             "summary": "Frustration with government inaction."
         },
-        "goals": {
-            "intensity": "moderate",
-            "summary": "Pragmatic focus on BTO as the path to homeownership."
-        },
-        "aspirations": {
+        "optimism": {
             "intensity": "mild",
             "summary": "Hope for policy interventions to stabilize prices."
         },
@@ -90,13 +85,13 @@ def sample_intensity_response():
 
 
 @pytest.fixture
-def sample_ffga_result():
-    """A sample FFGAResult."""
-    return FFGAResult(
-        category=FFGACategory.FEAR,
+def sample_ffo_result():
+    """A sample FFOResult."""
+    return FFOResult(
+        category=FFOCategory.FEAR,
         intensity=Intensity.STRONG,
         summary="Anxiety about housing affordability.",
-        quotes=["I'm worried about affording a flat"],
+        quotes=[ExtractedQuote(quote="I'm worried about affording a flat", score=200)],
     )
 
 
@@ -106,28 +101,22 @@ def sample_analysis_result(sample_post):
     return AnalysisResult(
         post_id=sample_post.id,
         post_title=sample_post.title,
-        fears=FFGAResult(
-            category=FFGACategory.FEAR,
+        fears=FFOResult(
+            category=FFOCategory.FEAR,
             intensity=Intensity.STRONG,
             summary="Anxiety about housing affordability.",
-            quotes=["I'm worried about affording a flat"],
+            quotes=[ExtractedQuote(quote="I'm worried about affording a flat", score=200)],
         ),
-        frustrations=FFGAResult(
-            category=FFGACategory.FRUSTRATION,
+        frustrations=FFOResult(
+            category=FFOCategory.FRUSTRATION,
             intensity=Intensity.STRONG,
             summary="Frustration with government inaction.",
-            quotes=["The government needs to do something"],
+            quotes=[ExtractedQuote(quote="The government needs to do something", score=150)],
         ),
-        goals=FFGAResult(
-            category=FFGACategory.GOAL,
-            intensity=Intensity.MODERATE,
-            summary="Pragmatic focus on BTO.",
-            quotes=["BTO is the only way for young couples"],
-        ),
-        aspirations=FFGAResult(
-            category=FFGACategory.ASPIRATION,
+        optimism=FFOResult(
+            category=FFOCategory.OPTIMISM,
             intensity=Intensity.MILD,
             summary="Hope for price stabilization.",
-            quotes=["Hope prices stabilize soon"],
+            quotes=[ExtractedQuote(quote="Hope prices stabilize soon", score=75)],
         ),
     )

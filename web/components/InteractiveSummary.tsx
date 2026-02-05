@@ -156,7 +156,7 @@ export function InteractiveSummary({ sentiment }: InteractiveSummaryProps) {
           <div className="flex">
             {categories.map((cat) => {
               const config = categoryConfig[cat];
-              // Handle old FFGA data format: map optimism to goals+aspirations fallback
+              // Handle old data format: map optimism to goals+aspirations fallback
               const sentimentAny = sentiment as unknown as Record<string, { summary: string } | undefined>;
               const categoryData = sentimentAny[cat] ||
                 (cat === "optimism" && sentimentAny.goals ? sentimentAny.goals : null);

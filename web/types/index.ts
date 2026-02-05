@@ -4,9 +4,6 @@ export type Intensity = "mild" | "moderate" | "strong";
 
 export type FFOCategory = "fear" | "frustration" | "optimism";
 
-// Backwards compatibility alias
-export type FFGACategory = FFOCategory;
-
 export interface QuoteWithMetadata {
   text: string;
   post_id: string;
@@ -22,9 +19,6 @@ export interface FFOResult {
   quotes: string[];
   intensity: Intensity;
 }
-
-// Backwards compatibility alias
-export type FFGAResult = FFOResult;
 
 export interface AnalysisResult {
   fears: FFOResult;

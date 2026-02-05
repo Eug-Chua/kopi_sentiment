@@ -2,7 +2,7 @@
 
 import pytest
 import json
-from kopi_sentiment.analyzer.models import Intensity, FFGACategory, FFGAResult, AnalysisResult
+from kopi_sentiment.analyzer.models import Intensity, FFOCategory, FFOResult, ExtractedQuote
 from kopi_sentiment.analyzer.prompts import build_extract_prompt, build_intensity_prompt
 from kopi_sentiment.analyzer.base import BaseAnalyzer
 
@@ -22,18 +22,18 @@ class TestIntensityEnum:
         assert intensity == Intensity.STRONG
 
 
-class TestFFGAResult:
-    """Tests for FFGAResult model."""
+class TestFFOResult:
+    """Tests for FFOResult model."""
 
-    def test_create_ffga_result(self):
-        """FFGAResult can be created with all fields."""
-        result = FFGAResult(
-            category=FFGACategory.FEAR,
+    def test_create_ffo_result(self):
+        """FFOResult can be created with all fields."""
+        result = FFOResult(
+            category=FFOCategory.FEAR,
             intensity=Intensity.STRONG,
             summary="People are worried about housing.",
-            quotes=["I can't afford a flat"],
+            quotes=[ExtractedQuote(quote="I can't afford a flat", score=50)],
         )
-        assert result.category == FFGACategory.FEAR
+        assert result.category == FFOCategory.FEAR
         assert result.intensity == Intensity.STRONG
         assert len(result.quotes) == 1
 
@@ -83,7 +83,7 @@ class TestCleanJsonResponse:
                 return ""
 
         analyzer = TestAnalyzer()
-        
+
         raw = '```json\n{"fears": []}\n```'
         cleaned = analyzer._clean_json_response(raw)
         assert cleaned == '{"fears": []}'
@@ -95,7 +95,7 @@ class TestCleanJsonResponse:
                 return ""
 
         analyzer = TestAnalyzer()
-        
+
         raw = '```\n{"fears": []}\n```'
         cleaned = analyzer._clean_json_response(raw)
         assert cleaned == '{"fears": []}'
@@ -107,7 +107,7 @@ class TestCleanJsonResponse:
                 return ""
 
         analyzer = TestAnalyzer()
-        
+
         raw = '{"fears": [], "frustrations": []}'
         cleaned = analyzer._clean_json_response(raw)
         assert cleaned == raw

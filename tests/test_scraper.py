@@ -5,7 +5,11 @@ from datetime import datetime
 from unittest.mock import Mock
 from bs4 import BeautifulSoup
 
-from kopi_sentiment.scraper.reddit import RedditScraper, RedditPost, Comment
+from kopi_sentiment.scraper.reddit import (
+    RedditScraper, RedditPost, Comment,
+    JsonRedditFetcher, HtmlRedditFetcher,
+    _parse_html_post, _parse_json_post,
+)
 
 class TestCommentModel:
     """Tests for Comment Pydantic model."""
@@ -53,10 +57,10 @@ class TestRedditPostModel:
         assert len(post.comments) == 4
 
 class TestParsePost:
-    """Tests for _parse_post method."""
+    """Tests for HTML and JSON post parsing."""
 
-    def test_parse_post_extracts_all_fields(self):
-        """_parse_post extracts id, title, score, etc from HTML."""
+    def test_parse_html_post_extracts_all_fields(self):
+        """_parse_html_post extracts id, title, score, etc from HTML."""
         html = """
         <div class="thing" data-fullname="t3_abc123" data-score="500"
              data-comments-count="100" data-timestamp="1704067200000"
@@ -68,8 +72,7 @@ class TestParsePost:
         soup = BeautifulSoup(html, "html.parser")
         element = soup.find("div", class_="thing")
 
-        scraper = RedditScraper()
-        post = scraper._parse_post(element)
+        post = _parse_html_post(element)
 
         assert post.id == "t3_abc123"
         assert post.title == "Test Post Title"
@@ -77,7 +80,7 @@ class TestParsePost:
         assert post.num_comments == 100
         assert post.subreddit == "singapore"
 
-    def test_parse_post_missing_title(self):
+    def test_parse_html_post_missing_title(self):
         """Post with missing title element returns empty string."""
         html = """
         <div class="thing" data-fullname="t3_abc123" data-score="100"
@@ -89,16 +92,70 @@ class TestParsePost:
         soup = BeautifulSoup(html, "html.parser")
         element = soup.find("div", class_="thing")
 
-        scraper = RedditScraper()
-        post = scraper._parse_post(element)
+        post = _parse_html_post(element)
 
         assert post.title == ""
+
+    def test_parse_json_post_extracts_all_fields(self):
+        """_parse_json_post extracts fields from JSON data."""
+        post_data = {
+            "name": "t3_abc123",
+            "title": "Test Post Title",
+            "score": 500,
+            "num_comments": 100,
+            "created_utc": 1704067200.0,
+            "permalink": "/r/singapore/comments/abc123/test_post/",
+            "subreddit": "singapore",
+            "selftext": "Hello world",
+        }
+
+        post = _parse_json_post(post_data)
+
+        assert post.id == "t3_abc123"
+        assert post.title == "Test Post Title"
+        assert post.score == 500
+        assert post.num_comments == 100
+        assert post.subreddit == "singapore"
+        assert post.selftext == "Hello world"
 
 class TestFetchPosts:
     """Tests for fetch_posts with mocked HTTP."""
 
-    def test_fetch_posts_returns_list(self, mocker):
-        """fetch_posts returns list of RedditPost objects."""
+    def test_fetch_posts_json_returns_list(self, mocker):
+        """fetch_posts returns list of RedditPost objects via JSON."""
+        mock_json = {
+            "data": {
+                "children": [
+                    {
+                        "data": {
+                            "name": "t3_post1",
+                            "title": "First Post",
+                            "score": 100,
+                            "num_comments": 10,
+                            "created_utc": 1704067200.0,
+                            "permalink": "/r/singapore/comments/post1/first/",
+                            "subreddit": "singapore",
+                            "selftext": "",
+                        }
+                    }
+                ]
+            }
+        }
+        mock_response = Mock()
+        mock_response.json.return_value = mock_json
+        mock_response.raise_for_status = Mock()
+
+        json_fetcher = JsonRedditFetcher()
+        mocker.patch.object(json_fetcher.session, "get", return_value=mock_response)
+
+        scraper = RedditScraper(fetchers=[json_fetcher])
+        posts = scraper.fetch_posts(limit=10)
+
+        assert len(posts) == 1
+        assert posts[0].title == "First Post"
+
+    def test_fetch_posts_fallback_to_html(self, mocker):
+        """fetch_posts falls back to HTML when JSON fails."""
         mock_html = """
         <html><body>
             <div class="thing" data-fullname="t3_post1" data-score="100"
@@ -109,13 +166,18 @@ class TestFetchPosts:
             </div>
         </body></html>
         """
+        # JSON fetcher fails
+        json_fetcher = JsonRedditFetcher()
+        mocker.patch.object(json_fetcher.session, "get", side_effect=Exception("403 Blocked"))
+
+        # HTML fetcher succeeds
+        html_fetcher = HtmlRedditFetcher()
         mock_response = Mock()
         mock_response.text = mock_html
         mock_response.raise_for_status = Mock()
+        mocker.patch.object(html_fetcher.session, "get", return_value=mock_response)
 
-        scraper = RedditScraper()
-        mocker.patch.object(scraper.session, "get", return_value=mock_response)
-
+        scraper = RedditScraper(fetchers=[json_fetcher, html_fetcher])
         posts = scraper.fetch_posts(limit=10)
 
         assert len(posts) == 1
@@ -123,12 +185,14 @@ class TestFetchPosts:
 
     def test_fetch_posts_empty_page(self, mocker):
         """fetch_posts returns empty list for page with no posts."""
+        mock_json = {"data": {"children": []}}
         mock_response = Mock()
-        mock_response.text = "<html><body></body></html>"
+        mock_response.json.return_value = mock_json
         mock_response.raise_for_status = Mock()
 
-        scraper = RedditScraper()
-        mocker.patch.object(scraper.session, "get", return_value=mock_response)
+        json_fetcher = JsonRedditFetcher()
+        mocker.patch.object(json_fetcher.session, "get", return_value=mock_response)
 
+        scraper = RedditScraper(fetchers=[json_fetcher])
         posts = scraper.fetch_posts()
         assert posts == []
