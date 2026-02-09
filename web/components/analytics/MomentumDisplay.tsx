@@ -4,6 +4,47 @@ import { useState, useRef } from "react";
 import { MomentumReport, CategoryMomentum, VelocityReport, VelocityMetric } from "@/types";
 import { MethodologyModal, velocityMethodology } from "./methodology";
 
+// --- Reusable Visualization Components ---
+
+interface DivergingBarProps {
+  value: number;
+  maxValue: number;
+  isPositive: boolean;
+  color: "emerald" | "red";
+  formatValue?: (v: number) => string;
+}
+
+/** Horizontal bar that diverges left/right from center baseline */
+function DivergingBar({ value, maxValue, isPositive, color, formatValue }: DivergingBarProps) {
+  const barWidth = Math.min(Math.abs(value) / maxValue, 1) * 50;
+  const colorClass = color === "emerald" ? "bg-emerald-500/70" : "bg-red-500/70";
+  const textColorClass = color === "emerald" ? "text-emerald-400" : "text-red-400";
+  const displayValue = formatValue ? formatValue(value) : value.toFixed(1);
+
+  return (
+    <div className="flex-1">
+      <div className="relative h-3 bg-white/5 rounded-full overflow-hidden">
+        <div className="absolute left-1/2 top-0 bottom-0 w-px bg-white/20 z-10" />
+        <div
+          className={`absolute top-0.5 bottom-0.5 rounded-full transition-all ${colorClass}`}
+          style={{
+            width: `${barWidth}%`,
+            left: isPositive ? "50%" : undefined,
+            right: !isPositive ? "50%" : undefined,
+          }}
+        />
+      </div>
+      <div className="flex justify-between text-[8px] text-white/30 mt-0.5">
+        <span>−{maxValue}σ</span>
+        <span className={`${textColorClass} font-medium`}>{displayValue}σ</span>
+        <span>+{maxValue}σ</span>
+      </div>
+    </div>
+  );
+}
+
+// --- Main Components ---
+
 interface MomentumDisplayProps {
   momentum: MomentumReport;
   velocity?: VelocityReport;
@@ -142,7 +183,6 @@ function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: Mo
     );
   }
 
-  const zscore = data.current_zscore_sum ?? 0;
   const count = data.current_count ?? 0;
 
   // Get velocity data if available
@@ -153,30 +193,8 @@ function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: Mo
   const isRising = velocity > 0.5;
   const isFalling = velocity < -0.5;
 
-  // Color based on velocity z-score magnitude (how unusual)
-  // AND semantic meaning (for fears/frustrations: rising = bad, for optimism: rising = good)
-  const absVelZ = Math.abs(velocityZscore);
-  const isUnusual = absVelZ >= 2.0;
-  const isNotable = absVelZ >= 1.0;
-
   // Semantic: for fears/frustrations, falling is good; for optimism, rising is good
   const isGoodDirection = categoryKey === "optimism" ? isRising : isFalling;
-
-  // Color the z-score based on unusualness and direction
-  let zscoreColor = "text-white/50"; // Normal
-  if (isUnusual) {
-    zscoreColor = isGoodDirection ? "text-emerald-400" : "text-red-400";
-  } else if (isNotable) {
-    zscoreColor = isGoodDirection ? "text-emerald-400/70" : "text-amber-400";
-  }
-
-  // Arrow color based on direction and category
-  const arrowColor = isGoodDirection ? "text-emerald-400" : (isRising || isFalling) ? "text-red-400" : "text-white/40";
-
-  // Z-score bar visualization (normalized to reasonable range)
-  const maxZscore = 150; // Cap for visualization
-  const normalizedZ = Math.min(Math.abs(zscore), maxZscore);
-  const barWidth = (normalizedZ / maxZscore) * 100;
 
   return (
     <div
@@ -201,35 +219,13 @@ function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: Mo
         <p className="text-[9px] text-white/30 mt-0.5">{count} quotes today</p>
       </div>
 
-      {/* Z-score bar (intensity level) */}
-      <div className="flex-1">
-        <div className="h-2 bg-white/5 rounded-full overflow-hidden">
-          <div
-            className={`h-full rounded-full transition-all ${
-              categoryKey === "optimism" ? "bg-emerald-500/60" : "bg-amber-500/60"
-            }`}
-            style={{ width: `${barWidth}%` }}
-          />
-        </div>
-        <p className="text-[9px] text-white/30 mt-0.5">
-          Intensity: {Math.abs(zscore).toFixed(0)}
-        </p>
-      </div>
-
-      {/* Velocity Z-score indicator */}
-      <div className="text-right w-16">
-        <p className={`text-sm font-medium tabular-nums ${zscoreColor}`}>
-          {velocityZscore >= 0 ? "+" : ""}{velocityZscore.toFixed(1)}σ
-        </p>
-        <p className="text-[8px] text-white/30 mt-0.5">
-          velocity
-        </p>
-      </div>
-
-      {/* Direction arrow */}
-      <div className={`w-6 text-center text-lg ${arrowColor}`}>
-        {isRising ? "↗" : isFalling ? "↘" : "→"}
-      </div>
+      <DivergingBar
+        value={velocityZscore}
+        maxValue={3}
+        isPositive={velocityZscore >= 0}
+        color={isGoodDirection ? "emerald" : "red"}
+        formatValue={(v) => `${v >= 0 ? "+" : ""}${v.toFixed(1)}`}
+      />
     </div>
   );
 }
