@@ -86,15 +86,79 @@ def run_weekly(args):
 
     report = pipeline.run(week_id)
     logger.info(f"Weekly analysis complete. Report saved for {report.week_id}")
+
+    # Auto-regenerate weekly analytics unless --no-analytics flag is set
+    if not args.no_analytics:
+        logger.info("Regenerating weekly analytics report...")
+        _regenerate_weekly_analytics()
+
     return 0
 
 
+def _regenerate_weekly_analytics():
+    """Helper to regenerate weekly analytics from weekly reports.
+
+    Uses WeeklyAnalyticsCalculator to build analytics from weekly reports,
+    creating a timeseries across multiple weeks (W03, W04, W05, etc.).
+    """
+    import json
+    from pathlib import Path
+
+    from kopi_sentiment.analytics.weekly_calculator import WeeklyAnalyticsCalculator
+
+    input_dir = "web/public/data/weekly"
+    output_file = "web/public/data/analytics_weekly.json"
+
+    try:
+        calculator = WeeklyAnalyticsCalculator()
+        report = calculator.generate_report(input_dir, min_weeks=3)
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, "w") as f:
+            json.dump(report.model_dump(mode="json"), f, indent=2, default=str)
+
+        logger.info(
+            f"Weekly analytics updated: {report.data_range_start} to {report.data_range_end} "
+            f"({report.days_analyzed} weeks)"
+        )
+    except Exception as e:
+        logger.warning(f"Could not regenerate weekly analytics: {e}")
+
+
 def run_analytics(args):
-    """Generate analytics report from daily data."""
+    """Generate analytics report from daily or weekly data."""
     import json
     from datetime import datetime, timedelta
     from pathlib import Path
 
+    # Check if using weekly reports mode
+    if args.from_weekly_reports:
+        from kopi_sentiment.analytics.weekly_calculator import WeeklyAnalyticsCalculator
+
+        input_dir = args.input or "web/public/data/weekly"
+        output_file = args.output or "web/public/data/analytics_weekly.json"
+
+        logger.info(f"Generating weekly analytics from weekly reports in {input_dir}")
+
+        calculator = WeeklyAnalyticsCalculator()
+        report = calculator.generate_report(input_dir, min_weeks=3)
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_path, "w") as f:
+            json.dump(report.model_dump(mode="json"), f, indent=2, default=str)
+
+        logger.info(
+            f"Weekly analytics saved to {output_file} "
+            f"(range: {report.data_range_start} to {report.data_range_end}, "
+            f"{report.days_analyzed} weeks)"
+        )
+        return 0
+
+    # Standard mode: generate from daily reports
     from kopi_sentiment.analytics.calculator import AnalyticsCalculator
 
     input_dir = args.input or "web/public/data/daily"
@@ -213,6 +277,11 @@ def main():
         type=str,
         help="Output directory for reports",
     )
+    weekly_parser.add_argument(
+        "--no-analytics",
+        action="store_true",
+        help="Skip automatic weekly analytics regeneration",
+    )
     weekly_parser.set_defaults(func=run_weekly)
 
     # Analytics command
@@ -238,6 +307,11 @@ def main():
         "--week",
         type=str,
         help="Week ID to analyze (e.g., 2026-W04). Only used with --weekly flag.",
+    )
+    analytics_parser.add_argument(
+        "--from-weekly-reports",
+        action="store_true",
+        help="Generate weekly analytics from weekly reports (W03, W04, etc.) instead of daily data",
     )
     analytics_parser.set_defaults(func=run_analytics)
 

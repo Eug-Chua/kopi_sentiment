@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { MomentumReport, CategoryMomentum, VelocityReport, VelocityMetric } from "@/types";
+import { MomentumReport, CategoryMomentum, VelocityReport, VelocityMetric, DailySentimentScore } from "@/types";
 import { MethodologyModal, velocityMethodology } from "./methodology";
 
 // --- Reusable Visualization Components ---
@@ -48,6 +48,8 @@ function DivergingBar({ value, maxValue, isPositive, color, formatValue }: Diver
 interface MomentumDisplayProps {
   momentum: MomentumReport;
   velocity?: VelocityReport;
+  isDaily?: boolean;
+  dataPoints?: DailySentimentScore[];
 }
 
 // Map category keys to velocity metric names
@@ -61,7 +63,7 @@ const categoryToMetricName: Record<string, string> = {
  * Category momentum display with trading-app aesthetics.
  * Shows current intensity (z-score sum) and velocity z-score for anomaly detection.
  */
-export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
+export function MomentumDisplay({ momentum, velocity, isDaily = true, dataPoints }: MomentumDisplayProps) {
   const [showMethodology, setShowMethodology] = useState(false);
   const helpButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -82,6 +84,13 @@ export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
     }
   }
 
+  // Calculate aggregated counts for weekly mode
+  const aggregatedCounts = !isDaily && dataPoints ? {
+    fears: dataPoints.reduce((sum, d) => sum + d.fears_count, 0),
+    frustrations: dataPoints.reduce((sum, d) => sum + d.frustrations_count, 0),
+    optimism: dataPoints.reduce((sum, d) => sum + d.optimism_count, 0),
+  } : null;
+
   return (
     <div className="rounded-xl border border-white/[0.08] bg-black/40 backdrop-blur-sm">
       {/* Header */}
@@ -91,7 +100,7 @@ export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
             <p className="text-[11px] uppercase tracking-wider text-white/40 font-medium">
               Category Velocity
             </p>
-            <p className="text-xs text-white/30 mt-0.5">Today's change vs historical</p>
+            <p className="text-xs text-white/30 mt-0.5">{isDaily ? "Today's" : "This week's"} change vs historical</p>
           </div>
           <div className="flex items-center gap-3">
             {/* How it works button */}
@@ -138,6 +147,8 @@ export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
               data={cat}
               velocityMetric={velocityMetric}
               highlight={isFastestRising ? "rising" : isFastestFalling ? "falling" : null}
+              isDaily={isDaily}
+              aggregatedCount={aggregatedCounts?.[key]}
             />
           );
         })}
@@ -157,7 +168,7 @@ export function MomentumDisplay({ momentum, velocity }: MomentumDisplayProps) {
           </div>
         </div>
         <p className="text-[9px] text-white/30 mt-2">
-          Velocity σ shows how unusual today's change is. |σ| &gt; 2 = statistically significant.
+          Velocity σ shows how unusual {isDaily ? "today's" : "this week's"} change is. |σ| &gt; 2 = statistically significant.
         </p>
       </div>
     </div>
@@ -170,9 +181,11 @@ interface MomentumRowProps {
   data: CategoryMomentum;
   velocityMetric?: VelocityMetric;
   highlight: "rising" | "falling" | null;
+  isDaily?: boolean;
+  aggregatedCount?: number;
 }
 
-function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: MomentumRowProps) {
+function MomentumRow({ label, categoryKey, data, velocityMetric, highlight, isDaily = true, aggregatedCount }: MomentumRowProps) {
   // Handle missing data gracefully
   if (!data) {
     return (
@@ -183,7 +196,7 @@ function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: Mo
     );
   }
 
-  const count = data.current_count ?? 0;
+  const count = aggregatedCount ?? data.current_count ?? 0;
 
   // Get velocity data if available
   const velocityZscore = velocityMetric?.velocity_zscore ?? 0;
@@ -216,7 +229,7 @@ function MomentumRow({ label, categoryKey, data, velocityMetric, highlight }: Mo
             </span>
           )}
         </div>
-        <p className="text-[9px] text-white/30 mt-0.5">{count} quotes today</p>
+        <p className="text-[9px] text-white/30 mt-0.5">{count} quotes {isDaily ? "today" : "this week"}</p>
       </div>
 
       <DivergingBar

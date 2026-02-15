@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     subreddit_delay_daily: int = 30
     high_engagement_min_score_daily: int = 10
     high_engagement_limit_daily: int = 10
-    report_retention_days: int = 30
+    report_retention_days: int = 60
 
     # Trend calculation
     trend_threshold_pct: float = 10.0

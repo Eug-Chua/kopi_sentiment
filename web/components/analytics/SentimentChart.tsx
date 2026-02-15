@@ -7,13 +7,14 @@ import { MethodologyModal, compositeMethodology } from "./methodology";
 interface SentimentChartProps {
   timeseries: SentimentTimeSeries;
   commentary?: string;  // LLM-generated commentary (optional, falls back to dynamic generation)
+  isDaily?: boolean;  // Whether showing daily or weekly view
 }
 
 /**
  * Triple-line sentiment chart showing Fears, Frustrations, and Optimism over time.
  * Shows the individual z-score intensity for each emotion category.
  */
-export function SentimentChart({ timeseries, commentary: llmCommentary }: SentimentChartProps) {
+export function SentimentChart({ timeseries, commentary: llmCommentary, isDaily = true }: SentimentChartProps) {
   const [showMethodology, setShowMethodology] = useState(false);
   const helpButtonRef = useRef<HTMLButtonElement>(null);
   const { data_points, overall_trend, trend_slope, trend_r_squared } = timeseries;
@@ -251,7 +252,9 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
                     <div className="bg-[#18181b] border border-white/10 rounded-lg px-3 py-2 shadow-xl shadow-black/50 whitespace-nowrap">
-                      <p className="text-[10px] text-white/40 font-medium mb-1">{formatDate(point.date)}</p>
+                      <p className="text-[10px] text-white/40 font-medium mb-1">
+                        {!isDaily && isMultiWeekData(data_points) ? getWeekLabel(point.date) : formatDate(point.date)}
+                      </p>
                       <div className="space-y-0.5 text-xs">
                         <div className="flex items-center justify-between gap-3">
                           <span className="text-amber-400">Fears</span>
@@ -276,8 +279,21 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
 
         {/* Date labels */}
         <div className="flex justify-between mt-2 text-[10px] text-white/30 tabular-nums">
-          <span>{formatDate(data_points[0].date)}</span>
-          <span>{formatDate(data_points[data_points.length - 1].date)}</span>
+          {isDaily ? (
+            <>
+              <span>{formatDate(data_points[0].date)}</span>
+              <span>{formatDate(data_points[data_points.length - 1].date)}</span>
+            </>
+          ) : isMultiWeekData(data_points) ? (
+            <>
+              <span>{getWeekLabel(data_points[0].date)}</span>
+              <span>{getWeekLabel(data_points[data_points.length - 1].date)}</span>
+            </>
+          ) : (
+            <span className="w-full text-center">
+              Week of {formatDate(data_points[0].date)} – {formatDate(data_points[data_points.length - 1].date)}
+            </span>
+          )}
         </div>
       </div>
 
@@ -300,7 +316,7 @@ export function SentimentChart({ timeseries, commentary: llmCommentary }: Sentim
           </div>
           <div className="flex gap-4 text-[10px]">
             <span className="text-white/30">
-              Slope: <span className="text-white/60 tabular-nums">{trend_slope > 0 ? "+" : ""}{trend_slope.toFixed(2)}/d</span>
+              Slope: <span className="text-white/60 tabular-nums">{trend_slope > 0 ? "+" : ""}{trend_slope.toFixed(2)}{isDaily ? "/d" : "/wk"}</span>
             </span>
             <span className="text-white/30">
               R²: <span className="text-white/60 tabular-nums">{trend_r_squared.toFixed(3)}</span>
@@ -347,6 +363,35 @@ function MetricCard({
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
   return date.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+}
+
+/**
+ * Get ISO week label from a date string (e.g., "W03", "W07")
+ */
+function getWeekLabel(dateStr: string): string {
+  const date = new Date(dateStr);
+  // Calculate ISO week number
+  const target = new Date(date.valueOf());
+  const dayNr = (date.getDay() + 6) % 7;
+  target.setDate(target.getDate() - dayNr + 3);
+  const firstThursday = target.valueOf();
+  target.setMonth(0, 1);
+  if (target.getDay() !== 4) {
+    target.setMonth(0, 1 + ((4 - target.getDay() + 7) % 7));
+  }
+  const weekNum = 1 + Math.ceil((firstThursday - target.valueOf()) / 604800000);
+  return `W${String(weekNum).padStart(2, "0")}`;
+}
+
+/**
+ * Check if data points span multiple weeks (>7 days apart)
+ */
+function isMultiWeekData(dataPoints: { date: string }[]): boolean {
+  if (dataPoints.length < 2) return false;
+  const firstDate = new Date(dataPoints[0].date);
+  const lastDate = new Date(dataPoints[dataPoints.length - 1].date);
+  const daysDiff = (lastDate.getTime() - firstDate.getTime()) / (1000 * 60 * 60 * 24);
+  return daysDiff > 7;
 }
 
 function createLinePath(values: number[], normalize: (v: number) => number, count: number): string {

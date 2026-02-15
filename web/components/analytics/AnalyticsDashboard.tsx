@@ -33,6 +33,7 @@ export function AnalyticsDashboard({ report, overallSentiment, signals, quotes, 
           <SentimentChart
             timeseries={report.sentiment_timeseries}
             commentary={report.sentiment_commentary}
+            isDaily={isDaily}
           />
         </div>
         <div className="md:col-span-2 flex flex-col gap-4">
@@ -52,7 +53,7 @@ export function AnalyticsDashboard({ report, overallSentiment, signals, quotes, 
 
       {/* Two column: Momentum tiles + Velocity alerts */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-        <MomentumDisplay momentum={report.momentum} velocity={report.velocity} />
+        <MomentumDisplay momentum={report.momentum} velocity={report.velocity} isDaily={isDaily} dataPoints={report.sentiment_timeseries.data_points} />
         <VelocityAlerts velocity={report.velocity} />
       </div>
 

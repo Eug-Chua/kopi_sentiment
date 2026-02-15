@@ -252,7 +252,7 @@ export function EntityTrendsCompact({ report, maxEntities = 3, todayOnly = false
               Main Characters
             </p>
             <p className="text-[10px] text-white/30 mt-0.5">
-              {todayOnly ? "Today's engagement" : "By engagement"}
+              {todayOnly ? "Today's engagement" : "This week's engagement"}
             </p>
           </div>
           <div className="flex items-center gap-2 text-[9px] text-white/30">
