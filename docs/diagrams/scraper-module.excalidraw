@@ -1,0 +1,371 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 300,
+      "y": 20,
+      "strokeColor": "#1e1e1e",
+      "text": "Reddit Scraper Module",
+      "fontSize": 24,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "x": 250,
+      "y": 55,
+      "strokeColor": "#868e96",
+      "text": "src/kopi_sentiment/scraper/reddit.py",
+      "fontSize": 14,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "orchestrator",
+      "type": "rectangle",
+      "x": 280,
+      "y": 100,
+      "width": 200,
+      "height": 70,
+      "backgroundColor": "#ffd8a8",
+      "strokeColor": "#e8590c",
+      "text": "RedditScraper",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "orch-desc",
+      "type": "text",
+      "x": 290,
+      "y": 180,
+      "strokeColor": "#868e96",
+      "text": "Orchestrator with fallback logic",
+      "fontSize": 12,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "json-fetcher",
+      "type": "rectangle",
+      "x": 120,
+      "y": 260,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#b2f2bb",
+      "strokeColor": "#2f9e44",
+      "text": "JsonRedditFetcher",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "json-desc",
+      "type": "text",
+      "x": 125,
+      "y": 330,
+      "strokeColor": "#868e96",
+      "text": "Primary: old.reddit.com/.json",
+      "fontSize": 11,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "html-fetcher",
+      "type": "rectangle",
+      "x": 480,
+      "y": 260,
+      "width": 160,
+      "height": 60,
+      "backgroundColor": "#ffc9c9",
+      "strokeColor": "#e03131",
+      "text": "HtmlRedditFetcher",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "html-desc",
+      "type": "text",
+      "x": 485,
+      "y": 330,
+      "strokeColor": "#868e96",
+      "text": "Fallback: HTML scraping",
+      "fontSize": 11,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "arrow-orch-json",
+      "type": "arrow",
+      "x": 330,
+      "y": 170,
+      "strokeColor": "#2f9e44",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -100,
+          90
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "arrow-orch-html",
+      "type": "arrow",
+      "x": 430,
+      "y": 170,
+      "strokeColor": "#e03131",
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          100,
+          90
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "fallback-label",
+      "type": "text",
+      "x": 500,
+      "y": 210,
+      "strokeColor": "#e03131",
+      "text": "on failure",
+      "fontSize": 11,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "methods-box",
+      "type": "rectangle",
+      "x": 50,
+      "y": 400,
+      "width": 660,
+      "height": 140,
+      "backgroundColor": "#e9ecef",
+      "strokeColor": "#868e96",
+      "opacity": 40,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "methods-title",
+      "type": "text",
+      "x": 70,
+      "y": 410,
+      "strokeColor": "#1e1e1e",
+      "text": "Fetcher Protocol Methods",
+      "fontSize": 14,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m1",
+      "type": "rectangle",
+      "x": 70,
+      "y": 440,
+      "width": 140,
+      "height": 40,
+      "backgroundColor": "#fff",
+      "strokeColor": "#868e96",
+      "text": "fetch_posts()",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m2",
+      "type": "rectangle",
+      "x": 230,
+      "y": 440,
+      "width": 140,
+      "height": 40,
+      "backgroundColor": "#fff",
+      "strokeColor": "#868e96",
+      "text": "fetch_post_content()",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m3",
+      "type": "rectangle",
+      "x": 390,
+      "y": 440,
+      "width": 140,
+      "height": 40,
+      "backgroundColor": "#fff",
+      "strokeColor": "#868e96",
+      "text": "fetch_post_comments()",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m4",
+      "type": "rectangle",
+      "x": 550,
+      "y": 440,
+      "width": 140,
+      "height": 40,
+      "backgroundColor": "#fff",
+      "strokeColor": "#868e96",
+      "text": "search_posts()",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m1-desc",
+      "type": "text",
+      "x": 80,
+      "y": 490,
+      "strokeColor": "#868e96",
+      "text": "Top posts by sort/time",
+      "fontSize": 10,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m2-desc",
+      "type": "text",
+      "x": 250,
+      "y": 490,
+      "strokeColor": "#868e96",
+      "text": "Selftext body",
+      "fontSize": 10,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m3-desc",
+      "type": "text",
+      "x": 400,
+      "y": 490,
+      "strokeColor": "#868e96",
+      "text": "Sorted by score",
+      "fontSize": 10,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "m4-desc",
+      "type": "text",
+      "x": 555,
+      "y": 490,
+      "strokeColor": "#868e96",
+      "text": "Query-based search",
+      "fontSize": 10,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "output-box",
+      "type": "rectangle",
+      "x": 250,
+      "y": 580,
+      "width": 260,
+      "height": 80,
+      "backgroundColor": "#a5d8ff",
+      "strokeColor": "#1971c2",
+      "text": "Output: RedditPost[]",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "output-desc",
+      "type": "text",
+      "x": 260,
+      "y": 670,
+      "strokeColor": "#868e96",
+      "text": "id, title, url, score, num_comments,\ncreated_at, subreddit, selftext, comments[]",
+      "fontSize": 11,
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "arrow-methods-output",
+      "type": "arrow",
+      "x": 380,
+      "y": 540,
+      "strokeColor": "#1971c2",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "rate-limit",
+      "type": "rectangle",
+      "x": 550,
+      "y": 580,
+      "width": 150,
+      "height": 50,
+      "backgroundColor": "#ffc9c9",
+      "strokeColor": "#e03131",
+      "text": "Rate Limiting",
+      "createdAt": "2026-02-15T16:27:19.040Z",
+      "updatedAt": "2026-02-15T16:27:19.040Z",
+      "version": 1
+    },
+    {
+      "id": "rate-desc",
+      "type": "text",
+      "x": 555,
+      "y": 640,
+      "strokeColor": "#868e96",
+      "text": "Configurable delay\nbetween requests",
+      "fontSize": 10,
+      "createdAt": "2026-02-15T16:27:19.041Z",
+      "updatedAt": "2026-02-15T16:27:19.041Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}
