@@ -364,48 +364,50 @@ class WeeklyAnalyticsCalculator:
         Returns:
             EntityTrendsReport or None if no entities found.
         """
-        # Aggregate entities from all weekly reports
+        # Aggregate entities from thematic_clusters (mirrors daily entity_calculator)
         entity_data: dict[str, dict] = {}
 
         for report in weekly_reports:
             week_end_str = report.get("week_end", report.get("week_start", ""))
             week_date = date.fromisoformat(week_end_str) if week_end_str else date.today()
 
-            all_quotes = report.get("all_quotes", {})
+            clusters = report.get("thematic_clusters", [])
 
-            for category in ["fears", "frustrations", "optimism"]:
-                for quote in all_quotes.get(category, []):
-                    entities = quote.get("entities", [])
-                    engagement = quote.get("comment_score", 0)
+            for cluster in clusters:
+                entities = cluster.get("entities", [])
+                engagement = cluster.get("engagement_score", 0)
+                category = cluster.get("dominant_emotion", "")
 
-                    for entity in entities:
-                        if entity not in entity_data:
-                            entity_data[entity] = {
-                                "total_engagement": 0,
-                                "total_mentions": 0,
-                                "weeks_present": set(),
-                                "weekly_data": {},
-                                "categories": {},
-                            }
+                for entity in entities:
+                    entity_normalized = entity.strip().upper()
 
-                        entity_data[entity]["total_engagement"] += engagement
-                        entity_data[entity]["total_mentions"] += 1
-                        entity_data[entity]["weeks_present"].add(week_date)
+                    if entity_normalized not in entity_data:
+                        entity_data[entity_normalized] = {
+                            "total_engagement": 0,
+                            "total_mentions": 0,
+                            "weeks_present": set(),
+                            "weekly_data": {},
+                            "categories": {},
+                        }
 
-                        if week_date not in entity_data[entity]["weekly_data"]:
-                            entity_data[entity]["weekly_data"][week_date] = {
-                                "engagement": 0,
-                                "mentions": 0,
-                                "categories": [],
-                            }
-                        entity_data[entity]["weekly_data"][week_date]["engagement"] += engagement
-                        entity_data[entity]["weekly_data"][week_date]["mentions"] += 1
-                        if category not in entity_data[entity]["weekly_data"][week_date]["categories"]:
-                            entity_data[entity]["weekly_data"][week_date]["categories"].append(category)
+                    entity_data[entity_normalized]["total_engagement"] += engagement
+                    entity_data[entity_normalized]["total_mentions"] += 1
+                    entity_data[entity_normalized]["weeks_present"].add(week_date)
 
-                        entity_data[entity]["categories"][category] = (
-                            entity_data[entity]["categories"].get(category, 0) + 1
-                        )
+                    if week_date not in entity_data[entity_normalized]["weekly_data"]:
+                        entity_data[entity_normalized]["weekly_data"][week_date] = {
+                            "engagement": 0,
+                            "mentions": 0,
+                            "categories": [],
+                        }
+                    entity_data[entity_normalized]["weekly_data"][week_date]["engagement"] += engagement
+                    entity_data[entity_normalized]["weekly_data"][week_date]["mentions"] += 1
+                    if category and category not in entity_data[entity_normalized]["weekly_data"][week_date]["categories"]:
+                        entity_data[entity_normalized]["weekly_data"][week_date]["categories"].append(category)
+
+                    entity_data[entity_normalized]["categories"][category] = (
+                        entity_data[entity_normalized]["categories"].get(category, 0) + 1
+                    )
 
         if not entity_data:
             return None
