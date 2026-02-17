@@ -1,0 +1,4347 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-02-17",
+  "report_date": "2026-02-17",
+  "generated_at": "2026-02-17T20:45:45.836579",
+  "metadata": {
+    "total_posts_analyzed": 34,
+    "total_comments_analyzed": 466,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Singaporeans express moderate anxiety about economic uncertainties and social changes. Concerns center around business policies like restaurant cancellation fees, with many worried about both consumer rights and business sustainability during tough times. There's underlying apprehension about rising costs of living, particularly whether salary increases can keep pace with inflation. Personal safety concerns also surface, from MRT platform incidents to family dynamics during CNY gatherings.",
+      "quote_count": 41,
+      "intensity_breakdown": {
+        "mild": 6,
+        "moderate": 29,
+        "strong": 6
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration dominates today's discourse with intense anger across multiple fronts. Consumer service issues spark the strongest reactions, from restaurant policies to service provider failures, with many feeling businesses are taking advantage of customers. Political disillusionment runs deep, with citizens expressing cynicism about government promises and policy flip-flops. Social behavior complaints are rampant - from rude MRT commuters to inconsiderate neighbors - reflecting a broader sense that civic courtesy is deteriorating.",
+      "quote_count": 102,
+      "intensity_breakdown": {
+        "mild": 6,
+        "moderate": 21,
+        "strong": 75
+      }
+    },
+    "optimism": {
+      "intensity": "strong",
+      "summary": "CNY celebrations inject powerful positive energy into Singapore's social media landscape. National pride soars with Faiz Basha's Winter Olympics achievement, as Singaporeans rally behind their athletes on the global stage. Family gatherings and traditional festivities generate warm sentiments, with many sharing excitement about reunion dinners and cultural traditions. Financial optimism emerges around bonus season and career prospects, suggesting underlying confidence despite other concerns.",
+      "quote_count": 79,
+      "intensity_breakdown": {
+        "mild": 9,
+        "moderate": 23,
+        "strong": 47
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 109,
+      "top_posts": [
+        {
+          "id": "t3_1r6trr5",
+          "title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6trr5/spore_woman_cancels_restaurant_dinner_due_to/",
+          "score": 469,
+          "num_comments": 146,
+          "created_at": "2026-02-17T10:27:48",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6trr5",
+            "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the potential for policy abuse and false claims of family deaths if full refunds are granted, reflecting worry about exploiting compassion-based exceptions.",
+              "quotes": [
+                {
+                  "quote": "If they just allow full refund of deposits, it'll open floodgates of everyone else reserving a table and cancelling last minute if they decide to go somewhere else.",
+                  "score": 33
+                },
+                {
+                  "quote": "You would not believe how many people suddenly have a death in the family when they realize that it's the policy.",
+                  "score": 44
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is expressed toward both the customer's actions and broader Singaporean behavior, with emphatic language (\"damn important,\" \"no class,\" \"brainless\") and detailed grievances about restaurant losses and disrespectful conduct toward staff.",
+              "quotes": [
+                {
+                  "quote": "Those important events once a year is damn important for them in terms of income. also not right for them to just eat the loss.",
+                  "score": 223
+                },
+                {
+                  "quote": "By cancelling last min, the restaurant will incur ingredient loss, opportunity loss, labour, etc.",
+                  "score": 223
+                },
+                {
+                  "quote": "Singaporeans no class nowadays curse and swear at staff. And also brainless.",
+                  "score": 31
+                },
+                {
+                  "quote": "This Karen apparently also had a lot of special requests which the restaurant spent time and money to prep for.",
+                  "score": 111
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6dwdq",
+          "title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6dwdq/singapores_faiz_basha_overcomes_tricky_conditions/",
+          "score": 373,
+          "num_comments": 13,
+          "created_at": "2026-02-17T00:16:24",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6dwdq",
+            "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "The community expresses intense pride and enthusiasm for Faiz Basha's achievement, with emphatic praise, multiple exclamation marks, and passionate calls for continued representation at future Winter Olympics. The overwhelming sentiment celebrates his accomplishment and views him as an inspiration to all Singaporeans.",
+              "quotes": [
+                {
+                  "quote": "Keep up your good work and reach greater heights to fly the Singapore flag high!",
+                  "score": 109
+                },
+                {
+                  "quote": "you made us proud!",
+                  "score": 36
+                },
+                {
+                  "quote": "hope he's ok. still amazing that we have anyone to represent us at all in the winter olympics",
+                  "score": 29
+                },
+                {
+                  "quote": "You are an inspiration! Hope to see more Singaporeans competing in the winter games.",
+                  "score": 18
+                },
+                {
+                  "quote": "Well done!!!! So PROUD OF U ALREADY. having to be a participant is already dream come true!!!!",
+                  "score": 13
+                },
+                {
+                  "quote": "Amazing! 35th best in the world!",
+                  "score": 11
+                },
+                {
+                  "quote": "Great effort, good run!",
+                  "score": 6
+                },
+                {
+                  "quote": "It's amazing how he trained using roller blades. An inspiration to all.",
+                  "score": 5
+                },
+                {
+                  "quote": "to watch our Singaporean conquer the course is very impressive.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6woqx",
+          "title": "Do anyone remember this tunnel from the channel 8 drama \"10 years ago?",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6woqx/do_anyone_remember_this_tunnel_from_the_channel_8/",
+          "score": 270,
+          "num_comments": 29,
+          "created_at": "2026-02-17T12:45:37",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6woqx",
+            "post_title": "Do anyone remember this tunnel from the channel 8 drama \"10 years ago?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about mortality and the inability to be present forever, though it's expressed with acceptance and hope rather than panic. The worry centers on eventual separation but is tempered by faith in the other person's resilience.",
+              "quotes": [
+                {
+                  "quote": "She worries about not being able to accompany him forever, but hopes he will continue forward bravely when that day comes.",
+                  "score": 7
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a definite positive message about self-acceptance and inherent worth, conveying that one's authentic self is valuable without needing change. This reflects an encouraging perspective on personal identity and value.",
+              "quotes": [
+                {
+                  "quote": "The core message is that he does not need to become someone else, because his true self is already precious.",
+                  "score": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6cm70",
+          "title": "Throwback to 1939: Singapore’s Water Usage Peaks the Day Before CNY 🧧🚿",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6cm70/throwback_to_1939_singapores_water_usage_peaks/",
+          "score": 214,
+          "num_comments": 14,
+          "created_at": "2026-02-16T23:29:38",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6cm70",
+            "post_title": "Throwback to 1939: Singapore’s Water Usage Peaks the Day Before CNY 🧧🚿",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses mild exasperation about societal changes in bathing habits over nearly a century, questioning what has changed between the 1930s and now using a crying emoji to convey resigned frustration.",
+              "quotes": [
+                {
+                  "quote": "If Chinese people showered in the morning in the 1930s I don't see why we can't all do it now...what happened in between 😭",
+                  "score": 22
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The commenter cautiously suggests that despite nearly a century passing, the water usage pattern observed in 1939 might still hold true today, showing tentative positivity about continuity in behavior.",
+              "quotes": [
+                {
+                  "quote": "I feel that despite it being almost a century later, it might actually still be true",
+                  "score": 72
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6vcpp",
+          "title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6vcpp/comfortdelgro_taxi_turns_turtle_in_ang_mo_kio_on/",
+          "score": 115,
+          "num_comments": 13,
+          "created_at": "2026-02-17T11:40:08",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6vcpp",
+            "post_title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A brief, relieved expression that no one was seriously hurt in the accident, suggesting a passing concern rather than deep anxiety about the incident.",
+              "quotes": [
+                {
+                  "quote": "Huh, no one seriously hurt in this situation? Someone up there or down there looking after the drivers.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Light-hearted humor using CNY symbolism and Singlish expressions ('Huat ah') to find positive meaning in the accident, showing casual optimism and good-natured perspective.",
+              "quotes": [
+                {
+                  "quote": "The driver is accidentally doing a \"福到\" 🧧",
+                  "score": 7
+                },
+                {
+                  "quote": "Huat ah",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6ywh7",
+          "title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6ywh7/afc_confirms_tampines_rovers_awarded_30_win_over/",
+          "score": 107,
+          "num_comments": 21,
+          "created_at": "2026-02-17T14:44:50",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6ywh7",
+            "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express concern about a recurring pattern of incidents happening again, with casual exasperation reflected in the language used.",
+              "quotes": [
+                {
+                  "quote": "How tf is this happening again",
+                  "score": 30
+                },
+                {
+                  "quote": "This feels familiar",
+                  "score": 21
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Fans display passionate excitement and confidence about Tampines Rovers' prospects, using emphatic language and sports references to express enthusiastic support for a potential comeback.",
+              "quotes": [
+                {
+                  "quote": "WE ARE SO BACK PARK THE DAMN BUS",
+                  "score": 20
+                },
+                {
+                  "quote": "Marks the beginning of greatest comeback",
+                  "score": 7
+                },
+                {
+                  "quote": "Sanfrecce 2.0 lets go! Time to park the buses from Tamp Bus Interchange.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r723p0",
+          "title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+          "url": "https://old.reddit.com/r/singapore/comments/1r723p0/about_23000_community_care_sector_employees_could/",
+          "score": 83,
+          "num_comments": 14,
+          "created_at": "2026-02-17T18:04:07",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r723p0",
+            "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about whether the 7% raise will be sufficient given rising costs in the long term, expressed as a casual worry rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Still… with rising costs everywhere, I wonder if 7% is really enough long term.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear skepticism that 7% is inadequate when calculated against actual financial needs, though tempered by cautious hope that future salary guidelines will provide better increments for community care workers.",
+              "quotes": [
+                {
+                  "quote": "7% isn't much if you do the calculations but hopefully the new salary guidelines ensure better increments for them in the years to come.",
+                  "score": 12
+                },
+                {
+                  "quote": "A 7% bump isn't life-changing, but for community care staff who've been stretched for years, it's at least some recognition.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Definite approval and appreciation that community care workers are finally receiving concrete recognition and compensation rather than just symbolic gestures, with emphasis on the meaningful impact of this policy.",
+              "quotes": [
+                {
+                  "quote": "Yes please do. The amount of essential work they perform is well deserving of visibility and remuneration.",
+                  "score": 55
+                },
+                {
+                  "quote": "Finally a good thing with impact to recognise essential workers instead of claps.",
+                  "score": 7
+                },
+                {
+                  "quote": "Good",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6v5tr",
+          "title": "Love With Muscular Dystrophy: Our Unconventional Story | On The Red Dot",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6v5tr/love_with_muscular_dystrophy_our_unconventional/",
+          "score": 29,
+          "num_comments": 2,
+          "created_at": "2026-02-17T11:30:52",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6v5tr",
+            "post_title": "Love With Muscular Dystrophy: Our Unconventional Story | On The Red Dot",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Viewers expressed genuine warmth and goodwill toward the couple's story, with heartfelt wishes for their happiness and blessing. The sentiment reflects sincere appreciation for their unconventional love story despite the challenges posed by muscular dystrophy.",
+              "quotes": [
+                {
+                  "quote": "It's a very touching story... Wish them a blessed and happy life ahead",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6nemj",
+          "title": "r/singapore random discussion and small questions thread for February 17, 2026",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6nemj/rsingapore_random_discussion_and_small_questions/",
+          "score": 8,
+          "num_comments": 215,
+          "created_at": "2026-02-17T06:01:40",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6nemj",
+            "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A casual, matter-of-fact concern about physical soreness from exercise, expressed as a passing observation rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Tomorrow probably gonna get arm muscle ache.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Multiple instances of clear dissatisfaction, from road safety concerns to physical exhaustion and seasonal stress, expressed with typical Singaporean complaint language like 'sian' and resigned emoji use.",
+              "quotes": [
+                {
+                  "quote": "Very reckless. 🥲 Almost slipped when he suddenly stepped on the brakes.",
+                  "score": 2
+                },
+                {
+                  "quote": "My arms are so very le tired...",
+                  "score": 2
+                },
+                {
+                  "quote": "CNY is just another warzone for parents",
+                  "score": 1
+                },
+                {
+                  "quote": "V sian leh this year.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Noticeable positive feelings about recent achievements, weather, and CNY celebrations expressed through appreciative language and emojis, reflecting genuine satisfaction with current circumstances.",
+              "quotes": [
+                {
+                  "quote": "Finally ran for the first time today~ it was drizzling abit just now but it's ok.",
+                  "score": 6
+                },
+                {
+                  "quote": "We made a memory game and got it published",
+                  "score": 5
+                },
+                {
+                  "quote": "This weather is perfect man it needs to stay",
+                  "score": 5
+                },
+                {
+                  "quote": "But it's worth it.",
+                  "score": 2
+                },
+                {
+                  "quote": "Wah finally hearing some lion dance in my area 🎊",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6tcmb",
+          "title": "Amos Yee: Why Singapore Military Sucks",
+          "url": "https://old.reddit.com/r/singapore/comments/1r6tcmb/amos_yee_why_singapore_military_sucks/",
+          "score": 0,
+          "num_comments": 47,
+          "created_at": "2026-02-17T10:09:11",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r6tcmb",
+            "post_title": "Amos Yee: Why Singapore Military Sucks",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about Amos Yee's psychological state, noting how fear of NS appears to have deeply affected him and spiraled into unhealthy thought patterns. The fear is real but described more as observation of his condition rather than personal anxiety.",
+              "quotes": [
+                {
+                  "quote": "That's how it is when you convinced yourself that you won't survive NS, and then you spiral deeper in that fear every time you mentioned it.",
+                  "score": 11
+                },
+                {
+                  "quote": "He's so scared",
+                  "score": 13
+                },
+                {
+                  "quote": "So scared of ns",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express emphatic exasperation and irritation, repeatedly calling for media attention to stop and dismissing Amos as an attention-seeker and immature individual. The repetitive nature of demands to ignore him and dismissive language conveys clear, passionate frustration.",
+              "quotes": [
+                {
+                  "quote": "Really need to stop giving this sick person a platform and publicising his disturbed thoughts.",
+                  "score": 69
+                },
+                {
+                  "quote": "Can we stop giving this clown attention",
+                  "score": 59
+                },
+                {
+                  "quote": "Bro why did you post this man",
+                  "score": 40
+                },
+                {
+                  "quote": "why even bother giving this joker the attention he seeks?",
+                  "score": 34
+                },
+                {
+                  "quote": "Damn, this guy doesnt even make sense anymore does he",
+                  "score": 5
+                },
+                {
+                  "quote": "Still behaving like edgy sec 1 boy.",
+                  "score": 5
+                },
+                {
+                  "quote": "This guy still at it?",
+                  "score": 8
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 170,
+      "top_posts": [
+        {
+          "id": "t3_1r6hscg",
+          "title": "How are y'all celebrating CNY now??",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6hscg/how_are_yall_celebrating_cny_now/",
+          "score": 501,
+          "num_comments": 37,
+          "created_at": "2026-02-17T02:34:50",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6hscg",
+            "post_title": "How are y'all celebrating CNY now??",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual mention of rain affecting plans, expressed as a passing observation rather than strong displeasure or complaint.",
+              "quotes": [
+                {
+                  "quote": "it's going to rain whole day from the look of it.",
+                  "score": 54
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Abundant positive energy with multiple enthusiastic expressions of enjoyable CNY celebrations, from fitness achievements and festive treats to romantic getaways and family bonding moments. The language is upbeat with activities described with satisfaction and contentment, reflecting genuine joy and appreciation for their celebrations.",
+              "quotes": [
+                {
+                  "quote": "88.88km ride today! 🚴‍♂️",
+                  "score": 69
+                },
+                {
+                  "quote": "just finished 120 minutes gym, at home now start eating stuff (egg tart, pineapple tart, orange) with a big mug of milo, surfing reddit and internet. later self cooked mee sua soup, before start sitting on sofa netflix marathon and nap.",
+                  "score": 54
+                },
+                {
+                  "quote": "Same vibe here, late night walks and simple bonding time instead of crowded house hopping. The sparkler moment sounds very wholesome CNY energy",
+                  "score": 6
+                },
+                {
+                  "quote": "Initially wanted to go to east coast to walk/jog, but it's raining now so me and my family end up chilling away in a nice cafe.",
+                  "score": 2
+                },
+                {
+                  "quote": "Going to a cafe pickup some cupcakes for gifting tmr, hv my brunch there, and in evening join my relatives for some dinner",
+                  "score": 2
+                },
+                {
+                  "quote": "At Tokyo with my newly wedded wife spending the day at Disneyland!",
+                  "score": 1
+                },
+                {
+                  "quote": "I just finished a fun search for the best pineapple tarts. It's all about who can gather the most impressive collection this year.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6xnp4",
+          "title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6xnp4/whats_a_singapore_opinion_youll_defend_even_if/",
+          "score": 416,
+          "num_comments": 456,
+          "created_at": "2026-02-17T13:35:55",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6xnp4",
+            "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about financial irresponsibility and social burden are expressed as practical worries rather than panic, reflecting a measured anxiety about systemic stability and personal financial planning.",
+              "quotes": [
+                {
+                  "quote": "CPF is not perfect, but it is necessary to prevent irresponsible people from being a burden to society.",
+                  "score": 272
+                },
+                {
+                  "quote": "Please do not have kids if you don't earn much...",
+                  "score": 318
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple complaints with emphatic language (\"hanged drawn and quartered,\" \"fight me,\" fire emoji) reveal intense irritation over pricing transparency, service charges, and lack of basic amenities in Singapore's food and leisure culture.",
+              "quotes": [
+                {
+                  "quote": "Prices shown on menus should include GST. I don't like eating somewhere and then seeing a higher price on the bill than expected.",
+                  "score": 521
+                },
+                {
+                  "quote": "Restaurants charging $ for tap water should be hanged drawn and quartered",
+                  "score": 479
+                },
+                {
+                  "quote": "Breadtalk and toastbox are horrible and bringing down our standards, fight me",
+                  "score": 442
+                },
+                {
+                  "quote": "10% service charge shouldn't be levied for QR code ordering",
+                  "score": 325
+                },
+                {
+                  "quote": "In fact all outdoor seating must have shelter it's so darn hot 🔥",
+                  "score": 169
+                },
+                {
+                  "quote": "Kaya toast, egg + kopi should not be more than $4 (i did the maths)",
+                  "score": 57
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A single constructive suggestion about playground shelters is mentioned casually without passionate endorsement or elaborate reasoning.",
+              "quotes": [
+                {
+                  "quote": "Playgrounds should have Shelters. Like how it is in Australia.",
+                  "score": 169
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6bpwr",
+          "title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6bpwr/uncle_shoulder_checked_me_super_hard_on_mrt/",
+          "score": 327,
+          "num_comments": 84,
+          "created_at": "2026-02-16T22:55:13",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6bpwr",
+            "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern that these shoulder-checks are deliberate bullying incidents targeting women, with references to similar patterns observed in Japan and comparisons to international experiences suggesting this is a recognized predatory behavior.",
+              "quotes": [
+                {
+                  "quote": "I fear he was just trying to bully women 😭",
+                  "score": 0
+                },
+                {
+                  "quote": "Clementi has always been a hotspot for weirdos..",
+                  "score": 25
+                },
+                {
+                  "quote": "Sounds very familiar to Japan where an elderly man will purposefully knock into you with his shoulder for no apparent reason. And they purposefully target females, also for no reason.",
+                  "score": 7
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration is expressed through strong language (\"bloody hours\", \"asshole\", \"outrageous\") and multiple accounts of repeated incidents across Singapore locations, with particular anger directed at the lack of police follow-up and the deliberate, gendered nature of these attacks.",
+              "quotes": [
+                {
+                  "quote": "Told the MRT staff and wasted 2 bloody hours with transit police with NO FOLLOW UP.",
+                  "score": 25
+                },
+                {
+                  "quote": "What an asshole.",
+                  "score": 161
+                },
+                {
+                  "quote": "Yuck.",
+                  "score": 15
+                },
+                {
+                  "quote": "Outrageous.",
+                  "score": 10
+                },
+                {
+                  "quote": "One guy in his 50s slammed his shoulder into me at an NTUC. Like he would move aside for guys walking near him, but if it was a female, he wouldnt move aside and would increase his speed a little and shoulder check her.",
+                  "score": 9
+                },
+                {
+                  "quote": "Sadly it's not the first time I experienced this, but it was the first time in Sg. I was hit so many times in Korea.",
+                  "score": 9
+                },
+                {
+                  "quote": "I experienced the same thing last year at little india stn. It was a short uncle and he was with his wife too. He shoulded checked me really hard but he jerked back instead lol...i nvr saying afterwards because he walked away swiftly with the wife.",
+                  "score": 36
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6bwdt",
+          "title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6bwdt/unmarried_chinese_folk_in_their_30s_or_older_do/",
+          "score": 195,
+          "num_comments": 88,
+          "created_at": "2026-02-16T23:01:56",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6bwdt",
+            "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Mild social awkwardness about receiving angpows as unmarried adults, with expressions of 'paiseh' (embarrassment) but recognition that refusing would be ruder or disrespectful to the giver's intention.",
+              "quotes": [
+                {
+                  "quote": "Still do. A bit paiseh, but feels rude to refuse.",
+                  "score": 67
+                },
+                {
+                  "quote": "I felt very paiseh though rejecting is worse cuz it's a token of blessing and not a big sum.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong positive embrace of receiving angpows, with enthusiastic acceptance framed as a privilege, tradition, and genuine blessing regardless of age or marital status, coupled with practical appreciation in economic context.",
+              "quotes": [
+                {
+                  "quote": "Still do. Tried telling my older cousins not to give me but they still do. To them it's a form of blessing. I'm in my 40s.",
+                  "score": 238
+                },
+                {
+                  "quote": "I still receive ang baos. But there are a couple of relatives who have stopped giving and I understand. I don't think there's any issue.",
+                  "score": 173
+                },
+                {
+                  "quote": "In this economy? I'll take what I can get!",
+                  "score": 119
+                },
+                {
+                  "quote": "When I was unmarried in my 30s, I made sure to collect all my angpows. It's one of the rare privilege sof being single",
+                  "score": 63
+                },
+                {
+                  "quote": "Im in my late 30s, still collecting angpows haha",
+                  "score": 57
+                },
+                {
+                  "quote": "Yes. If they give just accept graciously. It's a tradition in my family to give ang pows to the singles including the elderly spinsters and bachelors (Quite a few in my family tree) Token sum and no pressure to give.",
+                  "score": 46
+                },
+                {
+                  "quote": "They give me. I accept. Why not? Nothing wrong with that.",
+                  "score": 33
+                },
+                {
+                  "quote": "It's to wish someone good luck. What does it have to do with age or marriage status?",
+                  "score": 15
+                },
+                {
+                  "quote": "Yes, just take.",
+                  "score": 13
+                },
+                {
+                  "quote": "I am 41 and I am more than happy to collect if I am offered",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6b58g",
+          "title": "Are you close to your cousins?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6b58g/are_you_close_to_your_cousins/",
+          "score": 68,
+          "num_comments": 36,
+          "created_at": "2026-02-16T22:32:12",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6b58g",
+            "post_title": "Are you close to your cousins?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about mortality and loss, with the death of a young cousin fundamentally altering the person's sense of closeness and family connection. The fear is expressed through sobering personal tragedy rather than abstract worry.",
+              "quotes": [
+                {
+                  "quote": "Hopefully, the next time we meet is not someone's funeral.",
+                  "score": 30
+                },
+                {
+                  "quote": "I said \"was\" because he passed away from cardiac arrest in 2023 at age 27. Since then I really don't have a \"close\" cousin anymore.",
+                  "score": 10
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Significant frustration stemming from family disconnection, miscommunication, betrayal, generational distance, and profound regret over lost time and unreciprocated efforts to maintain relationships. The tone reflects accumulated disappointment and emotional strain from both passive neglect and active rejection.",
+              "quotes": [
+                {
+                  "quote": "I've even memorised the questions they ask me and the way they ask the questions because every single time it's the same (they don't remember that they've asked before and they don't remember my answers)",
+                  "score": 51
+                },
+                {
+                  "quote": "Lol fall out between the siblings (my parents and their parents) and cousins decided that they didn't even want to attend my wedding even though I went to their house to invite personally. They cut me off even though I didn't do anything.",
+                  "score": 33
+                },
+                {
+                  "quote": "Especially not with my younger cousins. They're glued to their devices at family gathering and keep to themselves. As we got older, there have been some unpleasant comments about each other here and there by the older generation, yet they act cordial when everyone meet up. It's odd and sometimes pretentious.",
+                  "score": 20
+                },
+                {
+                  "quote": "I always have great memories of playing with my cousins, but I don't get time or rather make time to create memories now. I regret that a lot.",
+                  "score": 3
+                },
+                {
+                  "quote": "The last time I met a few cousins was at a funeral about 15 years ago. Some I have not seen for 30+ years.",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Cautious hopefulness about rekindling cousin relationships and gratitude for those cousins who remain consistently close, with recognition that it's never too late to strengthen bonds. The optimism is tempered but genuine, reflecting both current positive connections and hopeful intentions for the future.",
+              "quotes": [
+                {
+                  "quote": "I'm closer to my first cousins; we all still stay in the same neighbourhood and meet for dinner every week.",
+                  "score": 7
+                },
+                {
+                  "quote": "But, it is never too late to start something. Of course our cousins will get to understand us and so I now consider some time to strengthen those relationships.",
+                  "score": 3
+                },
+                {
+                  "quote": "We had every single shit if stuff so common. Every family gathering, we (A,B and me) will always be a seperate entity. A and B was my blood, flesh and bone. Years passed and we are the type who will talk like we are always in touch even if we never talked for ages.",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6aqw4",
+          "title": "Wwyd if your neighbours own chickens and stink up the whole place",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6aqw4/wwyd_if_your_neighbours_own_chickens_and_stink_up/",
+          "score": 52,
+          "num_comments": 30,
+          "created_at": "2026-02-16T22:15:59",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6aqw4",
+            "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the difficulty in resolving the situation, with worries about persistent smells and the ineffectiveness of authorities and official channels. The uncertainty about achieving a lasting solution reflects a definite sense of helplessness.",
+              "quotes": [
+                {
+                  "quote": "I guess you don't have much options since you already tried speaking to them.",
+                  "score": 6
+                },
+                {
+                  "quote": "You can get rid of the chickens easily with the help of authorities but I doubt you can get rid of the stench e.g. burning of incense, or even old smelly stuff should they choose not to do anything about hygiene.",
+                  "score": 6
+                },
+                {
+                  "quote": "U can try to raise the issue with ur MP but beware it will take months for it to resolve.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is intense frustration expressed through personal experiences of enduring months of foul smells and repeated failed intervention efforts, with emphasis on the prolonged suffering and the slow bureaucratic process. The accounts convey deep exasperation with the inability to quickly resolve the neighbour problem.",
+              "quotes": [
+                {
+                  "quote": "I've had the misfortune of living beside a neighbour like that, although I felt mine was worse as we were living on the top floor. Similar to you, had to endure foul smells for months.",
+                  "score": 15
+                },
+                {
+                  "quote": "My parents' neighbour kept dozen of cats and allow them to keep breeding. Their place smells of cat poo and had incident of cats falling from the window. Even then, it took months and months of intervention and following up for them to eventually remove the excess cats.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6o424",
+          "title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6o424/what_do_yall_fellow_chinese_eat_for_cny_day_1/",
+          "score": 46,
+          "num_comments": 78,
+          "created_at": "2026-02-17T06:28:26",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6o424",
+            "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A casual concern about weight gain during the CNY period, expressed as a hopeful wish rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "I'm hoping to at least maintain my weight and not gain it.",
+                  "score": 29
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Light-hearted acknowledgment of being busy with lunch preparations, conveyed through humor and laughter rather than genuine annoyance.",
+              "quotes": [
+                {
+                  "quote": "Breakfast? Still rushing to prepare a big lunch! 🤣",
+                  "score": 44
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Positive sentiment about CNY traditions and breakfast choices, with playful affection toward family customs and food traditions expressed through casual enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Plus a fruit and coffee for a nice start to the day.",
+                  "score": 25
+                },
+                {
+                  "quote": "Annual traditional breakfast of McDonald's.\n\nMy parents have eaten it even before I was born lol",
+                  "score": 17
+                },
+                {
+                  "quote": "sinful but really cnyish!😝",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6uehl",
+          "title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6uehl/has_anyone_gotten_their_airconditioning_spoilt_by/",
+          "score": 35,
+          "num_comments": 32,
+          "created_at": "2026-02-17T10:55:53",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6uehl",
+            "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about financial loss and lack of trust in Urban Company's service quality, with resignation about not recovering their money. There is underlying worry about whether the company can properly diagnose and fix aircon issues.",
+              "quotes": [
+                {
+                  "quote": "We don't expect our $700 back and did not bother to pursue, but we certainly do not recommend Urban Company and will no longer engage their services.",
+                  "score": 36
+                },
+                {
+                  "quote": "They would be able to inspect your system more thoroughly and maybe identify the cause (natural over time? Damage?).",
+                  "score": 36
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Customers express significant frustration with repeated service failures, denial of responsibility by Urban Company, poor timing during CNY, and feeling exploited by the company's practices. The intensity is heightened by multiple unresolved issues and the perception of being taken advantage of ('First they spoil it then they earn').",
+              "quotes": [
+                {
+                  "quote": "It's worse because the aircon broke down just before CNY and I still have to handle this on the first few days of CNY.",
+                  "score": 0
+                },
+                {
+                  "quote": "Within a week, 2 of our 3 aircon units were noticeably warmer (3-4 degrees warmer and 20% humidity).",
+                  "score": 36
+                },
+                {
+                  "quote": "After the PCB was replaced, the issue persisted. The PCB was taken away so we can't verify that it really was faulty.",
+                  "score": 36
+                },
+                {
+                  "quote": "Still, the poor aircon performance persisted.",
+                  "score": 36
+                },
+                {
+                  "quote": "Raised this with Urban Company, and they repeatedly denied that there were issues caused by the servicing or incorrect diagnoses by the technicians.",
+                  "score": 36
+                },
+                {
+                  "quote": "I wasn't happy actually, so two weeks later, I called the usual company to do it.",
+                  "score": 4
+                },
+                {
+                  "quote": "Yeah, I engaged them once and realized it was too much money for just spraying water on the radiators.",
+                  "score": 1
+                },
+                {
+                  "quote": "First they spoil it then they earn",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Limited positive sentiment expressed through a successful resolution after the third technician's intervention and a casual well-wish for CNY. The optimism is minimal and appears somewhat tentative given the overall negative context of the discussion.",
+              "quotes": [
+                {
+                  "quote": "After the PCB was replaced, the issue persisted. When the third technician returned, he insinuated that our room temperature monitors were faulty. They replaced it, and our aircon has since performed even better than before the servicing.",
+                  "score": 36
+                },
+                {
+                  "quote": "Try to enjoy the rest of CNY!",
+                  "score": 11
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6ert5",
+          "title": "scammed on carousell, how to confront the guy?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6ert5/scammed_on_carousell_how_to_confront_the_guy/",
+          "score": 28,
+          "num_comments": 47,
+          "created_at": "2026-02-17T00:47:47",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6ert5",
+            "post_title": "scammed on carousell, how to confront the guy?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are legitimate concerns about potential danger from confronting the scammer, including worries about physical violence and references to cautionary tales of escalation. However, these are expressed as warnings rather than personal panic or deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Scarly he punches you how??? What if that guy is a violent drug addict or what. We never know.",
+                  "score": 6
+                },
+                {
+                  "quote": "This reminds me of one of the episodes on kdrama Taxi Driver S3 where the ppl trying to outsmart the scammer ended up with even bigger losses.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration is evident across multiple shared experiences of being scammed on Carousell, compounded by the platform's unhelpful response, circular reporting processes, and perceived indifference to counterfeit goods complaints. The language conveys exasperation, resignation, and anger at systemic failure (e.g., 'don't give a shit', 'the hell').",
+              "quotes": [
+                {
+                  "quote": "From my experience, police report will be useless, they are of no help at all.",
+                  "score": 44
+                },
+                {
+                  "quote": "Happened to me before too on Carousell, but for a much larger sum (4 figures).",
+                  "score": 44
+                },
+                {
+                  "quote": "I got scammed recently on carousell too. Bought a Nike slides when the listing stated it was genuine. Upon receiving it, it is fake AF.",
+                  "score": 1
+                },
+                {
+                  "quote": "When I report to carousell, the reject the report of selling counterfeit goods. The rejection message asked me to write instead which I did. Guess what? When I email them, they ask me to use the app to report instead like wtf. I was in this loop for a while.",
+                  "score": 1
+                },
+                {
+                  "quote": "Finally they said I had to get a memo from the manufacturer to verify that the item is fake first before I can lodge complaint against him. The hell…",
+                  "score": 1
+                },
+                {
+                  "quote": "Seem like carousel don't give a shit about it",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6dzas",
+          "title": "What's it like having relatives visiting in CNY",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r6dzas/whats_it_like_having_relatives_visiting_in_cny/",
+          "score": 28,
+          "num_comments": 23,
+          "created_at": "2026-02-17T00:19:19",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r6dzas",
+            "post_title": "What's it like having relatives visiting in CNY",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A subtle emotional undercurrent of missing distant relatives, expressed with restraint rather than acute anxiety. This reflects a wistful longing rather than active dread.",
+              "quotes": [
+                {
+                  "quote": "makes me miss my relatives back home",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense irritation over intrusive questioning, unsolicited comments about appearance and life choices, and the social obligation to remain polite despite frustration. The use of words like 'nosey/busybody,' emphasis on *PIETY*, and mentions of forced participation reflect deep annoyance with loss of autonomy and respect.",
+              "quotes": [
+                {
+                  "quote": "It's only bad if they ask nosy questions",
+                  "score": 33
+                },
+                {
+                  "quote": "Wait till their sarcastic comments on why I am so fat when I am visibly jacked. No tummy, athletic build. I have a super huge frame though.",
+                  "score": 2
+                },
+                {
+                  "quote": "The other one will be why are you not married? Why your hair so long? You should cut.",
+                  "score": 2
+                },
+                {
+                  "quote": "Tired",
+                  "score": 3
+                },
+                {
+                  "quote": "I'm a serial CNY/LNY hater, but that's mostly because I feel like there is no choice/I'm forced into everything.",
+                  "score": 1
+                },
+                {
+                  "quote": "Imagine one nosey/busybody classmate or colleague being nosey/busybody, but you cannot just keep quiet and smile, or ask them to shut up, because of *P I E T Y*",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Genuine enthusiasm and warmth about family gatherings, with vivid descriptions of joy, emotional connections, and shared activities creating unbeatable moments. Multiple users express sincere appreciation for the liveliness, bonding, and cherished memories despite occasional discomfort.",
+              "quotes": [
+                {
+                  "quote": "Other than that pretty much, I actually like it a lot since it's the only period of the year where my house will filled with conversations and liveliness",
+                  "score": 33
+                },
+                {
+                  "quote": "It really depends on what sort of questions our relatives will ask but generally its a happy and fun occasion especially when we gather together to play cards.",
+                  "score": 30
+                },
+                {
+                  "quote": "The unity one can experience when the banker is drawing the card while all players and audience are shouting \"picture picture\" is unbeatable.",
+                  "score": 30
+                },
+                {
+                  "quote": "Not me. I always look forward to visiting my relatives and having good times with them!",
+                  "score": 10
+                },
+                {
+                  "quote": "It's amazing! You meet up your old friends that just so happened to be related by blood and eat a scrumptious meal before proceeding to play 6 hours of either card games or mahjong.",
+                  "score": 6
+                },
+                {
+                  "quote": "Cny is nice to see faces but i have always felt out of place one way or another but I also have gotten used to the feeling, its mostly good. Specially the kids lol damn they grow up tall and fast.",
+                  "score": 4
+                },
+                {
+                  "quote": "Never teared up hugging my aunts and uncles before i left my home country.",
+                  "score": 4
+                },
+                {
+                  "quote": "Not all bad. At least my relatives are not the nosy, comparing sort. It is just a nice get together and catch-up time",
+                  "score": 3
+                },
+                {
+                  "quote": "You can build stronger bonds with your family here in SG, and also take it as an off day for you to rest and rejuvenate as well!",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 130,
+      "top_posts": [
+        {
+          "id": "t3_1r6yhhq",
+          "title": "Everybody Huat ahhhh",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6yhhq/everybody_huat_ahhhh/",
+          "score": 232,
+          "num_comments": 16,
+          "created_at": "2026-02-17T14:20:52",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6yhhq",
+            "post_title": "Everybody Huat ahhhh",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong enthusiasm for upcoming Snake year with energetic language (fire emoji, exclamation marks) and celebratory sentiment expressed through Lunar New Year greetings.",
+              "quotes": [
+                {
+                  "quote": "Waiting for the next Snake year 🐍 \n\nIt's gonna be 🔥",
+                  "score": 3
+                },
+                {
+                  "quote": "Happy lunar new year everyone! Fuck CCP!",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6e589",
+          "title": "sg parents make terrible parents",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6e589/sg_parents_make_terrible_parents/",
+          "score": 165,
+          "num_comments": 45,
+          "created_at": "2026-02-17T00:25:13",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6e589",
+            "post_title": "sg parents make terrible parents",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about future generations becoming selfish and entitled due to permissive parenting, expressed with some worry but without panic or urgency.",
+              "quotes": [
+                {
+                  "quote": "The next generation is going to grow up selfish and entitled sadly.",
+                  "score": 7
+                },
+                {
+                  "quote": "It be interesting to see what kind of an adult becomes of this",
+                  "score": 25
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense annoyance and criticism directed at permissive parenting practices, unruly children, and perceived broader character flaws in Singaporean society, with emphatic language and specific frustrating examples.",
+              "quotes": [
+                {
+                  "quote": "Permissive parents breed entitled brats",
+                  "score": 39
+                },
+                {
+                  "quote": "Kid is a brat. I like children but I have to say I really dislike that one lol.",
+                  "score": 25
+                },
+                {
+                  "quote": "This annoys me when the kids are causing disturbances and inconvenience to other people around.",
+                  "score": 7
+                },
+                {
+                  "quote": "So many brats in Singapore",
+                  "score": 6
+                },
+                {
+                  "quote": "My neighbour's kid literally screeches while playing his computer games. Not an excited shout but a keening screech at max volume that can be heard even through closed doors. Parents does nothing.",
+                  "score": 3
+                },
+                {
+                  "quote": "Singaporeans are inherently a childish group- easily scammed, follow the herd, only think of money and how to avoid hardships and confrontation.",
+                  "score": 36
+                },
+                {
+                  "quote": "Super permissive parenting and kids will climb all over their parents heads since they set 0 boundaries!",
+                  "score": 21
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6qd2d",
+          "title": "Who is this MP?",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6qd2d/who_is_this_mp/",
+          "score": 114,
+          "num_comments": 17,
+          "created_at": "2026-02-17T07:58:31",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6qd2d",
+            "post_title": "Who is this MP?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses sharp disapproval and contempt toward the MP in question using derogatory language, indicating intense negative feelings about the individual.",
+              "quotes": [
+                {
+                  "quote": "Look at this Tard.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6c53d",
+          "title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6c53d/man_in_spore_advertises_himself_as_boyfriend_for/",
+          "score": 71,
+          "num_comments": 21,
+          "created_at": "2026-02-16T23:11:20",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6c53d",
+            "post_title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about social awkwardness and judgment from bringing a rental boyfriend to family gatherings, where he would attract unwanted questions and scrutiny from others.",
+              "quotes": [
+                {
+                  "quote": "30s single women bring him to gatherings invite more questions than answers.",
+                  "score": 73
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is noticeable disapproval about the quality and authenticity of using a rental boyfriend, with mocking commentary about his appearance and the uncomfortable situation he would create rather than solve.",
+              "quotes": [
+                {
+                  "quote": "This type u bring home really will shut down ALL questions. Not to mention shutting down the mood hahaha",
+                  "score": 28
+                },
+                {
+                  "quote": "Looks more like a clown than a bf to be proud of.",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, lighthearted acknowledgment that the business idea could be financially lucrative, expressed with a simple compliment and clapping emoji without deeper enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Good money 👏",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6ydku",
+          "title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6ydku/before_election_we_need_the_taskforce_man_after/",
+          "score": 63,
+          "num_comments": 52,
+          "created_at": "2026-02-17T14:14:49",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6ydku",
+            "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about systemic failure to learn from mistakes and concerns about housing inflation and demographic challenges caused by foreign workers and PRs exploiting Singapore as a temporary base.",
+              "quotes": [
+                {
+                  "quote": "We'll never learn and forever live in regret.",
+                  "score": 3
+                },
+                {
+                  "quote": "Worse still, you have more of these snakes and morons coming here to use Singapore as a springboard to other countries. In the meanwhile, the housing prices get inflated like crazy and the \"PRs\" just bail whenever it's convenient. Horrible.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense anger and betrayal directed at Punggol voters for being manipulated by false campaign promises, with sharp criticism of the perceived deception and broken commitments by elected officials.",
+              "quotes": [
+                {
+                  "quote": "Punggol voters got played",
+                  "score": 45
+                },
+                {
+                  "quote": "Y'all dumbasses suck it up, you voted for this.",
+                  "score": 33
+                },
+                {
+                  "quote": "Just proved how dumb Punggol residents are. Time and again kena conned",
+                  "score": 16
+                },
+                {
+                  "quote": "Before voting say we need him to help in tariffs. After election he tell you gdp growth dosent gurantee jobs.\n\nWhat is this tbh. Than next time will tell u no job not my fault cause you never go for ai course.",
+                  "score": 14
+                },
+                {
+                  "quote": "Before election: \"With you, for you, for Singapore.\". After election: \"F**k you.\"",
+                  "score": 10
+                },
+                {
+                  "quote": "I mean, it was such an obvious ploy.",
+                  "score": 4
+                },
+                {
+                  "quote": "Really played us real good. Punggol residents kena scammed hais",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6uyb9",
+          "title": "The Paper Doll",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6uyb9/the_paper_doll/",
+          "score": 58,
+          "num_comments": 44,
+          "created_at": "2026-02-17T11:21:04",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6uyb9",
+            "post_title": "The Paper Doll",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about professional stability and existential concerns about national values being compromised by poor leadership and misguided priorities. The fear extends beyond personal job security to broader societal collapse driven by greed and loss of foundational principles.",
+              "quotes": [
+                {
+                  "quote": "I'm thinking about my future in this company. If I stay, I have to sit across the table from a woman who mocks the very values my forefathers built Singapore on—hard work, integrity, and family.",
+                  "score": 0
+                },
+                {
+                  "quote": "The perceived fear of losing money, losing stability, will keep us voting foolishly until we maybe lose our sovereignty in a geopolitical upheaval or the true King comes back again.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation with a coworker's unprofessionalism, poor hygiene, and perceived mockery of Singaporean values, combined with broader cultural frustration about societal worship of money over integrity. The complaints escalate from specific workplace grievances to sweeping critiques of national character and government ethics.",
+              "quotes": [
+                {
+                  "quote": "The moment she steps into the office, I feel so frustrated. She treats her job like a hobby she's bad at.",
+                  "score": 0
+                },
+                {
+                  "quote": "It was a total sensory nightmare. She wears the same designer attire for a week straight without washing it. The smell of stale perfume mixed with sweat is everywhere because we sit side-by-side.",
+                  "score": 0
+                },
+                {
+                  "quote": "The part about coughing and leaving used tissue paper on the table is something that I absolutely cannot tolerate.",
+                  "score": 2
+                },
+                {
+                  "quote": "The \"values of our forefathers\" died a long time ago. All the devils are here.",
+                  "score": 2
+                },
+                {
+                  "quote": "As a culture and as a nation, our god is Mammon. We worship money, all of us, from the top government officials to the retirees buying 4D and Toto every week.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r70fj0",
+          "title": "SG felt less crowded these few days yet things are functioning as per normal",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r70fj0/sg_felt_less_crowded_these_few_days_yet_things/",
+          "score": 53,
+          "num_comments": 62,
+          "created_at": "2026-02-17T16:17:44",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r70fj0",
+            "post_title": "SG felt less crowded these few days yet things are functioning as per normal",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the inevitable return of crowding and public transport problems once people come back, with acknowledgment that negative impacts will accumulate over time.",
+              "quotes": [
+                {
+                  "quote": "Once they fly or drive back in, you'll be hit again by the public transport meltdown.",
+                  "score": 30
+                },
+                {
+                  "quote": "The effects take time to come in and make you feel the hurt.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is expressed about Singapore's prioritization of economic growth over well-being, coupled with disappointment about underlying racism and negative sentiments masked by superficial civility in Singaporean society.",
+              "quotes": [
+                {
+                  "quote": "GDP over happiness",
+                  "score": 43
+                },
+                {
+                  "quote": "Still surprised to see all these hatred comments and thoughts here by the Singaporeans. All these racism and stereotypes hidden behind the smiley faces at its best",
+                  "score": -10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r6alia",
+          "title": "Where 2 go CNY Day1?",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6alia/where_2_go_cny_day1/",
+          "score": 45,
+          "num_comments": 42,
+          "created_at": "2026-02-16T22:09:53",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6alia",
+            "post_title": "Where 2 go CNY Day1?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about logistical challenges with ferry capacity during peak travel times, expressed as a hypothetical question rather than a pressing worry.",
+              "quotes": [
+                {
+                  "quote": "And then if they do, what's your chances of getting 12 pax(?) on the ferry?",
+                  "score": 8
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Casual mentions of rainy weather disrupting CNY plans, with practical suggestions for mitigation rather than strong complaints or emotional frustration.",
+              "quotes": [
+                {
+                  "quote": "Next few days likely sporadic rain so better to stay indoors or have wet weather plans",
+                  "score": 5
+                },
+                {
+                  "quote": "It might rain more over the next few days so bring a poncho along if you're planning any outdoor activities.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear positive outlook on CNY activities and less crowded venues, with specific plans (River Hongbao visit) and hopeful sentiment (emoji usage) showing definite enthusiasm for the celebrations.",
+              "quotes": [
+                {
+                  "quote": "I left home decades ago and have basically treated my parents as good as dead. So I usually eat CNY eve dinner with foreigner friends and go drinking with them on CNY 1 and 2.",
+                  "score": 6
+                },
+                {
+                  "quote": "good thing is the streets are a lot emptier with either people travelling out or doing visiting so it will hopefully 🤞🏻 be less crowd.",
+                  "score": 2
+                },
+                {
+                  "quote": "I am gonna go River Hongbao at Gardens by the Bay to look at the decor",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r71nqk",
+          "title": "Bus accident in Yio Chu Kang road. Ppl got down to take photo for 4D.",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r71nqk/bus_accident_in_yio_chu_kang_road_ppl_got_down_to/",
+          "score": 35,
+          "num_comments": 15,
+          "created_at": "2026-02-17T17:36:35",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r71nqk",
+            "post_title": "Bus accident in Yio Chu Kang road. Ppl got down to take photo for 4D.",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses intense disapproval and moral outrage at people taking photos at a bus accident scene, calling them 'Sickos' with a judgmental, emphatic tone.",
+              "quotes": [
+                {
+                  "quote": "Sickos",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, almost sarcastic reference to gambling luck ('Huat la') that reflects a light-hearted but cynical view rather than genuine optimism.",
+              "quotes": [
+                {
+                  "quote": "Huat la…",
+                  "score": 11
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6xh59",
+          "title": "Deceptive approach: Singapore man posing as colleague of victim’s dad jailed five months for molestation",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r6xh59/deceptive_approach_singapore_man_posing_as/",
+          "score": 15,
+          "num_comments": 16,
+          "created_at": "2026-02-17T13:26:19",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r6xh59",
+            "post_title": "Deceptive approach: Singapore man posing as colleague of victim’s dad jailed five months for molestation",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses intense anger and outrage over the perceived leniency of the sentence, specifically questioning why caning was not imposed as punishment. The use of caps and questioning tone conveys emphatic dissatisfaction with the judicial outcome.",
+              "quotes": [
+                {
+                  "quote": "Y NO CANING??????",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 4,
+      "comments_analyzed": 57,
+      "top_posts": [
+        {
+          "id": "t3_1r6het7",
+          "title": "What expense and savings tracker do you use this 2026?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r6het7/what_expense_and_savings_tracker_do_you_use_this/",
+          "score": 36,
+          "num_comments": 47,
+          "created_at": "2026-02-17T02:21:44",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r6het7",
+            "post_title": "What expense and savings tracker do you use this 2026?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear dissatisfaction with app performance issues (battery drain during sync) and recurring price increases, showing noticeable frustration with service reliability and costs rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "Recently I saw Budget Flow which piqued my interest, but because the amount of data I imported from Money Manager over to it was so high that the app drained my battery so fast while trying to sync, I had to delete it…",
+                  "score": 4
+                },
+                {
+                  "quote": "Long ago I used to use YNAB but they have increased their prices at least three times since and I have stopped.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong enthusiasm and satisfaction across multiple users who praise their chosen tools for control, ease of use, customization, and reduced friction, with deliberate language choices emphasizing positive experiences and long-term commitment.",
+              "quotes": [
+                {
+                  "quote": "Excel with manual input via CSVs. The best. Full control and flexibility and you can customise what you want to see.",
+                  "score": 39
+                },
+                {
+                  "quote": "Google sheets, cos it forces me to go through my statements and be aware of every cent of my spending.",
+                  "score": 22
+                },
+                {
+                  "quote": "I tried a few apps before this and eventually settled on this one since it has everything I need.",
+                  "score": 6
+                },
+                {
+                  "quote": "I use money manager as it offers enough details and has an easy to use UI.",
+                  "score": 6
+                },
+                {
+                  "quote": "Money Manager has been enough for me for a few years now. I customize my categories, set my budgets (can be changed every month if needed), and it takes less than 10 seconds to log an expense.",
+                  "score": 3
+                },
+                {
+                  "quote": "Been using mysprout.ai for quite awhile tracking monthly expense, i've been searching for trackers that can do automatic transaction but this is the closest so far, upload statements and it can track my cards and expenses.",
+                  "score": 3
+                },
+                {
+                  "quote": "Works pretty well for me as it reduces user friction for me.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r6hjpp",
+          "title": "DBS altitude card",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r6hjpp/dbs_altitude_card/",
+          "score": 6,
+          "num_comments": 9,
+          "created_at": "2026-02-17T02:26:30",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r6hjpp",
+            "post_title": "DBS altitude card",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about potential future devaluations of the card benefits and hidden costs in the points redemption process. These are substantive worries about value erosion rather than passing remarks.",
+              "quotes": [
+                {
+                  "quote": "And also that in 2 years could come nerfs and devaluations",
+                  "score": 1
+                },
+                {
+                  "quote": "Not forgetting some fees in transferring credit card points to miles and then miles to actual tickets.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is clear frustration about the card's earning rate (1.3mpd) being uncompetitive compared to alternatives (4mpd cards). The tone reflects a definite stance that the card underperforms in this key metric.",
+              "quotes": [
+                {
+                  "quote": "1.3mpd on all spend will put u back against 4mpd card",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A brief, casual expression of approval without elaboration or enthusiasm. The simple thumbs-up emoji indicates mild positivity rather than strong conviction.",
+              "quotes": [
+                {
+                  "quote": "Good idea 👍",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r71hdj",
+          "title": "Miles game",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r71hdj/miles_game/",
+          "score": 3,
+          "num_comments": 34,
+          "created_at": "2026-02-17T17:25:31",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r71hdj",
+            "post_title": "Miles game",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the $30k annual salary being too low for a fresh graduate, with worries about policy risk and miles devaluation affecting long-term financial prospects.",
+              "quotes": [
+                {
+                  "quote": "The 30k annual is abit disconcerting as it seems low.",
+                  "score": 31
+                },
+                {
+                  "quote": "you'd be subject to policy risk if miles gets devalued.",
+                  "score": 4
+                },
+                {
+                  "quote": "It's scary. Fresh grad and just above 30k?",
+                  "score": 1
+                },
+                {
+                  "quote": "Your salary is too low even for a fresh grad.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Despite initial concerns, there is a measured positive outlook encouraging the person to start the miles accumulation journey early and gradually build wealth over time.",
+              "quotes": [
+                {
+                  "quote": "If this doesn't put you off, welcome to the miles game!",
+                  "score": 4
+                },
+                {
+                  "quote": "Start early. Slowly focus on a card that has no expiry…took me about 15 years to accumulate 4 million miles. Just take your time, also help when you start earning more",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r69h6n",
+          "title": "What’s everyone planning to do with their annual bonus ah?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r69h6n/whats_everyone_planning_to_do_with_their_annual/",
+          "score": 0,
+          "num_comments": 34,
+          "created_at": "2026-02-16T21:22:06",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r69h6n",
+            "post_title": "What’s everyone planning to do with their annual bonus ah?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Multiple commenters express envy and mild irritation about not receiving bonuses, using sarcastic remarks and rhetorical questions to highlight their disappointment. The tone reflects casual complaining (kpkb) rather than intense anger, with phrases like 'nice flex' and 'enjoy your bonus' conveying a mix of sarcasm and resignation.",
+              "quotes": [
+                {
+                  "quote": "No bonus here. Enjoy your bonus",
+                  "score": 49
+                },
+                {
+                  "quote": "You guys have bonuses?",
+                  "score": 38
+                },
+                {
+                  "quote": "Nice flex bro. Nice to be a bonus haver.",
+                  "score": 21
+                },
+                {
+                  "quote": "No bonus. I envy you - I don't have spare money that requires inspiration to spend on. Enjoy your bonus.",
+                  "score": 2
+                },
+                {
+                  "quote": "What bonus?",
+                  "score": 5
+                },
+                {
+                  "quote": "What annual bonus?",
+                  "score": 3
+                },
+                {
+                  "quote": "Sorry bro no bonuses for me…",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A couple of commenters express casual, matter-of-fact plans to spend their bonuses on luxury items like watches and designer shopping. The tone is straightforward and lacks enthusiasm or excitement, suggesting simple intentions rather than genuine excitement.",
+              "quotes": [
+                {
+                  "quote": "Gonna buy a new watch",
+                  "score": 4
+                },
+                {
+                  "quote": "Prob doing some shopping at hermes",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "If they just allow full refund of deposits, it'll open floodgates of everyone else reserving a table and cancelling last minute if they decide to go somewhere else.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 33,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You would not believe how many people suddenly have a death in the family when they realize that it's the policy.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 44,
+        "intensity": "moderate"
+      },
+      {
+        "text": "She worries about not being able to accompany him forever, but hopes he will continue forward bravely when that day comes.",
+        "post_id": "t3_1r6woqx",
+        "post_title": "Do anyone remember this tunnel from the channel 8 drama \"10 years ago?",
+        "subreddit": "singapore",
+        "score": 270,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Huh, no one seriously hurt in this situation? Someone up there or down there looking after the drivers.",
+        "post_id": "t3_1r6vcpp",
+        "post_title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Still… with rising costs everywhere, I wonder if 7% is really enough long term.",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Tomorrow probably gonna get arm muscle ache.",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "That's how it is when you convinced yourself that you won't survive NS, and then you spiral deeper in that fear every time you mentioned it.",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "He's so scared",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 13,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So scared of ns",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "CPF is not perfect, but it is necessary to prevent irresponsible people from being a burden to society.",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 272,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Please do not have kids if you don't earn much...",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 318,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I fear he was just trying to bully women 😭",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Clementi has always been a hotspot for weirdos..",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 25,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sounds very familiar to Japan where an elderly man will purposefully knock into you with his shoulder for no apparent reason. And they purposefully target females, also for no reason.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Hopefully, the next time we meet is not someone's funeral.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 30,
+        "intensity": "strong"
+      },
+      {
+        "text": "I said \"was\" because he passed away from cardiac arrest in 2023 at age 27. Since then I really don't have a \"close\" cousin anymore.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "I guess you don't have much options since you already tried speaking to them.",
+        "post_id": "t3_1r6aqw4",
+        "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You can get rid of the chickens easily with the help of authorities but I doubt you can get rid of the stench e.g. burning of incense, or even old smelly stuff should they choose not to do anything about hygiene.",
+        "post_id": "t3_1r6aqw4",
+        "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "U can try to raise the issue with ur MP but beware it will take months for it to resolve.",
+        "post_id": "t3_1r6aqw4",
+        "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm hoping to at least maintain my weight and not gain it.",
+        "post_id": "t3_1r6o424",
+        "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+        "subreddit": "askSingapore",
+        "score": 46,
+        "comment_score": 29,
+        "intensity": "mild"
+      },
+      {
+        "text": "We don't expect our $700 back and did not bother to pursue, but we certainly do not recommend Urban Company and will no longer engage their services.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They would be able to inspect your system more thoroughly and maybe identify the cause (natural over time? Damage?).",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Scarly he punches you how??? What if that guy is a violent drug addict or what. We never know.",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This reminds me of one of the episodes on kdrama Taxi Driver S3 where the ppl trying to outsmart the scammer ended up with even bigger losses.",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "makes me miss my relatives back home",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "The next generation is going to grow up selfish and entitled sadly.",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It be interesting to see what kind of an adult becomes of this",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 25,
+        "intensity": "moderate"
+      },
+      {
+        "text": "30s single women bring him to gatherings invite more questions than answers.",
+        "post_id": "t3_1r6c53d",
+        "post_title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+        "subreddit": "SingaporeRaw",
+        "score": 71,
+        "comment_score": 73,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We'll never learn and forever live in regret.",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Worse still, you have more of these snakes and morons coming here to use Singapore as a springboard to other countries. In the meanwhile, the housing prices get inflated like crazy and the \"PRs\" just bail whenever it's convenient. Horrible.",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm thinking about my future in this company. If I stay, I have to sit across the table from a woman who mocks the very values my forefathers built Singapore on—hard work, integrity, and family.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The perceived fear of losing money, losing stability, will keep us voting foolishly until we maybe lose our sovereignty in a geopolitical upheaval or the true King comes back again.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Once they fly or drive back in, you'll be hit again by the public transport meltdown.",
+        "post_id": "t3_1r70fj0",
+        "post_title": "SG felt less crowded these few days yet things are functioning as per normal",
+        "subreddit": "SingaporeRaw",
+        "score": 53,
+        "comment_score": 30,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The effects take time to come in and make you feel the hurt.",
+        "post_id": "t3_1r70fj0",
+        "post_title": "SG felt less crowded these few days yet things are functioning as per normal",
+        "subreddit": "SingaporeRaw",
+        "score": 53,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And then if they do, what's your chances of getting 12 pax(?) on the ferry?",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 8,
+        "intensity": "mild"
+      },
+      {
+        "text": "And also that in 2 years could come nerfs and devaluations",
+        "post_id": "t3_1r6hjpp",
+        "post_title": "DBS altitude card",
+        "subreddit": "singaporefi",
+        "score": 6,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Not forgetting some fees in transferring credit card points to miles and then miles to actual tickets.",
+        "post_id": "t3_1r6hjpp",
+        "post_title": "DBS altitude card",
+        "subreddit": "singaporefi",
+        "score": 6,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The 30k annual is abit disconcerting as it seems low.",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 31,
+        "intensity": "moderate"
+      },
+      {
+        "text": "you'd be subject to policy risk if miles gets devalued.",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's scary. Fresh grad and just above 30k?",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Your salary is too low even for a fresh grad.",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "Those important events once a year is damn important for them in terms of income. also not right for them to just eat the loss.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 223,
+        "intensity": "strong"
+      },
+      {
+        "text": "By cancelling last min, the restaurant will incur ingredient loss, opportunity loss, labour, etc.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 223,
+        "intensity": "strong"
+      },
+      {
+        "text": "Singaporeans no class nowadays curse and swear at staff. And also brainless.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 31,
+        "intensity": "strong"
+      },
+      {
+        "text": "This Karen apparently also had a lot of special requests which the restaurant spent time and money to prep for.",
+        "post_id": "t3_1r6trr5",
+        "post_title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+        "subreddit": "singapore",
+        "score": 469,
+        "comment_score": 111,
+        "intensity": "strong"
+      },
+      {
+        "text": "If Chinese people showered in the morning in the 1930s I don't see why we can't all do it now...what happened in between 😭",
+        "post_id": "t3_1r6cm70",
+        "post_title": "Throwback to 1939: Singapore’s Water Usage Peaks the Day Before CNY 🧧🚿",
+        "subreddit": "singapore",
+        "score": 214,
+        "comment_score": 22,
+        "intensity": "moderate"
+      },
+      {
+        "text": "How tf is this happening again",
+        "post_id": "t3_1r6ywh7",
+        "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+        "subreddit": "singapore",
+        "score": 107,
+        "comment_score": 30,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This feels familiar",
+        "post_id": "t3_1r6ywh7",
+        "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+        "subreddit": "singapore",
+        "score": 107,
+        "comment_score": 21,
+        "intensity": "moderate"
+      },
+      {
+        "text": "7% isn't much if you do the calculations but hopefully the new salary guidelines ensure better increments for them in the years to come.",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "A 7% bump isn't life-changing, but for community care staff who've been stretched for years, it's at least some recognition.",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Very reckless. 🥲 Almost slipped when he suddenly stepped on the brakes.",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My arms are so very le tired...",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "CNY is just another warzone for parents",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "V sian leh this year.",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Really need to stop giving this sick person a platform and publicising his disturbed thoughts.",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 69,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can we stop giving this clown attention",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 59,
+        "intensity": "strong"
+      },
+      {
+        "text": "Bro why did you post this man",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 40,
+        "intensity": "strong"
+      },
+      {
+        "text": "why even bother giving this joker the attention he seeks?",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 34,
+        "intensity": "strong"
+      },
+      {
+        "text": "Damn, this guy doesnt even make sense anymore does he",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Still behaving like edgy sec 1 boy.",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "This guy still at it?",
+        "post_id": "t3_1r6tcmb",
+        "post_title": "Amos Yee: Why Singapore Military Sucks",
+        "subreddit": "singapore",
+        "score": 0,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "it's going to rain whole day from the look of it.",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 54,
+        "intensity": "mild"
+      },
+      {
+        "text": "Prices shown on menus should include GST. I don't like eating somewhere and then seeing a higher price on the bill than expected.",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 521,
+        "intensity": "strong"
+      },
+      {
+        "text": "Restaurants charging $ for tap water should be hanged drawn and quartered",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 479,
+        "intensity": "strong"
+      },
+      {
+        "text": "Breadtalk and toastbox are horrible and bringing down our standards, fight me",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 442,
+        "intensity": "strong"
+      },
+      {
+        "text": "10% service charge shouldn't be levied for QR code ordering",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 325,
+        "intensity": "strong"
+      },
+      {
+        "text": "In fact all outdoor seating must have shelter it's so darn hot 🔥",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 169,
+        "intensity": "strong"
+      },
+      {
+        "text": "Kaya toast, egg + kopi should not be more than $4 (i did the maths)",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "Told the MRT staff and wasted 2 bloody hours with transit police with NO FOLLOW UP.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "What an asshole.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 161,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yuck.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "Outrageous.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "One guy in his 50s slammed his shoulder into me at an NTUC. Like he would move aside for guys walking near him, but if it was a female, he wouldnt move aside and would increase his speed a little and shoulder check her.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sadly it's not the first time I experienced this, but it was the first time in Sg. I was hit so many times in Korea.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "I experienced the same thing last year at little india stn. It was a short uncle and he was with his wife too. He shoulded checked me really hard but he jerked back instead lol...i nvr saying afterwards because he walked away swiftly with the wife.",
+        "post_id": "t3_1r6bpwr",
+        "post_title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+        "subreddit": "askSingapore",
+        "score": 327,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "Still do. A bit paiseh, but feels rude to refuse.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 67,
+        "intensity": "mild"
+      },
+      {
+        "text": "I felt very paiseh though rejecting is worse cuz it's a token of blessing and not a big sum.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "I've even memorised the questions they ask me and the way they ask the questions because every single time it's the same (they don't remember that they've asked before and they don't remember my answers)",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 51,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lol fall out between the siblings (my parents and their parents) and cousins decided that they didn't even want to attend my wedding even though I went to their house to invite personally. They cut me off even though I didn't do anything.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "Especially not with my younger cousins. They're glued to their devices at family gathering and keep to themselves. As we got older, there have been some unpleasant comments about each other here and there by the older generation, yet they act cordial when everyone meet up. It's odd and sometimes pretentious.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "I always have great memories of playing with my cousins, but I don't get time or rather make time to create memories now. I regret that a lot.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "The last time I met a few cousins was at a funeral about 15 years ago. Some I have not seen for 30+ years.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I've had the misfortune of living beside a neighbour like that, although I felt mine was worse as we were living on the top floor. Similar to you, had to endure foul smells for months.",
+        "post_id": "t3_1r6aqw4",
+        "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "My parents' neighbour kept dozen of cats and allow them to keep breeding. Their place smells of cat poo and had incident of cats falling from the window. Even then, it took months and months of intervention and following up for them to eventually remove the excess cats.",
+        "post_id": "t3_1r6aqw4",
+        "post_title": "Wwyd if your neighbours own chickens and stink up the whole place",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Breakfast? Still rushing to prepare a big lunch! 🤣",
+        "post_id": "t3_1r6o424",
+        "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+        "subreddit": "askSingapore",
+        "score": 46,
+        "comment_score": 44,
+        "intensity": "mild"
+      },
+      {
+        "text": "It's worse because the aircon broke down just before CNY and I still have to handle this on the first few days of CNY.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Within a week, 2 of our 3 aircon units were noticeably warmer (3-4 degrees warmer and 20% humidity).",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "After the PCB was replaced, the issue persisted. The PCB was taken away so we can't verify that it really was faulty.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "Still, the poor aircon performance persisted.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "Raised this with Urban Company, and they repeatedly denied that there were issues caused by the servicing or incorrect diagnoses by the technicians.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "I wasn't happy actually, so two weeks later, I called the usual company to do it.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah, I engaged them once and realized it was too much money for just spraying water on the radiators.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "First they spoil it then they earn",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "From my experience, police report will be useless, they are of no help at all.",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 44,
+        "intensity": "strong"
+      },
+      {
+        "text": "Happened to me before too on Carousell, but for a much larger sum (4 figures).",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 44,
+        "intensity": "strong"
+      },
+      {
+        "text": "I got scammed recently on carousell too. Bought a Nike slides when the listing stated it was genuine. Upon receiving it, it is fake AF.",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "When I report to carousell, the reject the report of selling counterfeit goods. The rejection message asked me to write instead which I did. Guess what? When I email them, they ask me to use the app to report instead like wtf. I was in this loop for a while.",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Finally they said I had to get a memo from the manufacturer to verify that the item is fake first before I can lodge complaint against him. The hell…",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Seem like carousel don't give a shit about it",
+        "post_id": "t3_1r6ert5",
+        "post_title": "scammed on carousell, how to confront the guy?",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's only bad if they ask nosy questions",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wait till their sarcastic comments on why I am so fat when I am visibly jacked. No tummy, athletic build. I have a super huge frame though.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "The other one will be why are you not married? Why your hair so long? You should cut.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tired",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm a serial CNY/LNY hater, but that's mostly because I feel like there is no choice/I'm forced into everything.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Imagine one nosey/busybody classmate or colleague being nosey/busybody, but you cannot just keep quiet and smile, or ask them to shut up, because of *P I E T Y*",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Permissive parents breed entitled brats",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 39,
+        "intensity": "strong"
+      },
+      {
+        "text": "Kid is a brat. I like children but I have to say I really dislike that one lol.",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "This annoys me when the kids are causing disturbances and inconvenience to other people around.",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "So many brats in Singapore",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "My neighbour's kid literally screeches while playing his computer games. Not an excited shout but a keening screech at max volume that can be heard even through closed doors. Parents does nothing.",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Singaporeans are inherently a childish group- easily scammed, follow the herd, only think of money and how to avoid hardships and confrontation.",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "Super permissive parenting and kids will climb all over their parents heads since they set 0 boundaries!",
+        "post_id": "t3_1r6e589",
+        "post_title": "sg parents make terrible parents",
+        "subreddit": "SingaporeRaw",
+        "score": 165,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "Look at this Tard.",
+        "post_id": "t3_1r6qd2d",
+        "post_title": "Who is this MP?",
+        "subreddit": "SingaporeRaw",
+        "score": 114,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "This type u bring home really will shut down ALL questions. Not to mention shutting down the mood hahaha",
+        "post_id": "t3_1r6c53d",
+        "post_title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+        "subreddit": "SingaporeRaw",
+        "score": 71,
+        "comment_score": 28,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Looks more like a clown than a bf to be proud of.",
+        "post_id": "t3_1r6c53d",
+        "post_title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+        "subreddit": "SingaporeRaw",
+        "score": 71,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Punggol voters got played",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 45,
+        "intensity": "strong"
+      },
+      {
+        "text": "Y'all dumbasses suck it up, you voted for this.",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "Just proved how dumb Punggol residents are. Time and again kena conned",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "Before voting say we need him to help in tariffs. After election he tell you gdp growth dosent gurantee jobs.\n\nWhat is this tbh. Than next time will tell u no job not my fault cause you never go for ai course.",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "Before election: \"With you, for you, for Singapore.\". After election: \"F**k you.\"",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "I mean, it was such an obvious ploy.",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Really played us real good. Punggol residents kena scammed hais",
+        "post_id": "t3_1r6ydku",
+        "post_title": "Before election: “We need the taskforce man.”. After election: “We can live with it.”",
+        "subreddit": "SingaporeRaw",
+        "score": 63,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "The moment she steps into the office, I feel so frustrated. She treats her job like a hobby she's bad at.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "It was a total sensory nightmare. She wears the same designer attire for a week straight without washing it. The smell of stale perfume mixed with sweat is everywhere because we sit side-by-side.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The part about coughing and leaving used tissue paper on the table is something that I absolutely cannot tolerate.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "The \"values of our forefathers\" died a long time ago. All the devils are here.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "As a culture and as a nation, our god is Mammon. We worship money, all of us, from the top government officials to the retirees buying 4D and Toto every week.",
+        "post_id": "t3_1r6uyb9",
+        "post_title": "The Paper Doll",
+        "subreddit": "SingaporeRaw",
+        "score": 58,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "GDP over happiness",
+        "post_id": "t3_1r70fj0",
+        "post_title": "SG felt less crowded these few days yet things are functioning as per normal",
+        "subreddit": "SingaporeRaw",
+        "score": 53,
+        "comment_score": 43,
+        "intensity": "strong"
+      },
+      {
+        "text": "Still surprised to see all these hatred comments and thoughts here by the Singaporeans. All these racism and stereotypes hidden behind the smiley faces at its best",
+        "post_id": "t3_1r70fj0",
+        "post_title": "SG felt less crowded these few days yet things are functioning as per normal",
+        "subreddit": "SingaporeRaw",
+        "score": 53,
+        "comment_score": -10,
+        "intensity": "strong"
+      },
+      {
+        "text": "Next few days likely sporadic rain so better to stay indoors or have wet weather plans",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "It might rain more over the next few days so bring a poncho along if you're planning any outdoor activities.",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Sickos",
+        "post_id": "t3_1r71nqk",
+        "post_title": "Bus accident in Yio Chu Kang road. Ppl got down to take photo for 4D.",
+        "subreddit": "SingaporeRaw",
+        "score": 35,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Y NO CANING??????",
+        "post_id": "t3_1r6xh59",
+        "post_title": "Deceptive approach: Singapore man posing as colleague of victim’s dad jailed five months for molestation",
+        "subreddit": "SingaporeRaw",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Recently I saw Budget Flow which piqued my interest, but because the amount of data I imported from Money Manager over to it was so high that the app drained my battery so fast while trying to sync, I had to delete it…",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Long ago I used to use YNAB but they have increased their prices at least three times since and I have stopped.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "1.3mpd on all spend will put u back against 4mpd card",
+        "post_id": "t3_1r6hjpp",
+        "post_title": "DBS altitude card",
+        "subreddit": "singaporefi",
+        "score": 6,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No bonus here. Enjoy your bonus",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 49,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You guys have bonuses?",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 38,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Nice flex bro. Nice to be a bonus haver.",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 21,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No bonus. I envy you - I don't have spare money that requires inspiration to spend on. Enjoy your bonus.",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What bonus?",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What annual bonus?",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sorry bro no bonuses for me…",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "Keep up your good work and reach greater heights to fly the Singapore flag high!",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 109,
+        "intensity": "strong"
+      },
+      {
+        "text": "you made us proud!",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 36,
+        "intensity": "strong"
+      },
+      {
+        "text": "hope he's ok. still amazing that we have anyone to represent us at all in the winter olympics",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 29,
+        "intensity": "strong"
+      },
+      {
+        "text": "You are an inspiration! Hope to see more Singaporeans competing in the winter games.",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "Well done!!!! So PROUD OF U ALREADY. having to be a participant is already dream come true!!!!",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Amazing! 35th best in the world!",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Great effort, good run!",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's amazing how he trained using roller blades. An inspiration to all.",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "to watch our Singaporean conquer the course is very impressive.",
+        "post_id": "t3_1r6dwdq",
+        "post_title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+        "subreddit": "singapore",
+        "score": 373,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "The core message is that he does not need to become someone else, because his true self is already precious.",
+        "post_id": "t3_1r6woqx",
+        "post_title": "Do anyone remember this tunnel from the channel 8 drama \"10 years ago?",
+        "subreddit": "singapore",
+        "score": 270,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I feel that despite it being almost a century later, it might actually still be true",
+        "post_id": "t3_1r6cm70",
+        "post_title": "Throwback to 1939: Singapore’s Water Usage Peaks the Day Before CNY 🧧🚿",
+        "subreddit": "singapore",
+        "score": 214,
+        "comment_score": 72,
+        "intensity": "mild"
+      },
+      {
+        "text": "The driver is accidentally doing a \"福到\" 🧧",
+        "post_id": "t3_1r6vcpp",
+        "post_title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Huat ah",
+        "post_id": "t3_1r6vcpp",
+        "post_title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "WE ARE SO BACK PARK THE DAMN BUS",
+        "post_id": "t3_1r6ywh7",
+        "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+        "subreddit": "singapore",
+        "score": 107,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "Marks the beginning of greatest comeback",
+        "post_id": "t3_1r6ywh7",
+        "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+        "subreddit": "singapore",
+        "score": 107,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sanfrecce 2.0 lets go! Time to park the buses from Tamp Bus Interchange.",
+        "post_id": "t3_1r6ywh7",
+        "post_title": "AFC confirms Tampines Rovers awarded 3-0 win over Công An Hà Nội in AFC Champions League Two",
+        "subreddit": "singapore",
+        "score": 107,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes please do. The amount of essential work they perform is well deserving of visibility and remuneration.",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 55,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Finally a good thing with impact to recognise essential workers instead of claps.",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Good",
+        "post_id": "t3_1r723p0",
+        "post_title": "About 23,000 community care sector employees could get at least 7% pay raise as part of new salary guidelines",
+        "subreddit": "singapore",
+        "score": 83,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's a very touching story... Wish them a blessed and happy life ahead",
+        "post_id": "t3_1r6v5tr",
+        "post_title": "Love With Muscular Dystrophy: Our Unconventional Story | On The Red Dot",
+        "subreddit": "singapore",
+        "score": 29,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Finally ran for the first time today~ it was drizzling abit just now but it's ok.",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We made a memory game and got it published",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This weather is perfect man it needs to stay",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But it's worth it.",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wah finally hearing some lion dance in my area 🎊",
+        "post_id": "t3_1r6nemj",
+        "post_title": "r/singapore random discussion and small questions thread for February 17, 2026",
+        "subreddit": "singapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "88.88km ride today! 🚴‍♂️",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 69,
+        "intensity": "strong"
+      },
+      {
+        "text": "just finished 120 minutes gym, at home now start eating stuff (egg tart, pineapple tart, orange) with a big mug of milo, surfing reddit and internet. later self cooked mee sua soup, before start sitting on sofa netflix marathon and nap.",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 54,
+        "intensity": "strong"
+      },
+      {
+        "text": "Same vibe here, late night walks and simple bonding time instead of crowded house hopping. The sparkler moment sounds very wholesome CNY energy",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Initially wanted to go to east coast to walk/jog, but it's raining now so me and my family end up chilling away in a nice cafe.",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Going to a cafe pickup some cupcakes for gifting tmr, hv my brunch there, and in evening join my relatives for some dinner",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "At Tokyo with my newly wedded wife spending the day at Disneyland!",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I just finished a fun search for the best pineapple tarts. It's all about who can gather the most impressive collection this year.",
+        "post_id": "t3_1r6hscg",
+        "post_title": "How are y'all celebrating CNY now??",
+        "subreddit": "askSingapore",
+        "score": 501,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Playgrounds should have Shelters. Like how it is in Australia.",
+        "post_id": "t3_1r6xnp4",
+        "post_title": "What’s a Singapore opinion you’ll defend even if the whole kopitiam turns against you?",
+        "subreddit": "askSingapore",
+        "score": 416,
+        "comment_score": 169,
+        "intensity": "mild"
+      },
+      {
+        "text": "Still do. Tried telling my older cousins not to give me but they still do. To them it's a form of blessing. I'm in my 40s.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 238,
+        "intensity": "strong"
+      },
+      {
+        "text": "I still receive ang baos. But there are a couple of relatives who have stopped giving and I understand. I don't think there's any issue.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 173,
+        "intensity": "strong"
+      },
+      {
+        "text": "In this economy? I'll take what I can get!",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 119,
+        "intensity": "strong"
+      },
+      {
+        "text": "When I was unmarried in my 30s, I made sure to collect all my angpows. It's one of the rare privilege sof being single",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 63,
+        "intensity": "strong"
+      },
+      {
+        "text": "Im in my late 30s, still collecting angpows haha",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes. If they give just accept graciously. It's a tradition in my family to give ang pows to the singles including the elderly spinsters and bachelors (Quite a few in my family tree) Token sum and no pressure to give.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 46,
+        "intensity": "strong"
+      },
+      {
+        "text": "They give me. I accept. Why not? Nothing wrong with that.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's to wish someone good luck. What does it have to do with age or marriage status?",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes, just take.",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am 41 and I am more than happy to collect if I am offered",
+        "post_id": "t3_1r6bwdt",
+        "post_title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+        "subreddit": "askSingapore",
+        "score": 195,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm closer to my first cousins; we all still stay in the same neighbourhood and meet for dinner every week.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But, it is never too late to start something. Of course our cousins will get to understand us and so I now consider some time to strengthen those relationships.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We had every single shit if stuff so common. Every family gathering, we (A,B and me) will always be a seperate entity. A and B was my blood, flesh and bone. Years passed and we are the type who will talk like we are always in touch even if we never talked for ages.",
+        "post_id": "t3_1r6b58g",
+        "post_title": "Are you close to your cousins?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Plus a fruit and coffee for a nice start to the day.",
+        "post_id": "t3_1r6o424",
+        "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+        "subreddit": "askSingapore",
+        "score": 46,
+        "comment_score": 25,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Annual traditional breakfast of McDonald's.\n\nMy parents have eaten it even before I was born lol",
+        "post_id": "t3_1r6o424",
+        "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+        "subreddit": "askSingapore",
+        "score": 46,
+        "comment_score": 17,
+        "intensity": "moderate"
+      },
+      {
+        "text": "sinful but really cnyish!😝",
+        "post_id": "t3_1r6o424",
+        "post_title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+        "subreddit": "askSingapore",
+        "score": 46,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "After the PCB was replaced, the issue persisted. When the third technician returned, he insinuated that our room temperature monitors were faulty. They replaced it, and our aircon has since performed even better than before the servicing.",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 36,
+        "intensity": "mild"
+      },
+      {
+        "text": "Try to enjoy the rest of CNY!",
+        "post_id": "t3_1r6uehl",
+        "post_title": "Has anyone gotten their air-conditioning spoilt by Urban Company?",
+        "subreddit": "askSingapore",
+        "score": 35,
+        "comment_score": 11,
+        "intensity": "mild"
+      },
+      {
+        "text": "Other than that pretty much, I actually like it a lot since it's the only period of the year where my house will filled with conversations and liveliness",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "It really depends on what sort of questions our relatives will ask but generally its a happy and fun occasion especially when we gather together to play cards.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 30,
+        "intensity": "strong"
+      },
+      {
+        "text": "The unity one can experience when the banker is drawing the card while all players and audience are shouting \"picture picture\" is unbeatable.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 30,
+        "intensity": "strong"
+      },
+      {
+        "text": "Not me. I always look forward to visiting my relatives and having good times with them!",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's amazing! You meet up your old friends that just so happened to be related by blood and eat a scrumptious meal before proceeding to play 6 hours of either card games or mahjong.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Cny is nice to see faces but i have always felt out of place one way or another but I also have gotten used to the feeling, its mostly good. Specially the kids lol damn they grow up tall and fast.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Never teared up hugging my aunts and uncles before i left my home country.",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Not all bad. At least my relatives are not the nosy, comparing sort. It is just a nice get together and catch-up time",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "You can build stronger bonds with your family here in SG, and also take it as an off day for you to rest and rejuvenate as well!",
+        "post_id": "t3_1r6dzas",
+        "post_title": "What's it like having relatives visiting in CNY",
+        "subreddit": "askSingapore",
+        "score": 28,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Waiting for the next Snake year 🐍 \n\nIt's gonna be 🔥",
+        "post_id": "t3_1r6yhhq",
+        "post_title": "Everybody Huat ahhhh",
+        "subreddit": "SingaporeRaw",
+        "score": 232,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Happy lunar new year everyone! Fuck CCP!",
+        "post_id": "t3_1r6yhhq",
+        "post_title": "Everybody Huat ahhhh",
+        "subreddit": "SingaporeRaw",
+        "score": 232,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good money 👏",
+        "post_id": "t3_1r6c53d",
+        "post_title": "Man in S’pore advertises himself as ‘boyfriend for rent’ on social media for Valentine’s Day &amp; CNY.",
+        "subreddit": "SingaporeRaw",
+        "score": 71,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "I left home decades ago and have basically treated my parents as good as dead. So I usually eat CNY eve dinner with foreigner friends and go drinking with them on CNY 1 and 2.",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "good thing is the streets are a lot emptier with either people travelling out or doing visiting so it will hopefully 🤞🏻 be less crowd.",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I am gonna go River Hongbao at Gardens by the Bay to look at the decor",
+        "post_id": "t3_1r6alia",
+        "post_title": "Where 2 go CNY Day1?",
+        "subreddit": "SingaporeRaw",
+        "score": 45,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Huat la…",
+        "post_id": "t3_1r71nqk",
+        "post_title": "Bus accident in Yio Chu Kang road. Ppl got down to take photo for 4D.",
+        "subreddit": "SingaporeRaw",
+        "score": 35,
+        "comment_score": 11,
+        "intensity": "mild"
+      },
+      {
+        "text": "Excel with manual input via CSVs. The best. Full control and flexibility and you can customise what you want to see.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 39,
+        "intensity": "strong"
+      },
+      {
+        "text": "Google sheets, cos it forces me to go through my statements and be aware of every cent of my spending.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 22,
+        "intensity": "strong"
+      },
+      {
+        "text": "I tried a few apps before this and eventually settled on this one since it has everything I need.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I use money manager as it offers enough details and has an easy to use UI.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Money Manager has been enough for me for a few years now. I customize my categories, set my budgets (can be changed every month if needed), and it takes less than 10 seconds to log an expense.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Been using mysprout.ai for quite awhile tracking monthly expense, i've been searching for trackers that can do automatic transaction but this is the closest so far, upload statements and it can track my cards and expenses.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Works pretty well for me as it reduces user friction for me.",
+        "post_id": "t3_1r6het7",
+        "post_title": "What expense and savings tracker do you use this 2026?",
+        "subreddit": "singaporefi",
+        "score": 36,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good idea 👍",
+        "post_id": "t3_1r6hjpp",
+        "post_title": "DBS altitude card",
+        "subreddit": "singaporefi",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "If this doesn't put you off, welcome to the miles game!",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Start early. Slowly focus on a card that has no expiry…took me about 15 years to accumulate 4 million miles. Just take your time, also help when you start earning more",
+        "post_id": "t3_1r71hdj",
+        "post_title": "Miles game",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Gonna buy a new watch",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "Prob doing some shopping at hermes",
+        "post_id": "t3_1r69h6n",
+        "post_title": "What’s everyone planning to do with their annual bonus ah?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Chinese New Year celebrations and traditions",
+      "engagement_score": 1183,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "How are y'all celebrating CNY now??",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1r6hscg/how_are_yall_celebrating_cny_now/"
+        },
+        {
+          "title": "Unmarried Chinese folk in their 30s (or older), do you still collect angpows during CNY?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1r6bwdt/unmarried_chinese_folk_in_their_30s_or_older_do/"
+        },
+        {
+          "title": "What do yall fellow Chinese eat for CNY day 1 breakfast?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1r6o424/what_do_yall_fellow_chinese_eat_for_cny_day_1/"
+        }
+      ],
+      "entities": [
+        "CNY",
+        "Angpao",
+        "Chinese Culture"
+      ]
+    },
+    {
+      "topic": "Restaurant cancellation policies and business practices",
+      "engagement_score": 469,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "S'pore woman cancels restaurant dinner due to family death, allegedly charged S$400 cancellation fee",
+          "url": "https://www.reddit.com/r/singapore/comments/1r6trr5/spore_woman_cancels_restaurant_dinner_due_to/"
+        }
+      ],
+      "entities": [
+        "Restaurant Industry",
+        "Consumer Protection",
+        "Business Policies"
+      ]
+    },
+    {
+      "topic": "Singapore Winter Olympics representation and achievements",
+      "engagement_score": 373,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "Singapore's Faiz Basha overcomes tricky conditions, finishes 35th in slalom at Winter Olympics",
+          "url": "https://www.reddit.com/r/singapore/comments/1r6dwdq/singapores_faiz_basha_overcomes_tricky_conditions/"
+        }
+      ],
+      "entities": [
+        "Winter Olympics",
+        "Sports",
+        "National Pride"
+      ]
+    },
+    {
+      "topic": "Public transport incidents and road safety",
+      "engagement_score": 462,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "ComfortDelGro taxi turns turtle in Ang Mo Kio on first day of CNY",
+          "url": "https://www.reddit.com/r/singapore/comments/1r6vcpp/comfortdelgro_taxi_turns_turtle_in_ang_mo_kio_on/"
+        },
+        {
+          "title": "uncle shoulder checked me super hard on mrt platform (butsukari otoko?)",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1r6bpwr/uncle_shoulder_checked_me_super_hard_on_mrt/"
+        },
+        {
+          "title": "Bus accident in Yio Chu Kang road. Ppl got down to take photo for 4D",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1r71nqk/bus_accident_in_yio_chu_kang_road_ppl_got_down_to/"
+        }
+      ],
+      "entities": [
+        "MRT",
+        "ComfortDelGro",
+        "Road Safety",
+        "Public Transport"
+      ]
+    },
+    {
+      "topic": "Singapore cultural opinions and social behaviors",
+      "engagement_score": 416,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "What's a Singapore opinion you'll defend even if the whole kopitiam turns against you?",
+          "url": null
+        }
+      ],
+      "entities": [
+        "Social Issues",
+        "Cultural Identity",
+        "Community"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "CNY festivities soften Singapore's mood as frustrations drop 33%, but consumer-business tensions simmer beneath the celebration",
+    "key_takeaways": [
+      "CNY period acts as a powerful sentiment stabilizer - frustrations dropped 33% week-over-week while optimism remained steady, suggesting traditional celebrations provide crucial emotional release during challenging times",
+      "Restaurant cancellation policies have become a lightning rod for broader consumer anxiety about business practices, with highly engaged discussions (469+ upvotes) revealing deep concerns about fairness during economic uncertainty",
+      "Singaporeans are actively choosing 'low-key CNY' experiences - intimate family moments, simple cafe visits, and home activities over traditional house-hopping, signaling a shift toward mindful consumption and authentic connection"
+    ],
+    "opportunities": [
+      "F&B and hospitality sectors should develop 'festival season flexibility' policies that balance business protection with consumer goodwill - transparent, fair cancellation terms could become a competitive differentiator",
+      "Brands can tap into the 'authentic CNY' trend by promoting intimate, home-centered celebration products and services rather than just traditional lavish offerings - think premium home dining kits, family activity boxes, or neighborhood cafe experiences"
+    ],
+    "risks": [
+      "Growing consumer-business trust deficit around service policies could escalate beyond F&B - monitor for similar tensions in retail, services, and property sectors where deposits and cancellations are common",
+      "The 24% increase in economic fears suggests underlying financial stress despite CNY optimism - watch for post-festival sentiment crash as celebration spending bills come due and economic realities resurface"
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-02-16",
+    "fears": {
+      "direction": "down",
+      "change_pct": -24.1,
+      "intensity_shift": "stable",
+      "previous_count": 54,
+      "current_count": 41
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -32.9,
+      "intensity_shift": "stable",
+      "previous_count": 152,
+      "current_count": 102
+    },
+    "optimism": {
+      "direction": "stable",
+      "change_pct": 3.9,
+      "intensity_shift": "stable",
+      "previous_count": 76,
+      "current_count": 79
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "National Service Anxiety and Military Fears",
+      "description": "Deep-seated fears about mandatory military service and its psychological impact on young Singaporean men.",
+      "category": "fear",
+      "quote_count": 3,
+      "sample_quotes": [
+        "That's how it is when you convinced yourself that you won't survive NS, and then you spiral deeper in that fear every time you mentioned it.",
+        "He's so scared",
+        "So scared of ns"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Singapore Winter Olympics Pride",
+      "description": "Overwhelming national pride and celebration of Singapore's representation in winter sports despite limited training facilities.",
+      "category": "optimism",
+      "quote_count": 9,
+      "sample_quotes": [
+        "Keep up your good work and reach greater heights to fly the Singapore flag high!",
+        "It's amazing how he trained using roller blades. An inspiration to all.",
+        "to watch our Singaporean conquer the course is very impressive."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Service Industry Customer Relations Crisis",
+      "description": "Frustrations with difficult customers, last-minute cancellations, and declining civility in Singapore's hospitality sector.",
+      "category": "frustration",
+      "quote_count": 5,
+      "sample_quotes": [
+        "Those important events once a year is damn important for them in terms of income. also not right for them to just eat the loss.",
+        "By cancelling last min, the restaurant will incur ingredient loss, opportunity loss, labour, etc.",
+        "Singaporeans no class nowadays curse and swear at staff. And also brainless."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Social Safety and Gender-Based Harassment Concerns",
+      "description": "Fears about public safety, particularly regarding harassment of women in Singapore's residential areas.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "I fear he was just trying to bully women 😭",
+        "Clementi has always been a hotspot for weirdos..",
+        "Sounds very familiar to Japan where an elderly man will purposefully knock into you with his shoulder for no apparent reason. And they purposefully target females, also for no reason."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Economic Adequacy and Wage Concerns",
+      "description": "Mixed feelings about salary increases and cost of living pressures affecting Singapore's workforce.",
+      "category": "frustration",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Still… with rising costs everywhere, I wonder if 7% is really enough long term.",
+        "7% isn't much if you do the calculations but hopefully the new salary guidelines ensure better increments for them in the years to come.",
+        "A 7% bump isn't life-changing, but for community care staff who've been stretched for years, it's at least some recognition."
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "high_engagement",
+      "title": "Exceptional Community Engagement on Everyday Activities",
+      "description": "Multiple quotes about routine activities (cycling, gym, CNY preparations) achieved 501 upvotes each, indicating strong community resonance with simple, authentic lifestyle content during festive period.",
+      "category": "optimism",
+      "related_quotes": [
+        "88.88km ride today! 🚴‍♂️",
+        "just finished 120 minutes gym, at home now start eating stuff (egg tart, pineapple tart, orange) with a big mug of milo, surfing reddit and internet. later self cooked mee sua soup, before start sitting on sofa netflix marathon and nap."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Dominated by Strong Emotions",
+      "description": "74% of frustrations (75 out of 102) showed strong intensity, significantly higher than fears (15%) or optimism (59%), suggesting underlying issues are causing deeper emotional responses rather than mild irritations.",
+      "category": "frustration",
+      "related_quotes": [
+        "If they just allow full refund of deposits, it'll open floodgates of everyone else reserving a table and cancelling last minute if they decide to go somewhere else.",
+        "You would not believe how many people suddenly have a death in the family when they realize that it's the policy."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate Discussion Volume",
+      "description": "Frustrations account for 46% of total sentiment volume (102 out of 222), nearly 2.5x higher than fears (41) and significantly outpacing optimism (79), indicating community discourse is heavily weighted toward negative experiences.",
+      "category": "frustration",
+      "related_quotes": [
+        "If they just allow full refund of deposits, it'll open floodgates of everyone else reserving a table and cancelling last minute if they decide to go somewhere else.",
+        "You would not believe how many people suddenly have a death in the family when they realize that it's the policy."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Business Ethics and Consumer Rights Focus",
+      "description": "Restaurant cancellation policies and business practices emerged as a significant discussion point, with high-engagement quotes revealing community concerns about fair business practices and consumer protection during peak periods.",
+      "category": "frustration",
+      "related_quotes": [
+        "If they just allow full refund of deposits, it'll open floodgates of everyone else reserving a table and cancelling last minute if they decide to go somewhere else.",
+        "You would not believe how many people suddenly have a death in the family when they realize that it's the policy."
+      ],
+      "urgency": "low"
+    }
+  ]
+}
