@@ -1,0 +1,4136 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-02-21",
+  "report_date": "2026-02-21",
+  "generated_at": "2026-02-21T13:44:54.918736",
+  "metadata": {
+    "total_posts_analyzed": 40,
+    "total_comments_analyzed": 386,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Housing market anxiety dominates today's fears, with Singaporeans deeply concerned about record-breaking resale prices spiraling out of control. The S$695,000 2-room flat sale in Queenstown has shocked many, sparking worries about affordability for ordinary families. COE pricing confusion adds to transport cost anxieties, while personal concerns about exam results and family relationships create additional stress. There's also growing unease about public safety and anti-social behavior in neighborhoods.",
+      "quote_count": 43,
+      "intensity_breakdown": {
+        "mild": 5,
+        "moderate": 26,
+        "strong": 12
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Strong anger erupts over housing prices, with Singaporeans questioning buyers' logic in paying S$700k for tiny 2-room flats. The 2% civil service pay rise draws scorn as 'truly pathetic' given inflation pressures. Service quality complaints are widespread - from aesthetic clinics to warranty claims to hawker center management. Traffic violations, noise complaints, and anti-social behavior fuel community tensions, while many express exasperation at government policies and social issues.",
+      "quote_count": 89,
+      "intensity_breakdown": {
+        "mild": 2,
+        "moderate": 26,
+        "strong": 61
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Positive sentiment centers around lifestyle and financial planning discussions. Singaporeans show enthusiasm for local experiences - from hiking trails to tingkat meals to successful sports comebacks. There's satisfaction with career progress and FIRE (Financial Independence, Retire Early) achievements, alongside excitement about travel and holiday spending. Banking product discussions and investment strategies generate constructive engagement, while some express genuine happiness about pay raises and community improvements.",
+      "quote_count": 60,
+      "intensity_breakdown": {
+        "mild": 13,
+        "moderate": 26,
+        "strong": 21
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 84,
+      "top_posts": [
+        {
+          "id": "t3_1r9t22r",
+          "title": "Oh wow this is really cool",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9t22r/oh_wow_this_is_really_cool/",
+          "score": 1230,
+          "num_comments": 54,
+          "created_at": "2026-02-20T19:37:07",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9t22r",
+            "post_title": "Oh wow this is really cool",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses a clear wish for more public holidays distributed throughout the year, particularly noting the imbalance between the first and second half with casual language ('Could use more PH, everyone loves PH').",
+              "quotes": [
+                {
+                  "quote": "On the other hand I wish we had more public holidays in the 2nd half of the year. Till June we have one per month and then afterwards there's only National Day, Deepavali and Christmas",
+                  "score": 49
+                },
+                {
+                  "quote": "Could use more PH, everyone loves PH",
+                  "score": 18
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The commenter expresses genuine appreciation and warmth toward the subject matter, using positive language like 'heartening' and 'love' with a heart emoji to convey affection for their home.",
+              "quotes": [
+                {
+                  "quote": "Really really heartening to see this in our home❤️‍🩹",
+                  "score": 41
+                },
+                {
+                  "quote": "One of my favourite temples. I love this picture",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9qe40",
+          "title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9qe40/about_22000_civil_servants_to_get_pay_rise_of/",
+          "score": 193,
+          "num_comments": 77,
+          "created_at": "2026-02-20T17:01:07",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9qe40",
+            "post_title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express clear dissatisfaction with the pay raise percentage and absolute salary levels, viewing 2% as inadequate and $2k/month as insufficient for a 53-year-old civil servant.",
+              "quotes": [
+                {
+                  "quote": "2% is truly pathetic",
+                  "score": 47
+                },
+                {
+                  "quote": "wtf $2k/mth as a 53-year-old is really quite low.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Muted positivity is expressed, with cautious acceptance of the pay raise for others and acknowledgment of personal career choices, rather than genuine enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "I'm glad it'll at least help Mr Kathavarayan.",
+                  "score": 6
+                },
+                {
+                  "quote": "Can't complain about people getting a pay raise when I made my own decision to not join the public service right.",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9ubnc",
+          "title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9ubnc/2room_resale_flat_in_queenstowns_skyparc_dawson/",
+          "score": 118,
+          "num_comments": 85,
+          "created_at": "2026-02-20T20:41:29",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9ubnc",
+            "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about housing prices spiraling out of control are clearly expressed, though without extreme alarm or panic language. The worry is grounded in observable trends rather than expressed with intense emotional urgency.",
+              "quotes": [
+                {
+                  "quote": "I think the housing prices are seriously out of control at this point.",
+                  "score": 19
+                },
+                {
+                  "quote": "get ready for more shocking prices",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation and disbelief are evident through rhetorical questioning, capitalized words, Singaporean colloquialisms ('WEI SHE MO', 'MEH'), sarcastic laughter, and repeated use of 'crazy.' The frustration stems from perceived illogical housing valuations and systemic policy failures.",
+              "quotes": [
+                {
+                  "quote": "Why buyer, WHY?? $700k can buy 4room resale or 5room resale lei!!! Why you buy a tiny 2 room???? WEI SHE MO??? Dawson is good, but THAT GOOD MEH??",
+                  "score": 182
+                },
+                {
+                  "quote": "Even the so called slum estate 2 rooms are in the 450-500k range",
+                  "score": 25
+                },
+                {
+                  "quote": "Man this 2 room is on par with my flats resale value in Punggol, and I live in a 4 room ffs.",
+                  "score": 25
+                },
+                {
+                  "quote": "Something is really awry with public housing policy.",
+                  "score": 25
+                },
+                {
+                  "quote": "2 rm going for 700k HAHAHAH",
+                  "score": 18
+                },
+                {
+                  "quote": "crazy, just crazy..",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, self-interested observation about potential personal gain from rising property values, without enthusiasm or excitement. It reads more as a passing opportunistic thought than genuine optimism.",
+              "quotes": [
+                {
+                  "quote": "Looks like I can sell my 3 room for 1mio in due course",
+                  "score": 48
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9pkss",
+          "title": "Cat B COE Priced Lower Than CAT A",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9pkss/cat_b_coe_priced_lower_than_cat_a/",
+          "score": 115,
+          "num_comments": 35,
+          "created_at": "2026-02-20T16:08:52",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9pkss",
+            "post_title": "Cat B COE Priced Lower Than CAT A",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern that the COE pricing anomaly will cause a market shift where EVs migrate to Category B, disrupting the intended vehicle classification system.",
+              "quotes": [
+                {
+                  "quote": "EVs will start to go CatB now cos it does not make sense that I can get a more powerful car now at a cheaper COE",
+                  "score": 34
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Significant frustration is expressed about the broken COE system with sarcastic commentary, viewing Cat B as degraded to 'poor people car' status and criticizing the lack of proper price discovery mechanisms.",
+              "quotes": [
+                {
+                  "quote": "Clearly system is broken for way too long",
+                  "score": 9
+                },
+                {
+                  "quote": "Cat B is the new poor people car",
+                  "score": 9
+                },
+                {
+                  "quote": "Yeah very efficient price discovery, no funny business going on here.",
+                  "score": 15
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9xe5u",
+          "title": "Balestier Khalsa comeback to beat Geylang 5-2",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9xe5u/balestier_khalsa_comeback_to_beat_geylang_52/",
+          "score": 88,
+          "num_comments": 11,
+          "created_at": "2026-02-20T22:52:09",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9xe5u",
+            "post_title": "Balestier Khalsa comeback to beat Geylang 5-2",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear dissatisfaction with the Balestier coach's performance, calling him 'lousy' with a definite stance that he should be replaced.",
+              "quotes": [
+                {
+                  "quote": "I still think the Balestier coach must go. He's lousy.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, positive observation about Gavin Lee's presence at the match, expressed in a light and pleasant manner.",
+              "quotes": [
+                {
+                  "quote": "nice to see Gavin Lee watching on",
+                  "score": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1racujb",
+          "title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+          "url": "https://old.reddit.com/r/singapore/comments/1racujb/59_motorists_punished_for_traffic_offences/",
+          "score": 54,
+          "num_comments": 10,
+          "created_at": "2026-02-21T08:40:39",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1racujb",
+            "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong exasperation at queue jumpers and inconsiderate drivers, expressed through emphatic language ('buggers', 'Fuck them', 'F them') and vivid descriptions of dangerous and selfish behavior. Commenters view these offences as deliberate inconsiderateness that endangers others and wastes everyone's time.",
+              "quotes": [
+                {
+                  "quote": "Well deserved. These buggers make life worse for everyone (including themselves) by delaying buses and other traffic just because they insist on being selfish.",
+                  "score": 34
+                },
+                {
+                  "quote": "Deserved. Queue cutters insist on going to your lane even at the expense of a possible accident. Fuck them.",
+                  "score": 21
+                },
+                {
+                  "quote": "They are inconsiderate idiots that thinks other people's time isn't important, only theirs are. F them!",
+                  "score": 14
+                },
+                {
+                  "quote": "Those idiots that dive bomb for every small little gap to enter then it's on you to react in time to not hit them.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear hope that stricter penalties will deter future traffic offences, showing constructive belief in the system's ability to improve road behavior. The sentiment is positive but measured, focusing on practical deterrence rather than enthusiastic celebration.",
+              "quotes": [
+                {
+                  "quote": "Hope the penalities increase to make them think thrice",
+                  "score": 34
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9rovd",
+          "title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9rovd/mobility_scooter_prices_may_rise_by_up_to_15/",
+          "score": 53,
+          "num_comments": 40,
+          "created_at": "2026-02-20T18:18:58",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9rovd",
+            "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about mobility scooter misuse and unsafe behavior on the roads, with a desire for stricter regulatory measures like COE and tracking systems to control ownership and monitor user activities.",
+              "quotes": [
+                {
+                  "quote": "I hope mobility scooters require the equivalent of COE and OBU (extremely high cost of ownership + ability to track anywhere). All the goons speeding around or using them as battering rams is very aggravating.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users express intense frustration and anger at dangerous mobility scooter users who speed, behave aggressively, and pose safety risks, with particular exasperation at the lack of enforcement against such behavior.",
+              "quotes": [
+                {
+                  "quote": "I have hated your kind every since one of you almost knocked my kids down and screamed at them for being in your way.",
+                  "score": 53
+                },
+                {
+                  "quote": "Thanks to those trash people that abuse it.",
+                  "score": 5
+                },
+                {
+                  "quote": "All the goons speeding around or using them as battering rams is very aggravating.",
+                  "score": 3
+                },
+                {
+                  "quote": "Sadly, no enforcement means this is nothing to worry about for them.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is cautious satisfaction about potential price increases and stricter regulations that might deter problematic users, expressed in casual/humorous Singaporean vernacular.",
+              "quotes": [
+                {
+                  "quote": "COE goes up. I happy. PMD tio pwn. I happy.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1rafkny",
+          "title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+          "url": "https://old.reddit.com/r/singapore/comments/1rafkny/audrey_fang_death_family_seeks_to_keep_suspect/",
+          "score": 46,
+          "num_comments": 10,
+          "created_at": "2026-02-21T10:46:12",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1rafkny",
+            "post_title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern that the suspect may evade justice, expressed with a rhetorical question that conveys genuine worry about the outcome of the case.",
+              "quotes": [
+                {
+                  "quote": "He's gonna get away with it isn't he",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express noticeable exasperation about the prolonged investigation timeline and acknowledge structural barriers like jurisdictional complications that hinder progress.",
+              "quotes": [
+                {
+                  "quote": "wow it's been so long, wonder why investigations are taking so long",
+                  "score": 27
+                },
+                {
+                  "quote": "But no incentive for Spanish court to speed up",
+                  "score": -20
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual hope that justice will ultimately be served, stated as a simple wish without strong conviction or enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Hopefully justice is served",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9qcxo",
+          "title": "A-level exam results to be released on Feb 27",
+          "url": "https://old.reddit.com/r/singapore/comments/1r9qcxo/alevel_exam_results_to_be_released_on_feb_27/",
+          "score": 20,
+          "num_comments": 8,
+          "created_at": "2026-02-20T16:59:14",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1r9qcxo",
+            "post_title": "A-level exam results to be released on Feb 27",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "A deeply disturbing reference to student suicide during A-level results day reveals severe anxiety about the psychological impact of exam outcomes. This is an intense expression of existential dread regarding the stakes of academic performance.",
+              "quotes": [
+                {
+                  "quote": "Throwback to the day when I found a student who leapt to his death during A levels results day.",
+                  "score": 11
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Multiple supportive messages wishing students well demonstrate genuine encouragement and positive sentiment. The tone is warm and sincere, though expressed in casual, conversational language rather than emphatic excitement.",
+              "quotes": [
+                {
+                  "quote": "All the best to everyone!",
+                  "score": 18
+                },
+                {
+                  "quote": "all the best guys",
+                  "score": 5
+                },
+                {
+                  "quote": "Good luck y'all!!❤️‍🩹",
+                  "score": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1radj7q",
+          "title": "'Aircon weather' in Singapore: What's behind the rainy, cool week?",
+          "url": "https://old.reddit.com/r/singapore/comments/1radj7q/aircon_weather_in_singapore_whats_behind_the/",
+          "score": 19,
+          "num_comments": 5,
+          "created_at": "2026-02-21T09:11:04",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1radj7q",
+            "post_title": "'Aircon weather' in Singapore: What's behind the rainy, cool week?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about the temporary nature of pleasant weather, expressed as a casual reminder to enjoy it while it lasts rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Well lets enjoy it while it last.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear appreciation for the relief from haze, with a definite positive stance on the cool, rainy weather as a welcome break from usual conditions.",
+              "quotes": [
+                {
+                  "quote": "Definitely a welcome break from the haze",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 78,
+      "top_posts": [
+        {
+          "id": "t3_1r9yk5m",
+          "title": "Should I lie to my family about my salary?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9yk5m/should_i_lie_to_my_family_about_my_salary/",
+          "score": 207,
+          "num_comments": 127,
+          "created_at": "2026-02-20T23:36:12",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9yk5m",
+            "post_title": "Should I lie to my family about my salary?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about family becoming financially dependent and exploitative, with practical concerns about losing government subsidies if income is disclosed. The person has witnessed these consequences firsthand among friends and themselves.",
+              "quotes": [
+                {
+                  "quote": "There's a chance that people might feel entitled to your money if they know you're making a decent living.",
+                  "score": 407
+                },
+                {
+                  "quote": "if not you might eventually become the defacto person people expect to help for family financial matters. seen it happen to friends and even myself",
+                  "score": 227
+                },
+                {
+                  "quote": "Take note that your income could easily bump your family out of subsidies like Chas card in the future so do remember to disclose a reasonable sum.",
+                  "score": 35
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear concern about family's lack of financial literacy and their tendency to gossip about income to others, creating unwanted social complications.",
+              "quotes": [
+                {
+                  "quote": "My family have no financial education and will tell people.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Cautious positivity about transparency when family circumstances are balanced and secure, with appreciation for family's perspective on work-life balance and shared values around financial responsibility.",
+              "quotes": [
+                {
+                  "quote": "Told me to rest and enjoy life more instead of working so much",
+                  "score": 74
+                },
+                {
+                  "quote": "I'm transparent with them about it because they earn way more than me and have multiple sources of income and they have pretty much planned out their retirement.",
+                  "score": 6
+                },
+                {
+                  "quote": "we still do so anyway cause we feel it's only right.",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9v0rg",
+          "title": "Tingkat recommendations for a family of three",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9v0rg/tingkat_recommendations_for_a_family_of_three/",
+          "score": 13,
+          "num_comments": 20,
+          "created_at": "2026-02-20T21:13:39",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9v0rg",
+            "post_title": "Tingkat recommendations for a family of three",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A single experience with a tingkat service that resulted in food waste, expressed with casual regret rather than deep concern.",
+              "quotes": [
+                {
+                  "quote": "I tried one call royal something. Lucky is only 1 month. I basically threw away most of it.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with tingkat services regarding repetitive flavors, portion overflow, and inconvenient delivery times, though expressed with a lighthearted tone.",
+              "quotes": [
+                {
+                  "quote": "I tried tingkat in the past. But kids always got bored after the second week. (And my kids are not picky eater!) we feel the sauce taste the same always.",
+                  "score": 16
+                },
+                {
+                  "quote": "Decided not to continue as we were overflow with food everyday and I gained more weight 🤣",
+                  "score": 12
+                },
+                {
+                  "quote": "They only delivery for dinner around 4-5pm.",
+                  "score": 12
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong positive endorsement of several tingkat services with enthusiastic recommendations, emphasizing value for money, consistent quality, taste, and health benefits across multiple providers.",
+              "quotes": [
+                {
+                  "quote": "I tried mom's cooking for a month and I love it.",
+                  "score": 12
+                },
+                {
+                  "quote": "A bit expensive but for the portion and taste I think worth it.",
+                  "score": 12
+                },
+                {
+                  "quote": "I use Select for the two of us. I consider it quite cheap, the taste is good, and it's healthy as well because there're always vegetables.",
+                  "score": 4
+                },
+                {
+                  "quote": "I'm pleased to recommend them.",
+                  "score": 4
+                },
+                {
+                  "quote": "Find it good value for the quality compared to brands like neo garden",
+                  "score": 6
+                },
+                {
+                  "quote": "the most consistent for me would be Kim Paradise (i think subsidiary of Neo) and SELECT. these 2 are the one i ordered consistently and dare to eat the meals.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9nxyf",
+          "title": "Favorite hiking routes in singapore?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9nxyf/favorite_hiking_routes_in_singapore/",
+          "score": 9,
+          "num_comments": 20,
+          "created_at": "2026-02-20T14:29:25",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9nxyf",
+            "post_title": "Favorite hiking routes in singapore?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about the practical challenge of managing water supplies while hiking, mentioned as a hypothetical scenario rather than a personal worry.",
+              "quotes": [
+                {
+                  "quote": "Imagine having limited water with you.",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with increased crowding at popular hiking spots like Macritchie and Pulau Ubin, expressed through casual complaint ('kpkb') and the emoticon suggesting frustration with current conditions.",
+              "quotes": [
+                {
+                  "quote": "I used to jalan jalan at macritchie and pulau ubin but not so much anymore.. now days quite crowded 🤧",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine enthusiasm for hiking trails, particularly the Bukit Timah/Dairy Farm loop, combined with positive anticipation of favorable weather conditions for outdoor activities.",
+              "quotes": [
+                {
+                  "quote": "Definitely very adventurous haha.",
+                  "score": 6
+                },
+                {
+                  "quote": "I really like the bt Timah hill/dairy farm loop - a damn good workout. there are additional trails you can meander off to which is quiet quiet and lovely.",
+                  "score": 1
+                },
+                {
+                  "quote": "If it doesn't rain, this week has perfect hiking weather!",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9xj9c",
+          "title": "Noisy Neighbourhood Kids Every Night",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9xj9c/noisy_neighbourhood_kids_every_night/",
+          "score": 6,
+          "num_comments": 6,
+          "created_at": "2026-02-20T22:57:48",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9xj9c",
+            "post_title": "Noisy Neighbourhood Kids Every Night",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern that authorities will take ineffective action, merely posting notices without actually addressing the noise problem. The poster expresses worry that complaints will result in performative gestures rather than meaningful intervention.",
+              "quotes": [
+                {
+                  "quote": "however that's all they do, screen and advise",
+                  "score": 2
+                },
+                {
+                  "quote": "they will put some poster and notices around and that's the end of it.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses emphatic frustration that Town Council has no actual power to manage noise nuisances despite being responsible for common areas, leaving residents with no recourse. This highlights exasperation at institutional helplessness and the absurdity of the situation.",
+              "quotes": [
+                {
+                  "quote": "TC - Under prevailing internal guideline, the tc manage noise nuisance in common area. however there is no power given for such works. which means they have the same power as you - a normal citizen.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a measured but genuine belief that direct, polite communication with the parents or children themselves could effectively resolve the noise issue. The suggestion reflects cautious hope that personal interaction may succeed where formal complaints fail.",
+              "quotes": [
+                {
+                  "quote": "Sometimes a polite and kind word can resolve it.",
+                  "score": 2
+                },
+                {
+                  "quote": "May even work better if you happen to see one of their parents/adult with them.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9omwn",
+          "title": "Civil service 'fixed terms' emoloyment",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9omwn/civil_service_fixed_terms_emoloyment/",
+          "score": 5,
+          "num_comments": 4,
+          "created_at": "2026-02-20T15:10:25",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9omwn",
+            "post_title": "Civil service 'fixed terms' emoloyment",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9puxt",
+          "title": "Courts Warranty claim help. Curious to hear your experiences.",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9puxt/courts_warranty_claim_help_curious_to_hear_your/",
+          "score": 4,
+          "num_comments": 14,
+          "created_at": "2026-02-20T16:26:28",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9puxt",
+            "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about warranty claim rejections based on depreciation clauses and unfavorable conditions, exemplified by a specific anecdote of a claim being denied despite items failing shortly after warranty expiration.",
+              "quotes": [
+                {
+                  "quote": "This is anecdotal, but a friend who had her stuff spoil 1y1w after the warranty (meaning base 1y expired), and Courts said there was \"depreciation\" factored in. The first year \"depreciation\" was like 50% or something, and since the repair cost came to more than the \"depreciation\", no repair for her.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration with Courts and Best's warranty practices, expressed through deliberate blacklisting and sarcastic commentary about how retailers profit from extended warranties with excessive conditions and depreciation clauses.",
+              "quotes": [
+                {
+                  "quote": "I nv get the extended warranty. It's their main profit driver.",
+                  "score": 5
+                },
+                {
+                  "quote": "From past experience, Courts and Best are bad, with too many conditions.",
+                  "score": 4
+                },
+                {
+                  "quote": "We blacklisted Courts after that. When I saw that Best had a depreciation clause in their EW, I also blacklisted it.",
+                  "score": 4
+                },
+                {
+                  "quote": "Everytime a courts or harvey norman sell extended warranty you don't know how much they celebrate. Hari Raya is their favorite festive season. Not even CNY nor Christmas can beat.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Positive experiences with successful warranty claims and replacements, though tempered by the observation that claims seem to happen conveniently during the warranty period, suggesting cautious optimism rather than strong confidence.",
+              "quotes": [
+                {
+                  "quote": "So far no issue to claim repair via Courts extended warranty 3 times for my Samsung Washing machine due to loud vibration issue...",
+                  "score": 1
+                },
+                {
+                  "quote": "I got extended warranty from harvey norman for my washing machine cuz my drum is loose. They just replace with a new set for me.  Same with my TV and fridge.",
+                  "score": 1
+                },
+                {
+                  "quote": "I realise my electronics always spoil during extended warranty period. Or maybe it is just fate trying to help me.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9rin2",
+          "title": "Anyone try V medical aesthetic clinic?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9rin2/anyone_try_v_medical_aesthetic_clinic/",
+          "score": 3,
+          "num_comments": 12,
+          "created_at": "2026-02-20T18:08:57",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9rin2",
+            "post_title": "Anyone try V medical aesthetic clinic?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Customers express intense frustration with aggressive hard-selling tactics, deceptive sales practices, and a factory-like treatment that prioritizes profit over genuine customer needs. The repeated complaints about pushy upselling and unnecessary package recommendations reveal deep dissatisfaction with the clinic's business approach.",
+              "quotes": [
+                {
+                  "quote": "They tend to hard sell ppl into buying packages.",
+                  "score": 3
+                },
+                {
+                  "quote": "My tattoos faded....a bit..",
+                  "score": 2
+                },
+                {
+                  "quote": "Quite factory style.",
+                  "score": 1
+                },
+                {
+                  "quote": "Worst part is the hard selling and that they will sell you the \"flavour of the month\" rather than what is necessary.",
+                  "score": 1
+                },
+                {
+                  "quote": "They will hard sell you if you don't know what you want to do.",
+                  "score": 1
+                },
+                {
+                  "quote": "staff B told me the treatment (that was recommended by the previous visit, something I've been doing for quite awhile) doesn't work and asked me to get another package.",
+                  "score": 1
+                },
+                {
+                  "quote": "Their typical tactic is to tell you that they will speak to the doctor and ask for discount. Go out for a while chit chat then come back in and say they got the discount for you.",
+                  "score": 1
+                },
+                {
+                  "quote": "Very hard sell. Like a factory, feel like burger going through the stations.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Limited positive sentiments focus on the doctor's professionalism and acceptable pricing, but these are qualified and cautious rather than enthusiastic endorsements.",
+              "quotes": [
+                {
+                  "quote": "Not too bad . Dr is very professional and friendly .",
+                  "score": 1
+                },
+                {
+                  "quote": "If your concern is price, I think it's still ok.",
+                  "score": 1
+                },
+                {
+                  "quote": "If it's about the service, they are pretty good.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9uzz6",
+          "title": "question on scrape value of repossessed car",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9uzz6/question_on_scrape_value_of_repossessed_car/",
+          "score": 1,
+          "num_comments": 4,
+          "created_at": "2026-02-20T21:12:38",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9uzz6",
+            "post_title": "question on scrape value of repossessed car",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the risks associated with unregulated 0% upfront car leasing deals, with specific examples of failed companies and the potential for financial loss due to ownership transfer delays.",
+              "quotes": [
+                {
+                  "quote": "Better be careful with those 0% upfront car leasing deals that some companies offer. It's been in the news lately for the wrong reasons (e.g. Autobahn, Shariot) since these arrangements are not regulated (a loophole in the law) and ownership typically does not pass to the individual until the last monthly instalment in the long lease is paid.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9rjgv",
+          "title": "Ghost stories at marine terrace",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9rjgv/ghost_stories_at_marine_terrace/",
+          "score": 1,
+          "num_comments": 5,
+          "created_at": "2026-02-20T18:10:14",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9rjgv",
+            "post_title": "Ghost stories at marine terrace",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9nrnq",
+          "title": "Polyclinic dental services appointment",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1r9nrnq/polyclinic_dental_services_appointment/",
+          "score": 1,
+          "num_comments": 9,
+          "created_at": "2026-02-20T14:19:27",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1r9nrnq",
+            "post_title": "Polyclinic dental services appointment",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "User expresses concern about dental costs at polyclinics and considers alternatives like going to Johor Bahru, indicating a genuine worry about affordability rather than panic.",
+              "quotes": [
+                {
+                  "quote": "I heard it's not cheap at polyclinic these days…if it's urgent, may be better off going jb…",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "User uses the Singlish term 'rabak' (messed up) with emphasis to express intense exasperation about waiting times at polyclinic dental services.",
+              "quotes": [
+                {
+                  "quote": "Srsly the waiting time...... rabak",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 133,
+      "top_posts": [
+        {
+          "id": "t3_1r9p71z",
+          "title": "Where can i buy her firey bak kwa 🔥🥓",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9p71z/where_can_i_buy_her_firey_bak_kwa/",
+          "score": 122,
+          "num_comments": 57,
+          "created_at": "2026-02-20T15:45:47",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9p71z",
+            "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Customers experienced delays and unmet delivery promises for group buy orders, with lingering questions about the business's handling of the situation and refunds. The timing pressure of needing bakkwa before CNY added to the frustration, though the tone suggests disappointment rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "Ordered her bakkwa a few years ago through a GB (group buy) host. Ordered long before CNY but the promised delivery date came and went before the business finally conceded they couldn't meet the orders.",
+                  "score": 64
+                },
+                {
+                  "quote": "People need the bakkwa earlier to gift.",
+                  "score": 64
+                },
+                {
+                  "quote": "It doesnt gel. Managed to clear 100% of orders. Now we have a lot of refunds to do. Issue 2-month bonus right after the fire? Because of the bonus no one is at the shop? Everything only sounds sugary and even coincidental",
+                  "score": 16
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong praise for the owner's character, product quality, and crisis management, with customers expressing genuine affection and commitment to reordering despite past issues. The enthusiastic language ('damn nice one', 'absolute bomb', 'love her vibes') and explicit intention to return demonstrate deep loyalty and positive sentiment.",
+              "quotes": [
+                {
+                  "quote": "Damm steady in handling the entire situation.",
+                  "score": 9
+                },
+                {
+                  "quote": "Her ba kwa actually damn nice one. Ate this lychee flavored one and it was the absolute bomb. Very soft and fragrant also.",
+                  "score": 16
+                },
+                {
+                  "quote": "I love her vibes! She is so genuine, nice to employees too. \"Ma De\", \"Gan\". haha.\nNext year I will sure order my ba kwa from her.",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9tca2",
+          "title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9tca2/man_22_a_spore_pr_from_china_takes_off_clothes/",
+          "score": 92,
+          "num_comments": 33,
+          "created_at": "2026-02-20T19:52:06",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9tca2",
+            "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Commenters express concern about lenient PR approval standards and worry that citizenship is being distributed too easily to unqualified applicants. The concern is clear but expressed through observation rather than panic.",
+              "quotes": [
+                {
+                  "quote": "Certain kinds will fast track to be PR. IYKYK",
+                  "score": 32
+                },
+                {
+                  "quote": "really giving out PRs and citizenships like candy",
+                  "score": 10
+                },
+                {
+                  "quote": "Kinda low bar for PRs that it's insulting",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration and anger about PR/citizenship standards, with emphatic language ('worst than toilet paper,' derogatory terms) and detailed complaints about unvetted foreign applicants exploiting the system. The intensity is heightened by specific examples and dismissive tone toward both the policy and the individuals.",
+              "quotes": [
+                {
+                  "quote": "Nobody is really against foreign talents. Problem is too many foreign untalented in SG nowadays",
+                  "score": 71
+                },
+                {
+                  "quote": "This kind can get PR, truly a foreign talent.",
+                  "score": 54
+                },
+                {
+                  "quote": "You will be surprised by how easy type C people are given PRs nowadays. Most just write a bare minimum application with basic info like education and work experience. Some don't even have local degrees, do any volunteering work, have any local friend to give recommendation letters for, and don't even need to speak fluent English. From my experience speaking with them, PR is their golden ticket for job hopping and negotiating for higher pay, but they don't want to settle in Singapore at all. Some blatantly said that Singapore is small and their motherland is more powerful.",
+                  "score": 17
+                },
+                {
+                  "quote": "Our citizenship really worst than toilet paper",
+                  "score": 5
+                },
+                {
+                  "quote": "Another tiong…these people are really public nuisance",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9yilx",
+          "title": "Found out sick/dying mum has a godson",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9yilx/found_out_sickdying_mum_has_a_godson/",
+          "score": 61,
+          "num_comments": 42,
+          "created_at": "2026-02-20T23:34:30",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9yilx",
+            "post_title": "Found out sick/dying mum has a godson",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Readers express genuine concern about potential asset disputes and inheritance issues, with some experiencing anxiety that similar family situations could happen to them. The fear centers on financial security and family assets being diverted to outsiders rather than direct descendants.",
+              "quotes": [
+                {
+                  "quote": "If rich family then good luck fighting for assets. That's the fear right?",
+                  "score": 1
+                },
+                {
+                  "quote": "Reading through your story made me realise that this could happen to me and my sister anytime",
+                  "score": 2
+                },
+                {
+                  "quote": "I'm looking out for my dad to ensure things don't get fked if my mum dies first and wills half the house away to some random or her siblings.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep emotional devastation and anger permeate these comments, with multiple people expressing wishes for the mother's death to end their pain, reflecting intense hurt over betrayal, financial strain, and unmet emotional needs. The frustration encompasses family trauma, feeling emotionally manipulated, and resentment toward a parent who prioritizes obligations while appearing emotionally distant.",
+              "quotes": [
+                {
+                  "quote": "This really pissed us off.",
+                  "score": 57
+                },
+                {
+                  "quote": "To say I'm devastated is an understatement. My father, my brothers, and I are all deeply hurt that my mum had this secret relationship with someone outside the family, and that she continues to enable his involvement even though it's clearly causing us pain.",
+                  "score": 57
+                },
+                {
+                  "quote": "To be really raw with this, there have been multiple instances where I would be ok if my mum just died. I just want the pain to go away.",
+                  "score": 57
+                },
+                {
+                  "quote": "It feels like she expects her children to fulfil all the traditional obligations, such as financial support, caregiving and regular visits. She keeps emphasising how much she wants to see me and my brothers, but I cannot tell whether she genuinely cares for us or whether she simply expects it because she gave birth to us and raised us.",
+                  "score": 57
+                },
+                {
+                  "quote": "I have a sick dad and while what im going through is different kind of emotional pain, there are similar pain points. I hope we heal from the family we were born into.",
+                  "score": 6
+                },
+                {
+                  "quote": "It definitely gave me trauma and makes me very sceptical of marriage",
+                  "score": 2
+                },
+                {
+                  "quote": "I'm like you hoping sometimes she just passes on. If it were just dad me and my sis we would have lived such a peaceful life and financially less stressed too because she's so bad with money and gas lights everyone into giving her more.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1rac6xm",
+          "title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1rac6xm/sg_homes_getting_smaller_65_please_dont_open/",
+          "score": 57,
+          "num_comments": 52,
+          "created_at": "2026-02-21T08:12:22",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1rac6xm",
+            "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about housing becoming progressively smaller and unaffordable, with comparisons to Hong Kong's cage homes and concerns about irreversible demographic decline. The tone reflects existential worry about future generations' quality of life and systemic inability to address the problem.",
+              "quotes": [
+                {
+                  "quote": "no worries in a decade we're will have flats that are probably much smaller than today.",
+                  "score": 10
+                },
+                {
+                  "quote": "I forseen that in another 50 yrs time, we will be similar to HKG. There will be \"cage\" homes for those who cannot afford housing.",
+                  "score": 3
+                },
+                {
+                  "quote": "Our TFR will permanently below 1 as I don't see a single thing gov is doing to reverse it.",
+                  "score": 4
+                },
+                {
+                  "quote": "This is not a practically solvable problem in a democracy where sensible decisions prioritizing the future generations cannot be made without significant backlash.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration over the contradiction of shrinking flat sizes paired with skyrocketing prices, expressed through sarcastic jabs at HDB's pretensions and resigned fatalism about newcomers' prospects. The cynicism and dismissive tone ('tough luck and good luck') reveal deep-seated exasperation with the housing situation.",
+              "quotes": [
+                {
+                  "quote": "Getting smaller yet resale prices are now more expensive, some more than $1m.",
+                  "score": 6
+                },
+                {
+                  "quote": "To be fair, the new layouts are nicer. But hdb is pretending to be a castle in the clouds when it's just a shoebox in the sky",
+                  "score": 3
+                },
+                {
+                  "quote": "For the rest of you just starting out, tough luck and good luck",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9yspx",
+          "title": "Saw pieces of this with hell notes on pedestrian road",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9yspx/saw_pieces_of_this_with_hell_notes_on_pedestrian/",
+          "score": 43,
+          "num_comments": 25,
+          "created_at": "2026-02-20T23:44:59",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9yspx",
+            "post_title": "Saw pieces of this with hell notes on pedestrian road",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Users express intense unease about the encounter, using emphatic language like 'WALAO' and 'DAMN SCARY' to convey genuine creepiness, particularly unsettling given the CNY timing.",
+              "quotes": [
+                {
+                  "quote": "WALAO THE HANDWRITING DAMN SCARY",
+                  "score": 23
+                },
+                {
+                  "quote": "Really creepy. On cny too",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters show clear frustration with the area's problems (illegal gambling, inadequate mental health facilities) and its socioeconomic issues, though expressed with resignation rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "I mean, what do you expect from that area. It's the same place with the illegal gambling.",
+                  "score": 15
+                },
+                {
+                  "quote": "... IMH can open franchise at jurong region.Buangkok too far alrdy",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9o21a",
+          "title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9o21a/2_weeks_jail_for_woman_who_slapped_73yearold/",
+          "score": 33,
+          "num_comments": 34,
+          "created_at": "2026-02-20T14:36:00",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9o21a",
+            "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Commenters express concerns about a perceived pattern of problematic behavior from CECA workers and worry that media avoidance of identifying the offender's status is deliberately concealing tensions. The concern stems from pattern-spotting rather than immediate personal danger.",
+              "quotes": [
+                {
+                  "quote": "Always got rotten apple from everywhere yes, but the proportion from CECA damn high, got a lot of similar cases where they're full of shit and overbearing.",
+                  "score": 12
+                },
+                {
+                  "quote": "Usually if the convict is a Singaporean or SG PR our MSM will indicate accordingly. So you can be almost certain this one is a CECA in order to avoid fanning the recent anti CECA tensions",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express intense outrage at the offender's disrespectful behavior toward an elderly taxi driver and anger at what they perceive as inadequate sentencing, using emphatic language like 'really fucked-up' and 'disgusting piece of shit.' The frustration is compounded by attributions to the offender's presumed CECA background.",
+              "quotes": [
+                {
+                  "quote": "This is really fucked-up entitled behavior. People 73 yr old, drive taxi, bring you home, still have to put up with this shit from her. And that is not the face of someone contrite with what she has done. Real disgusting  piece of shit of a human being.",
+                  "score": 7
+                },
+                {
+                  "quote": "Why only two weeks? Why no fine?",
+                  "score": 2
+                },
+                {
+                  "quote": "Attitude very bad.",
+                  "score": 1
+                },
+                {
+                  "quote": "Nothing new coming from the CEcA kind",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1raf3no",
+          "title": "Too many noisy troublemaker Ah Tiong in Toa Payoh, Clementi, Bedok and perhaps many more",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1raf3no/too_many_noisy_troublemaker_ah_tiong_in_toa_payoh/",
+          "score": 32,
+          "num_comments": 25,
+          "created_at": "2026-02-21T10:23:43",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1raf3no",
+            "post_title": "Too many noisy troublemaker Ah Tiong in Toa Payoh, Clementi, Bedok and perhaps many more",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about demographic shifts and perceived loss of control, expressed through concern about ideological influence ('red-pilled') and citizenship policies favoring foreign nationals.",
+              "quotes": [
+                {
+                  "quote": "The real race is how many we can red-pilled vs how many citizenships the govt can give out to PRC.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear irritation with perceived rude behavior from Chinese tourists, expressed through a casual but exasperated tone about disrespectful conduct in public spaces.",
+              "quotes": [
+                {
+                  "quote": "I was having dinner at MBS food court some time ago and saw Ah Tiong tourists just take the chairs without even asking ppl, like wtf??",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9qliv",
+          "title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9qliv/psa_you_are_not_entitled_to_spam_repeated_ceca/",
+          "score": 29,
+          "num_comments": 40,
+          "created_at": "2026-02-20T17:13:26",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9qliv",
+            "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern that excessive CECA-related posts will overrun the forum and transform it into a single-issue space, reflecting worry about the community's future direction.",
+              "quotes": [
+                {
+                  "quote": "Later become CECA only forum.",
+                  "score": 57
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users express intense frustration with repetitive spam posting, perceived racist/xenophobic fixation, misuse of free speech, and inconsistent moderation, using strong language ('fucking too free sia', 'Pui') to convey their exasperation.",
+              "quotes": [
+                {
+                  "quote": "Agreed. Some of yall fucking too free sia",
+                  "score": 57
+                },
+                {
+                  "quote": "There is a line between having valid concerns about certain elements of India Indians and China Chinese, and being outright fixated to the point of just being racist and xenophobic. A lot of mfers here is far beyond fixated.",
+                  "score": 54
+                },
+                {
+                  "quote": "Tbh not sure if reading only spam of Ceca and prc is that interesting.",
+                  "score": 9
+                },
+                {
+                  "quote": "Lol people mistake more free speech for permission to post rubbish.",
+                  "score": 6
+                },
+                {
+                  "quote": "Yeah. The mod known as kacheng Lim already deleted many threads about the ceca Uni and China robot. Talk about freedom of speech. Pui.",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9vh71",
+          "title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9vh71/msian_couple_breaks_into_spore_beauty_salon_6/",
+          "score": 24,
+          "num_comments": 9,
+          "created_at": "2026-02-20T21:33:41",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9vh71",
+            "post_title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Commenters express concern about Singapore's immigration and security policies, worried that the country is becoming too open to foreign nationals who may pose risks. The references to specific groups and casual language suggest underlying anxiety about national security and social cohesion.",
+              "quotes": [
+                {
+                  "quote": "And pap is still opening sg's legs wide wide rofl",
+                  "score": 0
+                },
+                {
+                  "quote": "Jhk, prc & ceca bad news are all hitting sgraw these days.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong irritation is evident through sarcasm about repeated break-ins and bitter criticism of foreign talent policies, with the commenter using sharp wit to express deep exasperation about security failures and perceived poor immigration decisions. The tone is sardonic and cutting, indicating genuine anger masked by cynicism.",
+              "quotes": [
+                {
+                  "quote": "Break into me once, shame on you. Break into me six times, shame on me.",
+                  "score": 12
+                },
+                {
+                  "quote": "Another case of premier foreign talents.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9sqtd",
+          "title": "Outsourced hawker centres are cursed!",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1r9sqtd/outsourced_hawker_centres_are_cursed/",
+          "score": 24,
+          "num_comments": 10,
+          "created_at": "2026-02-20T19:19:51",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1r9sqtd",
+            "post_title": "Outsourced hawker centres are cursed!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Posters express intense anger about what they perceive as corporate greed disguised as social enterprise, with sarcastic language and accusations of profit privatization while costs are socialised to citizens. The frustration is amplified by cynicism about institutional oversight and inefficiency.",
+              "quotes": [
+                {
+                  "quote": "\"Social enterprise\" my arse. Businessmen just want to max their profits.",
+                  "score": 18
+                },
+                {
+                  "quote": "It's basically an overpriced MCST trying to manage a system that didn't need to be micromanaged in the first place.",
+                  "score": 4
+                },
+                {
+                  "quote": "They are called \"Social\" Enterprises because they socialise the costs to Singaporeans and then privatise the profits into their pockets.",
+                  "score": 3
+                },
+                {
+                  "quote": "Basically everyone lose and NEA can shake leg.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 10,
+      "comments_analyzed": 91,
+      "top_posts": [
+        {
+          "id": "t3_1r9vdik",
+          "title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9vdik/how_much_do_singaporeans_from_different_income/",
+          "score": 44,
+          "num_comments": 72,
+          "created_at": "2026-02-20T21:29:22",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9vdik",
+            "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A single concern about health limitations preventing travel plans, expressed as a personal regret rather than an active worry. The tone is reflective rather than anxious.",
+              "quotes": [
+                {
+                  "quote": "I wanted to go to Tibet in my younger days but kept putting it off and by the time I got around to planning the trip, my doctor advised against it.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration about time scarcity and guilt around spending money on travel despite having financial means. There's noticeable emotional conflict (expressed with ':') around balancing life experiences with financial prudence.",
+              "quotes": [
+                {
+                  "quote": "I've all the money to travel. But I've no time and I'm tired. Dad of 2 young kids.",
+                  "score": 2
+                },
+                {
+                  "quote": "there's this weird sense of guilt for spending money :') trying to get rid of this mindset though because i do think it's important to maximise life's experiences while still young",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic and passionate advice about prioritizing travel experiences with practical strategies, emphasizing that meaningful trips are achievable on limited budgets. Multiple commenter examples demonstrate deep conviction that travel shouldn't be delayed and that experiences matter more than spending large sums.",
+              "quotes": [
+                {
+                  "quote": "You can look for cheap flights, cheap hotels (even get a dorm bed instead of a hotel room before you outgrow it), street food, and go to places where the best experiences are free like simply walking around in an old town, a river promenade, or beautiful hiking trail.",
+                  "score": 37
+                },
+                {
+                  "quote": "Time is more scarce than money. The important thing is you travel as you feel like without thinking you'll do it later, when you earn more or when you have more time. Give yourself well earned breaks, or opportunities to expand your experiences as you like.",
+                  "score": 37
+                },
+                {
+                  "quote": "I went to Japan and Korea solo last year, i spent about 1.5k each for both! 1k to bangkok!",
+                  "score": 14
+                },
+                {
+                  "quote": "Anyway, totally understand how you feel because growing up I only ever gone on 3 trips with my parents and it's a JB day trip, Genting and BKK (only when I was in uni and I paid for my own using my part-time pay).",
+                  "score": 4
+                },
+                {
+                  "quote": "If you are confident in your career progression, you can spend more now with the expectation you will earn back next time.",
+                  "score": 4
+                },
+                {
+                  "quote": "Past 3 years always clocked about 4 countries each year. Less than 10% my annual income.",
+                  "score": 2
+                },
+                {
+                  "quote": "Should earn and travel when you are young. Some things you definitely won't / can't do when older. Doesn't have to spend a lot. To nearby lesser known places is also an experience.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9t1ji",
+          "title": "For those who have FIREd, what is your daily routine?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9t1ji/for_those_who_have_fired_what_is_your_daily/",
+          "score": 26,
+          "num_comments": 34,
+          "created_at": "2026-02-20T19:36:17",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9t1ji",
+            "post_title": "For those who have FIREd, what is your daily routine?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The person expresses a genuine concern about potential boredom in retirement, reflecting worry about finding purpose and engagement without work structure.",
+              "quotes": [
+                {
+                  "quote": "I am the sort of person who is never bored for long so I was worried about not having anything to do in retirement.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "There is a casual acknowledgment that retirement can feel boring at times, but this is tempered by relief about financial security and acceptance of the trade-off.",
+              "quotes": [
+                {
+                  "quote": "Tbh it can get boring but at least I don't have to worry about money.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Multiple enthusiastic expressions of contentment, gratitude, and positive experiences dominate the comments, with the person and spouse both finding fulfillment and looking forward to future activities.",
+              "quotes": [
+                {
+                  "quote": "I have had a great time so far.",
+                  "score": 20
+                },
+                {
+                  "quote": "My wife claims I am busier now!",
+                  "score": 20
+                },
+                {
+                  "quote": "I was extremely contented.",
+                  "score": 8
+                },
+                {
+                  "quote": "I am looking forward to resuming the above schedule once I am no longer needed on a full-time basis!",
+                  "score": 8
+                },
+                {
+                  "quote": "and count my blessings",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1ra81yc",
+          "title": "Emerging Market/non US etf?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1ra81yc/emerging_marketnon_us_etf/",
+          "score": 5,
+          "num_comments": 9,
+          "created_at": "2026-02-21T05:26:08",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1ra81yc",
+            "post_title": "Emerging Market/non US etf?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "The user expresses a casual concern that emerging market ETFs contain too much exposure to China, Taiwan, and Korea for their risk appetite, but frames it as a personal preference rather than a serious worry.",
+              "quotes": [
+                {
+                  "quote": "Most include china/Taiwan/Korea which I feel not YOLO enough for me.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The user shares a positive experience of rebalancing their portfolio from mostly CSPX to VWRA and EIMI, demonstrating a constructive shift in investment strategy and confidence in emerging market diversification.",
+              "quotes": [
+                {
+                  "quote": "I was in the same mindset a few months ago - at the time, my portfolio was mostly CSPX, then I just changed it to VWRA and a bit of EIMI (emerging market)",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1ra1f6b",
+          "title": "Any experience of FIDReC?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1ra1f6b/any_experience_of_fidrec/",
+          "score": 3,
+          "num_comments": 43,
+          "created_at": "2026-02-21T01:19:53",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1ra1f6b",
+            "post_title": "Any experience of FIDReC?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "The person expresses deep anxiety about continuing their dispute, indicating significant emotional and psychological toll from a prolonged conflict with their insurance company.",
+              "quotes": [
+                {
+                  "quote": "This long fight has really taken a toll on me, seriously considering on whether I should continue this uphill battle.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The person articulates clear frustration with insurance company practices, viewing them as deliberately designed to collect premiums while enabling claim rejections; however, this is balanced by a positive resolution through FiDREC.",
+              "quotes": [
+                {
+                  "quote": "I think the insurance company is deliberately making the policy selling easy so they can collect premiums, and then not asking for medical examination, so they can reject claim at their discretion.",
+                  "score": 0
+                },
+                {
+                  "quote": "I went to FiDREC with an insurance company. They paid me the full amount after that - not a big sum by the way.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The person offers practical encouragement about FiDREC's accessibility and shares a successful outcome, demonstrating cautious positivity about the dispute resolution process without excessive enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Anyway, just go and contact fidrec if you have to! They are not difficult to deal with.",
+                  "score": 2
+                },
+                {
+                  "quote": "Good luck!",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9z5ng",
+          "title": "OCBC 360 vs DBS Multiplier",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9z5ng/ocbc_360_vs_dbs_multiplier/",
+          "score": 2,
+          "num_comments": 14,
+          "created_at": "2026-02-20T23:58:24",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9z5ng",
+            "post_title": "OCBC 360 vs DBS Multiplier",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Users express satisfaction with DBS Multiplier's returns, highlighting specific interest rates and rewards earned over time with clear positive sentiment.",
+              "quotes": [
+                {
+                  "quote": "I'm very happy with multiplier. 4.1% is awesome.",
+                  "score": 2
+                },
+                {
+                  "quote": "I got 3650$ in last 12 months from multiplier.",
+                  "score": 2
+                },
+                {
+                  "quote": "I'm pretty happy with my 3% on 100k in DBS multiples",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1rafzse",
+          "title": "OCBC SRS promo",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1rafzse/ocbc_srs_promo/",
+          "score": 1,
+          "num_comments": 0,
+          "created_at": "2026-02-21T11:05:54",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1rafzse",
+            "post_title": "OCBC SRS promo",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1radaa9",
+          "title": "Weekly Celebratory Thread!",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1radaa9/weekly_celebratory_thread/",
+          "score": 1,
+          "num_comments": 1,
+          "created_at": "2026-02-21T09:00:02",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1radaa9",
+            "post_title": "Weekly Celebratory Thread!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The user expresses a clear sense of achievement and pride in managing weight gain during CNY better than expected, with a positive comparison to their own forecast.",
+              "quotes": [
+                {
+                  "quote": "Put on only 1.2kg instead of 2kg during CNY.\n\nBeating forecast so far ...",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1r9rwnl",
+          "title": "How do you track category spend on UOB Lady’s card",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9rwnl/how_do_you_track_category_spend_on_uob_ladys_card/",
+          "score": 1,
+          "num_comments": 10,
+          "created_at": "2026-02-20T18:31:34",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9rwnl",
+            "post_title": "How do you track category spend on UOB Lady’s card",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "User expresses mild frustration about having to manually calculate spending categories using a calculator, indicating a minor inconvenience rather than intense annoyance.",
+              "quotes": [
+                {
+                  "quote": "I just take out my calculator and manually count it lol",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9su0g",
+          "title": "Home loan show fund",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9su0g/home_loan_show_fund/",
+          "score": 1,
+          "num_comments": 8,
+          "created_at": "2026-02-20T19:24:53",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9su0g",
+            "post_title": "Home loan show fund",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear concern about people borrowing beyond the TDSR limits, viewing it as a risky financial practice. The word 'scary' indicates a definite worry about reckless borrowing habits rather than a panic, but with noticeable apprehension.",
+              "quotes": [
+                {
+                  "quote": "damn scary to see people trying to borrow more than the TDSR (\"safe borrowing limit\") allows/recommends.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1r9pblq",
+          "title": "How to bring money to spend in China",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1r9pblq/how_to_bring_money_to_spend_in_china/",
+          "score": 1,
+          "num_comments": 28,
+          "created_at": "2026-02-20T15:53:34",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1r9pblq",
+            "post_title": "How to bring money to spend in China",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express clear concerns about practical limitations when using Singapore cards in China, particularly regarding app compatibility and payment acceptance issues. These are legitimate worries about functionality rather than panic, reflecting real obstacles encountered during travel.",
+              "quotes": [
+                {
+                  "quote": "One issue with using a sg card is that some apps in China only recognise local cards. From my experience, you run into more issues with a foreign card when using WeChat pay than Alipay",
+                  "score": 5
+                },
+                {
+                  "quote": "I wouldn't recommend 3 as a lot of places in China don't accept cards, not to mention international cards (even if you link them via Alipay!)",
+                  "score": 2
+                },
+                {
+                  "quote": "Alipay was pain. I still couldn't get it to work after a week. Couldn't verify my passport, manual verification didn't work either.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Respondents show noticeable frustration with the administrative burden and inefficiency of opening Chinese bank accounts and dealing with payment app verification. The repeated use of phrases like 'pain' and 'not worth it' indicates definite exasperation, typical of Singaporean 'kpkb' complaining about bureaucratic hassles.",
+              "quotes": [
+                {
+                  "quote": "1. chi bank acct is notoriously difficult to open. for 4 months, the effort is not worth it imo.",
+                  "score": 2
+                },
+                {
+                  "quote": "i went thru it, it's a pain",
+                  "score": 2
+                },
+                {
+                  "quote": "unfortunately icbc SG / boc SG aren't linked to icbc china / boc china.",
+                  "score": 1
+                },
+                {
+                  "quote": "You can just top up your Alipay balance with a money changer. It's a pain opening a Chinese bank account and  the fees the apps charge aren't worth it",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Comments express casual positivity and helpful reassurance rather than passionate enthusiasm, offering practical solutions and encouragement in a matter-of-fact tone. The tone is supportive but measured, reflecting pragmatic optimism rather than excitement.",
+              "quotes": [
+                {
+                  "quote": "Probably not the most cost effective but its the simplest.",
+                  "score": 15
+                },
+                {
+                  "quote": "The school will guide you by the way",
+                  "score": 7
+                },
+                {
+                  "quote": "have fun on your exchange!",
+                  "score": 2
+                },
+                {
+                  "quote": "YouTrip does not have any transaction fee or limit.",
+                  "score": 2
+                },
+                {
+                  "quote": "I go to China a few times a year and it works well in most places.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "I think the housing prices are seriously out of control at this point.",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "get ready for more shocking prices",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "EVs will start to go CatB now cos it does not make sense that I can get a more powerful car now at a cheaper COE",
+        "post_id": "t3_1r9pkss",
+        "post_title": "Cat B COE Priced Lower Than CAT A",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 34,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I hope mobility scooters require the equivalent of COE and OBU (extremely high cost of ownership + ability to track anywhere). All the goons speeding around or using them as battering rams is very aggravating.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "He's gonna get away with it isn't he",
+        "post_id": "t3_1rafkny",
+        "post_title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Throwback to the day when I found a student who leapt to his death during A levels results day.",
+        "post_id": "t3_1r9qcxo",
+        "post_title": "A-level exam results to be released on Feb 27",
+        "subreddit": "singapore",
+        "score": 20,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Well lets enjoy it while it last.",
+        "post_id": "t3_1radj7q",
+        "post_title": "'Aircon weather' in Singapore: What's behind the rainy, cool week?",
+        "subreddit": "singapore",
+        "score": 19,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "There's a chance that people might feel entitled to your money if they know you're making a decent living.",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 407,
+        "intensity": "strong"
+      },
+      {
+        "text": "if not you might eventually become the defacto person people expect to help for family financial matters. seen it happen to friends and even myself",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 227,
+        "intensity": "strong"
+      },
+      {
+        "text": "Take note that your income could easily bump your family out of subsidies like Chas card in the future so do remember to disclose a reasonable sum.",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "I tried one call royal something. Lucky is only 1 month. I basically threw away most of it.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Imagine having limited water with you.",
+        "post_id": "t3_1r9nxyf",
+        "post_title": "Favorite hiking routes in singapore?",
+        "subreddit": "askSingapore",
+        "score": 9,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "however that's all they do, screen and advise",
+        "post_id": "t3_1r9xj9c",
+        "post_title": "Noisy Neighbourhood Kids Every Night",
+        "subreddit": "askSingapore",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "they will put some poster and notices around and that's the end of it.",
+        "post_id": "t3_1r9xj9c",
+        "post_title": "Noisy Neighbourhood Kids Every Night",
+        "subreddit": "askSingapore",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This is anecdotal, but a friend who had her stuff spoil 1y1w after the warranty (meaning base 1y expired), and Courts said there was \"depreciation\" factored in. The first year \"depreciation\" was like 50% or something, and since the repair cost came to more than the \"depreciation\", no repair for her.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Better be careful with those 0% upfront car leasing deals that some companies offer. It's been in the news lately for the wrong reasons (e.g. Autobahn, Shariot) since these arrangements are not regulated (a loophole in the law) and ownership typically does not pass to the individual until the last monthly instalment in the long lease is paid.",
+        "post_id": "t3_1r9uzz6",
+        "post_title": "question on scrape value of repossessed car",
+        "subreddit": "askSingapore",
+        "score": 1,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I heard it's not cheap at polyclinic these days…if it's urgent, may be better off going jb…",
+        "post_id": "t3_1r9nrnq",
+        "post_title": "Polyclinic dental services appointment",
+        "subreddit": "askSingapore",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Certain kinds will fast track to be PR. IYKYK",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 32,
+        "intensity": "moderate"
+      },
+      {
+        "text": "really giving out PRs and citizenships like candy",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Kinda low bar for PRs that it's insulting",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If rich family then good luck fighting for assets. That's the fear right?",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Reading through your story made me realise that this could happen to me and my sister anytime",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm looking out for my dad to ensure things don't get fked if my mum dies first and wills half the house away to some random or her siblings.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "no worries in a decade we're will have flats that are probably much smaller than today.",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "I forseen that in another 50 yrs time, we will be similar to HKG. There will be \"cage\" homes for those who cannot afford housing.",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Our TFR will permanently below 1 as I don't see a single thing gov is doing to reverse it.",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is not a practically solvable problem in a democracy where sensible decisions prioritizing the future generations cannot be made without significant backlash.",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "WALAO THE HANDWRITING DAMN SCARY",
+        "post_id": "t3_1r9yspx",
+        "post_title": "Saw pieces of this with hell notes on pedestrian road",
+        "subreddit": "SingaporeRaw",
+        "score": 43,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "Really creepy. On cny too",
+        "post_id": "t3_1r9yspx",
+        "post_title": "Saw pieces of this with hell notes on pedestrian road",
+        "subreddit": "SingaporeRaw",
+        "score": 43,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Always got rotten apple from everywhere yes, but the proportion from CECA damn high, got a lot of similar cases where they're full of shit and overbearing.",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Usually if the convict is a Singaporean or SG PR our MSM will indicate accordingly. So you can be almost certain this one is a CECA in order to avoid fanning the recent anti CECA tensions",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The real race is how many we can red-pilled vs how many citizenships the govt can give out to PRC.",
+        "post_id": "t3_1raf3no",
+        "post_title": "Too many noisy troublemaker Ah Tiong in Toa Payoh, Clementi, Bedok and perhaps many more",
+        "subreddit": "SingaporeRaw",
+        "score": 32,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Later become CECA only forum.",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 57,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And pap is still opening sg's legs wide wide rofl",
+        "post_id": "t3_1r9vh71",
+        "post_title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Jhk, prc & ceca bad news are all hitting sgraw these days.",
+        "post_id": "t3_1r9vh71",
+        "post_title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wanted to go to Tibet in my younger days but kept putting it off and by the time I got around to planning the trip, my doctor advised against it.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "I am the sort of person who is never bored for long so I was worried about not having anything to do in retirement.",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Most include china/Taiwan/Korea which I feel not YOLO enough for me.",
+        "post_id": "t3_1ra81yc",
+        "post_title": "Emerging Market/non US etf?",
+        "subreddit": "singaporefi",
+        "score": 5,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "This long fight has really taken a toll on me, seriously considering on whether I should continue this uphill battle.",
+        "post_id": "t3_1ra1f6b",
+        "post_title": "Any experience of FIDReC?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "damn scary to see people trying to borrow more than the TDSR (\"safe borrowing limit\") allows/recommends.",
+        "post_id": "t3_1r9su0g",
+        "post_title": "Home loan show fund",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "One issue with using a sg card is that some apps in China only recognise local cards. From my experience, you run into more issues with a foreign card when using WeChat pay than Alipay",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wouldn't recommend 3 as a lot of places in China don't accept cards, not to mention international cards (even if you link them via Alipay!)",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Alipay was pain. I still couldn't get it to work after a week. Couldn't verify my passport, manual verification didn't work either.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "On the other hand I wish we had more public holidays in the 2nd half of the year. Till June we have one per month and then afterwards there's only National Day, Deepavali and Christmas",
+        "post_id": "t3_1r9t22r",
+        "post_title": "Oh wow this is really cool",
+        "subreddit": "singapore",
+        "score": 1230,
+        "comment_score": 49,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Could use more PH, everyone loves PH",
+        "post_id": "t3_1r9t22r",
+        "post_title": "Oh wow this is really cool",
+        "subreddit": "singapore",
+        "score": 1230,
+        "comment_score": 18,
+        "intensity": "moderate"
+      },
+      {
+        "text": "2% is truly pathetic",
+        "post_id": "t3_1r9qe40",
+        "post_title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+        "subreddit": "singapore",
+        "score": 193,
+        "comment_score": 47,
+        "intensity": "moderate"
+      },
+      {
+        "text": "wtf $2k/mth as a 53-year-old is really quite low.",
+        "post_id": "t3_1r9qe40",
+        "post_title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+        "subreddit": "singapore",
+        "score": 193,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Why buyer, WHY?? $700k can buy 4room resale or 5room resale lei!!! Why you buy a tiny 2 room???? WEI SHE MO??? Dawson is good, but THAT GOOD MEH??",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 182,
+        "intensity": "strong"
+      },
+      {
+        "text": "Even the so called slum estate 2 rooms are in the 450-500k range",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "Man this 2 room is on par with my flats resale value in Punggol, and I live in a 4 room ffs.",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "Something is really awry with public housing policy.",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "2 rm going for 700k HAHAHAH",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "crazy, just crazy..",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Clearly system is broken for way too long",
+        "post_id": "t3_1r9pkss",
+        "post_title": "Cat B COE Priced Lower Than CAT A",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Cat B is the new poor people car",
+        "post_id": "t3_1r9pkss",
+        "post_title": "Cat B COE Priced Lower Than CAT A",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah very efficient price discovery, no funny business going on here.",
+        "post_id": "t3_1r9pkss",
+        "post_title": "Cat B COE Priced Lower Than CAT A",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "I still think the Balestier coach must go. He's lousy.",
+        "post_id": "t3_1r9xe5u",
+        "post_title": "Balestier Khalsa comeback to beat Geylang 5-2",
+        "subreddit": "singapore",
+        "score": 88,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Well deserved. These buggers make life worse for everyone (including themselves) by delaying buses and other traffic just because they insist on being selfish.",
+        "post_id": "t3_1racujb",
+        "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+        "subreddit": "singapore",
+        "score": 54,
+        "comment_score": 34,
+        "intensity": "strong"
+      },
+      {
+        "text": "Deserved. Queue cutters insist on going to your lane even at the expense of a possible accident. Fuck them.",
+        "post_id": "t3_1racujb",
+        "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+        "subreddit": "singapore",
+        "score": 54,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "They are inconsiderate idiots that thinks other people's time isn't important, only theirs are. F them!",
+        "post_id": "t3_1racujb",
+        "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+        "subreddit": "singapore",
+        "score": 54,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "Those idiots that dive bomb for every small little gap to enter then it's on you to react in time to not hit them.",
+        "post_id": "t3_1racujb",
+        "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+        "subreddit": "singapore",
+        "score": 54,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I have hated your kind every since one of you almost knocked my kids down and screamed at them for being in your way.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 53,
+        "intensity": "strong"
+      },
+      {
+        "text": "Thanks to those trash people that abuse it.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "All the goons speeding around or using them as battering rams is very aggravating.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sadly, no enforcement means this is nothing to worry about for them.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "wow it's been so long, wonder why investigations are taking so long",
+        "post_id": "t3_1rafkny",
+        "post_title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 27,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But no incentive for Spanish court to speed up",
+        "post_id": "t3_1rafkny",
+        "post_title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": -20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My family have no financial education and will tell people.",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I tried tingkat in the past. But kids always got bored after the second week. (And my kids are not picky eater!) we feel the sauce taste the same always.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 16,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Decided not to continue as we were overflow with food everyday and I gained more weight 🤣",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They only delivery for dinner around 4-5pm.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I used to jalan jalan at macritchie and pulau ubin but not so much anymore.. now days quite crowded 🤧",
+        "post_id": "t3_1r9nxyf",
+        "post_title": "Favorite hiking routes in singapore?",
+        "subreddit": "askSingapore",
+        "score": 9,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "TC - Under prevailing internal guideline, the tc manage noise nuisance in common area. however there is no power given for such works. which means they have the same power as you - a normal citizen.",
+        "post_id": "t3_1r9xj9c",
+        "post_title": "Noisy Neighbourhood Kids Every Night",
+        "subreddit": "askSingapore",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I nv get the extended warranty. It's their main profit driver.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "From past experience, Courts and Best are bad, with too many conditions.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "We blacklisted Courts after that. When I saw that Best had a depreciation clause in their EW, I also blacklisted it.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Everytime a courts or harvey norman sell extended warranty you don't know how much they celebrate. Hari Raya is their favorite festive season. Not even CNY nor Christmas can beat.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They tend to hard sell ppl into buying packages.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "My tattoos faded....a bit..",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Quite factory style.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Worst part is the hard selling and that they will sell you the \"flavour of the month\" rather than what is necessary.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They will hard sell you if you don't know what you want to do.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "staff B told me the treatment (that was recommended by the previous visit, something I've been doing for quite awhile) doesn't work and asked me to get another package.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Their typical tactic is to tell you that they will speak to the doctor and ask for discount. Go out for a while chit chat then come back in and say they got the discount for you.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Very hard sell. Like a factory, feel like burger going through the stations.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Srsly the waiting time...... rabak",
+        "post_id": "t3_1r9nrnq",
+        "post_title": "Polyclinic dental services appointment",
+        "subreddit": "askSingapore",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Ordered her bakkwa a few years ago through a GB (group buy) host. Ordered long before CNY but the promised delivery date came and went before the business finally conceded they couldn't meet the orders.",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 64,
+        "intensity": "moderate"
+      },
+      {
+        "text": "People need the bakkwa earlier to gift.",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 64,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It doesnt gel. Managed to clear 100% of orders. Now we have a lot of refunds to do. Issue 2-month bonus right after the fire? Because of the bonus no one is at the shop? Everything only sounds sugary and even coincidental",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 16,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Nobody is really against foreign talents. Problem is too many foreign untalented in SG nowadays",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 71,
+        "intensity": "strong"
+      },
+      {
+        "text": "This kind can get PR, truly a foreign talent.",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 54,
+        "intensity": "strong"
+      },
+      {
+        "text": "You will be surprised by how easy type C people are given PRs nowadays. Most just write a bare minimum application with basic info like education and work experience. Some don't even have local degrees, do any volunteering work, have any local friend to give recommendation letters for, and don't even need to speak fluent English. From my experience speaking with them, PR is their golden ticket for job hopping and negotiating for higher pay, but they don't want to settle in Singapore at all. Some blatantly said that Singapore is small and their motherland is more powerful.",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 17,
+        "intensity": "strong"
+      },
+      {
+        "text": "Our citizenship really worst than toilet paper",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Another tiong…these people are really public nuisance",
+        "post_id": "t3_1r9tca2",
+        "post_title": "Man, 22, a S'pore PR from China, takes off clothes &amp; urinates outside neighbour's house, gets charged",
+        "subreddit": "SingaporeRaw",
+        "score": 92,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "This really pissed us off.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "To say I'm devastated is an understatement. My father, my brothers, and I are all deeply hurt that my mum had this secret relationship with someone outside the family, and that she continues to enable his involvement even though it's clearly causing us pain.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "To be really raw with this, there have been multiple instances where I would be ok if my mum just died. I just want the pain to go away.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "It feels like she expects her children to fulfil all the traditional obligations, such as financial support, caregiving and regular visits. She keeps emphasising how much she wants to see me and my brothers, but I cannot tell whether she genuinely cares for us or whether she simply expects it because she gave birth to us and raised us.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "I have a sick dad and while what im going through is different kind of emotional pain, there are similar pain points. I hope we heal from the family we were born into.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "It definitely gave me trauma and makes me very sceptical of marriage",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm like you hoping sometimes she just passes on. If it were just dad me and my sis we would have lived such a peaceful life and financially less stressed too because she's so bad with money and gas lights everyone into giving her more.",
+        "post_id": "t3_1r9yilx",
+        "post_title": "Found out sick/dying mum has a godson",
+        "subreddit": "SingaporeRaw",
+        "score": 61,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Getting smaller yet resale prices are now more expensive, some more than $1m.",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "To be fair, the new layouts are nicer. But hdb is pretending to be a castle in the clouds when it's just a shoebox in the sky",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "For the rest of you just starting out, tough luck and good luck",
+        "post_id": "t3_1rac6xm",
+        "post_title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+        "subreddit": "SingaporeRaw",
+        "score": 57,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I mean, what do you expect from that area. It's the same place with the illegal gambling.",
+        "post_id": "t3_1r9yspx",
+        "post_title": "Saw pieces of this with hell notes on pedestrian road",
+        "subreddit": "SingaporeRaw",
+        "score": 43,
+        "comment_score": 15,
+        "intensity": "moderate"
+      },
+      {
+        "text": "... IMH can open franchise at jurong region.Buangkok too far alrdy",
+        "post_id": "t3_1r9yspx",
+        "post_title": "Saw pieces of this with hell notes on pedestrian road",
+        "subreddit": "SingaporeRaw",
+        "score": 43,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This is really fucked-up entitled behavior. People 73 yr old, drive taxi, bring you home, still have to put up with this shit from her. And that is not the face of someone contrite with what she has done. Real disgusting  piece of shit of a human being.",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Why only two weeks? Why no fine?",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Attitude very bad.",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Nothing new coming from the CEcA kind",
+        "post_id": "t3_1r9o21a",
+        "post_title": "2 weeks’ jail for woman who slapped 73-year-old cabby while drunk",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I was having dinner at MBS food court some time ago and saw Ah Tiong tourists just take the chairs without even asking ppl, like wtf??",
+        "post_id": "t3_1raf3no",
+        "post_title": "Too many noisy troublemaker Ah Tiong in Toa Payoh, Clementi, Bedok and perhaps many more",
+        "subreddit": "SingaporeRaw",
+        "score": 32,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Agreed. Some of yall fucking too free sia",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "There is a line between having valid concerns about certain elements of India Indians and China Chinese, and being outright fixated to the point of just being racist and xenophobic. A lot of mfers here is far beyond fixated.",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 54,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tbh not sure if reading only spam of Ceca and prc is that interesting.",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lol people mistake more free speech for permission to post rubbish.",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah. The mod known as kacheng Lim already deleted many threads about the ceca Uni and China robot. Talk about freedom of speech. Pui.",
+        "post_id": "t3_1r9qliv",
+        "post_title": "PSA: You are not entitled to spam repeated CECA threads anyhowly. Later become CECA only forum.",
+        "subreddit": "SingaporeRaw",
+        "score": 29,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Break into me once, shame on you. Break into me six times, shame on me.",
+        "post_id": "t3_1r9vh71",
+        "post_title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "Another case of premier foreign talents.",
+        "post_id": "t3_1r9vh71",
+        "post_title": "M'sian couple breaks into S'pore beauty salon 6 times in 1 month, steals S$13,950 to pay off debts",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "\"Social enterprise\" my arse. Businessmen just want to max their profits.",
+        "post_id": "t3_1r9sqtd",
+        "post_title": "Outsourced hawker centres are cursed!",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's basically an overpriced MCST trying to manage a system that didn't need to be micromanaged in the first place.",
+        "post_id": "t3_1r9sqtd",
+        "post_title": "Outsourced hawker centres are cursed!",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "They are called \"Social\" Enterprises because they socialise the costs to Singaporeans and then privatise the profits into their pockets.",
+        "post_id": "t3_1r9sqtd",
+        "post_title": "Outsourced hawker centres are cursed!",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Basically everyone lose and NEA can shake leg.",
+        "post_id": "t3_1r9sqtd",
+        "post_title": "Outsourced hawker centres are cursed!",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I've all the money to travel. But I've no time and I'm tired. Dad of 2 young kids.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "there's this weird sense of guilt for spending money :') trying to get rid of this mindset though because i do think it's important to maximise life's experiences while still young",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Tbh it can get boring but at least I don't have to worry about money.",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "I think the insurance company is deliberately making the policy selling easy so they can collect premiums, and then not asking for medical examination, so they can reject claim at their discretion.",
+        "post_id": "t3_1ra1f6b",
+        "post_title": "Any experience of FIDReC?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I went to FiDREC with an insurance company. They paid me the full amount after that - not a big sum by the way.",
+        "post_id": "t3_1ra1f6b",
+        "post_title": "Any experience of FIDReC?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I just take out my calculator and manually count it lol",
+        "post_id": "t3_1r9rwnl",
+        "post_title": "How do you track category spend on UOB Lady’s card",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "1. chi bank acct is notoriously difficult to open. for 4 months, the effort is not worth it imo.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i went thru it, it's a pain",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "unfortunately icbc SG / boc SG aren't linked to icbc china / boc china.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You can just top up your Alipay balance with a money changer. It's a pain opening a Chinese bank account and  the fees the apps charge aren't worth it",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "Really really heartening to see this in our home❤️‍🩹",
+        "post_id": "t3_1r9t22r",
+        "post_title": "Oh wow this is really cool",
+        "subreddit": "singapore",
+        "score": 1230,
+        "comment_score": 41,
+        "intensity": "moderate"
+      },
+      {
+        "text": "One of my favourite temples. I love this picture",
+        "post_id": "t3_1r9t22r",
+        "post_title": "Oh wow this is really cool",
+        "subreddit": "singapore",
+        "score": 1230,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm glad it'll at least help Mr Kathavarayan.",
+        "post_id": "t3_1r9qe40",
+        "post_title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+        "subreddit": "singapore",
+        "score": 193,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "Can't complain about people getting a pay raise when I made my own decision to not join the public service right.",
+        "post_id": "t3_1r9qe40",
+        "post_title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+        "subreddit": "singapore",
+        "score": 193,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "Looks like I can sell my 3 room for 1mio in due course",
+        "post_id": "t3_1r9ubnc",
+        "post_title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 48,
+        "intensity": "mild"
+      },
+      {
+        "text": "nice to see Gavin Lee watching on",
+        "post_id": "t3_1r9xe5u",
+        "post_title": "Balestier Khalsa comeback to beat Geylang 5-2",
+        "subreddit": "singapore",
+        "score": 88,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "Hope the penalities increase to make them think thrice",
+        "post_id": "t3_1racujb",
+        "post_title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+        "subreddit": "singapore",
+        "score": 54,
+        "comment_score": 34,
+        "intensity": "moderate"
+      },
+      {
+        "text": "COE goes up. I happy. PMD tio pwn. I happy.",
+        "post_id": "t3_1r9rovd",
+        "post_title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+        "subreddit": "singapore",
+        "score": 53,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Hopefully justice is served",
+        "post_id": "t3_1rafkny",
+        "post_title": "Audrey Fang death: Family seeks to keep suspect Mitchell Ong in jail longer - CNA.",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "All the best to everyone!",
+        "post_id": "t3_1r9qcxo",
+        "post_title": "A-level exam results to be released on Feb 27",
+        "subreddit": "singapore",
+        "score": 20,
+        "comment_score": 18,
+        "intensity": "moderate"
+      },
+      {
+        "text": "all the best guys",
+        "post_id": "t3_1r9qcxo",
+        "post_title": "A-level exam results to be released on Feb 27",
+        "subreddit": "singapore",
+        "score": 20,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Good luck y'all!!❤️‍🩹",
+        "post_id": "t3_1r9qcxo",
+        "post_title": "A-level exam results to be released on Feb 27",
+        "subreddit": "singapore",
+        "score": 20,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Definitely a welcome break from the haze",
+        "post_id": "t3_1radj7q",
+        "post_title": "'Aircon weather' in Singapore: What's behind the rainy, cool week?",
+        "subreddit": "singapore",
+        "score": 19,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Told me to rest and enjoy life more instead of working so much",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 74,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm transparent with them about it because they earn way more than me and have multiple sources of income and they have pretty much planned out their retirement.",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "we still do so anyway cause we feel it's only right.",
+        "post_id": "t3_1r9yk5m",
+        "post_title": "Should I lie to my family about my salary?",
+        "subreddit": "askSingapore",
+        "score": 207,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I tried mom's cooking for a month and I love it.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "A bit expensive but for the portion and taste I think worth it.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "I use Select for the two of us. I consider it quite cheap, the taste is good, and it's healthy as well because there're always vegetables.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm pleased to recommend them.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Find it good value for the quality compared to brands like neo garden",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "the most consistent for me would be Kim Paradise (i think subsidiary of Neo) and SELECT. these 2 are the one i ordered consistently and dare to eat the meals.",
+        "post_id": "t3_1r9v0rg",
+        "post_title": "Tingkat recommendations for a family of three",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Definitely very adventurous haha.",
+        "post_id": "t3_1r9nxyf",
+        "post_title": "Favorite hiking routes in singapore?",
+        "subreddit": "askSingapore",
+        "score": 9,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I really like the bt Timah hill/dairy farm loop - a damn good workout. there are additional trails you can meander off to which is quiet quiet and lovely.",
+        "post_id": "t3_1r9nxyf",
+        "post_title": "Favorite hiking routes in singapore?",
+        "subreddit": "askSingapore",
+        "score": 9,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If it doesn't rain, this week has perfect hiking weather!",
+        "post_id": "t3_1r9nxyf",
+        "post_title": "Favorite hiking routes in singapore?",
+        "subreddit": "askSingapore",
+        "score": 9,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sometimes a polite and kind word can resolve it.",
+        "post_id": "t3_1r9xj9c",
+        "post_title": "Noisy Neighbourhood Kids Every Night",
+        "subreddit": "askSingapore",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "May even work better if you happen to see one of their parents/adult with them.",
+        "post_id": "t3_1r9xj9c",
+        "post_title": "Noisy Neighbourhood Kids Every Night",
+        "subreddit": "askSingapore",
+        "score": 6,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So far no issue to claim repair via Courts extended warranty 3 times for my Samsung Washing machine due to loud vibration issue...",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I got extended warranty from harvey norman for my washing machine cuz my drum is loose. They just replace with a new set for me.  Same with my TV and fridge.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I realise my electronics always spoil during extended warranty period. Or maybe it is just fate trying to help me.",
+        "post_id": "t3_1r9puxt",
+        "post_title": "Courts Warranty claim help. Curious to hear your experiences.",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Not too bad . Dr is very professional and friendly .",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "If your concern is price, I think it's still ok.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "If it's about the service, they are pretty good.",
+        "post_id": "t3_1r9rin2",
+        "post_title": "Anyone try V medical aesthetic clinic?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Damm steady in handling the entire situation.",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Her ba kwa actually damn nice one. Ate this lychee flavored one and it was the absolute bomb. Very soft and fragrant also.",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "I love her vibes! She is so genuine, nice to employees too. \"Ma De\", \"Gan\". haha.\nNext year I will sure order my ba kwa from her.",
+        "post_id": "t3_1r9p71z",
+        "post_title": "Where can i buy her firey bak kwa 🔥🥓",
+        "subreddit": "SingaporeRaw",
+        "score": 122,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "You can look for cheap flights, cheap hotels (even get a dorm bed instead of a hotel room before you outgrow it), street food, and go to places where the best experiences are free like simply walking around in an old town, a river promenade, or beautiful hiking trail.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 37,
+        "intensity": "strong"
+      },
+      {
+        "text": "Time is more scarce than money. The important thing is you travel as you feel like without thinking you'll do it later, when you earn more or when you have more time. Give yourself well earned breaks, or opportunities to expand your experiences as you like.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 37,
+        "intensity": "strong"
+      },
+      {
+        "text": "I went to Japan and Korea solo last year, i spent about 1.5k each for both! 1k to bangkok!",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "Anyway, totally understand how you feel because growing up I only ever gone on 3 trips with my parents and it's a JB day trip, Genting and BKK (only when I was in uni and I paid for my own using my part-time pay).",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "If you are confident in your career progression, you can spend more now with the expectation you will earn back next time.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Past 3 years always clocked about 4 countries each year. Less than 10% my annual income.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Should earn and travel when you are young. Some things you definitely won't / can't do when older. Doesn't have to spend a lot. To nearby lesser known places is also an experience.",
+        "post_id": "t3_1r9vdik",
+        "post_title": "How much do Singaporeans from different income levels spend on annual holiday trips?",
+        "subreddit": "singaporefi",
+        "score": 44,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I have had a great time so far.",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "My wife claims I am busier now!",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "I was extremely contented.",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am looking forward to resuming the above schedule once I am no longer needed on a full-time basis!",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "and count my blessings",
+        "post_id": "t3_1r9t1ji",
+        "post_title": "For those who have FIREd, what is your daily routine?",
+        "subreddit": "singaporefi",
+        "score": 26,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I was in the same mindset a few months ago - at the time, my portfolio was mostly CSPX, then I just changed it to VWRA and a bit of EIMI (emerging market)",
+        "post_id": "t3_1ra81yc",
+        "post_title": "Emerging Market/non US etf?",
+        "subreddit": "singaporefi",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Anyway, just go and contact fidrec if you have to! They are not difficult to deal with.",
+        "post_id": "t3_1ra1f6b",
+        "post_title": "Any experience of FIDReC?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Good luck!",
+        "post_id": "t3_1ra1f6b",
+        "post_title": "Any experience of FIDReC?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm very happy with multiplier. 4.1% is awesome.",
+        "post_id": "t3_1r9z5ng",
+        "post_title": "OCBC 360 vs DBS Multiplier",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I got 3650$ in last 12 months from multiplier.",
+        "post_id": "t3_1r9z5ng",
+        "post_title": "OCBC 360 vs DBS Multiplier",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm pretty happy with my 3% on 100k in DBS multiples",
+        "post_id": "t3_1r9z5ng",
+        "post_title": "OCBC 360 vs DBS Multiplier",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Put on only 1.2kg instead of 2kg during CNY.\n\nBeating forecast so far ...",
+        "post_id": "t3_1radaa9",
+        "post_title": "Weekly Celebratory Thread!",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Probably not the most cost effective but its the simplest.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 15,
+        "intensity": "mild"
+      },
+      {
+        "text": "The school will guide you by the way",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 7,
+        "intensity": "mild"
+      },
+      {
+        "text": "have fun on your exchange!",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "YouTrip does not have any transaction fee or limit.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "I go to China a few times a year and it works well in most places.",
+        "post_id": "t3_1r9pblq",
+        "post_title": "How to bring money to spend in China",
+        "subreddit": "singaporefi",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "mild"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Record-breaking HDB resale flat prices causing housing concerns",
+      "engagement_score": 175,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "2-room resale flat in Queenstown's 'SkyParc @ Dawson' sold for record-breaking S$695,000 in Feb. 2026",
+          "url": "https://www.reddit.com/r/singapore/comments/1r9ubnc/2room_resale_flat_in_queenstowns_skyparc_dawson/"
+        },
+        {
+          "title": "SG homes getting smaller. 65% please dont open mouth complain when you approved the plan for more smaller homes.",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1rac6xm/sg_homes_getting_smaller_65_please_dont_open/"
+        }
+      ],
+      "entities": [
+        "HDB",
+        "Resale",
+        "Housing Costs",
+        "Queenstown",
+        "BTO"
+      ]
+    },
+    {
+      "topic": "Civil servants receiving pay raises between 2-9 percent",
+      "engagement_score": 198,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "About 22,000 civil servants to get pay rise of between 2% and 9% from August",
+          "url": "https://www.reddit.com/r/singapore/comments/1r9qe40/about_22000_civil_servants_to_get_pay_rise_of/"
+        },
+        {
+          "title": "Civil service 'fixed terms' emoloyment",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1r9omwn/civil_service_fixed_terms_emoloyment/"
+        }
+      ],
+      "entities": [
+        "Civil Service",
+        "Salary",
+        "Employment"
+      ]
+    },
+    {
+      "topic": "COE Category B pricing below Category A rates",
+      "engagement_score": 115,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Cat B COE Priced Lower Than CAT A",
+          "url": "https://www.reddit.com/r/singapore/comments/1r9pkss/cat_b_coe_priced_lower_than_cat_a/"
+        }
+      ],
+      "entities": [
+        "COE",
+        "Transport"
+      ]
+    },
+    {
+      "topic": "Traffic enforcement and mobility scooter regulation changes",
+      "engagement_score": 107,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "59 motorists punished for traffic offences including queue jumping at Woodlands Checkpoint",
+          "url": "https://www.reddit.com/r/singapore/comments/1racujb/59_motorists_punished_for_traffic_offences/"
+        },
+        {
+          "title": "Mobility scooter prices may rise by up to 15% ahead of new registration rules, say retailers",
+          "url": "https://www.reddit.com/r/singapore/comments/1r9rovd/mobility_scooter_prices_may_rise_by_up_to_15/"
+        }
+      ],
+      "entities": [
+        "LTA",
+        "Woodlands Checkpoint",
+        "Transport",
+        "PMD"
+      ]
+    },
+    {
+      "topic": "A-Level results release and student exam stress",
+      "engagement_score": 20,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "A-level exam results to be released on Feb 27",
+          "url": "https://www.reddit.com/r/singapore/comments/1r9qcxo/alevel_exam_results_to_be_released_on_feb_27/"
+        }
+      ],
+      "entities": [
+        "A-Levels",
+        "MOE",
+        "Education"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Housing market shock creates 30% sentiment drop as S$695K 2-room flat triggers affordability crisis amid 'pathetic' 2% civil service raise",
+    "key_takeaways": [
+      "HDB resale market has reached a psychological breaking point - the S$695K Queenstown 2-room flat represents a 'sticker shock' moment that's fundamentally shifting public perception of housing affordability",
+      "Civil servants feel deeply undervalued with only 2% raises against inflation, creating potential talent retention issues and public sector morale crisis",
+      "Strong appetite for lifestyle experiences and financial planning content suggests Singaporeans are actively seeking control and positivity amid economic pressures"
+    ],
+    "opportunities": [
+      "Launch affordable housing alternatives or co-living solutions targeting the 'squeezed middle' who can't afford resale but earn too much for BTO eligibility",
+      "Develop financial wellness platforms focusing on FIRE strategies and income diversification - high engagement on money management topics indicates strong market demand"
+    ],
+    "risks": [
+      "Housing affordability crisis could trigger broader social unrest or policy backlash if prices continue rising unchecked - monitor for protest organization or political mobilization",
+      "Public sector brain drain risk as 2% raises fail to retain talent in competitive job market, potentially impacting government service delivery quality"
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-02-20",
+    "fears": {
+      "direction": "down",
+      "change_pct": -20.4,
+      "intensity_shift": "stable",
+      "previous_count": 54,
+      "current_count": 43
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -30.5,
+      "intensity_shift": "stable",
+      "previous_count": 128,
+      "current_count": 89
+    },
+    "optimism": {
+      "direction": "down",
+      "change_pct": -25.0,
+      "intensity_shift": "stable",
+      "previous_count": 80,
+      "current_count": 60
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "HDB Housing Affordability Crisis",
+      "description": "Deep concerns about escalating public housing prices making homes unaffordable for ordinary Singaporeans.",
+      "category": "frustration",
+      "quote_count": 8,
+      "sample_quotes": [
+        "I think the housing prices are seriously out of control at this point.",
+        "Why buyer, WHY?? $700k can buy 4room resale or 5room resale lei!!! Why you buy a tiny 2 room???? WEI SHE MO???",
+        "Something is really awry with public housing policy."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "COE and Vehicle Costs Burden",
+      "description": "Anxiety and frustration over rising Certificate of Entitlement prices making car ownership increasingly expensive.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "get ready for more shocking prices",
+        "EVs will start to go CatB now cos it does not make sense that I can get a more powerful car now at a cheaper COE",
+        "Cat B is the new poor people car"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Financial Success Social Pressure",
+      "description": "Concerns about family and social expectations when achieving financial success in Singapore's context.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "There's a chance that people might feel entitled to your money if they know you're making a decent living.",
+        "if not you might eventually become the defacto person people expect to help for family financial matters. seen it happen to friends and even myself",
+        "Take note that your income could easily bump your family out of subsidies like Chas card in the future so do remember to disclose a reasonable sum."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Community Spirit and Encouragement",
+      "description": "Positive expressions of support, well-wishes, and appreciation for community bonds in Singapore.",
+      "category": "optimism",
+      "quote_count": 6,
+      "sample_quotes": [
+        "Really really heartening to see this in our home❤️‍🩹",
+        "All the best to everyone!",
+        "Good luck y'all!!❤️‍🩹"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "System Inadequacy and Enforcement",
+      "description": "Frustration with perceived failures in government systems, enforcement, and service quality.",
+      "category": "frustration",
+      "quote_count": 5,
+      "sample_quotes": [
+        "2% is truly pathetic",
+        "however that's all they do, screen and advise",
+        "Clearly system is broken for way too long"
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "high_engagement",
+      "title": "Exceptional Community Response to Public Holiday Discussion",
+      "description": "A quote about increasing public holidays in the second half of the year received 1230 upvotes, indicating strong community agreement on work-life balance issues. This level of engagement (12x higher than typical notable threshold) suggests widespread sentiment about holiday distribution and quality of life priorities.",
+      "category": "optimism",
+      "related_quotes": [
+        "On the other hand I wish we had more public holidays in the 2nd half of the year. Till June we have one per month and then afterwards there's only National Day, Deepavali and Christmas",
+        "Could use more PH, everyone loves PH"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Category Shows 69% Strong Intensity",
+      "description": "Of 89 frustration quotes, 61 are strongly intense (69%) with only 2 mild cases (2%). This heavily skewed distribution toward strong emotions suggests deeply felt grievances rather than minor irritations, indicating potential for sustained negative sentiment.",
+      "category": "frustration",
+      "related_quotes": [
+        "There's a chance that people might feel entitled to your money if they know you're making a decent living.",
+        "if not you might eventually become the defacto person people expect to help for family financial matters. seen it happen to friends and even myself"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate Despite Overall Volume Drop",
+      "description": "Frustrations account for 46% of all quotes (89 out of 192 total) despite a 30.5% decrease from last week. This category maintains the highest volume even during an overall sentiment decline, suggesting persistent underlying issues driving community dissatisfaction.",
+      "category": "frustration",
+      "related_quotes": [
+        "Take note that your income could easily bump your family out of subsidies like Chas card in the future so do remember to disclose a reasonable sum.",
+        "My family have no financial education and will tell people."
+      ],
+      "urgency": "low"
+    }
+  ]
+}
