@@ -8,7 +8,7 @@ from typing import Any
 
 from kopi_sentiment.config.settings import settings
 from kopi_sentiment.analyzer.models import WeeklyReport, DailyReport
-from kopi_sentiment.scraper.reddit import RedditPost
+from kopi_sentiment.scraper.reddit import RedditPost, Comment
 
 logger = logging.getLogger(__name__)
 
@@ -376,6 +376,47 @@ class RawDataStorage:
 
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
+
+    def load_raw_as_posts(self, report_id: str) -> dict[str, list[RedditPost]]:
+        """Load raw data and reconstruct RedditPost objects grouped by subreddit.
+
+        Counterpart to save_raw_scrape(): deserializes saved raw data back into
+        domain objects for pipeline re-processing without re-scraping.
+
+        Args:
+            report_id: Date ID (YYYY-MM-DD) or week ID (YYYY-Www)
+
+        Returns:
+            Dict mapping subreddit name to list of RedditPost objects.
+
+        Raises:
+            FileNotFoundError: If the raw data doesn't exist.
+        """
+        data = self.load_raw_scrape(report_id)
+        posts_by_subreddit: dict[str, list[RedditPost]] = {}
+
+        for post_data in data.get("posts", []):
+            subreddit = post_data.get("subreddit", "")
+            comments = [
+                Comment(text=c["text"], score=c["score"])
+                for c in post_data.get("comments", [])
+            ]
+            post = RedditPost(
+                id=post_data["id"],
+                title=post_data["title"],
+                url=post_data["url"],
+                score=post_data["score"],
+                num_comments=post_data["num_comments"],
+                created_at=post_data["created_at"],
+                subreddit=subreddit,
+                selftext=post_data.get("selftext", ""),
+                comments=comments,
+            )
+            if subreddit not in posts_by_subreddit:
+                posts_by_subreddit[subreddit] = []
+            posts_by_subreddit[subreddit].append(post)
+
+        return posts_by_subreddit
 
     def raw_exists(self, report_id: str) -> bool:
         """Check if raw data exists for the given report ID."""

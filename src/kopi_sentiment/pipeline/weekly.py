@@ -109,41 +109,58 @@ class WeeklyPipeline(BasePipeline):
                 parts.append(f"- {name}: {trend.direction.value} {trend.change_pct:+.1f}% ({trend.previous_count} → {trend.current_count})")
         return "\n".join(parts)
 
-    def run(self, week_id: str | None = None) -> WeeklyReport:
-        """Execute the full weekly pipeline."""
+    def run(self, week_id: str | None = None, from_raw: bool = False) -> WeeklyReport:
+        """Execute the full weekly pipeline.
+
+        Args:
+            week_id: Week to analyze (YYYY-Www), defaults to current week.
+            from_raw: If True, skip scraping and load from saved raw data.
+        """
         week_id = week_id or self.get_report_id()
         week_start, week_end = self.get_week_bounds(week_id)
 
         logger.info(f"Starting weekly pipeline for {week_id}")
 
-        # Phase 1: Scrape all subreddits first
-        logger.info("Phase 1: Scraping all subreddits...")
-        all_scraped_posts: list[RedditPost] = []
-        posts_by_subreddit: dict[str, list[RedditPost]] = {}
-
-        for i, subreddit in enumerate(self.subreddits):
-            posts = self.scrape_subreddit(subreddit)
-
-            if not posts:
-                logger.warning(f"No posts found for r/{subreddit} in last week")
-                posts_by_subreddit[subreddit] = []
-                continue
-
-            posts_by_subreddit[subreddit] = posts
-            all_scraped_posts.extend(posts)
-
-            if i < len(self.subreddits) - 1:
-                logger.info("Waiting 1 minute before next subreddit...")
-                time.sleep(settings.subreddit_delay_weekly)
-
-        # Phase 2: Save raw scraped data before LLM analysis
-        if all_scraped_posts:
-            logger.info("Phase 2: Saving raw scraped data...")
-            self.raw_storage.save_raw_scrape(
-                report_id=week_id,
-                posts=all_scraped_posts,
-                subreddits=self.subreddits,
+        if from_raw:
+            # Load from previously saved raw data (enables scrape/analyze separation)
+            logger.info(f"Loading from raw data for {week_id}...")
+            posts_by_subreddit = self.raw_storage.load_raw_as_posts(week_id)
+            all_scraped_posts = [
+                post for posts in posts_by_subreddit.values() for post in posts
+            ]
+            logger.info(
+                f"Loaded {len(all_scraped_posts)} posts from raw data "
+                f"across {len(posts_by_subreddit)} subreddits"
             )
+        else:
+            # Phase 1: Scrape all subreddits first
+            logger.info("Phase 1: Scraping all subreddits...")
+            all_scraped_posts = []
+            posts_by_subreddit = {}
+
+            for i, subreddit in enumerate(self.subreddits):
+                posts = self.scrape_subreddit(subreddit)
+
+                if not posts:
+                    logger.warning(f"No posts found for r/{subreddit} in last week")
+                    posts_by_subreddit[subreddit] = []
+                    continue
+
+                posts_by_subreddit[subreddit] = posts
+                all_scraped_posts.extend(posts)
+
+                if i < len(self.subreddits) - 1:
+                    logger.info("Waiting 1 minute before next subreddit...")
+                    time.sleep(settings.subreddit_delay_weekly)
+
+            # Phase 2: Save raw scraped data before LLM analysis
+            if all_scraped_posts:
+                logger.info("Phase 2: Saving raw scraped data...")
+                self.raw_storage.save_raw_scrape(
+                    report_id=week_id,
+                    posts=all_scraped_posts,
+                    subreddits=self.subreddits,
+                )
 
         # Phase 3: Analyze each subreddit
         logger.info("Phase 3: Analyzing scraped data...")

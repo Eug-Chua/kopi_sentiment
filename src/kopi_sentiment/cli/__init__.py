@@ -30,7 +30,7 @@ def run_daily(args):
         storage_path=args.output or settings.data_path_daily,
     )
 
-    report = pipeline.run(date_id)
+    report = pipeline.run(date_id, from_raw=args.from_raw)
     logger.info(f"Daily analysis complete. Report saved for {report.date_id}")
 
     # Auto-regenerate analytics unless --no-analytics flag is set
@@ -84,7 +84,7 @@ def run_weekly(args):
         storage_path=args.output or settings.data_path_weekly,
     )
 
-    report = pipeline.run(week_id)
+    report = pipeline.run(week_id, from_raw=args.from_raw)
     logger.info(f"Weekly analysis complete. Report saved for {report.week_id}")
 
     # Auto-regenerate weekly analytics unless --no-analytics flag is set
@@ -125,6 +125,69 @@ def _regenerate_weekly_analytics():
         )
     except Exception as e:
         logger.warning(f"Could not regenerate weekly analytics: {e}")
+
+
+def run_scrape(args):
+    """Scrape Reddit data and save raw JSON without LLM analysis.
+
+    Enables a two-step workflow: scrape locally (where Reddit doesn't block),
+    then analyze from raw data on CI/CD with --from-raw.
+    """
+    import time as time_mod
+
+    from kopi_sentiment.scraper.reddit import RedditScraper
+    from kopi_sentiment.storage.json_storage import RawDataStorage
+
+    is_weekly = args.type == "weekly"
+    data_type = "weekly" if is_weekly else "daily"
+    time_filter = "week" if is_weekly else "day"
+    default_posts = 25 if is_weekly else 10
+
+    # Determine report ID
+    if is_weekly:
+        report_id = args.week or date.today().strftime("%G-W%V")
+    else:
+        report_id = args.date or date.today().isoformat()
+
+    posts_per_sub = args.posts or default_posts
+    subreddits = settings.reddit_subreddit
+    delay_between = settings.subreddit_delay_weekly if is_weekly else settings.subreddit_delay_daily
+
+    logger.info(f"Scraping {data_type} data for {report_id} ({posts_per_sub} posts/sub)")
+
+    raw_storage = RawDataStorage(data_type=data_type)
+    all_posts = []
+
+    for i, subreddit in enumerate(subreddits):
+        scraper = RedditScraper(subreddit=subreddit)
+        posts = scraper.fetch_posts_with_content(
+            limit=posts_per_sub,
+            delay=settings.scraper_delay,
+            sort="top",
+            time_filter=time_filter,
+        )
+        logger.info(f"Scraped {len(posts)} posts from r/{subreddit}")
+        all_posts.extend(posts)
+
+        if i < len(subreddits) - 1:
+            logger.info("Waiting before next subreddit...")
+            time_mod.sleep(delay_between)
+
+    if all_posts:
+        raw_storage.save_raw_scrape(
+            report_id=report_id,
+            posts=all_posts,
+            subreddits=subreddits,
+        )
+        logger.info(
+            f"Raw data saved: {len(all_posts)} posts, "
+            f"{sum(len(p.comments) for p in all_posts)} comments"
+        )
+        logger.info(f"Run 'kopi_sentiment {data_type} --from-raw --date {report_id}' to analyze")
+    else:
+        logger.warning("No posts scraped from any subreddit")
+
+    return 0
 
 
 def run_analytics(args):
@@ -251,6 +314,11 @@ def main():
         action="store_true",
         help="Skip automatic analytics regeneration",
     )
+    daily_parser.add_argument(
+        "--from-raw",
+        action="store_true",
+        help="Skip scraping; analyze from previously saved raw data",
+    )
     daily_parser.set_defaults(func=run_daily)
 
     # Weekly command
@@ -281,6 +349,11 @@ def main():
         "--no-analytics",
         action="store_true",
         help="Skip automatic weekly analytics regeneration",
+    )
+    weekly_parser.add_argument(
+        "--from-raw",
+        action="store_true",
+        help="Skip scraping; analyze from previously saved raw data",
     )
     weekly_parser.set_defaults(func=run_weekly)
 
@@ -314,6 +387,34 @@ def main():
         help="Generate weekly analytics from weekly reports (W03, W04, etc.) instead of daily data",
     )
     analytics_parser.set_defaults(func=run_analytics)
+
+    # Scrape command (scrape only, save raw data for later analysis)
+    scrape_parser = subparsers.add_parser(
+        "scrape", help="Scrape Reddit data and save raw JSON (no LLM analysis)"
+    )
+    scrape_parser.add_argument(
+        "--type",
+        type=str,
+        choices=["daily", "weekly"],
+        default="daily",
+        help="Scrape type: 'daily' (top of day) or 'weekly' (top of week)",
+    )
+    scrape_parser.add_argument(
+        "--date",
+        type=str,
+        help="Date ID for daily scrape (YYYY-MM-DD), defaults to today",
+    )
+    scrape_parser.add_argument(
+        "--week",
+        type=str,
+        help="Week ID for weekly scrape (YYYY-Www), defaults to current week",
+    )
+    scrape_parser.add_argument(
+        "--posts",
+        type=int,
+        help="Number of posts per subreddit (default: 10 daily, 25 weekly)",
+    )
+    scrape_parser.set_defaults(func=run_scrape)
 
     args = parser.parse_args()
 
