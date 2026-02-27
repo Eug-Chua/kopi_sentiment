@@ -1,4 +1,4 @@
-# FFGA Framework
+# FFO Framework
 
 ### FEARS
 - What keeps them up at night
@@ -22,24 +22,13 @@
 - "Tools don't integrate, manually copying data"
 - "Customer support is non-existent"
 
-### GOALS
-- Immediate objectives
-- Problems they're trying to solve
-- Metrics they want to improve
-- Short-term targets
+### OPTIMISM
+- Hopes for improvement
+- Positive outlook on current trajectory
+- Confidence in future outcomes
+- Silver linings they see
 
 **Example insights:**
-- "Need to close 10 deals this quarter"
-- "Want to reduce time spent on admin from 10hrs to 2hrs/week"
-- "Trying to automate email follow-ups"
-
-### ASPIRATIONS
-- Ideal future state
-- Ultimate success vision
-- Transformational outcomes
-- Deeper motivations
-
-**Example insights:**
-- "Want to build a business that runs without them"
-- "Dream of having more time with family"
-- "Aspire to be seen as an industry leader"
+- "Hope prices stabilize soon"
+- "New policies seem promising for young families"
+- "Singapore's economy is resilient, we'll adapt"

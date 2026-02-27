@@ -16,16 +16,15 @@ This affects Singaporeans' daily lives in profound ways.
 
 ## What It Does
 
-This tool mines Singapore subreddit discussions where people speak candidly about what's going on in Singapore, using the **FFGA Framework** to surface authentic voices:
+This tool mines Singapore subreddit discussions where people speak candidly about what's going on in Singapore, using the **FFO Framework** to surface authentic voices:
 
 - **Fears** - What worries or concerns do they have?
 - **Frustrations** - What obstacles or annoyances do they face?
-- **Goals** - What are they trying to achieve?
-- **Aspirations** - What is their ideal future state?
+- **Optimism** - What are they hopeful or positive about?
 
-The FFGA framework captures both **emotional** (fears, aspirations) and **practical** (frustrations, goals) dimensions of how Singaporeans experience this moment in history.
+The FFO framework captures both **negative** (fears, frustrations) and **positive** (optimism) dimensions of how Singaporeans experience this moment in history.
 
-**Output**: A simple traffic light sentiment score (Green / Amber / Red) for each FFGA dimension, backed by actual quotes from real conversations.
+**Output**: A simple traffic light sentiment score (Green / Amber / Red) for each FFO dimension, backed by actual quotes from real conversations.
 
 ## The Goal
 
@@ -35,7 +34,69 @@ Not to prescribe solutions, but to listen deeply to the Singaporean psyche in an
 
 ## Quick Start
 
-[Installation and usage instructions]
+```bash
+# Install dependencies
+pip install -e .
+
+# Run daily analysis
+python -m kopi_sentiment daily
+
+# Run weekly analysis
+python -m kopi_sentiment weekly
+
+# Generate analytics report
+python -c "
+from kopi_sentiment.analytics.calculator import AnalyticsCalculator
+calculator = AnalyticsCalculator()
+report = calculator.generate_report()
+print(report.headline)
+"
+```
+
+## Analytics Module
+
+The analytics module provides data science capabilities for trend analysis:
+
+### Features
+
+| Feature | Description |
+|---------|-------------|
+| **Sentiment Index** | Composite score tracking overall sentiment over time with EMA smoothing |
+| **Category Momentum** | Rate of change analysis for each FFO category (1d, 3d, 7d) |
+| **Velocity Alerts** | Z-score based anomaly detection (alerts at \|z\| >= 2.0) |
+| **Forecasting** | Linear regression with train/test split and confidence intervals |
+
+### Methodology
+
+All scoring uses **z-score normalization** for statistical rigor:
+
+```
+quote_score = engagement_z + intensity_z
+```
+
+Where:
+- `engagement_z` = normalized comment upvote score
+- `intensity_z` = empirically-derived from data distribution (see [METHODOLOGY.md](src/kopi_sentiment/analytics/METHODOLOGY.md))
+
+**Why z-scores?**
+- Self-normalizing: adapts to changing engagement patterns
+- Statistically interpretable: z=2.0 means "top 2.5%"
+- Additive: engagement and intensity in same units
+
+### Configuration
+
+All parameters are configurable in `analytics_config.json`:
+- Intensity z-scores (derived from 2,000 quotes)
+- Alert thresholds (default: 2.0 for statistical significance)
+- EMA span (default: 7 days)
+- Forecast train/test ratio (default: 70/30)
+
+### Tests
+
+```bash
+# Run analytics tests
+pytest tests/test_analytics.py -v
+```
 
 
 ## References
