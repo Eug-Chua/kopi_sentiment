@@ -90,7 +90,8 @@ class WeeklyAnalyticsCalculator:
         momentum = self._calculate_momentum(timeseries, weekly_reports)
         velocity = self._velocity_calculator.calculate(timeseries)
         headline, insights = self._generate_insights(timeseries, momentum, velocity)
-        entity_trends = self._aggregate_entity_trends(weekly_reports)
+        # Entity trends use only the latest week (Main Characters = this week's topics)
+        entity_trends = self._aggregate_entity_trends([weekly_reports[-1]])
         commentary = self._commentary_generator.generate(timeseries, weekly_reports)
 
         return AnalyticsReport(
