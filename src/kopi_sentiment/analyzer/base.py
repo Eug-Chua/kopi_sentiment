@@ -2,6 +2,7 @@
 
 import json
 import logging
+import re
 from abc import ABC, abstractmethod
 from kopi_sentiment.analyzer.models import (
     Intensity,
@@ -108,19 +109,23 @@ class BaseAnalyzer:
 
         
     def _clean_json_response(self, response: str) -> str:
-        """Remove markdown code blocks from LLM response."""
+        """Remove markdown code blocks and fix invalid JSON escapes from LLM response."""
         response = response.strip()
-        
+
         # Remove ```json or ``` at start
         if response.startswith("```json"):
             response = response.removeprefix("```json")
         elif response.startswith("```"):
             response = response.removeprefix("```")
-        
+
         # Remove ``` at end
         if response.endswith("```"):
             response = response.removesuffix("```")
-        
+
+        # Fix invalid JSON escape sequences (e.g. \S, \d, \p from Reddit text)
+        # Valid JSON escapes: \", \\, \/, \b, \f, \n, \r, \t, \uXXXX
+        response = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', response)
+
         return response.strip()
 
     def _build_ffo_result(self,

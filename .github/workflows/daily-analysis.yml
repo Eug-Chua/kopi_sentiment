@@ -1,14 +1,14 @@
 name: Daily Sentiment Analysis
 
 on:
-  schedule:
-    # Run at 11:30am SGT (3:30am UTC) every day
-    - cron: '30 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/raw/daily/*.json'
   workflow_dispatch:
-    # Allow manual trigger
     inputs:
       date:
-        description: 'Date to analyze (YYYY-MM-DD), defaults to today'
+        description: 'Date to analyze (YYYY-MM-DD), defaults to latest raw file'
         required: false
         type: string
 
@@ -24,6 +24,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Detect date from raw data
+        id: detect
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "date_id=${{ github.event.inputs.date }}" >> $GITHUB_OUTPUT
+          else
+            # Find the latest raw daily file
+            LATEST=$(ls data/raw/daily/*.json 2>/dev/null | sort | tail -1 | xargs basename .json)
+            if [ -z "$LATEST" ]; then
+              echo "No raw data files found"
+              exit 1
+            fi
+            echo "date_id=$LATEST" >> $GITHUB_OUTPUT
+          fi
+          echo "Analyzing date: $(cat $GITHUB_OUTPUT | grep date_id | cut -d= -f2)"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -35,22 +51,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .
 
-      - name: Run daily analysis
+      - name: Run daily analysis from raw data
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          # Use input date if provided, otherwise use today
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            python -m kopi_sentiment.cli daily --date "${{ github.event.inputs.date }}"
-          else
-            python -m kopi_sentiment.cli daily
-          fi
-
-      - name: Copy daily report to web public folder
-        run: |
-          mkdir -p web/public/data/daily
-          cp data/daily/*.json web/public/data/daily/ 2>/dev/null || echo "No daily reports to copy"
+          python -m kopi_sentiment.cli daily \
+            --from-raw \
+            --date "${{ steps.detect.outputs.date_id }}"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -73,10 +81,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./web/out
 
-      - name: Commit updated data
+      - name: Commit analysis results
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/daily/*.json web/public/data/daily/*.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "Daily sentiment analysis for $(date +%Y-%m-%d)"
+          git add data/daily/*.json web/public/data/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Daily analysis for ${{ steps.detect.outputs.date_id }}"
           git push || echo "Nothing to push"
