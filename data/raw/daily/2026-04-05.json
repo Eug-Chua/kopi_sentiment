@@ -1,0 +1,2295 @@
+{
+  "schema_version": "raw_scrape_v1",
+  "report_id": "2026-04-05",
+  "scraped_at": "2026-04-05T20:22:35.950290",
+  "subreddits": [
+    "singapore",
+    "askSingapore",
+    "SingaporeRaw",
+    "singaporefi"
+  ],
+  "total_posts": 40,
+  "total_comments": 450,
+  "posts": [
+    {
+      "id": "t3_1sc81dr",
+      "subreddit": "singapore",
+      "title": "Bro missed his bus",
+      "url": "https://old.reddit.com/r/singapore/comments/1sc81dr/bro_missed_his_bus/",
+      "score": 1784,
+      "num_comments": 48,
+      "created_at": "2026-04-04T20:31:22",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Which bus stop was this at? ",
+          "score": 191
+        },
+        {
+          "text": "The nerve of some people taking photos of random cocks at bus stops ",
+          "score": 190
+        },
+        {
+          "text": "It looks so sad",
+          "score": 91
+        },
+        {
+          "text": "Sadly a Grab will cost more than a wing and a leg",
+          "score": 83
+        },
+        {
+          "text": "![gif](giphy|Xn4223BV9H6pN0PY1O)\n\n",
+          "score": 43
+        },
+        {
+          "text": "It might be sick, can you please call or WhatsApp ACRES wildlife rescue?",
+          "score": 37
+        },
+        {
+          "text": "It's a sick bird. \n\nEdit: I also saw another post with a sick fowl too. Is there a bird flu breakout?",
+          "score": 25
+        },
+        {
+          "text": "looks sick. IDK but even the jungle fowl community near my area (Punggo northshore) dwindled recently. Can't see the chicks roaming around that frequently. ",
+          "score": 24
+        },
+        {
+          "text": "Even bro is tired of waiting ",
+          "score": 23
+        },
+        {
+          "text": "that’s so cute i really love chickens so much ",
+          "score": 21
+        },
+        {
+          "text": "Wow. Seems upset. ",
+          "score": 11
+        },
+        {
+          "text": "Rooster stop",
+          "score": 7
+        },
+        {
+          "text": "That's why the chicken crossed the road. ",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "t3_1sccya1",
+      "subreddit": "singapore",
+      "title": "Thomson Plaza's Website Got Defaced",
+      "url": "https://old.reddit.com/r/singapore/comments/1sccya1/thomson_plazas_website_got_defaced/",
+      "score": 304,
+      "num_comments": 33,
+      "created_at": "2026-04-05T00:00:40",
+      "selftext": "Thomson plaza's website got defaced with a gambling site. Interestingly the hijacked server only serves the gambling if you enter [www.thomsonplaza.com.sg](http://www.thomsonplaza.com.sg) from the google search results or from their google business profile (https://www.google.com/maps/place/Thomson+Plaza/@1.354864,103.8283157,17z/data=!3m2!4b1!5s0x31da10ea9a5835bb:0x712b4b2e3ab4ade2!4m6!3m5!1s0x31da17302843f20b:0x92a97b729b48452b!8m2!3d1.3548586!4d103.8308906!16s%2Fg%2F11bw1gk3k6?entry=ttu&amp;g\\_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D). Just click on the link on the profile in google maps and you'll see it.",
+      "comments": [
+        {
+          "text": "Directly typing URL gives you the original website but clicking through Google gives the defaced version.\n\nThat sounds kinda strange to me.\n\nCan Google search links be spoofed/redirected in such a way?\n\nAnyone able to share?",
+          "score": 149
+        },
+        {
+          "text": "How did you found out about this? ",
+          "score": 53
+        },
+        {
+          "text": "Nice catch. \n\nDid some testing:\n\n1. Seems like you get served the gambling site if the referrer header is \"https://www.google.com\". Could even be if it contains \"google\". If you reach thomsomplaza.com.sg from any other place (eg. directly from browser, or backlink from thomsomplaza.com.sg/store-directory), you get the normal site. \n\n2. There's some sneaky filtering in the metadata where the canonical site is thomsomplaza, but has a language redirect for English (and other languages) to the scam site. \n\n3. Both sites seems to be served from the same ip address. ip seems to be owned by Oracle. Thomsomplaza seem to be using Wordpress. \n\nBased on this, it looks like Wordpress is compromised, probably via a plugin. ",
+          "score": 50
+        },
+        {
+          "text": "If I had a nickel for batshit things involving Thomson Plaza..\n\nhttps://www.reddit.com/r/singapore/s/N2kkd6Xb6H",
+          "score": 15
+        },
+        {
+          "text": "Familiar colour scheme 😂 🟧 ⬛ ",
+          "score": 13
+        },
+        {
+          "text": "bro u jerk off halfway accidentally clicked a ad is it, mine is fine",
+          "score": 9
+        },
+        {
+          "text": "That’s Turkish language btw",
+          "score": 7
+        },
+        {
+          "text": "Got notify their webmaster?",
+          "score": 3
+        },
+        {
+          "text": "Their website was not defaced. Their google business profile was hi-jacked through social engineering. The website link on their google business profile was then directed to another page.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "t3_1scte76",
+      "subreddit": "singapore",
+      "title": "CJ Logistics Asia retrenches 33 S'pore IT staff, affected employees to get 2 weeks' salary per year of service",
+      "url": "https://old.reddit.com/r/singapore/comments/1scte76/cj_logistics_asia_retrenches_33_spore_it_staff/",
+      "score": 243,
+      "num_comments": 90,
+      "created_at": "2026-04-05T11:46:49",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "TLDR. migrates its data centre to the cloud and offshores its operation to a team in Vietnam.\n\n\n\n\n\nGuess they don’t think the new tax deal is attractive enough to stay.",
+          "score": 283
+        },
+        {
+          "text": "The local IT team has also been asked to assist with the handover.\n\nLOL I will fuck it up",
+          "score": 185
+        },
+        {
+          "text": "\"The affected employees were initially offered a compensation of one to three months' salary, based on number of years of service. This offer was **later negotiated to two weeks'** salary per year of service.\n\nAccording to the Ministry of Manpower's guideline, the prevailing compensation norm varies between **two weeks' to one month's** salary per year of service.\"\n\nThis doesn't look like \"later negotiated\", more like lowballed to the minimum per MOM guidelines.",
+          "score": 169
+        },
+        {
+          "text": "Weekly news of business closing down/ offshoring / layoff is quite concerning. Never in history we have such a high frequency of such news",
+          "score": 51
+        },
+        {
+          "text": "&gt;In unionised companies with the quantum of retrenchment benefit stipulated in the collective agreement, the norm is one month's salary per year of service.\n\nCJ's retrenched employees in SG took it meekly. Getting two weeks salary for every year of service is on the low side and this was after negotiation. Still had to train their replacements before leaving.\n\nIronically, S Korea has one of the most powerful unions in the world and they would have flipped table at CJ.",
+          "score": 32
+        },
+        {
+          "text": "how much in tax rebates and grants did the government give to CJ Logistics Asia?",
+          "score": 19
+        },
+        {
+          "text": "only overseas companies left in SG soon... 1 room , 5 staff family offices who are here for the tax benefits",
+          "score": 16
+        },
+        {
+          "text": "Why does this come as a surprise, unless IT is your core value there is no reason to in house everything. The 33 staff probably have no advancement and hard to provide increment every year if they are just cost centre. ",
+          "score": 15
+        },
+        {
+          "text": "Are the impacted even Singaporeans ",
+          "score": 14
+        },
+        {
+          "text": "Probably the guidelines but oof 2 weeks per year of tenure is rough. All the 5 mncs i have worked in give at least 1 month for every year of tenure. On top of garden leave and stuff",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": "t3_1scs1ss",
+      "subreddit": "singapore",
+      "title": "Often mistaken as being Malay, this China-born woman speaks Mandarin and runs a halal Chinese restaurant",
+      "url": "https://old.reddit.com/r/singapore/comments/1scs1ss/often_mistaken_as_being_malay_this_chinaborn/",
+      "score": 243,
+      "num_comments": 103,
+      "created_at": "2026-04-05T10:39:14",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Best beef i ever had when I visited Yunnan was from a Muslim owned restaurant \n\n\nWish more of their cuisine was brought here instead of the same formula ",
+          "score": 171
+        },
+        {
+          "text": "It’s kinda amazing that despite our country’s fixation on race and religion, people still conflate the two. One’s race does not affect their religion. One’s religious practices might not be specific to their race. ",
+          "score": 59
+        },
+        {
+          "text": "Ah… I patronised their restaurant when I used to work in Joo Chiat up till ‘23. Very much prefer the Lanzhou style of beef noodles over the Taiwanese variety or pho",
+          "score": 39
+        },
+        {
+          "text": "Thought it would be aisyah, the more popular Xinjiang restaurant. Food is really good though. There's also one at cineleisure food court, you guys can go try. ",
+          "score": 27
+        },
+        {
+          "text": "Just because she wear hijab. She doesn't even look Malay.",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "t3_1scz5v7",
+      "subreddit": "singapore",
+      "title": "1 peregrine falcon fledgling dies, suspected to have struck glass panel at UOB Plaza 1 lobby",
+      "url": "https://old.reddit.com/r/singapore/comments/1scz5v7/1_peregrine_falcon_fledgling_dies_suspected_to/",
+      "score": 238,
+      "num_comments": 58,
+      "created_at": "2026-04-05T17:22:11",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Of all buildings there, it had to be the one from a banking competitor. ",
+          "score": 123
+        },
+        {
+          "text": "&gt;An eyewitness claimed she saw the fledgling being chased by crows before the window strike.",
+          "score": 117
+        },
+        {
+          "text": "When I first read that Peregrine Falcons had made a home in the CBD, I was worried they might fly into a building and die. Then it turns out that they were alright, I assume it's because they've learnt to be careful. But for the fledgling, sadly, it was chased by crows and wasn't careful.",
+          "score": 53
+        },
+        {
+          "text": "So sad 😢😢💔💔",
+          "score": 40
+        },
+        {
+          "text": "That's why crows are an invasive species and non native to Singapore.",
+          "score": 36
+        },
+        {
+          "text": "Time to cull the crows  in the cbd area",
+          "score": 31
+        },
+        {
+          "text": "Looks like time for crow culling in CBD. Menace to nature and society",
+          "score": 22
+        },
+        {
+          "text": "UOB will do anything to eliminate anything associated with OCBC",
+          "score": 12
+        },
+        {
+          "text": "This is so sad :(\n\nHave been watching the video feed, but not consistently. \n\nHopefully the 3rd check fledges successfully.",
+          "score": 6
+        },
+        {
+          "text": "Sad news.. was hoping to see them thrive here. Guess the fact that few survive their first year is right\n\nScrew crows",
+          "score": 5
+        },
+        {
+          "text": "RIP young one, windows are silent killers for many birds living in urban environments :(",
+          "score": 4
+        },
+        {
+          "text": "post this post for those against crow population control. \n\n",
+          "score": 3
+        },
+        {
+          "text": "About the chicks fledging.  Are there any vids of any of the chicks actually flying off from the nest (as against just flapping wings in the nest area)?  Am curious to know if they can actually fly back considering the height.  Unfortunately, I missed yesterday's 24/7 and NParks do not seem to have historical.  Today's single chick G03 hid itself behind the camera after the morning (10:30).  Wonder if it has flown off as well.",
+          "score": 3
+        },
+        {
+          "text": "RIP 🐦‍🔥",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scsbc7",
+      "subreddit": "singapore",
+      "title": "Trio arrested in Jurong East for alleged robbery &amp; assault: Arrest took almost 2 hours, 1 suspect apparently banged head against police car window",
+      "url": "https://old.reddit.com/r/singapore/comments/1scsbc7/trio_arrested_in_jurong_east_for_alleged_robbery/",
+      "score": 115,
+      "num_comments": 21,
+      "created_at": "2026-04-05T10:52:30",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "nice job SPF. ",
+          "score": 65
+        },
+        {
+          "text": "damn so drama",
+          "score": 26
+        },
+        {
+          "text": "People be playing GTA 6 in real life. Meanwhile I’m just here shaking my blind box hoping for the labubu I want.",
+          "score": 24
+        },
+        {
+          "text": "“the situation deescalated after the parents of one of the men returned home to their fourth-floor unit at Block 262 Jurong East Street 24 and unlocked the door”\n\nLol - oh mummy and daddy that’s so unfair!",
+          "score": 19
+        },
+        {
+          "text": "![gif](giphy|enCWEo0vG25Ow)",
+          "score": 10
+        },
+        {
+          "text": "No escape, not even at home.",
+          "score": 9
+        },
+        {
+          "text": "![gif](giphy|s5wFafpHxqKbIEERl9)",
+          "score": 7
+        },
+        {
+          "text": "&gt; Two men, both aged 21, and one woman, 24,\n\nSo young already so daring. I wonder if will see more of this type of crimes as it gets harder to get jobs.",
+          "score": 5
+        },
+        {
+          "text": "Maybe i'm old-fashioned but 24 year old female with a boyfriend 3 years her junior is an interesting dynamic in this context.",
+          "score": 3
+        },
+        {
+          "text": "Even after ITE, they still no brain to think?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1sco7mw",
+      "subreddit": "singapore",
+      "title": "Kayakers see wild boar swimming in waters off Pasir Ris Park, thought it was a crocodile at first",
+      "url": "https://old.reddit.com/r/singapore/comments/1sco7mw/kayakers_see_wild_boar_swimming_in_waters_off/",
+      "score": 107,
+      "num_comments": 16,
+      "created_at": "2026-04-05T07:35:16",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Wild boars do swim! Loll",
+          "score": 30
+        },
+        {
+          "text": "I've saw a wild boar along the PCN at Changi coast road near Changi Naval base.\n\nSo they do island hop. Apparently elephants try too.",
+          "score": 20
+        },
+        {
+          "text": "![gif](giphy|3o8dpadHZdBs2iPYdy)\n\nToo hot",
+          "score": 4
+        },
+        {
+          "text": "Boar at first sight ❤️ ",
+          "score": 4
+        },
+        {
+          "text": "Tbh I think I might pee in the kayak",
+          "score": 4
+        },
+        {
+          "text": "Which bugger took a photo of me during my weekly swim knn si gina ",
+          "score": 3
+        },
+        {
+          "text": "No need to worry",
+          "score": 2
+        },
+        {
+          "text": "Why do Wild Boars cross the lake?\n\n![gif](giphy|iLKIdz5boR4Ox4yMhE)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1sce9tu",
+      "subreddit": "singapore",
+      "title": "Bangkok internship, exchange in London: Singapore students explore ASEAN, China beyond the West",
+      "url": "https://old.reddit.com/r/singapore/comments/1sce9tu/bangkok_internship_exchange_in_london_singapore/",
+      "score": 108,
+      "num_comments": 26,
+      "created_at": "2026-04-05T00:52:08",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "\" \"In Bangkok, there’s a lot more spaces dedicated to bands, music, and the arts, (unlike) in Singapore, where it’s generally tougher to find such spaces,” she said.\n\nExperiencing the Thai way of life – including learning the phrase “sabai sabai” (relax in Thai) – also prompted her to reassess priorities.\n\n“I really like the idea of being content with my life instead of always trying to seek out new greatness, new adventures, so that was one of the biggest things I learnt in Thailand.” \"\n\nI think the Thai mentality and lifestyle is so much more balanced and wholesome.",
+          "score": 115
+        },
+        {
+          "text": "&gt;Bangkok internship, exchange in **London**: Singapore students explore ASEAN, China **beyond the West**\n\nBut London is in \"the West\"...",
+          "score": 18
+        },
+        {
+          "text": "Right thing to do. We've massive market just beyond our shores and learning the language, spending some time and making connections go a long way. ",
+          "score": 16
+        },
+        {
+          "text": "Mr. Lim is now considering a two-week programme in entrepreneurship and innovation at a university in Vietnam.\n\nThat would be a great idea if he goes through with it. There are a ton of things he could start, if he wanted to get entrepenueiral. Vietnamese are particulary partial to \"SG Frog soup.\"",
+          "score": 5
+        },
+        {
+          "text": "Cause no more jobs here la",
+          "score": 2
+        },
+        {
+          "text": "I really think we should get rid of overseas volunteer trips for students.",
+          "score": 1
+        },
+        {
+          "text": "![gif](giphy|2nQJTVBlNLylJPdtUL)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scps4l",
+      "subreddit": "singapore",
+      "title": "They met once and got engaged two weeks later: Inside an arranged marriage in Singapore",
+      "url": "https://old.reddit.com/r/singapore/comments/1scps4l/they_met_once_and_got_engaged_two_weeks_later/",
+      "score": 107,
+      "num_comments": 54,
+      "created_at": "2026-04-05T08:48:35",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Reminds me of a joke from stand up comedian Akash Singh. \n\n\"People always be like \"Oh my god, how do you marry someone without getting to know them?\". Oh yeah, how do you marry someone AFTER?\"\n\nAll jokes aside, best of luck to this couple. Two weeks is insanely fast even for an arranged marriage.",
+          "score": 161
+        },
+        {
+          "text": "System has its pros and cons. \n\nMy Indian friends mention the benefits being:\n1. Able to fully focus on career\n2. Not spending excessive time and money on dates and relationships just to fall apart at the last minute\n3. Both sides get to truly know each other from the start since it's not years of dating but years of cohabition\n4. Parents on each side are deeply involved so there's less in-law conflicts\n5. Give parents stuff to do\n6. Generally increases marriage rate and indirectly birth rates\n\n\nQuite similar to traditional matchmaking agencies except the matchmakers are parents",
+          "score": 65
+        },
+        {
+          "text": "Eh personally not for me but if it works for others then why not, especially if they can establish and respect each other’s boundaries. People can be in a relationship for years before marriage and it still doesn’t end well.\n\nI’ve friends who tell me they can only meet up when their husband is working, because when he’s having his off day she’s expected to be spending time with him, or that they have to ask their husbands for permission before going out (just for a meal with friends). And these issues only came to light after marriage so 🤷🏻‍♀️",
+          "score": 63
+        },
+        {
+          "text": "Origins of blind box",
+          "score": 41
+        },
+        {
+          "text": "The idealised version of marriage is a problem because so many people want the fairy tale but don’t recognise that it’s hard work. \n\nSo if an arranged marriage can work, hats off to them. ",
+          "score": 36
+        },
+        {
+          "text": "Actually, marrying for love is more of a recent thing. Until the 18th century, marriage was clan-based with the overriding objective being preservation and expansion of wealth and power. \n\nArranged marriages should not be confused with forced marriages. Families that arrange marriages have the couple’s interests at heart. \n\nI am pretty sure the divorce rate of those that marry for love is higher than arranged marriages. ",
+          "score": 29
+        },
+        {
+          "text": "Well same like a job interview. Some people only meet you for 2 or 3 interview sessions and decide that they are OK with working 9 hours a day with you for 5 days a week.\n\nIf it works, it works. If it doesn't, just get a divorce. So common for non-arranged marriage to end up in divorce anyways. ",
+          "score": 8
+        },
+        {
+          "text": "saved time and money on dates.  \nready to BTO  \nif it doesn't work out, flip BTO, no hard feelings.\n\nsounds sensible in singapore actually.",
+          "score": 6
+        },
+        {
+          "text": "Yall bto lock in at uni as well ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "t3_1sd1a0a",
+      "subreddit": "singapore",
+      "title": "Woman, 50, buys S$35,800 Rolex watch from pawn shop, but service centre staff claim it's fake - Mothership.SG",
+      "url": "https://old.reddit.com/r/singapore/comments/1sd1a0a/woman_50_buys_s35800_rolex_watch_from_pawn_shop/",
+      "score": 79,
+      "num_comments": 63,
+      "created_at": "2026-04-05T19:30:49",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "15 year old gets a Daytona .. sigh ",
+          "score": 1
+        },
+        {
+          "text": "Damn, if it really is fake then someone messed up during the verification checks. If I just bought a secondhand luxury item from a pawn shop recently and saw this article, I'd probably be scrambling to ensure my purchase is authentic as well.",
+          "score": 1
+        },
+        {
+          "text": "I don’t understand the refusal of the refund tho? \n\nSomeone messed up at maxi cash, but no way they’re intentionally selling fakes in Singapore. ",
+          "score": 1
+        },
+        {
+          "text": "Wait MaxiCash wanted to refund them and get the watch back.\n\nBut the Couple refused?\n\nWeird..",
+          "score": 1
+        },
+        {
+          "text": "It’s been days or weeks since the couple returned the watch to Maxi Cash.\n\n\nYet Maxi Cash has not addressed the question - is the watch fake or not?\n\n\nCorrect me if i’m wrong. The process wouldn’t take so long right?",
+          "score": 1
+        },
+        {
+          "text": "Precisely the reason why I still play the AD game.. some grey dealers are trust worthy for sure but I’m too paranoid about stuff like this. ",
+          "score": 1
+        },
+        {
+          "text": "Just take the refund and go grey",
+          "score": 1
+        },
+        {
+          "text": "Some parents are really weird or ridiculous. If they have 35k to spare, why not just go to a legitimate luxury watch outlet and get a brand new one for their son? If already offered refund (plus voucher), why not just accept and buy a brand new watch this time for their son? Maxicash can also verify if the watch was indeed fake and admit their mistake too, no?\n\nI won't question why a 15 year old needs a 35k watch, but does having kids or having too much money mess with our brain chemistry?\n\nRight now, I'm just hoping no illegal modification was done to the watch when in their ownership between Dec 2025 to March 2026. Otherwise they'll be shooting themselves in the foot.",
+          "score": 1
+        },
+        {
+          "text": "Wow. End up those specialized luxury second hand shop in far east might be more legitimate than MaxiCash. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1sceeis",
+      "subreddit": "askSingapore",
+      "title": "Mom assumes she is moving in with me",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1sceeis/mom_assumes_she_is_moving_in_with_me/",
+      "score": 329,
+      "num_comments": 135,
+      "created_at": "2026-04-05T00:57:12",
+      "selftext": "My partner and I are finally getting our own place 1 year after our marriage, and have planned our space based on just the two of us.\n\nAfter signing the OTP and getting the rest of the paperwork done, my mom hinted strongly that she expects to move in with us, without any prior discussion. While I shut down that conversation by letting her know that the place is not designed with the intention of any of our parents moving in, she is being passive-aggressive since she last hinted.\n\nShe is now staying up until I get home before she goes to sleep every night, seemingly to ensure that I don’t move out without her knowing.\n\nMy partner and I are both firm on not having any of our parents stay over, let alone move in since we want our own space, and the place is designed for just the two of us. Now I am afraid that she will keep quiet until we move in to our new place and just show up unannounced with her stuff.\n\nFor context: the issue of moving in was never mentioned prior to this, and the initial plan was for my mom to move in with my aunt when I moved out. My family is one that does not deal with matters directly, and tends to sweep problems under the rug.\n\nWhat should I do, and how do I broach the subject again since she has not mentioned it since the last time I shut the conversation down?",
+      "comments": [
+        {
+          "text": "This was me. Back when I was attached, planning to marry. \n\nAsked parent what their plan was for retirement and without asking said they will move in with me, they will rent the old place out and I will give them money.\n\nI said no immediately. That I needed my own place and that that cannot be there. \n\nJokes on them, I broke up so no house to move into too.",
+          "score": 497
+        },
+        {
+          "text": "Just talk about moving in a lot and continue to shut her down, eventually she will get the hint. \n\nOr, you know, be an adult and lay it out plainly and unemotionally. Buy house already still liddat how lmao",
+          "score": 233
+        },
+        {
+          "text": "Why does she want to move in with newlyweds and infringe on your privacy (and presumably bedroom activities)? \n\nIt's a very, very strange mentality. Ask her straight up - does she want to potentially strain your marriage by clashing over living arrangements? If no, then no moving in.",
+          "score": 227
+        },
+        {
+          "text": "Stand firm and hold your ground. Just say that you and your partner agreed not to bring any parents in for fariness.",
+          "score": 225
+        },
+        {
+          "text": "Might be an unpopular opinion but I feel like you should distance a little from your mum. Her going together on trips with you and your partner + bringing her to house viewings kinda makes me feel like your family (particularly your mum) is enmeshed which is why she's having difficulty separating her life from yours and why you're in this situation. Also, even if it is a difficult conversation, you have to sit her down and make it absolutely clear to her that she is not moving over to your new place no matter what. You mentioned that your family doesn't talk about feelings but you have to start somewhere and break the cycle. ",
+          "score": 136
+        },
+        {
+          "text": "What's your relationship like with your mom? Does she just fear that you will forget about her once you move out? Sometimes the older generation of parents can be very stubborn and don't know how to express their feelings properly.\n\nMaybe try talking about how you will visit her and how often?\n\nHow is her relationship with her sister? Was this initial plan discussed with your mom and your aunt?",
+          "score": 66
+        },
+        {
+          "text": "Very difficult situation, but the idea is to be firm and say no.\n\nHappy spouse happy house. Especially if you're a guy. If you're my husband and I learned that you're not firm on this, it is breakup time.",
+          "score": 46
+        },
+        {
+          "text": "Just mention how your partner’s parents wanted to move in also and you stopped it. So with that same level of fairness, you cannot allow her to move in also if not will be disrespectful to your partner. This kind of thing must play the game abit bro. Must say until you really no choice but will still make her feel loved. She has a place to stay. It’s not a situation of her having a roof over her head. She just wants to know that she is not losing you. She’s afraid of the big change. It’s up to you to convince her it won’t be as such",
+          "score": 27
+        },
+        {
+          "text": "The answer is really simple. Have an open conversation, and overcome the difficult part of not discussing things cause I think that lack of open and honest conversation is what is stressing you out now. Otherwise you’re relegating yourself to continued unaddressed issues that give rise to such passive aggressive behaviour. \n\nBest of luck bro. \n",
+          "score": 21
+        },
+        {
+          "text": "Just remember not to give her keys/access to the house. Turn her down firmly and in time, she will get used to it. ",
+          "score": 9
+        },
+        {
+          "text": "Have the conversation, tell her a hard no. Don't avoid the topic just because she's bidding her time. Tell her that if she attempts to do whatever you mentioned, she also will NOT get to go to your place at all. ",
+          "score": 8
+        },
+        {
+          "text": "\"My family is one that does not deal with matters directly, amd tends to sweep things under the rug\" Please be fucking direct in addressing this and make it very clear to her that she's not to move in with you. This rug-sweeping shit is the most disgusting pillar of Asian culture. Demolish that fucking pillar",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": "t3_1scr4v0",
+      "subreddit": "askSingapore",
+      "title": "What screams “I was raised by a domestic helper”?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1scr4v0/what_screams_i_was_raised_by_a_domestic_helper/",
+      "score": 228,
+      "num_comments": 167,
+      "created_at": "2026-04-05T09:53:26",
+      "selftext": "Bit of a follow-up to my last post (about iPad kids). What, to you, are the signs that a child (or adult) was parented by a domestic helper? \n\nFor me, the first thing that comes to mind is being unable to do basic household tasks. What do y’all think?",
+      "comments": [
+        {
+          "text": "Take water for me please.\n\nLeaving everything everywhere after using, and expecting someone to pickup after themselves.\n\nNot knowing where to find things.\n\nLeaving all the plates cutleries in the sink and expecting someone to wash.",
+          "score": 472
+        },
+        {
+          "text": "I once heard this story told by an educator: seen in a primary one classroom when the kids had to change into their PE attire for PE lesson. One kid did not know how to unbutton his own shirt. Basically he just stood there with his arms out waiting around for someone to unbutton the shirt for him. ",
+          "score": 265
+        },
+        {
+          "text": "So this is an observation on my millennial partner who had a helper growing up. He's not pampered - he will wash his own dishes and laundry. But he is completely oblivious about non-obvious household tasks - clutter gets left everywhere, random stuff gets piled up or shoved in a convenient space. It's because he was brought up with a helper who was in charge of keeping the household tidy - so all that actual responsibility and organisational stuff was conveniently outsourced.\n\nDirect, obvious tasks - sure. He's a helpful and contributing partner.\n\nBut keeping the household tidy - not his job. ",
+          "score": 195
+        },
+        {
+          "text": "When the helper is carrying his SAF backpack ",
+          "score": 183
+        },
+        {
+          "text": "Unable to do housework just means someone else is doing it for him or her, nothing to do with being parented by domestic helper",
+          "score": 88
+        },
+        {
+          "text": "That one isnt really a sign of being raised by a domestic helper, could be a stay at home mom or grandparents/other family members pampering the child also\n\n\nThe one legit tell tale sign would be that the child isnt really close to their parents and vice versa. There was an ad a while back showing that helpers knew more about a child than the child's own mothers, and i can say this is absolutely true. Some mothers with helpers dont even know what their child's favourite foods are and dont even know what their child wants to do when they grow up.\n\nThe helper becomes the child's mother figure rather than their own mother. This one 100% plus chop raised by helper one\n\nEven if the child was raised by grandparents/aunts/uncles or whatnot these family members would still share whatever they know with the child's parents every so often. Most helpers dont have this kind of rapport with the child's parents who are their bosses. \n\nSo even if the child wasnt raised by the parents but rather by their extended family, the parents probably arent clueless. For helpers raising children, the parents are more likely to be clueless especially if they are both working. Really the only exceptions are if 1 of the parents are stay at home mum/dad, and the helper is there for chores or to help out with multiple kids/elders.",
+          "score": 83
+        },
+        {
+          "text": "For kids, it's the lack of manners. Most helpers aren't allowed to correct or scold the kids so they are rude and often will be rude to their parents and teachers as well. \n\nI have corrected MANY kids who think they can speak to me the way they speak to their helper. And I have also corrected them when they are rude to their helper. It's so common these days. \n\nFor those with strict parents, they will be polite in front of their parents but when the parents aren't around, they will speak rudely. ",
+          "score": 62
+        },
+        {
+          "text": "Being comfortable with the idea of a domestic helper. \n\nI think a lot of the surface things like chores etc , kids and people can learn to do on their own. As many point out, having a SAHM or similar can also result in people not knowing how to do simple stuff around the house. \n\nBut the deeper underlying notion of whether or not it is a good thing that we can, for relatively little money, have a live in servant (let’s call a spade a spade), and growing up with explicit class distinctions, being waited on in exchange for money, etc., - I find people who grow up with helpers generally do not even think twice about this, and just see this as a fact of life that such arrangements are natural and without issue. ",
+          "score": 43
+        },
+        {
+          "text": "Not knowing how to cook or handle laundry which requires experience and cannot learn by just observing. \n\nAll the wash dishes, take water, take this take that may not be true. Those are a matter of upbringing",
+          "score": 24
+        },
+        {
+          "text": "Lack of ability to do many age appropriate things that most of us take for granted.\n\nFor an adult, that includes fixing a simple meal or washing, drying, folding and ironing clothes. The same traits is present in adults whose parents did everything for their kids as a display of love.\n\nThat said NOT everyone that had a maid grows up to be this way. Most turn out fine as their parents had clear boundaries set in place.",
+          "score": 23
+        },
+        {
+          "text": "Bad relationship with parents.\n\nSuggesting everyone to just get maid for any household problem they have.",
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": "t3_1sc9gab",
+      "subreddit": "askSingapore",
+      "title": "How would you deal with your \"active\" upstairs neighbour??",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1sc9gab/how_would_you_deal_with_your_active_upstairs/",
+      "score": 99,
+      "num_comments": 42,
+      "created_at": "2026-04-04T21:36:42",
+      "selftext": "so...i got this upstairs neighbour, couple, at first its the sound of weight being put down, you know like in the gym, i think theres some cushion/matting as its a feint sound so its still tolerable, but they decided to buy treadmill, my gad!!! not sure what did I do my past life\n\nhdb already talk to them, yes i've reported this time because my son really can't he gets agitated i get agitated too you know XD, i guess thats about it right? tahan? until when??? :(\n\ni mean, its hard to reason out with them, lots of extra things really, from religious activity to pets lots of activity this couple, im okay...but this treadmill really grind our gears\n\nfor those with neighbour below their flat, pls don't buy treadmill :/",
+      "comments": [
+        {
+          "text": "I thought “active” meant something else",
+          "score": 235
+        },
+        {
+          "text": "https://ceilingvibrator.com/ceiling-vibrator-system-v4-version/",
+          "score": 74
+        },
+        {
+          "text": "Dun worry, most people don’t stick to their indoor runing/cycling for too long…",
+          "score": 46
+        },
+        {
+          "text": "Change your wifi to \"please go to activeSG\"",
+          "score": 10
+        },
+        {
+          "text": "Give it a rest you two! [https://www.youtube.com/watch?v=J6ruJV91eoM](https://www.youtube.com/watch?v=J6ruJV91eoM)\n\nbut seriously, we once had a Indian dance captain practicing upstairs from midnight to 2 am consistently when I was doing my masters overseas.\n\nhad to buy a white noise machine for my toddler daughter to sleep.",
+          "score": 10
+        },
+        {
+          "text": "Jio them 1 to 1 ",
+          "score": 9
+        },
+        {
+          "text": "Anyone got neighbours who use collapsible beds or furniture? My f-head neighbours absolutely love conveniently and randomly throwing the furniture legs to the floor EVEN in the wee hours, like who the f can \"accidentally\" do that everyday? ",
+          "score": 4
+        },
+        {
+          "text": "Active could also mean they are pounding so hard on the bed that it shakes the ceiling on their downstairs neighbour",
+          "score": 2
+        },
+        {
+          "text": "Buy for them those furniture leg pads and give them. It should help to reduce the transmitted vibrations and noise",
+          "score": 1
+        },
+        {
+          "text": "[ Removed by Reddit ]",
+          "score": 1
+        },
+        {
+          "text": "[Reminds me of this skit.](https://www.youtube.com/watch?v=4IRB0sxw-YUhttps://www.youtube.com/watch?v=4IRB0sxw-YU)",
+          "score": 1
+        },
+        {
+          "text": "I have a treadmill in my flat too, which I use for brisk walking. No running. Does it make that much noise? ",
+          "score": 1
+        },
+        {
+          "text": "Could you record how does it sounds like when upstairs neighbour using treadmill? I’m a bit curious. I almost brought one for indoor exercise but changed to stationary bicycle because I can game while cycling 🙈",
+          "score": 1
+        },
+        {
+          "text": "could they not buy one of those mats to put under their treadmill to reduce noise. but if really no choice you can consider getting som ear muffs for your son when he is resting or studying. i just blast the fan at full speed to cut out all noise or use ear plugs.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scysfa",
+      "subreddit": "askSingapore",
+      "title": "Am I a fool for rejecting a job offer in this market?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1scysfa/am_i_a_fool_for_rejecting_a_job_offer_in_this/",
+      "score": 83,
+      "num_comments": 51,
+      "created_at": "2026-04-05T16:58:29",
+      "selftext": "Started applying in late Feb (around 1.5 months) and got interviews with 7 companies so far. There’s also recruiters who reached out but no interview yet. I will be applying for more jobs.\n\n4 rejections (2 at final round) 2 pending 1 offer\n\nI turned the offer down because I felt like the job didn’t align with what I wanted long term and more importantly, I also noticed some red flags about the company during the interview. One instance was when the hiring manager knew that I used to work at a certain company he immediately asked if my previous manager would call me after work or on the weekends (I said no). He mentioned that in this company if there's a idea on the weekends, he will ask me to execute it. There will also be OT during events (judging by the company, it will be a frequent thing). The whole interview gave me bad vibes.\n\nAnother concern I have is that once I accept this onsite job it will be very difficult for me to take any zoom interviews. Glassdoor reviews also seem to perpetuate my fears.\n\nLooking at the recent posts about the horrible job market I’m starting to second guess myself if turning it down was the right decision without another offer. But then again I was so stressed about starting work there I got a fever and my gut feeling told me not to start…\n\nI have enough savings to last around 4-5 months. Am I confident in my skills? Yes.\n\nPerhaps the point of writing this post is not to change any decisions (I've alr rejected the offer) but to just vent because I feel so alone in this :(",
+      "comments": [
+        {
+          "text": "Trust your gut feelings. ",
+          "score": 123
+        },
+        {
+          "text": "Just go with your guts feeling. Don't worry too much about it.",
+          "score": 58
+        },
+        {
+          "text": "I think you’re very brave for this! Instead of just blindly accepting just for the sake of a job, you trusted to know what is best for you and rejected. \n\nSince you have savings enough to last and it doesn’t match your vision, just keep applying until you find one that fits you! \n\nAll the best!",
+          "score": 41
+        },
+        {
+          "text": "&gt;I have enough savings to last around 4-5 months. Am I confident in my skills? Yes.\n\nDon't let a dusty ass grifter get your skills if you know what you're worth.",
+          "score": 28
+        },
+        {
+          "text": "So here's the thing:\n\n\nIf you trust your gut feeling and you're wrong, you'll never know that you made a big mistake. Blissful ignorance.\n\n\nIf you don't trust your gut feeling and it turns out badly, you'll always blame yourself for not trusting it.",
+          "score": 9
+        },
+        {
+          "text": "You got this ",
+          "score": 8
+        },
+        {
+          "text": "You’ve only been applying for 2 months and alr got 7 interviews. I think you should be fine and will be able to find a better job soon :) anyway you’ve already turned it down so there’s no point to regret. Trust your decision. Wishing you all the best  ",
+          "score": 6
+        },
+        {
+          "text": "You'll never walk alone.",
+          "score": 6
+        },
+        {
+          "text": "The fact that you had 7 interviews in 2 months says alot. Have some faith. We work to live not live to work. For interviewers to say they might call u over the weekends when theres a new idea is quite ridiculous. Im assuming its social media related since its possible to execute over the weekend. But still… it should not come as an expectation. ",
+          "score": 5
+        },
+        {
+          "text": "I was unemployed for the better part of last year. Had an interview for an industry I was trying to break into and just said yes to it out of excitement. I decided to read the glassdoor reviews (should have done that prior) and they were horrendous. I didn’t even go for the interview because it just didn’t align with my ethics and morals. I eventually landed a job that I’m happy with and doesn’t fill me with dread and anxiety (most of the time lol). \n\nI would say trust your gut feeling, and I wish you the best for your pending offers. ",
+          "score": 3
+        },
+        {
+          "text": "If you've already rejected &amp; it's over just gotta get over replaying the event in your mind over and over.\n\nLet's say, trust your instincts.\n",
+          "score": 3
+        },
+        {
+          "text": "I share the struggle. I try to tell myself, first of all I'd be suffering (unquantifiable loss), 2nd therapy fees are $180/hr ($400 at lets say 2x a month), 3rd \"treating myself\" on bad days can also add up to $50-100 a month easily or more (think 1 nice drink a week or food delivery when too mentally exhausted to get food), 4th opportunity cost of being miserable (picking up a new skill, a new hobby, spending quality time with loved ones). If you cut the take-home by that amount, is the offer still something you would accept? If no, easy answer. If yes... then at least you have more clarity what you're suffering for (that bag!!)",
+          "score": 2
+        },
+        {
+          "text": "Usually they will try to market the extra hours and weekends nicer. The fact that he bring it across as its a basic employee expectation provides you a hint at the mindset of the management. No doubt that mindset is consistent throughout all other aspect of working there. I would trust your assessment of the vibes.",
+          "score": 2
+        },
+        {
+          "text": "Like what the others have said, trust your gut feelings. Toxic environment may affect your mental health as well as your overall growth which is necessary for your long term outlook. Only settle if you are really in need of cash. Getting 7 interviews within 1.5 months is really good! You can do this!",
+          "score": 1
+        },
+        {
+          "text": "Please share through which source u applied? And what could stand out from your resume to have so many offers!! \n\nI have been applying but only got one interview offer :(",
+          "score": 1
+        },
+        {
+          "text": "Nope, also rejected a job offer before as I felt i would be underpaid",
+          "score": 1
+        },
+        {
+          "text": "I felt the same way and accepted a job, ignoring the red flags I noticed during interviews. I’ve already left but still paying for not trusting my instincts. Brave of you to stick with your values! ",
+          "score": 1
+        },
+        {
+          "text": "Don't bother taking any onsite job if there's hybrid options available. It's a two way thing right between you and the company. Company doesn't like you, they will fire you, reject you etc etc. If you don't like the company just do likewise. ",
+          "score": 1
+        },
+        {
+          "text": "Check with Glassdoor. It will provide some insight.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1sczoj2",
+      "subreddit": "askSingapore",
+      "title": "Is it just me or are local tech stores like Challenger, Harvey norman , Courts and Best Denki really mediocre?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1sczoj2/is_it_just_me_or_are_local_tech_stores_like/",
+      "score": 71,
+      "num_comments": 50,
+      "created_at": "2026-04-05T17:55:35",
+      "selftext": "They are like the  7-Eleven of tech stores. Convenient but never good value buys except for display sets.",
+      "comments": [
+        {
+          "text": "In terms of pricing, they can never compete with lazada/shopee etc because of the additional costs. But they do throw in some free stuff here and there to try sweeten the deal. When we bought a refrigerator from courts, they threw in a free phone as part of the deal.\n\nI guess they are good if you want to physically view the item and understand the specs. For big ticket items like a refrigerator, my fam will still go down to view, compare then make the purchase. \n\nDepends on what kind of consumer you are I guess, are you the price-conscious or service-conscious kind, I think the local retailers still have some advantages and there’s still decent demand for their offerings.",
+          "score": 74
+        },
+        {
+          "text": "Putting challenger together with the rest of the names there is a travesty. The other 3 have their moments, but challenger is just hot garbage. They fell off around 2016 when they started to bring in more valore products and also not bothering to maintain a premium look in their stores",
+          "score": 40
+        },
+        {
+          "text": "I only go there when desperate for something and lazy to travel further than my neighbourhood",
+          "score": 21
+        },
+        {
+          "text": "They get the job done for me. Convenience trumps the effort i need to put in searching high and low for the best value buy. \n\nFor stuff like monitors and computer peripherals i wait for IT show, pretty good deals there. ",
+          "score": 13
+        },
+        {
+          "text": "I only go there if extremely urgent. ",
+          "score": 8
+        },
+        {
+          "text": "The pricing is quite tight for new stocks so pricing wont vary substantially between outlets.",
+          "score": 7
+        },
+        {
+          "text": "Im not sure how they compete with e commerce. in terms of pricing, I mean ive switched to buying from Lazada campaigns instead of retail stores and the price is way lower from authorised Lazmall store.",
+          "score": 7
+        },
+        {
+          "text": "They will soon go the way of Robinson. ",
+          "score": 6
+        },
+        {
+          "text": "Courts is quite bad regarding warranties and how they uphold it, don’t recommend. Just buy online lol all these stores are dying ",
+          "score": 4
+        },
+        {
+          "text": "may i know the alternatives? for me Hnorman/courts is ok as I can use my dbs cc for 0% interest installments hehe",
+          "score": 3
+        },
+        {
+          "text": "You do know they have rent, staff, utilities etc... to pay vs online stores. Which is why things are sold at a markup Vs online.",
+          "score": 3
+        },
+        {
+          "text": "Shopee/Lazada is always cheaper. I don't do much offline shopping anymore. Only go down to touch and see in person. Online shopping can easily be cheaper than a few hundreds. ",
+          "score": 3
+        },
+        {
+          "text": "I only go there when I need to check something out in person (because online sources are unclear on specifications), or, when I need something urgently. ",
+          "score": 2
+        },
+        {
+          "text": "Coming back from Shenzhen yeah...",
+          "score": 2
+        },
+        {
+          "text": "They are not tech stores.. they are just retails that happen to sell some tech stuffs ",
+          "score": 2
+        },
+        {
+          "text": "Sometimes their normal day price is same as lazada shoppee on 4/4, 5/5 days. Some have kris pay can earn more points, so you always have to compare/ track prices.",
+          "score": 2
+        },
+        {
+          "text": "Harvey Norman pricing is decent, especially when you want extended warranty. Aunties and uncles there are very helpful, and they usually match pricing (although not shopee vouchers) ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1sctja6",
+      "subreddit": "askSingapore",
+      "title": "blocking someone on paylah/paynow?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1sctja6/blocking_someone_on_paylahpaynow/",
+      "score": 64,
+      "num_comments": 50,
+      "created_at": "2026-04-05T11:54:14",
+      "selftext": "update: \n\nthanks everyone for your input and ideas. we have deleted paylah for the time being and ensured the harasser doesn’t know my friend’s NRIC number. \n\nso far so good but we will see. The guy is mental so we never know.\n\n————————————\n\nI know it’s not possible to block someone from sending you money via paylah or paynow.\n\nHowever are there other methods that have been tried and true? Already contacted the bank and they said they can’t do anything.\n\nNumber is unable to be changed due to sentimental reasons (I strongly suggested this but my friend doesn’t wanna let go of her number for one idiotic person).\n\nIs it too much if we go to the police for harassment? For context the paylahs are 1 cent each and come in almost every minute or so besides the time he’s eating or sleeping or showering I guess lol. went to over $20 in 2 days.",
+      "comments": [
+        {
+          "text": "Bro this is called passive income. Embrace it /j",
+          "score": 158
+        },
+        {
+          "text": "On the positive note, your friend has achieved what many yearn for - true passive income",
+          "score": 84
+        },
+        {
+          "text": "Damn that person has some serious mental issues.",
+          "score": 34
+        },
+        {
+          "text": "Just disable notification from that app, through the app or phone OS. \n\nIf you need to check transfers, e.g. when selling stuff, then open the app to check.",
+          "score": 33
+        },
+        {
+          "text": "unlink the number to paynow / paylah",
+          "score": 22
+        },
+        {
+          "text": "omg sounds like we have the same friend. the dude is crazy he spams 1cents each time just to get her attention and i suggested muting all the paylah notif and even just simply deleting paylah",
+          "score": 16
+        },
+        {
+          "text": "This is a ur friend problem",
+          "score": 12
+        },
+        {
+          "text": "Free money though can get annoying seeing the statement and message :D Interesting method to harass people... \n\nCan try going to police but I doubt anything substantial can be done since bank can't do a thing either. ",
+          "score": 11
+        },
+        {
+          "text": "Contact police for harassment, they'll probably contact the bank and ask them to freeze his account, since he's abusing it.\nAfter that the bank won't allow him to bank with them anymore.",
+          "score": 9
+        },
+        {
+          "text": "Contact DBS and close the paylah account? It’s a separate unnecessary wallet ",
+          "score": 8
+        },
+        {
+          "text": "Kao I wanted to stick my qr code my my car so people can scold me for a fee",
+          "score": 7
+        },
+        {
+          "text": "Just turn off the notifications? Why turn down free money from idiots?",
+          "score": 6
+        },
+        {
+          "text": "Wa this is easier than being a shopeee affiliate. Can you give him my number instead ",
+          "score": 5
+        },
+        {
+          "text": "The person doing this, needs professional help 🤯 1c paylah with messages? Damn.",
+          "score": 3
+        },
+        {
+          "text": "Unregister PayLah Paynow for a duration, if anybody ask, tell them bank in account, or transfer using some other form of e wallet.",
+          "score": 3
+        },
+        {
+          "text": "[ Removed by Reddit ]",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scbqls",
+      "subreddit": "askSingapore",
+      "title": "Anyone had their adult birthday party at McDonalds or anywhere fun? Any recommendations?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1scbqls/anyone_had_their_adult_birthday_party_at/",
+      "score": 55,
+      "num_comments": 46,
+      "created_at": "2026-04-04T23:12:10",
+      "selftext": "I'm (27F) thinking of hosting a birthday party for my friends and possibly family depending on activity, around 20-35 people. quite a few separate groups that don't know each other. I don't want to force mingling between groups but it would be nice. I just want to make sure no one feels awkward. My goal is just for everyone to talk, have fun and get a cool memory out of this!\n\nafter asking around, top contender seems to be mcdonalds which sounds fun but I don't know how it will go for a group of adults. \n\nI have other ideas below! if you guys have experienced any of these or have other ideas please let me know! and btw I have budget of hopefully under 1k but if it's fun, I don't mind forking out more! \n\nother ideas\n\n\\- timezone seems really fun! \n\n\\- Singapore zoo has an evening in the wild thing with dinner and wildlife encounter stuff! I love animals so this seems rly fun but I'm still in the middle of getting a quote and it seems expensive...\n\n\\- chalet and I just get games and alcohol, people can drop in and out which is nice but it's not like the craziest experience\n\n\\- art jamming or craft studios\n\n\\- I see cooking studios suggested a lot but idk if that would be fun for everyone. maybe more specific stuff like ice cream making etc\n\n\\- group activity stuff like escape room, rage room, murder mystery golf (??), laser tag. but I'm not sure if everyone will enjoy and i feel this doesn't feel as much like a party\n\nif you guys have stories or suggestions about having birthday parties as an adult do share too! ",
+      "comments": [
+        {
+          "text": "A friend did a team building at Tom’s Palette and she said it was pretty good. I just checked out their website and they have interesting stuff under the Classes and Events sections, I think some may fit the bill of what you’re looking for \n\nHappy birthday and enjoy the party! ",
+          "score": 33
+        },
+        {
+          "text": "I just hosted my 30th at the new McDonalds at Mandai Curiosity Cove! It was perfect for bringing separate groups of friends together – there's a party host who'll help run games and my very grown up friends had a great time competing against each other. Feel free to DM me if you need more info, but I had a blast and would definitely recommend it :) \n\nIf you go with the Mandai outlet, could also time your party so that you can go to the zoo or Night Safari after, if you like!",
+          "score": 17
+        },
+        {
+          "text": "[removed]",
+          "score": 15
+        },
+        {
+          "text": "i did 1 timezone party after my graduation, was the highlight of my memory",
+          "score": 12
+        },
+        {
+          "text": "I would love to have a McDonald's birthday party!",
+          "score": 9
+        },
+        {
+          "text": "McDonald's was advertising their birthday parties in their tray liners recently (see brochure [here](https://www.mcdonalds.com.sg/sites/default/files/2024-01/McDonald%27s%20Party%20Brochure.pdf)). Min 15 pax, $15/pax off peak and $19/pax during peak hours. Food is not included though. ",
+          "score": 8
+        },
+        {
+          "text": "Bowling, karaoke, roller rink, ice skating, chalet you can do all you listed whenever if the places are nearby",
+          "score": 6
+        },
+        {
+          "text": "Just host a party at your home. “Bring your own food” and “bring your own drinks”.",
+          "score": 6
+        },
+        {
+          "text": "My friends and I have had several birthday parties at Project CHKI, it's a little out of the way but their rooms are nice to chill in :) The bigger one we usually get has game consoles, board games, pool table, racing game setup, ktv, majong table, and a minibar area where you can store things in the fridge and mix drinks. \n\nIt should be big enough to accommodate the number of guests you have planned. It's kind of like a chalet but comes with all the entertainment and don't have to deal with the logistics of some people staying overnight",
+          "score": 5
+        },
+        {
+          "text": "Damn wish i was op friend ",
+          "score": 2
+        },
+        {
+          "text": "curious to know how much is your set budget! ",
+          "score": 2
+        },
+        {
+          "text": "I did a cooking class for a birthday party before, and also a prata party - we learned to flip prata followed by an eat all you can prata dinner  :) ",
+          "score": 2
+        },
+        {
+          "text": "Pls send invite ! I want happy meal !!!",
+          "score": 1
+        },
+        {
+          "text": "Come hv ur birthday party at my goreng pisang stall. Mine is extra large n juicy",
+          "score": 1
+        },
+        {
+          "text": "My dream birthday party:\n\n* Book a 5 star hotel with a nice view staycation alone, have some nice food and a spa package. \n* Peace and quiet, don't have to worry about anybody or anything.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1sc8j0d",
+      "subreddit": "askSingapore",
+      "title": "Is The Sail Marina Bay actually as bad as people say?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1sc8j0d/is_the_sail_marina_bay_actually_as_bad_as_people/",
+      "score": 44,
+      "num_comments": 53,
+      "created_at": "2026-04-04T20:55:05",
+      "selftext": "Hey all, thinking of renting or possibly buying a unit at The Sail @ Marina Bay and wanted to hear some honest, recent experiences. I’ve seen mixed reviews online about things like maintenance, noise, and overall build quality, but also a lot of praise for the location and views.\n\nFor those who have lived there (or are currently staying there), how is it really day-to-day? Any issues with lifts, mold, pests, or overcrowding? And would you recommend it for someone working in the CBD long-term, or is it more of a short-term/expat type place? Appreciate any insights!",
+      "comments": [
+        {
+          "text": "I am actually living in one of units. Lift situation can be really bad during rush hours (8-9 am &amp; 6-7 pm). Parking is not free for residents. Can be crowded and noisy for event like NDP or city marathon. BUT! We have super strict concierge for great safety. Management office provides quick feedback. Great pool, gym, and view. I don’t play tennis but tennis courts are always busy, I hear. Building itself is old but depending on units, you can actually have almost brand new vibes. Just ask me questions if you want to know more! ",
+          "score": 50
+        },
+        {
+          "text": "If you really want stay cbd. Go for marina bay Residences.. sail is old and view is not as nice as MBR.. but just remember that cbd homes are not easy to sell and transactions are not very green ya",
+          "score": 45
+        },
+        {
+          "text": "Its bad. Crowded. Hookers. Slow elevators",
+          "score": 43
+        },
+        {
+          "text": "If you regularly receive deliveries, I’ve heard that it’s a pain for drivers to access the parking and the units (which may lead to you not receiving your stuff more often compared to other condos)",
+          "score": 40
+        },
+        {
+          "text": "Lived there for 4 years now. Been very happy. Location is good, so is facilities. Haven’t had any of the issues asked of. In fact, two of my colleagues have also moved there after my good experiences. ",
+          "score": 15
+        },
+        {
+          "text": "Being a SC who have worked in the CBD all my adult life (and no longer have WFH), living at The Sail is honestly an absolute joy and life changer. Being able to walk just a few minutes to/fro work, fully sheltered, is something you don’t fully appreciate until you experience it daily. No more squeezing into peak-hour MRT crowds and questioning life (especially when the train reaches Raffles Place and everyone scurries out of the train and bottlenecks at that one escalator). That part really hits and sums up the daily grind quite well.   \n  \nI bought a unit here recently and feel like I’ve unlocked a lot more free time since moving in. You can rest at home during lunch, end work and head out for a run around Marina Bay and yet still have time for a proper evening. Of course, to each their own - I know some people don’t mind a 1-hour commute and prefer not to live near their workplace. But for me, travelling time is wasted life. I just want to get home asap and spend time with my wife (who also works in the CBD). It can be funny to read this but our Monday blues have noticeably disappeared since.   \n  \nWeekends are another underrated perk. On quieter weekends, the CBD becomes a bit of a “ghost town,” which is one reason why some people say they wouldn't want to live here. We are the opposite and actually enjoy the ghost town - it’s much quieter and more peaceful compared to most heartland estates. Perfect if you want to sleep in. Depending on your unit facing direction, there’s also a bit more privacy since most nearby buildings are offices and empty after working hours, so you won't have to worry about kaypoh neighbours peeking directly into your home. The windows are quite soundproof so on a higher floor you barely hear anything outside.   \n  \nWhen there are events, it’s very much welcomed. During CNY, Chingay, and even the recent Disney fireworks, we’ve had friends and their children over to watch from our unit / viewing deck - it's nice to see them enjoy the show. In general, many of the more unique events and activities in Singapore tend to happen around the Marina Bay area anyway so you will never miss anything.   \n  \nTransport-wise, it’s very well connected to almost all the colours of the MRT - Downtown MRT is just below, and Raffles Place MRT is within walking distance. We also find ourselves embracing active mobility alot more - choosing to walk almost everywhere over the weekends, to places as far as Orchard.   \n  \nOne thing I think people still get wrong about The Sail is that they’re stuck with outdated perceptions. The condo has undergone quite a number of retrofits over the years. A lot of people (even Agents) are quite surprised when they see the facilities now. Facilities are very recently renovated (in fact, the Bayview Room is undergoing renovation right now), and more importantly, the waste system has been overhauled - which used to be one of the biggest complaints. Lift system is generally fine, just occasional short waits during peak periods like most office buildings and larger condos. We live on a high floor and if there is no one with us in the lift, it is actually very fast.   \n  \nOf course, like any older development, there’s variation between units and experiences. Some older, unrenovated units will definitely have issues. You do hear about occasional roach concerns, but personally, after living here for months, we haven’t encountered a single bug in our unit or along our floor corridor. I think this depends quite a bit on individual unit upkeep and your neighbours’ hygiene. We also don't experience mould issues - just need to manage humidity using proper electric dehumidifiers.   \n  \nManagement is good, responsive and acts fairly quickly on feedback. Security is strict, but as a resident, that’s actually reassuring. They don’t just let people in freely. Parcel deliveries are seamless contrary to what has been said in this thread - security lets them in automatically and parcels can be left at your doorstep. For food deliveries, however, you’ll need to personally grant access via the mobile intercom, which makes sense to avoid food being left around the corridors. I am surprised by the comments about hookers, we personally haven't encountered any suspicious characters in the lifts but Management and Govt is strict about illegal activities and short-term stays so I can imagine it will investigated and shut down fairly quickly when reported.   \n  \nOverall, I’d say The Sail is still somewhat of a hidden gem. You’re part of Singapore's skyline and in the heart of the action. Also, compared to many newer projects, the rental yield here is actually relatively strong. When we bought our unit, it came with a tenant and the net rental yield was actually around 5% (high floor, MBS-view). Marina Bay is also entering a new phase of rejuvenation with the upcoming GSW and new land parcels being released, but very few developments will be able to replicate the strategic views that The Sail already enjoys.\n\nIt is a shame that we probably won’t stay here forever - eventually like most families we’ll look to upsize and move closer to a good primary school if we have children. But for SINKs or DINKs working in the CBD, this could honestly work as a forever home.",
+          "score": 9
+        },
+        {
+          "text": "Haven’t lived there but have a friend at Marina Bay Suites, right behind The Sail. Feedback I get from them is that the tennis courts are used non-stop from 7am on even on weekdays, bbq pits are busy even on weekdays, and the pool/play area can get really noisy with kids running around after school. Noise levels will depend on which stack you get, but overall from a location POV, it’s unbeatable. ",
+          "score": 6
+        },
+        {
+          "text": "～$1000psf days during launch?. Who would have thought.\n\nHaving a view of MBS from your balcony is in itself a flex.\nYeah, parking is a pain even for delivery riders. ",
+          "score": 3
+        },
+        {
+          "text": "Rented there a while ago. Location is unbeatable. Condo facilities are nice as well. Plus huge networking opportunities. Bumped into MDs on the regular in the lift or poolside ",
+          "score": 3
+        },
+        {
+          "text": "City central house is mostly buying for the vibe and environment, you not likely to make much money and neither is it easy to sell, high quantum, low living space and barely any amenities that is at affordable price. \nIf money is not an issue, it is pretty nice environment but the layout is really bad. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scztbq",
+      "subreddit": "askSingapore",
+      "title": "Folks in their 30s, did life turn out the way you imagined in your 20s?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1scztbq/folks_in_their_30s_did_life_turn_out_the_way_you/",
+      "score": 38,
+      "num_comments": 42,
+      "created_at": "2026-04-05T18:03:29",
+      "selftext": "\nIs life truly destined or your hard work and intentions supercede everything? Let us know about this too\n\nCurious to hear from people in Singapore who felt completely lost in their 20’s no direction, no future, you had big dreams back then, did they come true? What did that journey look like? What would you tell to your younger self\n\n",
+      "comments": [
+        {
+          "text": "Haha it was the other way around for me tbh. I did really well in my late 20s and expected my life to go in a steady and linear direction\n\nBut it did not. It was very humbling but i miss feeling smug and confident tbh. ",
+          "score": 48
+        },
+        {
+          "text": "Nope. Wasn't married by my late 20s, no children, no place of my own, and cost of living continued increasing so it's not financially viable for anyone with a median income or lower to own a car.\n\n\nThe journey is to accept that childhood ideals are overly optimistic and usually not achievable without the right luck and connections, family or otherwise.\n\n\nBut you still gotta work hard if you don't want to end up on the streets. You may not be able to live the perfect life but you can still live an okay life.",
+          "score": 37
+        },
+        {
+          "text": "I was a starry-eyed fresh grad, thinking I’m gonna make change at every company I worked at, and earn good money. However, got burnt out, decided that I’d rather have worklife balance. \n\nWhile not earning big bucks, I make enough and maybe that’s how maturing looks like. At the end of the day, happiness is what’s important. \n\nI have a knack of lowering my standards to trick myself to be happy, but if that’s what it takes to be happy/content, it’s fine for me. ",
+          "score": 15
+        },
+        {
+          "text": "I had a weird 20s that started with my NS, uni days, a work I didn't fully enjoy that led me to pivot to a Masters programme, and by the end I was starting a PhD. \n\nThen in my 30s I exited my PhD programme without completing it, went back to my old job. But also started to lecture. Somehow the pandemic landed me the best role of my life till that point. Then it ended in retrenchment, and I am just starting to work again in a new role filled with hope and anxiety. \n\nSo yeah, I would just tell my younger self its all a roller coaster. Buckle up. ",
+          "score": 12
+        },
+        {
+          "text": "Nope. Life got worse for me, at least back in school I still had dreams and goals. All crushed once I got older ",
+          "score": 9
+        },
+        {
+          "text": "No lei. I had small aspirations back then. Turned out fate had greater things in store for me.",
+          "score": 8
+        },
+        {
+          "text": "Life didn't turned out as I've expected especially for career. First company glassdoor review is 1.4 stars (as of today), second company with a boss that's a extreme shit stirrer and have to leave despite all the accomplishment and currently, I have step out of my comfort zone to go home team uniform group leaving the job field I have worked for almost a decade. While it feels like it's my \"calling\" but of course I am anxious of this mid career switch. Other than that, married and moved in bto soundly. Think I did slightly better than what I've expected back then.",
+          "score": 7
+        },
+        {
+          "text": "I wanted to make enough money to retire by 30. Didn't happen. 43 this year, still working and nowhere made enough for retirement anytime soon.",
+          "score": 7
+        },
+        {
+          "text": "Lol no. My dream attainable car has become a COE car and I still can't reasonably afford it.",
+          "score": 4
+        },
+        {
+          "text": "You mean be a hero, awaken my special power, help some babe in distress and babe rewards my true love with her everlasting trust? Together as one united people, we can achieve. \n\nNo, life took a very different turn. I'm no secret character. It's hard for me to think back on embarrassing moments. If anything I wanna escape the past. At one point, my goal was really to find a point in time where I had enough fun and it's time to go. Yet when the time came, I had a really hard time. \n\nCome today, I am looking at financial planning, BTO, early retirement age. I no longer hate waking up tmr. Infact I look forward to tmr because I need the pages to turn. It kinda feels like I now have a goal i'm able to actively work towards. Rather than just waiting for something to come along. Then getting disappointed that nothing is coming. \n\nLife certainly did not turn out the way I imagined. If you ask me in my 20s if I would feel happy with my life today, I would tell you no. But today in my 30s and current mindset, I think i'm pretty happy. Yes, I get lonely and frustrated at certain road blocks, but definitely happier than I would otherwise have been. It's at least working out and i'm not lying to myself. Can I be happier? For sure. My 20s would laugh at me and tell me to go kill myself though.",
+          "score": 4
+        },
+        {
+          "text": "I'd say that for most people nowadays, the difficulty mode of life gets harder and harder as we age. ",
+          "score": 3
+        },
+        {
+          "text": "Still poor, with a less healthy body",
+          "score": 2
+        },
+        {
+          "text": "Never had much expectations. Quite happy with how things turned out.",
+          "score": 2
+        },
+        {
+          "text": "Had a direction in my 20s, got burnt out from my first job and lost my direction. Got lucky in my 30s to attain HENRY pay for a while, got my own HDB at 35. Late 30s retrenched and then now on a career decline lol. Overall, single life has been good to me and did better than I imagined in my 20s (more like I didn't imagine much to start with). But married/attached life didn't happen haha.",
+          "score": 2
+        },
+        {
+          "text": "Lost after ns, random tinder date intro'ed me to volunteering, spent 1/3 of 20s volunteering in SEA.\n\nNow in normie 9-5 desk job but had a great time lol",
+          "score": 2
+        },
+        {
+          "text": "felt like i had everything planned out, it was kind of like the singaporean dream. \ndegree, job, BTO, married at 25, moved overseas for his work.\n\nbut moved back, had to change jobs a couple times, marriage didnt work out, now going through a divorce at 29, but finally feel truly happy.\n\nlooking back, the plan on paper sounded great but was never aligned with reality. \nkinda felt like i was chasing dreams rather than acting on what i wanted at that moment. was too focused on long-term goals to realise that i was miserable day-to-day.",
+          "score": 2
+        },
+        {
+          "text": "No. Ups and downs. The downs stronger than ups.",
+          "score": 2
+        },
+        {
+          "text": "Had the biggest dream to becoming an actor/singer-songwriter since I was in my teens &amp; worked hard till my late 20s. Life didn’t work out in my favour. 30 now &amp; grateful for a simple life. As long as my family &amp; loved ones are healthy, I have food on the table &amp; can travel once in a blue moon, I’m contented. \n\nIt will be a continuous roller coaster ride, you’ll just learn to ride with it. Peace is the real happiness. ",
+          "score": 2
+        },
+        {
+          "text": "Unfortunately, no. But it isn't too late to start over. (:",
+          "score": 2
+        },
+        {
+          "text": "i didn’t have anything planned as i was about to ORD, unlike everyone else i spoke to. \n\n\ndidn’t think i’d be comfortable in life and thought that i’ll just get by in life. \n\n\nlucked out now earning slightly above median with no significant commitments. \n\n",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scsom2",
+      "subreddit": "askSingapore",
+      "title": "anyone has lasik surgery experience in singapore?",
+      "url": "https://old.reddit.com/r/askSingapore/comments/1scsom2/anyone_has_lasik_surgery_experience_in_singapore/",
+      "score": 24,
+      "num_comments": 41,
+      "created_at": "2026-04-05T11:10:29",
+      "selftext": "i am interested in doing lasik surgery as i’ve been wearing glasses and contacts almost everyday since i was a kid. is it painful and how much does it cost? im worried about the pain it comes with lol\n\nmy degree is -8.75 on both eyes with astigmatism of -1.25 and was also wondering id ortho k lenses are okay for my degree… i thought it would be painless and better procedure ",
+      "comments": [
+        {
+          "text": "38m. Had high 800 degree both eyes since primary school\n\nLasik couldn’t work for me because of thin cornea \n\nWent for icl last year and it’s perfect, except for dry eyes in the morning at the first few months there are no side effects at all. Spent 7k\n\nBloody worth it",
+          "score": 31
+        },
+        {
+          "text": "Hello! I went to Clear Vision (next to Mount E Orchard) and I think Dr Tony Ho did the procedure. I had thin cornea so I also did a bridging procédure after that. Mine was in 2018 and I still see clearly now! \n\nIt's not painful, because they give you numbing eye drops, and during the procedure you'll be asked to stare at blinking light and they'll just do the necessary stuff at the same time. The doctor was very reassuring, gentle and it was done in no time.\n\nAfter that your vision will be blurred for 1.5-2 weeks (it gradually gets better). And you'll have a wear a visor during the recovery stage. I've heard from friends they get dry eyes but it never happened to me.\n\nAll the best for yours! It's really worthwhile in my opinion, no more pinching my eyeballs for contact lenses :D\n\nP.S. Another option worth exploring is inserting the lens into your pleyes. I don't know how they do it and it scares me (I watched a video on YouTube) but it's an option!",
+          "score": 12
+        },
+        {
+          "text": "Can try Shinagawa eye centre for the pre-assessment. Iirc it was about $40+? the doctor was very nice and slowly explained the procedure. Didn’t do lasik in the end because he mentioned my eyes were dry but was pretty good experience.\n\nAlso heard bad things abt eagle eye centre, iirc my friend went for pre-assessment advertised $30 come out $100+ cuz of the extra fees",
+          "score": 12
+        },
+        {
+          "text": "I did 4 years ago!  Best decision ever, no regrets. Have u done the pre-assessment checkup to see if your cornea is thick enough for lasik? Afterwards the doctor will advise you if you’re eligible and recommend your options available ",
+          "score": 7
+        },
+        {
+          "text": "42M Went to SNEC ( Singapore national eyecare center) 3K + sgd 10+ years ago . Vision still remained the same \n\n\nOnly thing is at night , the light will have halo effect and eyes will be dry ",
+          "score": 5
+        },
+        {
+          "text": "Quick qn for doctors here- I went for a pre assessment check for lasik once before Covid period. The doc mentioned something about my eyes being borderline ok to proceed. Tbh h was quite pushy for me to go ahead which made me uncomfortable so I didn’t proceed with him. Are there doctors who would ignore the cornea and dry eye results and push the patient into getting lasik \n?",
+          "score": 3
+        },
+        {
+          "text": "I did transprk (Was 36 when this was done) in SG. Basically a 3D printing procedure with no cutting involved. It was painless, just super uncomfortably dry the first few days and then a gradual recovery to practically 6/6 vision. My astig was fixed too!",
+          "score": 3
+        },
+        {
+          "text": "A friend and his sister had lasik surgery done about a year or so ago and he is very happy with it. They had it done in South Korea.",
+          "score": 2
+        },
+        {
+          "text": "did smiles recently, worth it for using glasses since sec sch. no pain, less than a week of recovery (taking care, sleeping with goggles on, eyedrops every few hours and breaks from using pc) but my friend had some small aching from her surgery (she recovered fully too)",
+          "score": 2
+        },
+        {
+          "text": "I did in 2019. Best decision of my life.\nIt isn't exaggerating to say it is life changing.\nBut please get a good if not the best surgeon. It is one of the most important factor in ensuring success and minimal side effect. ",
+          "score": 2
+        },
+        {
+          "text": "Done it 6 years ago at SNEC. Aside from occasional dry eyes in the morning, it’s one of the best decisions I’ve ever made for myself.",
+          "score": 2
+        },
+        {
+          "text": "I did smile in 2024, cost me like 6k? Recovery okie, no side effects at all and i managed to keep my eyes open without blinking during laser itself and when surgeon remove the piece that was cut. My eyes blink like crazy at all the other times lol and i kena scolded, but thankfully the most important parts my eyes cooperated.",
+          "score": 2
+        },
+        {
+          "text": "One of the best things I did for myself back in 2019. Got it with Dr Lee Hung Ming at Asia Pacific Eye Centre in Gleneagles. Went for traditional lasik where the flap is cut, recovery was super fast and in two weeks it was like I had perfect vision all my life. No lasting side effects and my only regret was not doing it even sooner. Around 5k all in including consultation and post procedure checks. Go for it! ",
+          "score": 2
+        },
+        {
+          "text": "37m. I did mine back in 2012 with LSC Eye Clinic (known as The Lasik Surgery Clinic back then). Best decision that I have made though I cannot really recall the procedure but all I can say is it has been life changing. \n\nI had an extremely good experience and the staff (back then) were extremely professional. (\\*Side note, it only cost me SGD 2.4k back then too), hence I know the price comparison back then and now is no longer applicable but still, I would say go for it because of the QoL improvements. \n\nAs for the side effects, I had some minor light sensitivities during my recovery phase. Post recovery, if I were to be under intense sunlight without sunglasses i.e. whenever I go kayaking without my sun glasses, there have been instances where my eyes would keep tearing up to the point I cannot even keep it open. Nonetheless, this was a minor occurrence and preventable with suitable eye protection against intense sunny weather. ",
+          "score": 2
+        },
+        {
+          "text": "hey! i did my lasik at atlas eye in paragon and had a really good experience.\n\nthe procedure itself was super quick, like 15-20 mins? it was more uncomfortable than painful - there's some pressure but nothing crazy. the worst part was honestly the few hours after when my eyes were watery and sensitive but by the next morning i was already seeing clearly. recovery was really smooth.\n\ncost wise i think lasik in sg generally ranges from like $3-4k+ depending on the type of procedure and clinic. for your degree at -8.75 they might actually recommend something like ICL (implantable contact lens) instead of lasik - my doc mentioned that higher prescriptions sometimes aren't ideal for lasik so definitely worth going for a consultation to see what suits you best. i think most clinics do free assessments.\n\nif you're interested this is where i went: [https://atlaseye.sg/](https://atlaseye.sg/) \\- dr chan was really thorough during the pre-surgery checks which made me feel a lot more comfortable about the whole thing.\n\ndon't stress too much about the pain part, it's really not that bad! good luck",
+          "score": 2
+        },
+        {
+          "text": "Did mine at eagle eye, been 5 years and so far so good even my friends who went to do it there. Probably cost $4k for both eyes for lasik and others like smile gonna be at least $5k. \n\nIt’s beyond life changing and most definitely one of the top best decision of my life",
+          "score": 2
+        },
+        {
+          "text": "I did it twice before (W clinic) on one eye because lazy eye.. Then both eyes deteriorated after about ten years and I did the other eye instead. \n\n\nFirst time round it hurt like crazy - like a burning paper clip scraping the insides of your eyeballs. \n\n\nThe second time was like how everyone experienced theirs. Painless and just a mild sensation of something being pressed during the surgery. Two days recovery for both cases and back to work.",
+          "score": 2
+        },
+        {
+          "text": "Just did mine at Clear vision with Dr Tony Ho last year. Think my case was a little tricky as I’ve been a long time contacts user (&gt;8 hours everyday for more than 10 years) he told me my case took him twice as long due to bleeding in my eyes (couldn’t feel a single thing/had no idea until I saw him the next day for review) but I turn out fine (I think) so I guess he’s a pretty experienced doctor who can handle all sorts of situations? ",
+          "score": 2
+        },
+        {
+          "text": "I did mine in BKK for $2kSGD still havent go blind. It's a legit hospital with great medical staff. No idea why it's so cheap, maybe old technology? They just do pre-assessment and if you cant do it, just pay about $200. If you're able to do it, they will do it right away. Whole procedure only took whole morning. Post recovery, you can choose to stay in their hospital for free or go back hotel and come back next day",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scwcg4",
+      "subreddit": "SingaporeRaw",
+      "title": "Lowest-paid degrees in Singapore? SIT shows up again and again",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scwcg4/lowestpaid_degrees_in_singapore_sit_shows_up/",
+      "score": 141,
+      "num_comments": 53,
+      "created_at": "2026-04-05T14:27:20",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Er... because the degrees are in low paying industry? Not a mystery there ya? ",
+          "score": 163
+        },
+        {
+          "text": "Why does allied health pay so shit tho",
+          "score": 75
+        },
+        {
+          "text": "Don’t be fooled, majority of people will earn less than this.\n\nI graduated from NTU Computer Science in 2024 but my salary in 2026 is only $3500 😢",
+          "score": 53
+        },
+        {
+          "text": "Wah the NTU CS comment is the real plot twist here. SIT at least you go in knowing the ceiling, but CS from NTU and still $3.5k in 2026? Market really humbling everyone lor.",
+          "score": 23
+        },
+        {
+          "text": "This list is already inflated ",
+          "score": 20
+        },
+        {
+          "text": "Oh look, is the same user account that created this post: https://www.reddit.com/r/SingaporeRaw/s/rmLAgGhYoS\n\nSIT rejected your uni application is it?",
+          "score": 20
+        },
+        {
+          "text": "What’s wrong with the salary data? $3.5 - $4K is probably what the civil service is paying too. ",
+          "score": 7
+        },
+        {
+          "text": "How about the Highest-paid degrees in Singapore?",
+          "score": 3
+        },
+        {
+          "text": "okay then",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "t3_1scwsbm",
+      "subreddit": "SingaporeRaw",
+      "title": "Jamus Lim: \"I’ll be the first to concede a blanket WFH policy may not be appropriate for all businesses, and may also be subject to abuse by unscrupulous employees. \nSo discretion in approving such setups is both important and necessary. I firmly believe there is a need to have a shift in mindsets\"",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scwsbm/jamus_lim_ill_be_the_first_to_concede_a_blanket/",
+      "score": 52,
+      "num_comments": 42,
+      "created_at": "2026-04-05T14:54:03",
+      "selftext": "^(Ps, apologies have to paraphrase abit because of the word limits.)\n\n*\\* During question time in Parliament last month, there was a brief debate about flexible work arrangements and evaluating work performance by outputs, rather than inputs.*\n\n\\*I did not pose the original question, but I was able to inject a supplementary one. The original question and answer was about how the government favors leaving things to companies to decide on what works best.\n\nI’ll be the first to concede that a blanket WFH policy may not be appropriate for all businesses, and may also be subject to abuse by unscrupulous employees.\\*\n\n\\*So some discretion in approving such setups is both important and necessary. However, I firmly believe that there is a need to have a shift in mindsets among Singaporean employers, and it begins with the government, and its associated bodies.\n\nWhich is why it was absolutely baffling that one of our universities—an institution where output is clearly and objectively measured—chose to impose limits to flexible work arrangements.\\*\n\n*After all, teaching quality and research outcomes are easily observable, and routinely measured. An insistence on full work-from-office policies strikes me as not only unenlightened, but potentially counterproductive*\n\n\\*([**https://www.straitstimes.com/singapore/parenting-education/nus-implements-full-work-from-office-policy-for-all-full-time-staff-members**](https://www.straitstimes.com/singapore/parenting-education/nus-implements-full-work-from-office-policy-for-all-full-time-staff-members)).\n\nThis is even more so given how there is now enough evidence to indicate that flexible work arrangements—including hybrid work-from-home schemes—reduces employee turnover, improves job satisfaction, and even boosts productivity (see: [https://doi.org/10.1038/s41586-024-07500-2](https://doi.org/10.1038/s41586-024-07500-2) and [http://doi.org/10.1257/jep.37.4.23](http://doi.org/10.1257/jep.37.4.23)).\\*\n\n*Singaporean workplaces need to get on the boat, and public agencies and government-linked institutions are the place to start.*",
+      "comments": [
+        {
+          "text": "Waiting for corporate simps to drop the sentence \"if companies are to allow employees to work remotely, they may as well hire remote employees from cheaper countries.\"",
+          "score": 55
+        },
+        {
+          "text": "Ya lah finally someone in parliament gets it. Output-based measurement is so basic yet half the bosses here still want to count your chair time sia.",
+          "score": 41
+        },
+        {
+          "text": "Later the employers realised their staff only work 3 hours a day and still can achieved the output then they either increase the workload or reduce the headcount since doing less is more now…",
+          "score": 5
+        },
+        {
+          "text": "It is indeed a mindset problem.\n\nBoomer bosses are still stucked in the mindset that longer hours worked means more work done and that if they don't see their staff working, then they might be skiving.\n\nSome of these boomer bosses also simply prefer having people physically at their command instead of online where they can be ignored easier.\n\nSome of them (not just bosses) are just using the office as an escape from home where they also have spousal and parent duties which can be harder to manage when physically at home while working.\n\nThese boomer bosses then rent big offices and make staff work in office.\n\nEven if hybrid work arrangement is allowed, the boomer boss will then need to justify to his/her bosses the cost of rental of the office.\n\nThis ends up in strict enforcement to come into office more.",
+          "score": 3
+        },
+        {
+          "text": "Got WFM, WFI, WFC also",
+          "score": 2
+        },
+        {
+          "text": "If that's the case, will there be higher compensation for careers where WFH is impossible? Otherwise wouldn't fresh grads just shun those careers since they're not as attractive?",
+          "score": 2
+        },
+        {
+          "text": "It's annoying la. I just started a new job and the office is flooded with people on chair time. 😅 ",
+          "score": 1
+        },
+        {
+          "text": "In the corporate world, benefits such as WFH are forcefully taken away, to “encourage” a higher turnover with no backfill so management don’t have to do a retrenchment exercise. ",
+          "score": 1
+        },
+        {
+          "text": "Most companies here will just say your job role is related to operations and required by the business to stay in office.",
+          "score": 1
+        },
+        {
+          "text": "I say before.. I'm essential non-wfh\n\nI rely on the support of a wfh team to do my job. \n\ncan tell from the ticket/email timestamps that they only do work at 9-10, 2-3pm and then 6-7pm. \n\nthat wfh department is a whole bottleneck for my whole company. the turnaround times are horrendous. \n\nhappy that this year they got wfo mandate, things really turn around faster. \n\nnot say all wfh is like that.. but I can see why director levels don't like wfh. ",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scvl4v",
+      "subreddit": "SingaporeRaw",
+      "title": "Singapore is expensive, but the more corrosive thing is how it makes people feel behind all the time",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scvl4v/singapore_is_expensive_but_the_more_corrosive/",
+      "score": 49,
+      "num_comments": 39,
+      "created_at": "2026-04-05T13:43:46",
+      "selftext": "I think Singapore makes people miserable in two different ways.\n\nThe first is obvious. Life here is expensive. Housing is expensive, rent is expensive, childcare is expensive, and healthcare can become frightening the moment something serious happens. Supporting parents costs money. Raising children costs money. Even ordinary life often feels as if it comes with a premium attached to it. If someone is stressed about money in Singapore, that is not a mindset issue. It is a rational response to reality.\n\nBut I think there is a second problem that is less visible and, in some ways, more corrosive.\n\nSingapore does not create the human tendency to compare, strive and feel inadequate. That tendency exists everywhere. What Singapore does, very effectively, is give it structure, rewards and constant reinforcement.\n\nIt teaches people to experience life as a ranking exercise.\n\nNot just to work hard. Not just to be responsible. To keep locating themselves on a ladder. Which school, which course, which job, which pay range, which estate, which condo, which car, which tier of success. In many places, status exists in a vague and blurry way. In Singapore, it often feels unusually legible. The hierarchy is clear, the markers are clear, and the next step is always visible.\n\nAfter a while, that changes the way people think. You stop asking what kind of life actually suits you, and you start asking whether you are falling behind. That question can quietly take over a person’s emotional life.\n\nIt changes the meaning of ordinary things. A raise is no longer simply a raise. It becomes evidence that you are catching up, or evidence that you are still behind someone else. A flat is no longer just a place to live. It becomes a statement about where you stand. Even children get absorbed into the same logic through schools, tuition, enrichment, and the constant fear that one wrong move early on will have consequences much later.\n\nThe problem with living this way is not only that it creates pressure. It also destroys satisfaction. If your standard for feeling okay is based on sufficiency, then there is at least some point where you can breathe. But if your standard is based on position, then there is no stable point. Position is relative by definition. It can always be improved, and it can always be threatened.\n\nThat is why so many people here seem unable to settle internally even when things are objectively going fine. What they have may already be decent, sometimes more than decent, but it never feels settled because the mind has already been trained to treat every gain as temporary. Very quickly, what once felt like progress becomes normal, and once it becomes normal it loses its power to satisfy. Then comparison returns, and the next source of inadequacy appears.\n\nYou can call this ambition, and sometimes it is ambition. But often it is something less admirable than that. It is a habit of mind that cannot stop measuring. Once that habit becomes deep enough, achievement stops bringing peace. It brings relief, but only briefly. Relief is not the same thing as peace.\n\nI think that distinction explains a lot of the quiet exhaustion people carry. Many are not striving because they are overflowing with purpose. They are striving because they are trying to outrun the feeling that they are still not enough. So the promotion helps for a while. The purchase helps for a while. The status marker helps for a while. Then the mind adjusts and the anxiety returns in a slightly different form.\n\nThis is why people with decent incomes, decent homes, decent families and objectively stable lives can still feel permanently tense. Their problem is not that they have nothing. Their problem is that nothing feels final. Nothing lands for very long. Every improvement is absorbed into a new baseline, and once that happens the race simply resumes from a higher level.\n\nI do not think this is just individual weakness. I think it is partly produced by the structure of life here. Singapore is small, dense, competitive and highly visible. Other people’s outcomes are constantly near you. You do not have to go looking for comparison. It appears naturally in workplaces, family gatherings, wedding dinners, school conversations, LinkedIn updates, property discussions, and all the casual little questions that are never quite as casual as they sound.\n\nOver time, that does something to people. It teaches them to look at themselves from the outside. It teaches them to convert their own lives into something to be assessed, displayed and defended. Eventually the pressure no longer needs to come from outside, because people internalise it and start policing themselves. They become the ones constantly checking whether their lives are advanced enough, respectable enough, impressive enough.\n\nThat, to me, is where the deeper exhaustion comes from. Not only from hard work, but from endless self-evaluation.\n\nMost people probably know, at least in brief moments, what life feels like when that machinery loosens its grip. Sometimes it happens on a walk when your phone is away and your mind finally quiets down. Sometimes it happens by the sea, in a park, under trees, while listening to music properly, or while reading something so absorbing that the usual internal accounting fades into the background. Those moments feel disproportionately relieving because they are among the few times when you are not trying to improve your life, defend your choices, or measure your worth against someone else’s.\n\nI am not saying people should stop caring about money. In Singapore, material pressure is real. I am not saying ambition is bad, or that everyone who is unhappy is simply too materialistic. I am saying that a society can make people miserable in two different ways. One is by making life genuinely expensive. The other is by making people unable to feel that anything is enough.\n\nMy view is that Singapore does both.\n\nAnd the second problem is harder to solve, because even when circumstances improve, people may still carry the same inner structure with them. They may still know only how to strive, compare, optimise and worry. They may still lose the ability to tell the difference between a good life and a life that merely looks good from the outside.\n\nThat is why I think the real psychological cost of Singapore is not just financial stress. It is that this place can quietly train people to turn their entire lives into a ranking exercise, and then treat that as normal.\n\nDoes that resonate with anyone else, or do you think this is just adulthood everywhere now?",
+      "comments": [
+        {
+          "text": "wah the PSLE to O-levels to which uni to which condo pipeline... SG literally built a whole infrastructure for feeling behind lor",
+          "score": 20
+        },
+        {
+          "text": "It is the same everywhere as long as the individual thinks like that. \n\nI have a relative who chose to not be involved in the rat race, and that means living a life with very little. But he is happy with basic stuff, free books and free to air tv. \n\nI know I won’t be happy if I live his life.",
+          "score": 14
+        },
+        {
+          "text": "Contentment and happiness are two aspects that feel really suppressed in Singapore where it almost feels like you’re doing wrong if you choose these. ",
+          "score": 8
+        },
+        {
+          "text": "All of this is within our control as an adults. \n\nNo matter how structured, society doesn’t make us do anything unless we choose to do it. The structure makes it easier for the mass to get where they want to go but you are still an adult and whether you decide to spend 10 hrs or 30 minute doom scrolling on your phone, for example, is on you entirely.\n\nThose who hyper-compete do so because it is their personality.\n\nI am laid back. That is my personality. No society can make me compete if I don’t want to. Not even in Singapore.",
+          "score": 8
+        },
+        {
+          "text": "Honestly, this is just you venting your frustration for not being able to keep up with those you’re comparing yourself to.\n\nPlenty of people live life without feeling miserable. \n\nIf everything looks like pressure and comparison, maybe it’s less about the system and more about how you’re choosin to react.\n\n\n",
+          "score": 4
+        },
+        {
+          "text": "You can choose to follow the comparison route or ignore it and live your own life. \n\nSome people thrive when they compare and bring out their best. Some people cannot take it and complain it is too expensive. ",
+          "score": 3
+        },
+        {
+          "text": "Playstation was released on 1995\n\n\nIn 1995 I only just got a new Sega Genesis\n\n\nFeeling behind alrite",
+          "score": 3
+        },
+        {
+          "text": "Goes back to the fact that people here love to compare between themselves and others and forgetting the very fact that when you are near to your end of life, and you think back...what have you really done in life. \n\nHave you enjoyed your limited time in this world? Have you showed love and compassion and brought joy to others or were you a selfish prick who only thinks that one's self worth is tied to how big your bank account is ?",
+          "score": 3
+        },
+        {
+          "text": "Competitiveness is not that bad. It’s those that trash talk others and engage in active sabotage. Slap on some external justification and it becomes ok. \n\nSomehow think the powers that be have an extra incentive to encourage it.. if it can extract maximum value from people. It’s like capitalism.. without much culture or values.",
+          "score": 3
+        },
+        {
+          "text": "You are comparing. that's why you are feeling it.",
+          "score": 3
+        },
+        {
+          "text": "I think it is the same in every densely populated city around the world. You have to tell yourself to stop comparing with so-called benchmarks. I am contented with staying HDB, hitting FRS and living simple life. My main focus is on health and fitness so that I won't be bedridden in old age.\n\nIts all comes down to individual mindset. Try to have a balanced outlook in life. ",
+          "score": 3
+        },
+        {
+          "text": "One thing I didn’t put in the main post is that I don’t think this is only about external pressure.\n\nThere is also a deeper problem, which is that the mind gets used to living in a constant state of reaching. Even when nothing is urgently wrong, it keeps leaning forward into the next thing. The next improvement, the next purchase, the next reassurance, the next comparison, the next version of life that is supposed to make everything finally feel settled.\n\nAnd I think that matters, because most people already know, at least in passing, what it feels like when that movement briefly stops.\n\nIt can happen on a long walk, by the sea, under trees, late at night when everything is quiet, while reading something deeply absorbing, or while listening to music so fully that the usual chatter in your head falls away for a while. Nothing in your external life has changed. Your salary is the same. Your job is the same. Your problems are still there. But the mind feels lighter, less hungry, less divided against itself.\n\nThat should tell us something.\n\nIt suggests that a lot of misery comes not only from lacking things, but from being unable to stop relating to life through lack. Through wanting more, wanting differently, wanting faster, wanting to be elsewhere, wanting to be someone else. We assume peace will come once the right conditions gather around us. But some of the clearest moments of relief seem to come not when we finally get what we want, but when the mind stops obeying every impulse to acquire, defend, compare or become.\n\nThat is partly why status-driven environments feel so exhausting. They do not just make people work harder. They keep the machinery of wanting switched on all the time.\n\nAnd once that becomes normal, even a few minutes of real inward quiet can feel almost like rescue.",
+          "score": 3
+        },
+        {
+          "text": "?? Do whatever you want I don’t think about you ",
+          "score": 2
+        },
+        {
+          "text": "i love singaporeans. i hate singapore (sometimes). i hate how it makes it seem like even being able to breathe in singapore is a favour to you.",
+          "score": 2
+        },
+        {
+          "text": "Sorry, that's a *you* thing.  Plenty of us who know what we are and have chosen what we are and are not willing to do to be \"ahead\".  \n\nPeople can get off the hedonic treadmill any time.  They just need to accept themselves for what they are.",
+          "score": 2
+        },
+        {
+          "text": "Did you make that with chatgpt",
+          "score": 2
+        },
+        {
+          "text": "We need new Master Leong content to save us from OP. OP either complaining about Singapore for his own failure or tailgating Master's Leong content and stepping on him to make himself feel good.\n\n",
+          "score": 1
+        },
+        {
+          "text": "[deleted]",
+          "score": 1
+        },
+        {
+          "text": "Good observations &amp; essay op, but nothing here will change its been a long time being cast in stone by lky et el and to bring down this behemoth and erect a more compassionate and palpable society will not happen in the near future.   It's more like we've got to accept what we are\"endowed\" with And live with it - the majority of the people here are for it as can be seen in the last ge",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scps7w",
+      "subreddit": "SingaporeRaw",
+      "title": "Trio arrested in Jurong East for alleged robbery &amp; assault: Arrest took almost 2 hours, 1 suspect apparently banged head against police car window.",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scps7w/trio_arrested_in_jurong_east_for_alleged_robbery/",
+      "score": 41,
+      "num_comments": 16,
+      "created_at": "2026-04-05T08:48:43",
+      "selftext": "They had allegedly robbed and assaulted someone at the foot of a nearby block before fleeing to the unit.",
+      "comments": [
+        {
+          "text": "Bang head then can tell the courk that he is siaolang, unstable. Maybe can go siaolang chu don't need to soot tin tiao. ",
+          "score": 25
+        },
+        {
+          "text": "3 suspects, allegedly robbed and assaulted someone at the foot of a nearby block - then flee home (one of the suspect's home) and barricade themselves, only to surrender to the police after a 2 hour standoff. No wonder people say Singapore is one of the safest country in the world. Where else in the world would any alleged robber commit a crime and go back running to his home?",
+          "score": 15
+        },
+        {
+          "text": "Rob someone then run home and barricade yourself... that's the whole plan ah? No wonder lah.",
+          "score": 9
+        },
+        {
+          "text": "3 adults with baby brains:\n\n1. Robbing in Spore? come on.\n\n2. Lock the police out in Singapore? What were they thinking? Safe from arrest?\n\n",
+          "score": 7
+        },
+        {
+          "text": "Theee will be cctv to trace them . Why they even do it ",
+          "score": 4
+        },
+        {
+          "text": "Waste of taxes ",
+          "score": 2
+        },
+        {
+          "text": "Not worth it. Going to be a very heavy sentence ",
+          "score": 1
+        },
+        {
+          "text": "![gif](giphy|YtLxH12xAeQoFMtYMl)\n\n",
+          "score": 1
+        },
+        {
+          "text": "I wonder how much did they rob? Was it even money or pokemon cards again?",
+          "score": 1
+        },
+        {
+          "text": "4th floor. Look at pic. I think can tell who they are",
+          "score": 1
+        },
+        {
+          "text": "Must be from bad school ",
+          "score": 1
+        },
+        {
+          "text": "No names means foreigners?",
+          "score": -6
+        }
+      ]
+    },
+    {
+      "id": "t3_1sd0d4p",
+      "subreddit": "SingaporeRaw",
+      "title": "Asia’s birth-rate collapse was engineered by the economic model",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1sd0d4p/asias_birthrate_collapse_was_engineered_by_the/",
+      "score": 33,
+      "num_comments": 25,
+      "created_at": "2026-04-05T18:37:31",
+      "selftext": "Every time Asia’s birth-rate collapse comes up, people jump straight to the same stupid explanation: young people are selfish, women care too much about careers, men are useless now, everyone just wants comfort.\n\nI don’t buy that at all.\n\nThe pattern is too similar across too many places. Japan, South Korea, China, Singapore. Very different societies, same broad result. That usually means something structural happened.\n\nAnd it did.\n\nThe basic chain is not complicated. Governments across Asia built growth around urbanisation, export dependence, foreign capital, rising property values, and a permanently competitive labour market. People got pulled into expensive cities. Housing got worse. Work got harsher. Education became a pressure cooker. Stable adulthood got pushed later and later. Then everyone acted surprised when marriage got delayed and children started looking less like a normal part of life and more like a gigantic financial gamble.\n\nThat is not a values problem. That is a systems problem.\n\nJapan hit the wall first. South Korea is the more brutal version, where everything feels like a competition and having a child can look like volunteering for stress you may never recover from. China shows the same thing from another angle: huge urban migration, insane housing pressure in major cities, and an education arms race that made kids even more expensive. Different route, same destination.\n\nSingapore is one of the clearest cases because you can actually see the machine working.\n\nFor decades the model here has basically been: chase growth first, keep capital flowing in, keep business happy, keep property values strong, and deal with the social consequences afterwards. In a land-scarce city, that has obvious effects. More money comes in, more people come in, demand keeps rising, and land gets more expensive. Once land gets more expensive, everything else follows. Housing, rent, shops, food, services, daily life. It all gets dragged upward.\n\nAnd that would already be enough to wreck birth rates. But it gets worse, because the labour side is ugly too. Singapore leaned heavily on cheap migrant labour for growth. That helped business, but it also kept wage pressure weaker than it should have been and made it easier to postpone the harder work of raising productivity. So ordinary people get squeezed from both directions at once. Life gets more expensive, but their room to absorb those costs does not expand properly.\n\nThat combination matters more than all the moral lecturing put together.\n\nBecause this is what actually changes behaviour: not “mindset”, not a government campaign telling people to date more, not a baby bonus, not some vouchers, not another speech about family values. People look at housing, childcare, school costs, work stress, eldercare, and the general feeling that one mistake can knock the whole household off balance. Then they make the rational decision. Marry later. Stop at one kid. Or don’t start at all.\n\nAnd the worst part is that the people who benefited from this setup were never the same people being blamed for the collapse.\n\nThe winners were asset owners, banks, developers, big employers, foreign capital, and the political class that could point to GDP, reserves, investment inflows and rising property prices and call the whole thing a success. The losers were ordinary people who got the bill in the form of later marriages, fewer children, more stress, less time, less space, and a constant low-grade feeling that adult life in this city is far more fragile than it looks on paper.\n\nThat is why I find the official conversation so dishonest. They want to talk about birth rates as if this just happened by itself. As if people in rich Asian societies simply forgot how to love family. As if it was all a change in values.\n\nNo. What changed was the cost structure. What changed was the timetable of adulthood. What changed was that housing became an asset machine, work became more punishing, and raising children became something you had to financially game out in advance.\n\nPeople did not randomly become anti-family.\n\nThey looked at the life in front of them and adjusted.\n\nSo yes, Asia has a demographic collapse. But calling it that almost makes it sound too abstract, like some weird statistical event.\n\nIt’s much more concrete than that.\n\nWe built societies where growth, property and elite interests came first, and then acted shocked when family life got squeezed to death.",
+      "comments": [
+        {
+          "text": "Ya lah, the 'selfish young people' framing is so lazy. When housing eats 30 years of salary and PSLE pressure starts at 9, the math just doesn't work for kids lor.",
+          "score": 30
+        },
+        {
+          "text": "high birth rates is linked to poverty, better standards of living reduces birth rates.   \nA progressive society with better standards of living is why birth rate declines.",
+          "score": 12
+        },
+        {
+          "text": "I thought something similar was written just last week?\n\nAgain why does this post seems like it is written by AI?",
+          "score": 9
+        },
+        {
+          "text": "I view it from the perspective that our social dynamics have changed such that people no longer view having children as a \"need\".  Then, it is amplified by the negative effects of capitalism. The resulting equation is the low birthrate.",
+          "score": 8
+        },
+        {
+          "text": "Ppl rather spend money on themselves rather than on kids. If your parents had the same inclination you wouldn’t exist ",
+          "score": 5
+        },
+        {
+          "text": "Western europe and even the Nordic states have also crashed far below replacement rate. Strong social safety nets and amazing childcare/maternity policies have not reversed this trend. So this isn't something unique to east asian economics though ofc the stuff you point out does exacerbate the situation.\n\nHeck, the only developed country with above replacement TFR is Israel, probably due to cultural reasons since their COL is extremely bad with low purchasing power. It's also worth noting that many developing countries like Malaysia, Thailand, and even India have also slipped below replacement too.",
+          "score": 5
+        },
+        {
+          "text": "Strangely you forgot to mentioned that space per pax had grown, as people get wealthier they want more. Soon they will find it hard to hit the number they want to get kids. In the past people with 4 room, they can have 3 to 4 kids but now 5 room is barely sufficient for 2 adults. Human wants is unlimited when your wants fill up all your time and resource, go figured why no one wants to pop a baby to compete with you time, space and money. \nI can guarantee you that even if you give 1 room extra per baby you have, the TFR will still not move but more people will complain why government is against single. ",
+          "score": 3
+        },
+        {
+          "text": "You are missing the point that generally the majority of the penalty* of having children falls onto the mother so as women get more educated, earn their own money that they make the LOGICAL choice of choosing to have no/fewer children.\n\n* Penalties:\n1. The effort/time and mental load of child rearing, the career impact of taking maternity leave, more likely to be unable to work longer hours, not be given career opportunities because bosses perceive that a mother is not able to commit as much to a role, taking childcare leave at short notice…..  \n2. Leaving the workforce completely or choosing to slow down their careers down because of #1\n3. The potential of the father leaving and ending up a single mother.  Not receiving sufficient (or any) child support &lt;- common occurrence \n3. The high likelihood of not having enough $ for retirement because of  #1, #2, #3\n\n\n\nIn my view, the only way would be to force fathers to EQUALLY+share the burden of having children.  If this were the case then society/companies would have to change to really make having children more attractive.",
+          "score": 1
+        },
+        {
+          "text": "Do we have our own Electronic_Tear in sgraw sub?",
+          "score": 1
+        },
+        {
+          "text": "AI slop from a &lt; 1 week old account",
+          "score": 1
+        },
+        {
+          "text": "Well said",
+          "score": 1
+        },
+        {
+          "text": "Human beings are selfish. You think the winners don't know that by controlling and monopolizing the fixed assets like houses, educational resources and good jobs that the ordinary people needed to start a family, they inevitably depressed the fertility rate of the entire society?\n\nThese elites know but they can't be bothered. Their good life is at the expense of the ordinary people. They know their enormous wealth is accumulated by squeezing the life out of the working class through high property prices and huge land reserves. It is history repeating itself.\n\nIn ancient feudal China, the land owners bought up huge amount of fertile farmland and forced the peasant farmers to work at servitude for them. These peasant farmers are in perpetual debt to the wealthy land owners.\n\nToday, generations of sinkies are in perpetual debt in the form of 25 or 30 years mortgage loans. There is no alternatives, either you slave your most productive life for a chance to start a family or you can kiss your lineage bye, bye.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1sc9ya0",
+      "subreddit": "SingaporeRaw",
+      "title": "UPDATE to previous mum(SGporean)/godson(PRC) post",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1sc9ya0/update_to_previous_mumsgporeangodsonprc_post/",
+      "score": 32,
+      "num_comments": 10,
+      "created_at": "2026-04-04T21:58:50",
+      "selftext": "Hey SG Redditors,\n\nThis is a followup to my previous post here: [https://www.reddit.com/r/SingaporeRaw/comments/1r9yilx/found\\_out\\_sickdying\\_mum\\_has\\_a\\_godson/](https://www.reddit.com/r/SingaporeRaw/comments/1r9yilx/found_out_sickdying_mum_has_a_godson/)\n\nCreating a new post because the previous one was getting too long, and I read that editing a post won’t notify commenters, which means they might miss the update. Admins, please feel free to remove this if it violates any rules.\n\nIt’s been roughly a month since my last update, and honestly, the past month has been difficult but needed. My mum and I had a huge argument on 2 March 2026 at the hospital about her godson, and I told her I wouldn’t come back to visit. I stuck to that until she was discharged on 3 April, so we ended up not seeing each other for a full month.\n\nThe temptation to visit her in the hospital was very strong at the beginning, because it feels almost against nature to stay away from one’s own mother. But I held firm by reminding myself that going to see her would only reinforce her belief that she would never be abandoned, and would continue to enable her unreasonable behaviour.\n\nI spent that month reading articles, Reddit posts, and watching videos about toxic dynamics with narcissistic parents, and I realised that my mum fits many of those descriptions. She often seems to thrive on drama and conflict, with little regard for how deeply it affects the people closest to her, if she even considers us closed ones at all.\n\nShe told my father that I had been rude to her and even said she would make a police report against me. She also brought up how he had once threatened divorce decades ago (I remember the arguments, it was definitely her fault), and said that she now wanted a divorce herself. On top of that, she told him he didn’t need to visit her in the evenings anymore. This is despite the fact that my dad goes to see her every single day and gives her massages while she lies there without saying a word or showing any expression.\n\nAs such, the only family member visiting her was my younger brother, and even he only visits her once a week because he felt sick of her actions. Strange enough, my mum asked him why my dad hasn't been visiting. When my brother reminded her of what she said, she replied with \"I only asked him not to visit in the evening\". What the F\\*\\*k.\n\nMy brother told me that about a week after my father and I stopped visiting, her appearance changed so drastically that she looked almost unrecognisable. I can only attribute this to her losing the narcissistic supply she had been drawing from the family, which led to her emotional and physical deterioration.\n\nWe’ve been encouraging our dad to go through with a divorce, since it’s what she says she wants, and I expect her to follow through rather than using it as a threat whenever she’s angry. Given her current condition, I also expect she will receive some compensation after the proceedings, since Singapore’s laws are designed to ensure that a woman isn’t left without support after a divorce, rather than assigning blame based on who is “at fault.” I also told my dad that it would be better to settle the divorce sooner rather than later, since she still has sizable assets now. If things drag on, there’s a risk she might be scammed or pressured into signing her assets away, which would complicate everything later. If she kicks the bucket before things are settled, we will have to deal with her damn sister and that chinaman who ruined our family.\n\nAs for the PRC man, I informed the guard at my condo to blacklist him from entering, as I expect he may try to visit. Based on his past behaviour, I wouldn’t be surprised if he waits outside our home to confront us. His actions have been uncivilised enough that I’m genuinely concerned he could pose a risk to my family. I hope that them getting divorced will at least put some distance between my family and the dangerous people she has surrounded herself with.\n\nMe and my brother found out some things about the PRC man, through his constant yapping and involvement with our family affairs. He mentioned about having a father back in china but never about a mother, which made us wonder whether he had mommy issues and so had a thing for mommies. My brother suspects him of having an oedipus complex, where a son loves his mommy romantically to the point of hating his daddy. He also claims to have a “godfather” in Singapore whose family accepts him, so he finds it strange that our family doesn’t accept him. It may also be why he can’t seem to stay away despite all our warnings.\n\nI caught my mum on video call with someone, she seemed like she was speaking mandarin based on her lip movement. It was a disgusting moment when I saw her do the hand gesture of grabbing the area in front of the phone and putting it to her mouth. I am not aware of such gestures but was she receiving a kiss from someone? Someone who was definitely not her husband?\n\nAs for the Nurse Clinician, I’m currently in contact with SGH regarding her actions. So far, SGH has taken a long time to respond and has largely defended the nurse.\n\nAs for my aunt and her housemate, we’ve essentially cut ties with them. She has already blocked me on WhatsApp, so I wouldn’t be able to contact her even if my mother wanted me to.\n\nNeedless to say, all of their names are now on the condo security blacklist.\n\nI’m expecting more drama to show up at my door soon, now that the drama queen is back home. The doctors have said she will likely never regain her original strength and will need a helper for the rest of her life, which we’ve already arranged for her. There are still some complications with her health that may eventually send her back to the hospital, and if that happens, I honestly hope she doesn’t return home again.\n\nThank you to everyone who showed me kindness and concern when I was desperately seeking advice. I hope my story can serve as a warning to others in similar situations. Not all parents love their children unconditionally, especially within cultures where children are expected to respect their elders without question. Older adults can be even more set in their ways, and often less willing or able to recognise their mistakes or change.\n\nIt’s a painful and deeply unnatural process to separate yourself from a parent. I still find myself hurting when I see my mum so weak and in discomfort. But I remind myself of everything that has happened over the past few months, and I consciously work to let go of any sympathy that pulls me back into the cycle. It’s a deliberate effort and a necessary in order to break free and finally live my own life.\n\nThanks for reading this long post.",
+      "comments": [
+        {
+          "text": "Somehow I have a feeling that the PRC nurse and the PRC man are a scam team targeting end of life patients for their assets. \nIn any case, the nurse should be reported to whatever authorities for her questionable unprofessional behaviour. And definitely please report the man to the police. I’m sure your mum is not first case. They are out on the prowl for victims to scam. \nSeriously our society is slowly turning into a low trust society with these scums coming in to scam our people. Previously there was a famous case of a PRC tour guide yang yin scamming an old lady of her house and money and even brought his wife and kids to stay at the house, rubbed shoulders and photo taking with our then PM Lee and the MPs by joining the grassroots. Yes they have no shame. Remember the fujian gang. They like to cozy up with the rich and powerful in Singapore. \nThese PRC scammers would appear to be very warm and friendly with great social skills in the beginning to become your trusted “kins” to reap all the benefits. It’s typical. ",
+          "score": 15
+        },
+        {
+          "text": "Ya lah, taking space was the right call. Mum sick or not, if she's still putting that godson above your feelings, you need to protect yourself too. Hope the discharge is a new chapter for both of you.",
+          "score": 13
+        },
+        {
+          "text": "I assume you got think about hire private investigator to check the PRC godson trying to scam others before or not and also background check",
+          "score": 6
+        },
+        {
+          "text": "Thanks to lawless wrong and PAP's open door policy ",
+          "score": 2
+        },
+        {
+          "text": "Er very complicated and messy family.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scxumx",
+      "subreddit": "SingaporeRaw",
+      "title": "Pasir ris park(again)",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scxumx/pasir_ris_parkagain/",
+      "score": 26,
+      "num_comments": 3,
+      "created_at": "2026-04-05T15:58:46",
+      "selftext": "Canon EOS r50+Canon 100-500mm f4.5-7.1 L IS USM. Poorer pics this time, sorry.",
+      "comments": [
+        {
+          "text": "snek is cuteeeeee",
+          "score": 5
+        },
+        {
+          "text": "Wah the snek tho!! Pasir Ris always delivering lor, underrated spot for wildlife shots sia",
+          "score": 5
+        },
+        {
+          "text": "![gif](giphy|2lbhL8dSGMh8I)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scu8k1",
+      "subreddit": "SingaporeRaw",
+      "title": "Nostalgia Sunday. What do you miss from long long time ago? From older days Sg.",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scu8k1/nostalgia_sunday_what_do_you_miss_from_long_long/",
+      "score": 21,
+      "num_comments": 55,
+      "created_at": "2026-04-05T12:30:18",
+      "selftext": "What do you miss from long long time ago? From older days Sg. Lai discuss. ",
+      "comments": [
+        {
+          "text": "The colder morning weather minus the haze. Slower paced life and more patient ppl around.",
+          "score": 49
+        },
+        {
+          "text": "Makeshift otah stand below hdb blocks",
+          "score": 41
+        },
+        {
+          "text": "Mrt passenger load that was about half of today's. Usually you can get a seat and even when you couldn't, you have space around you while you stood.\n\nAnd.. It was a Singapore of mostly Singaporeans when NS actually felt more meaningful and a call of duty for me.",
+          "score": 23
+        },
+        {
+          "text": "No scam call",
+          "score": 19
+        },
+        {
+          "text": "$2 filet o fish, all the maccas I went to during pri/sec sch all gone already. Pri sch canteen fried chicken wing store (RIP pohpoh). And more space in general, it’s way overcrowded everywhere nowadays. ",
+          "score": 13
+        },
+        {
+          "text": "To the people at KFC Headquarters.  \nI MISS THE SHROOM BURGER. BRING IT BACK!",
+          "score": 11
+        },
+        {
+          "text": "Miss when it felt like Singapore. I know we don't have a strong identity to begin with, but back then when you look around, it just felt like home. Governemnt was also pushing hard for the Singaporean identity campaign back then. Now, it's totally different. No such campaigns and now everywhere you turn it just feels like SG is a migrant country.",
+          "score": 10
+        },
+        {
+          "text": "The old but expensive version of swensens. ",
+          "score": 9
+        },
+        {
+          "text": "https://preview.redd.it/td1yy1d1yatg1.jpeg?width=447&amp;format=pjpg&amp;auto=webp&amp;s=bb2c239da27cfac3b9f7a63da71c5447c57d8b92",
+          "score": 8
+        },
+        {
+          "text": "Satay use to be 20 cents",
+          "score": 8
+        },
+        {
+          "text": "Open fields, open spaces.",
+          "score": 5
+        },
+        {
+          "text": "Space. We used to be a 2million population.",
+          "score": 5
+        },
+        {
+          "text": "Big Gulp from 711\n\n2 dollars McChicken\n\n2 dollar mrt chicken rice \n\nWide open spaces \n\nLong bendy buses \n\nThe old down town east ",
+          "score": 5
+        },
+        {
+          "text": "I miss when people here didn't think they were too important to have casual conversations ",
+          "score": 4
+        },
+        {
+          "text": "I miss the non-air conditioned double decker bus 74, for it bridged areas untouched without MRT. Back then Singapore wasn’t as well connected and being on 74 feels like an excursion. Singapore was also not as crowded then and the pace of life somehow felt slower. \n\nLife might be hard then but somehow things didn’t feel pointless. ",
+          "score": 4
+        },
+        {
+          "text": "Less foreigners. ",
+          "score": 4
+        },
+        {
+          "text": "CD shops where you can go in and browse music for hours and listen to them...\n\n\nTower records, HMV, Sembawang Music Center, CD Rama, That CD shop, Gramophone, Borders bookstore etc.",
+          "score": 3
+        },
+        {
+          "text": "1 sgd ice cream from uncle void deck. If I feel rich buy one with bread ",
+          "score": 3
+        },
+        {
+          "text": "Miss the old bus interchanges. Space for buses and everyone. ",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scpwop",
+      "subreddit": "SingaporeRaw",
+      "title": "Often mistaken as being Malay, this China-born woman speaks Mandarin and runs a halal Chinese restaurant",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scpwop/often_mistaken_as_being_malay_this_chinaborn/",
+      "score": 18,
+      "num_comments": 24,
+      "created_at": "2026-04-05T08:54:39",
+      "selftext": "This is all PRC should be allowed. Not mala!",
+      "comments": [
+        {
+          "text": "Chinese Muslim food, especially the cusines from the Xinjiang region are lowkey underrated. They take pride in making their noodles from scratch.",
+          "score": 24
+        },
+        {
+          "text": "China a lot of Muslim la. Those minorities in western region, and even Han Muslim. A good example is actress liu shishi.\n\nBut there is a small minority Muslim group in Hainan who was decendant of a Malay prince. \n\nThe prince seek refuge to china when Viet overran them in now southern Vietnam back in the song dynasty. The song court allowed their escape ship to dock in to Hainan.\n\nThere are a few thousand of them living near Sanya Hainan. Over past 20-30 years, some of them migrated to Malaysia if I am not wrong.",
+          "score": 16
+        },
+        {
+          "text": "Xinjiang Muslim food is so underrated leh. Hand-pulled noodles, lamb skewers, the works. Hope more places like this open up in SG lah.",
+          "score": 8
+        },
+        {
+          "text": "She does look malay",
+          "score": 7
+        },
+        {
+          "text": "I've seen several Muslims when I visited Yunnan. Our guide brought us to his favorite restaurant and I didnt realize it was a Muslim restaurant until I noticed the motifs in the chairs and absence of pork dishes. Then the lady boss came out and I knew straight away. \n\n\nBest fucking 红烧牛肉 I ever had. ",
+          "score": 6
+        },
+        {
+          "text": "Suddenly a restaurant started by a China born Chinese is ok lol.",
+          "score": 3
+        },
+        {
+          "text": "Been to the restaurant here. Food is good!",
+          "score": 2
+        },
+        {
+          "text": "Many Muslim in China",
+          "score": 2
+        },
+        {
+          "text": "At least they are flourishing and [the population is growing](https://www.pewresearch.org/religion/2023/08/30/islam/):\n\n&gt; Between the 2010 and 2020 censuses, the number of adults in predominantly Muslim ethnic groups grew by 9% to 17.9 million, while the Han majority grew 5% to 1.02 billion.\n\n&gt; This disparity may have resulted, at least in part, from the Chinese government’s less stringent controls on family size for minorities under the one-child policy, which was in effect from 1980 to 2016. While Han Chinese were restricted to having one child per family (or two, if they met certain conditions), ethnic minorities were allowed to have as many as three children per family.\n\n\n\n....can't say the same of Chinese migrants who are minorities and who refused to convert in Muslim countries like [Malaysia](https://mysinchew.sinchew.com.my/news/20250712/mysinchew/6690268) and [Indonesia](https://en.wikipedia.org/wiki/May_1998_Indonesia_riots).",
+          "score": 1
+        },
+        {
+          "text": "So many of them in western China. They do have mala there.",
+          "score": 1
+        },
+        {
+          "text": "I sometimes she comes and eat where I work first time I was surprised she talk to me in Chinese",
+          "score": 0
+        },
+        {
+          "text": "u/Kagenlim in shambles rn",
+          "score": 0
+        },
+        {
+          "text": "Shes born in Xinjiang la.\n\nNothing special about this person.\n\nCNA running out of content to write.\n\n\nAnyway, hope she doesnt run her restaurant with \"mandarin-only\" menus.",
+          "score": -8
+        }
+      ]
+    },
+    {
+      "id": "t3_1scu218",
+      "subreddit": "SingaporeRaw",
+      "title": "This father turned his HDB corridor into a 'tactical training' play area for his children.",
+      "url": "https://old.reddit.com/r/SingaporeRaw/comments/1scu218/this_father_turned_his_hdb_corridor_into_a/",
+      "score": 18,
+      "num_comments": 75,
+      "created_at": "2026-04-05T12:20:44",
+      "selftext": "A 6-min video clip. ",
+      "comments": [
+        {
+          "text": "This clown again ah? He was my CSM during my combat medic course back in 2000. Cockanathan thought he was Rambo. Had weird ass cult leader behaviour.\n\nHe pops up on the local news every couple of years for this nonsense.",
+          "score": 95
+        },
+        {
+          "text": "Lol,\n\nIn before someone comments “did he pay for the space outside his HDB?”",
+          "score": 53
+        },
+        {
+          "text": "ISD better monitor them.",
+          "score": 41
+        },
+        {
+          "text": "Anyone who has served NS will know such individuals like this father in the video.  \nHe is the one that is a '***Never-was***', not even a '***Has-been***' and now he is a '***Wannabe***'.   \n",
+          "score": 29
+        },
+        {
+          "text": "The corridor doesn't belong to him, it's common for a reason",
+          "score": 27
+        },
+        {
+          "text": "Fellas using long range scope in close quarters, who are they fighting? ants?",
+          "score": 27
+        },
+        {
+          "text": "I thought sg don't allow toy guns that would resemble the real thing.. how they manage to get their hands on the gear?",
+          "score": 15
+        },
+        {
+          "text": "How is this even allowed?",
+          "score": 15
+        },
+        {
+          "text": "Report to ISD",
+          "score": 10
+        },
+        {
+          "text": "Please be considerate to your neighbours, especially the one living below. Such activities shouldn’t be performed in a HDB flat, and must be disallowed. I hope HDB and the authorities could take action against them to ban it.  \n\nThe throws must have created lot of noises for his neighbours below. Mattresses do not provide full sound proof.\n\nThis is horrible, and shouldn’t be glorified. What is the purpose of publicizing this by CNA??? I worry that this will be interpreted as “approval”, and more of such people will follow suit. Noise disputes between neighbours in HDB are already getting serious.",
+          "score": 10
+        },
+        {
+          "text": "Pity his neighbors. Not enough to serve NS or signed on. He has to cosplay mercenary soldiers at home.",
+          "score": 10
+        },
+        {
+          "text": "omg, this guy is still on the news?? Why every year need to put this guy on the news again?\n\nand i pity the neighbours. lol  \nDonno how to sell the house when the time comes.\n\nI'm sure that is their private lift lobby. No residents ever used that area.",
+          "score": 8
+        },
+        {
+          "text": "Worse still, his kids getting influenced by his behaviour ",
+          "score": 7
+        },
+        {
+          "text": "Reminds me of the smiths family from the powerpuff girls.",
+          "score": 6
+        },
+        {
+          "text": "old news, i think this guy also has two wives or smth",
+          "score": 5
+        },
+        {
+          "text": "To be honest, the picture of the family doesn’t conjure up positive image. 😬😬😬",
+          "score": 4
+        },
+        {
+          "text": "Corridors are common space leh, kena complain by neighbours before the kids even finish training one.",
+          "score": 3
+        },
+        {
+          "text": "kids all sign on adf?",
+          "score": 2
+        },
+        {
+          "text": "They...where did they get those literal realistic replica guns???\n\nThis is not even the SPF, there's no way they have license to hold guns and even then, iirc you cant use them in **public space**\n\nPlus, its too realistic to actual rifles",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scshf4",
+      "subreddit": "singaporefi",
+      "title": "Thinking of stopping work for 3 yrs",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scshf4/thinking_of_stopping_work_for_3_yrs/",
+      "score": 126,
+      "num_comments": 164,
+      "created_at": "2026-04-05T11:00:52",
+      "selftext": "mid 30s female. Monthly salary 9.5k. Annual package 175k on average (varies spending on bonus). \n\nI’m thinking of taking a 3 year break from work &amp; following my partner who will be working overseas soon. His company will provide $3k monthly allowance for me (spouse), cover our rental costs there &amp; all healthcare expenses. \n\nIs it wise for me to do so, or should I continue working? I do want to retire at 50 so I am thinking this decision might set me back a few years. But I also want to take a break cos it’s a lifetime chance for me to rest, and also i do not want LDR.  \n\nMy financial situation now (does not include my partner):\n\n$108,000 invested in US stocks. \n\n$80k invested in SGX stocks \n\nApprox $550k in cash, which I currently put in money market funds. \n\nCPF\n\n$22k in OA ($222k is in my property now)\n\n$114k in SA, $79k in MA. \n\nHousing\n\nI have a property owned under my name, with a $1m mortgage. Bought at $1.4m which I intend to sell at some point and downgrade to HDB. I can rent out for around $4-$4.1k rental income if I do follow my partner to overseas, and sell before I return. Monthly mortgage is around $3.6k currently. \n\nNo car.\n\nMy company is ok to wait for me to return so I can still go back to my job after 3 years. \n\nNo children and no intention of having any. \n\nAppreciate advice. ",
+      "comments": [
+        {
+          "text": "The last person who told me she was pausing work for 2yrs is still a housewife after 10+yrs. She was an audit manager and her reason for pausing work was to follow her husband to HK for his work. Her company similarly has HR policies that would allow her to return after 2yrs but she no longer wanted that kind of stress after tasting the happiness of being at home with her 2 young children.\n\nI would still encourage you to go ahead with your happiest life choices because money isn't what makes people happy. There are super rich people who are super miserable.",
+          "score": 286
+        },
+        {
+          "text": "last line is all that matters.\n\nno children, go ahead and do it",
+          "score": 100
+        },
+        {
+          "text": "Please help unemployed redditors get your job if you do leave the work force.",
+          "score": 90
+        },
+        {
+          "text": "3 year break is really long, you have to keep yourself occupied there ",
+          "score": 58
+        },
+        {
+          "text": "Husband is in Air Force? Just do it",
+          "score": 39
+        },
+        {
+          "text": "How do you have almost 200k invested, 550k cash and a 1.4m property with a 10k salary? ",
+          "score": 35
+        },
+        {
+          "text": "Damn. You are good. ",
+          "score": 31
+        },
+        {
+          "text": "Probably what you need to think is what will you do in that 3 years there. Boredom or lack of direction can be even more crippling if you do not have family or friends support there. No income is one thing although you are financially stable so that isn’t a worry. Unless you are the kind that can find your own hobbies, things to do, You say the company can wait 3 years for you, but in this uncertain times nothing is certain so don’t place too much high hopes. \n\nPersonally if i have such a good job, i will stay in Singapore but fly there often to see my partner. I personally don’t think i can give up a cushy job for a partner unless i have kids and my husband is relocating there. Financial stability is always your greatest asset.",
+          "score": 15
+        },
+        {
+          "text": "I'm 40 and not even in this position",
+          "score": 14
+        },
+        {
+          "text": "1.  is yours cureently a govt role that offers near 6 months bonus? (You can ask to join back a few years later)\n\n2. Sounds wise to just rest, is probably the only break you’ll get. you can find a job there too? (Double payment with the $3k allowance)\n\n",
+          "score": 9
+        },
+        {
+          "text": "Why not? Some things you can think about - keep in touch with your boss to keep options open. You might feel like working part time remotely if that’s an option.\nFurther studies overseas like a senang masters program? Or a credential? \n\nAlso good time to explore pivoting into other jobs if you’re bored. Or set up small sideline.\n\nOr just take a break man.",
+          "score": 6
+        },
+        {
+          "text": "Which city and whether or not got thing to do there.",
+          "score": 5
+        },
+        {
+          "text": "If im you, i would totally go!! Have been looking forward to a break and have been pinning hopes on my husband to get an expat posting cos I dw to be the one being the expat 🤣 I don’t think you need to be afraid of tying yourself down for 3 years because you’ll never know what will happen once you are there? Maybe you dislike it so much that you come back in 1 etc or maybe another covid happens (touchwood!) and both of you have to come back? Things are too uncertain but 1 thing I know if you’ll definitely think sooooo much (harsher word being regret) that you never tried doing it. Also, you’ll never know what you’ll unlock there. What if you decided to do MBA there? What if you unlock biz opportunities? What if you start content creation. Haha maybe I’m too optimistic but given you have no liabilities (kids etc) you honestly don’t have much to lose and more to gain. All the best! Manifesting a life like this for myself 🥰",
+          "score": 5
+        },
+        {
+          "text": "The question here is simple. Your opportunity cost for these 3 years is 525k. Are you ok with giving it up?",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "t3_1scwztv",
+      "subreddit": "singaporefi",
+      "title": "Receiving allowance even when working",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scwztv/receiving_allowance_even_when_working/",
+      "score": 80,
+      "num_comments": 65,
+      "created_at": "2026-04-05T15:06:14",
+      "selftext": "During a lunch break recently, we were discussing how much money to give our parents to be fillial but yet not strain our own personal finances. \n\nOne colleague of mine happened to mention he is still receiving a monthly allowance from his parents while he's already been working for a few years. He actually told his parents that he doesn't need additional money from them, but they still insist on giving him a decent sum (more than 2k) each month to help him cope with the rising COL here. \n\nBefore anyone jumps the gun, no he's not a spoilt entitled kid by any means. On the contrary he lives a relatively frugal lifestyle, and advocates for cutting down unnecessary expenses. \n\nIs this common in Singapore? I feel happy for him that his parents dote on him and are in a good position financially to be able to provide him with a bit more support, but I don't think this should be that common right? ",
+      "comments": [
+        {
+          "text": "Totally uncommon but good for him bah",
+          "score": 163
+        },
+        {
+          "text": "I think judging from some comments on here, there is definitely jealousy/resentment.\n\nDont talk about allowance, there are many households where child gets married and parents bestow a property upon them. It is what it is and good for them!",
+          "score": 85
+        },
+        {
+          "text": "Parents ask me for allowance ever since I started part time work. Every laptop or electronic device was paid by me since im 19 or so. My bed, cabinets for my room, hp bill, clothes, travels all paid using my part time job. Now every month I will give my parents 10% of my pay, if I miss by a few days (they know when im paid), they will msg me passively aggressively and ask whether I am having any financial difficulties. ",
+          "score": 58
+        },
+        {
+          "text": "don't think it is common at all\n\n  \n",
+          "score": 30
+        },
+        {
+          "text": "some people are really lucky &amp; blessed in life....\n\nwhat would i give to have rich/influential parents. if i can get $2k consistently each month as a free additional/money expenses from parents, i will just keep rsp/dca into VWRA fsmone hehe\n\n",
+          "score": 25
+        },
+        {
+          "text": "Have is good la but should not be expected. I stopped getting allowances since i got my first pay check while waiting for ns.\n\nMore than 2k is damn good. More than my starting pay lol.",
+          "score": 23
+        },
+        {
+          "text": "Probably the parents way of paying out inheritance early at a controlled and meaningful way rather than lump sum when the kid is in his 50s or 60s",
+          "score": 21
+        },
+        {
+          "text": "Good for him of his parents can afford it. If he plays his cards right ,maybe he can fire by 30",
+          "score": 16
+        },
+        {
+          "text": "Damn lucky. 2k is some ppl first pay.\n\nI had a friend in NS still receiving allowance from parents which I thought was weird, this is even weirder",
+          "score": 12
+        },
+        {
+          "text": "What are you even asking, of course you know that is uncommon. Most families don't have 2k spare money laying around every month\n\n\nTreating children as retirement funds by asking for allowances is the norm here as most don't actually have enough to retire",
+          "score": 8
+        },
+        {
+          "text": "Is common amongst rich families. Rich families are still a minority demograph. Put together it means its commonly uncommon.",
+          "score": 8
+        },
+        {
+          "text": "I have a foreign friend PR.\nHer parents give her allowance more than her pay.\n\nShe’s a really humble person though.\nGreat that her parents do this rather than an inheritance at the end.",
+          "score": 7
+        },
+        {
+          "text": "Ur colleague is blessed. I’m sure there’s a house waiting for him in the future.",
+          "score": 6
+        },
+        {
+          "text": "My father on the other hand keeps asking me for money. \n\n",
+          "score": 5
+        },
+        {
+          "text": "Maybe parents setup a trust fund for him that pays out regardless that’s why they can’t stop giving the allowance to him 😂 Definitely not common, but life’s unfair, we made do with what we have. No reason to be salty about others, just life your life. ",
+          "score": 3
+        },
+        {
+          "text": "Common for top 1%",
+          "score": 3
+        },
+        {
+          "text": "i will probably leave money for my kids eventually too but I am not sure this is the right way",
+          "score": 2
+        },
+        {
+          "text": "It’s a personal choice isn’t it. ",
+          "score": 2
+        },
+        {
+          "text": "If his parents are rich and can afford to, it’s their choice, nothing wrong with that. Good for him, he can invest early and plan for his future. But this definitely not common though, most parents ask their kids for allowance instead. ",
+          "score": 2
+        },
+        {
+          "text": "Not common at all. Outlier case.\n\nWould love to be his god brother",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1scclfr",
+      "subreddit": "singaporefi",
+      "title": "Subsidized or unsubsidized",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scclfr/subsidized_or_unsubsidized/",
+      "score": 7,
+      "num_comments": 6,
+      "created_at": "2026-04-04T23:46:24",
+      "selftext": "I am holding Prudential old hospitalisation policy, the one that covers 100% for private hospitals, no exclusion stated. \n\nbeen paying for the past 20 years and had made no claims. so lacking experience \n\nfor those who have been hospitalized before, can advise\n\n1) If I am under private patient for medical issue A, can I still be a subsidized patient for medical issue B next time? \n\nI heard that once private, cannot be subsidized anymore in the future. is that true? \n\n2) as private patient, anyone has experience paying first and not able to claim later? I am thinking of going for some ENT issue, endoscopy, under panel. for all, I need to pay first, then submit claim to Prudential. think it's consider day surgery? \n\nhow about for hospitalisation? do I need to pay first? I heard there is some pre authorization. will there be cases of authorized already, yet cannot claim later? ",
+      "comments": [
+        {
+          "text": "Same plan as yours with 100% coverage. Just downgraded before 1 apr too. The difference in premiums is huge. My wife also downgraded. ",
+          "score": 4
+        },
+        {
+          "text": "Follow",
+          "score": -1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scb9y1",
+      "subreddit": "singaporefi",
+      "title": "CSPX or SPYL?",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scb9y1/cspx_or_spyl/",
+      "score": 5,
+      "num_comments": 9,
+      "created_at": "2026-04-04T22:53:44",
+      "selftext": "Hi all! Just started my investment journey and was hoping to get some advice! \n\nCorrect me if I’m wrong, but I understand that CSPX and SPYL are essentially the same. The only difference is that CSPX has significantly larger volume and has been around longer, and SPYL is the newer one. However, is there any difference between choosing either one? \n\nAlso, i plan to DCA every 2-3 months into VWRA and either CSPX/SPYL for the next 10-15 years! \n\nThanks everybody! Hope everyone is doing well! ",
+      "comments": [
+        {
+          "text": "Look, get over your analysis paralysis and just buy one. As with any other product, it’s not a monopoly and there will be competition between  the “manufacturers”. \n\nCSPX is by iShares, SPYL is State Street, VUAA is Vanguard. \n\nThe trading volume can change with time, and the total expense ratios can also change in the future. \n\nJust buy one.\n\nIBKR used to make it inconvenient to buy SPYL on the LSE but this is no longer the case. ",
+          "score": 5
+        },
+        {
+          "text": "CSPX has larger volume than SPYL. \n\nThis means that the buying and selling price of CSPX is \"tighter\" than SPYL. So the price you get is pretty close to the listed price. Its good because if the spread is \"looser\", you might pay more / share or get less / share. \n\nSPYL has lower expense ratio(like 0.04% p.a. less) than CSPX.\n\nSo SPYL has lower fees per year than CSPX.\n\nIm not gonna comment on the strategy of having S&amp;P500 + VWRA...",
+          "score": 4
+        },
+        {
+          "text": "I use SPXS on VWRA LSE. Moved on from CSPX and SPYL.",
+          "score": 3
+        },
+        {
+          "text": "The details of the exact ETF you buy matters much less to your long term success than deciding on a plan and sticking to it. Have enough conviction in your plan to ensure you can invest regularly regardless of how the market is doing. ",
+          "score": 3
+        },
+        {
+          "text": "If all is equal go for the cheaper one, in the long term it might make a difference.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scxfe7",
+      "subreddit": "singaporefi",
+      "title": "Downgrade of rider to new scheme",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scxfe7/downgrade_of_rider_to_new_scheme/",
+      "score": 3,
+      "num_comments": 1,
+      "created_at": "2026-04-05T15:32:13",
+      "selftext": "With the introduction of new rider scheme with lower prem but higher co payment cap and higher deductibles, how many here are consider to downgrade from your existing rider?",
+      "comments": [
+        {
+          "text": "i'm currently on private panel hospt with full rider under copay scheme. \n\nnew policy, have to worry about coming out with cash first that makes u not want to utilise your shield plan at all. \n\nThen it's kinda, might as well not have it. \n\nSo if that's the case, will continue co-pay plan till i can't afford then will consider downgrading. But by that time, i feel that's the time i may need it the most but will just live with class C or B2 subsiized ward. ",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "t3_1sc8x2l",
+      "subreddit": "singaporefi",
+      "title": "Should I terminate my AIA pro achiever plan?",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1sc8x2l/should_i_terminate_my_aia_pro_achiever_plan/",
+      "score": 2,
+      "num_comments": 13,
+      "created_at": "2026-04-04T21:12:30",
+      "selftext": "Hi all, I've been reading up about ILPs and I'm deciding if I should terminate my current AIA pro achiever 3.0 plan while the sunk cost is low. I know I might not be able to get my money back and I've been paying for about 3 months now. I'll admit I'm still new into all these and  my first thought on how to grow my money was savings plan. I'm looking into finding ways to grow my money thru investment. Any advice on how should I start?",
+      "comments": [
+        {
+          "text": "Yes yes and yes",
+          "score": 6
+        },
+        {
+          "text": "How to start.\n\nGot pinned post on this sub.\n\nGot this one too\n\nhttps://www.reddit.com/r/singaporefi/s/Kb8NEI78oj\n\nHonestly we cant help you alot because we dont know anything about you. So best is you help yourself first before you ask more specialised questions.\n\nI know the posts are long, just use chatgpt and paste the sections in 1 by 1 to explain to you if you really need to...",
+          "score": 5
+        },
+        {
+          "text": "Huge yes",
+          "score": 3
+        },
+        {
+          "text": "Yes, 3 months only just cancel lah.\n\nBtw how old are you and do you have full time salary?",
+          "score": 3
+        },
+        {
+          "text": "3 months shd cancel",
+          "score": 3
+        },
+        {
+          "text": "I just terminated my aia ilp from 2019. Approx 40k+ paid, only took back 19k+. I figured its really much much better to self invest into funds or etfs. No more ilps for me ever.",
+          "score": 3
+        },
+        {
+          "text": "Yes",
+          "score": 1
+        },
+        {
+          "text": "why did you sign up for something with 10-20 years commitment if you don't understand what it is?  \n  \nthis is the total cost that you'd (will have to pay) / paid over time (under subfund fees) as time goes  \n:assumumption is that you're paying 350/month for MIP 20 plan\n\n[https://imgur.com/MG0SBPT](https://imgur.com/MG0SBPT)  \nread the wiki page next [r/singaporefi Wiki: Your Guide to Financial Independence](https://www.reddit.com/r/singaporefi/wiki/index/)",
+          "score": 1
+        },
+        {
+          "text": "I have been pitched this product at least 5 times. Basically high bonuses and lock in is only 10 years. ",
+          "score": -1
+        },
+        {
+          "text": "[removed]",
+          "score": -8
+        }
+      ]
+    },
+    {
+      "id": "t3_1scy4n5",
+      "subreddit": "singaporefi",
+      "title": "aia pro achiever 3.0 experiences?",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scy4n5/aia_pro_achiever_30_experiences/",
+      "score": 0,
+      "num_comments": 19,
+      "created_at": "2026-04-05T16:15:47",
+      "selftext": "Hi, recently approached my FA friend asking for some investment advice (maybe i was naive but so what everyone is learning). He recommended me AIA pro achiever 3.0 plan with $400 per month / $600 per month. (He only shared with me the policy name after i asked for the name, also shared that he himself also has the ILP plan) \n\nCurrently still a 3rd year uni student, grad next year. Only opened this subreddit recently and have seen the negative sentiment towards ILPs. Additionally, looking at this reddit made me realise that nothing was shared with me about the management fees?\n\nHence I wanna ask, does anyone here have experience with this to share? be it good or bad. Would really appreciate it.\n\nEdit: I have about 10k in savings as well",
+      "comments": [
+        {
+          "text": "Hell nah man\n\nUni student they no mercy like prey like that",
+          "score": 9
+        },
+        {
+          "text": "You’re still studying, are you able to sustain the premium payments at all for the next 2-3 years? Failure to consistently put in premiums for the next 10 years will result in some very hefty penalties in the policy.",
+          "score": 6
+        },
+        {
+          "text": "Time to review this friendship. You treat him as friend, but he treats you as carrot head.\n\nYour 10k savings keep as emergency fund for rainy days, it's really difficult to find a job now, keep the 10k as liquid (immediately accessible) as possible. Investment can wait until you have a full time salary.",
+          "score": 4
+        },
+        {
+          "text": "Friendly neighbourhood advisor here. \n\nStay away. \n\nFrom both the plan and the advisor. \n\nThe one really making money for him is not his investments but rather his commissions. ",
+          "score": 4
+        },
+        {
+          "text": "This is not a friend. This is a parasite.\n\nYou’re not even working. And you will be able to get much better returns just buying into a S&amp;P 500 etf.\n\nLook at the number of years you need to break even and the pathetic “profit” you’ll gain from the ILP.\n\nJust note that if you break the investment contract there is a penalty fee as well. And that can be steep.\n\n",
+          "score": 4
+        },
+        {
+          "text": "please DO NOT, in this day and age buy an ILP. You can easily buy etfs for low fees on most platforms like syfe, moomoo, endowus (funds). ",
+          "score": 3
+        },
+        {
+          "text": "A few questions you can ask him:\n\n1) did he get all 3 versions of pro achiever? 1.0, 2.0 and 3.0\n\n2) why $400 per month? \n\n3) ask him to call you back when there’s pro achiever 4.0 since you would love the latest version of everything. ",
+          "score": 2
+        },
+        {
+          "text": "Don’t buddy, this is also why I made it a point that I will let my kids know that ILPs are strictly discouraged when they are of age to buy insurance on their own.",
+          "score": 1
+        },
+        {
+          "text": "True “Pro Achievers” won’t subscribe to this policy.",
+          "score": 1
+        },
+        {
+          "text": "Taking up this policy. Lower cash flow. \nMoney gets locked up in investment period for 10/15/20 years.\nYou will get the same value ,lower  or more after the investment period as investment always has a risk. \n\nVery big early termination fee. Very Very bad if you can not commit for 10 years or choose to give up after a few years. \nLosing a great deal of your contributed sum. \n\nI see as you get money back after 10 years old. On the 11 year for aia 3.0. \n\n",
+          "score": 1
+        },
+        {
+          "text": "Yo cut ties with that FA friend, $400/600 on a Uni student ? That outright robbery from him. Even with $10k in savings , you don’t have an income so don’t. If need insurance, just get the base hospital and accidental plan and that it ~ investment I rather you use robo advisor then buy this ",
+          "score": 1
+        },
+        {
+          "text": "No. Just no. It’s not worth it. You can think of it as a forced savings but you MUST HOLD for at least 20 years. Any lower is as good as giving them commission from your own pocket. ",
+          "score": 1
+        },
+        {
+          "text": "Hi Op, could you share if the FA is from Advisors alliance group of AIA FA?",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1sct7vn",
+      "subreddit": "singaporefi",
+      "title": "how did your credit card strategy change over time?",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1sct7vn/how_did_your_credit_card_strategy_change_over_time/",
+      "score": 0,
+      "num_comments": 10,
+      "created_at": "2026-04-05T11:37:24",
+      "selftext": "as title. i’m considering changing my credit card strategy as my pay/lifestyle changed, and was wondering what’s the general shift for everyone? \n\nfor context: i started with a UOB one card and spent \\~800-1K SGD/month. the primary objective of using a UOB one card was to hit the 500$ spend to qualify for the % boost for one account.\n\nBut as my lifestyle and pay has since changed since then and i will probably be spending more per month, I was thinking a cash back card might not be the most optimised strategy. It also does not help that the UOB once account’s rates r slashed so low that i might consider moving my money elsewhere.\n\nThanks all! ",
+      "comments": [
+        {
+          "text": "Saving account rates are getting slashed everywhere.\n\nIt is too much of a hassle to chase miles, I rather keep it short, simple and sweet and go with cashback\n\nUOB One - local spend\n\nMaribank - overseas spend",
+          "score": 14
+        },
+        {
+          "text": "When i first started working decades ago, i min-max the credit cards. As I grew older and income increases, i no longer care about credit cards, preferring for something simple like safra dbs credit card. No longer have the time nor energy to calculate category spending and all those for maybe just a hundred bucks extra from min maxing.",
+          "score": 6
+        },
+        {
+          "text": "I find it a hassle to chase miles and reward points, so a decade ago, I decided to go for cashback only. I also find it annoying that miles keep getting devalued and it is so hard to redeem saver flights.\n\n\nI now use trust cashback card, maribank card, and OCBC Frank card.",
+          "score": 3
+        },
+        {
+          "text": "Can consider dbs multiplier for now",
+          "score": 2
+        },
+        {
+          "text": "You probably gotta figure out where you wanna shift your money first as one account eligible card pool is quite restrictive.",
+          "score": 1
+        },
+        {
+          "text": "Once u reach certain spending, it is much worth while to opt for miles. Miles usually have no limit, and special bonus miles can be as high as 4-6miles per dollar. If you convert to actual flight ticket, the equivalent cashback can be as high as 8% if you redeem for biz class ticket.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scs62p",
+      "subreddit": "singaporefi",
+      "title": "Card Up - Mastercard Promos",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scs62p/card_up_mastercard_promos/",
+      "score": 0,
+      "num_comments": 5,
+      "created_at": "2026-04-05T10:45:10",
+      "selftext": "Is it just a blip that there are only visa Card Up promos or is this often the case?\n\nI joined card up as often recommended. Trying to get miles. Got an eligible credit card - randomly picked visa as no where said big difference.\n\nAnd now I can’t find a single Mastercard eligible promo code.\n\nWondering if I should wit it out or give up/change card? \n\n ",
+      "comments": [
+        {
+          "text": "What type of payment?",
+          "score": 1
+        },
+        {
+          "text": "If you picked a visa, and can't find a mastercard promo, what is the issue?",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1scyk9h",
+      "subreddit": "singaporefi",
+      "title": "Would you finish the contract or start looking?",
+      "url": "https://old.reddit.com/r/singaporefi/comments/1scyk9h/would_you_finish_the_contract_or_start_looking/",
+      "score": 0,
+      "num_comments": 10,
+      "created_at": "2026-04-05T16:43:50",
+      "selftext": "On a 1 year direct contract with good benefits - there’s a 1 month completion bonus should I finish my contract. However, after speaking to my boss, there might not be a chance for me to be converted. Due to headcount issues. The department is at full pax after some restructuring. It’s also 1 month after bonus season and none in the team has thrown letter. Do you start looking? Or finish the one year for that bonus and at the same time hope for headcount opening up when people resign.\n\n  \n\nLooking to seek advice from both sides of the camp so I can make a better informed position.\n\n  \n\nCaveat: boss is good. Company is good. Just that no headcount because 1) full pax team and 2) no one is leaving ",
+      "comments": [
+        {
+          "text": "Literally no harm to start looking and see what you can get. Good offer, leave without the completion bonus. No offer, stay and keep looking and take the completion bonus. ",
+          "score": 21
+        },
+        {
+          "text": "how long are you into the contract already? nearing to the 1 year and get bonus?",
+          "score": 5
+        },
+        {
+          "text": "You can start looking but you might not get an offer before your contract ends. This was my situation a while back, managed to secure my next role 2 months after the contract ended",
+          "score": 2
+        },
+        {
+          "text": "Maybe you can wait until 3 months left in your contract to start looking? By the time the interview process wraps up and you accept the offer, you can just tell the company to hold the position for one month which is fairly common. That will get you until the end of the contract. If the company wants you to start earlier, you can try to nego a signing bonus to offset the loss of the contract completion bonus. ",
+          "score": 2
+        },
+        {
+          "text": "You just start looking. If you find something better, you’re ahead of the curve. If you wait and can’t find anything, you’re going to stress yourself out. ",
+          "score": 2
+        },
+        {
+          "text": "Can start looking now and explain your position. Negotiate for remuneration taking in the guaranteed completion bonus. ",
+          "score": 1
+        },
+        {
+          "text": "Is your boss looking to renew the contract? If so, can better terms be negotiated. \n\n\nI took will not want to get stuck in contract role for too long, but if the company is good, a second year could be warranted.",
+          "score": 1
+        },
+        {
+          "text": "Saw your response to another comment about the bosses are good; fair, flexible understanding and growth. I faced the same thing like yourself, good manager but no headcount for conversion. \n\nSharing my personal experience here, headcount is indeed beyond manager’s control, but does your manager show enough to convince you that he’s sincere in wanting to convert you?\n\nIn my case, my manager was genuine and open about his effort in converting me (showing me and discussing about conversion regularly). My conversion came about 2.5 years (3rd contract), which then my total compensation doubled. So, I’ll said it worked in my favour for being patient. \n\nI chose to stay on because:\n1. Good, direct and mentor-style manager\n2. Good team and company vibe/culture\n3. Low attrition in the company (work against me when on contract, but sign of company treating the employees right)\n\n",
+          "score": 1
+        },
+        {
+          "text": "Take note if you finish that one year and not continuing, the bonus might not be there for you...",
+          "score": -2
+        }
+      ]
+    }
+  ]
+}
