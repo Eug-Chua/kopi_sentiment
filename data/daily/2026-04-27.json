@@ -1,0 +1,4274 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-04-27",
+  "report_date": "2026-04-27",
+  "generated_at": "2026-04-27T12:23:54.488184",
+  "metadata": {
+    "total_posts_analyzed": 38,
+    "total_comments_analyzed": 453,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Economic uncertainties dominate Singaporean anxieties today. Property market concerns intensify as new launches hit record prices, with BTO hopefuls worried about fund placement and affordability. Security fears emerge around fitness tracker data breaches at military bases, while broader economic shifts like Japan's declining influence and Singapore's retail sector transformation create underlying unease. Healthcare costs and financial planning decisions also weigh heavily on residents' minds.",
+      "quote_count": 50,
+      "intensity_breakdown": {
+        "mild": 2,
+        "moderate": 42,
+        "strong": 6
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Housing affordability triggers the strongest public anger. New condo launches at $2,120-$2,886 PSF have residents furious about being priced out of their own market. The closure of beloved department stores like Isetan NEX sparks deep frustration about losing community spaces to high rents and changing retail landscapes. Work-life balance issues compound the discontent, with many questioning whether 48-hour weekends are sufficient recovery time from Singapore's demanding work culture.",
+      "quote_count": 119,
+      "intensity_breakdown": {
+        "mild": 7,
+        "moderate": 17,
+        "strong": 95
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Positive sentiment clusters around quality of life and consumer experiences. Singaporeans express genuine satisfaction with product recommendations, from bedsheets to cookware, showing appreciation for quality purchases that enhance daily living. Nostalgic moments and small pleasures - like children's antics on the MRT or therapeutic milk-drinking - provide emotional uplift. Aviation enthusiasts find joy in Singapore's rich aerospace history, while practical discussions about divorce and parenting reflect a pragmatic optimism about navigating life's challenges.",
+      "quote_count": 38,
+      "intensity_breakdown": {
+        "mild": 10,
+        "moderate": 7,
+        "strong": 21
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 89,
+      "top_posts": [
+        {
+          "id": "t3_1sw76vm",
+          "title": "The end of an era.",
+          "url": "https://old.reddit.com/r/singapore/comments/1sw76vm/the_end_of_an_era/",
+          "score": 1557,
+          "num_comments": 149,
+          "created_at": "2026-04-26T21:12:23",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1sw76vm",
+            "post_title": "The end of an era.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the cyclical decline of departmental stores in Singapore, with worries about eventual closures leading to potential future resurgence. The speaker expresses a defined worry about this retail landscape trend without extreme urgency or panic.",
+              "quotes": [
+                {
+                  "quote": "Eventually it would whittle down to only one or two departmental stores in Singapore and then we might see a resurgence of departmental stores in a decade or two before the same cycle repeats itself",
+                  "score": 101
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple speakers express deep emotional attachment and sadness about departmental store closures, with nostalgic memories and clear frustration about losing cherished shopping experiences. The intensity is heightened by personal emotional investment and criticism of government rental policies, conveyed through phrases like 'really sad' and 'will be so bad for me.'",
+              "quotes": [
+                {
+                  "quote": "I know there are better deals online but I really like shopping in department stores. It's really sad to see for me the eventual closures of these stores.",
+                  "score": 600
+                },
+                {
+                  "quote": "Sadly the end of the era of department stores. Have so many childhood memories of following my mom around.",
+                  "score": 376
+                },
+                {
+                  "quote": "It will be nice but it will be so bad for me",
+                  "score": 128
+                },
+                {
+                  "quote": "lol the era ended long ago when G decided to let rent go out of whack for free for all.",
+                  "score": 20
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Brief expressions of gratitude and contentment regarding past shopping experiences and product quality are present but limited in scope. These positive sentiments are nostalgic rather than forward-looking, serving more as appreciation for the past than optimism about the future.",
+              "quotes": [
+                {
+                  "quote": "Goodbye Isetan Nex, thank you for all the good memories ♥️",
+                  "score": 22
+                },
+                {
+                  "quote": "I bought a wmf ss pan, worth every penny",
+                  "score": 9
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1swnx7r",
+          "title": "Defence experts warn of fitness tracker risks in Singapore military bases amid global Strava breaches",
+          "url": "https://old.reddit.com/r/singapore/comments/1swnx7r/defence_experts_warn_of_fitness_tracker_risks_in/",
+          "score": 230,
+          "num_comments": 42,
+          "created_at": "2026-04-27T08:09:25",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1swnx7r",
+            "post_title": "Defence experts warn of fitness tracker risks in Singapore military bases amid global Strava breaches",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concern about real-world security risks from fitness trackers, demonstrated through a concrete example of military vessel tracking via Strava data.",
+              "quotes": [
+                {
+                  "quote": "A dutch naval vessel was recently tracked by a postcard carrying such a tag.",
+                  "score": 70
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Clear exasperation with commenters dismissing legitimate security concerns by claiming military base locations are already public knowledge, expressed through emphatic sarcasm and direct language.",
+              "quotes": [
+                {
+                  "quote": "To everyone saying \"oH bUt we alR KnOw tHe loCation\" of SAF bases...can you please read the damn article?",
+                  "score": 71
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw4z57",
+          "title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+          "url": "https://old.reddit.com/r/singapore/comments/1sw4z57/pm_wong_calls_economic_partnership_a_key_pillar/",
+          "score": 190,
+          "num_comments": 57,
+          "created_at": "2026-04-26T19:24:44",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1sw4z57",
+            "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Commenters express concern about Japan's xenophobic policies and declining soft power influence in the region, with warnings against romanticizing Japanese culture without acknowledging underlying societal issues.",
+              "quotes": [
+                {
+                  "quote": "Japan is killing itself with its xenophobic laws recently (not that they were not xenophobic before, but now they actually push it into laws that make zero sense)",
+                  "score": 122
+                },
+                {
+                  "quote": "It's only soft power now is culture and tourism, but even that is competing with other East Asian neighbours.",
+                  "score": 61
+                },
+                {
+                  "quote": "I say this because it's too easy to fall in love with Japan due to the culture of anime while conveniently not looking at the situation in Japan itself.",
+                  "score": 61
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong criticism of Japan's current government policies, particularly regarding foreign business restrictions and labor market strategies, with emphatic language ('fucking itself over') and dismissive tone toward Japan as a cautionary example for Singapore.",
+              "quotes": [
+                {
+                  "quote": "lol except Japan is fucking itself over (with the current govt). Now foreign small business needs 300 k yen min (around $240k SGD) and limit more foreign manpower when the yen is dropping",
+                  "score": 61
+                },
+                {
+                  "quote": "Basically Japan now is a textbook example of what SG should not follow, with a educated workforce, stagnant workforce, low immigration, low birth rates (look at other Japan related subs for reference)",
+                  "score": 61
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw1w5h",
+          "title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+          "url": "https://old.reddit.com/r/singapore/comments/1sw1w5h/tengah_garden_residences_sells_99_of_863_units_at/",
+          "score": 186,
+          "num_comments": 95,
+          "created_at": "2026-04-26T16:28:18",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1sw1w5h",
+            "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about future resale viability, military noise from the airbase, and broader economic uncertainties are expressed with thoughtful questioning rather than panic. These are substantive worries about practical consequences rather than passing remarks.",
+              "quotes": [
+                {
+                  "quote": "The proof of the pudding will be when they are eligible to sell without SSD - who will buy over from them? I don't think it is in the mental schema for even the top 20% of Singaporean to go for a $2 million (but small) Tengah condo for own stay and pay it off fully.",
+                  "score": 25
+                },
+                {
+                  "quote": "I heard the military airbase is moving to Tengah. There'll be so much of loud jet noise. Apparently it doesn't concern buyers. 🤔",
+                  "score": 7
+                },
+                {
+                  "quote": "I thought people are getting retrenched and can't find jobs?",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation is evident through strong language (profanity, emojis, caps) and sharp criticism of the pricing and buyer behavior in what they perceive as an irrational market. The tone conveys outrage and disbelief at what buyers are willing to pay for a small condo in a problematic location.",
+              "quotes": [
+                {
+                  "quote": "Tengah is 2120 psf 😰",
+                  "score": 214
+                },
+                {
+                  "quote": "2m for a 1000 sqft condo in fucking Tengah sold out. What the fuck.",
+                  "score": 143
+                },
+                {
+                  "quote": "It is ok to have fools, but pls just don't be the greater fool.",
+                  "score": 69
+                },
+                {
+                  "quote": "Prepare for the sound of fighter jets on weekdays and if you lucky, weekends.",
+                  "score": 12
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1svy2bt",
+          "title": "River Wonders, Mandai. Look down; I got a feeling they didn't plan the name of a few of them through.",
+          "url": "https://old.reddit.com/r/singapore/comments/1svy2bt/river_wonders_mandai_look_down_i_got_a_feeling/",
+          "score": 172,
+          "num_comments": 19,
+          "created_at": "2026-04-26T12:57:34",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1svy2bt",
+            "post_title": "River Wonders, Mandai. Look down; I got a feeling they didn't plan the name of a few of them through.",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "The commenter expresses mild disappointment about not visiting River Wonders due to the hot weather and inability to touch exhibits, phrased as a casual regret rather than strong complaint.",
+              "quotes": [
+                {
+                  "quote": "Sadly I won't visit. Hot and ccannot touch.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw5m46",
+          "title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+          "url": "https://old.reddit.com/r/singapore/comments/1sw5m46/mall_mania_paragon_i12_katong_change_hands_white/",
+          "score": 102,
+          "num_comments": 26,
+          "created_at": "2026-04-26T19:58:19",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1sw5m46",
+            "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about market consolidation and the viability of retail businesses in malls, with worries about monopolistic ownership and the struggling retail landscape beyond food and service sectors.",
+              "quotes": [
+                {
+                  "quote": "Wonder if it's a good idea to let one entity own so many properties in Orchard Road",
+                  "score": 84
+                },
+                {
+                  "quote": "The only things making $ in malls are tuition centers, clinics & food courts. All else are f'ed.",
+                  "score": 16
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express clear exasperation with rising rents, retail closures, oversaturation of malls, and inefficient use of space, with some advocating for demolition of underperforming properties.",
+              "quotes": [
+                {
+                  "quote": "Rent goes up, shops close down, new China store opens.",
+                  "score": 64
+                },
+                {
+                  "quote": "Honestly too many malls….",
+                  "score": 1
+                },
+                {
+                  "quote": "Some malls like Grantral Mall clementi, 321 Mall, bukit timah plaza, all beauty world malls, greenridge mall etc... needs to be demolished... waste of space",
+                  "score": -27
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw4vtk",
+          "title": "'Appropriate action' taken against driver of Singapore-registered car pumping Ron95 in Petaling Jaya: Malaysia ministry",
+          "url": "https://old.reddit.com/r/singapore/comments/1sw4vtk/appropriate_action_taken_against_driver_of/",
+          "score": 80,
+          "num_comments": 19,
+          "created_at": "2026-04-26T19:19:47",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1sw4vtk",
+            "post_title": "'Appropriate action' taken against driver of Singapore-registered car pumping Ron95 in Petaling Jaya: Malaysia ministry",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express intense frustration and shame toward the driver for ignoring repeated warnings and risking consequences, with strong calls for public accountability through name-and-shaming.",
+              "quotes": [
+                {
+                  "quote": "Having so many notice/reports about foreigners not being able to pump 95 yet you continue to take the risk. So be it.",
+                  "score": 7
+                },
+                {
+                  "quote": "Name and shame. Xia Suay max.",
+                  "score": 6
+                },
+                {
+                  "quote": "Sia suay",
+                  "score": -3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1svxzeg",
+          "title": "Singapore Airlines Concorde: The full story",
+          "url": "https://old.reddit.com/r/singapore/comments/1svxzeg/singapore_airlines_concorde_the_full_story/",
+          "score": 69,
+          "num_comments": 6,
+          "created_at": "2026-04-26T12:53:03",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1svxzeg",
+            "post_title": "Singapore Airlines Concorde: The full story",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Commenters express genuine interest and fascination with the Concorde story, enhanced by nostalgic memories of seeing it at Paya Lebar airport. The tone is appreciative and lighthearted, reflecting a positive engagement with the historical narrative.",
+              "quotes": [
+                {
+                  "quote": "but its quite cool to read about it, its fascinating just like the concorde itself.",
+                  "score": 11
+                },
+                {
+                  "quote": "I actually saw it at Paya Lebar airport back in the day! The other half is painted British airways, go figure! 😂",
+                  "score": 8
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1swqmwn",
+          "title": "BERNAMA - Johor Marine Police Foils Attempt To Smuggle Nearly 700,000 Lobster Fry To Singapore",
+          "url": "https://old.reddit.com/r/singapore/comments/1swqmwn/bernama_johor_marine_police_foils_attempt_to/",
+          "score": 61,
+          "num_comments": 17,
+          "created_at": "2026-04-27T10:16:21",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1swqmwn",
+            "post_title": "BERNAMA - Johor Marine Police Foils Attempt To Smuggle Nearly 700,000 Lobster Fry To Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "User experiences a minor technical inconvenience with opening links directly in the Reddit app, expressed as a casual complaint rather than strong annoyance.",
+              "quotes": [
+                {
+                  "quote": "Apparently you can't open the link directly in the reddit app. Or at least I can't.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1swkygr",
+          "title": "r/singapore random discussion and small questions thread for April 27, 2026",
+          "url": "https://old.reddit.com/r/singapore/comments/1swkygr/rsingapore_random_discussion_and_small_questions/",
+          "score": 5,
+          "num_comments": 117,
+          "created_at": "2026-04-27T06:00:39",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1swkygr",
+            "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A straightforward advisory about natural hazards with no personal expressions of anxiety or concern from the commenter.",
+              "quotes": [
+                {
+                  "quote": "JMA is urging residents to exercise caution and avoid potential mudslides in the region.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple complaints ranging from Monday blues expressed with extended emphatic characters, illness discomfort, heat complaints, and unmet social needs, reflecting a mix of genuine annoyance and playful venting typical of Singaporean online discourse.",
+              "quotes": [
+                {
+                  "quote": "monday blueessssssssssssssssssssssss take me homeeeeeeeeeeeeeeeeeeeeee\n\nto the placeeeeeeeeeeeeeeeeeee i belonggggggggggggggggggggggg\n\nmy bedroommmmmmmmmmmmmmmmmmm",
+                  "score": 7
+                },
+                {
+                  "quote": "Down with a stupid flu 😭 forgot how irritating congestion, runny nose and cough feels",
+                  "score": 5
+                },
+                {
+                  "quote": "I swear my home felt like a sauna this morning. Even with blackout blinds yikes",
+                  "score": 4
+                },
+                {
+                  "quote": "I hate iOS with a passion (except apple pay but keeping iOS on an ipad for that is silly)",
+                  "score": 2
+                },
+                {
+                  "quote": "Drank too much milo & got a stitch",
+                  "score": 1
+                },
+                {
+                  "quote": "Want to eat dim sum but no one to go with, why can't restaurants be more thoughtful for single diners?",
+                  "score": 1
+                },
+                {
+                  "quote": "saw an accident this morning, feeling sad :(",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, light-hearted observation about finding comfort in an everyday activity with minimal emotional emphasis.",
+              "quotes": [
+                {
+                  "quote": "drinking milk is actually strangely therapeutic LOL",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 154,
+      "top_posts": [
+        {
+          "id": "t3_1swfgzv",
+          "title": "what was your worst date ever in sg?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1swfgzv/what_was_your_worst_date_ever_in_sg/",
+          "score": 723,
+          "num_comments": 283,
+          "created_at": "2026-04-27T02:30:03",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1swfgzv",
+            "post_title": "what was your worst date ever in sg?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple vivid accounts of dating disappointments including catfishing, poor behavior, lack of engagement, and disrespect, expressed with clear disbelief and resignation. The repeated pattern of unpleasant experiences and detailed descriptions (staring, chewing with mouth open, complaining, ignoring) reflects intense frustration with dating encounters.",
+              "quotes": [
+                {
+                  "quote": "Mine turned up with hickeys that she tried to hide with a concealer",
+                  "score": 284
+                },
+                {
+                  "quote": "I just looked at her in disbelief, so my mind switched off and turned it into a simple hangout since I was already out.",
+                  "score": 232
+                },
+                {
+                  "quote": "There was barely any conversation and she was just playing w her phone most of the time. I ended up getting the bill and when we were heading home she still asked me to book grab and drop her off at her place first.",
+                  "score": 220
+                },
+                {
+                  "quote": "For me, it was getting catfished by a lady who was twice the horizontal size of my frame.",
+                  "score": 219
+                },
+                {
+                  "quote": "Crush stared into my soul. Tables beside laughed.",
+                  "score": 201
+                },
+                {
+                  "quote": "First date. Guy spent the entire dinner staring at me. Like, when he wasn't eating, he just stared at my face. I tried to make conversation and just got very short replies.",
+                  "score": 91
+                },
+                {
+                  "quote": "He kept talking while chewing the burger and I can never forget the image.",
+                  "score": 91
+                },
+                {
+                  "quote": "he spent the entire time complaining that it was not nice. Like literally it was the only thing he talked about, besides commenting that I need to exercise more (lol).",
+                  "score": 91
+                },
+                {
+                  "quote": "Throughout the date, he only talked about himself and his time in Australia. Being a good listener, I entertain him. Waiting for my time to share my life, he didn't ask a single question about me.",
+                  "score": 45
+                },
+                {
+                  "quote": "She was basically giving 1 sentence replies with no intention to knowing me and then made snide comments on my opinions.",
+                  "score": 16
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "A positive reflection on providing comfort and support to a stressed fiancée during a difficult moment, showing genuine care despite the awkward public situation. The tone suggests mild satisfaction in being there for someone important, though tempered by awareness of external judgment.",
+              "quotes": [
+                {
+                  "quote": "Went on a date with my fiancée who was stressed out at work. Brought her to fav which is yakiniku and she started crying in front of everyone when recounting her stress. I did my best to comfort but by then everyone gave me a side eye.",
+                  "score": 75
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1svykf9",
+          "title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1svykf9/how_can_we_work_monfri_is_48hrsweekends_honestly/",
+          "score": 313,
+          "num_comments": 113,
+          "created_at": "2026-04-26T13:23:28",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1svykf9",
+            "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about burnout and unsustainable work-life balance, with hopes that government policy shifts and international trends toward shorter work weeks will eventually improve conditions in Singapore.",
+              "quotes": [
+                {
+                  "quote": "Hoping our government will look at 4 days work week in due time. The more countries shift to this, it will make it easier. Especially if the big powers do so.",
+                  "score": 7
+                },
+                {
+                  "quote": "You don't. In every city thats the way. You work until you burn out your lifeforce then retreat to the suburbs. Except that means jb for us.",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration with Singapore's work culture is evident, with workers expressing anger over insufficient recovery time, inadequate vacation days, and feeling trapped in a system that treats weekends as insufficient rest and work as consuming most of life.",
+              "quotes": [
+                {
+                  "quote": "for parents weekend isn't rest time. Just spend life as if permanently jet lagged",
+                  "score": 401
+                },
+                {
+                  "quote": "The secret is you don't recover",
+                  "score": 81
+                },
+                {
+                  "quote": "Wait till you have kids man… Honestly at this point it becomes a rhythm, my lunch time now becomes my only me time and I've accepted it 😔",
+                  "score": 42
+                },
+                {
+                  "quote": "The older I get, the more I feel frustrated with the system. It honestly feels so insulting to me that out of 52 weeks a year, only 2 are mine. Wtf?",
+                  "score": 11
+                },
+                {
+                  "quote": "I used to roll my eyes at antiwork posts because of how over the top some of them are. I still do, but the core message of redundant, stupid workplace practices and customs just pisses me off. Why is 14 days vacation the standard? Why, if I have fuck all to do that work day, must I show up and play with my fingers until 6PM?",
+                  "score": 11
+                },
+                {
+                  "quote": "Cries in six day work week",
+                  "score": 15
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A cautious, tentative hope that Gen Z's resistance to workaholic culture may gradually shift workplace norms in Singapore.",
+              "quotes": [
+                {
+                  "quote": "Gen Zs are also making the workaholic culture fade in sg. So let's just hope",
+                  "score": 7
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw1x5l",
+          "title": "What’s one rule of living here that nobody writes down but everybody knows?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1sw1x5l/whats_one_rule_of_living_here_that_nobody_writes/",
+          "score": 97,
+          "num_comments": 74,
+          "created_at": "2026-04-26T16:29:54",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1sw1x5l",
+            "post_title": "What’s one rule of living here that nobody writes down but everybody knows?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Mild concern about the gradual erosion of a social norm (keeping left on escalators), expressed as a passing observation rather than acute anxiety.",
+              "quotes": [
+                {
+                  "quote": "I feel like this unspoken rule has been slowly dying out lately but keeping left.",
+                  "score": 10
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear moral disapproval of people who violate unspoken social rules, expressed with direct judgment typical of Singaporean social enforcement.",
+              "quotes": [
+                {
+                  "quote": "If you do that, you are a dick.",
+                  "score": 140
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual positive sentiment about a beloved local food vendor, expressed as a lighthearted appreciation rather than passionate enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Milo truck best milo",
+                  "score": 18
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1svwhld",
+          "title": "Recommend me the best bedsheets in Singapore?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1svwhld/recommend_me_the_best_bedsheets_in_singapore/",
+          "score": 83,
+          "num_comments": 93,
+          "created_at": "2026-04-26T11:35:41",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1svwhld",
+            "post_title": "Recommend me the best bedsheets in Singapore?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Genuine concern about misleading thread count marketing and poor durability of budget luxury sheets, backed by specific product knowledge about multi-ply deception.",
+              "quotes": [
+                {
+                  "quote": "Don't trust the quality of thread counts listed as more than 500-600. Those 1000 thread count \"luxury\" sheets are usually made from lower-quality, thinner threads that are twisted together (multi-ply) to artificially inflate the numbers. They often result in denser, hotter and less durable sheets overall.",
+                  "score": 6
+                },
+                {
+                  "quote": "I guarantee they won't last.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A passing practical complaint about dryer damage to specific fabric materials, mentioned without emphasis or elaboration.",
+              "quotes": [
+                {
+                  "quote": "Dryer will kill your tencel material though.",
+                  "score": 10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic praise for multiple bedsheet brands with extensive personal experience, emphasizing comfort improvements over time and long-term durability spanning years to a decade.",
+              "quotes": [
+                {
+                  "quote": "I've been using my Brooklinen sheets and duvet covers for 3+ years. They are great.",
+                  "score": 9
+                },
+                {
+                  "quote": "Recently got the cooling one from Muji, its better than my Hooga and Bedtribe one imo",
+                  "score": 7
+                },
+                {
+                  "quote": "after it breaks in with regular use, it is the smoothest and most comfortable sheets I've ever slept on. No fight.",
+                  "score": 6
+                },
+                {
+                  "quote": "I found Hooga's tencel ones are actually really soft and comfy.",
+                  "score": 3
+                },
+                {
+                  "quote": "The more we wash, the softer and smoother it becomes. It's amazing.",
+                  "score": 4
+                },
+                {
+                  "quote": "Been using it at least 10 years.",
+                  "score": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw2qd7",
+          "title": "Road naming in new towns like Punggol, Sengkang",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1sw2qd7/road_naming_in_new_towns_like_punggol_sengkang/",
+          "score": 66,
+          "num_comments": 46,
+          "created_at": "2026-04-26T17:17:47",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1sw2qd7",
+            "post_title": "Road naming in new towns like Punggol, Sengkang",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Residents express clear frustration with the confusing and arbitrary road naming system in newer towns, finding the alternating pattern of drives and roads difficult to memorize and lacking meaningful connection to the community.",
+              "quotes": [
+                {
+                  "quote": "As a sengkanger for 28 years, im also puzzled with road names in sengkang and punggol because theres no way or clue i can have to memorise the formats.",
+                  "score": 48
+                },
+                {
+                  "quote": "Its a drive, road, drive, road thing and you dont know which is where",
+                  "score": 48
+                },
+                {
+                  "quote": "Personally, I prefer roads named after people who sacrificed for or invested in the community; or historical events; even a local fruit or food... things truly meaningful, rather than manufacturing a cute, randomly vanilla name.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A light-hearted, tongue-in-cheek comment expressing mild satisfaction about proposing a solution to the road naming puzzle, with playful tone rather than genuine deep optimism.",
+              "quotes": [
+                {
+                  "quote": "I think National heritage board ought to immortalize my quote forever. I solved the mystery of road names for the nation.",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw388t",
+          "title": "What are the views on divorce in Singapore?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1sw388t/what_are_the_views_on_divorce_in_singapore/",
+          "score": 52,
+          "num_comments": 80,
+          "created_at": "2026-04-26T17:47:23",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1sw388t",
+            "post_title": "What are the views on divorce in Singapore?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is genuine concern about divorce's psychological impact on individuals and worry about parental disapproval, though the latter is expressed more as quiet concern than open conflict. The emotional weight is acknowledged but not presented as panic or extreme anxiety.",
+              "quotes": [
+                {
+                  "quote": "I think there's still a huge lack of understanding of what divorce does to a person. The impact can be really heavy.",
+                  "score": 34
+                },
+                {
+                  "quote": "My parents are in their late 60s. I think they would not be too happy if I got divorced, but would not show it openly to me.",
+                  "score": 42
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Frustrations are mainly practical (high legal costs) and retrospective personal regret, expressed matter-of-factly without strong emotional language or venting. These are complaints rather than outrage or deep anger.",
+              "quotes": [
+                {
+                  "quote": "She did say the only thing she regretted was having to pay 3-4K for lawyer fees.",
+                  "score": 42
+                },
+                {
+                  "quote": "i wished my parents divorced tbh",
+                  "score": 38
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "There is widespread and emphatic positivity about divorce as a path to happiness, with multiple anecdotes of friends thriving post-divorce and repeated affirmations that personal wellbeing matters more than stigma. The sentiment is enthusiastic, supportive, and unapologetic.",
+              "quotes": [
+                {
+                  "quote": "Better to be unhappy for a while than for a long time",
+                  "score": 136
+                },
+                {
+                  "quote": "As siblings, we were supportive of the divorce cos very evidently my SIL was behaving like a b**** but it definitely hit my parents the hardest. Several friends have also gone through divorce but seemed to have found greener pastures and am happy for them.",
+                  "score": 88
+                },
+                {
+                  "quote": "You do what makes you happy!",
+                  "score": 88
+                },
+                {
+                  "quote": "Personally, I never got the stigma around it. I think it's better to be divorced than unhappily and sadly married. It's good to lead a life that is aligned with how you really feel inside.",
+                  "score": 42
+                },
+                {
+                  "quote": "I have a friend who got divorced and is much happier now.",
+                  "score": 42
+                },
+                {
+                  "quote": "I can tell you for sure that your parents would prefer you to be happy, and have a happy life, than be sad/depressed.",
+                  "score": 32
+                },
+                {
+                  "quote": "Out of all the people I know who are divorced, there isn't one couple where that was surprising.",
+                  "score": 8
+                },
+                {
+                  "quote": "It's normal to me. I've friends who divorced and they are happier for it.",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw5zkb",
+          "title": "Emergency dental services in Singapore",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1sw5zkb/emergency_dental_services_in_singapore/",
+          "score": 50,
+          "num_comments": 30,
+          "created_at": "2026-04-26T20:16:13",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1sw5zkb",
+            "post_title": "Emergency dental services in Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the potential severity of dental issues (root canals) and anxiety about the high costs involved ($1-2k), reflecting real worry about financial burden and treatment complexity.",
+              "quotes": [
+                {
+                  "quote": "Expect a root canal or more.",
+                  "score": 19
+                },
+                {
+                  "quote": "the teeth ended up having to do root canal.",
+                  "score": 3
+                },
+                {
+                  "quote": "Bill is quite hefty tot, about $1 or $2k ish.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration is evident regarding Singapore's lack of 24-hour emergency dental services, long waiting periods (2-3 weeks), inability to accommodate walk-ins, and poor quality experiences, showing emphatic dissatisfaction with the healthcare system's accessibility.",
+              "quotes": [
+                {
+                  "quote": "Dental clinics are not 24 hours.",
+                  "score": 66
+                },
+                {
+                  "quote": "I don't think got any dental clinic open this late, especially on a Sunday.",
+                  "score": 6
+                },
+                {
+                  "quote": "most neighbourhood dentist can't accommodate walk-ins.",
+                  "score": 1
+                },
+                {
+                  "quote": "the neighbourhood dentists gave me an appointment 2-3 weeks later .",
+                  "score": 1
+                },
+                {
+                  "quote": "they were bad dentist",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual, passing expression of goodwill with minimal emotional intensity, offering gentle encouragement without deeper conviction or enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "hope you will be fine!",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1swdfgz",
+          "title": "Improving my communication skills in Singapore",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1swdfgz/improving_my_communication_skills_in_singapore/",
+          "score": 29,
+          "num_comments": 17,
+          "created_at": "2026-04-27T01:15:05",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1swdfgz",
+            "post_title": "Improving my communication skills in Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about interpersonal trustworthiness in Singapore, with wariness about people's true intentions and reliability in social and professional settings.",
+              "quotes": [
+                {
+                  "quote": "Be careful what you talk as many people are snake in real life",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The person experiences noticeable frustration with social awkwardness, difficulty maintaining conversations, and disconnect from local colleagues' interests, reflecting genuine struggles with workplace communication and fitting in.",
+              "quotes": [
+                {
+                  "quote": "There has been many instances where I just awkwardly stand without saying anything and I hate it.",
+                  "score": 0
+                },
+                {
+                  "quote": "My challenge is different. I cannot hold long conversations with my teammates due to mismatching interest.",
+                  "score": 1
+                },
+                {
+                  "quote": "Not sure why my locals colleagues can keep harping about PAP, condo, BTO, tuition cost for their kids everyday. At the end, I just 'How are you' and stop from there",
+                  "score": 1
+                },
+                {
+                  "quote": "please let me know i need to improve too !",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1swa4hm",
+          "title": "why doesn't singapore have taiwanese supermarket or minimart?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1swa4hm/why_doesnt_singapore_have_taiwanese_supermarket/",
+          "score": 29,
+          "num_comments": 43,
+          "created_at": "2026-04-26T23:11:34",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1swa4hm",
+            "post_title": "why doesn't singapore have taiwanese supermarket or minimart?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about political sensitivities around claiming Taiwanese identity in Singapore, reflecting awareness of geopolitical tensions with China.",
+              "quotes": [
+                {
+                  "quote": "Cause if they claim the Taiwanese identity some country with red flag and stars will come and make noise",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses noticeable disappointment about the lack of authentic Taiwanese restaurants and food experiences compared to Japanese and Korean alternatives, with a casual observation about unsuccessful Taiwanese sweets stalls.",
+              "quotes": [
+                {
+                  "quote": "the bigger issue for me is that there are no enough authentic Taiwanese restaurants in Singapore. There are some that come close, but nothing tastes the same, which is a real shame considering that Japanese and Korean food here are much closer (not the same) to their counterparts in Japan and Korea (but more expensive of course).",
+                  "score": 9
+                },
+                {
+                  "quote": "always see those taiwanese sweets stalls no business",
+                  "score": 12
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "There is a casual, hopeful expectation that increased Taiwanese migration may eventually lead to Taiwanese supermarkets or restaurants opening in Singapore.",
+              "quotes": [
+                {
+                  "quote": "It is growing since many young one come to work in recent years. So we may see one soon.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1svzrw9",
+          "title": "Travelling and underestimated how many nappies we need. Any advice on brands?",
+          "url": "https://old.reddit.com/r/askSingapore/comments/1svzrw9/travelling_and_underestimated_how_many_nappies_we/",
+          "score": 20,
+          "num_comments": 23,
+          "created_at": "2026-04-26T14:28:29",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1svzrw9",
+            "post_title": "Travelling and underestimated how many nappies we need. Any advice on brands?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The poster expresses genuine excitement about visiting Singapore with their toddler, shown through the heart emoji and positive language. This indicates clear enthusiasm tempered by the practical concern about nappies rather than passionate exuberance.",
+              "quotes": [
+                {
+                  "quote": "We are excited to visit Singapore with our toddler. ❤️",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 140,
+      "top_posts": [
+        {
+          "id": "t3_1svya0w",
+          "title": "This scene somehow brightened and giggled up my MRT ride.",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1svya0w/this_scene_somehow_brightened_and_giggled_up_my/",
+          "score": 1263,
+          "num_comments": 153,
+          "created_at": "2026-04-26T13:08:20",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1svya0w",
+            "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a nostalgic concern about lost carefree moments from the past and awareness that regulatory restrictions now prevent such spontaneous fun behavior. The sentiment reflects a bittersweet acknowledgment that things have changed and won't return to how they were.",
+              "quotes": [
+                {
+                  "quote": "Those were the days that we all missed and it will never come back again.",
+                  "score": 242
+                },
+                {
+                  "quote": "Later got new sign that says not allowed to 5man sit on each other like that.",
+                  "score": 57
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "The overwhelming response is joyful and celebratory, with multiple expressions of laughter (LMAO, 😭 emojis), appreciation for the moment, and encouragement to enjoy life's simple pleasures. The tone is decidedly uplifting and lighthearted about witnessing this amusing scene.",
+              "quotes": [
+                {
+                  "quote": "she disagrees 😭",
+                  "score": 928
+                },
+                {
+                  "quote": "Lmao i sat opposite from them 😭😭😭",
+                  "score": 473
+                },
+                {
+                  "quote": "Let them have fun.",
+                  "score": 93
+                },
+                {
+                  "quote": "Good job, OP. LMFAO",
+                  "score": 64
+                },
+                {
+                  "quote": "Good times",
+                  "score": 13
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw2fo6",
+          "title": "Looking for a photographer",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1sw2fo6/looking_for_a_photographer/",
+          "score": 111,
+          "num_comments": 23,
+          "created_at": "2026-04-26T17:00:19",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1sw2fo6",
+            "post_title": "Looking for a photographer",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a noticeable concern about potential legal repercussions (POFMA) for speaking openly, reflecting anxiety about freedom of expression in Singapore's regulatory environment.",
+              "quotes": [
+                {
+                  "quote": "Later POFMA you then you know",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration is expressed toward government policies, perceived ineffectiveness, and what is seen as pandering behavior, combined with dismissive attitude toward foreign individuals ('Angmoh snob').",
+              "quotes": [
+                {
+                  "quote": "Fake post, why should they bother ? all they need are CDC (with your tax money) and more new citizens, the next election 69.9%\n\nThe more they whack sporens, the higher the votes.",
+                  "score": 0
+                },
+                {
+                  "quote": "Angmoh snob",
+                  "score": -5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Light-hearted amusement and mild positivity expressed through casual laughter and emoji, showing casual humor rather than genuine optimism.",
+              "quotes": [
+                {
+                  "quote": "lol 🤣 love this",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1sw3vjb",
+          "title": "Why are we so gloomy as a nation in SG?",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1sw3vjb/why_are_we_so_gloomy_as_a_nation_in_sg/",
+          "score": 69,
+          "num_comments": 60,
+          "created_at": "2026-04-26T18:24:51",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1sw3vjb",
+            "post_title": "Why are we so gloomy as a nation in SG?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about systemic issues that perpetuate gloominess, particularly the inescapable rat race and lack of natural spaces for respite in Singapore's dense urban environment. The sentiment reflects worry about the likelihood of meaningful change despite awareness of the problem.",
+              "quotes": [
+                {
+                  "quote": "In order to achieve the happy state you want, fundamental societal attitudes must change. The rat race must end. But it's not gonna happen. Yet.",
+                  "score": 22
+                },
+                {
+                  "quote": "That's what happens when you're in a small, crowded island city-state with a hectic work culture and very little nature and natural spaces to unwind in.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration permeates the discussion, with emphatic complaints about relentless work culture, inadequate compensation, transactional societal values, and lack of empathy in Singapore's pragmatic society. The repetitive, resigned tone (\"grind,\" \"repeat\") and moral critiques convey genuine outrage and exhaustion with systemic pressures.",
+              "quotes": [
+                {
+                  "quote": "We are put into a rat race since primary school my friend.",
+                  "score": 41
+                },
+                {
+                  "quote": "We are severely underpaid as a country just saying.",
+                  "score": 7
+                },
+                {
+                  "quote": "go to work, work, go home from work, do chores, sleep, go back to work again\n\nweekend too crowded and hot to do things, do nothing at home, repeat grind on monday",
+                  "score": 4
+                },
+                {
+                  "quote": "I generally feel that there is a lack of empathy in Singapore. We are very focused on practicality, efficiency and keeping peace and stability.",
+                  "score": 2
+                },
+                {
+                  "quote": "cuz everything is transactional, even marriages",
+                  "score": 10
+                },
+                {
+                  "quote": "Government has programmed a spiritual lie into Singaporeans - that money is the most important thing. Lol. To souls, money is literally like water.",
+                  "score": 2
+                },
+                {
+                  "quote": "It's mostly a result of the cynicism of SG culture.",
+                  "score": 22
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A brief, tentative glimmer of hope acknowledges that kind people and acts of kindness exist in Singapore, though the caveat \"just need to find the right crowd\" suggests this positive sentiment is guarded and requires active effort to discover.",
+              "quotes": [
+                {
+                  "quote": "But still there are nice people and works of kindness just need to find the right crowd.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1svyqlo",
+          "title": "Journey to Changi (Prison) Ep. 3",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1svyqlo/journey_to_changi_prison_ep_3/",
+          "score": 54,
+          "num_comments": 14,
+          "created_at": "2026-04-26T13:32:28",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1svyqlo",
+            "post_title": "Journey to Changi (Prison) Ep. 3",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about censorship and government suppression of political satire or parodies, particularly involving senior political figures, reflecting anxiety about freedom of expression in Singapore.",
+              "quotes": [
+                {
+                  "quote": "If someone do a parody of GCT and LHL, straightaway they get censored and warned.",
+                  "score": 16
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses noticeable annoyance about a technical issue (RAM usage), using casual profanity to emphasize their complaint in typical online fashion.",
+              "quotes": [
+                {
+                  "quote": "Ts is where my fucking RAM is going bruhh",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "There is enthusiastic enjoyment and excitement about the series, with strong positive language (caps, laughter) and hopeful expectations for its mainstream success on Netflix.",
+              "quotes": [
+                {
+                  "quote": "My favourite series now HAHA. Hope this gets picked up by Netflix.",
+                  "score": 6
+                },
+                {
+                  "quote": "Lmao I love this series. Keep it coming please",
+                  "score": -2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1swqvqn",
+          "title": "ooops. bamboo poles still number 1",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1swqvqn/ooops_bamboo_poles_still_number_1/",
+          "score": 52,
+          "num_comments": 10,
+          "created_at": "2026-04-27T10:28:03",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1swqvqn",
+            "post_title": "ooops. bamboo poles still number 1",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a genuine concern about the safety risks of bamboo poles, specifically the danger of them breaking and falling. The person takes this hazard seriously enough to consider it a meaningful trade-off when evaluating alternatives.",
+              "quotes": [
+                {
+                  "quote": "better to bend and hold than break and potentially become death from above",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual complaint about the practical limitations of bamboo poles regarding clothing storage capacity. The expression is brief and matter-of-fact rather than emphatic or passionate.",
+              "quotes": [
+                {
+                  "quote": "Always hated this. Can't put a lot clothes also",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Strong confidence in the reliability and longevity of bamboo poles, supported by personal experience and a pragmatic philosophy that age-old solutions remain superior. The sentiment reflects appreciation for proven, durable products over newer alternatives.",
+              "quotes": [
+                {
+                  "quote": "Never doubt the bamboo pole.",
+                  "score": 35
+                },
+                {
+                  "quote": "The bamboo poles in my house is more than 15 years old.",
+                  "score": 35
+                },
+                {
+                  "quote": "Just because something is newer doesn't mean it's better.",
+                  "score": 9
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1swb2fi",
+          "title": "Is it hot tonight? April 26",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1swb2fi/is_it_hot_tonight_april_26/",
+          "score": 49,
+          "num_comments": 22,
+          "created_at": "2026-04-26T23:47:35",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1swb2fi",
+            "post_title": "Is it hot tonight? April 26",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about worsening heat conditions with El Niño approaching, showing definite worry about future climate impacts.",
+              "quotes": [
+                {
+                  "quote": "It will get worse with El Niño coming in the next few months .",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense and widespread frustration about persistent extreme heat and humidity, with emphatic language (repetition, caps, exclamation marks) and multiple complaints about nightly discomfort affecting daily life and sleep quality.",
+              "quotes": [
+                {
+                  "quote": "Yes extremely hot and humid",
+                  "score": 53
+                },
+                {
+                  "quote": "Extremely...night time temperatures around 28-30 degrees is not good. It's a big contrast to the comfortable 25-ish degrees earlier this year.",
+                  "score": 5
+                },
+                {
+                  "quote": "Every night!",
+                  "score": 4
+                },
+                {
+                  "quote": "Its always hot",
+                  "score": 2
+                },
+                {
+                  "quote": "Hot every night",
+                  "score": 2
+                },
+                {
+                  "quote": "Very very hot",
+                  "score": 1
+                },
+                {
+                  "quote": "Yes, even just taking my own sweet time to do light chores around the house also make me feel like I'm going to pre-sweat.",
+                  "score": 1
+                },
+                {
+                  "quote": "So hot 😓",
+                  "score": 1
+                },
+                {
+                  "quote": "It gotten so bad and we have to switch on the living room aircon. I've bathed 4 times today and I didn't went out.",
+                  "score": -1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1svyvoc",
+          "title": "SIA deepens role at Air India amid record losses",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1svyvoc/sia_deepens_role_at_air_india_amid_record_losses/",
+          "score": 38,
+          "num_comments": 41,
+          "created_at": "2026-04-26T13:40:07",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1svyvoc",
+            "post_title": "SIA deepens role at Air India amid record losses",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about SIA's investment being exploited through unfair practices, cultural incompatibility dragging down the venture, and Singapore losing control or influence in the partnership. The concern extends to systemic risks reminiscent of past corporate dealings in India.",
+              "quotes": [
+                {
+                  "quote": "even if SQ eventually manage to turn Air India around, their courts can suka suka make them pay fees just to suck more money like Singtel and Bharti Airtel....it's a lose lose situation",
+                  "score": 24
+                },
+                {
+                  "quote": "I don't think we will see Singaporeans take up key positions in Air India. On the other hand I won't be surprised to see the reverse happen.",
+                  "score": 11
+                },
+                {
+                  "quote": "No amount of money will help when the problem is cultural. Its just throwing money into a blackhole.",
+                  "score": 8
+                },
+                {
+                  "quote": "Why does it feel like we are ceding more to them.",
+                  "score": 7
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation over SIA's continued financial commitment to a failing airline despite mounting losses, with sharp criticism of management's decision-making and concerns about Singapore's reputation being tarnished by association. The tone reflects outrage at what many perceive as poor strategic judgment and wasteful spending.",
+              "quotes": [
+                {
+                  "quote": "Throwing good money after bad",
+                  "score": 57
+                },
+                {
+                  "quote": "SIA suffering from sunk cost fallacy",
+                  "score": 44
+                },
+                {
+                  "quote": "Hahahaha knew it. Just double down on the loss.",
+                  "score": 34
+                },
+                {
+                  "quote": "Embarrassing association for SQ.",
+                  "score": 13
+                },
+                {
+                  "quote": "Stupid. Committing so much for the 25% stake. Tata group laughing their ways to the bank",
+                  "score": 8
+                },
+                {
+                  "quote": "Extremely disappointed in SQ management for dragging SG branding through this literal shit airline.",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1swavuj",
+          "title": "AI Slop of Shopee.. what's the worst you've seen?",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1swavuj/ai_slop_of_shopee_whats_the_worst_youve_seen/",
+          "score": 33,
+          "num_comments": 16,
+          "created_at": "2026-04-26T23:40:36",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1swavuj",
+            "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about AI replacing human jobs in media and content creation, with underlying anxiety about being treated as profit-maximization targets rather than valued customers.",
+              "quotes": [
+                {
+                  "quote": "i know of people who were once working at SEA's in-house media team but got laid off. i guess the higher ups think this AI content can replace those humans.",
+                  "score": 8
+                },
+                {
+                  "quote": "Now, it's time for the consumers to be profit-maximised, let's see what awaits.",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users express intense frustration with Shopee's inability to remove AI-generated content, suppression of authentic seller videos, and poor quality AI implementations that undermine both seller and buyer experiences, using colloquial expressions like 'buay tahan' (can't stand) to emphasize their exasperation.",
+              "quotes": [
+                {
+                  "quote": "Shopee does not let us delete it, remove it, whatever. Even when we try to upload our own videos (non-AI, actual useful videos), Shopee pushes it down beneath the AI slops.",
+                  "score": 28
+                },
+                {
+                  "quote": "So many of my products are invaded with AI slop that does not even feature my products and yet Shopee refuses to remove. It's nuts.",
+                  "score": 28
+                },
+                {
+                  "quote": "Buyers hate it. Sellers hate it.",
+                  "score": 28
+                },
+                {
+                  "quote": "Playdoh. Buay tahan man.",
+                  "score": 13
+                },
+                {
+                  "quote": "can't stand their wrong usage of *lah*",
+                  "score": 6
+                },
+                {
+                  "quote": "More like profit maxxing-misation has invaded shopee. From doubling seller fees, slashing parcel workers wage, to collection points.",
+                  "score": 6
+                },
+                {
+                  "quote": "I can accept they want 24/7 sales efficiency with AI streamers, but please stop the cringey intentional Singlish.",
+                  "score": 4
+                },
+                {
+                  "quote": "I see AI videos selling items... i immediately linked it fake products... Skip.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1svycls",
+          "title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1svycls/pm_wong_sends_japan_pm_takaichi_congratulatory/",
+          "score": 12,
+          "num_comments": 18,
+          "created_at": "2026-04-26T13:12:09",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1svycls",
+            "post_title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a noticeable concern about Singapore aligning itself with the wrong geopolitical powers, reflecting anxiety about the country's diplomatic positioning and strategic choices.",
+              "quotes": [
+                {
+                  "quote": "sucking up to the wrong powers",
+                  "score": -8
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express clear frustration about Singapore's diplomatic deference to Japan and criticism of Japan's actions like visiting Yasukuni Shrine, viewing it as pandering to a former colonial power with questionable behavior.",
+              "quotes": [
+                {
+                  "quote": "paying tribute to our former colonial masters~",
+                  "score": -4
+                },
+                {
+                  "quote": "Just as she visited Yasukuni Jinja.... bad timing.",
+                  "score": -4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1svwtnb",
+          "title": "Where are the worst carparks in Singapore?",
+          "url": "https://old.reddit.com/r/SingaporeRaw/comments/1svwtnb/where_are_the_worst_carparks_in_singapore/",
+          "score": 8,
+          "num_comments": 33,
+          "created_at": "2026-04-26T11:52:58",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1svwtnb",
+            "post_title": "Where are the worst carparks in Singapore?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express genuine concern about unsafe driving situations in carparks, including anxiety about vehicles losing control and being trapped with limited escape options.",
+              "quotes": [
+                {
+                  "quote": "a van round the corner from me is having problem going up and i should stay back.",
+                  "score": 35
+                },
+                {
+                  "quote": "I had already reversed all the way to the barrier and can't go any further back.",
+                  "score": 35
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is evident through detailed complaints about poor carpark design, slippery surfaces, cramped layouts, and safety hazards, with users emphasizing how bad the conditions are through exclamations and repeated criticisms.",
+              "quotes": [
+                {
+                  "quote": "I thought i had seen it all until i went to people's park complex last week in the rain.",
+                  "score": 35
+                },
+                {
+                  "quote": "The road surface was so slippery and had a strange and funny bank, his tyres just can't get enough grip.",
+                  "score": 35
+                },
+                {
+                  "quote": "His wheels was spinning and he slide backward again.",
+                  "score": 35
+                },
+                {
+                  "quote": "The air is smelling of burnt clutch and tyres.",
+                  "score": 35
+                },
+                {
+                  "quote": "I had never seen anything like this in a Singapore shopping mall.",
+                  "score": 35
+                },
+                {
+                  "quote": "u know its bad when there's alot of car paint scratches on every corner. lol",
+                  "score": 24
+                },
+                {
+                  "quote": "stupid layout causing traffic to always get jammed up",
+                  "score": 2
+                },
+                {
+                  "quote": "ultra cramped lots, weird split level layout, tight turns and ramps.",
+                  "score": 2
+                },
+                {
+                  "quote": "Lighting is dim too.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 8,
+      "comments_analyzed": 70,
+      "top_posts": [
+        {
+          "id": "t3_1sw4e0c",
+          "title": "where did you guys put your bto funds",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw4e0c/where_did_you_guys_put_your_bto_funds/",
+          "score": 33,
+          "num_comments": 54,
+          "created_at": "2026-04-26T18:53:33",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw4e0c",
+            "post_title": "where did you guys put your bto funds",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about financial crisis scenarios where BTO funds could be depleted right when needed, with specific concern about being forced to crystallize losses at key collection time. The hypothetical examples paint vivid worst-case scenarios that reflect genuine worry about this major life milestone.",
+              "quotes": [
+                {
+                  "quote": "Imagine if we hit another financial crisis again and your bto money is due, you are forced to crystalise your losses.",
+                  "score": 27
+                },
+                {
+                  "quote": "The last thing you want is on your key collection, you lose 20% and now cannot pay...",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear disappointment with current savings rates falling short of expectations, specifically noting that actual returns (1.3%) are significantly underperforming projected rates (1.8%). This represents a definite frustration with the gap between promised and actual financial outcomes.",
+              "quotes": [
+                {
+                  "quote": "i currently have the funds in syfe flexi cash now but the rates are closer to 1.3% than the projected 1.8%",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1swpbha",
+          "title": "Why ACWD over Amundi A12s?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1swpbha/why_acwd_over_amundi_a12s/",
+          "score": 2,
+          "num_comments": 4,
+          "created_at": "2026-04-27T09:14:33",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1swpbha",
+            "post_title": "Why ACWD over Amundi A12s?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear concern about the difficulty in understanding tax documents and the unreliability of AI assistance in this complex area. This reflects a definite worry about making mistakes with financial and tax matters.",
+              "quotes": [
+                {
+                  "quote": "It is hard to make sense of the tax documents found online, and AI will likely give you the wrong answer.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw77sk",
+          "title": "What type of health and life insurance do parents buy for their young toddlers?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw77sk/what_type_of_health_and_life_insurance_do_parents/",
+          "score": 0,
+          "num_comments": 20,
+          "created_at": "2026-04-26T21:13:34",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw77sk",
+            "post_title": "What type of health and life insurance do parents buy for their young toddlers?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Parents express concern about insurance coverage reliability and the uncertainty of maintaining adequate health protection, particularly regarding employer-dependent plans and potential policy changes. The anxiety centers on loss of control over coverage during employment transitions or unforeseen circumstances.",
+              "quotes": [
+                {
+                  "quote": "It's always dangerous to assume that Cigna would cover you for life. Congrats on getting such awesome coverage but don't take it for granted.",
+                  "score": 1
+                },
+                {
+                  "quote": "Planning for post-Cigna almost makes you feel like you have full control but the 2 instances where you're out of control when you're not with your current employer either by no choice - which means medical or non medical reasons.",
+                  "score": 1
+                },
+                {
+                  "quote": "In case touch wood something happen and iykyk chief people officer decided to nerf cigna coverage at least you know it's covered.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw4d5y",
+          "title": "Transfer points to Krisflyer or Asia Miles?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw4d5y/transfer_points_to_krisflyer_or_asia_miles/",
+          "score": 0,
+          "num_comments": 8,
+          "created_at": "2026-04-26T18:52:17",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw4d5y",
+            "post_title": "Transfer points to Krisflyer or Asia Miles?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "User expresses clear dissatisfaction with Singapore Airlines' redemption process becoming increasingly difficult and restrictive. The sentiment reflects a noticeable concern about declining value and accessibility of the loyalty program.",
+              "quotes": [
+                {
+                  "quote": "Singapore airlines has become really difficult to redeem.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw7v6t",
+          "title": "Ocbc 360 revised rates",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw7v6t/ocbc_360_revised_rates/",
+          "score": 0,
+          "num_comments": 2,
+          "created_at": "2026-04-26T21:41:41",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw7v6t",
+            "post_title": "Ocbc 360 revised rates",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Light sarcasm about posting in the wrong subreddit, expressed with casual irony rather than genuine irritation.",
+              "quotes": [
+                {
+                  "quote": "Oh sorry I didn't realise I was in /r/ocbchelpdesk",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw827q",
+          "title": "I signed another ILP. What do I do??",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw827q/i_signed_another_ilp_what_do_i_do/",
+          "score": 0,
+          "num_comments": 23,
+          "created_at": "2026-04-26T21:49:49",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw827q",
+            "post_title": "I signed another ILP. What do I do??",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Clear concern about being locked into a long-term financial commitment with high surrender fees and the difficulty of recouping investment without holding until maturity.",
+              "quotes": [
+                {
+                  "quote": "To make your money back, you need to hold until you get all the bonuses and have 0% surrender fee to have the highest return.",
+                  "score": 2
+                },
+                {
+                  "quote": "Your new Wealth Advantage is Choice 15, meaning you are trapped for a long time.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense anger and frustration about being deceived by the financial advisor, with emphatic language like 'scammed,' 'licensed scam,' and accusations of deliberate exploitation for commissions.",
+              "quotes": [
+                {
+                  "quote": "U r getting scammed and chop carrot by this FA……",
+                  "score": 37
+                },
+                {
+                  "quote": "He asked you to sign new plans so he can receive commissions. The commissions are highest in the first year then decrease over the years. Usually after 5-6 years the commission is almost zero.",
+                  "score": 19
+                },
+                {
+                  "quote": "Wah this is a FA's wet dream of a client",
+                  "score": 13
+                },
+                {
+                  "quote": "Always remember, your FA is helping themselves  not you.  If you don't spend, they don't earn.",
+                  "score": 10
+                },
+                {
+                  "quote": "ILP is licensed scam",
+                  "score": 2
+                },
+                {
+                  "quote": "This is exactly how insurance FA earn their BMW and Rolex GMT Master",
+                  "score": 2
+                },
+                {
+                  "quote": "She is milking you good with her comissions she is making out of you….",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw2xbv",
+          "title": "Is this WhatsApp group legit?",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw2xbv/is_this_whatsapp_group_legit/",
+          "score": 0,
+          "num_comments": 25,
+          "created_at": "2026-04-26T17:29:33",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw2xbv",
+            "post_title": "Is this WhatsApp group legit?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Clear concern about pig butchering scams with specific mention of the gradual manipulation tactic used by scammers to build trust before exploitation.",
+              "quotes": [
+                {
+                  "quote": "No these are usually pig butchering scams. They build you up slowly through random adds to groups.",
+                  "score": 12
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Exasperation about Singaporeans falling for obvious scams combined with irritation at persistent admin harassment pushing suspicious investment tips and intrusive daily contact.",
+              "quotes": [
+                {
+                  "quote": "No wonder Singaporeans keep getting scammed. Asking the obvious lol.",
+                  "score": 3
+                },
+                {
+                  "quote": "Admin keeps pestering daily to follow professor tips and screenshot your buy or to just bug you with things like how is your day?",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1sw7qam",
+          "title": "Salary check",
+          "url": "https://old.reddit.com/r/singaporefi/comments/1sw7qam/salary_check/",
+          "score": 0,
+          "num_comments": 21,
+          "created_at": "2026-04-26T21:35:50",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1sw7qam",
+            "post_title": "Salary check",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about how high salaries across the board drive up cost of living, creating an economic trap where earning more doesn't necessarily improve financial position.",
+              "quotes": [
+                {
+                  "quote": "high salary all across actually encourages higher COL because everybody can afford more.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses noticeable frustration about social comparison, particularly comparing themselves to higher-earning peers, which undermines their satisfaction with their own salary despite earning reasonably well.",
+              "quotes": [
+                {
+                  "quote": "Comparison is thief of Joy.",
+                  "score": -2
+                },
+                {
+                  "quote": "Now that i'm here im comparing myself to friends who make 20k.",
+                  "score": -2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "Eventually it would whittle down to only one or two departmental stores in Singapore and then we might see a resurgence of departmental stores in a decade or two before the same cycle repeats itself",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 101,
+        "intensity": "moderate"
+      },
+      {
+        "text": "A dutch naval vessel was recently tracked by a postcard carrying such a tag.",
+        "post_id": "t3_1swnx7r",
+        "post_title": "Defence experts warn of fitness tracker risks in Singapore military bases amid global Strava breaches",
+        "subreddit": "singapore",
+        "score": 230,
+        "comment_score": 70,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Japan is killing itself with its xenophobic laws recently (not that they were not xenophobic before, but now they actually push it into laws that make zero sense)",
+        "post_id": "t3_1sw4z57",
+        "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+        "subreddit": "singapore",
+        "score": 190,
+        "comment_score": 122,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's only soft power now is culture and tourism, but even that is competing with other East Asian neighbours.",
+        "post_id": "t3_1sw4z57",
+        "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+        "subreddit": "singapore",
+        "score": 190,
+        "comment_score": 61,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I say this because it's too easy to fall in love with Japan due to the culture of anime while conveniently not looking at the situation in Japan itself.",
+        "post_id": "t3_1sw4z57",
+        "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+        "subreddit": "singapore",
+        "score": 190,
+        "comment_score": 61,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The proof of the pudding will be when they are eligible to sell without SSD - who will buy over from them? I don't think it is in the mental schema for even the top 20% of Singaporean to go for a $2 million (but small) Tengah condo for own stay and pay it off fully.",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 25,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I heard the military airbase is moving to Tengah. There'll be so much of loud jet noise. Apparently it doesn't concern buyers. 🤔",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I thought people are getting retrenched and can't find jobs?",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wonder if it's a good idea to let one entity own so many properties in Orchard Road",
+        "post_id": "t3_1sw5m46",
+        "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 84,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The only things making $ in malls are tuition centers, clinics & food courts. All else are f'ed.",
+        "post_id": "t3_1sw5m46",
+        "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 16,
+        "intensity": "moderate"
+      },
+      {
+        "text": "JMA is urging residents to exercise caution and avoid potential mudslides in the region.",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Hoping our government will look at 4 days work week in due time. The more countries shift to this, it will make it easier. Especially if the big powers do so.",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You don't. In every city thats the way. You work until you burn out your lifeforce then retreat to the suburbs. Except that means jb for us.",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I feel like this unspoken rule has been slowly dying out lately but keeping left.",
+        "post_id": "t3_1sw1x5l",
+        "post_title": "What’s one rule of living here that nobody writes down but everybody knows?",
+        "subreddit": "askSingapore",
+        "score": 97,
+        "comment_score": 10,
+        "intensity": "mild"
+      },
+      {
+        "text": "Don't trust the quality of thread counts listed as more than 500-600. Those 1000 thread count \"luxury\" sheets are usually made from lower-quality, thinner threads that are twisted together (multi-ply) to artificially inflate the numbers. They often result in denser, hotter and less durable sheets overall.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I guarantee they won't last.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I think there's still a huge lack of understanding of what divorce does to a person. The impact can be really heavy.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 34,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My parents are in their late 60s. I think they would not be too happy if I got divorced, but would not show it openly to me.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 42,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Expect a root canal or more.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "the teeth ended up having to do root canal.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Bill is quite hefty tot, about $1 or $2k ish.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Be careful what you talk as many people are snake in real life",
+        "post_id": "t3_1swdfgz",
+        "post_title": "Improving my communication skills in Singapore",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Cause if they claim the Taiwanese identity some country with red flag and stars will come and make noise",
+        "post_id": "t3_1swa4hm",
+        "post_title": "why doesn't singapore have taiwanese supermarket or minimart?",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Those were the days that we all missed and it will never come back again.",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 242,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Later got new sign that says not allowed to 5man sit on each other like that.",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 57,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Later POFMA you then you know",
+        "post_id": "t3_1sw2fo6",
+        "post_title": "Looking for a photographer",
+        "subreddit": "SingaporeRaw",
+        "score": 111,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "In order to achieve the happy state you want, fundamental societal attitudes must change. The rat race must end. But it's not gonna happen. Yet.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 22,
+        "intensity": "moderate"
+      },
+      {
+        "text": "That's what happens when you're in a small, crowded island city-state with a hectic work culture and very little nature and natural spaces to unwind in.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If someone do a parody of GCT and LHL, straightaway they get censored and warned.",
+        "post_id": "t3_1svyqlo",
+        "post_title": "Journey to Changi (Prison) Ep. 3",
+        "subreddit": "SingaporeRaw",
+        "score": 54,
+        "comment_score": 16,
+        "intensity": "moderate"
+      },
+      {
+        "text": "better to bend and hold than break and potentially become death from above",
+        "post_id": "t3_1swqvqn",
+        "post_title": "ooops. bamboo poles still number 1",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It will get worse with El Niño coming in the next few months .",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "even if SQ eventually manage to turn Air India around, their courts can suka suka make them pay fees just to suck more money like Singtel and Bharti Airtel....it's a lose lose situation",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 24,
+        "intensity": "strong"
+      },
+      {
+        "text": "I don't think we will see Singaporeans take up key positions in Air India. On the other hand I won't be surprised to see the reverse happen.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "No amount of money will help when the problem is cultural. Its just throwing money into a blackhole.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Why does it feel like we are ceding more to them.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "i know of people who were once working at SEA's in-house media team but got laid off. i guess the higher ups think this AI content can replace those humans.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Now, it's time for the consumers to be profit-maximised, let's see what awaits.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "sucking up to the wrong powers",
+        "post_id": "t3_1svycls",
+        "post_title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": -8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "a van round the corner from me is having problem going up and i should stay back.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I had already reversed all the way to the barrier and can't go any further back.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Imagine if we hit another financial crisis again and your bto money is due, you are forced to crystalise your losses.",
+        "post_id": "t3_1sw4e0c",
+        "post_title": "where did you guys put your bto funds",
+        "subreddit": "singaporefi",
+        "score": 33,
+        "comment_score": 27,
+        "intensity": "strong"
+      },
+      {
+        "text": "The last thing you want is on your key collection, you lose 20% and now cannot pay...",
+        "post_id": "t3_1sw4e0c",
+        "post_title": "where did you guys put your bto funds",
+        "subreddit": "singaporefi",
+        "score": 33,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "It is hard to make sense of the tax documents found online, and AI will likely give you the wrong answer.",
+        "post_id": "t3_1swpbha",
+        "post_title": "Why ACWD over Amundi A12s?",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's always dangerous to assume that Cigna would cover you for life. Congrats on getting such awesome coverage but don't take it for granted.",
+        "post_id": "t3_1sw77sk",
+        "post_title": "What type of health and life insurance do parents buy for their young toddlers?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Planning for post-Cigna almost makes you feel like you have full control but the 2 instances where you're out of control when you're not with your current employer either by no choice - which means medical or non medical reasons.",
+        "post_id": "t3_1sw77sk",
+        "post_title": "What type of health and life insurance do parents buy for their young toddlers?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "In case touch wood something happen and iykyk chief people officer decided to nerf cigna coverage at least you know it's covered.",
+        "post_id": "t3_1sw77sk",
+        "post_title": "What type of health and life insurance do parents buy for their young toddlers?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "To make your money back, you need to hold until you get all the bonuses and have 0% surrender fee to have the highest return.",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Your new Wealth Advantage is Choice 15, meaning you are trapped for a long time.",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No these are usually pig butchering scams. They build you up slowly through random adds to groups.",
+        "post_id": "t3_1sw2xbv",
+        "post_title": "Is this WhatsApp group legit?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "high salary all across actually encourages higher COL because everybody can afford more.",
+        "post_id": "t3_1sw7qam",
+        "post_title": "Salary check",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "I know there are better deals online but I really like shopping in department stores. It's really sad to see for me the eventual closures of these stores.",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 600,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sadly the end of the era of department stores. Have so many childhood memories of following my mom around.",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 376,
+        "intensity": "strong"
+      },
+      {
+        "text": "It will be nice but it will be so bad for me",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 128,
+        "intensity": "strong"
+      },
+      {
+        "text": "lol the era ended long ago when G decided to let rent go out of whack for free for all.",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "To everyone saying \"oH bUt we alR KnOw tHe loCation\" of SAF bases...can you please read the damn article?",
+        "post_id": "t3_1swnx7r",
+        "post_title": "Defence experts warn of fitness tracker risks in Singapore military bases amid global Strava breaches",
+        "subreddit": "singapore",
+        "score": 230,
+        "comment_score": 71,
+        "intensity": "strong"
+      },
+      {
+        "text": "lol except Japan is fucking itself over (with the current govt). Now foreign small business needs 300 k yen min (around $240k SGD) and limit more foreign manpower when the yen is dropping",
+        "post_id": "t3_1sw4z57",
+        "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+        "subreddit": "singapore",
+        "score": 190,
+        "comment_score": 61,
+        "intensity": "strong"
+      },
+      {
+        "text": "Basically Japan now is a textbook example of what SG should not follow, with a educated workforce, stagnant workforce, low immigration, low birth rates (look at other Japan related subs for reference)",
+        "post_id": "t3_1sw4z57",
+        "post_title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+        "subreddit": "singapore",
+        "score": 190,
+        "comment_score": 61,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tengah is 2120 psf 😰",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 214,
+        "intensity": "strong"
+      },
+      {
+        "text": "2m for a 1000 sqft condo in fucking Tengah sold out. What the fuck.",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 143,
+        "intensity": "strong"
+      },
+      {
+        "text": "It is ok to have fools, but pls just don't be the greater fool.",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 69,
+        "intensity": "strong"
+      },
+      {
+        "text": "Prepare for the sound of fighter jets on weekdays and if you lucky, weekends.",
+        "post_id": "t3_1sw1w5h",
+        "post_title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+        "subreddit": "singapore",
+        "score": 186,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sadly I won't visit. Hot and ccannot touch.",
+        "post_id": "t3_1svy2bt",
+        "post_title": "River Wonders, Mandai. Look down; I got a feeling they didn't plan the name of a few of them through.",
+        "subreddit": "singapore",
+        "score": 172,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "Rent goes up, shops close down, new China store opens.",
+        "post_id": "t3_1sw5m46",
+        "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 64,
+        "intensity": "strong"
+      },
+      {
+        "text": "Honestly too many malls….",
+        "post_id": "t3_1sw5m46",
+        "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Some malls like Grantral Mall clementi, 321 Mall, bukit timah plaza, all beauty world malls, greenridge mall etc... needs to be demolished... waste of space",
+        "post_id": "t3_1sw5m46",
+        "post_title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": -27,
+        "intensity": "strong"
+      },
+      {
+        "text": "Having so many notice/reports about foreigners not being able to pump 95 yet you continue to take the risk. So be it.",
+        "post_id": "t3_1sw4vtk",
+        "post_title": "'Appropriate action' taken against driver of Singapore-registered car pumping Ron95 in Petaling Jaya: Malaysia ministry",
+        "subreddit": "singapore",
+        "score": 80,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Name and shame. Xia Suay max.",
+        "post_id": "t3_1sw4vtk",
+        "post_title": "'Appropriate action' taken against driver of Singapore-registered car pumping Ron95 in Petaling Jaya: Malaysia ministry",
+        "subreddit": "singapore",
+        "score": 80,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sia suay",
+        "post_id": "t3_1sw4vtk",
+        "post_title": "'Appropriate action' taken against driver of Singapore-registered car pumping Ron95 in Petaling Jaya: Malaysia ministry",
+        "subreddit": "singapore",
+        "score": 80,
+        "comment_score": -3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Apparently you can't open the link directly in the reddit app. Or at least I can't.",
+        "post_id": "t3_1swqmwn",
+        "post_title": "BERNAMA - Johor Marine Police Foils Attempt To Smuggle Nearly 700,000 Lobster Fry To Singapore",
+        "subreddit": "singapore",
+        "score": 61,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "monday blueessssssssssssssssssssssss take me homeeeeeeeeeeeeeeeeeeeeee\n\nto the placeeeeeeeeeeeeeeeeeee i belonggggggggggggggggggggggg\n\nmy bedroommmmmmmmmmmmmmmmmmm",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Down with a stupid flu 😭 forgot how irritating congestion, runny nose and cough feels",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "I swear my home felt like a sauna this morning. Even with blackout blinds yikes",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I hate iOS with a passion (except apple pay but keeping iOS on an ipad for that is silly)",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Drank too much milo & got a stitch",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Want to eat dim sum but no one to go with, why can't restaurants be more thoughtful for single diners?",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "saw an accident this morning, feeling sad :(",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Mine turned up with hickeys that she tried to hide with a concealer",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 284,
+        "intensity": "strong"
+      },
+      {
+        "text": "I just looked at her in disbelief, so my mind switched off and turned it into a simple hangout since I was already out.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 232,
+        "intensity": "strong"
+      },
+      {
+        "text": "There was barely any conversation and she was just playing w her phone most of the time. I ended up getting the bill and when we were heading home she still asked me to book grab and drop her off at her place first.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 220,
+        "intensity": "strong"
+      },
+      {
+        "text": "For me, it was getting catfished by a lady who was twice the horizontal size of my frame.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 219,
+        "intensity": "strong"
+      },
+      {
+        "text": "Crush stared into my soul. Tables beside laughed.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 201,
+        "intensity": "strong"
+      },
+      {
+        "text": "First date. Guy spent the entire dinner staring at me. Like, when he wasn't eating, he just stared at my face. I tried to make conversation and just got very short replies.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 91,
+        "intensity": "strong"
+      },
+      {
+        "text": "He kept talking while chewing the burger and I can never forget the image.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 91,
+        "intensity": "strong"
+      },
+      {
+        "text": "he spent the entire time complaining that it was not nice. Like literally it was the only thing he talked about, besides commenting that I need to exercise more (lol).",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 91,
+        "intensity": "strong"
+      },
+      {
+        "text": "Throughout the date, he only talked about himself and his time in Australia. Being a good listener, I entertain him. Waiting for my time to share my life, he didn't ask a single question about me.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 45,
+        "intensity": "strong"
+      },
+      {
+        "text": "She was basically giving 1 sentence replies with no intention to knowing me and then made snide comments on my opinions.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "for parents weekend isn't rest time. Just spend life as if permanently jet lagged",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 401,
+        "intensity": "strong"
+      },
+      {
+        "text": "The secret is you don't recover",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 81,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wait till you have kids man… Honestly at this point it becomes a rhythm, my lunch time now becomes my only me time and I've accepted it 😔",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 42,
+        "intensity": "strong"
+      },
+      {
+        "text": "The older I get, the more I feel frustrated with the system. It honestly feels so insulting to me that out of 52 weeks a year, only 2 are mine. Wtf?",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "I used to roll my eyes at antiwork posts because of how over the top some of them are. I still do, but the core message of redundant, stupid workplace practices and customs just pisses me off. Why is 14 days vacation the standard? Why, if I have fuck all to do that work day, must I show up and play with my fingers until 6PM?",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Cries in six day work week",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "If you do that, you are a dick.",
+        "post_id": "t3_1sw1x5l",
+        "post_title": "What’s one rule of living here that nobody writes down but everybody knows?",
+        "subreddit": "askSingapore",
+        "score": 97,
+        "comment_score": 140,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Dryer will kill your tencel material though.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 10,
+        "intensity": "mild"
+      },
+      {
+        "text": "As a sengkanger for 28 years, im also puzzled with road names in sengkang and punggol because theres no way or clue i can have to memorise the formats.",
+        "post_id": "t3_1sw2qd7",
+        "post_title": "Road naming in new towns like Punggol, Sengkang",
+        "subreddit": "askSingapore",
+        "score": 66,
+        "comment_score": 48,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Its a drive, road, drive, road thing and you dont know which is where",
+        "post_id": "t3_1sw2qd7",
+        "post_title": "Road naming in new towns like Punggol, Sengkang",
+        "subreddit": "askSingapore",
+        "score": 66,
+        "comment_score": 48,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Personally, I prefer roads named after people who sacrificed for or invested in the community; or historical events; even a local fruit or food... things truly meaningful, rather than manufacturing a cute, randomly vanilla name.",
+        "post_id": "t3_1sw2qd7",
+        "post_title": "Road naming in new towns like Punggol, Sengkang",
+        "subreddit": "askSingapore",
+        "score": 66,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "She did say the only thing she regretted was having to pay 3-4K for lawyer fees.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 42,
+        "intensity": "mild"
+      },
+      {
+        "text": "i wished my parents divorced tbh",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 38,
+        "intensity": "mild"
+      },
+      {
+        "text": "Dental clinics are not 24 hours.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 66,
+        "intensity": "strong"
+      },
+      {
+        "text": "I don't think got any dental clinic open this late, especially on a Sunday.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "most neighbourhood dentist can't accommodate walk-ins.",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "the neighbourhood dentists gave me an appointment 2-3 weeks later .",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "they were bad dentist",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "There has been many instances where I just awkwardly stand without saying anything and I hate it.",
+        "post_id": "t3_1swdfgz",
+        "post_title": "Improving my communication skills in Singapore",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My challenge is different. I cannot hold long conversations with my teammates due to mismatching interest.",
+        "post_id": "t3_1swdfgz",
+        "post_title": "Improving my communication skills in Singapore",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Not sure why my locals colleagues can keep harping about PAP, condo, BTO, tuition cost for their kids everyday. At the end, I just 'How are you' and stop from there",
+        "post_id": "t3_1swdfgz",
+        "post_title": "Improving my communication skills in Singapore",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "please let me know i need to improve too !",
+        "post_id": "t3_1swdfgz",
+        "post_title": "Improving my communication skills in Singapore",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "the bigger issue for me is that there are no enough authentic Taiwanese restaurants in Singapore. There are some that come close, but nothing tastes the same, which is a real shame considering that Japanese and Korean food here are much closer (not the same) to their counterparts in Japan and Korea (but more expensive of course).",
+        "post_id": "t3_1swa4hm",
+        "post_title": "why doesn't singapore have taiwanese supermarket or minimart?",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "always see those taiwanese sweets stalls no business",
+        "post_id": "t3_1swa4hm",
+        "post_title": "why doesn't singapore have taiwanese supermarket or minimart?",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Fake post, why should they bother ? all they need are CDC (with your tax money) and more new citizens, the next election 69.9%\n\nThe more they whack sporens, the higher the votes.",
+        "post_id": "t3_1sw2fo6",
+        "post_title": "Looking for a photographer",
+        "subreddit": "SingaporeRaw",
+        "score": 111,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Angmoh snob",
+        "post_id": "t3_1sw2fo6",
+        "post_title": "Looking for a photographer",
+        "subreddit": "SingaporeRaw",
+        "score": 111,
+        "comment_score": -5,
+        "intensity": "strong"
+      },
+      {
+        "text": "We are put into a rat race since primary school my friend.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 41,
+        "intensity": "strong"
+      },
+      {
+        "text": "We are severely underpaid as a country just saying.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "go to work, work, go home from work, do chores, sleep, go back to work again\n\nweekend too crowded and hot to do things, do nothing at home, repeat grind on monday",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I generally feel that there is a lack of empathy in Singapore. We are very focused on practicality, efficiency and keeping peace and stability.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "cuz everything is transactional, even marriages",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "Government has programmed a spiritual lie into Singaporeans - that money is the most important thing. Lol. To souls, money is literally like water.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's mostly a result of the cynicism of SG culture.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 22,
+        "intensity": "strong"
+      },
+      {
+        "text": "Ts is where my fucking RAM is going bruhh",
+        "post_id": "t3_1svyqlo",
+        "post_title": "Journey to Changi (Prison) Ep. 3",
+        "subreddit": "SingaporeRaw",
+        "score": 54,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Always hated this. Can't put a lot clothes also",
+        "post_id": "t3_1swqvqn",
+        "post_title": "ooops. bamboo poles still number 1",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Yes extremely hot and humid",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 53,
+        "intensity": "strong"
+      },
+      {
+        "text": "Extremely...night time temperatures around 28-30 degrees is not good. It's a big contrast to the comfortable 25-ish degrees earlier this year.",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Every night!",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Its always hot",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Hot every night",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Very very hot",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes, even just taking my own sweet time to do light chores around the house also make me feel like I'm going to pre-sweat.",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "So hot 😓",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "It gotten so bad and we have to switch on the living room aircon. I've bathed 4 times today and I didn't went out.",
+        "post_id": "t3_1swb2fi",
+        "post_title": "Is it hot tonight? April 26",
+        "subreddit": "SingaporeRaw",
+        "score": 49,
+        "comment_score": -1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Throwing good money after bad",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "SIA suffering from sunk cost fallacy",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 44,
+        "intensity": "strong"
+      },
+      {
+        "text": "Hahahaha knew it. Just double down on the loss.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 34,
+        "intensity": "strong"
+      },
+      {
+        "text": "Embarrassing association for SQ.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Stupid. Committing so much for the 25% stake. Tata group laughing their ways to the bank",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Extremely disappointed in SQ management for dragging SG branding through this literal shit airline.",
+        "post_id": "t3_1svyvoc",
+        "post_title": "SIA deepens role at Air India amid record losses",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Shopee does not let us delete it, remove it, whatever. Even when we try to upload our own videos (non-AI, actual useful videos), Shopee pushes it down beneath the AI slops.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 28,
+        "intensity": "strong"
+      },
+      {
+        "text": "So many of my products are invaded with AI slop that does not even feature my products and yet Shopee refuses to remove. It's nuts.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 28,
+        "intensity": "strong"
+      },
+      {
+        "text": "Buyers hate it. Sellers hate it.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 28,
+        "intensity": "strong"
+      },
+      {
+        "text": "Playdoh. Buay tahan man.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "can't stand their wrong usage of *lah*",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "More like profit maxxing-misation has invaded shopee. From doubling seller fees, slashing parcel workers wage, to collection points.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I can accept they want 24/7 sales efficiency with AI streamers, but please stop the cringey intentional Singlish.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I see AI videos selling items... i immediately linked it fake products... Skip.",
+        "post_id": "t3_1swavuj",
+        "post_title": "AI Slop of Shopee.. what's the worst you've seen?",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "paying tribute to our former colonial masters~",
+        "post_id": "t3_1svycls",
+        "post_title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": -4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Just as she visited Yasukuni Jinja.... bad timing.",
+        "post_id": "t3_1svycls",
+        "post_title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": -4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I thought i had seen it all until i went to people's park complex last week in the rain.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "The road surface was so slippery and had a strange and funny bank, his tyres just can't get enough grip.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "His wheels was spinning and he slide backward again.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "The air is smelling of burnt clutch and tyres.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "I had never seen anything like this in a Singapore shopping mall.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "u know its bad when there's alot of car paint scratches on every corner. lol",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 24,
+        "intensity": "strong"
+      },
+      {
+        "text": "stupid layout causing traffic to always get jammed up",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "ultra cramped lots, weird split level layout, tight turns and ramps.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lighting is dim too.",
+        "post_id": "t3_1svwtnb",
+        "post_title": "Where are the worst carparks in Singapore?",
+        "subreddit": "SingaporeRaw",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "i currently have the funds in syfe flexi cash now but the rates are closer to 1.3% than the projected 1.8%",
+        "post_id": "t3_1sw4e0c",
+        "post_title": "where did you guys put your bto funds",
+        "subreddit": "singaporefi",
+        "score": 33,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singapore airlines has become really difficult to redeem.",
+        "post_id": "t3_1sw4d5y",
+        "post_title": "Transfer points to Krisflyer or Asia Miles?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Oh sorry I didn't realise I was in /r/ocbchelpdesk",
+        "post_id": "t3_1sw7v6t",
+        "post_title": "Ocbc 360 revised rates",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "U r getting scammed and chop carrot by this FA……",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 37,
+        "intensity": "strong"
+      },
+      {
+        "text": "He asked you to sign new plans so he can receive commissions. The commissions are highest in the first year then decrease over the years. Usually after 5-6 years the commission is almost zero.",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 19,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wah this is a FA's wet dream of a client",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Always remember, your FA is helping themselves  not you.  If you don't spend, they don't earn.",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "ILP is licensed scam",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is exactly how insurance FA earn their BMW and Rolex GMT Master",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "She is milking you good with her comissions she is making out of you….",
+        "post_id": "t3_1sw827q",
+        "post_title": "I signed another ILP. What do I do??",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "No wonder Singaporeans keep getting scammed. Asking the obvious lol.",
+        "post_id": "t3_1sw2xbv",
+        "post_title": "Is this WhatsApp group legit?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Admin keeps pestering daily to follow professor tips and screenshot your buy or to just bug you with things like how is your day?",
+        "post_id": "t3_1sw2xbv",
+        "post_title": "Is this WhatsApp group legit?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Comparison is thief of Joy.",
+        "post_id": "t3_1sw7qam",
+        "post_title": "Salary check",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Now that i'm here im comparing myself to friends who make 20k.",
+        "post_id": "t3_1sw7qam",
+        "post_title": "Salary check",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "Goodbye Isetan Nex, thank you for all the good memories ♥️",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 22,
+        "intensity": "mild"
+      },
+      {
+        "text": "I bought a wmf ss pan, worth every penny",
+        "post_id": "t3_1sw76vm",
+        "post_title": "The end of an era.",
+        "subreddit": "singapore",
+        "score": 1557,
+        "comment_score": 9,
+        "intensity": "mild"
+      },
+      {
+        "text": "but its quite cool to read about it, its fascinating just like the concorde itself.",
+        "post_id": "t3_1svxzeg",
+        "post_title": "Singapore Airlines Concorde: The full story",
+        "subreddit": "singapore",
+        "score": 69,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I actually saw it at Paya Lebar airport back in the day! The other half is painted British airways, go figure! 😂",
+        "post_id": "t3_1svxzeg",
+        "post_title": "Singapore Airlines Concorde: The full story",
+        "subreddit": "singapore",
+        "score": 69,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "drinking milk is actually strangely therapeutic LOL",
+        "post_id": "t3_1swkygr",
+        "post_title": "r/singapore random discussion and small questions thread for April 27, 2026",
+        "subreddit": "singapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Went on a date with my fiancée who was stressed out at work. Brought her to fav which is yakiniku and she started crying in front of everyone when recounting her stress. I did my best to comfort but by then everyone gave me a side eye.",
+        "post_id": "t3_1swfgzv",
+        "post_title": "what was your worst date ever in sg?",
+        "subreddit": "askSingapore",
+        "score": 723,
+        "comment_score": 75,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Gen Zs are also making the workaholic culture fade in sg. So let's just hope",
+        "post_id": "t3_1svykf9",
+        "post_title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+        "subreddit": "askSingapore",
+        "score": 313,
+        "comment_score": 7,
+        "intensity": "mild"
+      },
+      {
+        "text": "Milo truck best milo",
+        "post_id": "t3_1sw1x5l",
+        "post_title": "What’s one rule of living here that nobody writes down but everybody knows?",
+        "subreddit": "askSingapore",
+        "score": 97,
+        "comment_score": 18,
+        "intensity": "mild"
+      },
+      {
+        "text": "I've been using my Brooklinen sheets and duvet covers for 3+ years. They are great.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Recently got the cooling one from Muji, its better than my Hooga and Bedtribe one imo",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "after it breaks in with regular use, it is the smoothest and most comfortable sheets I've ever slept on. No fight.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I found Hooga's tencel ones are actually really soft and comfy.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "The more we wash, the softer and smoother it becomes. It's amazing.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Been using it at least 10 years.",
+        "post_id": "t3_1svwhld",
+        "post_title": "Recommend me the best bedsheets in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 83,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I think National heritage board ought to immortalize my quote forever. I solved the mystery of road names for the nation.",
+        "post_id": "t3_1sw2qd7",
+        "post_title": "Road naming in new towns like Punggol, Sengkang",
+        "subreddit": "askSingapore",
+        "score": 66,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "Better to be unhappy for a while than for a long time",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 136,
+        "intensity": "strong"
+      },
+      {
+        "text": "As siblings, we were supportive of the divorce cos very evidently my SIL was behaving like a b**** but it definitely hit my parents the hardest. Several friends have also gone through divorce but seemed to have found greener pastures and am happy for them.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 88,
+        "intensity": "strong"
+      },
+      {
+        "text": "You do what makes you happy!",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 88,
+        "intensity": "strong"
+      },
+      {
+        "text": "Personally, I never got the stigma around it. I think it's better to be divorced than unhappily and sadly married. It's good to lead a life that is aligned with how you really feel inside.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 42,
+        "intensity": "strong"
+      },
+      {
+        "text": "I have a friend who got divorced and is much happier now.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 42,
+        "intensity": "strong"
+      },
+      {
+        "text": "I can tell you for sure that your parents would prefer you to be happy, and have a happy life, than be sad/depressed.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 32,
+        "intensity": "strong"
+      },
+      {
+        "text": "Out of all the people I know who are divorced, there isn't one couple where that was surprising.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's normal to me. I've friends who divorced and they are happier for it.",
+        "post_id": "t3_1sw388t",
+        "post_title": "What are the views on divorce in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 52,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "hope you will be fine!",
+        "post_id": "t3_1sw5zkb",
+        "post_title": "Emergency dental services in Singapore",
+        "subreddit": "askSingapore",
+        "score": 50,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "It is growing since many young one come to work in recent years. So we may see one soon.",
+        "post_id": "t3_1swa4hm",
+        "post_title": "why doesn't singapore have taiwanese supermarket or minimart?",
+        "subreddit": "askSingapore",
+        "score": 29,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "We are excited to visit Singapore with our toddler. ❤️",
+        "post_id": "t3_1svzrw9",
+        "post_title": "Travelling and underestimated how many nappies we need. Any advice on brands?",
+        "subreddit": "askSingapore",
+        "score": 20,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "she disagrees 😭",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 928,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lmao i sat opposite from them 😭😭😭",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 473,
+        "intensity": "strong"
+      },
+      {
+        "text": "Let them have fun.",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 93,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good job, OP. LMFAO",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 64,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good times",
+        "post_id": "t3_1svya0w",
+        "post_title": "This scene somehow brightened and giggled up my MRT ride.",
+        "subreddit": "SingaporeRaw",
+        "score": 1263,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "lol 🤣 love this",
+        "post_id": "t3_1sw2fo6",
+        "post_title": "Looking for a photographer",
+        "subreddit": "SingaporeRaw",
+        "score": 111,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "But still there are nice people and works of kindness just need to find the right crowd.",
+        "post_id": "t3_1sw3vjb",
+        "post_title": "Why are we so gloomy as a nation in SG?",
+        "subreddit": "SingaporeRaw",
+        "score": 69,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "My favourite series now HAHA. Hope this gets picked up by Netflix.",
+        "post_id": "t3_1svyqlo",
+        "post_title": "Journey to Changi (Prison) Ep. 3",
+        "subreddit": "SingaporeRaw",
+        "score": 54,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lmao I love this series. Keep it coming please",
+        "post_id": "t3_1svyqlo",
+        "post_title": "Journey to Changi (Prison) Ep. 3",
+        "subreddit": "SingaporeRaw",
+        "score": 54,
+        "comment_score": -2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Never doubt the bamboo pole.",
+        "post_id": "t3_1swqvqn",
+        "post_title": "ooops. bamboo poles still number 1",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 35,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The bamboo poles in my house is more than 15 years old.",
+        "post_id": "t3_1swqvqn",
+        "post_title": "ooops. bamboo poles still number 1",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 35,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Just because something is newer doesn't mean it's better.",
+        "post_id": "t3_1swqvqn",
+        "post_title": "ooops. bamboo poles still number 1",
+        "subreddit": "SingaporeRaw",
+        "score": 52,
+        "comment_score": 9,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Department store closures and retail decline",
+      "engagement_score": 1659,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "The end of an era.",
+          "url": "https://www.reddit.com/r/singapore/comments/1sw76vm/the_end_of_an_era/"
+        },
+        {
+          "title": "Mall mania: Paragon, i12 Katong change hands, White Sands up for grabs",
+          "url": "https://www.reddit.com/r/singapore/comments/1sw5m46/mall_mania_paragon_i12_katong_change_hands_white/"
+        }
+      ],
+      "entities": [
+        "Isetan",
+        "Paragon",
+        "Katong",
+        "White Sands",
+        "Orchard Road",
+        "Retail"
+      ]
+    },
+    {
+      "topic": "High property prices in Tengah development",
+      "engagement_score": 219,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "Tengah Garden Residences Sells 99% Of 863 Units at $2,120 PSF; Vela Bay Hits 72% At $2,886 PSF",
+          "url": "https://www.reddit.com/r/singapore/comments/1sw1w5h/tengah_garden_residences_sells_99_of_863_units_at/"
+        },
+        {
+          "title": "where did you guys put your bto funds",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1sw4e0c/where_did_you_guys_put_your_bto_funds/"
+        }
+      ],
+      "entities": [
+        "Tengah",
+        "BTO",
+        "PSF",
+        "Property Prices",
+        "SSD"
+      ]
+    },
+    {
+      "topic": "Work-life balance and weekend recovery time",
+      "engagement_score": 313,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "How can? We work Mon-Fri, is 48hrs(weekends) honestly enough?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1svykf9/how_can_we_work_monfri_is_48hrsweekends_honestly/"
+        }
+      ],
+      "entities": [
+        "Employment",
+        "Work Culture",
+        "WLB"
+      ]
+    },
+    {
+      "topic": "Singapore-Japan diplomatic and economic relations milestone",
+      "engagement_score": 202,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "PM Wong calls economic partnership a 'key pillar' as Singapore and Japan mark 60 years of ties",
+          "url": "https://www.reddit.com/r/singapore/comments/1sw4z57/pm_wong_calls_economic_partnership_a_key_pillar/"
+        },
+        {
+          "title": "PM Wong sends Japan PM Takaichi congratulatory letter to mark 60 years of diplomatic ties",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1svycls/pm_wong_sends_japan_pm_takaichi_congratulatory/"
+        }
+      ],
+      "entities": [
+        "PM Wong",
+        "Japan",
+        "Economic Partnership",
+        "Diplomatic Relations"
+      ]
+    },
+    {
+      "topic": "Military security risks from fitness trackers",
+      "engagement_score": 230,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "Defence experts warn of fitness tracker risks in Singapore military bases amid global Strava breaches",
+          "url": "https://www.reddit.com/r/singapore/comments/1swnx7r/defence_experts_warn_of_fitness_tracker_risks_in/"
+        }
+      ],
+      "entities": [
+        "SAF",
+        "Military Bases",
+        "Strava",
+        "Defence",
+        "Security"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Singaporeans grieve retail nostalgia while housing rage intensifies - optimism plunges 40% as community spaces vanish",
+    "key_takeaways": [
+      "Department store closures like Isetan NEX trigger deep emotional responses (+1557 upvotes) as Singaporeans mourn loss of childhood memories and community gathering spaces to high rents",
+      "Housing affordability anger peaks with new Tengah launches at $2,120-$2,886 PSF, representing a fundamental shift from frustration to fury as residents feel priced out of their own market",
+      "Optimism crashes 40% week-over-week as economic uncertainties compound - Singaporeans increasingly question basic assumptions about work-life balance and whether current lifestyle is sustainable"
+    ],
+    "opportunities": [
+      "Create experiential retail concepts that blend nostalgia with modern convenience - Singaporeans clearly value tactile shopping experiences and community spaces that online cannot replace",
+      "Develop affordable housing solutions or financing products targeting the 'missing middle' - intense sentiment around $2,000+ PSF suggests massive underserved market between BTO and private housing"
+    ],
+    "risks": [
+      "Monitor retail landlord policies closely - widespread anger at 'rent going out of whack' could trigger regulatory intervention or public pressure campaigns affecting property investments",
+      "Track military security protocols around wearable devices - fitness tracker data breach concerns at bases could signal broader cybersecurity vulnerabilities requiring immediate policy updates"
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-04-26",
+    "fears": {
+      "direction": "down",
+      "change_pct": -12.3,
+      "intensity_shift": "stable",
+      "previous_count": 57,
+      "current_count": 50
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -11.2,
+      "intensity_shift": "stable",
+      "previous_count": 134,
+      "current_count": 119
+    },
+    "optimism": {
+      "direction": "down",
+      "change_pct": -39.7,
+      "intensity_shift": "stable",
+      "previous_count": 63,
+      "current_count": 38
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Singapore Property Market Anxiety",
+      "description": "Concerns about housing affordability, property speculation, and the disconnect between prices and livability in Singapore's residential market.",
+      "category": "frustration",
+      "quote_count": 4,
+      "sample_quotes": [
+        "The proof of the pudding will be when they are eligible to sell without SSD - who will buy over from them? I don't think it is in the mental schema for even the top 20% of Singaporean to go for a $2 million (but small) Tengah condo for own stay and pay it off fully.",
+        "Tengah is 2120 psf 😰",
+        "2m for a 1000 sqft condo in fucking Tengah sold out. What the fuck."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Retail Transformation and Nostalgia",
+      "description": "Mixed feelings about the decline of traditional retail spaces like department stores and malls, balancing fond memories with acceptance of change.",
+      "category": "frustration",
+      "quote_count": 6,
+      "sample_quotes": [
+        "I know there are better deals online but I really like shopping in department stores. It's really sad to see for me the eventual closures of these stores.",
+        "Sadly the end of the era of department stores. Have so many childhood memories of following my mom around.",
+        "Eventually it would whittle down to only one or two departmental stores in Singapore and then we might see a resurgence of departmental stores in a decade or two before the same cycle repeats itself"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Work-Life Balance Evolution",
+      "description": "Hope for changing workplace culture in Singapore, with younger generations driving shifts away from traditional workaholic mentality.",
+      "category": "optimism",
+      "quote_count": 3,
+      "sample_quotes": [
+        "Gen Zs are also making the workaholic culture fade in sg. So let's just hope",
+        "Hoping our government will look at 4 days work week in due time. The more countries shift to this, it will make it easier. Especially if the big powers do so.",
+        "You don't. In every city thats the way. You work until you burn out your lifeforce then retreat to the suburbs. Except that means jb for us."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Japan as a Cautionary Tale",
+      "description": "Warnings about Japan's economic and demographic policies serving as a negative example for Singapore's development path.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Japan is killing itself with its xenophobic laws recently (not that they were not xenophobic before, but now they actually push it into laws that make zero sense)",
+        "Basically Japan now is a textbook example of what SG should not follow, with a educated workforce, stagnant workforce, low immigration, low birth rates",
+        "I say this because it's too easy to fall in love with Japan due to the culture of anime while conveniently not looking at the situation in Japan itself."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Consumer Product Satisfaction",
+      "description": "Personal experiences and recommendations about everyday products, particularly bedding and household items, showing appreciation for quality purchases.",
+      "category": "optimism",
+      "quote_count": 7,
+      "sample_quotes": [
+        "I've been using my Brooklinen sheets and duvet covers for 3+ years. They are great.",
+        "after it breaks in with regular use, it is the smoothest and most comfortable sheets I've ever slept on. No fight.",
+        "I found Hooga's tencel ones are actually really soft and comfy."
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Heavily Concentrated in Strong Intensity",
+      "description": "80% of frustrations (95 out of 119) are categorized as strong intensity, with only 6% mild. This extreme skew indicates the community is experiencing deep, not surface-level frustrations, suggesting underlying issues that may need attention.",
+      "category": "frustration",
+      "related_quotes": [
+        "lol the era ended long ago when G decided to let rent go out of whack for free for all.",
+        "It will be nice but it will be so bad for me"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Sharp Decline in Optimism Volume",
+      "description": "Optimism dropped 39.7% week-over-week (63 to 38 quotes), the steepest decline among all categories. This represents a significant shift in community sentiment balance, with frustrations now outnumbering optimism 3:1.",
+      "category": "optimism",
+      "related_quotes": [
+        "Those were the days that we all missed and it will never come back again.",
+        "I bought a wmf ss pan, worth every penny"
+      ],
+      "urgency": "low"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate Community Sentiment",
+      "description": "Frustrations account for 57% of all sentiment quotes (119 out of 207 total), creating an imbalanced sentiment landscape. This volume concentration suggests widespread community dissatisfaction across multiple issues.",
+      "category": "frustration",
+      "related_quotes": [
+        "lol the era ended long ago when G decided to let rent go out of whack for free for all.",
+        "Later got new sign that says not allowed to 5man sit on each other like that."
+      ],
+      "urgency": "low"
+    }
+  ]
+}
