@@ -10,8 +10,7 @@ from kopi_sentiment.config.settings import settings
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 
@@ -67,6 +66,17 @@ def _regenerate_analytics(daily_data_dir: str | None = None):
         )
     except Exception as e:
         logger.warning(f"Could not regenerate analytics: {e}")
+
+
+def run_both(args):
+    """Run daily pipeline followed by weekly pipeline sequentially."""
+    logger.info("Running both daily and weekly pipelines sequentially...")
+
+    run_daily(args)
+    logger.info("Daily pipeline complete. Starting weekly pipeline...")
+    run_weekly(args)
+
+    return 0
 
 
 def run_weekly(args):
@@ -356,6 +366,36 @@ def main():
         help="Skip scraping; analyze from previously saved raw data",
     )
     weekly_parser.set_defaults(func=run_weekly)
+
+    # Both command (daily then weekly)
+    both_parser = subparsers.add_parser("both", help="Run daily then weekly analysis sequentially")
+    both_parser.add_argument(
+        "--date",
+        type=str,
+        help="Date to analyze (YYYY-MM-DD), defaults to today",
+    )
+    both_parser.add_argument(
+        "--week",
+        type=str,
+        help="Week ID to analyze (e.g., 2025-W03), defaults to current week",
+    )
+    both_parser.add_argument(
+        "--provider",
+        type=str,
+        choices=["openai", "claude", "hybrid"],
+        help="LLM provider to use",
+    )
+    both_parser.add_argument(
+        "--no-analytics",
+        action="store_true",
+        help="Skip automatic analytics regeneration",
+    )
+    both_parser.add_argument(
+        "--from-raw",
+        action="store_true",
+        help="Skip scraping; analyze from previously saved raw data",
+    )
+    both_parser.set_defaults(func=run_both, posts=None, output=None)
 
     # Analytics command
     analytics_parser = subparsers.add_parser(
