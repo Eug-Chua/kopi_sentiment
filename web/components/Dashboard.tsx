@@ -15,11 +15,13 @@ interface DashboardProps {
 
 // Format date from "2026-01-18" to "18 Jan 2026"
 function formatDate(dateStr: string): string {
-  const date = new Date(dateStr);
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
   return date.toLocaleDateString("en-GB", {
     day: "numeric",
     month: "short",
     year: "numeric",
+    timeZone: "UTC",
   });
 }
 
@@ -44,8 +46,7 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport, weeklyAn
     if (isDaily && dailyReport) {
       return formatDate(dailyReport.report_date);
     }
-    const generatedDate = weeklyReport.generated_at.split("T")[0];
-    return formatDate(generatedDate);
+    return formatDate(weeklyReport.week_end);
   };
 
   return (
