@@ -140,6 +140,7 @@ export interface WeeklyReport {
   week_id: string;
   week_start: string;
   week_end: string;
+  report_date: string;
   generated_at: string;
   metadata: WeeklyReportMetadata;
   overall_sentiment: OverallSentiment;

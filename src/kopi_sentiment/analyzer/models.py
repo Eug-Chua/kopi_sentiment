@@ -203,6 +203,7 @@ class WeeklyReport(BaseModel):
     week_id: str = Field(description="ISO week format, e.g., '2025-W02'")
     week_start: date
     week_end: date
+    report_date: date = Field(description="The date this report covers up to (for display)")
     generated_at: datetime
 
     metadata: WeeklyReportMetadata

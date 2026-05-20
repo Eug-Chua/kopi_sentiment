@@ -46,7 +46,7 @@ export function Dashboard({ weeklyReport, dailyReport, analyticsReport, weeklyAn
     if (isDaily && dailyReport) {
       return formatDate(dailyReport.report_date);
     }
-    return formatDate(weeklyReport.week_end);
+    return formatDate(weeklyReport.report_date);
   };
 
   return (

@@ -242,6 +242,7 @@ class WeeklyPipeline(BasePipeline):
             week_id=week_id,
             week_start=week_start,
             week_end=week_end,
+            report_date=date.today(),
             generated_at=datetime.now(),
             metadata=WeeklyReportMetadata(
                 total_posts_analyzed=total_posts,
