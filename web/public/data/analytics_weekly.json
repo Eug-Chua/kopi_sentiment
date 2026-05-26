@@ -1,6 +1,6 @@
 {
   "schema_version": "analytics_v1",
-  "generated_at": "2026-05-25",
+  "generated_at": "2026-05-26",
   "data_range_start": "2026-01-18",
   "data_range_end": "2026-05-31",
   "days_analyzed": 20,
@@ -352,69 +352,69 @@
       },
       {
         "date": "2026-05-31",
-        "fears_count": 204,
-        "frustrations_count": 366,
-        "optimism_count": 184,
-        "total_quotes": 754,
-        "fears_zscore_sum": -4.660000000000013,
-        "frustrations_zscore_sum": 152.55999999999986,
-        "optimism_zscore_sum": -43.95999999999997,
-        "negativity_score": 147.89999999999984,
-        "positivity_score": -43.95999999999997,
-        "composite_score": -191.85999999999981,
-        "ema_score": -191.12723900127088,
-        "ema_negativity": 154.32831452996786,
-        "ema_positivity": -36.798924471303046,
-        "total_engagement": 41158,
-        "avg_engagement": 54.58620689655172
+        "fears_count": 188,
+        "frustrations_count": 346,
+        "optimism_count": 196,
+        "total_quotes": 730,
+        "fears_zscore_sum": 12.880000000000043,
+        "frustrations_zscore_sum": 127.70999999999962,
+        "optimism_zscore_sum": -31.23999999999997,
+        "negativity_score": 140.58999999999966,
+        "positivity_score": -31.23999999999997,
+        "composite_score": -171.82999999999964,
+        "ema_score": -186.11973900127083,
+        "ema_negativity": 152.5008145299678,
+        "ema_positivity": -33.618924471303046,
+        "total_engagement": 39443,
+        "avg_engagement": 54.03150684931507
       }
     ],
-    "mean_score": -182.158,
-    "std_dev": 56.11031827429017,
+    "mean_score": -181.1565,
+    "std_dev": 56.10679068338797,
     "min_score": -318.7500000000005,
     "max_score": -103.1599999999995,
     "overall_trend": "stable",
-    "trend_slope": -0.2859548872180429,
-    "trend_r_squared": 0.0009090287665962649
+    "trend_slope": 0.00018796992481664594,
+    "trend_r_squared": 3.928383174311989e-10
   },
   "momentum": {
     "report_date": "2026-05-31",
     "lookback_days": 7,
     "fears": {
       "category": "fears",
-      "current_count": 204,
-      "current_zscore_sum": -4.660000000000013,
-      "roc_1d": -146.41434262948226,
-      "roc_3d": -127.87081339712924,
-      "roc_7d": 69.83818770226529,
-      "ema_momentum": 0.0018393577675985817,
+      "current_count": 188,
+      "current_zscore_sum": 12.880000000000043,
+      "roc_1d": 28.286852589642013,
+      "roc_3d": -22.96650717703331,
+      "roc_7d": 183.36569579288053,
+      "ema_momentum": 4.386839357767613,
       "trend": "rising",
       "trend_strength": "strong"
     },
     "frustrations": {
       "category": "frustrations",
-      "current_count": 366,
-      "current_zscore_sum": 152.55999999999986,
-      "roc_1d": -1.3450594930161914,
-      "roc_3d": -18.768968638517762,
-      "roc_7d": -20.32172141849929,
-      "ema_momentum": -2.0869793761200386,
+      "current_count": 346,
+      "current_zscore_sum": 127.70999999999962,
+      "roc_1d": -17.414640455251202,
+      "roc_3d": -32.000425962409054,
+      "roc_7d": -33.30025591476511,
+      "ema_momentum": -8.299479376120098,
       "trend": "falling",
-      "trend_strength": "moderate"
+      "trend_strength": "strong"
     },
     "optimism": {
       "category": "optimism",
-      "current_count": 184,
-      "current_zscore_sum": -43.95999999999997,
-      "roc_1d": 37.88328387734921,
-      "roc_3d": -10.786290322580477,
-      "roc_7d": -84.3959731543629,
-      "ema_momentum": -2.457764343883463,
+      "current_count": 196,
+      "current_zscore_sum": -31.23999999999997,
+      "roc_1d": 55.857001554330985,
+      "roc_3d": 21.270161290322726,
+      "roc_7d": -31.04026845637614,
+      "ema_momentum": 0.7222356561165384,
       "trend": "falling",
       "trend_strength": "strong"
     },
     "fastest_rising": "fears",
-    "fastest_falling": "optimism"
+    "fastest_falling": "frustrations"
   },
   "velocity": {
     "report_date": "2026-05-31",
@@ -422,71 +422,86 @@
     "metrics": [
       {
         "metric_name": "composite_score",
-        "current_value": -191.85999999999981,
-        "velocity": 43.59000000000029,
-        "velocity_zscore": 0.6276083823928298,
-        "acceleration": 77.7700000000001,
+        "current_value": -171.82999999999964,
+        "velocity": 63.62000000000046,
+        "velocity_zscore": 0.8779241298047035,
+        "acceleration": 97.80000000000027,
         "historical_mean": -6.630555555555583,
         "historical_std": 80.01893691107848,
         "alert_level": "none"
       },
       {
         "metric_name": "fears_zscore_sum",
-        "current_value": -4.660000000000013,
-        "velocity": -14.700000000000001,
-        "velocity_zscore": -0.5717562370306509,
-        "acceleration": -31.090000000000003,
+        "current_value": 12.880000000000043,
+        "velocity": 2.840000000000055,
+        "velocity_zscore": 0.06256409171809349,
+        "acceleration": -13.549999999999946,
         "historical_mean": 1.109999999999999,
         "historical_std": 27.651644137906363,
         "alert_level": "none"
       },
       {
         "metric_name": "frustrations_zscore_sum",
-        "current_value": 152.55999999999986,
-        "velocity": -2.08000000000024,
-        "velocity_zscore": -0.09494835895375657,
-        "acceleration": 19.0,
+        "current_value": 127.70999999999962,
+        "velocity": -26.930000000000476,
+        "velocity_zscore": -0.5914459151849155,
+        "acceleration": -5.850000000000236,
         "historical_mean": 2.6722222222222496,
         "historical_std": 50.0505988158995,
         "alert_level": "none"
       },
       {
         "metric_name": "optimism_zscore_sum",
-        "current_value": -43.95999999999997,
-        "velocity": 26.810000000000038,
-        "velocity_zscore": 1.1330293848991004,
-        "acceleration": 65.68000000000008,
+        "current_value": -31.23999999999997,
+        "velocity": 39.530000000000044,
+        "velocity_zscore": 1.6189681466608272,
+        "acceleration": 78.40000000000009,
         "historical_mean": -2.848333333333335,
         "historical_std": 26.1761378200924,
-        "alert_level": "notable"
+        "alert_level": "warning"
       }
     ],
-    "alerts": [],
-    "total_alerts": 0,
+    "alerts": [
+      {
+        "alert_id": "2614d9d8",
+        "triggered_at": "2026-05-31",
+        "severity": "warning",
+        "metric": "optimism_zscore_sum",
+        "category": "optimism",
+        "current_value": 39.530000000000044,
+        "expected_value": -2.848333333333335,
+        "z_score": 1.6189681466608272,
+        "percentile": 94.72729415669458,
+        "direction": "rising",
+        "description": "Optimism has notably increased (z=1.62)",
+        "top_quotes": []
+      }
+    ],
+    "total_alerts": 1,
     "alert_count": 0,
-    "warning_count": 0
+    "warning_count": 1
   },
-  "headline": "Stable negative sentiment this week (score: -191.9)",
+  "headline": "Stable negative sentiment this week (score: -171.8)",
   "key_insights": [
-    "Frustrations dominates this week with 366 quotes (score: +152.6)",
-    "Overall sentiment up 43.6 points from last week",
-    "Fears momentum up 70% (strong trend)"
+    "Frustrations dominates this week with 346 quotes (score: +127.7)",
+    "Overall sentiment up 63.6 points from last week",
+    "Fears momentum up 183% (strong trend)"
   ],
-  "sentiment_commentary": "\u2022 Frustrations dominate with 366 quotes, nearly 80% at strong intensity - people are expressing very heated anger and annoyance.\n\u2022 The frustration score of 153 sits comfortably in the middle of its typical range, showing this level of venting is normal for recent weeks.\n\u2022 Optimism improved significantly from yesterday's 20-day low but remains well below average.",
+  "sentiment_commentary": "\u2022 Frustrations dominate with 346 quotes including 264 at strong intensity - people are extremely vocal about their anger today.\n\n\u2022 Despite the high volume, frustration levels dropped from yesterday's peak and remain within the typical range for this period.\n\n\u2022 Optimism improved significantly from yesterday's 20-day low but stays well below average.",
   "methodology": "Weekly analytics from aggregated weekly reports. Each data point represents one week's sentiment. Momentum/velocity calculated week-over-week.",
   "entity_trends": {
-    "generated_at": "2026-05-25",
+    "generated_at": "2026-05-26",
     "days_analyzed": 1,
     "top_entities": [
       {
         "entity": "EMPLOYMENT",
-        "total_engagement": 2378,
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -498,13 +513,13 @@
       },
       {
         "entity": "RETRENCHMENT",
-        "total_engagement": 2378,
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -516,13 +531,13 @@
       },
       {
         "entity": "META",
-        "total_engagement": 2378,
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -534,13 +549,13 @@
       },
       {
         "entity": "GARDENIA",
-        "total_engagement": 2378,
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -551,14 +566,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "STANCHART",
-        "total_engagement": 2378,
+        "entity": "JOB CUTS",
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -569,14 +584,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "MANUFACTURING",
-        "total_engagement": 2378,
+        "entity": "ECONOMIC UNCERTAINTY",
+        "total_engagement": 3524,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 2378,
+            "engagement": 3524,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -587,86 +602,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "BUSINESS CLOSURE",
-        "total_engagement": 984,
+        "entity": "TRAVEL SAFETY",
+        "total_engagement": 2606,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 984,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "RENTAL COSTS",
-        "total_engagement": 984,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-05-31",
-            "engagement": 984,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "SNOW CITY",
-        "total_engagement": 984,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-05-31",
-            "engagement": 984,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "RETAIL",
-        "total_engagement": 984,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-05-31",
-            "engagement": 984,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "DATING",
-        "total_engagement": 967,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-05-31",
-            "engagement": 967,
+            "engagement": 2606,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -677,14 +620,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "FINANCIAL PLANNING",
-        "total_engagement": 967,
+        "entity": "CRIME",
+        "total_engagement": 2606,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 967,
+            "engagement": 2606,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -695,14 +638,68 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "RELATIONSHIPS",
-        "total_engagement": 967,
+        "entity": "BUENOS AIRES",
+        "total_engagement": 2606,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 967,
+            "engagement": 2606,
+            "mention_count": 1,
+            "categories": [
+              "fear"
+            ]
+          }
+        ],
+        "dominant_category": "fear",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "SCOOT",
+        "total_engagement": 2606,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-05-31",
+            "engagement": 2606,
+            "mention_count": 1,
+            "categories": [
+              "fear"
+            ]
+          }
+        ],
+        "dominant_category": "fear",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "AIRPORT SECURITY",
+        "total_engagement": 2606,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-05-31",
+            "engagement": 2606,
+            "mention_count": 1,
+            "categories": [
+              "fear"
+            ]
+          }
+        ],
+        "dominant_category": "fear",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "TOURISM",
+        "total_engagement": 2606,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-05-31",
+            "engagement": 2606,
             "mention_count": 1,
             "categories": [
               "fear"
@@ -714,13 +711,31 @@
       },
       {
         "entity": "HAWKER CULTURE",
-        "total_engagement": 896,
+        "total_engagement": 1492,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 896,
+            "engagement": 1492,
+            "mention_count": 1,
+            "categories": [
+              "frustration"
+            ]
+          }
+        ],
+        "dominant_category": "frustration",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "KF SEETOH",
+        "total_engagement": 1492,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-05-31",
+            "engagement": 1492,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -732,13 +747,13 @@
       },
       {
         "entity": "PM WONG",
-        "total_engagement": 896,
+        "total_engagement": 1492,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-05-31",
-            "engagement": 896,
+            "engagement": 1492,
             "mention_count": 1,
             "categories": [
               "frustration"
