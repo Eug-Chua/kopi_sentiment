@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     # Reddit scraping
     reddit_base_url: str = "https://old.reddit.com"
     reddit_subreddit: list[str] = ['singapore', 'askSingapore', 'SingaporeRaw', 'singaporefi']
-    reddit_user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    reddit_user_agent: str = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
     reddit_client_id: str = ""
     reddit_client_secret: str = ""
 
