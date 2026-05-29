@@ -279,7 +279,11 @@ class RedditScraper:
         last_error = None
         for fetcher in self.fetchers:
             try:
-                return func(fetcher)
+                result = func(fetcher)
+                fetcher_name = type(fetcher).__name__
+                if last_error is not None:
+                    logger.info(f"{fetcher_name}.{operation} succeeded (fallback)")
+                return result
             except Exception as e:
                 fetcher_name = type(fetcher).__name__
                 logger.warning(f"{fetcher_name}.{operation} failed: {e}")
