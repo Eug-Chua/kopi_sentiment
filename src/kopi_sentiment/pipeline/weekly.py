@@ -150,7 +150,7 @@ class WeeklyPipeline(BasePipeline):
                 all_scraped_posts.extend(posts)
 
                 if i < len(self.subreddits) - 1:
-                    logger.info("Waiting 1 minute before next subreddit...")
+                    logger.info(f"Waiting {settings.subreddit_delay_weekly} seconds before next subreddit...")
                     time.sleep(settings.subreddit_delay_weekly)
 
             # Phase 2: Save raw scraped data before LLM analysis

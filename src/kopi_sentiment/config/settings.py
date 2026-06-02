@@ -38,7 +38,7 @@ class Settings(BaseSettings):
     comments_per_post: int = 25
 
     # Pipeline settings - Weekly
-    subreddit_delay_weekly: int = 60
+    subreddit_delay_weekly: int = 120
     high_engagement_min_score_weekly: int = 20
     high_engagement_limit_weekly: int = 15
 
