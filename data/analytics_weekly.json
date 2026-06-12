@@ -1,6 +1,6 @@
 {
   "schema_version": "analytics_v1",
-  "generated_at": "2026-06-11",
+  "generated_at": "2026-06-12",
   "data_range_start": "2026-01-18",
   "data_range_end": "2026-06-14",
   "days_analyzed": 22,
@@ -388,64 +388,64 @@
       },
       {
         "date": "2026-06-14",
-        "fears_count": 177,
-        "frustrations_count": 443,
-        "optimism_count": 179,
-        "total_quotes": 799,
-        "fears_zscore_sum": -31.62999999999986,
-        "frustrations_zscore_sum": 239.53000000000094,
-        "optimism_zscore_sum": -72.71000000000004,
-        "negativity_score": 207.90000000000109,
-        "positivity_score": -72.71000000000004,
-        "composite_score": -280.61000000000115,
-        "ema_score": -212.41000943821518,
-        "ema_negativity": 166.0963956731072,
-        "ema_positivity": -46.31361376510799,
-        "total_engagement": 41326,
-        "avg_engagement": 51.72215269086358
+        "fears_count": 178,
+        "frustrations_count": 433,
+        "optimism_count": 200,
+        "total_quotes": 811,
+        "fears_zscore_sum": -20.369999999999877,
+        "frustrations_zscore_sum": 182.13000000000034,
+        "optimism_zscore_sum": -45.70000000000004,
+        "negativity_score": 161.76000000000045,
+        "positivity_score": -45.70000000000004,
+        "composite_score": -207.4600000000005,
+        "ema_score": -194.12250943821502,
+        "ema_negativity": 154.56139567310703,
+        "ema_positivity": -39.56111376510799,
+        "total_engagement": 39672,
+        "avg_engagement": 48.9173859432799
       }
     ],
-    "mean_score": -186.31818181818187,
-    "std_dev": 58.18569433381604,
+    "mean_score": -182.99318181818182,
+    "std_dev": 54.5151273358285,
     "min_score": -318.7500000000005,
     "max_score": -103.1599999999995,
-    "overall_trend": "falling",
-    "trend_slope": -1.3534387351778783,
-    "trend_r_squared": 0.02281466162875334
+    "overall_trend": "stable",
+    "trend_slope": -0.48604743083004437,
+    "trend_r_squared": 0.003351911263261842
   },
   "momentum": {
     "report_date": "2026-06-14",
     "lookback_days": 7,
     "fears": {
       "category": "fears",
-      "current_count": 177,
-      "current_zscore_sum": -31.62999999999986,
-      "roc_1d": 19.90377310711608,
-      "roc_3d": -415.0398406374491,
-      "roc_7d": -3494.31818181815,
-      "ema_momentum": -5.40740286125569,
+      "current_count": 178,
+      "current_zscore_sum": -20.369999999999877,
+      "roc_1d": 48.41732084071948,
+      "roc_3d": -302.88844621513846,
+      "roc_7d": -2214.7727272727034,
+      "ema_momentum": -2.592402861255694,
       "trend": "falling",
       "trend_strength": "strong"
     },
     "frustrations": {
       "category": "frustrations",
-      "current_count": 443,
-      "current_zscore_sum": 239.53000000000094,
-      "roc_1d": 23.234038174615705,
-      "roc_3d": 54.89524055871753,
-      "roc_7d": 83.30909925767317,
-      "ema_momentum": 19.37435535093274,
+      "current_count": 433,
+      "current_zscore_sum": 182.13000000000034,
+      "roc_1d": -6.297268096928518,
+      "roc_3d": 17.776771857216904,
+      "roc_7d": 39.38164842733664,
+      "ema_momentum": 5.024355350932586,
       "trend": "rising",
       "trend_strength": "strong"
     },
     "optimism": {
       "category": "optimism",
-      "current_count": 179,
-      "current_zscore_sum": -72.71000000000004,
-      "roc_1d": -19.726658982380957,
-      "roc_3d": -2.7412745513636088,
-      "roc_7d": -1174.002954209731,
-      "ema_momentum": -8.838586193434459,
+      "current_count": 200,
+      "current_zscore_sum": -45.70000000000004,
+      "roc_1d": 24.748888522970546,
+      "roc_3d": 35.424614949837455,
+      "roc_7d": -775.0369276218499,
+      "ema_momentum": -2.0860861934344586,
       "trend": "falling",
       "trend_strength": "strong"
     },
@@ -458,40 +458,40 @@
     "metrics": [
       {
         "metric_name": "composite_score",
-        "current_value": -280.61000000000115,
-        "velocity": -65.00000000000077,
-        "velocity_zscore": -0.7543137124113417,
-        "acceleration": -0.869999999999834,
+        "current_value": -207.4600000000005,
+        "velocity": 8.149999999999892,
+        "velocity_zscore": 0.1649450579722429,
+        "acceleration": 72.28000000000083,
         "historical_mean": -4.9755000000000384,
         "historical_std": 79.57498188402045,
         "alert_level": "none"
       },
       {
         "metric_name": "fears_zscore_sum",
-        "current_value": -31.62999999999986,
-        "velocity": 7.8600000000001415,
-        "velocity_zscore": 0.324041551471767,
-        "acceleration": 60.67000000000015,
+        "current_value": -20.369999999999877,
+        "velocity": 19.120000000000125,
+        "velocity_zscore": 0.7148000917204455,
+        "acceleration": 71.93000000000013,
         "historical_mean": -1.4775000000000003,
         "historical_std": 28.81574896055791,
         "alert_level": "none"
       },
       {
         "metric_name": "frustrations_zscore_sum",
-        "current_value": 239.53000000000094,
-        "velocity": 45.16000000000062,
-        "velocity_zscore": 0.8063308647270936,
-        "acceleration": -26.92000000000023,
+        "current_value": 182.13000000000034,
+        "velocity": -12.23999999999998,
+        "velocity_zscore": -0.32894248688836913,
+        "acceleration": -84.32000000000083,
         "historical_mean": 4.391500000000035,
         "historical_std": 50.56051031086212,
         "alert_level": "none"
       },
       {
         "metric_name": "optimism_zscore_sum",
-        "current_value": -72.71000000000004,
-        "velocity": -11.979999999999968,
-        "velocity_zscore": -0.33419568699586216,
-        "acceleration": 32.88000000000012,
+        "current_value": -45.70000000000004,
+        "velocity": 15.03000000000003,
+        "velocity_zscore": 0.5758840131360398,
+        "acceleration": 59.89000000000012,
         "historical_mean": -2.0615000000000046,
         "historical_std": 29.67871934302602,
         "alert_level": "none"
@@ -502,27 +502,27 @@
     "alert_count": 0,
     "warning_count": 0
   },
-  "headline": "Weekly sentiment declining, fears falling",
+  "headline": "Stable negative sentiment this week (score: -207.5)",
   "key_insights": [
-    "Frustrations dominates this week with 443 quotes (score: +239.5)",
-    "Overall sentiment down 65.0 points from last week",
-    "Frustrations momentum up 83% (strong trend)"
+    "Frustrations dominates this week with 433 quotes (score: +182.1)",
+    "Overall sentiment up 8.1 points from last week",
+    "Frustrations momentum up 39% (strong trend)"
   ],
-  "sentiment_commentary": "\u2022 Frustrations dominate with 443 quotes and 392 at strong intensity - people are extremely agitated and venting heavily today.\n\n\u2022 This hits the highest frustration level in the 22-day period, surging from yesterday's already elevated score.\n\n\u2022 Both fears and optimism remain deeply suppressed, with optimism at its lowest point in weeks.",
+  "sentiment_commentary": "\u2022 Frustrations dominate with 433 quotes including 342 at strong intensity - people are expressing serious anger and dissatisfaction today.\n\n\u2022 The frustration score of 182.1 sits in the upper portion of the 22-day range, showing sustained high irritation levels.\n\n\u2022 Fears improved notably from yesterday's low while optimism remains deeply negative despite a modest recovery.",
   "methodology": "Weekly analytics from aggregated weekly reports. Each data point represents one week's sentiment. Momentum/velocity calculated week-over-week.",
   "entity_trends": {
-    "generated_at": "2026-06-11",
+    "generated_at": "2026-06-12",
     "days_analyzed": 1,
     "top_entities": [
       {
-        "entity": "SMRT",
-        "total_engagement": 5812,
+        "entity": "EMPLOYMENT",
+        "total_engagement": 2897,
         "total_mentions": 2,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 5812,
+            "engagement": 2897,
             "mention_count": 2,
             "categories": [
               "frustration"
@@ -533,14 +533,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "PUBLIC ART",
-        "total_engagement": 3531,
+        "entity": "FLOWER MARKET",
+        "total_engagement": 1664,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 3531,
+            "engagement": 1664,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -551,32 +551,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "CENSORSHIP",
-        "total_engagement": 3531,
+        "entity": "KIASU",
+        "total_engagement": 1664,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 3531,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "POLICE",
-        "total_engagement": 3531,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-06-14",
-            "engagement": 3531,
+            "engagement": 1664,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -588,13 +570,31 @@
       },
       {
         "entity": "EL NINO",
-        "total_engagement": 2281,
+        "total_engagement": 1636,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 2281,
+            "engagement": 1636,
+            "mention_count": 1,
+            "categories": [
+              "frustration"
+            ]
+          }
+        ],
+        "dominant_category": "frustration",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "SMRT",
+        "total_engagement": 1636,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-06-14",
+            "engagement": 1636,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -606,13 +606,13 @@
       },
       {
         "entity": "AIRCON",
-        "total_engagement": 2281,
+        "total_engagement": 1636,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 2281,
+            "engagement": 1636,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -620,107 +620,71 @@
           }
         ],
         "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "WEATHER",
-        "total_engagement": 2281,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-06-14",
-            "engagement": 2281,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "EMPLOYMENT",
-        "total_engagement": 1517,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-06-14",
-            "engagement": 1517,
-            "mention_count": 1,
-            "categories": [
-              "fear"
-            ]
-          }
-        ],
-        "dominant_category": "fear",
         "trend_direction": "stable"
       },
       {
         "entity": "SHOPEE",
-        "total_engagement": 1517,
+        "total_engagement": 1557,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1517,
+            "engagement": 1557,
             "mention_count": 1,
             "categories": [
-              "fear"
+              "frustration"
             ]
           }
         ],
-        "dominant_category": "fear",
+        "dominant_category": "frustration",
         "trend_direction": "stable"
       },
       {
-        "entity": "TECH JOBS",
-        "total_engagement": 1517,
+        "entity": "AI",
+        "total_engagement": 1557,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1517,
+            "engagement": 1557,
             "mention_count": 1,
             "categories": [
-              "fear"
+              "frustration"
             ]
           }
         ],
-        "dominant_category": "fear",
+        "dominant_category": "frustration",
         "trend_direction": "stable"
       },
       {
-        "entity": "WORKPLACE CULTURE",
-        "total_engagement": 1517,
+        "entity": "LAYOFFS",
+        "total_engagement": 1557,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1517,
+            "engagement": 1557,
             "mention_count": 1,
             "categories": [
-              "fear"
+              "frustration"
             ]
           }
         ],
-        "dominant_category": "fear",
+        "dominant_category": "frustration",
         "trend_direction": "stable"
       },
       {
         "entity": "PAYNOW",
-        "total_engagement": 1364,
+        "total_engagement": 1377,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1364,
+            "engagement": 1377,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -731,32 +695,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "MAS",
-        "total_engagement": 1364,
+        "entity": "IDENTITY MASKING",
+        "total_engagement": 1377,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1364,
-            "mention_count": 1,
-            "categories": [
-              "frustration"
-            ]
-          }
-        ],
-        "dominant_category": "frustration",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "BANKING",
-        "total_engagement": 1364,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-06-14",
-            "engagement": 1364,
+            "engagement": 1377,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -768,20 +714,56 @@
       },
       {
         "entity": "IMMIGRATION",
-        "total_engagement": 1066,
+        "total_engagement": 1340,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-06-14",
-            "engagement": 1066,
+            "engagement": 1340,
             "mention_count": 1,
             "categories": [
-              "fear"
+              "frustration"
             ]
           }
         ],
-        "dominant_category": "fear",
+        "dominant_category": "frustration",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "MICRON",
+        "total_engagement": 1340,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-06-14",
+            "engagement": 1340,
+            "mention_count": 1,
+            "categories": [
+              "frustration"
+            ]
+          }
+        ],
+        "dominant_category": "frustration",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "FOREIGN WORKERS",
+        "total_engagement": 1340,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-06-14",
+            "engagement": 1340,
+            "mention_count": 1,
+            "categories": [
+              "frustration"
+            ]
+          }
+        ],
+        "dominant_category": "frustration",
         "trend_direction": "stable"
       }
     ]
