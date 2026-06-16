@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     # Extraction model: used for quote extraction and intensity assessment (high volume)
     extraction_model: str = "claude-haiku-4-5-20251001"
     # Synthesis model: used for summaries, insights, signals (requires more reasoning)
-    synthesis_model: str = "claude-sonnet-4-20250514"
+    synthesis_model: str = "claude-sonnet-4-6"
     # Fallback model (OpenAI)
     openai_model: str = "gpt-4o-mini"
 

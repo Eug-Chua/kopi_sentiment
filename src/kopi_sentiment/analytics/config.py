@@ -81,7 +81,7 @@ class PipelineConfig(BaseModel):
 
 class CommentaryConfig(BaseModel):
     """LLM commentary generation settings."""
-    model: str = Field(default="claude-sonnet-4-20250514", description="Model for commentary")
+    model: str = Field(default="claude-sonnet-4-6", description="Model for commentary")
     max_tokens: int = Field(default=500, description="Max tokens for commentary response")
 
 
