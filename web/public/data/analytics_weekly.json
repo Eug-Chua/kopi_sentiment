@@ -1,6 +1,6 @@
 {
   "schema_version": "analytics_v1",
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "data_range_start": "2026-01-18",
   "data_range_end": "2026-08-16",
   "days_analyzed": 31,
@@ -550,64 +550,64 @@
       },
       {
         "date": "2026-08-16",
-        "fears_count": 199,
-        "frustrations_count": 392,
-        "optimism_count": 259,
-        "total_quotes": 850,
-        "fears_zscore_sum": -25.659999999999897,
-        "frustrations_zscore_sum": 158.96999999999989,
-        "optimism_zscore_sum": 6.940000000000018,
-        "negativity_score": 133.31,
-        "positivity_score": 6.940000000000018,
-        "composite_score": -126.36999999999999,
-        "ema_score": -202.51503422078105,
-        "ema_negativity": 182.4905003205635,
-        "ema_positivity": -20.024533900217488,
-        "total_engagement": 39730,
-        "avg_engagement": 46.741176470588236
+        "fears_count": 208,
+        "frustrations_count": 438,
+        "optimism_count": 269,
+        "total_quotes": 915,
+        "fears_zscore_sum": -26.619999999999852,
+        "frustrations_zscore_sum": 207.03000000000026,
+        "optimism_zscore_sum": -8.459999999999953,
+        "negativity_score": 180.4100000000004,
+        "positivity_score": -8.459999999999953,
+        "composite_score": -188.87000000000035,
+        "ema_score": -218.14003422078113,
+        "ema_negativity": 194.26550032056363,
+        "ema_positivity": -23.87453390021748,
+        "total_engagement": 43132,
+        "avg_engagement": 47.13879781420765
       }
     ],
-    "mean_score": -191.3512903225807,
-    "std_dev": 58.39512695091033,
+    "mean_score": -193.36741935483877,
+    "std_dev": 57.14230954192328,
     "min_score": -318.7500000000005,
     "max_score": -94.96000000000008,
     "overall_trend": "falling",
-    "trend_slope": -1.2729112903225883,
-    "trend_r_squared": 0.03928018181842974
+    "trend_slope": -1.6509354838709769,
+    "trend_r_squared": 0.06900412468434935
   },
   "momentum": {
     "report_date": "2026-08-16",
     "lookback_days": 7,
     "fears": {
       "category": "fears",
-      "current_count": 199,
-      "current_zscore_sum": -25.659999999999897,
-      "roc_1d": -2232.7272727272466,
-      "roc_3d": 42.69763287181797,
-      "roc_7d": 21.456994184266804,
-      "ema_momentum": -3.1196170731280923,
+      "current_count": 208,
+      "current_zscore_sum": -26.619999999999852,
+      "roc_1d": -2319.999999999969,
+      "roc_3d": 40.55381866904898,
+      "roc_7d": 18.518518518518533,
+      "ema_momentum": -3.359617073128081,
       "trend": "rising",
       "trend_strength": "moderate"
     },
     "frustrations": {
       "category": "frustrations",
-      "current_count": 392,
-      "current_zscore_sum": 158.96999999999989,
-      "roc_1d": -26.375509447943905,
-      "roc_3d": -46.88429282635565,
-      "roc_7d": -21.670362158167276,
-      "ema_momentum": -13.271448959837409,
-      "trend": "falling",
-      "trend_strength": "moderate"
+      "current_count": 438,
+      "current_zscore_sum": 207.03000000000026,
+      "roc_1d": -4.117265653946008,
+      "roc_3d": -30.826288883691188,
+      "roc_7d": 2.010347376200924,
+      "ema_momentum": -1.2564489598373154,
+      "trend": "stable",
+      "trend_strength": "weak"
     },
     "optimism": {
       "category": "optimism",
-      "current_count": 259,
-      "current_zscore_sum": 6.940000000000018,
-      "roc_1d": 154.13416536661524,
-      "roc_3d": 169.60882647943853,
-      "roc_7d": 112.88765088207988,
-      "ema_momentum": 8.985190288370625,
+      "current_count": 269,
+      "current_zscore_sum": -8.459999999999953,
+      "roc_1d": 34.00936037441482,
+      "roc_3d": 15.145436308927213,
+      "roc_7d": 84.28969359331485,
+      "ema_momentum": 5.135190288370632,
       "trend": "rising",
       "trend_strength": "strong"
     },
@@ -620,40 +620,40 @@
     "metrics": [
       {
         "metric_name": "composite_score",
-        "current_value": -126.36999999999999,
-        "velocity": 101.27000000000042,
-        "velocity_zscore": 1.2824857050567462,
-        "acceleration": 67.7900000000002,
+        "current_value": -188.87000000000035,
+        "velocity": 38.77000000000007,
+        "velocity_zscore": 0.5199452849583475,
+        "acceleration": 5.28999999999985,
         "historical_mean": -3.846206896551752,
         "historical_std": 81.96286826596722,
-        "alert_level": "notable"
+        "alert_level": "none"
       },
       {
         "metric_name": "fears_zscore_sum",
-        "current_value": -25.659999999999897,
-        "velocity": -24.55999999999989,
-        "velocity_zscore": -0.853932470248183,
-        "acceleration": -19.689999999999884,
+        "current_value": -26.619999999999852,
+        "velocity": -25.519999999999843,
+        "velocity_zscore": -0.8869017385286906,
+        "acceleration": -20.64999999999984,
         "historical_mean": 0.30482758620689615,
         "historical_std": 29.11802566657313,
         "alert_level": "none"
       },
       {
         "metric_name": "frustrations_zscore_sum",
-        "current_value": 158.96999999999989,
-        "velocity": -56.950000000000614,
-        "velocity_zscore": -1.1799688606195997,
-        "acceleration": -60.350000000000534,
+        "current_value": 207.03000000000026,
+        "velocity": -8.890000000000242,
+        "velocity_zscore": -0.24604769407694543,
+        "acceleration": -12.290000000000163,
         "historical_mean": 3.771724137931065,
         "historical_std": 51.46044625791803,
-        "alert_level": "notable"
+        "alert_level": "none"
       },
       {
         "metric_name": "optimism_zscore_sum",
-        "current_value": 6.940000000000018,
-        "velocity": 19.759999999999916,
-        "velocity_zscore": 0.5459582764779843,
-        "acceleration": -12.250000000000217,
+        "current_value": -8.459999999999953,
+        "velocity": 4.359999999999944,
+        "velocity_zscore": 0.11544594108164906,
+        "acceleration": -27.65000000000019,
         "historical_mean": 0.23034482758620986,
         "historical_std": 35.77133274432783,
         "alert_level": "none"
@@ -666,25 +666,25 @@
   },
   "headline": "Weekly sentiment declining, frustrations falling",
   "key_insights": [
-    "Frustrations dominates this week with 392 quotes (score: +159.0)",
-    "Overall sentiment up 101.3 points from last week",
-    "Optimism momentum up 113% (strong trend)"
+    "Frustrations dominates this week with 438 quotes (score: +207.0)",
+    "Overall sentiment up 38.8 points from last week",
+    "Optimism momentum up 84% (strong trend)"
   ],
-  "sentiment_commentary": "\u2022 Frustrations dominate with 392 quotes and an overwhelming 305 at strong intensity, though the score of 159.0 has dropped sharply from yesterday's 215.9.\n\u2022 Frustrations remain well above the 31-day floor of 106.5 but are easing away from the recent peak of 299.3, suggesting the venting is intense but cooling.\n\u2022 Optimism quietly climbed out of negative territory to 6.9 \u2014 its highest point in the 31-day range \u2014 while Fears sank to -25.7, signalling unusually low anxiety activity today.",
+  "sentiment_commentary": "\u2022 Frustrations dominate with 438 quotes and an outsized 360 at strong intensity, meaning a large volume of people are venting forcefully today.\n\u2022 The score of 207.0 sits in the upper half of the 31-day range (106.5\u2013299.3), so this is elevated but not at peak levels.\n\u2022 Frustrations have eased slightly from yesterday's 215.9, continuing a gradual pullback from recent highs.",
   "methodology": "Weekly analytics from aggregated weekly reports. Each data point represents one week's sentiment. Momentum/velocity calculated week-over-week.",
   "entity_trends": {
-    "generated_at": "2026-08-14",
+    "generated_at": "2026-08-15",
     "days_analyzed": 1,
     "top_entities": [
       {
         "entity": "NDP",
-        "total_engagement": 6871,
+        "total_engagement": 7121,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 6871,
+            "engagement": 7121,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -696,13 +696,13 @@
       },
       {
         "entity": "MERLION",
-        "total_engagement": 6871,
+        "total_engagement": 7121,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 6871,
+            "engagement": 7121,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -713,14 +713,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "NATIONAL STADIUM",
-        "total_engagement": 6871,
+        "entity": "SINGAPORE IDENTITY",
+        "total_engagement": 7121,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 6871,
+            "engagement": 7121,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -731,14 +731,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "KALLANG",
-        "total_engagement": 6871,
+        "entity": "NATIONAL DAY",
+        "total_engagement": 7121,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 6871,
+            "engagement": 7121,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -749,14 +749,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "SINGLISH",
-        "total_engagement": 6871,
+        "entity": "ITE",
+        "total_engagement": 2684,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 6871,
+            "engagement": 2684,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -767,86 +767,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "ASEAN CUP",
-        "total_engagement": 1760,
+        "entity": "FOREIGN TALENT",
+        "total_engagement": 2684,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1760,
-            "mention_count": 1,
-            "categories": [
-              "optimism"
-            ]
-          }
-        ],
-        "dominant_category": "optimism",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "TAMPINES HUB",
-        "total_engagement": 1760,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-08-16",
-            "engagement": 1760,
-            "mention_count": 1,
-            "categories": [
-              "optimism"
-            ]
-          }
-        ],
-        "dominant_category": "optimism",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "JALAN BESAR",
-        "total_engagement": 1760,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-08-16",
-            "engagement": 1760,
-            "mention_count": 1,
-            "categories": [
-              "optimism"
-            ]
-          }
-        ],
-        "dominant_category": "optimism",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "SPORTS HUB",
-        "total_engagement": 1760,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-08-16",
-            "engagement": 1760,
-            "mention_count": 1,
-            "categories": [
-              "optimism"
-            ]
-          }
-        ],
-        "dominant_category": "optimism",
-        "trend_direction": "stable"
-      },
-      {
-        "entity": "JOSEPH SCHOOLING",
-        "total_engagement": 1760,
-        "total_mentions": 1,
-        "days_present": 1,
-        "daily_data": [
-          {
-            "date": "2026-08-16",
-            "engagement": 1760,
+            "engagement": 2684,
             "mention_count": 1,
             "categories": [
               "optimism"
@@ -858,13 +786,67 @@
       },
       {
         "entity": "EMPLOYMENT",
-        "total_engagement": 1560,
+        "total_engagement": 2684,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1560,
+            "engagement": 2684,
+            "mention_count": 1,
+            "categories": [
+              "optimism"
+            ]
+          }
+        ],
+        "dominant_category": "optimism",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "WAGES",
+        "total_engagement": 2684,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-08-16",
+            "engagement": 2684,
+            "mention_count": 1,
+            "categories": [
+              "optimism"
+            ]
+          }
+        ],
+        "dominant_category": "optimism",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "SOCIAL MOBILITY",
+        "total_engagement": 2684,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-08-16",
+            "engagement": 2684,
+            "mention_count": 1,
+            "categories": [
+              "optimism"
+            ]
+          }
+        ],
+        "dominant_category": "optimism",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "SINGAPORE AIRLINES",
+        "total_engagement": 1588,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-08-16",
+            "engagement": 1588,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -875,14 +857,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "IMMIGRATION",
-        "total_engagement": 1560,
+        "entity": "SIA",
+        "total_engagement": 1588,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1560,
+            "engagement": 1588,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -893,14 +875,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "ISD",
-        "total_engagement": 1560,
+        "entity": "AIR INDIA",
+        "total_engagement": 1588,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1560,
+            "engagement": 1588,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -911,14 +893,14 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "SINGAPOREAN IDENTITY",
-        "total_engagement": 1560,
+        "entity": "TEMASEK",
+        "total_engagement": 1588,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1560,
+            "engagement": 1588,
             "mention_count": 1,
             "categories": [
               "frustration"
@@ -929,14 +911,32 @@
         "trend_direction": "stable"
       },
       {
-        "entity": "EXPATS",
-        "total_engagement": 1560,
+        "entity": "HDB",
+        "total_engagement": 1437,
         "total_mentions": 1,
         "days_present": 1,
         "daily_data": [
           {
             "date": "2026-08-16",
-            "engagement": 1560,
+            "engagement": 1437,
+            "mention_count": 1,
+            "categories": [
+              "frustration"
+            ]
+          }
+        ],
+        "dominant_category": "frustration",
+        "trend_direction": "stable"
+      },
+      {
+        "entity": "BTO",
+        "total_engagement": 1437,
+        "total_mentions": 1,
+        "days_present": 1,
+        "daily_data": [
+          {
+            "date": "2026-08-16",
+            "engagement": 1437,
             "mention_count": 1,
             "categories": [
               "frustration"
