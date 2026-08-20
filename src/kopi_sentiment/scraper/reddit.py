@@ -1,12 +1,18 @@
-"""Reddit scraper with pluggable fetch strategies (JSON primary, HTML fallback).
+"""Reddit scraper with pluggable fetch strategies (browser primary, HTTP fallbacks).
 
 Uses the Strategy Pattern (OCP) so new fetch methods can be added without
 modifying existing code. Each strategy implements the RedditFetcher protocol.
+
+Since Reddit's Aug 2026 login wall, plain HTTP clients are blocked; the
+browser-based strategy (see browser.py) is primary and the JSON/HTML HTTP
+strategies remain as fallbacks. All strategies share the same URL builders
+and JSON parsers (pure functions below) so they cannot drift apart.
 """
 
 import time
 from datetime import datetime
 from typing import Protocol
+from urllib.parse import urlencode
 from pydantic import BaseModel
 import requests
 from bs4 import BeautifulSoup
@@ -14,6 +20,15 @@ from kopi_sentiment.config.settings import settings
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+class EmptyListingError(Exception):
+    """A fetcher returned zero posts for a listing that should never be empty.
+
+    Treated as a fetch failure so the fallback chain advances instead of
+    silently producing an empty report (e.g. when a login wall page parses
+    to nothing).
+    """
 
 
 # ---- Models ----
@@ -47,6 +62,41 @@ class RedditFetcher(Protocol):
     def search_posts(self, subreddit: str, query: str, limit: int, sort: str, time_filter: str) -> list[RedditPost]: ...
 
 
+# ---- Shared JSON endpoint URLs (pure functions, used by JSON + browser strategies) ----
+
+def listing_json_url(subreddit: str, limit: int, sort: str, time_filter: str) -> str:
+    """Build the old.reddit.com JSON URL for a subreddit listing."""
+    if sort == "hot":
+        base = f"{settings.reddit_base_url}/r/{subreddit}.json"
+    else:
+        base = f"{settings.reddit_base_url}/r/{subreddit}/{sort}.json"
+
+    params = {"limit": limit}
+    if sort == "top":
+        params["t"] = time_filter
+    return f"{base}?{urlencode(params)}"
+
+
+def thread_json_url(post_url: str, limit: int | None = None) -> str:
+    """Build the JSON URL for a single post thread (selftext + comments)."""
+    url = post_url.rstrip("/") + ".json"
+    if limit is not None:
+        url = f"{url}?{urlencode({'limit': limit})}"
+    return url
+
+
+def search_json_url(subreddit: str, query: str, limit: int, sort: str, time_filter: str) -> str:
+    """Build the JSON URL for a subreddit search."""
+    params = {
+        "q": query,
+        "restrict_sr": "on",
+        "sort": sort,
+        "t": time_filter,
+        "limit": limit,
+    }
+    return f"{settings.reddit_base_url}/r/{subreddit}/search.json?{urlencode(params)}"
+
+
 # ---- JSON Fetcher Strategy ----
 
 class JsonRedditFetcher:
@@ -59,83 +109,26 @@ class JsonRedditFetcher:
             'Accept': 'application/json',
         })
 
-    def fetch_posts(self, subreddit: str, limit: int, sort: str, time_filter: str) -> list[RedditPost]:
-        if sort == "hot":
-            url = f"{settings.reddit_base_url}/r/{subreddit}.json"
-        else:
-            url = f"{settings.reddit_base_url}/r/{subreddit}/{sort}.json"
-
-        params = {"limit": limit}
-        if sort == "top":
-            params["t"] = time_filter
-
-        response = self.session.get(url, params=params)
-        response.raise_for_status()
-
-        data = response.json()
-        posts = []
-        for child in data.get("data", {}).get("children", []):
-            post = _parse_json_post(child.get("data", {}))
-            if post:
-                posts.append(post)
-        return posts
-
-    def fetch_post_content(self, post: RedditPost) -> str:
-        url = post.url.rstrip("/") + ".json"
+    def _get_json(self, url: str):
         response = self.session.get(url)
         response.raise_for_status()
+        return response.json()
 
-        data = response.json()
-        if isinstance(data, list) and len(data) > 0:
-            children = data[0].get("data", {}).get("children", [])
-            if children:
-                return children[0].get("data", {}).get("selftext", "")
-        return ""
+    def fetch_posts(self, subreddit: str, limit: int, sort: str, time_filter: str) -> list[RedditPost]:
+        data = self._get_json(listing_json_url(subreddit, limit, sort, time_filter))
+        return _parse_listing_json(data)
+
+    def fetch_post_content(self, post: RedditPost) -> str:
+        data = self._get_json(thread_json_url(post.url))
+        return _parse_thread_selftext_json(data)
 
     def fetch_post_comments(self, post: RedditPost, limit: int) -> list[Comment]:
-        url = post.url.rstrip("/") + ".json"
-        params = {"limit": limit}
-        response = self.session.get(url, params=params)
-        response.raise_for_status()
-
-        data = response.json()
-        if not isinstance(data, list) or len(data) < 2:
-            return []
-
-        comment_children = data[1].get("data", {}).get("children", [])
-        comments = []
-        for child in comment_children:
-            if child.get("kind") != "t1":
-                continue
-            cdata = child.get("data", {})
-            body = cdata.get("body", "")
-            score = cdata.get("score", 0)
-            if body:
-                comments.append(Comment(text=body, score=score))
-
-        comments.sort(key=lambda x: x.score, reverse=True)
-        return comments
+        data = self._get_json(thread_json_url(post.url, limit=limit))
+        return _parse_thread_comments_json(data)
 
     def search_posts(self, subreddit: str, query: str, limit: int, sort: str, time_filter: str) -> list[RedditPost]:
-        url = f"{settings.reddit_base_url}/r/{subreddit}/search.json"
-        params = {
-            "q": query,
-            "restrict_sr": "on",
-            "sort": sort,
-            "t": time_filter,
-            "limit": limit,
-        }
-
-        response = self.session.get(url, params=params)
-        response.raise_for_status()
-
-        data = response.json()
-        posts = []
-        for child in data.get("data", {}).get("children", []):
-            post = _parse_json_post(child.get("data", {}))
-            if post:
-                posts.append(post)
-        return posts
+        data = self._get_json(search_json_url(subreddit, query, limit, sort, time_filter))
+        return _parse_listing_json(data)
 
 
 # ---- HTML Scraping Fetcher Strategy ----
@@ -263,16 +256,34 @@ class HtmlRedditFetcher:
 
 # ---- Orchestrator (SRP: only handles fallback logic and composition) ----
 
+def _default_fetchers() -> list["RedditFetcher"]:
+    """Compose the default strategy chain: real browser first (survives the
+    login wall), then the plain-HTTP strategies as fallbacks.
+
+    The browser strategy is skipped gracefully where playwright is not
+    installed (e.g. analytics-only CI jobs).
+    """
+    fetchers: list[RedditFetcher] = []
+    if settings.reddit_use_browser:
+        try:
+            from kopi_sentiment.scraper.browser import BrowserRedditFetcher
+            fetchers.append(BrowserRedditFetcher())
+        except ImportError:
+            logger.info("playwright not installed; skipping browser fetcher")
+    fetchers.extend([JsonRedditFetcher(), HtmlRedditFetcher()])
+    return fetchers
+
+
 class RedditScraper:
     """Orchestrates Reddit fetching with fallback strategies.
 
     Tries each fetcher in order until one succeeds. Default order:
-    JSON endpoints first, HTML scraping as fallback.
+    browser session first, then JSON endpoints, then HTML scraping.
     """
 
     def __init__(self, subreddit: str | None = None, fetchers: list[RedditFetcher] | None = None):
         self.subreddit = subreddit or settings.reddit_subreddit[0]
-        self.fetchers: list[RedditFetcher] = fetchers or [JsonRedditFetcher(), HtmlRedditFetcher()]
+        self.fetchers: list[RedditFetcher] = fetchers or _default_fetchers()
 
     def _try_fetchers(self, operation: str, func):
         """Try each fetcher in order until one succeeds (DRY)."""
@@ -291,11 +302,21 @@ class RedditScraper:
         raise last_error
 
     def fetch_posts(self, limit: int = 25, sort: str = "hot", time_filter: str = "week") -> list[RedditPost]:
-        """Fetch posts from subreddit, trying each strategy in order."""
-        return self._try_fetchers(
-            "fetch_posts",
-            lambda f: f.fetch_posts(self.subreddit, limit, sort, time_filter)
-        )
+        """Fetch posts from subreddit, trying each strategy in order.
+
+        An empty listing is treated as a fetcher failure (EmptyListingError)
+        so the fallback chain advances - a login wall parsed as "no posts"
+        must never become an empty report downstream.
+        """
+        def _fetch_nonempty(f: RedditFetcher) -> list[RedditPost]:
+            posts = f.fetch_posts(self.subreddit, limit, sort, time_filter)
+            if not posts:
+                raise EmptyListingError(
+                    f"{type(f).__name__} returned 0 posts for r/{self.subreddit}"
+                )
+            return posts
+
+        return self._try_fetchers("fetch_posts", _fetch_nonempty)
 
     def fetch_post_content(self, post: RedditPost) -> str:
         """Fetch the full selftext content for a post."""
@@ -362,6 +383,43 @@ class RedditScraper:
 
 
 # ---- Parsing helpers (pure functions, no state) ----
+
+def _parse_listing_json(data) -> list[RedditPost]:
+    """Parse a listing/search JSON response into posts."""
+    posts = []
+    for child in data.get("data", {}).get("children", []):
+        post = _parse_json_post(child.get("data", {}))
+        if post:
+            posts.append(post)
+    return posts
+
+
+def _parse_thread_selftext_json(data) -> str:
+    """Extract the post selftext from a thread JSON response ([post, comments])."""
+    if isinstance(data, list) and len(data) > 0:
+        children = data[0].get("data", {}).get("children", [])
+        if children:
+            return children[0].get("data", {}).get("selftext", "")
+    return ""
+
+
+def _parse_thread_comments_json(data) -> list[Comment]:
+    """Extract top-level comments from a thread JSON response, sorted by score."""
+    if not isinstance(data, list) or len(data) < 2:
+        return []
+
+    comments = []
+    for child in data[1].get("data", {}).get("children", []):
+        if child.get("kind") != "t1":
+            continue
+        cdata = child.get("data", {})
+        body = cdata.get("body", "")
+        if body:
+            comments.append(Comment(text=body, score=cdata.get("score", 0)))
+
+    comments.sort(key=lambda x: x.score, reverse=True)
+    return comments
+
 
 def _parse_json_post(post_data: dict) -> RedditPost | None:
     """Parse a single post from Reddit JSON response."""
