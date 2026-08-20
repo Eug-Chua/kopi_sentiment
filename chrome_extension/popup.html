@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kopi Sentiment Capture</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>Kopi Capture</h1>
+      <p id="status" class="status">Connecting to the local receiver…</p>
+      <div id="targets" class="targets" hidden></div>
+      <label class="option">
+        <input id="include-comments" type="checkbox" checked>
+        Capture top comments from threads
+      </label>
+      <button id="capture" type="button" disabled>Capture this subreddit</button>
+      <p id="message" class="message" role="status"></p>
+      <p class="privacy">Only extracted public post data is sent to 127.0.0.1. Cookies and credentials are never read.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

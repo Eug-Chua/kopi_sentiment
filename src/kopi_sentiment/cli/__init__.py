@@ -200,6 +200,45 @@ def run_scrape(args):
     return 0
 
 
+def run_login(args):
+    """Open Chrome for a one-time Reddit login; the session persists for scraping."""
+    from kopi_sentiment.scraper.browser import run_login_flow
+
+    return 0 if run_login_flow() else 1
+
+
+def run_capture(args):
+    """Receive user-triggered captures from the local Chrome extension."""
+    from kopi_sentiment.capture import run_capture_server
+
+    is_weekly = args.type == "weekly"
+    data_type = "weekly" if is_weekly else "daily"
+    if is_weekly:
+        report_id = args.week or date.today().strftime("%G-W%V")
+        default_posts = 25
+    else:
+        report_id = args.date or date.today().isoformat()
+        default_posts = 10
+
+    saved_path = run_capture_server(
+        report_id=report_id,
+        data_type=data_type,
+        expected_subreddits=settings.reddit_subreddit,
+        posts_per_subreddit=args.posts or default_posts,
+        port=args.port,
+        overwrite=args.overwrite,
+    )
+    if saved_path is None:
+        return 1
+
+    logger.info(f"Browser capture saved to {saved_path}")
+    logger.info(
+        "Analyze it with: uv run python -m kopi_sentiment "
+        f"{data_type} --{'week' if is_weekly else 'date'} {report_id} --from-raw"
+    )
+    return 0
+
+
 def run_analytics(args):
     """Generate analytics report from daily or weekly data."""
     import json
@@ -455,6 +494,50 @@ def main():
         help="Number of posts per subreddit (default: 10 daily, 25 weekly)",
     )
     scrape_parser.set_defaults(func=run_scrape)
+
+    # Login command (one-time browser session setup for scraping)
+    login_parser = subparsers.add_parser(
+        "login",
+        help="Open Chrome to log in to Reddit once; scraping runs reuse the session",
+    )
+    login_parser.set_defaults(func=run_login)
+
+    # Browser capture command (user-triggered, no API or automated login)
+    capture_parser = subparsers.add_parser(
+        "capture",
+        help="Receive Reddit pages captured by the local Chrome extension",
+    )
+    capture_parser.add_argument(
+        "--type",
+        choices=["daily", "weekly"],
+        default="daily",
+        help="Capture top posts for a daily or weekly report (default: daily)",
+    )
+    capture_parser.add_argument(
+        "--date",
+        help="Date ID for a daily capture (YYYY-MM-DD), defaults to today",
+    )
+    capture_parser.add_argument(
+        "--week",
+        help="Week ID for a weekly capture (YYYY-Www), defaults to current week",
+    )
+    capture_parser.add_argument(
+        "--posts",
+        type=int,
+        help="Maximum posts per subreddit (default: 10 daily, 25 weekly)",
+    )
+    capture_parser.add_argument(
+        "--port",
+        type=int,
+        default=8765,
+        help="Loopback receiver port; the extension expects 8765",
+    )
+    capture_parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Replace existing raw data for the selected date/week",
+    )
+    capture_parser.set_defaults(func=run_capture)
 
     args = parser.parse_args()
 

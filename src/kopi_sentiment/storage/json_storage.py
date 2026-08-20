@@ -305,6 +305,8 @@ class RawDataStorage:
         report_id: str,
         posts: list[RedditPost],
         subreddits: list[str],
+        source_mode: str = "scraper",
+        collection_warnings: dict[str, list[str]] | None = None,
     ) -> Path:
         """Save raw scraped data to JSON.
 
@@ -312,6 +314,8 @@ class RawDataStorage:
             report_id: Date ID (YYYY-MM-DD) or week ID (YYYY-Www)
             posts: List of RedditPost objects with all comments
             subreddits: List of subreddit names that were scraped
+            source_mode: How the raw data was collected.
+            collection_warnings: Per-subreddit collection warnings, if any.
 
         Returns:
             Path to the saved file
@@ -321,6 +325,7 @@ class RawDataStorage:
         # Build the raw data structure
         data: dict[str, Any] = {
             "schema_version": "raw_scrape_v1",
+            "source_mode": source_mode,
             "report_id": report_id,
             "scraped_at": datetime.now().isoformat(),
             "subreddits": subreddits,
@@ -347,6 +352,8 @@ class RawDataStorage:
                 for post in posts
             ],
         }
+        if collection_warnings:
+            data["collection_warnings"] = collection_warnings
 
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

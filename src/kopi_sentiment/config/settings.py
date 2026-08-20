@@ -13,6 +13,15 @@ class Settings(BaseSettings):
     reddit_client_id: str = ""
     reddit_client_secret: str = ""
 
+    # Browser-based scraping (Playwright + installed Chrome)
+    # Primary strategy since Reddit's Aug 2026 login wall blocks plain HTTP.
+    reddit_use_browser: bool = True
+    # Profile dir holds the logged-in Reddit session (created by `login` command).
+    # Kept outside the repo so cookies never enter version control.
+    browser_profile_dir: str = "~/.kopi_sentiment/browser_profile"
+    # Set false if headless runs hit the login wall despite a valid session.
+    browser_headless: bool = True
+
     # LLM settings
     anthropic_api_key: str = ""
     openai_api_key: str = ""

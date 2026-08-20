@@ -1,0 +1,87 @@
+:root {
+  color-scheme: light;
+  font: 13px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  width: 330px;
+  margin: 0;
+  color: #202124;
+  background: #fffaf2;
+}
+
+main {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  color: #5b3518;
+  font-size: 18px;
+}
+
+.status,
+.message,
+.privacy {
+  margin: 8px 0;
+}
+
+.targets {
+  display: grid;
+  gap: 4px;
+  margin: 10px 0;
+}
+
+.target {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.target a {
+  color: #7a3e00;
+}
+
+.done {
+  color: #18794e;
+}
+
+.pending {
+  color: #6f6f6f;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 12px 0;
+}
+
+button {
+  width: 100%;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  background: #8b4513;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.message.error {
+  color: #b42318;
+}
+
+.message.success {
+  color: #18794e;
+}
+
+.privacy {
+  color: #6f6f6f;
+  font-size: 11px;
+}

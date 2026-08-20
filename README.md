@@ -53,6 +53,42 @@ print(report.headline)
 "
 ```
 
+## Browser Capture (No Reddit API)
+
+If Reddit is accessible in ordinary Chrome but blocks automated login/API
+requests, use the included user-triggered browser capture extension. It reads
+only the active Reddit listing and sends extracted public post data to a
+loopback receiver; it does not read or export browser cookies.
+
+Install it once:
+
+1. Open `chrome://extensions` and enable **Developer mode**.
+2. Click **Load unpacked**.
+3. Select the repository's `chrome_extension` directory.
+4. Pin **Kopi Sentiment Capture** to the Chrome toolbar.
+
+For a daily run:
+
+```bash
+uv run python -m kopi_sentiment capture
+```
+
+Open each subreddit link shown in the extension, wait for its top listing to
+load, and click **Capture this subreddit**. With comment capture enabled, the
+extension opens each selected thread in an inactive tab, captures up to 25
+rendered top comments, waits five seconds between threads, and closes each tab.
+Keep Chrome open until the toolbar badge finishes counting.
+
+Once all configured subreddits are captured, analyze the saved raw data:
+
+```bash
+uv run python -m kopi_sentiment daily --date YYYY-MM-DD --from-raw
+```
+
+Any incomplete thread captures are recorded under `collection_warnings` in the
+raw file. Use `capture --overwrite` when replacing an earlier capture for the
+same date.
+
 ## Analytics Module
 
 The analytics module provides data science capabilities for trend analysis:
