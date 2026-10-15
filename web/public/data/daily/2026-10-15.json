@@ -1,0 +1,4119 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-10-15",
+  "report_date": "2026-10-15",
+  "generated_at": "2026-10-15T20:13:32.645021",
+  "metadata": {
+    "total_posts_analyzed": 37,
+    "total_comments_analyzed": 508,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Haze anxiety is the dominant fear today, with Singaporeans deeply worried about worsening PM2.5 levels and inadequate protection for children in primary schools. The Indonesian corruption scandal amplifies a deeper dread — that structural graft makes meaningful accountability impossible, with sentiments like 'corruption is likely to continue unless we can somehow form a society that outdoes the need for it.' Economic anxieties run alongside environmental ones, from job losses at Ubisoft to uncertainty about crypto income qualifying for home loans. Underlying it all is a quiet resignation that systemic problems — whether in Indonesia's governance or Singapore's cost-of-living pressures — are too entrenched to fix quickly.",
+      "quote_count": 49,
+      "intensity_breakdown": {
+        "mild": 1,
+        "moderate": 36,
+        "strong": 12
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration is overwhelmingly strong today, fuelled almost entirely by the haze crisis and the Indonesian corruption arrests. Singaporeans are furious that graft reaches so high — 'of course it's the Chief's brother' — and deeply skeptical that any prosecution will result in real consequences, with cynicism about judges receiving 'donations' and accused walking free. The government's response draws its own fire: the offer of just two single-use N95 masks per household struck many as tokenistic and inadequate given the severity of air quality. Anger spills beyond the haze into wages and housing, with frustration that median salaries of $3.3k remain stubbornly low against Singapore's relentless cost of living.",
+      "quote_count": 106,
+      "intensity_breakdown": {
+        "mild": 2,
+        "moderate": 29,
+        "strong": 75
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Optimism is present but modest, with the brightest spot being a warmly received thread about KKH obstetrician Dr Kwek Lee Koon, where parents shared strongly positive birth experiences. A handful of Singaporeans found unexpected silver linings in the haze itself — clearer sunspot photography, softer light, and the darkening sky acting as a 'free ND filter.' Positive sentiment also surfaced around HDB resale buyers navigating the market without grants, and early excitement about Anthropic's Singapore office hinting at AI-driven opportunity ahead. The optimism today is real but narrow, largely confined to personal wins and wry humour rather than broader confidence in systemic improvement.",
+      "quote_count": 41,
+      "intensity_breakdown": {
+        "mild": 10,
+        "moderate": 11,
+        "strong": 20
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 211,
+      "top_posts": [
+        {
+          "id": "t3_1x5prfk",
+          "title": "The severe haze made these sun spots easier to capture",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5prfk/the_severe_haze_made_these_sun_spots_easier_to/",
+          "score": 215,
+          "num_comments": 14,
+          "created_at": "2026-10-14T12:21:15.506000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x5prfk",
+            "post_title": "The severe haze made these sun spots easier to capture",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear frustration about the haze, acknowledging it as a negative condition while noting a minimal silver lining for photography purposes.",
+              "quotes": [
+                {
+                  "quote": "Literally the only good thing about the haze",
+                  "score": 44
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The commenter shows definite positivity about the aesthetic benefits, appreciating the beautiful sun spots and cleverly comparing the haze to a natural ND filter with casual enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "So beautiful!",
+                  "score": 2
+                },
+                {
+                  "quote": "Free ND filter for whole region.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bk7b",
+          "title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6bk7b/indonesias_disaster_chiefs_brother_among_five/",
+          "score": 200,
+          "num_comments": 53,
+          "created_at": "2026-10-15T03:47:53.197000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x6bk7b",
+            "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about systemic corruption being deeply ingrained and likely to persist, with skepticism that meaningful change is possible given the structural nature of the problem.",
+              "quotes": [
+                {
+                  "quote": "How this shit is allowed in 2026 is beyond me…",
+                  "score": 70
+                },
+                {
+                  "quote": "I don't think its something they can get rid of, cuz its like lowk ingrained in their society.",
+                  "score": 5
+                },
+                {
+                  "quote": "Corruption is likely to continue unless we can somehow form a society that outdoes the need for it.",
+                  "score": 10
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense anger and cynicism about corruption, nepotism, and a rigged justice system where connected individuals escape accountability despite egregious wrongdoing like causing transboundary haze disasters.",
+              "quotes": [
+                {
+                  "quote": "Arrested, then let go quietly, or given an atas room in jail, with facilities and facebook access 😤",
+                  "score": 120
+                },
+                {
+                  "quote": "They are all corrupted fucks. Every single one of them.",
+                  "score": 70
+                },
+                {
+                  "quote": "Of course it's the Chief's brother. Of course it is someone related to some big shot. How is that even a surprise.",
+                  "score": 31
+                },
+                {
+                  "quote": "We all know what the outcome will be like. The judge gets a healthy 'donation'. The accused will be set free for 'lack of evidence'.",
+                  "score": 16
+                },
+                {
+                  "quote": "Worlds worst man made forest fires happens every year to SG.",
+                  "score": 5
+                },
+                {
+                  "quote": "No wonder don't want help la chibai",
+                  "score": 11
+                },
+                {
+                  "quote": "Money talks louder over there apparently than whatever that Fu is using these days to communicate with them",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x5tll2",
+          "title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5tll2/singapore_keeping_options_open_on_haze/",
+          "score": 149,
+          "num_comments": 136,
+          "created_at": "2026-10-14T15:03:46.950000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x5tll2",
+            "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about the sustainability of the current governance system, suggesting underlying worry about institutional effectiveness in handling environmental issues.",
+              "quotes": [
+                {
+                  "quote": "It's an unsustainable system of governance.",
+                  "score": 58
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense criticism of government handling of haze, with sharp sarcasm targeting ministerial competence, accountability, and the elitist scholar system; frustration centers on perceived inaction, inflated egos, and inadequate responses to pollution crises.",
+              "quotes": [
+                {
+                  "quote": "Can we ask ourselves how Grace Fu even became Minister of Environment in the first place? She was an accountant in her private career for god's sake.",
+                  "score": 277
+                },
+                {
+                  "quote": "We wish them well is the most passive thing I've heard from the gov lol",
+                  "score": 180
+                },
+                {
+                  "quote": "Get paid millions with hefty increment to make this kind of statements. Best job in the world, where to find? /s",
+                  "score": 77
+                },
+                {
+                  "quote": "\"I told you we are on top of the situation.\"",
+                  "score": 122
+                },
+                {
+                  "quote": "Clearly on top in the pollution chart.",
+                  "score": 18
+                },
+                {
+                  "quote": "This is what you get in a scholar-run elitist system. Everyone in there underestimates what needs to be done but has inflated egos to admit they don't.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x661aq",
+          "title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+          "url": "https://www.reddit.com/r/singapore/comments/1x661aq/man_sent_explicit_photos_of_wife_and_lover_to/",
+          "score": 148,
+          "num_comments": 70,
+          "created_at": "2026-10-14T23:12:13.472000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x661aq",
+            "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about the lack of legal consequences for infidelity, expressed as a single worry rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "There will be no punishment for cheating.",
+                  "score": 69
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration directed at multiple targets: poor journalism standards and headline writing, declining quality of news reporting and proofreading, and the legal system's inability to punish immoral behavior like cheating. The use of words like 'appalling,' 'absurdly irresponsible,' and 'damn' reflects emphatic disapproval.",
+              "quotes": [
+                {
+                  "quote": "Wow it read as the man's lover instead of the wife's lover in the title. I tht which idiot man wld be so dumb; turns out its the journalist. cna really doesnt vet or proofread their work anymore.",
+                  "score": 181
+                },
+                {
+                  "quote": "They might have proofread it but the standards of yesteryears have left this realm.",
+                  "score": 21
+                },
+                {
+                  "quote": "There are so many articles where I've had to read something multiple times to make sense of it, and so many instances of Chinese grammar translated literally into English. Appalling.",
+                  "score": 2
+                },
+                {
+                  "quote": "Absurdly irresponsible headline.",
+                  "score": 8
+                },
+                {
+                  "quote": "Imagine your entire marriage your wife keep on cheating on you, damm shag.",
+                  "score": 2
+                },
+                {
+                  "quote": "It's never illegal to be a cheater, a jerk, an asshole or insufferable person.",
+                  "score": 13
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bl8s",
+          "title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6bl8s/ysk_govt_is_giving_out_just_two_one_time_use/",
+          "score": 144,
+          "num_comments": 90,
+          "created_at": "2026-10-15T03:49:29.257000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x6bl8s",
+            "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about vulnerable populations facing serious health risks from haze exposure, particularly those with limited mobility or chronic conditions who cannot safely avoid outdoor activity or maintain safe indoor temperatures. The concerns highlight genuine physical dangers and inequitable impacts across different socioeconomic groups.",
+              "quotes": [
+                {
+                  "quote": "At certain pollution levels, certain populations are advised to avoid all outdoor activity. When your commute can involve 20+ mins of walking + waiting for the bus each way before and after taking public transport, especially for people who walk slowly due to age or poor health, that already constitutes physical activity. Not everyone is privileged enough to work and live near an MRT.",
+                  "score": 1
+                },
+                {
+                  "quote": "With the haze, we are expecting people with chronic heart and lung disease to close their windows while at home. Without aircon, the result is that they will experience heavy heat stress as a result.",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration with the government's minimal response to the haze crisis, with sarcasm and resignation evident in comments about inadequate mask distribution and perceived inconsistency in public health guidance. There's also underlying tension about societal expectations versus individual responsibility, expressed with noticeable exasperation.",
+              "quotes": [
+                {
+                  "quote": "Look at the bright side .. at least .. nvm, the haze is blocking the sun. It's dark.",
+                  "score": 255
+                },
+                {
+                  "quote": "it's not unreasonable to expect more",
+                  "score": 43
+                },
+                {
+                  "quote": "Got give also complain, never give also complain.",
+                  "score": 117
+                },
+                {
+                  "quote": "I think people too used to the coddling from gahmen that they lost all forms of self preservation.",
+                  "score": 53
+                },
+                {
+                  "quote": "covid and haze risks are not the same so thtey don't wanna kena complaints.",
+                  "score": 56
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual, light-hearted attempts to find minor positive aspects in the haze situation, with a practical acceptance that existing resources can still be utilized despite limitations. The optimism is fleeting and somewhat forced, serving more as a coping mechanism than genuine confidence.",
+              "quotes": [
+                {
+                  "quote": "Actually it really is the silver lining of the haze. No intense sun on my skin.",
+                  "score": 11
+                },
+                {
+                  "quote": "Mask haven't expire, can use what",
+                  "score": 117
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x685w8",
+          "title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+          "url": "https://www.reddit.com/r/singapore/comments/1x685w8/fwiw_the_mycmaq_air_quality_model_expects_pm25_to/",
+          "score": 140,
+          "num_comments": 21,
+          "created_at": "2026-10-15T00:53:18.354000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x685w8",
+            "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are genuine concerns about long-term health impacts from PM2.5 exposure and uncertainty about air quality forecasts, though expressed relatively calmly without panic.",
+              "quotes": [
+                {
+                  "quote": "You can retake exams in life but you cannot reverse the long term damage from PM2.5",
+                  "score": -3
+                },
+                {
+                  "quote": "Would the dark patch on the 4pm chart eventually move up to SG later in the day?",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "People express considerable irritation and exasperation about ineffective rain relief, misleading air quality data, health impacts disrupting daily life, and the helplessness of facing exams during poor air quality—conveyed through sarcasm, complaints, and descriptive language.",
+              "quotes": [
+                {
+                  "quote": "I'm not making my life and death decisions from the website that cares about the last 24 hours rather than the last immediate hour.",
+                  "score": 39
+                },
+                {
+                  "quote": "Yeah the heavy rain did absolutely nothing, the haze is going to blow back in by lunch...",
+                  "score": 23
+                },
+                {
+                  "quote": "By lunch? It's back in full force already. The thing is, the smell isn't as bad but the pm2.5 is as high as ever. I thought it was okay and opened my windows to air out my house just now after the rain and immediately felt my nose blocking.",
+                  "score": 12
+                },
+                {
+                  "quote": "The surrounding looks so much brown today :(",
+                  "score": 4
+                },
+                {
+                  "quote": "exams coming up for primary so got little choice lol",
+                  "score": 1
+                },
+                {
+                  "quote": "We would like to have some Oxygen Now.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6el17",
+          "title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6el17/spore_owner_allegedly_planned_to_euthanise/",
+          "score": 131,
+          "num_comments": 38,
+          "created_at": "2026-10-15T06:45:49.521000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x6el17",
+            "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the moral implications of the owner's actions, with a belief that such cruelty warrants serious spiritual or karmic consequences.",
+              "quotes": [
+                {
+                  "quote": "i bet theres a special place in hell for these people",
+                  "score": 122
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep outrage at the owner's irresponsibility, lack of research, casual attitude toward killing a healthy dog, and the broader culture of treating pets as disposable accessories rather than living beings deserving of care and commitment.",
+              "quotes": [
+                {
+                  "quote": "Respectfully, fk this person. Got a dog without researching the effort and cost required, and without their family's permission. Then anyhow threaten euthanasia for a HEALTHY dog just because they have adoption remorse.",
+                  "score": 183
+                },
+                {
+                  "quote": "Can we euthanised this fam instead? He is basically saying if no one steps up with 7 days, it's on you that we going to euthanised it. 🙄 I understand puppy blues but dude wasn't even stepping up enough to get the dog adopted.",
+                  "score": 32
+                },
+                {
+                  "quote": "Replace the word \"euthanise\" with \"kill\" and would everyone involved still feel this nonchalant? This is a living being with emotions, not some Toy. \"Sorry we need to kill simba cos no one want him, yaa lor need kill lor, family force me to kill so i kill lor, we gonna kill him in 7 days\" ?????? The emoji reactions also piss me off. Whats with the 😢 and 😮? Like this is how i'd react to my friends scrape their knee or fail an exam, not if someone say they gonna kill their fkin dog for no reason.",
+                  "score": 21
+                },
+                {
+                  "quote": "Buy dog but don't bother to read up and research. Den blame the dogs behavior and want to kill the dog cos ownself don't put in effort.",
+                  "score": 19
+                },
+                {
+                  "quote": "Aiya you know these are not really animal lovers, the branded pet is for showing off on IG like and bring out like an accessory. They are not there to clean it's bodily function, take to the vet, look after it's health physically and emotionally.",
+                  "score": 13
+                },
+                {
+                  "quote": "99% of the time the \"behavioural problem\" are actually the owner...",
+                  "score": 33
+                },
+                {
+                  "quote": "Hate all these back yard breeders, it's a rubbish buisness that hurts the animals.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Relief and satisfaction that the dog was successfully rehomed and freed from an irresponsible owner, with implicit faith that public accountability would have forced better outcomes.",
+              "quotes": [
+                {
+                  "quote": "Thankfully he rehomed the dog, or I am sure once this news is made known he might be drowning in a pool of spit.",
+                  "score": 36
+                },
+                {
+                  "quote": "Glad that Simba is freed from this irresponsible person.",
+                  "score": 183
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bv4z",
+          "title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6bv4z/ubisoft_to_cut_70_jobs_in_singapore_close_finland/",
+          "score": 127,
+          "num_comments": 69,
+          "created_at": "2026-10-15T04:04:11.752000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x6bv4z",
+            "post_title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a genuine concern about the potential closure of the Singapore office if government subsidies end, reflecting anxiety about the studio's long-term viability.",
+              "quotes": [
+                {
+                  "quote": "if subsidy runs out, they will announce the closure of SG office.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express deep frustration with Ubisoft's creative decline, poor game quality, excessive monetization practices, and long-standing mismanagement of beloved franchises like Heroes of Might and Magic.",
+              "quotes": [
+                {
+                  "quote": "Sad to hear this for the Singapore studio, but to be honest, Ubisoft have been way past their Renaissance period",
+                  "score": 105
+                },
+                {
+                  "quote": "any gamer here knows Ubisoft hasn't made a proper hit in too long, and all their releases have been pretty crap + weird focus on MTX within the games themselves.",
+                  "score": 20
+                },
+                {
+                  "quote": "Yeah. I disliked Ubisoft ever since they butchered HOMM back in the days. But now when I say \"Ubisoft is bad\" the automatic assumption is that I'm playing identity politics. Like... Bitch please, they screwed up one of the best game series in the 2000s",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x5rfkr",
+          "title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5rfkr/singaporeregistered_container_ship_sinks_after/",
+          "score": 120,
+          "num_comments": 4,
+          "created_at": "2026-10-14T13:36:56.256000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x5rfkr",
+            "post_title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses genuine concern for the safety of those involved, invoking prayer as a response to the serious maritime incident.",
+              "quotes": [
+                {
+                  "quote": "Oh God. Praying that everyone survived",
+                  "score": 81
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters are clearly annoyed at the poster for repeatedly sharing articles without reading them, pointing out a pattern of careless behavior.",
+              "quotes": [
+                {
+                  "quote": "You repost articles all the time onto this subreddit but you dont even read?",
+                  "score": 57
+                },
+                {
+                  "quote": "I don't think he reads the article he posts lol",
+                  "score": 23
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x5ygp1",
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5ygp1/anthropic_opens_singapore_office_and_signs_mou/",
+          "score": 115,
+          "num_comments": 31,
+          "created_at": "2026-10-14T18:06:38.185000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x5ygp1",
+            "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are genuine concerns about Anthropic's financial viability and long-term sustainability in Singapore, with worries about potential IPO failure and eventual office closure. The fears are clearly articulated but expressed in a matter-of-fact manner rather than with panic or extreme distress.",
+              "quotes": [
+                {
+                  "quote": "Anthropic is not going to be able to IPO at a high enough price to justify the investment we put into it.",
+                  "score": 24
+                },
+                {
+                  "quote": "I give them 5 years from now when they suddenly have to close their office here and do a mass layoffs due their corporation not being able to make its target profit for their CEOs and Shareholders.",
+                  "score": 12
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "A cynical frustration emerges about Singapore attracting companies primarily for tax benefits while facing regulatory restrictions, with skepticism rooted in past unfulfilled promises of tech innovation. The tone is resigned and sardonic rather than intensely angry, reflecting a weary Singaporean pragmatism ('kpkb' mentality).",
+              "quotes": [
+                {
+                  "quote": "Ah Alamak...",
+                  "score": 30
+                },
+                {
+                  "quote": "actually there's quite a few crypto companies hq here... Just that they are banned from giving services to us 😂 just here to enjoy the tax benefits only la",
+                  "score": 31
+                },
+                {
+                  "quote": "I'm old enough to remember when we were going to have vertical farms everywhere.",
+                  "score": 9
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is genuine enthusiasm about Singapore's positioning as a global tech hub and pride in landing Anthropic as a major player. The optimism is clear and positive but expressed with measured confidence rather than extreme exuberance.",
+              "quotes": [
+                {
+                  "quote": "What a huge coup! We're leading the world!",
+                  "score": 44
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 135,
+      "top_posts": [
+        {
+          "id": "t3_1x6gbhk",
+          "title": "Singapore police certificate of clearance",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6gbhk/singapore_police_certificate_of_clearance/",
+          "score": 0,
+          "num_comments": 4,
+          "created_at": "2026-10-15T08:39:02.910000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6gbhk",
+            "post_title": "Singapore police certificate of clearance",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "The user expresses a minor inconvenience about not having received instructions on fingerprints, stated matter-of-factly without strong emotional language or emphasis.",
+              "quotes": [
+                {
+                  "quote": "I haven't received any instructions on the fingerprints yet",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x5qemq",
+          "title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x5qemq/for_people_in_the_marketing_and_communications/",
+          "score": 0,
+          "num_comments": 5,
+          "created_at": "2026-10-14T12:51:49.015000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x5qemq",
+            "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is genuine concern about career stagnation in content creation and the destabilizing effect of industry layoffs, though expressed as thoughtful worry rather than panic. The anxiety centers on uncertain growth prospects and the risk of producing forgettable work that doesn't advance one's portfolio.",
+              "quotes": [
+                {
+                  "quote": "It's uncertain how one can grow their career and it's easy to get stuck with creating meh work that most ppl will skip on social media.",
+                  "score": 1
+                },
+                {
+                  "quote": "Doesn't help that the industry have been struggling with mass layoffs over the past few years.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Significant frustration about the oversaturated market, intense competition from diverse backgrounds, and the gap between entry requirements and job satisfaction. The tone conveys exasperation with the unfair playing field and the creatively unfulfilling nature of typical content creation roles.",
+              "quotes": [
+                {
+                  "quote": "The market is tough",
+                  "score": 5
+                },
+                {
+                  "quote": "Tough for a fresh grad and only diploma to get hired.",
+                  "score": 1
+                },
+                {
+                  "quote": "It's oversaturated and fought amongst graduates from all kinds of industries not just from marketing/comms, with most folks thinking that they can use capcut = they're fit for the job",
+                  "score": 1
+                },
+                {
+                  "quote": "You're also fighting with folks who have additional skills like graphic design, account servicing and creative writing.",
+                  "score": 1
+                },
+                {
+                  "quote": "Even if you get the role, you're producing not the most creatively satisfying work either.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Cautious optimism that the sector isn't entirely hopeless, with a modest recognition of growing demand for authentic user-generated content in the AI era. The hopeful note is present but subdued, offered as a counterbalance to the prevailing concerns rather than as strong conviction.",
+              "quotes": [
+                {
+                  "quote": "I don't think it's all doom and gloom for content creation.",
+                  "score": 5
+                },
+                {
+                  "quote": "There is a need for organic, authentic UGC styled content creation more than ever in the current AI slob.",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bba8",
+          "title": "Haze measures in primary schools",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6bba8/haze_measures_in_primary_schools/",
+          "score": 0,
+          "num_comments": 21,
+          "created_at": "2026-10-15T03:34:26.214000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6bba8",
+            "post_title": "Haze measures in primary schools",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Parents express deep anxiety about children's health and safety, with concrete concerns about hazardous PSI levels, heat-related injuries, and inadequate protective measures despite school closures. The intensity is heightened by descriptive language like \"pure torture\" and active consideration of keeping children home.",
+              "quotes": [
+                {
+                  "quote": "I'm quite concern about my kids breathing in PSI 200 or more for many hours a day and am considering just keeping them at home regardless of the ministry's decision to close schools or not.",
+                  "score": 0
+                },
+                {
+                  "quote": "Official measures include closing all doors and windows, but as you know they aren't airtight so haze is still getting in. You know what's not getting out? The heat. 40 children and electronics exuding heat for 7 hours. Imagine how that feels in a tiny classroom. It's sweltering, nauseating and frankly just pure torture. If they don't get hurt by the haze, they are definitely getting hurt by heat related injuries, not to mentioned they aren't really able to absorb any knowledge at all in such conditions.",
+                  "score": 3
+                },
+                {
+                  "quote": "I am also thinking of requesting to WFH and keep my kid home.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Parents demonstrate intense frustration with inconsistent and poorly-thought-out policies, expressing cynicism about decision-makers' detachment from classroom realities and the contradictory nature of safety measures. The frustration is evident in sarcastic commentary and the phrase \"but it is what it is,\" reflecting resigned exasperation.",
+              "quotes": [
+                {
+                  "quote": "Tbh I'd rather the kids be in school. I don't have those kinds of air purifiers at home and they're in class with really good air purifiers all the time anyway.",
+                  "score": -5
+                },
+                {
+                  "quote": "The measures are mandated by a decision maker who hasn't been in a classroom for longer than 30 minutes for decades, that's all you need to know to understand the situation.",
+                  "score": 3
+                },
+                {
+                  "quote": "My kid still had outdoor activities yesterday. Classrooms no aircon, windows kept open.",
+                  "score": 1
+                },
+                {
+                  "quote": "Windows will be shut when PSI hit 200, otherwise opened, but with 2 AP running. which dont make sense, but it is what it is.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x69zah",
+          "title": "what do you actually look for during interviews for leadership roles?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x69zah/what_do_you_actually_look_for_during_interviews/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-10-15T02:24:47.888000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x69zah",
+            "post_title": "what do you actually look for during interviews for leadership roles?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The respondent expresses clear appreciation for leadership candidates who demonstrate strong communication abilities and can discuss topics both deeply and broadly, reflecting confidence in these qualities as key differentiators.",
+              "quotes": [
+                {
+                  "quote": "Aura, excellent communication skills and able to speak both deeply and broadly about their domain and outside of it.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6cnur",
+          "title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6cnur/kkh_obs_recommendation_dr_kwek_lee_koon/",
+          "score": 0,
+          "num_comments": 15,
+          "created_at": "2026-10-15T04:50:03.650000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6cnur",
+            "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Patient expresses concern about prolonged waiting periods causing delays in receiving medical diagnosis and treatment. The worry is practical rather than panicked, focusing on the frustration of extended timelines in medical care.",
+              "quotes": [
+                {
+                  "quote": "So now we're stuck at waiting for another 2-3 months to get the blood test done before she can give us our diagnosis.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple instances of exasperation with the doctor's dismissive attitude, poor communication, and procedural oversights (missed blood test orders). Patient uses emphatic language and rhetorical questions to convey clear anger about being blamed unfairly and lack of proper medical guidance.",
+              "quotes": [
+                {
+                  "quote": "I find her quite dismissive and not helpful with my concerns.",
+                  "score": 4
+                },
+                {
+                  "quote": "She also missed out on ordering for blood tests before doing my HSG scan.",
+                  "score": 4
+                },
+                {
+                  "quote": "When I went back in for the consult on the HSG scan, she asked me \"u didn't do blood test?\" like how am I supposed to know, doc?",
+                  "score": 4
+                },
+                {
+                  "quote": "Why didn't YOU ask for a blood test in the first place???",
+                  "score": 4
+                },
+                {
+                  "quote": "Annoyed with her dismissive attitude as though it was my fault.",
+                  "score": 4
+                },
+                {
+                  "quote": "she was quick to put the blame on the woman instead of looking objectively at how healthy both parties are.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Numerous highly positive endorsements highlighting the doctor's calm demeanor, skillfulness, supportive approach, and strong bedside manner, with multiple patients expressing they would recommend her and return for future care. The consistent praise and willingness to have her deliver again demonstrates strong confidence and satisfaction.",
+              "quotes": [
+                {
+                  "quote": "I had a great experience with her.",
+                  "score": 7
+                },
+                {
+                  "quote": "She's very calm, friendly and skillful.",
+                  "score": 7
+                },
+                {
+                  "quote": "She will be delivering my second baby as well (today!)",
+                  "score": 7
+                },
+                {
+                  "quote": "I really like her",
+                  "score": 1
+                },
+                {
+                  "quote": "she's quite sweet and has good bedside manner as far as I can tell",
+                  "score": 3
+                },
+                {
+                  "quote": "Highly recommend!",
+                  "score": 1
+                },
+                {
+                  "quote": "Dr Kwek delivered my baby last month, calm and confident throughout our checks and delivery.",
+                  "score": 1
+                },
+                {
+                  "quote": "Supportive of our birth plans too (normal delivery without epidural).",
+                  "score": 1
+                },
+                {
+                  "quote": "Would recommend both!",
+                  "score": 1
+                },
+                {
+                  "quote": "Good bedside manner and confident during delivery - would have no concerns going through the process with her again.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bojq",
+          "title": "Singapore home loan — how do banks assess income paid in crypto?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6bojq/singapore_home_loan_how_do_banks_assess_income/",
+          "score": 0,
+          "num_comments": 27,
+          "created_at": "2026-10-15T03:54:37.862000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6bojq",
+            "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express genuine concern about the legality and stability of crypto payments, particularly regarding stablecoin risks and regulatory uncertainty. The hesitation and caution reflect real worries about whether crypto income is a viable option for mortgage qualification.",
+              "quotes": [
+                {
+                  "quote": "i would be more worried about the job paying you in crypto... i cant see how that is legal for now.",
+                  "score": 11
+                },
+                {
+                  "quote": "overseas job even if paid in currency is not deemed a lot less secure by FI",
+                  "score": 2
+                },
+                {
+                  "quote": "I agree, that's why I'm hesitating as well..",
+                  "score": 1
+                },
+                {
+                  "quote": "Just becareful… If you are paid in USDC, that's quite fine, regularly audited, and you have channel to redeem to real dollar. Other than that stablecoin, I highly doubt if they didn't print out of thin air.",
+                  "score": 1
+                },
+                {
+                  "quote": "Do people not know that stablecoins can lose their pegs? Even Circle took a hit with SVB, though it recovered.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "There is a casual expression of mild frustration about the inconvenience and effort required to navigate the crypto-to-fiat conversion process. The tone suggests annoyance rather than outrage about the complexity of the workaround.",
+              "quotes": [
+                {
+                  "quote": "That's a good workaround but seems to be quite abit of work! Really wondering if it's worth to move now",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Users express cautious optimism about potential long-term benefits and the possibility of working with bankers to find solutions. The tone is hopeful but measured, with no strong enthusiasm or excitement.",
+              "quotes": [
+                {
+                  "quote": "Very useful in life though. Can charge higher in consultancy too eventually",
+                  "score": 1
+                },
+                {
+                  "quote": "That's possible actually, thank you for this. I'll speak to my banker",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6e64z",
+          "title": "When wld the haze persist until?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6e64z/when_wld_the_haze_persist_until/",
+          "score": 0,
+          "num_comments": 22,
+          "created_at": "2026-10-15T06:19:24.350000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6e64z",
+            "post_title": "When wld the haze persist until?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Participants express deep anxiety about the haze persisting for an extended period, with concerns that El Niño effects and delayed monsoon seasons will prolong the problem well into 2027.",
+              "quotes": [
+                {
+                  "quote": "I rly am not optimistic about the current haze situation ending any time soon. The monsoon season would likely be pushed back to end of year/even early 2027 due to the particularly strong El Niño this year.",
+                  "score": 4
+                },
+                {
+                  "quote": "until the monsoon season starts? which with el nino is delayed even further.",
+                  "score": 13
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration directed at Indonesian government inaction, coupled with personal suffering (coughing) and cynicism about empty promises, reflecting a sense of helplessness and exasperation.",
+              "quotes": [
+                {
+                  "quote": "theres fk all that the indo govt is doing about the situation",
+                  "score": 13
+                },
+                {
+                  "quote": "when they get their shit together or when they've burned every single tree in the forest probably",
+                  "score": 7
+                },
+                {
+                  "quote": "the moment i get home i just keep coughing.",
+                  "score": 1
+                },
+                {
+                  "quote": "Indonesia said they can put the fire off within a month woh…",
+                  "score": 10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x68bet",
+          "title": "Rain making it harder to breathe",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x68bet/rain_making_it_harder_to_breathe/",
+          "score": 0,
+          "num_comments": 6,
+          "created_at": "2026-10-15T01:00:52.287000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x68bet",
+            "post_title": "Rain making it harder to breathe",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users express significant frustration with severe haze conditions (>200 AQI) and disappointment that rain has failed to improve air quality, with one person describing physical distress from breathing difficulties. The repeated complaints about worsening conditions and ineffective rain relief demonstrate strong dissatisfaction with the ongoing air pollution problem.",
+              "quotes": [
+                {
+                  "quote": "the haze this morning is very bad too like some areas >200",
+                  "score": 7
+                },
+                {
+                  "quote": "I can't decide if it's the haze or the rain that has made it so dark today morning. But it's not good. Because as far as I can see, the rain has not made any difference to the ongoing haze and bad air.",
+                  "score": 1
+                },
+                {
+                  "quote": "The haze got thicker after a brief rain which i thought it was a heavy downpour",
+                  "score": 0
+                },
+                {
+                  "quote": "It made it harder to breathe right? Cos that's how it made me feel",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x68gsi",
+          "title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x68gsi/singapore_be_honest_did_your_rollcall_number/",
+          "score": 0,
+          "num_comments": 11,
+          "created_at": "2026-10-15T01:08:24.312000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x68gsi",
+            "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Students express genuine anxiety about the waiting period and exhaustion from prolonged anticipation before exams, with some describing the experience as draining and uncomfortable.",
+              "quotes": [
+                {
+                  "quote": "Sitting in a room filled with nervous students and waiting in that anxiety is very draining. By the time I meet the examiner, they and I are both exhausted.",
+                  "score": 5
+                },
+                {
+                  "quote": "I remember watching everyone else go home one by one while I had to sit in line on the floor of the school hall, bored and unentertained and longing to go home",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear annoyance about scheduling inefficiencies (examiner delays, long waiting times) and concern that examiner fatigue could negatively impact performance, though expressed with casual language typical of Singapore.",
+              "quotes": [
+                {
+                  "quote": "Those of us at the back got bored af waiting to be called.",
+                  "score": 10
+                },
+                {
+                  "quote": "I remember the day of my sec 2 oral. My oral examiner was LATE like 2 hours like I could have gone home at 9+am",
+                  "score": 2
+                },
+                {
+                  "quote": "Their mood is worse, and that has an impact on your delivery. They have heard the same thing maybe 30 times before you, so yep.",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual positivity about preferring to go first and contentment with exam results, but expressed without strong emphasis or excitement.",
+              "quotes": [
+                {
+                  "quote": "I'm one of the T ones. I'd rather go first than wait. I am prepared for the exam so I can rattle off and go.",
+                  "score": 5
+                },
+                {
+                  "quote": "Got a 21/30 for my oral exam component so I ain't complaining",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6dqgu",
+          "title": "How is dating for an Chinese American man?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x6dqgu/how_is_dating_for_an_chinese_american_man/",
+          "score": 0,
+          "num_comments": 24,
+          "created_at": "2026-10-15T05:53:11.293000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x6dqgu",
+            "post_title": "How is dating for an Chinese American man?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are clear concerns about financial requirements for dating in Singapore and uncertainty about the dating landscape, though these are expressed matter-of-factly rather than with panic. The worries focus on practical constraints like cost of living and visa/relocation implications.",
+              "quotes": [
+                {
+                  "quote": "If you come from a decent middle class household, you are generally fine. Though being reasonably well off is a bit of a hygeine factor due to the cost of living.",
+                  "score": 5
+                },
+                {
+                  "quote": "dating in Singapore would be harder lor",
+                  "score": 2
+                },
+                {
+                  "quote": "If you have plans to return back to the states, your dating pool will shrink.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is noticeable frustration about work-life balance obstacles in Singapore, particularly the demanding work hours that limit dating opportunities. The tone expresses resigned exhaustion (reflected in 'T_T' and examples of late-night work) rather than outright anger.",
+              "quotes": [
+                {
+                  "quote": "I'll have a good job but expect very long work hours like maybe 996 T_T so I probably won't have time to meet anyone except dating apps and occasional hobbies",
+                  "score": 0
+                },
+                {
+                  "quote": "I know someone who is pretty much working till 1am every night…it happens",
+                  "score": 1
+                },
+                {
+                  "quote": "They were used to getting ghosted by half the girls on apps in US",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "There is enthusiastic and emphatic positivity about dating prospects, with multiple commenters expressing confidence and even excitement about the favorable conditions for Chinese American men in Singapore. The tone includes humor, encouragement ('good luck man'), and specific evidence of success with detailed comparisons to the US dating experience.",
+              "quotes": [
+                {
+                  "quote": "Lmao I don't think there will be an issue, Singapore is very friendly to expats and a multicultural city If you wanna increase your chances of dating a Singaporean girl, 1) be rich and 2) don't be ugly haha All jokes aside, good luck man and welcome to Singapore, hope you arrive after the haze clears",
+                  "score": 7
+                },
+                {
+                  "quote": "Ethnically Chinese + American accent. Brother just dont steal my girl and im good. Youll have your pick",
+                  "score": 4
+                },
+                {
+                  "quote": "Singaporean men dont like other foreigner men…the braindead ones. As for dating women…depends who you're surrounding yourself with. I say you won't have an issue if you're decently attractive and have a stable career",
+                  "score": 3
+                },
+                {
+                  "quote": "Local girls are open to dating foreigners.",
+                  "score": 4
+                },
+                {
+                  "quote": "All my Asian American friends who moved said Sg is probs the only country where dating is favorable to a guy. They were used to getting ghosted by half the girls on apps in US but here girls even double text them or ask them out lol so I think you will be fine. Probs just get hated on by the local men",
+                  "score": 0
+                },
+                {
+                  "quote": "My ex is born and raised in NYC, he's of Chinese descent too. I think international exposure plus an Asian background/ values is probably appealing to ladies here",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 76,
+      "top_posts": [
+        {
+          "id": "t3_1x5yx78",
+          "title": "$1.53m salary",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x5yx78/153m_salary/",
+          "score": 6,
+          "num_comments": 1,
+          "created_at": "2026-10-14T18:23:48.739000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x5yx78",
+            "post_title": "$1.53m salary",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6h5cq",
+          "title": "ViewQwest launches 100Gbps home broadband plan in Singapore. Wa who getting?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6h5cq/viewqwest_launches_100gbps_home_broadband_plan_in/",
+          "score": 4,
+          "num_comments": 5,
+          "created_at": "2026-10-15T09:30:54.143000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6h5cq",
+            "post_title": "ViewQwest launches 100Gbps home broadband plan in Singapore. Wa who getting?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express frustration about the practical limitations of ultra-high speeds, citing real-world issues like buffering despite high speeds, throttling by content providers, and the gap between advertised speeds and actual usable bandwidth for average users.",
+              "quotes": [
+                {
+                  "quote": "Even the 1/6/10Gbps also pointless. Watch Youtube 4K/8K keep buffering sometimes. Speed throttle under 120Mbps.",
+                  "score": 3
+                },
+                {
+                  "quote": "But all those websites and streaming sites is throttling.",
+                  "score": 3
+                },
+                {
+                  "quote": "most ordinary users cant even saturate 1gbps consistently",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6i5b6",
+          "title": "What to do this weekend?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6i5b6/what_to_do_this_weekend/",
+          "score": 3,
+          "num_comments": 0,
+          "created_at": "2026-10-15T10:31:09.649000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6i5b6",
+            "post_title": "What to do this weekend?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bnh2",
+          "title": "CNA Explains: What happens when the government disagrees with the courts?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6bnh2/cna_explains_what_happens_when_the_government/",
+          "score": 3,
+          "num_comments": 5,
+          "created_at": "2026-10-15T03:52:59.103000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6bnh2",
+            "post_title": "CNA Explains: What happens when the government disagrees with the courts?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep concern about the potential for absolute power concentration where the government can both make and interpret laws without meaningful checks, creating a system ripe for abuse and corruption.",
+              "quotes": [
+                {
+                  "quote": "If parliament ownself write law and ownself interpret law. Then thats truly a kangaroo court. because they can twist their own words to suit their needs at any point in time.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration that media coverage glosses over the critical fact that the political arm can amend the constitution itself, which undermines the supposed constraints mentioned in the article.",
+              "quotes": [
+                {
+                  "quote": "Weird that the article indicates political arm only change within constraints of the constitution but neglected to mention that the same political arm can also change the constitution",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x64qop",
+          "title": "SIT launches new school for working adults to upgrade skills, switch careers",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x64qop/sit_launches_new_school_for_working_adults_to/",
+          "score": 3,
+          "num_comments": 0,
+          "created_at": "2026-10-14T22:14:18.252000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x64qop",
+            "post_title": "SIT launches new school for working adults to upgrade skills, switch careers",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6bdpi",
+          "title": "YSK Govt is giving out just TWO one time use masks (effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95,",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6bdpi/ysk_govt_is_giving_out_just_two_one_time_use/",
+          "score": 3,
+          "num_comments": 9,
+          "created_at": "2026-10-15T03:38:06.957000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6bdpi",
+            "post_title": "YSK Govt is giving out just TWO one time use masks (effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95,",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Singaporeans express frustration over poor mask distribution logistics, with vending machines not at advertised locations and certain regions feeling neglected. The tone reflects practical annoyance (using 'cmi' and rhetorical questioning) rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "Tried to locate one of the bus interchange vending machines based on the hazemaskgowhere site. It wasn't at the stated location nor anywhere within the bus int. Really cmi.",
+                  "score": 3
+                },
+                {
+                  "quote": "South, central and east areas: Are we a joke to you?",
+                  "score": -3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A casual positive note acknowledging the environmental benefit of reducing mask wastage, but expressed matter-of-factly without enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Is good though, reduce wastage",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6ckez",
+          "title": "Singapore’s AI-led economic growth set to continue in 2027: MAS",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6ckez/singapores_ailed_economic_growth_set_to_continue/",
+          "score": 1,
+          "num_comments": 1,
+          "created_at": "2026-10-15T04:44:18.816000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6ckez",
+            "post_title": "Singapore’s AI-led economic growth set to continue in 2027: MAS",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x686xx",
+          "title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x686xx/in_the_uk_only_20_of_all_jobs_created_over_the/",
+          "score": 0,
+          "num_comments": 24,
+          "created_at": "2026-10-15T00:54:48.216000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x686xx",
+            "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about misinformation campaigns and statistical manipulation by authorities, with mentions of bots and propaganda efforts to skew narratives.",
+              "quotes": [
+                {
+                  "quote": "There's alot of bots and spammers and propagandists lately",
+                  "score": 6
+                },
+                {
+                  "quote": "The only time pappy lump stats together is to try to massage the figures to make them look more palatable to the masses.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is evident regarding wage suppression due to unlimited foreign worker influx, perceived government data manipulation, and declining subreddit quality from coordinated misinformation efforts.",
+              "quotes": [
+                {
+                  "quote": "Singaporeans are also happy to do blue collar jobs, but the wages here can never be right because no minimum wage ÷ unlimited open leg makes a very deadly combo.",
+                  "score": 3
+                },
+                {
+                  "quote": "the quality of the sub has been going super downhill since early to mid this year.",
+                  "score": 1
+                },
+                {
+                  "quote": "There's clearly an organised effort to work the article slant in a particular way and for meddling agents to then build on the slant to continue to misinform.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6a52c",
+          "title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6a52c/50_of_spore_workers_set_to_earn_s6000_as_salaries/",
+          "score": 0,
+          "num_comments": 24,
+          "created_at": "2026-10-15T02:32:49.084000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x6a52c",
+            "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about financial instability and the unsustainable spiral of rising costs outpacing income growth, with concerns that economic gains are illusory and could collapse.",
+              "quotes": [
+                {
+                  "quote": "feels like only 1 crisis away from financial ruins",
+                  "score": 3
+                },
+                {
+                  "quote": "One day the median will be 10k. And a cup of kopi will cost $2.50",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation about being trapped in an endless rat race where salary increases fail to improve real living standards, with cynicism that hard work yields no meaningful progress for middle to lower-income earners.",
+              "quotes": [
+                {
+                  "quote": "Recently took a pay increase of 20% then saw this article which verifies that i am still earni g below median. Cries in poverty😭",
+                  "score": 9
+                },
+                {
+                  "quote": "Always wondered what's the point of higher salaries if the costs just go up proportionally or even more, end up have to keep working harder for less real standard of living That movie 'In Time' just keeps getting more and more real",
+                  "score": 8
+                },
+                {
+                  "quote": "Well, PM has said it, high pay also equates to high cost… so the ultimate question is, are we really growing in that case or just in an endless rat race just to survive…",
+                  "score": 6
+                },
+                {
+                  "quote": "It's basically financially stagnation… hitting anyone within the middle to lower income group all get squeezed till no end. All the hard work over the years is really for nothing.",
+                  "score": 3
+                },
+                {
+                  "quote": "50%..but i guess i aint one of them",
+                  "score": 7
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x5rcwn",
+          "title": "Singapore has done a great job in handling the haze in 2026",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x5rcwn/singapore_has_done_a_great_job_in_handling_the/",
+          "score": 0,
+          "num_comments": 12,
+          "created_at": "2026-10-14T13:33:39.880000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x5rcwn",
+            "post_title": "Singapore has done a great job in handling the haze in 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about delayed response to haze and supply chain issues with protective equipment, though expressed as practical worries rather than panic. The fear centers on preventive measures coming too late and resource availability.",
+              "quotes": [
+                {
+                  "quote": "200 then issue mask Isn't it too late when they can do it last week?",
+                  "score": 0
+                },
+                {
+                  "quote": "Masks and air purifiers are on short supply alr",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration with perceived government inaction, lack of transparency, and prioritization of economic activity over public health during the haze crisis. The language reflects outrage at reactive rather than proactive measures and cynicism about official priorities.",
+              "quotes": [
+                {
+                  "quote": "This time nothing much has been done, only when people complain then do something.",
+                  "score": 11
+                },
+                {
+                  "quote": "What measures when were masks issued?",
+                  "score": 5
+                },
+                {
+                  "quote": "Great job in obfuscating the air quality with \"there is no official standard\" haze PSI. Great job in monitoring monitoring monitoring until cannot cover up liao then do the bare minimum.",
+                  "score": 1
+                },
+                {
+                  "quote": "Schools are still running, the peons are still expected to work work work.",
+                  "score": 1
+                },
+                {
+                  "quote": "What measures? Wait till people harmed measures? Profit before lives?",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 7,
+      "comments_analyzed": 86,
+      "top_posts": [
+        {
+          "id": "t3_1x6f8hq",
+          "title": "Advice on ETF’s in Stashaway",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6f8hq/advice_on_etfs_in_stashaway/",
+          "score": 0,
+          "num_comments": 4,
+          "created_at": "2026-10-15T07:28:01.323000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x6f8hq",
+            "post_title": "Advice on ETF’s in Stashaway",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6ikgr",
+          "title": "Most Singaporeans make $3.3k/mth",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6ikgr/most_singaporeans_make_33kmth/",
+          "score": 0,
+          "num_comments": 9,
+          "created_at": "2026-10-15T10:56:18.635000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x6ikgr",
+            "post_title": "Most Singaporeans make $3.3k/mth",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express frustration with statistical methodology and linguistic imprecision in the original claim, pointing out how bimodal salary distributions make mode calculations problematic and how the phrasing of 'most Singaporeans' is misleading.",
+              "quotes": [
+                {
+                  "quote": "Mode is always problematic. Salaries tend to be distributed in two humps, one from uni grads and one for non-grads. For a wide span of age groups, it could be nearly 50-50 distribution of grads vs non-grads. So a slight change flips the mode between the middle of the non-grad hump vs the peak of the grad hump.",
+                  "score": 2
+                },
+                {
+                  "quote": "\"Most Singaporeans make $3.3k/month\" is not the correct way to phrase this though. Your title would be interpreted as >50% of Singaporeans make at least $3.3k. $3.3k/month is the most common salary, in casual English.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6d1y2",
+          "title": "Just started work need insurance advice",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6d1y2/just_started_work_need_insurance_advice/",
+          "score": 0,
+          "num_comments": 17,
+          "created_at": "2026-10-15T05:12:24.398000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x6d1y2",
+            "post_title": "Just started work need insurance advice",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about insurance companies' predatory practices, claim denials, and premium hikes following successful claims, with regret about past insurance decisions. The language reflects serious concerns about systemic unfairness in the insurance industry.",
+              "quotes": [
+                {
+                  "quote": "please exercise your free look privilege immediately. Prudential has one of the most predatory claim denial processes in the industry. And let's say you make a successful claim: congrats, enjoy the rest of your lifelong premiums being pumped up because their underwriters will now ensure the inflated risk is priced in.",
+                  "score": 2
+                },
+                {
+                  "quote": "I regret not buying more insurance cus underwriting is a pain when you have more health conditions",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with insurance costs relative to current life stage and concern about underwriting complexities when health conditions are involved. The frustration is noticeable but expressed in a measured, pragmatic tone typical of Singaporean financial discussions.",
+              "quotes": [
+                {
+                  "quote": "i do understand it is better to get ci coverage when I'm young. I'm also thinking of reducing the term to cover until age 65.",
+                  "score": 0
+                },
+                {
+                  "quote": "The cost is about the same for more coverage with single although I find it quite high for my current life stage imo",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x6fdbi",
+          "title": "Resale without grants",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6fdbi/resale_without_grants/",
+          "score": 0,
+          "num_comments": 19,
+          "created_at": "2026-10-15T07:37:05.519000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x6fdbi",
+            "post_title": "Resale without grants",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The person expresses genuine concerns about future BTO eligibility, unused grants, and long-term property resale viability, along with worries about dating pool limitations after single HDB ownership. These are substantive concerns about significant life decisions rather than passing worries.",
+              "quotes": [
+                {
+                  "quote": "who knows whether I can still BTO in the future and who knows whether my grants will forever go unused?",
+                  "score": 0
+                },
+                {
+                  "quote": "An issue with looking to get married after owning a HDB as a single is that your dating pool shrinks significantly.",
+                  "score": 1
+                },
+                {
+                  "quote": "less than 60y lease means it'll be hard to sell in the future right?",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There's a clear sense of frustration with the BTO lottery system and a definite desire to escape family circumstances, expressed with casual humor ('lolol') rather than intense anger. The frustration is noticeable but not explosive or emphatic.",
+              "quotes": [
+                {
+                  "quote": "I don't want to slowly spin the BTO lottery.",
+                  "score": 0
+                },
+                {
+                  "quote": "I'm running from family in the first place lolol",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong positive sentiment is expressed through multiple affirming statements about homeownership, personal freedom, and mutual encouragement, with emphatic language like 'cheers to freedom' and confidence about future prospects. The optimism outweighs concerns and carries genuine enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "I'd much prefer to own a home rather than rent.",
+                  "score": 7
+                },
+                {
+                  "quote": "It's heartening enough to know someone else did similarly.",
+                  "score": 2
+                },
+                {
+                  "quote": "cheers to freedom.",
+                  "score": 6
+                },
+                {
+                  "quote": "freedom is coming regardless once gahmen say I can buy",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x5udaq",
+          "title": "Not financially savvy, help!",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x5udaq/not_financially_savvy_help/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-10-14T15:33:02.935000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x5udaq",
+            "post_title": "Not financially savvy, help!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual approval of a suggested approach with a relaxed endorsement, indicating modest confidence in the solution without strong enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "this is the way tbh, everything's already compiled there",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x6b33t",
+          "title": "Despite CPI last night, i think we can afford to be bullish",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6b33t/despite_cpi_last_night_i_think_we_can_afford_to/",
+          "score": 0,
+          "num_comments": 9,
+          "created_at": "2026-10-15T03:21:58.741000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x6b33t",
+            "post_title": "Despite CPI last night, i think we can afford to be bullish",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses realistic concerns about market valuation and historical precedent, noting that even industry giants can fail and overvalued stocks can crash significantly. These are thoughtful worries rather than panic, presented as counterpoints to the bullish thesis.",
+              "quotes": [
+                {
+                  "quote": "I'm aware Amazon was too a young fledgling",
+                  "score": -2
+                },
+                {
+                  "quote": "nobody thought blackberry/nokia will end up at this price today - that the list of industry giants may falter one day",
+                  "score": -2
+                },
+                {
+                  "quote": "If it's overvalued by 50%, it can crash 50%.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The poster demonstrates clear confidence in innovation and tech growth, with specific reference to recent AI IPO data providing validation for their bullish stance. The sentiment is positive and definite but measured rather than exuberant.",
+              "quotes": [
+                {
+                  "quote": "I'm bullish on innovation, growth and tech",
+                  "score": -2
+                },
+                {
+                  "quote": "I refer to the latest data of AI related IPOs in 2026. It's giving me confidence",
+                  "score": -2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x5w4ji",
+          "title": "When would you hire a wealth manager?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x5w4ji/when_would_you_hire_a_wealth_manager/",
+          "score": 0,
+          "num_comments": 30,
+          "created_at": "2026-10-14T16:39:14.044000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x5w4ji",
+            "post_title": "When would you hire a wealth manager?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The person expresses genuine worry about market downturns potentially damaging their portfolio, with specific concern that their defensive strategies haven't been tested in real adverse conditions. The anxiety is clear but not panicked or catastrophic in tone.",
+              "quotes": [
+                {
+                  "quote": "Sometimes I feel im a summer child and the next bear run will decimate my portfolio.",
+                  "score": 0
+                },
+                {
+                  "quote": "i worry that my defensive strategy for the downside will only be tested during a real downside.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple frustrations converge with emphatic language: lack of time for portfolio management, stalled learning progress, dismissive treatment by wealth managers, and consistent underperformance of recommended funds versus index alternatives. The tone conveys frustration verging on exasperation with both time constraints and professional advice quality.",
+              "quotes": [
+                {
+                  "quote": "Recently I haven't had as much time to tend to the portfolio with as much care as I would like.",
+                  "score": 0
+                },
+                {
+                  "quote": "My learning has plateued. I don't think I am learning better investment strategies by redoing what I'm already doing.",
+                  "score": 0
+                },
+                {
+                  "quote": "Its like somehow get to 3m, only to be treated as a toddler by these RMs and wealth managers who hand you a toy to play with vs anything concrete.",
+                  "score": 1
+                },
+                {
+                  "quote": "I never have luck with the funds they recommended to buy. All significantly under perform the index fund",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine appreciation for strong investment returns (12-18% annualized) and acknowledgment of impressive wealth accumulation at age 37, though the positivity is measured and comparative rather than effusive. The optimism centers on validating existing performance rather than future excitement.",
+              "quotes": [
+                {
+                  "quote": "12 to 18% annualised return, I presume at some reasonable risk is very very respectable.",
+                  "score": 23
+                },
+                {
+                  "quote": "12-18% is amazing man! Congratulations! Even my fund manager is not performing this well!",
+                  "score": 1
+                },
+                {
+                  "quote": "$3m at 37 as a single is impressive.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "How this shit is allowed in 2026 is beyond me…",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 70,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't think its something they can get rid of, cuz its like lowk ingrained in their society.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Corruption is likely to continue unless we can somehow form a society that outdoes the need for it.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's an unsustainable system of governance.",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 58,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There will be no punishment for cheating.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 69,
+        "intensity": "mild"
+      },
+      {
+        "text": "At certain pollution levels, certain populations are advised to avoid all outdoor activity. When your commute can involve 20+ mins of walking + waiting for the bus each way before and after taking public transport, especially for people who walk slowly due to age or poor health, that already constitutes physical activity. Not everyone is privileged enough to work and live near an MRT.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "With the haze, we are expecting people with chronic heart and lung disease to close their windows while at home. Without aircon, the result is that they will experience heavy heat stress as a result.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "You can retake exams in life but you cannot reverse the long term damage from PM2.5",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": -3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Would the dark patch on the 4pm chart eventually move up to SG later in the day?",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i bet theres a special place in hell for these people",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 122,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if subsidy runs out, they will announce the closure of SG office.",
+        "post_id": "t3_1x6bv4z",
+        "post_title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+        "subreddit": "singapore",
+        "score": 127,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Oh God. Praying that everyone survived",
+        "post_id": "t3_1x5rfkr",
+        "post_title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+        "subreddit": "singapore",
+        "score": 120,
+        "comment_score": 81,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Anthropic is not going to be able to IPO at a high enough price to justify the investment we put into it.",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 24,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I give them 5 years from now when they suddenly have to close their office here and do a mass layoffs due their corporation not being able to make its target profit for their CEOs and Shareholders.",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's uncertain how one can grow their career and it's easy to get stuck with creating meh work that most ppl will skip on social media.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Doesn't help that the industry have been struggling with mass layoffs over the past few years.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm quite concern about my kids breathing in PSI 200 or more for many hours a day and am considering just keeping them at home regardless of the ministry's decision to close schools or not.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Official measures include closing all doors and windows, but as you know they aren't airtight so haze is still getting in. You know what's not getting out? The heat. 40 children and electronics exuding heat for 7 hours. Imagine how that feels in a tiny classroom. It's sweltering, nauseating and frankly just pure torture. If they don't get hurt by the haze, they are definitely getting hurt by heat related injuries, not to mentioned they aren't really able to absorb any knowledge at all in such conditions.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am also thinking of requesting to WFH and keep my kid home.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "So now we're stuck at waiting for another 2-3 months to get the blood test done before she can give us our diagnosis.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i would be more worried about the job paying you in crypto... i cant see how that is legal for now.",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "overseas job even if paid in currency is not deemed a lot less secure by FI",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I agree, that's why I'm hesitating as well..",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Just becareful… If you are paid in USDC, that's quite fine, regularly audited, and you have channel to redeem to real dollar. Other than that stablecoin, I highly doubt if they didn't print out of thin air.",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Do people not know that stablecoins can lose their pegs? Even Circle took a hit with SVB, though it recovered.",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I rly am not optimistic about the current haze situation ending any time soon. The monsoon season would likely be pushed back to end of year/even early 2027 due to the particularly strong El Niño this year.",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "until the monsoon season starts? which with el nino is delayed even further.",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sitting in a room filled with nervous students and waiting in that anxiety is very draining. By the time I meet the examiner, they and I are both exhausted.",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I remember watching everyone else go home one by one while I had to sit in line on the floor of the school hall, bored and unentertained and longing to go home",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If you come from a decent middle class household, you are generally fine. Though being reasonably well off is a bit of a hygeine factor due to the cost of living.",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "dating in Singapore would be harder lor",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If you have plans to return back to the states, your dating pool will shrink.",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If parliament ownself write law and ownself interpret law. Then thats truly a kangaroo court. because they can twist their own words to suit their needs at any point in time.",
+        "post_id": "t3_1x6bnh2",
+        "post_title": "CNA Explains: What happens when the government disagrees with the courts?",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "There's alot of bots and spammers and propagandists lately",
+        "post_id": "t3_1x686xx",
+        "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The only time pappy lump stats together is to try to massage the figures to make them look more palatable to the masses.",
+        "post_id": "t3_1x686xx",
+        "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "feels like only 1 crisis away from financial ruins",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "One day the median will be 10k. And a cup of kopi will cost $2.50",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "200 then issue mask Isn't it too late when they can do it last week?",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Masks and air purifiers are on short supply alr",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "please exercise your free look privilege immediately. Prudential has one of the most predatory claim denial processes in the industry. And let's say you make a successful claim: congrats, enjoy the rest of your lifelong premiums being pumped up because their underwriters will now ensure the inflated risk is priced in.",
+        "post_id": "t3_1x6d1y2",
+        "post_title": "Just started work need insurance advice",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I regret not buying more insurance cus underwriting is a pain when you have more health conditions",
+        "post_id": "t3_1x6d1y2",
+        "post_title": "Just started work need insurance advice",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "who knows whether I can still BTO in the future and who knows whether my grants will forever go unused?",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "An issue with looking to get married after owning a HDB as a single is that your dating pool shrinks significantly.",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "less than 60y lease means it'll be hard to sell in the future right?",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm aware Amazon was too a young fledgling",
+        "post_id": "t3_1x6b33t",
+        "post_title": "Despite CPI last night, i think we can afford to be bullish",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "nobody thought blackberry/nokia will end up at this price today - that the list of industry giants may falter one day",
+        "post_id": "t3_1x6b33t",
+        "post_title": "Despite CPI last night, i think we can afford to be bullish",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If it's overvalued by 50%, it can crash 50%.",
+        "post_id": "t3_1x6b33t",
+        "post_title": "Despite CPI last night, i think we can afford to be bullish",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sometimes I feel im a summer child and the next bear run will decimate my portfolio.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i worry that my defensive strategy for the downside will only be tested during a real downside.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "Literally the only good thing about the haze",
+        "post_id": "t3_1x5prfk",
+        "post_title": "The severe haze made these sun spots easier to capture",
+        "subreddit": "singapore",
+        "score": 215,
+        "comment_score": 44,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Arrested, then let go quietly, or given an atas room in jail, with facilities and facebook access 😤",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 120,
+        "intensity": "strong"
+      },
+      {
+        "text": "They are all corrupted fucks. Every single one of them.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 70,
+        "intensity": "strong"
+      },
+      {
+        "text": "Of course it's the Chief's brother. Of course it is someone related to some big shot. How is that even a surprise.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 31,
+        "intensity": "strong"
+      },
+      {
+        "text": "We all know what the outcome will be like. The judge gets a healthy 'donation'. The accused will be set free for 'lack of evidence'.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "Worlds worst man made forest fires happens every year to SG.",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "No wonder don't want help la chibai",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Money talks louder over there apparently than whatever that Fu is using these days to communicate with them",
+        "post_id": "t3_1x6bk7b",
+        "post_title": "Indonesia’s disaster chief’s brother among five arrested over alleged graft amid haze crisis",
+        "subreddit": "singapore",
+        "score": 200,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can we ask ourselves how Grace Fu even became Minister of Environment in the first place? She was an accountant in her private career for god's sake.",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 277,
+        "intensity": "strong"
+      },
+      {
+        "text": "We wish them well is the most passive thing I've heard from the gov lol",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 180,
+        "intensity": "strong"
+      },
+      {
+        "text": "Get paid millions with hefty increment to make this kind of statements. Best job in the world, where to find? /s",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 77,
+        "intensity": "strong"
+      },
+      {
+        "text": "\"I told you we are on top of the situation.\"",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 122,
+        "intensity": "strong"
+      },
+      {
+        "text": "Clearly on top in the pollution chart.",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is what you get in a scholar-run elitist system. Everyone in there underestimates what needs to be done but has inflated egos to admit they don't.",
+        "post_id": "t3_1x5tll2",
+        "post_title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+        "subreddit": "singapore",
+        "score": 149,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wow it read as the man's lover instead of the wife's lover in the title. I tht which idiot man wld be so dumb; turns out its the journalist. cna really doesnt vet or proofread their work anymore.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 181,
+        "intensity": "strong"
+      },
+      {
+        "text": "They might have proofread it but the standards of yesteryears have left this realm.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "There are so many articles where I've had to read something multiple times to make sense of it, and so many instances of Chinese grammar translated literally into English. Appalling.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Absurdly irresponsible headline.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Imagine your entire marriage your wife keep on cheating on you, damm shag.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's never illegal to be a cheater, a jerk, an asshole or insufferable person.",
+        "post_id": "t3_1x661aq",
+        "post_title": "Man sent explicit photos of wife and lover to family chat, but court declines to grant protection order",
+        "subreddit": "singapore",
+        "score": 148,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Look at the bright side .. at least .. nvm, the haze is blocking the sun. It's dark.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 255,
+        "intensity": "moderate"
+      },
+      {
+        "text": "it's not unreasonable to expect more",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 43,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Got give also complain, never give also complain.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 117,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I think people too used to the coddling from gahmen that they lost all forms of self preservation.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 53,
+        "intensity": "moderate"
+      },
+      {
+        "text": "covid and haze risks are not the same so thtey don't wanna kena complaints.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 56,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm not making my life and death decisions from the website that cares about the last 24 hours rather than the last immediate hour.",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 39,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah the heavy rain did absolutely nothing, the haze is going to blow back in by lunch...",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "By lunch? It's back in full force already. The thing is, the smell isn't as bad but the pm2.5 is as high as ever. I thought it was okay and opened my windows to air out my house just now after the rain and immediately felt my nose blocking.",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "The surrounding looks so much brown today :(",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "exams coming up for primary so got little choice lol",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "We would like to have some Oxygen Now.",
+        "post_id": "t3_1x685w8",
+        "post_title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+        "subreddit": "singapore",
+        "score": 140,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Respectfully, fk this person. Got a dog without researching the effort and cost required, and without their family's permission. Then anyhow threaten euthanasia for a HEALTHY dog just because they have adoption remorse.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 183,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can we euthanised this fam instead? He is basically saying if no one steps up with 7 days, it's on you that we going to euthanised it. 🙄 I understand puppy blues but dude wasn't even stepping up enough to get the dog adopted.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 32,
+        "intensity": "strong"
+      },
+      {
+        "text": "Replace the word \"euthanise\" with \"kill\" and would everyone involved still feel this nonchalant? This is a living being with emotions, not some Toy. \"Sorry we need to kill simba cos no one want him, yaa lor need kill lor, family force me to kill so i kill lor, we gonna kill him in 7 days\" ?????? The emoji reactions also piss me off. Whats with the 😢 and 😮? Like this is how i'd react to my friends scrape their knee or fail an exam, not if someone say they gonna kill their fkin dog for no reason.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "Buy dog but don't bother to read up and research. Den blame the dogs behavior and want to kill the dog cos ownself don't put in effort.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 19,
+        "intensity": "strong"
+      },
+      {
+        "text": "Aiya you know these are not really animal lovers, the branded pet is for showing off on IG like and bring out like an accessory. They are not there to clean it's bodily function, take to the vet, look after it's health physically and emotionally.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "99% of the time the \"behavioural problem\" are actually the owner...",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "Hate all these back yard breeders, it's a rubbish buisness that hurts the animals.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sad to hear this for the Singapore studio, but to be honest, Ubisoft have been way past their Renaissance period",
+        "post_id": "t3_1x6bv4z",
+        "post_title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+        "subreddit": "singapore",
+        "score": 127,
+        "comment_score": 105,
+        "intensity": "strong"
+      },
+      {
+        "text": "any gamer here knows Ubisoft hasn't made a proper hit in too long, and all their releases have been pretty crap + weird focus on MTX within the games themselves.",
+        "post_id": "t3_1x6bv4z",
+        "post_title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+        "subreddit": "singapore",
+        "score": 127,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah. I disliked Ubisoft ever since they butchered HOMM back in the days. But now when I say \"Ubisoft is bad\" the automatic assumption is that I'm playing identity politics. Like... Bitch please, they screwed up one of the best game series in the 2000s",
+        "post_id": "t3_1x6bv4z",
+        "post_title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+        "subreddit": "singapore",
+        "score": 127,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "You repost articles all the time onto this subreddit but you dont even read?",
+        "post_id": "t3_1x5rfkr",
+        "post_title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+        "subreddit": "singapore",
+        "score": 120,
+        "comment_score": 57,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't think he reads the article he posts lol",
+        "post_id": "t3_1x5rfkr",
+        "post_title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+        "subreddit": "singapore",
+        "score": 120,
+        "comment_score": 23,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Ah Alamak...",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 30,
+        "intensity": "moderate"
+      },
+      {
+        "text": "actually there's quite a few crypto companies hq here... Just that they are banned from giving services to us 😂 just here to enjoy the tax benefits only la",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 31,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm old enough to remember when we were going to have vertical farms everywhere.",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I haven't received any instructions on the fingerprints yet",
+        "post_id": "t3_1x6gbhk",
+        "post_title": "Singapore police certificate of clearance",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "The market is tough",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tough for a fresh grad and only diploma to get hired.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's oversaturated and fought amongst graduates from all kinds of industries not just from marketing/comms, with most folks thinking that they can use capcut = they're fit for the job",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "You're also fighting with folks who have additional skills like graphic design, account servicing and creative writing.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Even if you get the role, you're producing not the most creatively satisfying work either.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tbh I'd rather the kids be in school. I don't have those kinds of air purifiers at home and they're in class with really good air purifiers all the time anyway.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": -5,
+        "intensity": "strong"
+      },
+      {
+        "text": "The measures are mandated by a decision maker who hasn't been in a classroom for longer than 30 minutes for decades, that's all you need to know to understand the situation.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "My kid still had outdoor activities yesterday. Classrooms no aircon, windows kept open.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Windows will be shut when PSI hit 200, otherwise opened, but with 2 AP running. which dont make sense, but it is what it is.",
+        "post_id": "t3_1x6bba8",
+        "post_title": "Haze measures in primary schools",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I find her quite dismissive and not helpful with my concerns.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "She also missed out on ordering for blood tests before doing my HSG scan.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "When I went back in for the consult on the HSG scan, she asked me \"u didn't do blood test?\" like how am I supposed to know, doc?",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Why didn't YOU ask for a blood test in the first place???",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Annoyed with her dismissive attitude as though it was my fault.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "she was quick to put the blame on the woman instead of looking objectively at how healthy both parties are.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "That's a good workaround but seems to be quite abit of work! Really wondering if it's worth to move now",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "theres fk all that the indo govt is doing about the situation",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "when they get their shit together or when they've burned every single tree in the forest probably",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "the moment i get home i just keep coughing.",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Indonesia said they can put the fire off within a month woh…",
+        "post_id": "t3_1x6e64z",
+        "post_title": "When wld the haze persist until?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "the haze this morning is very bad too like some areas >200",
+        "post_id": "t3_1x68bet",
+        "post_title": "Rain making it harder to breathe",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "I can't decide if it's the haze or the rain that has made it so dark today morning. But it's not good. Because as far as I can see, the rain has not made any difference to the ongoing haze and bad air.",
+        "post_id": "t3_1x68bet",
+        "post_title": "Rain making it harder to breathe",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "The haze got thicker after a brief rain which i thought it was a heavy downpour",
+        "post_id": "t3_1x68bet",
+        "post_title": "Rain making it harder to breathe",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "It made it harder to breathe right? Cos that's how it made me feel",
+        "post_id": "t3_1x68bet",
+        "post_title": "Rain making it harder to breathe",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Those of us at the back got bored af waiting to be called.",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I remember the day of my sec 2 oral. My oral examiner was LATE like 2 hours like I could have gone home at 9+am",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Their mood is worse, and that has an impact on your delivery. They have heard the same thing maybe 30 times before you, so yep.",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'll have a good job but expect very long work hours like maybe 996 T_T so I probably won't have time to meet anyone except dating apps and occasional hobbies",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I know someone who is pretty much working till 1am every night…it happens",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They were used to getting ghosted by half the girls on apps in US",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Even the 1/6/10Gbps also pointless. Watch Youtube 4K/8K keep buffering sometimes. Speed throttle under 120Mbps.",
+        "post_id": "t3_1x6h5cq",
+        "post_title": "ViewQwest launches 100Gbps home broadband plan in Singapore. Wa who getting?",
+        "subreddit": "SingaporeRaw",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But all those websites and streaming sites is throttling.",
+        "post_id": "t3_1x6h5cq",
+        "post_title": "ViewQwest launches 100Gbps home broadband plan in Singapore. Wa who getting?",
+        "subreddit": "SingaporeRaw",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "most ordinary users cant even saturate 1gbps consistently",
+        "post_id": "t3_1x6h5cq",
+        "post_title": "ViewQwest launches 100Gbps home broadband plan in Singapore. Wa who getting?",
+        "subreddit": "SingaporeRaw",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Weird that the article indicates political arm only change within constraints of the constitution but neglected to mention that the same political arm can also change the constitution",
+        "post_id": "t3_1x6bnh2",
+        "post_title": "CNA Explains: What happens when the government disagrees with the courts?",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Tried to locate one of the bus interchange vending machines based on the hazemaskgowhere site. It wasn't at the stated location nor anywhere within the bus int. Really cmi.",
+        "post_id": "t3_1x6bdpi",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95,",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "South, central and east areas: Are we a joke to you?",
+        "post_id": "t3_1x6bdpi",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95,",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": -3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singaporeans are also happy to do blue collar jobs, but the wages here can never be right because no minimum wage ÷ unlimited open leg makes a very deadly combo.",
+        "post_id": "t3_1x686xx",
+        "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "the quality of the sub has been going super downhill since early to mid this year.",
+        "post_id": "t3_1x686xx",
+        "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "There's clearly an organised effort to work the article slant in a particular way and for meddling agents to then build on the slant to continue to misinform.",
+        "post_id": "t3_1x686xx",
+        "post_title": "In the UK, only 20% of all jobs created over the last 12 years went to their citizens despite brexit. The rest went to foreigners. In SG, 63% of PMET jobs created over the last 10 years went to local-born citizens despite free trade agreements. Why?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Recently took a pay increase of 20% then saw this article which verifies that i am still earni g below median. Cries in poverty😭",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Always wondered what's the point of higher salaries if the costs just go up proportionally or even more, end up have to keep working harder for less real standard of living That movie 'In Time' just keeps getting more and more real",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Well, PM has said it, high pay also equates to high cost… so the ultimate question is, are we really growing in that case or just in an endless rat race just to survive…",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's basically financially stagnation… hitting anyone within the middle to lower income group all get squeezed till no end. All the hard work over the years is really for nothing.",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "50%..but i guess i aint one of them",
+        "post_id": "t3_1x6a52c",
+        "post_title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "This time nothing much has been done, only when people complain then do something.",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "What measures when were masks issued?",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Great job in obfuscating the air quality with \"there is no official standard\" haze PSI. Great job in monitoring monitoring monitoring until cannot cover up liao then do the bare minimum.",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Schools are still running, the peons are still expected to work work work.",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "What measures? Wait till people harmed measures? Profit before lives?",
+        "post_id": "t3_1x5rcwn",
+        "post_title": "Singapore has done a great job in handling the haze in 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Mode is always problematic. Salaries tend to be distributed in two humps, one from uni grads and one for non-grads. For a wide span of age groups, it could be nearly 50-50 distribution of grads vs non-grads. So a slight change flips the mode between the middle of the non-grad hump vs the peak of the grad hump.",
+        "post_id": "t3_1x6ikgr",
+        "post_title": "Most Singaporeans make $3.3k/mth",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "\"Most Singaporeans make $3.3k/month\" is not the correct way to phrase this though. Your title would be interpreted as >50% of Singaporeans make at least $3.3k. $3.3k/month is the most common salary, in casual English.",
+        "post_id": "t3_1x6ikgr",
+        "post_title": "Most Singaporeans make $3.3k/mth",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i do understand it is better to get ci coverage when I'm young. I'm also thinking of reducing the term to cover until age 65.",
+        "post_id": "t3_1x6d1y2",
+        "post_title": "Just started work need insurance advice",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The cost is about the same for more coverage with single although I find it quite high for my current life stage imo",
+        "post_id": "t3_1x6d1y2",
+        "post_title": "Just started work need insurance advice",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't want to slowly spin the BTO lottery.",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm running from family in the first place lolol",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Recently I haven't had as much time to tend to the portfolio with as much care as I would like.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "My learning has plateued. I don't think I am learning better investment strategies by redoing what I'm already doing.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Its like somehow get to 3m, only to be treated as a toddler by these RMs and wealth managers who hand you a toy to play with vs anything concrete.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I never have luck with the funds they recommended to buy. All significantly under perform the index fund",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "So beautiful!",
+        "post_id": "t3_1x5prfk",
+        "post_title": "The severe haze made these sun spots easier to capture",
+        "subreddit": "singapore",
+        "score": 215,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Free ND filter for whole region.",
+        "post_id": "t3_1x5prfk",
+        "post_title": "The severe haze made these sun spots easier to capture",
+        "subreddit": "singapore",
+        "score": 215,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Actually it really is the silver lining of the haze. No intense sun on my skin.",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 11,
+        "intensity": "mild"
+      },
+      {
+        "text": "Mask haven't expire, can use what",
+        "post_id": "t3_1x6bl8s",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95 (Expiry 12/12/26)",
+        "subreddit": "singapore",
+        "score": 144,
+        "comment_score": 117,
+        "intensity": "mild"
+      },
+      {
+        "text": "Thankfully he rehomed the dog, or I am sure once this news is made known he might be drowning in a pool of spit.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 36,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Glad that Simba is freed from this irresponsible person.",
+        "post_id": "t3_1x6el17",
+        "post_title": "S’pore owner allegedly planned to euthanise 1½-year-old goldendoodle 'cause nobody want him', says dog has since been rehomed",
+        "subreddit": "singapore",
+        "score": 131,
+        "comment_score": 183,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What a huge coup! We're leading the world!",
+        "post_id": "t3_1x5ygp1",
+        "post_title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+        "subreddit": "singapore",
+        "score": 115,
+        "comment_score": 44,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't think it's all doom and gloom for content creation.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "There is a need for organic, authentic UGC styled content creation more than ever in the current AI slob.",
+        "post_id": "t3_1x5qemq",
+        "post_title": "For people in the marketing and communications industry. What’s your advice for someone looking for a content creation role in a company",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "Aura, excellent communication skills and able to speak both deeply and broadly about their domain and outside of it.",
+        "post_id": "t3_1x69zah",
+        "post_title": "what do you actually look for during interviews for leadership roles?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I had a great experience with her.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "She's very calm, friendly and skillful.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "She will be delivering my second baby as well (today!)",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "I really like her",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "she's quite sweet and has good bedside manner as far as I can tell",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Highly recommend!",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Dr Kwek delivered my baby last month, calm and confident throughout our checks and delivery.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Supportive of our birth plans too (normal delivery without epidural).",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Would recommend both!",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good bedside manner and confident during delivery - would have no concerns going through the process with her again.",
+        "post_id": "t3_1x6cnur",
+        "post_title": "KKH obs recommendation: Dr Kwek Lee Koon??",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Very useful in life though. Can charge higher in consultancy too eventually",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "That's possible actually, thank you for this. I'll speak to my banker",
+        "post_id": "t3_1x6bojq",
+        "post_title": "Singapore home loan — how do banks assess income paid in crypto?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "I'm one of the T ones. I'd rather go first than wait. I am prepared for the exam so I can rattle off and go.",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "Got a 21/30 for my oral exam component so I ain't complaining",
+        "post_id": "t3_1x68gsi",
+        "post_title": "**Singapore, be honest: did your roll-call number decide your exam fate?** 😅",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Lmao I don't think there will be an issue, Singapore is very friendly to expats and a multicultural city If you wanna increase your chances of dating a Singaporean girl, 1) be rich and 2) don't be ugly haha All jokes aside, good luck man and welcome to Singapore, hope you arrive after the haze clears",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Ethnically Chinese + American accent. Brother just dont steal my girl and im good. Youll have your pick",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Singaporean men dont like other foreigner men…the braindead ones. As for dating women…depends who you're surrounding yourself with. I say you won't have an issue if you're decently attractive and have a stable career",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Local girls are open to dating foreigners.",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "All my Asian American friends who moved said Sg is probs the only country where dating is favorable to a guy. They were used to getting ghosted by half the girls on apps in US but here girls even double text them or ask them out lol so I think you will be fine. Probs just get hated on by the local men",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "My ex is born and raised in NYC, he's of Chinese descent too. I think international exposure plus an Asian background/ values is probably appealing to ladies here",
+        "post_id": "t3_1x6dqgu",
+        "post_title": "How is dating for an Chinese American man?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Is good though, reduce wastage",
+        "post_id": "t3_1x6bdpi",
+        "post_title": "YSK Govt is giving out just TWO one time use masks (effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95,",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "I'd much prefer to own a home rather than rent.",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's heartening enough to know someone else did similarly.",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "cheers to freedom.",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "freedom is coming regardless once gahmen say I can buy",
+        "post_id": "t3_1x6fdbi",
+        "post_title": "Resale without grants",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "this is the way tbh, everything's already compiled there",
+        "post_id": "t3_1x5udaq",
+        "post_title": "Not financially savvy, help!",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "I'm bullish on innovation, growth and tech",
+        "post_id": "t3_1x6b33t",
+        "post_title": "Despite CPI last night, i think we can afford to be bullish",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I refer to the latest data of AI related IPOs in 2026. It's giving me confidence",
+        "post_id": "t3_1x6b33t",
+        "post_title": "Despite CPI last night, i think we can afford to be bullish",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "12 to 18% annualised return, I presume at some reasonable risk is very very respectable.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 23,
+        "intensity": "moderate"
+      },
+      {
+        "text": "12-18% is amazing man! Congratulations! Even my fund manager is not performing this well!",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "$3m at 37 as a single is impressive.",
+        "post_id": "t3_1x5w4ji",
+        "post_title": "When would you hire a wealth manager?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Haze Crisis Air Quality Health Concerns",
+      "engagement_score": 621,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "The severe haze made these sun spots easier to capture",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5prfk/the_severe_haze_made_these_sun_spots_easier_to/"
+        },
+        {
+          "title": "FWIW: The MyCMAQ air quality model expects PM2.5 to worsen significantly over the next few hours.",
+          "url": "https://www.reddit.com/r/singapore/comments/1x685w8/fwiw_the_mycmaq_air_quality_model_expects_pm25_to/"
+        },
+        {
+          "title": "YSK Govt is giving out just TWO one time use masks (Effective for up to 8hrs use) - 3M™ Aura™ Health Care Particulate Respirator & Surgical Mask 1870+, N95",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6bl8s/ysk_govt_is_giving_out_just_two_one_time_use/"
+        }
+      ],
+      "entities": [
+        "PM2.5",
+        "N95",
+        "Haze",
+        "NEA",
+        "Grace Fu",
+        "MyCMAQ"
+      ]
+    },
+    {
+      "topic": "Indonesia Corruption Fueling Cross-Border Haze",
+      "engagement_score": 349,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Indonesia's disaster chief's brother among five arrested over alleged graft amid haze crisis",
+          "url": null
+        },
+        {
+          "title": "Singapore keeping options open on haze prosecution against companies as it collects, reviews data: Grace Fu",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5tll2/singapore_keeping_options_open_on_haze/"
+        }
+      ],
+      "entities": [
+        "Indonesia",
+        "Grace Fu",
+        "Haze",
+        "Transboundary Pollution",
+        "Ministry of Sustainability"
+      ]
+    },
+    {
+      "topic": "Singapore Tech Sector Jobs and AI Growth",
+      "engagement_score": 242,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "Ubisoft to cut 70 jobs in Singapore, close Finland studio",
+          "url": "https://www.reddit.com/r/singapore/comments/1x6bv4z/ubisoft_to_cut_70_jobs_in_singapore_close_finland/"
+        },
+        {
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5ygp1/anthropic_opens_singapore_office_and_signs_mou/"
+        }
+      ],
+      "entities": [
+        "Ubisoft",
+        "Anthropic",
+        "AI",
+        "MAS",
+        "Employment",
+        "Tech Industry",
+        "MOU"
+      ]
+    },
+    {
+      "topic": "Singapore Salary Levels and Cost of Living",
+      "engagement_score": 6,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "$1.53m salary",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x5yx78/153m_salary/"
+        },
+        {
+          "title": "50% of S'pore workers set to earn S$6,000+ as salaries rise. But what's the take-home pay?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x6a52c/50_of_spore_workers_set_to_earn_s6000_as_salaries/"
+        },
+        {
+          "title": "Most Singaporeans make $3.3k/mth",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x6ikgr/most_singaporeans_make_33kmth/"
+        }
+      ],
+      "entities": [
+        "CPF",
+        "Employment",
+        "PMET",
+        "Wages",
+        "Cost of Living"
+      ]
+    },
+    {
+      "topic": "Singapore Container Ship Sunk Strait Hormuz",
+      "engagement_score": 120,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "Singapore-registered container ship sinks after being struck in Strait of Hormuz; second vessel damaged",
+          "url": "https://www.reddit.com/r/singapore/comments/1x5rfkr/singaporeregistered_container_ship_sinks_after/"
+        }
+      ],
+      "entities": [
+        "Strait of Hormuz",
+        "MPA",
+        "Shipping",
+        "Maritime Security"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Haze and Corruption Cynicism Dominate, But Overall Sentiment Intensity Falls Sharply as Singaporeans Shift to Darkly Humorous Coping",
+    "key_takeaways": [
+      "Despite a significant week-over-week drop across all sentiment categories (fears -27%, frustrations -35%, optimism -28%), haze remains the single dominant crisis driver — the decline reflects fatigue and resignation rather than genuine relief, as frustration intensity remains 'strong' even at lower volume.",
+      "The government's two-mask-per-household response has become a reputational liability, functioning as a meme-able symbol of inadequacy; the tokenistic gesture is actively cited as evidence of institutional indifference rather than care, making any follow-up communication extraordinarily difficult.",
+      "Indonesian corruption sentiment has fused with haze anxiety into a single narrative of unaccountable cross-border harm — Singaporeans do not distinguish between the environmental and governance failures, meaning any haze improvement that lacks visible Indonesian accountability will feel hollow and temporary.",
+      "A counter-narrative of wry, creative optimism (haze as 'free ND filter,' sunspot photography) is organically emerging among a small but highly upvoted cohort (+215 scores), signalling a community coping mechanism brands and content creators can authentically tap without trivialising the crisis.",
+      "Anthropic's Singapore office and the broader AI hiring signal are generating quiet but real excitement beneath the crisis noise — tech opportunity sentiment is present and waiting for amplification once the haze news cycle recedes."
+    ],
+    "opportunities": [
+      "Air quality and health-tech brands (air purifier manufacturers, N95 suppliers, health monitoring apps) should move immediately: lead with data-driven efficacy claims and child-safety messaging targeting primary school parents — this demographic is the most emotionally activated segment this week and is actively seeking solutions the government has not provided.",
+      "Employers in tech and finance sectors can capitalise on Ubisoft job-loss anxiety and AI hiring buzz simultaneously by positioning Singapore roles as stable, future-proof, and locally grounded — targeted LinkedIn and Reddit campaigns emphasising CPF contributions, local team culture, and AI upskilling programmes will resonate strongly against the backdrop of both job insecurity and Anthropic's market entry.",
+      "Content creators, photography brands, and tourism-adjacent businesses can authentically engage the 'silver lining' haze community (the ND filter, sunspot cohort) with user-generated content campaigns — these posts are already achieving top engagement scores (+215) and represent a positive brand-safe moment within an otherwise toxic news environment."
+    ],
+    "risks": [
+      "The two-mask policy backlash creates a second-order reputational risk for any brand seen as offering similarly tokenistic responses to the haze — companies with CSR or community care positioning must audit their planned haze-related communications immediately and ensure they offer substantive, measurable support rather than symbolic gestures that will be publicly ridiculed.",
+      "The entrenched cynicism about Indonesian governance accountability (judges taking 'donations,' accused walking free) is hardening into a permanent low-trust narrative toward all regional institutions — businesses with ASEAN supply chains, regional investment exposure, or cross-border ESG commitments should anticipate that Singaporean consumer and investor sentiment toward Indonesia-linked operations will remain structurally depressed, with any future scandal reactivating this week's anger at scale."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-10-14",
+    "fears": {
+      "direction": "down",
+      "change_pct": -26.9,
+      "intensity_shift": "stable",
+      "previous_count": 67,
+      "current_count": 49
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -35.0,
+      "intensity_shift": "stable",
+      "previous_count": 163,
+      "current_count": 106
+    },
+    "optimism": {
+      "direction": "down",
+      "change_pct": -28.1,
+      "intensity_shift": "stable",
+      "previous_count": 57,
+      "current_count": 41
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Southeast Asian Haze Health & Environmental Anxiety",
+      "description": "Deep concern over the recurring transboundary haze crisis and its disproportionate health impacts on vulnerable Singaporean populations.",
+      "category": "fear",
+      "quote_count": 6,
+      "sample_quotes": [
+        "You can retake exams in life but you cannot reverse the long term damage from PM2.5",
+        "With the haze, we are expecting people with chronic heart and lung disease to close their windows while at home. Without aircon, the result is that they will experience heavy heat stress as a result.",
+        "At certain pollution levels, certain populations are advised to avoid all outdoor activity. When your commute can involve 20+ mins of walking + waiting for the bus each way before and after taking public transport, especially for people who walk slowly due to age or poor health, that already constitutes physical activity. Not everyone is privileged enough to work and live near an MRT."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Governance Accountability & Elite Impunity",
+      "description": "Frustration over perceived systemic corruption, elite protection, and the ineffectiveness of Singapore's diplomatic and political responses to regional and domestic issues.",
+      "category": "frustration",
+      "quote_count": 11,
+      "sample_quotes": [
+        "Of course it's the Chief's brother. Of course it is someone related to some big shot. How is that even a surprise.",
+        "We all know what the outcome will be like. The judge gets a healthy 'donation'. The accused will be set free for 'lack of evidence'.",
+        "This is what you get in a scholar-run elitist system. Everyone in there underestimates what needs to be done but has inflated egos to admit they don't."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Tech Industry & Career Instability in Singapore",
+      "description": "Anxiety about the precariousness of tech and creative careers in Singapore, particularly regarding foreign company offices closing and uncertain growth paths.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "if subsidy runs out, they will announce the closure of SG office.",
+        "I give them 5 years from now when they suddenly have to close their office here and do a mass layoffs due their corporation not being able to make its target profit for their CEOs and Shareholders.",
+        "Anthropic is not going to be able to IPO at a high enough price to justify the investment we put into it."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Haze Silver Linings & Everyday Resilience",
+      "description": "Singaporeans finding dark humour and small upsides in the annual haze crisis as a coping mechanism.",
+      "category": "optimism",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Free ND filter for whole region.",
+        "Actually it really is the silver lining of the haze. No intense sun on my skin.",
+        "Mask haven't expire, can use what"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Personal Positivity & Community Affirmation",
+      "description": "Warm, personal expressions of gratitude, relief, and optimism around individual experiences with healthcare, content creation, and animal welfare.",
+      "category": "optimism",
+      "quote_count": 8,
+      "sample_quotes": [
+        "Glad that Simba is freed from this irresponsible person.",
+        "She's very calm, friendly and skillful. She will be delivering my second baby as well (today!)",
+        "There is a need for organic, authentic UGC styled content creation more than ever in the current AI slob."
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Running Strongly Negative at 71%",
+      "description": "Despite overall volume declining 35% week-over-week, 75 out of 106 frustration quotes (70.8%) register as strong intensity. This means the frustrations that remain are disproportionately forceful, suggesting a concentrated, deeply-felt grievance rather than general dissatisfaction. The near-absence of mild frustrations (only 2) reinforces that this is not background noise.",
+      "category": "frustration",
+      "related_quotes": [
+        "How this shit is allowed in 2026 is beyond me…",
+        "They are all corrupted fucks. Every single one of them."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "high_engagement",
+      "title": "Corruption Cluster Draws Multiple 200-Upvote Quotes",
+      "description": "Six separate quotes referencing Indonesia corruption and perceived impunity each scored +200, indicating broad community agreement on this theme. The consistent scoring across multiple distinct quotes — rather than a single viral post — signals a sustained, widely-shared sentiment about institutional corruption enabling the haze rather than a one-off reaction.",
+      "category": "frustration",
+      "related_quotes": [
+        "Of course it's the Chief's brother. Of course it is someone related to some big shot. How is that even a surprise.",
+        "We all know what the outcome will be like. The judge gets a healthy 'donation'. The accused will be set free for 'lack of evidence'."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Haze Sparks Unexpected Positive Humor Alongside Anger",
+      "description": "Three haze-related quotes scoring +215 each take a light or ironic tone ('Free ND filter for whole region', 'So beautiful!', 'Literally the only good thing about the haze'), contrasting sharply with the dominant frustration narrative. This dual-register response — dark humor alongside strong anger — is a notable pattern that separates haze discussion from straightforward grievance and may indicate community coping behavior.",
+      "category": "optimism",
+      "related_quotes": [
+        "Free ND filter for whole region.",
+        "Literally the only good thing about the haze"
+      ],
+      "urgency": "low"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate Category Mix at 2.6x Fears Volume",
+      "description": "Frustrations account for 106 of 196 total quotes (54%), generating 2.6x more quotes than Fears (49) and 2.6x more than Optimism (41). Even as all categories declined week-over-week, frustration's share of total volume held disproportionately large, pointing to active community venting rather than passive concern or withdrawal.",
+      "category": "frustration",
+      "related_quotes": [
+        "I don't think its something they can get rid of, cuz its like lowk ingrained in their society.",
+        "Corruption is likely to continue unless we can somehow form a society that outdoes the need for it."
+      ],
+      "urgency": "medium"
+    }
+  ]
+}
