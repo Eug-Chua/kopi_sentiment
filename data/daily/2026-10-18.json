@@ -1,0 +1,2863 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-10-18",
+  "report_date": "2026-10-18",
+  "generated_at": "2026-10-18T22:03:30.729252",
+  "metadata": {
+    "total_posts_analyzed": 29,
+    "total_comments_analyzed": 329,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Health and safety concerns dominate today's fears, with the haze crisis at the forefront. The PSI hitting a season-high of 230 in western Singapore has Singaporeans anxious about prolonged smoke exposure, with some grimly noting that 'they will continue burning and supply you stale air.' Youth mental health is another pressure point — practitioners and parents alike fear that the parental consent barrier is pushing at-risk teens toward ChatGPT instead of real counsellors. Drink driving incidents and the ongoing threat of opportunistic scammers selling counterfeit masks and air purifiers round out a day where Singaporeans feel vulnerable on multiple fronts.",
+      "quote_count": 33,
+      "intensity_breakdown": {
+        "mild": 5,
+        "moderate": 21,
+        "strong": 7
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration is running hot today, and the haze is the lightning rod. Singaporeans are furious at NEA's 24-hour PSI metric, widely condemned as a 'useless lagging indicator reporting yesterday's news' that obscures real-time air quality conditions. The youth mental health system is drawing equally sharp criticism — practitioners are pushing back hard against a parental consent framework they see as an administrative barrier that fails high-risk cases. Beyond the haze, heritage housing rents, AI-era job anxieties, and broadband woes add to a sense that systemic problems are piling up faster than solutions are being delivered.",
+      "quote_count": 59,
+      "intensity_breakdown": {
+        "mild": 3,
+        "moderate": 24,
+        "strong": 32
+      }
+    },
+    "optimism": {
+      "intensity": "mild",
+      "summary": "Optimism today is real but modest, largely anchored in small wins against the haze. Runners who relocated their workouts indoors to Marina Square and Jewel found a silver lining — 'it still encourages a healthy lifestyle while being protected.' Fleeting glimpses of rare blue skies in some regions sparked genuine joy, with Singaporeans sharing sightings the way others might report a rare bird. A few bright spots around seniors embracing strength training and community resources for elderly wheelchair cruises suggest that everyday resilience is quietly thriving beneath the smoky skies.",
+      "quote_count": 28,
+      "intensity_breakdown": {
+        "mild": 7,
+        "moderate": 18,
+        "strong": 3
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 175,
+      "top_posts": [
+        {
+          "id": "t3_1x8tzw3",
+          "title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8tzw3/rare_normal_pm25_in_3_regions_on_oct_18_psi_at/",
+          "score": 177,
+          "num_comments": 59,
+          "created_at": "2026-10-18T04:26:32.293000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8tzw3",
+            "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about ongoing air pollution from burning activities and the persistence of poor air quality despite occasional improvements.",
+              "quotes": [
+                {
+                  "quote": "They will continue burning and supply you stale air.",
+                  "score": 38
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Singaporeans express intense frustration with the inadequacy and unreliability of PSI reporting metrics, with emphatic criticism of the 24-hour reading as a useless lagging indicator that fails to reflect real-time air quality conditions.",
+              "quotes": [
+                {
+                  "quote": "24 hour PSI is a useless lagging indicator reporting yesterday's news, reaching a \"new high\" when the haze is at a multi day low for now.",
+                  "score": 60
+                },
+                {
+                  "quote": "Totally useless for anyone. The only useful metrics are the 1h reading and a potential forecast - but treating the 24h reading as a forecast (which seems to be what they do) is useless.",
+                  "score": 17
+                },
+                {
+                  "quote": "i still can't see the blue sky leh... but the roads are less blurry compared to the past week eastie here",
+                  "score": 9
+                },
+                {
+                  "quote": "Blue? I do see the sun but didn't see blue skies the last I checked",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "There is only a passing, casual reference to rare blue skies without sustained enthusiasm or deeper positive sentiment.",
+              "quotes": [
+                {
+                  "quote": "rare blue skies.",
+                  "score": 145
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8y570",
+          "title": "Athletic group avoids haze by running indoors at Marina Square",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8y570/athletic_group_avoids_haze_by_running_indoors_at/",
+          "score": 163,
+          "num_comments": 52,
+          "created_at": "2026-10-18T08:36:45.878000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8y570",
+            "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Runners express clear concern about gym overcrowding and limited treadmill availability, with some feeling guilty about occupying equipment for extended periods during haze season. The frustration reflects practical inconvenience rather than intense anger.",
+              "quotes": [
+                {
+                  "quote": "Been struggling with long runs cos I feel bad hogging the treadmill for 2-3hrs.",
+                  "score": 93
+                },
+                {
+                  "quote": "I wish more malls or large air-conditioned venues would do this. The gyms are already crowded as it is and there aren't enough treadmills to go around to accommodate people's different workouts.",
+                  "score": 19
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Commenters appreciate the initiative as a practical solution for maintaining fitness during haze while enjoying added benefits like mall amenities and indoor venue exploration. The positivity is genuine but measured, focusing on practicality rather than excitement.",
+              "quotes": [
+                {
+                  "quote": "That's an awesome idea.",
+                  "score": 93
+                },
+                {
+                  "quote": "Perfect to get breakfast after.",
+                  "score": 93
+                },
+                {
+                  "quote": "Plus it still encourages a healthy lifestyle while being protected.",
+                  "score": 19
+                },
+                {
+                  "quote": "Always wanted to run around in Jewel.",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8vy3q",
+          "title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8vy3q/mental_health_practitioners_call_for_lower_or_no/",
+          "score": 121,
+          "num_comments": 32,
+          "created_at": "2026-10-18T06:20:58.351000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8vy3q",
+            "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about youths turning to unreliable alternatives like ChatGPT if they can't access counseling, and worry about government surveillance and permanent records affecting their willingness to seek help. The concerns are clear but not expressed with extreme urgency or panic.",
+              "quotes": [
+                {
+                  "quote": "I'd rather youth seek proper help than to turn to chat gpt because counsellors would have to inform parents",
+                  "score": 20
+                },
+                {
+                  "quote": "A lower consent age won't magically fix a government system that consistently treats high-risk youth cases as administrative inconveniences rather than emergencies.",
+                  "score": 4
+                },
+                {
+                  "quote": "just without all the government tracking, monitoring and permanent records breathing down on my neck",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is passionate and emphatic frustration directed at parents who are obstacles to youth mental health care, often being the root cause of problems, dismissing mental illness, or perpetuating generational trauma. The repeated examples and direct critiques express deep exasperation with parental attitudes and behavior.",
+              "quotes": [
+                {
+                  "quote": "Sadly, the reality is that the parents are often the ones in the way of their own children seeking professional medical care for mental health.",
+                  "score": 146
+                },
+                {
+                  "quote": "They don't always know best, and sometimes they are the issue.",
+                  "score": 23
+                },
+                {
+                  "quote": "Or the parents themselves may be the cause of the mental health issues.",
+                  "score": 40
+                },
+                {
+                  "quote": "Experiences in childhood are a huge contributor to a wide array of mental conditions, and parenting is often part of that. Many parents would rather ignore that.",
+                  "score": 23
+                },
+                {
+                  "quote": "Yes, some parents unfortunately still subscribe to the \"mental health problems are only for the weak\" theory.",
+                  "score": 49
+                },
+                {
+                  "quote": "the parents should be the ones getting therapy instead of passing on whatever bs generational trauma",
+                  "score": 9
+                },
+                {
+                  "quote": "the husband said \"what's her problem? I don't believe in all this mental health nonsense\"",
+                  "score": 17
+                },
+                {
+                  "quote": "Too many times parents are part of the problem or don't take mental health seriously",
+                  "score": 20
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8riyo",
+          "title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8riyo/woman_arrested_for_drink_driving_after_accident/",
+          "score": 73,
+          "num_comments": 10,
+          "created_at": "2026-10-18T02:10:22.287000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8riyo",
+            "post_title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses concern about people continuing to drink drive despite known risks, questioning whether lack of education, low enforcement odds, or general carelessness ('blur like sotong') is to blame. There's an underlying worry about public safety given the apparent persistence of this dangerous behavior.",
+              "quotes": [
+                {
+                  "quote": "Still people seem to be ok with drink driving, not sure if it's the education lacking or the chances of being caught (or just blur like sotong?!). In any case I think it's really time to step up (surprise) enforcement. I can't think of any reason why they can't start doing that from today...",
+                  "score": 9
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter is clearly exasperated with the continued prevalence of drink driving and uses emphatic language ('I can't think of any reason why they can't...') to demand immediate and stronger enforcement action. The frustration stems from perceiving inaction despite an obvious and urgent public safety issue.",
+              "quotes": [
+                {
+                  "quote": "Still people seem to be ok with drink driving, not sure if it's the education lacking or the chances of being caught (or just blur like sotong?!). In any case I think it's really time to step up (surprise) enforcement. I can't think of any reason why they can't start doing that from today...",
+                  "score": 9
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8noi7",
+          "title": "Heavy lifting: More seniors take up strength training to stay active",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8noi7/heavy_lifting_more_seniors_take_up_strength/",
+          "score": 61,
+          "num_comments": 9,
+          "created_at": "2026-10-17T22:57:21.187000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8noi7",
+            "post_title": "Heavy lifting: More seniors take up strength training to stay active",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the consequences of not maintaining strength in old age, specifically worrying about future mobility loss and dependency on caretakers. The speaker frames strength training as a necessary preventive measure against these negative outcomes.",
+              "quotes": [
+                {
+                  "quote": "its either spend time to do strength training now, or suffer later with lack of mobility and reliance on caretakers due to lack of muscle mass.",
+                  "score": 15
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is genuine enthusiasm and approval for seniors engaging in strength training, with appreciation for the visible progress of older adults and encouragement for more gym infrastructure to accommodate them. The tone is warmly positive about this health trend.",
+              "quotes": [
+                {
+                  "quote": "70 year olds doing bulgarian split squats is pretty crazy, in a good way. More uncs and aunties in the gym is a good thing so please build more pec decs.",
+                  "score": 31
+                },
+                {
+                  "quote": "Good for them",
+                  "score": 9
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8cd4n",
+          "title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8cd4n/pm_wong_to_visit_qatar_uae_from_oct_18_to_22/",
+          "score": 42,
+          "num_comments": 46,
+          "created_at": "2026-10-17T15:00:34.610000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8cd4n",
+            "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Commenters express significant anxiety about the PM's safety, using emphatic language (WTF) and sarcasm to convey deep concern about visiting an active conflict zone where even defensive systems are ineffective.",
+              "quotes": [
+                {
+                  "quote": "It's still an active war zone around there yet he's going? WTF",
+                  "score": 9
+                },
+                {
+                  "quote": "They can't even stop Houthi rockets lah how can voucher Wong somehow be immune lol",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear frustration about the trip's practicality and desperation, with specific concerns about travel insurance limitations and conflict exclusions that complicate the visit.",
+              "quotes": [
+                {
+                  "quote": "Atp the whole world already knows how desperate he is",
+                  "score": 4
+                },
+                {
+                  "quote": "Travel insurance don't cover.",
+                  "score": 9
+                },
+                {
+                  "quote": "Check the fine print. There is conflict exclusions in many of the travel insurance offered now.",
+                  "score": 10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8st2n",
+          "title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8st2n/singapore_haze_be_careful_when_buying_masks_or/",
+          "score": 38,
+          "num_comments": 31,
+          "created_at": "2026-10-18T03:19:56.884000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8st2n",
+            "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about dual threats of haze and counterfeit products, with self-deprecating humor masking underlying worry about consumer vulnerability and health risks.",
+              "quotes": [
+                {
+                  "quote": "need to worry about haze and even more scams now lol",
+                  "score": 7
+                },
+                {
+                  "quote": "I really feel we are actual idiots lol",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration evident regarding counterfeit products flooding e-commerce platforms, unavailable authentic alternatives, and perceived inadequacy of seller protections, with particular concern for vulnerable populations and societal apathy.",
+              "quotes": [
+                {
+                  "quote": "It is simply too late rn to get anything decent due to lack of stock for true HEPA air purifiers everywhere.",
+                  "score": 26
+                },
+                {
+                  "quote": "My mom told me to buy a N95 mask and i just buy the most sold and highest rating one on Lazada for $16/100 but it turned out to be fake from China.",
+                  "score": 4
+                },
+                {
+                  "quote": "The problem is this fake is everywhere on the site and im not even sure what is authentic.",
+                  "score": 4
+                },
+                {
+                  "quote": "the e-commerce sites are also not doing enough to protect consumers.",
+                  "score": 1
+                },
+                {
+                  "quote": "blackhearted seller sabotaging ppl's health, can't imagine those old ppl wearing them out thinking they're protected",
+                  "score": 1
+                },
+                {
+                  "quote": "Majority of sinkies (not all) have goldfish memory and don't learn anything from past lessons - e.g Covid.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Cautious optimism based on personal positive experiences with air purifiers providing long-term health benefits and practical solutions to haze-related challenges.",
+              "quotes": [
+                {
+                  "quote": "Bought an air purifier back in 2015 and I never looked back. The same air purifier still serves me well to this day.",
+                  "score": 1
+                },
+                {
+                  "quote": "I'm glad I did since our neighbour country cannot be trusted to prevent haze.",
+                  "score": 1
+                },
+                {
+                  "quote": "A well-placed air purifier can help in having a good sleep.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8wy6q",
+          "title": "Does anyone actually know where NEA's air quality stations are?",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8wy6q/does_anyone_actually_know_where_neas_air_quality/",
+          "score": 36,
+          "num_comments": 36,
+          "created_at": "2026-10-18T07:21:54.977000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8wy6q",
+            "post_title": "Does anyone actually know where NEA's air quality stations are?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear concerns about the lack of transparency and accuracy in NEA's air quality station locations, with noticeable confusion about regional classifications and discrepancies between official readings and personal sensor measurements. The frustration stems from regional groupings that don't make geographical sense and difficulty locating the actual monitoring stations.",
+              "quotes": [
+                {
+                  "quote": "Over the past few hrs NEA's west side reading was 100+ pm2.5, but in jurong west my own sensor gave a 40+ pm2.5 reading with the windows open. Quite curious where NEA's sensor is located",
+                  "score": 19
+                },
+                {
+                  "quote": "I don't think these location pins in AQICN are accurate. They do not match the locations of the 18 air monitoring stations that have been published.",
+                  "score": 10
+                },
+                {
+                  "quote": "That is not helpful at all, lol. Sengkeng is quite a distance away from admiralty and such yet classified in the same region. And what is the difference between serangoon and serangoon garden?",
+                  "score": 3
+                },
+                {
+                  "quote": "Big enough to have difference in readings",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Users show casual positivity by sharing that research papers and online tools like AQICN provide solutions to finding station locations, though the tone is matter-of-fact rather than enthusiastic.",
+              "quotes": [
+                {
+                  "quote": "I found a research paper showing the locations of 18 NEA air monitoring stations.",
+                  "score": 39
+                },
+                {
+                  "quote": "I haven't seen a specific listing but AQICN's site puts them on a map (with a bunch of others): https://aqicn.org/station/country/sg/singapore/ I assume that there's lat/long or GPS metadata that's part of the API or reporting standard that these monitoring stations use.",
+                  "score": 22
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8tfee",
+          "title": "SLA puts up heritage house near Botanic Gardens for rent",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8tfee/sla_puts_up_heritage_house_near_botanic_gardens/",
+          "score": 22,
+          "num_comments": 12,
+          "created_at": "2026-10-18T03:54:48.812000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8tfee",
+            "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "There is a casual, somewhat humorous concern about potential unfair access to the bidding process and uncertainty about renovation cost recovery. The tone is more joking than deeply anxious.",
+              "quotes": [
+                {
+                  "quote": "Shhhhhh not so loud, what if someone without privileged access actually puts in a bid on it.",
+                  "score": 11
+                },
+                {
+                  "quote": "for some stuff you install liao, when you leave you cannot claim from URA.",
+                  "score": 7
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple emphatic complaints about the restrictive conditions, high upfront costs with no recovery guarantee, short lease terms, and lack of transparency around extension options. The repeated litany of constraints and financial burdens demonstrates genuine exasperation with the rental scheme's structure.",
+              "quotes": [
+                {
+                  "quote": "the issue is you want aircon etc etc you have to fork out your own money and you may need to also fork out money to tear it down once your lease ends.",
+                  "score": 7
+                },
+                {
+                  "quote": "There are usually ten thousand restrictions to using such houses.",
+                  "score": 8
+                },
+                {
+                  "quote": "the amount of CAPEX they put into the home and cannot get back once their lease end is way higher than leasing a normal landed",
+                  "score": 7
+                },
+                {
+                  "quote": "this lease is only 2 years and not sure if got any option to extend.",
+                  "score": 3
+                },
+                {
+                  "quote": "you cant compare market rates and bids if the option to extend is not stated and fixed upfront causing people to bid conservatively.",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8xqlg",
+          "title": "'I refuse to give up' – the 'exemplary' mother who fought for her son and is a lifeline for others",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8xqlg/i_refuse_to_give_up_the_exemplary_mother_who/",
+          "score": 17,
+          "num_comments": 0,
+          "created_at": "2026-10-18T08:10:12.958000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1x8xqlg",
+            "post_title": "'I refuse to give up' – the 'exemplary' mother who fought for her son and is a lifeline for others",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 8,
+      "comments_analyzed": 102,
+      "top_posts": [
+        {
+          "id": "t3_1x8cvud",
+          "title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8cvud/shipping_package_from_sg_aus/",
+          "score": 5,
+          "num_comments": 28,
+          "created_at": "2026-10-17T15:22:12.254000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8cvud",
+            "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Posters express intense anxiety about potential damage to the PC during shipping, with vivid descriptions of risks like packages being thrown and hard drives being destroyed, combined with deep concern about the Australian postal service's reliability with expensive items.",
+              "quotes": [
+                {
+                  "quote": "you wanna send it by sea it will take weeks not days. For a six month period I personally won't bother if I have a laptop already which I think you have because you said you're a student.",
+                  "score": 17
+                },
+                {
+                  "quote": "For fucks sake just leave your PC behind for 6 months. You think all that hassle is worth your, most probaby few thousand dollars, PC getting damaged and also pay close to 400 dollars in shipping?",
+                  "score": 14
+                },
+                {
+                  "quote": "Australian postal service cannot be trusted with expensive items.",
+                  "score": 5
+                },
+                {
+                  "quote": "did someone asked if your pc has a harddisk? you know that heavy 5.25 inch with platter inside, yeah, that can get destroyed if someone threw your package along with the other boxes on a ship.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration is expressed about the impracticality of shipping a PC, with concerns about extended shipping times reducing usable duration and high costs making the endeavor seem wasteful in hindsight.",
+              "quotes": [
+                {
+                  "quote": "Sea shipping gonna take weeks so you're only gonna get like 5 months usage out of your PC for a cost of nearly $500.",
+                  "score": 7
+                },
+                {
+                  "quote": "I brought my 15kg pc when I moved, bought extra luggage when flying over. But on hindsight, I would just buy locally.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8y5h2",
+          "title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8y5h2/cruise_for_elderly_in_wheelchairs_that_doesnt/",
+          "score": 4,
+          "num_comments": 7,
+          "created_at": "2026-10-18T08:37:17.585000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8y5h2",
+            "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about wheelchair accessibility on boat tenders, with the commenter using local language ('mafan' meaning troublesome) to emphasize the practical difficulties involved.",
+              "quotes": [
+                {
+                  "quote": "I seriously don't recommend people on wheelchair using the boat tender, its very mafan.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Definite dissatisfaction is expressed about Genting cruise's food quality and its gambling-focused atmosphere, though the tone remains relatively measured rather than outraged.",
+              "quotes": [
+                {
+                  "quote": "My parents went on genting and hated the food",
+                  "score": 3
+                },
+                {
+                  "quote": "We didn't like Genting cruise, felt like primarily a gambling cruise to us.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic and passionate endorsement of Royal Caribbean with emphatic language (exclamation marks, emojis, 'best', 'highly recommend'), multiple positive personal experiences, and heartfelt appreciation for the gesture of taking elderly relatives on a cruise.",
+              "quotes": [
+                {
+                  "quote": "Can't go wrong with Royal Caribbean. I believe you will not have any accessibility issues aboard their ships. Bon voyage !",
+                  "score": 2
+                },
+                {
+                  "quote": "Went on the exact Royal Carribbean route you've mentioned (Penang)! My grandparents are thankfully still pretty mobile, albeit slow, and it was enjoyable enough for them! Saw some other elderly on wheelchairs in the cruise as well. There are elevators in the ship so you really don't have to worry. Staff are generally pretty helpful too. Highly recommend Royal Carribbean! Super sweet of you to take your grandparents on a trip. Enjoy your cruise~",
+                  "score": 2
+                },
+                {
+                  "quote": "Royal Caribbean is the best! Been cruising with them for over a decade and their accessible rooms are 💯.",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8uwet",
+          "title": "Traditional childhood games in Singapore",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8uwet/traditional_childhood_games_in_singapore/",
+          "score": 4,
+          "num_comments": 22,
+          "created_at": "2026-10-18T05:18:59.806000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8uwet",
+            "post_title": "Traditional childhood games in Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "There is a passing concern about noise complaints from neighbors preventing children from playing traditional games. The worry is expressed casually as a general observation rather than with intensity.",
+              "quotes": [
+                {
+                  "quote": "Can't do that now with how home dwellers are nowadays where you cannot even have a bit of noise pollution….",
+                  "score": 9
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is clear frustration about the loss of traditional childhood games due to space constraints, neighbor complaints, and over-structured modern childhoods. The sentiment is definite and noticeable, with multiple people expressing regret about these games disappearing.",
+              "quotes": [
+                {
+                  "quote": "I miss playing block catching… neighbours don't really care if you are running up and down the stairs and along the corridors with your loud slippers and screaming.",
+                  "score": 9
+                },
+                {
+                  "quote": "It died out because there's not much space to play these games",
+                  "score": 4
+                },
+                {
+                  "quote": "The field is usually empty nowadays.",
+                  "score": 6
+                },
+                {
+                  "quote": "Kids got time to play meh? Everything is structured.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a noticeable positive sentiment about traditional games being kept alive and children still enjoying them. The comments show genuine appreciation and warmth for these games and toys, though expressed in a warm rather than intensely enthusiastic manner.",
+              "quotes": [
+                {
+                  "quote": "I heard my kids playing o peh som the other day.. just that it's the english version. Black or white. heeee hee~",
+                  "score": 3
+                },
+                {
+                  "quote": "I've been buying traditional toys for my daughter and she loves them. Pick up sticks is her favourite.",
+                  "score": 2
+                },
+                {
+                  "quote": "I love void deck football a lot.",
+                  "score": 4
+                },
+                {
+                  "quote": "Block catching was fun af.",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8byac",
+          "title": "apple earpods type c out of stock everywhere?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8byac/apple_earpods_type_c_out_of_stock_everywhere/",
+          "score": 4,
+          "num_comments": 20,
+          "created_at": "2026-10-17T14:42:55.817000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8byac",
+            "post_title": "apple earpods type c out of stock everywhere?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A casual dismissal of wired earbuds as an impractical trend, with the concern that they look silly compared to AirPods' convenience.",
+              "quotes": [
+                {
+                  "quote": "Performative trend, looks idiotic when Airpods are way more convenient",
+                  "score": -2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration from a retail worker about constant customer demand for Apple products despite better alternatives being available at similar prices, expressed with casual exasperation ('dunno for F').",
+              "quotes": [
+                {
+                  "quote": "I work in a retail store everyone asking for apple dunno for F When we have much better wired brands available at almost the same price lol.",
+                  "score": -2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Positive personal experiences with wired earbuds, including reliable performance and superior sound quality compared to premium wireless alternatives like AirPod Pro 3s.",
+              "quotes": [
+                {
+                  "quote": "I have never encountered any problems with this method",
+                  "score": 5
+                },
+                {
+                  "quote": "I recently changed to wired iems, and they sound better than my AirPod pro 3 separation/acoustic/vocal wise.",
+                  "score": -2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8x0lp",
+          "title": "Kitchen renovation shops/contractor/ID recommendations",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8x0lp/kitchen_renovation_shopscontractorid/",
+          "score": 3,
+          "num_comments": 1,
+          "created_at": "2026-10-18T07:25:59.806000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8x0lp",
+            "post_title": "Kitchen renovation shops/contractor/ID recommendations",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8s32l",
+          "title": "Suffering through TMJ pain - anyone has recommendations for dental clinics that does TMJ botox?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8s32l/suffering_through_tmj_pain_anyone_has/",
+          "score": 2,
+          "num_comments": 1,
+          "created_at": "2026-10-18T02:40:30.873000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8s32l",
+            "post_title": "Suffering through TMJ pain - anyone has recommendations for dental clinics that does TMJ botox?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8u907",
+          "title": "Broadband Recommendations? and timeline for installation?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8u907/broadband_recommendations_and_timeline_for/",
+          "score": 0,
+          "num_comments": 14,
+          "created_at": "2026-10-18T04:41:25.666000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8u907",
+            "post_title": "Broadband Recommendations? and timeline for installation?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express clear concerns about specific technical issues like CGNAT and dealbreaker features that would meaningfully impact their internet experience.",
+              "quotes": [
+                {
+                  "quote": "cgnat is not helpful when doing that too",
+                  "score": 3
+                },
+                {
+                  "quote": "That's a dealbreaker for me.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Multiple complaints about ISP limitations, hardware restrictions, and service reliability issues are stated factually without excessive emotion, reflecting accumulated dissatisfaction rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "They certainly did use CGNAT when I was on Singtel, adsl days.",
+                  "score": 1
+                },
+                {
+                  "quote": "Singtel has other issues iirc, for example not allowing their modem to be set to bridge mode so you can't use your own router",
+                  "score": 1
+                },
+                {
+                  "quote": "I've never bothered with them and can generally get very low pings and reliable connections. I think the issues are often due to bad routers and very crowded wifi spectrum.",
+                  "score": 2
+                },
+                {
+                  "quote": "Where I am now has some horrible drops, though not sure if the building I am in, serviced apartment, the router or the provider.",
+                  "score": 1
+                },
+                {
+                  "quote": "Many of them are terrible.",
+                  "score": 2
+                },
+                {
+                  "quote": "Personally I would hate the idea of using Singtel managed router and WiFi.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Users express reasonably positive views about Singapore's ISP landscape and installation timelines, with measured confidence that serviceable options are available.",
+              "quotes": [
+                {
+                  "quote": "You can't go too wrong with ISPs in Singapore.",
+                  "score": 2
+                },
+                {
+                  "quote": "All ISPs are using the same hardware for last mile fibre and all provide pretty good connections generally.",
+                  "score": 2
+                },
+                {
+                  "quote": "Order to install is typically quite quick. Usually a few days, less than a week in my experience.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8nlbx",
+          "title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8nlbx/renting_or_buy_studio_which_is_better_for_a_pr_in/",
+          "score": 0,
+          "num_comments": 14,
+          "created_at": "2026-10-17T22:53:03.902000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1x8nlbx",
+            "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about financial commitment and inflexibility are clearly expressed, with worries about illiquid assets, locked-up capital, resale difficulties, and future life changes affecting the decision to buy versus rent.",
+              "quotes": [
+                {
+                  "quote": "if i want to leave SG i can leave without having to deal with asset here",
+                  "score": 6
+                },
+                {
+                  "quote": "if you intend to leave for elsewhere then just keep renting so you don't lock up funds in illiquid asset, and also because it's harder to sell a 1BR/studio than a bigger unit",
+                  "score": 6
+                },
+                {
+                  "quote": "the 200k you lock up for down payment may (or may not) grow faster in VWRA than the cost of a 1BR in SG",
+                  "score": 6
+                },
+                {
+                  "quote": "shitty units in Geylang are harder to sell so meh",
+                  "score": 1
+                },
+                {
+                  "quote": "What if you decide to have kids and need to sell? Selling fees etc.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Light frustration expressed through rhetorical question about repeated discussions and a casual mention of high rental costs, without strong emotional intensity.",
+              "quotes": [
+                {
+                  "quote": "How many times you want to ask this?",
+                  "score": 12
+                },
+                {
+                  "quote": "I'm Singaporean paying 3k a month to rent a studio",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A simple, straightforward positive statement about the financial benefits of purchasing over renting, presented without enthusiasm or emphasis.",
+              "quotes": [
+                {
+                  "quote": "It is better to purchase your own home as the amount you pay for rent is better used towards a mortgage",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 41,
+      "top_posts": [
+        {
+          "id": "t3_1x8d8as",
+          "title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8d8as/every_orange_dot_is_a_real_fire_this_is_the_week/",
+          "score": 38,
+          "num_comments": 22,
+          "created_at": "2026-10-17T15:36:29.470000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8d8as",
+            "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about corruption and unethical behavior by powerful individuals profiting from dangerous situations. The comment reflects worry about moral decay in society, though expressed more as cynical observation than acute panic.",
+              "quotes": [
+                {
+                  "quote": "Some of the sinkies are in the game as well. This current world is rewarding psychopaths",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense anger is expressed through strong language (wtf, fucking, cbs) and sarcasm about Indonesia's role in causing haze, corporate greed prioritizing profits over public health, and the unfair socialization of environmental costs. The frustration centers on perceived injustice and irresponsible behavior by those in power.",
+              "quotes": [
+                {
+                  "quote": "wtf, the amount of live fire zones are crazy?! fucking speechless they'd do this for money, cbs",
+                  "score": 6
+                },
+                {
+                  "quote": "This is exactly the type of thing that people do for money.",
+                  "score": 8
+                },
+                {
+                  "quote": "CB Indon really the burden of the region.",
+                  "score": 2
+                },
+                {
+                  "quote": "Cuz they socialise the costs, so no need to give a f lol. Just let someone else pay the price! All it matters is all those juicy profits get privatised 😍😍🤑🤑",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8tgah",
+          "title": "Go outside to play now before the haze comes back",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8tgah/go_outside_to_play_now_before_the_haze_comes_back/",
+          "score": 9,
+          "num_comments": 0,
+          "created_at": "2026-10-18T03:56:09.394000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8tgah",
+            "post_title": "Go outside to play now before the haze comes back",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8thy6",
+          "title": "Kilat — a weather and haze app",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8thy6/kilat_a_weather_and_haze_app/",
+          "score": 7,
+          "num_comments": 3,
+          "created_at": "2026-10-18T03:58:42.147000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8thy6",
+            "post_title": "Kilat — a weather and haze app",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The user expresses intense physical pain or discomfort using the Malay phrase 'Sakit jialat' (very painful/terrible pain), indicating strong frustration or complaint about a situation.",
+              "quotes": [
+                {
+                  "quote": "Sakit jialat",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8uas8",
+          "title": "Developing Singapore Mahjong App to add more choices for SG Mahjong Players!",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8uas8/developing_singapore_mahjong_app_to_add_more/",
+          "score": 6,
+          "num_comments": 2,
+          "created_at": "2026-10-18T04:44:12.044000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8uas8",
+            "post_title": "Developing Singapore Mahjong App to add more choices for SG Mahjong Players!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual, constructive concern about the app's aesthetic being too traditional Chinese in appearance and tone, expressed without strong emotion.",
+              "quotes": [
+                {
+                  "quote": "the design looks abit too chinese n serious",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine appreciation for the app developer's effort to expand gaming options in Singapore, with encouragement expressed in a warm and supportive manner.",
+              "quotes": [
+                {
+                  "quote": "But thanks for bringing more options to us! Good Luck!",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8guaa",
+          "title": "Creation of BCRSRabak subreddit",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8guaa/creation_of_bcrsrabak_subreddit/",
+          "score": 5,
+          "num_comments": 6,
+          "created_at": "2026-10-17T18:03:06.176000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8guaa",
+            "post_title": "Creation of BCRSRabak subreddit",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about the new subreddit potentially becoming unmoderated like a previous community, mentioned casually as a predictive comment rather than expressed with urgency.",
+              "quotes": [
+                {
+                  "quote": "Inb4 the sub became unmoderated like SMRTRabak",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "A definite commitment to prevent the feared outcome by actively moderating the subreddit, showing clear determination and positive intent despite the casual tone.",
+              "quotes": [
+                {
+                  "quote": "I'll try to prevent that from happening :\\')",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1x8vrok",
+          "title": "Android puts Peranakan heritage on Oscar Piastri’s F1 helmet",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8vrok/android_puts_peranakan_heritage_on_oscar_piastris/",
+          "score": 4,
+          "num_comments": 0,
+          "created_at": "2026-10-18T06:10:19.824000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8vrok",
+            "post_title": "Android puts Peranakan heritage on Oscar Piastri’s F1 helmet",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8nort",
+          "title": "Heavy lifting: More seniors take up strength training to stay active",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8nort/heavy_lifting_more_seniors_take_up_strength/",
+          "score": 4,
+          "num_comments": 0,
+          "created_at": "2026-10-17T22:57:43.067000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8nort",
+            "post_title": "Heavy lifting: More seniors take up strength training to stay active",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8sogn",
+          "title": "49% of influenza tests are positive - Mask up!",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8sogn/49_of_influenza_tests_are_positive_mask_up/",
+          "score": 0,
+          "num_comments": 0,
+          "created_at": "2026-10-18T03:12:51.882000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8sogn",
+            "post_title": "49% of influenza tests are positive - Mask up!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8uat7",
+          "title": "Should there be more restrictions against air pollution during normal times?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8uat7/should_there_be_more_restrictions_against_air/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-10-18T04:44:14.901000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8uat7",
+            "post_title": "Should there be more restrictions against air pollution during normal times?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about severe health consequences from air pollution, with catastrophic scenarios including organ failure and public deaths. The language conveys intense concern about immediate, life-threatening dangers.",
+              "quotes": [
+                {
+                  "quote": "The toxic air can give you organ failures. Don't be surprised if you see people die in public one day.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1x8y25k",
+          "title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8y25k/imf_says_singapore_is_among_asian_winners_of_the/",
+          "score": 0,
+          "num_comments": 6,
+          "created_at": "2026-10-18T08:31:04.148000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1x8y25k",
+            "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the sustainability of AI-driven economic gains and anxiety about job displacement as a consequence of this technological shift. The worries are expressed as direct questions rather than panic, indicating genuine but measured concern.",
+              "quotes": [
+                {
+                  "quote": "Is this sustainable though?",
+                  "score": -1
+                },
+                {
+                  "quote": "AI taking your jobs and this is considered Winning ?",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is emphatic skepticism and cynicism about whether Singapore's AI boom truly benefits ordinary citizens, with sharp criticism about wealth inequality and the dominance of multinational corporations. The sarcastic tone ('This is what winning feels like?') and accusatory language about 'greatest wealth transfer' reveal deep dissatisfaction with the distribution of AI gains.",
+              "quotes": [
+                {
+                  "quote": "This is what winning feels like?",
+                  "score": 7
+                },
+                {
+                  "quote": "Trinkled down economics in progress... This is the greatest wealth transfer of the century, to the top",
+                  "score": 2
+                },
+                {
+                  "quote": "Globalist pro-industrialist organisation shilling for more of that open border MNC wealth transfer.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found expressing optimism about Singapore's AI boom prospects.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 1,
+      "comments_analyzed": 11,
+      "top_posts": [
+        {
+          "id": "t3_1x8ndt0",
+          "title": "Should I buy a studio in Singapore instead of renting room?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1x8ndt0/should_i_buy_a_studio_in_singapore_instead_of/",
+          "score": 0,
+          "num_comments": 11,
+          "created_at": "2026-10-17T22:43:06.203000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1x8ndt0",
+            "post_title": "Should I buy a studio in Singapore instead of renting room?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns are clearly expressed about practical limitations of studio ownership, particularly regarding future life changes like marriage and the difficulty of exiting the property market. These are definite worries rather than panic-driven anxieties.",
+              "quotes": [
+                {
+                  "quote": "The flat will be a problem if either of you have plans for marriage.",
+                  "score": 2
+                },
+                {
+                  "quote": "Avoid buying studio. It is very hard to exit..",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The commenter expresses confident belief in Singapore property as a sound investment with encouraging language ('sure win'), though the enthusiasm is stated matter-of-factly rather than with intense passion or exclamation.",
+              "quotes": [
+                {
+                  "quote": "Burying SG property is a sure win. Go for it!",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "They will continue burning and supply you stale air.",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 38,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'd rather youth seek proper help than to turn to chat gpt because counsellors would have to inform parents",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "A lower consent age won't magically fix a government system that consistently treats high-risk youth cases as administrative inconveniences rather than emergencies.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "just without all the government tracking, monitoring and permanent records breathing down on my neck",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still people seem to be ok with drink driving, not sure if it's the education lacking or the chances of being caught (or just blur like sotong?!). In any case I think it's really time to step up (surprise) enforcement. I can't think of any reason why they can't start doing that from today...",
+        "post_id": "t3_1x8riyo",
+        "post_title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "its either spend time to do strength training now, or suffer later with lack of mobility and reliance on caretakers due to lack of muscle mass.",
+        "post_id": "t3_1x8noi7",
+        "post_title": "Heavy lifting: More seniors take up strength training to stay active",
+        "subreddit": "singapore",
+        "score": 61,
+        "comment_score": 15,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's still an active war zone around there yet he's going? WTF",
+        "post_id": "t3_1x8cd4n",
+        "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+        "subreddit": "singapore",
+        "score": 42,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "They can't even stop Houthi rockets lah how can voucher Wong somehow be immune lol",
+        "post_id": "t3_1x8cd4n",
+        "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+        "subreddit": "singapore",
+        "score": 42,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "need to worry about haze and even more scams now lol",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I really feel we are actual idiots lol",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Shhhhhh not so loud, what if someone without privileged access actually puts in a bid on it.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 11,
+        "intensity": "mild"
+      },
+      {
+        "text": "for some stuff you install liao, when you leave you cannot claim from URA.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 7,
+        "intensity": "mild"
+      },
+      {
+        "text": "you wanna send it by sea it will take weeks not days. For a six month period I personally won't bother if I have a laptop already which I think you have because you said you're a student.",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 17,
+        "intensity": "strong"
+      },
+      {
+        "text": "For fucks sake just leave your PC behind for 6 months. You think all that hassle is worth your, most probaby few thousand dollars, PC getting damaged and also pay close to 400 dollars in shipping?",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "Australian postal service cannot be trusted with expensive items.",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "did someone asked if your pc has a harddisk? you know that heavy 5.25 inch with platter inside, yeah, that can get destroyed if someone threw your package along with the other boxes on a ship.",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I seriously don't recommend people on wheelchair using the boat tender, its very mafan.",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Can't do that now with how home dwellers are nowadays where you cannot even have a bit of noise pollution….",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 9,
+        "intensity": "mild"
+      },
+      {
+        "text": "Performative trend, looks idiotic when Airpods are way more convenient",
+        "post_id": "t3_1x8byac",
+        "post_title": "apple earpods type c out of stock everywhere?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": -2,
+        "intensity": "mild"
+      },
+      {
+        "text": "cgnat is not helpful when doing that too",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "That's a dealbreaker for me.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if i want to leave SG i can leave without having to deal with asset here",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if you intend to leave for elsewhere then just keep renting so you don't lock up funds in illiquid asset, and also because it's harder to sell a 1BR/studio than a bigger unit",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "the 200k you lock up for down payment may (or may not) grow faster in VWRA than the cost of a 1BR in SG",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "shitty units in Geylang are harder to sell so meh",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What if you decide to have kids and need to sell? Selling fees etc.",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Some of the sinkies are in the game as well. This current world is rewarding psychopaths",
+        "post_id": "t3_1x8d8as",
+        "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Inb4 the sub became unmoderated like SMRTRabak",
+        "post_id": "t3_1x8guaa",
+        "post_title": "Creation of BCRSRabak subreddit",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "The toxic air can give you organ failures. Don't be surprised if you see people die in public one day.",
+        "post_id": "t3_1x8uat7",
+        "post_title": "Should there be more restrictions against air pollution during normal times?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Is this sustainable though?",
+        "post_id": "t3_1x8y25k",
+        "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": -1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "AI taking your jobs and this is considered Winning ?",
+        "post_id": "t3_1x8y25k",
+        "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The flat will be a problem if either of you have plans for marriage.",
+        "post_id": "t3_1x8ndt0",
+        "post_title": "Should I buy a studio in Singapore instead of renting room?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Avoid buying studio. It is very hard to exit..",
+        "post_id": "t3_1x8ndt0",
+        "post_title": "Should I buy a studio in Singapore instead of renting room?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "24 hour PSI is a useless lagging indicator reporting yesterday's news, reaching a \"new high\" when the haze is at a multi day low for now.",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 60,
+        "intensity": "strong"
+      },
+      {
+        "text": "Totally useless for anyone. The only useful metrics are the 1h reading and a potential forecast - but treating the 24h reading as a forecast (which seems to be what they do) is useless.",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 17,
+        "intensity": "strong"
+      },
+      {
+        "text": "i still can't see the blue sky leh... but the roads are less blurry compared to the past week eastie here",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Blue? I do see the sun but didn't see blue skies the last I checked",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Been struggling with long runs cos I feel bad hogging the treadmill for 2-3hrs.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 93,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wish more malls or large air-conditioned venues would do this. The gyms are already crowded as it is and there aren't enough treadmills to go around to accommodate people's different workouts.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sadly, the reality is that the parents are often the ones in the way of their own children seeking professional medical care for mental health.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 146,
+        "intensity": "strong"
+      },
+      {
+        "text": "They don't always know best, and sometimes they are the issue.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "Or the parents themselves may be the cause of the mental health issues.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 40,
+        "intensity": "strong"
+      },
+      {
+        "text": "Experiences in childhood are a huge contributor to a wide array of mental conditions, and parenting is often part of that. Many parents would rather ignore that.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes, some parents unfortunately still subscribe to the \"mental health problems are only for the weak\" theory.",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 49,
+        "intensity": "strong"
+      },
+      {
+        "text": "the parents should be the ones getting therapy instead of passing on whatever bs generational trauma",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "the husband said \"what's her problem? I don't believe in all this mental health nonsense\"",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 17,
+        "intensity": "strong"
+      },
+      {
+        "text": "Too many times parents are part of the problem or don't take mental health seriously",
+        "post_id": "t3_1x8vy3q",
+        "post_title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+        "subreddit": "singapore",
+        "score": 121,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "Still people seem to be ok with drink driving, not sure if it's the education lacking or the chances of being caught (or just blur like sotong?!). In any case I think it's really time to step up (surprise) enforcement. I can't think of any reason why they can't start doing that from today...",
+        "post_id": "t3_1x8riyo",
+        "post_title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Atp the whole world already knows how desperate he is",
+        "post_id": "t3_1x8cd4n",
+        "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+        "subreddit": "singapore",
+        "score": 42,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Travel insurance don't cover.",
+        "post_id": "t3_1x8cd4n",
+        "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+        "subreddit": "singapore",
+        "score": 42,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Check the fine print. There is conflict exclusions in many of the travel insurance offered now.",
+        "post_id": "t3_1x8cd4n",
+        "post_title": "PM Wong to visit Qatar, UAE from Oct 18 to 22",
+        "subreddit": "singapore",
+        "score": 42,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It is simply too late rn to get anything decent due to lack of stock for true HEPA air purifiers everywhere.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 26,
+        "intensity": "strong"
+      },
+      {
+        "text": "My mom told me to buy a N95 mask and i just buy the most sold and highest rating one on Lazada for $16/100 but it turned out to be fake from China.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "The problem is this fake is everywhere on the site and im not even sure what is authentic.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "the e-commerce sites are also not doing enough to protect consumers.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "blackhearted seller sabotaging ppl's health, can't imagine those old ppl wearing them out thinking they're protected",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Majority of sinkies (not all) have goldfish memory and don't learn anything from past lessons - e.g Covid.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Over the past few hrs NEA's west side reading was 100+ pm2.5, but in jurong west my own sensor gave a 40+ pm2.5 reading with the windows open. Quite curious where NEA's sensor is located",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't think these location pins in AQICN are accurate. They do not match the locations of the 18 air monitoring stations that have been published.",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "That is not helpful at all, lol. Sengkeng is quite a distance away from admiralty and such yet classified in the same region. And what is the difference between serangoon and serangoon garden?",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Big enough to have difference in readings",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "the issue is you want aircon etc etc you have to fork out your own money and you may need to also fork out money to tear it down once your lease ends.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "There are usually ten thousand restrictions to using such houses.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "the amount of CAPEX they put into the home and cannot get back once their lease end is way higher than leasing a normal landed",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "this lease is only 2 years and not sure if got any option to extend.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "you cant compare market rates and bids if the option to extend is not stated and fixed upfront causing people to bid conservatively.",
+        "post_id": "t3_1x8tfee",
+        "post_title": "SLA puts up heritage house near Botanic Gardens for rent",
+        "subreddit": "singapore",
+        "score": 22,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sea shipping gonna take weeks so you're only gonna get like 5 months usage out of your PC for a cost of nearly $500.",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I brought my 15kg pc when I moved, bought extra luggage when flying over. But on hindsight, I would just buy locally.",
+        "post_id": "t3_1x8cvud",
+        "post_title": "Shipping package from SG 🇸🇬 -> AUS 🇦🇺",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My parents went on genting and hated the food",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We didn't like Genting cruise, felt like primarily a gambling cruise to us.",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I miss playing block catching… neighbours don't really care if you are running up and down the stairs and along the corridors with your loud slippers and screaming.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It died out because there's not much space to play these games",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The field is usually empty nowadays.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Kids got time to play meh? Everything is structured.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I work in a retail store everyone asking for apple dunno for F When we have much better wired brands available at almost the same price lol.",
+        "post_id": "t3_1x8byac",
+        "post_title": "apple earpods type c out of stock everywhere?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They certainly did use CGNAT when I was on Singtel, adsl days.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singtel has other issues iirc, for example not allowing their modem to be set to bridge mode so you can't use your own router",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've never bothered with them and can generally get very low pings and reliable connections. I think the issues are often due to bad routers and very crowded wifi spectrum.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Where I am now has some horrible drops, though not sure if the building I am in, serviced apartment, the router or the provider.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Many of them are terrible.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Personally I would hate the idea of using Singtel managed router and WiFi.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "How many times you want to ask this?",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 12,
+        "intensity": "mild"
+      },
+      {
+        "text": "I'm Singaporean paying 3k a month to rent a studio",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "wtf, the amount of live fire zones are crazy?! fucking speechless they'd do this for money, cbs",
+        "post_id": "t3_1x8d8as",
+        "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is exactly the type of thing that people do for money.",
+        "post_id": "t3_1x8d8as",
+        "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "CB Indon really the burden of the region.",
+        "post_id": "t3_1x8d8as",
+        "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Cuz they socialise the costs, so no need to give a f lol. Just let someone else pay the price! All it matters is all those juicy profits get privatised 😍😍🤑🤑",
+        "post_id": "t3_1x8d8as",
+        "post_title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+        "subreddit": "SingaporeRaw",
+        "score": 38,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sakit jialat",
+        "post_id": "t3_1x8thy6",
+        "post_title": "Kilat — a weather and haze app",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "the design looks abit too chinese n serious",
+        "post_id": "t3_1x8uas8",
+        "post_title": "Developing Singapore Mahjong App to add more choices for SG Mahjong Players!",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "This is what winning feels like?",
+        "post_id": "t3_1x8y25k",
+        "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Trinkled down economics in progress... This is the greatest wealth transfer of the century, to the top",
+        "post_id": "t3_1x8y25k",
+        "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Globalist pro-industrialist organisation shilling for more of that open border MNC wealth transfer.",
+        "post_id": "t3_1x8y25k",
+        "post_title": "IMF Says Singapore Is Among Asian Winners of the AI Boom",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "rare blue skies.",
+        "post_id": "t3_1x8tzw3",
+        "post_title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+        "subreddit": "singapore",
+        "score": 177,
+        "comment_score": 145,
+        "intensity": "mild"
+      },
+      {
+        "text": "That's an awesome idea.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 93,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Perfect to get breakfast after.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 93,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Plus it still encourages a healthy lifestyle while being protected.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Always wanted to run around in Jewel.",
+        "post_id": "t3_1x8y570",
+        "post_title": "Athletic group avoids haze by running indoors at Marina Square",
+        "subreddit": "singapore",
+        "score": 163,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "70 year olds doing bulgarian split squats is pretty crazy, in a good way. More uncs and aunties in the gym is a good thing so please build more pec decs.",
+        "post_id": "t3_1x8noi7",
+        "post_title": "Heavy lifting: More seniors take up strength training to stay active",
+        "subreddit": "singapore",
+        "score": 61,
+        "comment_score": 31,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Good for them",
+        "post_id": "t3_1x8noi7",
+        "post_title": "Heavy lifting: More seniors take up strength training to stay active",
+        "subreddit": "singapore",
+        "score": 61,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Bought an air purifier back in 2015 and I never looked back. The same air purifier still serves me well to this day.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "I'm glad I did since our neighbour country cannot be trusted to prevent haze.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "A well-placed air purifier can help in having a good sleep.",
+        "post_id": "t3_1x8st2n",
+        "post_title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+        "subreddit": "singapore",
+        "score": 38,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "I found a research paper showing the locations of 18 NEA air monitoring stations.",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 39,
+        "intensity": "mild"
+      },
+      {
+        "text": "I haven't seen a specific listing but AQICN's site puts them on a map (with a bunch of others): https://aqicn.org/station/country/sg/singapore/ I assume that there's lat/long or GPS metadata that's part of the API or reporting standard that these monitoring stations use.",
+        "post_id": "t3_1x8wy6q",
+        "post_title": "Does anyone actually know where NEA's air quality stations are?",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 22,
+        "intensity": "mild"
+      },
+      {
+        "text": "Can't go wrong with Royal Caribbean. I believe you will not have any accessibility issues aboard their ships. Bon voyage !",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Went on the exact Royal Carribbean route you've mentioned (Penang)! My grandparents are thankfully still pretty mobile, albeit slow, and it was enjoyable enough for them! Saw some other elderly on wheelchairs in the cruise as well. There are elevators in the ship so you really don't have to worry. Staff are generally pretty helpful too. Highly recommend Royal Carribbean! Super sweet of you to take your grandparents on a trip. Enjoy your cruise~",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Royal Caribbean is the best! Been cruising with them for over a decade and their accessible rooms are 💯.",
+        "post_id": "t3_1x8y5h2",
+        "post_title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I heard my kids playing o peh som the other day.. just that it's the english version. Black or white. heeee hee~",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've been buying traditional toys for my daughter and she loves them. Pick up sticks is her favourite.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I love void deck football a lot.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Block catching was fun af.",
+        "post_id": "t3_1x8uwet",
+        "post_title": "Traditional childhood games in Singapore",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I have never encountered any problems with this method",
+        "post_id": "t3_1x8byac",
+        "post_title": "apple earpods type c out of stock everywhere?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I recently changed to wired iems, and they sound better than my AirPod pro 3 separation/acoustic/vocal wise.",
+        "post_id": "t3_1x8byac",
+        "post_title": "apple earpods type c out of stock everywhere?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You can't go too wrong with ISPs in Singapore.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "All ISPs are using the same hardware for last mile fibre and all provide pretty good connections generally.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Order to install is typically quite quick. Usually a few days, less than a week in my experience.",
+        "post_id": "t3_1x8u907",
+        "post_title": "Broadband Recommendations? and timeline for installation?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It is better to purchase your own home as the amount you pay for rent is better used towards a mortgage",
+        "post_id": "t3_1x8nlbx",
+        "post_title": "Renting or buy studio ? Which is better for a PR in Singapore.",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "But thanks for bringing more options to us! Good Luck!",
+        "post_id": "t3_1x8uas8",
+        "post_title": "Developing Singapore Mahjong App to add more choices for SG Mahjong Players!",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'll try to prevent that from happening :\\')",
+        "post_id": "t3_1x8guaa",
+        "post_title": "Creation of BCRSRabak subreddit",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Burying SG property is a sure win. Go for it!",
+        "post_id": "t3_1x8ndt0",
+        "post_title": "Should I buy a studio in Singapore instead of renting room?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Regional Haze Crisis PSI Air Quality Concerns",
+      "engagement_score": 450,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Rare 'normal' PM2.5 in 3 regions on Oct 18; PSI at season-high 230 in western Singapore",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8tzw3/rare_normal_pm25_in_3_regions_on_oct_18_psi_at/"
+        },
+        {
+          "title": "Every orange dot is a real fire. This is the week that smoked Singapore — day by day",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8d8as/every_orange_dot_is_a_real_fire_this_is_the_week/"
+        },
+        {
+          "title": "Singapore haze: Be careful when buying masks or air purifiers on secondary market, CASE warns",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8st2n/singapore_haze_be_careful_when_buying_masks_or/"
+        }
+      ],
+      "entities": [
+        "NEA",
+        "PSI",
+        "PM2.5",
+        "CASE",
+        "Haze",
+        "Air Quality",
+        "Air Purifiers"
+      ]
+    },
+    {
+      "topic": "Singaporeans Adapting Lifestyle Activities During Haze",
+      "engagement_score": 172,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "Athletic group avoids haze by running indoors at Marina Square",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8y570/athletic_group_avoids_haze_by_running_indoors_at/"
+        },
+        {
+          "title": "Go outside to play now before the haze comes back",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8tgah/go_outside_to_play_now_before_the_haze_comes_back/"
+        },
+        {
+          "title": "Kilat — a weather and haze app",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8thy6/kilat_a_weather_and_haze_app/"
+        }
+      ],
+      "entities": [
+        "Marina Square",
+        "Haze",
+        "Indoor Exercise",
+        "Gyms"
+      ]
+    },
+    {
+      "topic": "Youth Mental Health Parental Consent Age Debate",
+      "engagement_score": 121,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Mental health practitioners call for lower or no parental consent age as more youths seek help",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8vy3q/mental_health_practitioners_call_for_lower_or_no/"
+        },
+        {
+          "title": "'I refuse to give up' – the 'exemplary' mother who fought for her son and is a lifeline for others",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8xqlg/i_refuse_to_give_up_the_exemplary_mother_who/"
+        }
+      ],
+      "entities": [
+        "Mental Health",
+        "Youth",
+        "Healthcare",
+        "Counselling",
+        "MOH"
+      ]
+    },
+    {
+      "topic": "Senior Citizens Embracing Strength Training Active Aging",
+      "engagement_score": 65,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "Heavy lifting: More seniors take up strength training to stay active",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1x8nort/heavy_lifting_more_seniors_take_up_strength/"
+        },
+        {
+          "title": "Cruise for elderly in wheelchairs that doesn't cost too much?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1x8y5h2/cruise_for_elderly_in_wheelchairs_that_doesnt/"
+        }
+      ],
+      "entities": [
+        "Seniors",
+        "Fitness",
+        "Healthcare",
+        "Active Aging",
+        "Gyms"
+      ]
+    },
+    {
+      "topic": "Road Safety Drink Driving Enforcement Singapore",
+      "engagement_score": 73,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Woman arrested for drink driving after accident in Amoy Street; 2 people taken to hospital",
+          "url": "https://www.reddit.com/r/singapore/comments/1x8riyo/woman_arrested_for_drink_driving_after_accident/"
+        }
+      ],
+      "entities": [
+        "Traffic Police",
+        "Road Safety",
+        "Enforcement",
+        "Drink Driving"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Haze at PSI 230 Exposes Singapore's Data Credibility Crisis as Sentiment Volumes Halve but Fury Intensifies",
+    "key_takeaways": [
+      "Despite a 48% week-over-week drop in frustration volume, intensity remains 'strong' — suggesting a smaller but more engaged and angrier core audience, not a cooling of discontent. The NEA PSI metric backlash (3 separate top-upvoted comments all scoring +177 on the same critique) signals this is a coordinated, high-conviction grievance, not passing noise.",
+      "The haze has created a secondary indoor fitness economy: Marina Square, Jewel, and mall corridors are organically absorbing displaced runners, with demand visibly outstripping treadmill supply. This is a spontaneous behavioral shift that infrastructure has not yet caught up with.",
+      "Youth mental health services face a structural leakage problem — parental consent requirements are actively redirecting at-risk teens to ChatGPT and AI tools rather than qualified counsellors. This is not a tech-adoption story; it is a regulatory gap creating measurable clinical risk that is now publicly debated.",
+      "The regional haze is simultaneously spawning a scam economy, with counterfeit masks and air purifiers being sold opportunistically — a pattern historically observed in past haze seasons (2013, 2015, 2019) that regulators and e-commerce platforms have repeatedly been slow to act on.",
+      "Optimism fell fastest (-51.7%) and is now anchored almost entirely in micro-moments — blue sky sightings treated as rare events, senior fitness wins — signalling that positive sentiment is fragile and highly contingent on air quality improvements that Singapore cannot control."
+    ],
+    "opportunities": [
+      "Malls and large commercial operators (CapitaLand, Frasers, Lendlease) should fast-track temporary indoor fitness corridors or extended treadmill access partnerships with gyms during haze advisories — the organic demand signal is already there (+163 upvotes on 'I wish more malls would do this'), and the first mover gains both footfall and significant goodwill PR at minimal cost.",
+      "NEA or a civic-tech partner has a clear opening to launch a real-time 1-hour PSI dashboard app or widget — the public has explicitly articulated exactly what they want ('the only useful metrics are the 1h reading and a potential forecast'). A government-backed or NEA-licensed product would neutralize the credibility gap and preempt third-party misinformation tools from filling the void.",
+      "Mental health platform operators and MOH-linked services (e.g., MindLine, Community Health Assessment Team) should advocate publicly for a pilot parental-consent waiver pathway for teens assessed as high-risk — and market existing anonymous digital resources aggressively to teens now, while the debate is live and media attention is high, to capture the cohort currently defaulting to AI chatbots.",
+      "E-commerce platforms (Shopee, Lazada, Carousell) and the Singapore Consumer Association (CASE) should activate haze-season rapid-review protocols to flag and remove counterfeit mask and air purifier listings — proactive enforcement here is both a brand-safety measure and an opportunity to position platforms as trusted retailers during a crisis when trust in product authenticity is acutely low."
+    ],
+    "risks": [
+      "NEA's PSI methodology has crossed from background grumbling into a high-visibility, high-consensus public trust issue — three independently top-scored comments making identical critiques signals this is approaching viral policy criticism territory. If a health incident is linked to people relying on the 24-hour figure, institutional blowback will be severe and rapid. Communications teams should prepare a proactive explainer or announce a metric review now, before the narrative hardens.",
+      "The youth mental health consent debate is escalating among practitioners and parents simultaneously — if a high-profile adverse outcome (teen self-harm linked to inability to access services) emerges while this policy debate is live on public forums, the reputational and political fallout for MOH and the Ministry of Social and Family Development will be acute. Policymakers should treat the current window as an opportunity to get ahead of the issue rather than react to a crisis."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-10-17",
+    "fears": {
+      "direction": "down",
+      "change_pct": -45.9,
+      "intensity_shift": "stable",
+      "previous_count": 61,
+      "current_count": 33
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -48.2,
+      "intensity_shift": "stable",
+      "previous_count": 114,
+      "current_count": 59
+    },
+    "optimism": {
+      "direction": "down",
+      "change_pct": -51.7,
+      "intensity_shift": "stable",
+      "previous_count": 58,
+      "current_count": 28
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Haze Crisis and Air Quality Despair",
+      "description": "Singaporeans express frustration and resignation over recurring transboundary haze, unreliable air quality metrics, and distrust of neighbouring countries to prevent burning.",
+      "category": "frustration",
+      "quote_count": 8,
+      "sample_quotes": [
+        "They will continue burning and supply you stale air.",
+        "24 hour PSI is a useless lagging indicator reporting yesterday's news, reaching a 'new high' when the haze is at a multi day low for now.",
+        "i still can't see the blue sky leh... but the roads are less blurry compared to the past week eastie here"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Parental Gatekeeping of Youth Mental Health",
+      "description": "Deep frustration that parents frequently obstruct or dismiss children's mental health care, often being the root cause of trauma rather than the solution.",
+      "category": "frustration",
+      "quote_count": 9,
+      "sample_quotes": [
+        "Sadly, the reality is that the parents are often the ones in the way of their own children seeking professional medical care for mental health.",
+        "the parents should be the ones getting therapy instead of passing on whatever bs generational trauma",
+        "I'd rather youth seek proper help than to turn to chat gpt because counsellors would have to inform parents"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Haze Adaptation and Indoor Wellness Workarounds",
+      "description": "Optimistic sentiment around practical solutions for maintaining healthy and active lifestyles despite poor outdoor air quality, including air purifiers and indoor exercise spaces.",
+      "category": "optimism",
+      "quote_count": 9,
+      "sample_quotes": [
+        "Bought an air purifier back in 2015 and I never looked back. The same air purifier still serves me well to this day.",
+        "Always wanted to run around in Jewel.",
+        "I wish more malls or large air-conditioned venues would do this. The gyms are already crowded as it is and there aren't enough treadmills to go around."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Inclusive Travel and Elderly Accessibility",
+      "description": "Positive experiences and recommendations around cruise travel that is accessible and enjoyable for elderly or mobility-limited family members.",
+      "category": "optimism",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Can't go wrong with Royal Caribbean. I believe you will not have any accessibility issues aboard their ships. Bon voyage!",
+        "Went on the exact Royal Carribbean route you've mentioned (Penang)! My grandparents are thankfully still pretty mobile, albeit slow, and it was enjoyable enough for them!",
+        "Royal Caribbean is the best! Been cruising with them for over a decade and their accessible rooms are 💯."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Safety Complacency and Risk Blindness in Singapore",
+      "description": "Fears and frustrations around public indifference to preventable dangers — from drink driving to conflict zones — reflecting a broader concern about Singaporeans underestimating real risks.",
+      "category": "fear",
+      "quote_count": 5,
+      "sample_quotes": [
+        "Still people seem to be ok with drink driving, not sure if it's the education lacking or the chances of being caught (or just blur like sotong?!).",
+        "It's still an active war zone around there yet he's going? WTF",
+        "They can't even stop Houthi rockets lah how can voucher Wong somehow be immune lol"
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Dominated by Strong Intensity at 54%",
+      "description": "Over half of all frustration quotes (32 out of 59) carry strong intensity, compared to only 3 mild expressions. This 54% strong-intensity rate is unusually skewed and suggests that even as overall volume declined 48%, those still expressing frustration feel it acutely. The haze and PSI measurement criticism appear to be key drivers of this concentrated, high-intensity discontent.",
+      "category": "frustration",
+      "related_quotes": [
+        "They will continue burning and supply you stale air.",
+        "24 hour PSI is a useless lagging indicator reporting yesterday's news, reaching a 'new high' when the haze is at a multi day low for now."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "high_engagement",
+      "title": "PSI Measurement Criticism Draws Exceptional Community Agreement",
+      "description": "Multiple quotes criticising the 24-hour PSI metric each scored +177, an exceptionally high engagement level. Three distinct quotes attacking the same measurement methodology all reached the same peak score, indicating unusually broad and unified community consensus that official air quality reporting is inadequate. This coordinated high-score clustering around a single grievance is a notable signal.",
+      "category": "frustration",
+      "related_quotes": [
+        "24 hour PSI is a useless lagging indicator reporting yesterday's news, reaching a 'new high' when the haze is at a multi day low for now.",
+        "Totally useless for anyone. The only useful metrics are the 1h reading and a potential forecast - but treating the 24h reading as a forecast (which seems to be what they do) is useless."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Indoor Exercise Access During Haze Surfaces as New Community Concern",
+      "description": "A cluster of +163-scored quotes highlights Singaporeans struggling to find adequate indoor exercise options during the haze period, specifically around treadmill access in gyms and calls for malls to open as exercise venues. This practical adaptation challenge is a distinct sub-topic emerging from the broader haze crisis and has not previously featured prominently in trending topics.",
+      "category": "frustration",
+      "related_quotes": [
+        "Been struggling with long runs cos I feel bad hogging the treadmill for 2-3hrs.",
+        "I wish more malls or large air-conditioned venues would do this. The gyms are already crowded as it is and there aren't enough treadmills to go around to accommodate people's different workouts."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Account for 49% of All Quotes, Dwarfing Optimism",
+      "description": "Frustrations represent nearly half of total weekly sentiment volume (59 out of 120 quotes), while optimism sits at just 28 quotes — roughly half the frustration count. Despite an overall volume decline across all categories this week, frustrations are the least diminished relative to the others and hold a 2:1 ratio over optimism, indicating a persistently negative sentiment balance driven largely by haze-related grievances.",
+      "category": "frustration",
+      "related_quotes": [
+        "i still can't see the blue sky leh... but the roads are less blurry compared to the past week eastie here",
+        "Blue? I do see the sun but didn't see blue skies the last I checked"
+      ],
+      "urgency": "medium"
+    }
+  ]
+}
