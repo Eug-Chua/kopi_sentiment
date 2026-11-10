@@ -1,0 +1,3946 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-11-10",
+  "report_date": "2026-11-10",
+  "generated_at": "2026-11-10T21:18:59.476613",
+  "metadata": {
+    "total_posts_analyzed": 38,
+    "total_comments_analyzed": 464,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Security anxieties ran through multiple threads today, from geopolitical risks around Singapore's new gold vault hosting foreign reserves to personal financial vulnerabilities like unauthorised credit card transactions and crypto withdrawal delays. The Assurance Package cash disbursement, rather than reassuring recipients, prompted unease — one Redditor bluntly declared they're 'not assured in 2027.' Fears around BTO oversubscription and housing competition added pressure, while a drug smuggling case out of Ipoh airport drew strong alarm about the consequences of such decisions. Overall, today's fears were real but largely contained, stopping short of full panic.",
+      "quote_count": 42,
+      "intensity_breakdown": {
+        "mild": 6,
+        "moderate": 25,
+        "strong": 11
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration dominated the day, and it ran deep. The Assurance Package triggered sharp anger, with many feeling the $250 payout is a band-aid on structural cost-of-living wounds — a sentiment echoed in threads about income, happiness, and whether earning more even matters anymore. Hawker culture friction flared up over a duck leg refusal, but the real heat was reserved for systemic grievances: UOB's poor fraud handling, LTA's crackdown on personal mobility devices, the relentless tuition treadmill, and the impending closure of Biscuit King as yet another old-school institution fades away. The SPH hack rumours and Singapore's emergence as Apple's top tax shelter added a layer of institutional distrust. People aren't just venting — there's a sense that everyday systems are quietly failing them.",
+      "quote_count": 88,
+      "intensity_breakdown": {
+        "mild": 5,
+        "moderate": 32,
+        "strong": 51
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Optimism today was genuine but grounded, not euphoric. Singapore's move to host foreign gold reserves drew the strongest positive response, with many proud of the city-state's reputation as a rule-based, secure financial hub and hopeful it signals high-value job creation. The 'earning more doesn't equal happiness' thread unexpectedly became a bright spot, with Redditors sharing thoughtful reflections on contentment, life priorities, and finding meaning beyond paychecks. Smaller wins — Toto windfalls, confirmed cash payouts, and community recommendations for hobby shops and couriers — kept the mood from turning entirely sour. It's a quiet, measured optimism, rooted in competence and community rather than excitement.",
+      "quote_count": 51,
+      "intensity_breakdown": {
+        "mild": 9,
+        "moderate": 19,
+        "strong": 23
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 177,
+      "top_posts": [
+        {
+          "id": "t3_1xsfgwr",
+          "title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsfgwr/ang_mo_kio_hawker_refuses_to_sell_single_duck_leg/",
+          "score": 138,
+          "num_comments": 61,
+          "created_at": "2026-11-10T06:11:09.284000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsfgwr",
+            "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express irritation at the triviality of the news story and frustration with hawkers' arbitrary rules about portion sizes, with sarcastic remarks about the lack of logic in such restrictions.",
+              "quotes": [
+                {
+                  "quote": "Slow news day I see",
+                  "score": 275
+                },
+                {
+                  "quote": "Riveting stuff",
+                  "score": 107
+                },
+                {
+                  "quote": "Reminds me of a chicken rice stall that refuse to sell me 2 drumstick rice, because unbalanced, can sell me only 1. But next person can order another drumstick rice. Some mathematical fuckery involved.",
+                  "score": 50
+                },
+                {
+                  "quote": "Eh, it happens to me so many times already (because my colleague always wants duck leg only), why I never end up on the news.",
+                  "score": 10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "One commenter offers a casual, matter-of-fact reassurance that this is normal vendor practice and that hawkers typically maintain whole or half portions for such requests.",
+              "quotes": [
+                {
+                  "quote": "This is normal, I've bought enough chicken drumstick rice to know it's true. Vendors always save some whole or half chickens and ducks for customers who want to order half or whole.",
+                  "score": 50
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xserla",
+          "title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+          "url": "https://www.reddit.com/r/singapore/comments/1xserla/spore_opens_national_currency_vault_to_foreign/",
+          "score": 109,
+          "num_comments": 45,
+          "created_at": "2026-11-10T05:30:50.004000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xserla",
+            "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are genuine security concerns about potential attacks on Singapore's gold vault and worries about losing international trust, though expressed with some casual language ('slightly fucked'). The fears include both physical security threats and reputational risks, with references to Trump's antics adding a layer of concern about external actors.",
+              "quotes": [
+                {
+                  "quote": "cons maybe if something do happen we will be slightly fucked people will lose trust in us etc etc.",
+                  "score": 0
+                },
+                {
+                  "quote": "But maybe the incentive for someone to attack Singapore and seize all the gold is also higher.",
+                  "score": -6
+                },
+                {
+                  "quote": "Trump recently caused a scare by saying the gold has been stolen and he wants to physically check it, which also gave rise to fears that HE would steal it!",
+                  "score": 26
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Minor complaints about financial costs and unmet expectations regarding quality of life, expressed casually without strong emotional language. These are practical concerns rather than passionate grievances.",
+              "quotes": [
+                {
+                  "quote": "If gold price goes lower or stays range bound, i still pay that running fees (which is a cost).",
+                  "score": 16
+                },
+                {
+                  "quote": "Goh chok tong where is my Swiss standard of living.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Abundant enthusiasm and confidence in Singapore's strategic move, with multiple speakers praising it as 'brilliant,' 'smart,' and highlighting Singapore's reputation, job creation, and defensive benefits. The tone is distinctly positive and forward-looking, reflecting genuine appreciation for the initiative's long-term advantages.",
+              "quotes": [
+                {
+                  "quote": "Should have a pretty good adoption rate given Singapore's world class reputation as a safe, secure and ultimately, rule based society.",
+                  "score": 108
+                },
+                {
+                  "quote": "Confirm got money",
+                  "score": 108
+                },
+                {
+                  "quote": "It creates jobs (good paying ones, i hope)",
+                  "score": 16
+                },
+                {
+                  "quote": "It also helps to stabilize gold prices from panic fluctuations by spreading risk throughout the world.",
+                  "score": 26
+                },
+                {
+                  "quote": "good perspective. creating shared stakes/interests.",
+                  "score": 3
+                },
+                {
+                  "quote": "It's one way to protect ourselves from the terrors of the world.",
+                  "score": 3
+                },
+                {
+                  "quote": "This is a good move. Should have done so earlier",
+                  "score": 15
+                },
+                {
+                  "quote": "Smart move. Future potential aggressors will need to think twice before they attack Singapore.",
+                  "score": 15
+                },
+                {
+                  "quote": "This is call Financial Defense.. brilliant move..",
+                  "score": 8
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsbm1w",
+          "title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsbm1w/final_round_of_assurance_package_cash_about_3m/",
+          "score": 105,
+          "num_comments": 27,
+          "created_at": "2026-11-10T02:46:31.488000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsbm1w",
+            "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A single comment expressing concern about future economic assurance beyond 2027, suggesting passing worry about long-term financial security rather than acute anxiety.",
+              "quotes": [
+                {
+                  "quote": "i'm not assured in 2027",
+                  "score": 23
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple strong expressions of discontent including sarcasm about the Assurance Package's temporary nature, skepticism about eligibility criteria, technical grievances, and dismissal of the aid amounts as inadequate (\"derisory\"), reflecting deep dissatisfaction with government measures.",
+              "quotes": [
+                {
+                  "quote": "i will miss you Assurance Package, see you next election...",
+                  "score": 69
+                },
+                {
+                  "quote": "Why is anyone with more than one property getting anything.",
+                  "score": 30
+                },
+                {
+                  "quote": "Super off topic, but man I hate it when asiaone is used as a source, fucking pop ups with obscured dismiss buttons.",
+                  "score": 41
+                },
+                {
+                  "quote": "Feeling less assured after this ends.",
+                  "score": 2
+                },
+                {
+                  "quote": "Imagine, 100, 150 or 250 is assurance. Derisory.",
+                  "score": -10
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear positive sentiment about the practical value of the cash assistance for groceries and small luxuries, with appreciative acknowledgment of the help, though tempered by casual acceptance rather than enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "That $250 is good for a one month supply of groceries. Just in time for Christmas as well.",
+                  "score": 5
+                },
+                {
+                  "quote": "Wow can add extra meat for my Cai Peng, thanks bro Wong",
+                  "score": 11
+                },
+                {
+                  "quote": "At least a $100 'Christmas Present' from the gahmen. Can't complain.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xs7pdw",
+          "title": "$12.2 million Toto prize pool split between two winning tickets",
+          "url": "https://www.reddit.com/r/singapore/comments/1xs7pdw/122_million_toto_prize_pool_split_between_two/",
+          "score": 96,
+          "num_comments": 19,
+          "created_at": "2026-11-09T23:44:44.925000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xs7pdw",
+            "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Players express concern about the extremely low odds of winning and anxiety about financial uncertainty, with one person fantasizing about resigning from their job if they won.",
+              "quotes": [
+                {
+                  "quote": "The odds are so small 😭",
+                  "score": 21
+                },
+                {
+                  "quote": "Spent the whole Deepavali thinking about resigning...",
+                  "score": 24
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Multiple players express disappointment about not winning despite spending money on various lottery combinations, with a sense of resigned acceptance that gambling is inherently designed to disappoint.",
+              "quotes": [
+                {
+                  "quote": "Didn't even get 1 number right..",
+                  "score": 81
+                },
+                {
+                  "quote": "Never strike :(",
+                  "score": 4
+                },
+                {
+                  "quote": "I x itoto, 2x system 7, 2x system 8, 10x ordinary. $0 payout. Yep, gambling working as intended",
+                  "score": 1
+                },
+                {
+                  "quote": "No buy, no disappointment",
+                  "score": 8
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "One person finds humor and mild satisfaction in winning a small $10 prize, treating it with lighthearted amusement rather than genuine excitement.",
+              "quotes": [
+                {
+                  "quote": "Lmao I won $10",
+                  "score": 27
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xrrk6k",
+          "title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+          "url": "https://www.reddit.com/r/singapore/comments/1xrrk6k/oldschool_snacks_shop_biscuit_king_in_casuarina/",
+          "score": 91,
+          "num_comments": 11,
+          "created_at": "2026-11-09T13:24:09.965000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xrrk6k",
+            "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There's a noticeable concern about the shop's viability and difficulty in finding such stores nowadays, reflecting worry about the survival of traditional businesses in Singapore's changing retail landscape.",
+              "quotes": [
+                {
+                  "quote": "I always wonder how that store is able to survive.",
+                  "score": 7
+                },
+                {
+                  "quote": "I just hope they can continue to. It's really hard to get what they are selling these days.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is evident over losing nostalgic Singaporean character due to rising costs, with passionate expressions of disappointment about the closure and sarcasm about commercialization replacing authentic heritage stores.",
+              "quotes": [
+                {
+                  "quote": "We're losing more of our Singaporean vibes to rising operating costs.",
+                  "score": 0
+                },
+                {
+                  "quote": "This plastic bag cost is the real reason. Not to charge 5c 10c to recycle.",
+                  "score": 8
+                },
+                {
+                  "quote": "Who cares about Singaporean vibes when we can just have another Mala stall around the corner? /s",
+                  "score": 6
+                },
+                {
+                  "quote": "Noooo this place was such a good one to buy a drink and maybe a snack when walking in nature around the area :(",
+                  "score": 5
+                },
+                {
+                  "quote": "Tired 😴...want to support them one last time",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xrsjkt",
+          "title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+          "url": "https://www.reddit.com/r/singapore/comments/1xrsjkt/most_spore_parents_see_kids_tuition_as_necessary/",
+          "score": 73,
+          "num_comments": 70,
+          "created_at": "2026-11-09T14:06:59.565000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xrsjkt",
+            "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Parents experience genuine anxiety about being judged as negligent for not providing excessive tuition and academic enrichment, with some facing direct accusations of neglect from other parents. The underlying worry is that their children may fall behind if they don't conform to the intense academic pressure culture.",
+              "quotes": [
+                {
+                  "quote": "Seeing all the other moms sign up for this and that and buying group buys for all sorts of things makes me feel like I'm a neglectful parent if I'm not doing the same lol.",
+                  "score": 3
+                },
+                {
+                  "quote": "I was told to my face that I was a neglectful parent a few times actually.",
+                  "score": 2
+                },
+                {
+                  "quote": "If my kids aren't bright, think I might really have to go down that path too...",
+                  "score": 30
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Parents express deep frustration with the pervasive kiasu culture, the escalating difficulty of exam papers without clear justification, and the systemic pressure that forces them to invest heavily in tuition despite believing in reduced academic stress. There is palpable exasperation with the disconnect between societal expectations and their personal values regarding child education.",
+              "quotes": [
+                {
+                  "quote": "too many parents (and their kids) treat tuition like a magic bullet they can buy with money. last minute hug buddha leg after slacking off for the large part of the year.",
+                  "score": 98
+                },
+                {
+                  "quote": "it is very crazy. Especially for english (phonics), chinese , Heguru (maths)",
+                  "score": 9
+                },
+                {
+                  "quote": "Very frustrating to be surrounded by those kiasu parents haha",
+                  "score": 2
+                },
+                {
+                  "quote": "I see many issues- teachers are complaining of higher workload, but I see us as parents doing a lot more compared to my parents who literally just throw us into school and everything is taken care of.",
+                  "score": 11
+                },
+                {
+                  "quote": "school teaches foundation, caters to the general, but exam questions are highly technical which general teaching on syllabus do not suffice.",
+                  "score": 11
+                },
+                {
+                  "quote": "papers are getting harder with no apparent goalor purpose of difficulty.",
+                  "score": 11
+                },
+                {
+                  "quote": "I think a nice mid ground is good especially for language subjects where the quality of marking really decreases with quantity lol.",
+                  "score": 25
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "There is only a brief mention of hope that small improvements to the education system may be on the horizon, without detailed elaboration or strong conviction.",
+              "quotes": [
+                {
+                  "quote": "Small changes are coming.",
+                  "score": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsgbqe",
+          "title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsgbqe/number_of_applications_received_in_the/",
+          "score": 51,
+          "num_comments": 63,
+          "created_at": "2026-11-10T07:03:23.713000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsgbqe",
+            "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express concern about the difficulty of securing HDB flats through repeated oversubscribed exercises and worry about being forced into the more expensive resale market if unsuccessful. The fear is grounded in real economic consequences, particularly for lower-income individuals facing significantly higher costs.",
+              "quotes": [
+                {
+                  "quote": "If you cannot get for 3 times because too oversubscribed, you might have no choice to buy resale.",
+                  "score": 1
+                },
+                {
+                  "quote": "If you are poor, you have 50% chance to pay 300k, rather than 600k.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users display clear frustration with repeated failures in the BTO ballot process, having attempted multiple times without success. Despite the setbacks, there's a resigned determination to continue trying, reflecting the emotional toll of the competitive system.",
+              "quotes": [
+                {
+                  "quote": "I tried sembawang previously and i failed lol.",
+                  "score": 0
+                },
+                {
+                  "quote": "Since i already failed 3 times, i will test my luck again.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsdr1e",
+          "title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsdr1e/lta_585_active_mobility_offences_spotted_157/",
+          "score": 36,
+          "num_comments": 6,
+          "created_at": "2026-11-10T04:35:37.221000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsdr1e",
+            "post_title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing technical concern about battery safety during home charging, mentioned defensively rather than as a primary worry.",
+              "quotes": [
+                {
+                  "quote": "They won't catch fire, at the cost of being a little less energy dense. Totally safe to charge at home and won't kill people.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration about inadequate enforcement of PMD rules, compounded by broader daily hardships like healthcare costs and public transport difficulties that accumulate into emotional exhaustion and resigned cynicism about compliance.",
+              "quotes": [
+                {
+                  "quote": "There's got to be 100x more of these",
+                  "score": 12
+                },
+                {
+                  "quote": "Errant pmd users, cannot get a queue number when sick or being charged more than $60 at gp for sore throat and fever, difficulties encountered when taking public transport, mandatory bills of daily living. These are stuffs when issues are encountered that the hardships sticks with us everyday. That is also why people get so emotional and keep on ranting non stop about such issues.",
+                  "score": 1
+                },
+                {
+                  "quote": "It's useless, no matter how many legal types of batteries available, yp will do it the illegal way",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsk1je",
+          "title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsk1je/singaporean_nabbed_at_ipoh_airport_with_ganja/",
+          "score": 31,
+          "num_comments": 12,
+          "created_at": "2026-11-10T11:00:22.089000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsk1je",
+            "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Commenters express deep concern about the severity of consequences, with direct references to Malaysia's death penalty and resigned acceptance of the person's fate through \"RIP.\"",
+              "quotes": [
+                {
+                  "quote": "Malaysia has the death penalty.",
+                  "score": 4
+                },
+                {
+                  "quote": "RIP",
+                  "score": 2
+                },
+                {
+                  "quote": "Death penalty son.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear frustration about the perpetrator's poor planning and the impracticality of the drug choice, critiquing both the greed and logistics of the operation.",
+              "quotes": [
+                {
+                  "quote": "a bit too greedy this guy, of course will look damn suspicious if 1 person has 190kg worth of baggage",
+                  "score": 10
+                },
+                {
+                  "quote": "Gotta be the worst drug to traffic, it's big and smelly",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsk79y",
+          "title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsk79y/beyond_the_paycheck_the_economic_cost_of_mental/",
+          "score": 24,
+          "num_comments": 13,
+          "created_at": "2026-11-10T11:09:30.406000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1xsk79y",
+            "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about systemic failures in mental health support, with concerns that untreated mental illness creates a cascading burden on families, colleagues, social services, and law enforcement. The fear reflects worry about serious consequences including self-harm and societal dysfunction.",
+              "quotes": [
+                {
+                  "quote": "Lack of investment in mental health treatment leads to a massive socialisation of the costs. Family friends and colleagues will pay the price first. Later perhaps even other public agencies need to pay. Social workers investigate family members who become dysfunctional, police need to be deployed for people making nuisance or hurting others or killing themselves.",
+                  "score": 12
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration with workplace stigma, dismissive attitudes toward mental health, and exploitative corporate practices that weaponize wellness rhetoric while demanding ever-higher productivity. The tone expresses anger at being labeled lazy despite effort and betrayal by employers who ignore disclosed conditions.",
+              "quotes": [
+                {
+                  "quote": "It's all in your head, bro. Here, take some panadol and go back to work, understand??",
+                  "score": 22
+                },
+                {
+                  "quote": "I'm kinda struggling to be a good worker and self managing my own symptoms. I gotten burnt before from my previous employer, describing me as being lazy despite me revealing my conditions, putting the time and pulling extra shifts.",
+                  "score": 1
+                },
+                {
+                  "quote": "We care about your mental health! Here's a mental health workshop to help! Now continue working on my KPI, my bosses KPI and my bosses bosses KPI!",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Measured hopefulness about practical lifestyle interventions like exercise, proper nutrition, and alternative medicine (TCM, prebiotics) as accessible solutions for mental wellbeing. The optimism is grounded in personal experience rather than systemic change, suggesting cautious positivity about individual agency.",
+              "quotes": [
+                {
+                  "quote": "My only tip for those struggling is: Early Intervention Lifestyle changes Exercising Good diet. The gut brain axis affects more of us than we think. Go to TCM. Get treatments to nourish your stomach. Takes a few visits but promise it will be worth it",
+                  "score": 23
+                },
+                {
+                  "quote": "Yeah I noticed I feel better after eating properly instead of skipping meals.",
+                  "score": 5
+                },
+                {
+                  "quote": "But prebiotics has been godsend",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 129,
+      "top_posts": [
+        {
+          "id": "t3_1xse150",
+          "title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xse150/sg_redditors_at_what_point_did_you_realise/",
+          "score": 68,
+          "num_comments": 187,
+          "created_at": "2026-11-10T04:50:43.123000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xse150",
+            "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about financial vulnerability and the consequences of job loss on family stability, including mortgage and childcare responsibilities. The anxiety is real but expressed as a hypothetical consideration rather than acute panic.",
+              "quotes": [
+                {
+                  "quote": "But what happens if you lose your job? Both parents jobless with mortgage and kids to pay not to mention not sure if you have a car, is no joke",
+                  "score": -5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration and helplessness permeate these comments, with a high earner feeling defeated despite financial comfort and attempts to improve family dynamics. The tone conveys exhaustion, confusion, and resignation about unresolved relationship and parenting challenges, with some 'sian' (tired/fed-up) undertones.",
+              "quotes": [
+                {
+                  "quote": "I am drawing 200k annual salary . Comfortable for sure. I thought allowing my wife to stay home mum will make her feel better and improve our marriage . We have a full time helper before and after. Frankly there is no difference after trying out a few months. Seems like nothing much I can do .",
+                  "score": 78
+                },
+                {
+                  "quote": "Constantly seeing her black face, I know the kids are tough but oh man… just don't want to be in the house most of the time",
+                  "score": 12
+                },
+                {
+                  "quote": "I work from home, so I am definitely present. But I can't be expected to handle the kids 24-7 I have my work to do In between meetings I will make it a point to come out to entertain them if only for a couple of minutes. I don't know what else I can do. Throw down my work and teach them?",
+                  "score": 4
+                },
+                {
+                  "quote": "Yeah I have no idea how to start",
+                  "score": -1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is genuine positive feedback about practical solutions that improved happiness through social connections and relationship benefits. The tone is encouraging and validating, though expressed in a lighter, more casual manner rather than emphatic excitement.",
+              "quotes": [
+                {
+                  "quote": "i noticed my own wife's happiness improved dramatically once she had other SAHM friends and she started going out with her fellow friends (with the kids) together.",
+                  "score": 68
+                },
+                {
+                  "quote": "Her sex drive increase too. Lol worth every single cent",
+                  "score": 32
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsc6ef",
+          "title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xsc6ef/uob_asked_me_to_contact_fairprice_myself_after_an/",
+          "score": 27,
+          "num_comments": 35,
+          "created_at": "2026-11-10T03:13:28.928000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xsc6ef",
+            "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The poster expresses genuine concern about potential security breaches across multiple systems (phone, account, 2FA, telco), showing clear worry about the scope of compromise rather than panic.",
+              "quotes": [
+                {
+                  "quote": "hmm, because I recalled Fairprice requires 2FA to bind the card. So I'll be worried that maybe your phone is compromised.",
+                  "score": 5
+                },
+                {
+                  "quote": "There's a possibility that your phone is compromised, your account is compromised, or somehow they got around the 2FA at UOB's side, or even the telco's side.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple emphatic complaints about UOB's poor handling compared to DBS, unresolved issues lasting a month, and lack of basic customer service (no replacement card), reflecting deep dissatisfaction with the bank's response.",
+              "quotes": [
+                {
+                  "quote": "What makes this more frustrating is that my wife had a similar experience with her POSB credit card a few months ago.",
+                  "score": 0
+                },
+                {
+                  "quote": "The difference in how DBS and UOB handled these two situations is really night and day.",
+                  "score": 0
+                },
+                {
+                  "quote": "A bit of extra cashback is not worth it if dealing with a fraudulent transaction becomes this complicated.",
+                  "score": 0
+                },
+                {
+                  "quote": "I am still waiting for a follow up phone call from 1 month ago.",
+                  "score": 6
+                },
+                {
+                  "quote": "They did not even offer a replacement card in the first place (which feel very unusual).",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Relief and gratitude expressed upon discovering the transaction was legitimate, though tempered by acknowledgment that it was ultimately a misunderstanding rather than genuine resolution of the underlying service issues.",
+              "quotes": [
+                {
+                  "quote": "I just called FairPrice and confirmed that it was indeed a legitimate transaction for their Digital Club membership. Thanks for sharing your experience!",
+                  "score": 5
+                },
+                {
+                  "quote": "I really appreciate it, and I am sorry for taking up your time over what turned out to be a misunderstanding!",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xschzp",
+          "title": "For those who have moved abroad, how did you do so?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xschzp/for_those_who_have_moved_abroad_how_did_you_do_so/",
+          "score": 19,
+          "num_comments": 27,
+          "created_at": "2026-11-10T03:29:37.895000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xschzp",
+            "post_title": "For those who have moved abroad, how did you do so?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are clear concerns about losing Singapore's comfort and conveniences abroad, as well as practical challenges like job market competitiveness and language requirements. These are definite worries rather than panic, reflecting realistic concerns about the transition.",
+              "quotes": [
+                {
+                  "quote": "Singapore is *extremely* comfortable and a lot of creature comforts you enjoy here will not exist overseas.",
+                  "score": 43
+                },
+                {
+                  "quote": "I think it's a lot harder to find new grad positions nowadays. And for Japan, most jobs require Japanese proficiency.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The speaker expresses noticeable annoyance with job application processes and bureaucratic procedures, using casual Singaporean language ('buying toto') and matter-of-fact observations. The tone is frustrated but not outraged, reflecting typical kpkb-style complaining.",
+              "quotes": [
+                {
+                  "quote": "Linkedin application feels broken. Like got to tweak resume to match job description keywords for every application to maximise ATS score. And even then it's still a bit like buying toto.",
+                  "score": 5
+                },
+                {
+                  "quote": "I find TH customs to be strict nowadays. Like TDAC (arrival card) needs to be thoroughly filled with hotel name.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is clear, measured encouragement about overseas moves as valuable personal growth experiences with genuine curiosity and openness to exploration. The sentiment is positive and reasoned rather than highly enthusiastic or ecstatic.",
+              "quotes": [
+                {
+                  "quote": "That said, it's certainly an adventure and a huge personal learning experience so I still recommend it, provided you go in knowing what you're getting into.",
+                  "score": 43
+                },
+                {
+                  "quote": "I think it's good to move overseas (no matter your country of origin) just to get a sense of what's out there in the world. It's always good to have a sense of curiosity and not just stay in one place forever.",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xru9t5",
+          "title": "Changi Airport to Bugis after midnight",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xru9t5/changi_airport_to_bugis_after_midnight/",
+          "score": 18,
+          "num_comments": 34,
+          "created_at": "2026-11-09T15:15:43.602000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xru9t5",
+            "post_title": "Changi Airport to Bugis after midnight",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Casual hypothetical concerns about missing flights or accidents are mentioned but not dwelled upon with urgency or panic.",
+              "quotes": [
+                {
+                  "quote": "What if you miss your flight? Get into an accident? Etc etc...",
+                  "score": 16
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear practical frustrations about wasting time waiting for transport and physical discomfort, with the commenter expressing definite disapproval ('not worth it imo') despite measured tone.",
+              "quotes": [
+                {
+                  "quote": "It really baffles me for people who go for trips without any backup funds.",
+                  "score": 16
+                },
+                {
+                  "quote": "Waiting 6hrs just to take public transport is not worth the back aches after",
+                  "score": 24
+                },
+                {
+                  "quote": "Waiting 5 hours till the first train is fine but not worth it imo considering it takes at most 30min to get into town",
+                  "score": 20
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Lighthearted and casual acceptance of budget travel inconveniences framed as an adventure, expressed in a relaxed, tongue-in-cheek manner.",
+              "quotes": [
+                {
+                  "quote": "You jest but this is the sort of thing I'd do when budget travelling. Adventure!",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsb2np",
+          "title": "Do you remember significant road accidents where the vehicle crashed through the center median?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xsb2np/do_you_remember_significant_road_accidents_where/",
+          "score": 6,
+          "num_comments": 5,
+          "created_at": "2026-11-10T02:20:13.212000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xsb2np",
+            "post_title": "Do you remember significant road accidents where the vehicle crashed through the center median?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsea5c",
+          "title": "Looking for Seamstress/Custom Wear Recommendations",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xsea5c/looking_for_seamstresscustom_wear_recommendations/",
+          "score": 5,
+          "num_comments": 4,
+          "created_at": "2026-11-10T05:04:02.320000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xsea5c",
+            "post_title": "Looking for Seamstress/Custom Wear Recommendations",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The seamstress is skilled but requires extensive oversight and close management during the process. The use of 'very very' suggests a clear, noticeable concern about the need for constant supervision.",
+              "quotes": [
+                {
+                  "quote": "she's good, but be very very micro manager",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The seamstress delivered a successful custom costume for a professional shoot, demonstrating satisfaction with the final result. The positive feedback reflects confidence in the quality of work despite the management requirements.",
+              "quotes": [
+                {
+                  "quote": "They did a great costume for my shoot this year.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xskjft",
+          "title": "Which home projector are you using?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xskjft/which_home_projector_are_you_using/",
+          "score": 4,
+          "num_comments": 3,
+          "created_at": "2026-11-10T11:29:43.955000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xskjft",
+            "post_title": "Which home projector are you using?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual mention of a practical limitation with projectors requiring separate audio equipment, stated matter-of-factly without emphasis or strong emotion.",
+              "quotes": [
+                {
+                  "quote": "You'll most likely need to get a separate soundbar or speakers for projectors though.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine positive sentiment about a recent projector purchase with the word 'amazing' indicating clear satisfaction after a week of use.",
+              "quotes": [
+                {
+                  "quote": "Recently got the Nova Mini Lite, been using for around a week. It's been amazing.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xrso9k",
+          "title": "Good Tabletop Gaming/Hobby Shops?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xrso9k/good_tabletop_gaminghobby_shops/",
+          "score": 3,
+          "num_comments": 5,
+          "created_at": "2026-11-09T14:12:28.770000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xrso9k",
+            "post_title": "Good Tabletop Gaming/Hobby Shops?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The commenter casually mentions helpful resources and personal recommendations for tabletop gaming shops, with a matter-of-fact tone rather than enthusiastic endorsement.",
+              "quotes": [
+                {
+                  "quote": "And you can also check their online store out",
+                  "score": 1
+                },
+                {
+                  "quote": "Gamersaurus Rex at upper thompson is where I normally play",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xs60k1",
+          "title": "Debating on leaving current job",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xs60k1/debating_on_leaving_current_job/",
+          "score": 3,
+          "num_comments": 15,
+          "created_at": "2026-11-09T22:34:56.603000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xs60k1",
+            "post_title": "Debating on leaving current job",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the financial and career consequences of leaving the current job, specifically worrying about salary regression and how employers view employment gaps.",
+              "quotes": [
+                {
+                  "quote": "Your situation is tricky, even if you leave current nitec pay, doesn't mean that you get more pay with a dip next time. Employers will look at 2-3 years as a work absence.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commute situation has created intense frustration, with the user expressing regret through emotional language (crying emoji) about a 4-hour daily travel time that is far worse than initially expected.",
+              "quotes": [
+                {
+                  "quote": "Stay west but work east? Gosh i would leave if i'm you.",
+                  "score": 4
+                },
+                {
+                  "quote": "Absolutely regret it thought it wouldnt be so bad due to having a straight bus then reality hit and its a 4 hour total travel time back and forth 😭",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsdo9e",
+          "title": "Which courier to use for Personal belongings from UK To SG",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1xsdo9e/which_courier_to_use_for_personal_belongings_from/",
+          "score": 3,
+          "num_comments": 1,
+          "created_at": "2026-11-10T04:31:34.725000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1xsdo9e",
+            "post_title": "Which courier to use for Personal belongings from UK To SG",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses clear frustration about an administrative barrier requiring a GST registration number for shipping, which they cannot obtain as a non-business individual. This is a definite concern that has no workaround available to them.",
+              "quotes": [
+                {
+                  "quote": "Unfortunately it requires a gst registration number which I don't have because I'm not a business. No way to pass that too",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "The user demonstrates substantial enthusiasm about the shipping service with multiple emphatic positive comments praising the fuss-free process, convenient door-to-door service, helpful customs handling, reasonable pricing, and reliable tracking updates. The overall tone reflects genuine satisfaction and confidence in the courier's service quality.",
+              "quotes": [
+                {
+                  "quote": "Everything was very fuss-free.",
+                  "score": 1
+                },
+                {
+                  "quote": "Everything arrived as how I packed it before I left Canada.",
+                  "score": 1
+                },
+                {
+                  "quote": "They will only charge you for the ones used.",
+                  "score": 1
+                },
+                {
+                  "quote": "They do door to door shipping so it's pretty convenient (collect from your doorstep in UK and deliver to your doorstep in Sg).",
+                  "score": 1
+                },
+                {
+                  "quote": "The shipping company will help you settle the customs declaration and all you have to do is to fill up an itemized list of all your items in the respective boxes, and the Singapore customs form.",
+                  "score": 1
+                },
+                {
+                  "quote": "Pricing quoted was quite ok (5 large boxes for 1.7k).",
+                  "score": 1
+                },
+                {
+                  "quote": "They will also provide constant updates regarding your shipment, which is nice.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 8,
+      "comments_analyzed": 89,
+      "top_posts": [
+        {
+          "id": "t3_1xs7udj",
+          "title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xs7udj/singapore_overtakes_ireland_as_apples_biggest_tax/",
+          "score": 33,
+          "num_comments": 15,
+          "created_at": "2026-11-09T23:50:53.037000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xs7udj",
+            "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Singaporeans express frustration about Apple's tax optimization practices, particularly the perceived unfairness of high local prices despite Singapore being a tax shelter and the irony of products being cheaper in America despite proximity to manufacturing hubs.",
+              "quotes": [
+                {
+                  "quote": "Eh, then make our iPhone cheaper la nb",
+                  "score": 19
+                },
+                {
+                  "quote": "Legal money laundering",
+                  "score": 14
+                },
+                {
+                  "quote": "Meanwhile apple products are cheaper to buy in america than Singapore, despite this and that most of their stuff is made in china (closer to Singapore)",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is pragmatic acceptance and mild pride in Singapore's new status as Apple's tax shelter, with some satisfaction that this brings revenue rather than negative attention, though tinged with resigned humor about Singapore's cost of living challenges.",
+              "quotes": [
+                {
+                  "quote": "We'll take iPhone money rather than some scammer's",
+                  "score": 4
+                },
+                {
+                  "quote": "Nice to finally top a global ranking that isn't the cost of owning a car",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsgemi",
+          "title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsgemi/number_of_applications_received_in_the/",
+          "score": 24,
+          "num_comments": 24,
+          "created_at": "2026-11-10T07:08:19.830000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xsgemi",
+            "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about housing prospects with vivid imagery of watching from a window while others succeed, expressing longing and vulnerability about an uncertain future in the BTO lottery.",
+              "quotes": [
+                {
+                  "quote": "I was zooming in on the 2 room flexi as a single as that's all I'm asking for at this point. And still, 7x subscribed. All around my family flat, I see new BTO blocks shooting up, with new owners inside. I can only sit at my window and look longingly, hoping that when my time comes, I will be fortunate.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation about systemic unfairness in housing accessibility, with accusations of deliberate undersupply and concerns that middle-income earners face impossible odds even for remote locations.",
+              "quotes": [
+                {
+                  "quote": "The reason why application rates are higher, is because the income ceiling was increased. This means it becomes harder for those with lower incomes to afford a home, because those who would otherwise be buying a resale flat (those couples with incomes between $14000 and $16000 per month) are now also applying for Bto",
+                  "score": 24
+                },
+                {
+                  "quote": "Even BTOs like Sembawang Anchor in the middle of nowhere still has more applicants than flats available. Which means lightning party is still intentionally building fewer new flats to keep resale HDB flat prices high.",
+                  "score": 12
+                },
+                {
+                  "quote": "More like dual income @ 14k is middle income now. Purchasing power is shit now",
+                  "score": 3
+                },
+                {
+                  "quote": "this round's application rates are insane",
+                  "score": 7
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual, lighthearted well-wishing using pop culture reference, offering modest encouragement without deep conviction.",
+              "quotes": [
+                {
+                  "quote": "May the odds be ever in your favour",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsgn85",
+          "title": "SPH hacked?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsgn85/sph_hacked/",
+          "score": 14,
+          "num_comments": 6,
+          "created_at": "2026-11-10T07:23:00.838000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xsgn85",
+            "post_title": "SPH hacked?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express genuine concern about recurring hacking incidents and the lack of compensation for victims, alongside worry about AI-enabled cyber threats. The worry is clear but expressed in a matter-of-fact manner rather than with panic or alarm.",
+              "quotes": [
+                {
+                  "quote": "now every few days we hear of hack here and there, they'll investigate and fine them but nothing compensates the end user at all",
+                  "score": 9
+                },
+                {
+                  "quote": "AI helped hackers level up",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users display significant frustration with SPH's organizational incompetence, inadequate cybersecurity measures, and the ineffectual government response, with sarcasm and rhetorical questions emphasizing their exasperation. The tone conveys sharp criticism and a sense of powerlessness against systemic failures.",
+              "quotes": [
+                {
+                  "quote": "Lousy organization. Its existence is of no value or consequence to anyone. And so easily kena hacked. Don't know what the people inside are doing",
+                  "score": 1
+                },
+                {
+                  "quote": "I think they need more taxpayers money to tighten their cyber defenses /s",
+                  "score": 4
+                },
+                {
+                  "quote": "Can we feel umbrage too? S/",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xrt7n4",
+          "title": "enough said.",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xrt7n4/enough_said/",
+          "score": 2,
+          "num_comments": 3,
+          "created_at": "2026-11-09T14:34:27.403000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xrt7n4",
+            "post_title": "enough said.",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about facing severe consequences or punishment if one becomes visible or prominent. The language suggests intense worry about retribution, conveyed through the metaphor of a hammer dropping.",
+              "quotes": [
+                {
+                  "quote": "If you do get an audience watch as the hammer drops on your head.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsfvgo",
+          "title": "Those 40-60yo gold diggers in cbd area today seem v happy after the ah soh snagged jensen huang",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsfvgo/those_4060yo_gold_diggers_in_cbd_area_today_seem/",
+          "score": 0,
+          "num_comments": 8,
+          "created_at": "2026-11-10T06:35:36.583000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xsfvgo",
+            "post_title": "Those 40-60yo gold diggers in cbd area today seem v happy after the ah soh snagged jensen huang",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Dismissive and sarcastic comments toward the original poster, with casual mockery suggesting irritation at the tone and perspective being expressed.",
+              "quotes": [
+                {
+                  "quote": "Bro, got take your medication today boh?",
+                  "score": 22
+                },
+                {
+                  "quote": "Incel gonna incel",
+                  "score": 9
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "A measured but genuine expression of support for love in any form, emphasizing the importance of experiencing true love despite others' judgments.",
+              "quotes": [
+                {
+                  "quote": "Nv let the haters destroy true love, in whicever form For we all need to exp true love at least once in our lives",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xslqco",
+          "title": "Getting SAF Court Martialled as an autistic NSF",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xslqco/getting_saf_court_martialled_as_an_autistic_nsf/",
+          "score": 0,
+          "num_comments": 15,
+          "created_at": "2026-11-10T12:33:02.268000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xslqco",
+            "post_title": "Getting SAF Court Martialled as an autistic NSF",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "The poster expresses deep anxiety about their mental state and capacity to endure the court martial process, with explicit concerns about potential psychological breakdown during proceedings. There's an underlying dread about their future and a pressing need for self-improvement to cope with the situation.",
+              "quotes": [
+                {
+                  "quote": "Also, looking beyond this incident, I genuinely want to improve myself as a person, so other than psychotherapy, what other options are there or tips to help improve my social, communication and interaction skills? As well as resilience.",
+                  "score": 0
+                },
+                {
+                  "quote": "Also i feel my state of mind has been questionable for years? What if I break down during the court martial?",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The poster shows clear frustration with the unfair court martial system, particularly regarding representation by potentially biased NSF officers and the broader stigma of national service in Singapore. The frustration is noticeable but expressed through questioning rather than outright anger or rage.",
+              "quotes": [
+                {
+                  "quote": "So option 2 is to get some nsf noob from the same unit that has decided to charge you to represent you? Damn.... Can't you at least ask for someone from a rival unit? Like if you kanna charge by commandoes then get a guards officer to rep you",
+                  "score": 4
+                },
+                {
+                  "quote": "You are already lowest lifeform in sg. Dun let ns affect ur future prospects or opportunities?",
+                  "score": 3
+                },
+                {
+                  "quote": "why are you posting this same exact post on every sub on a weekly basis?",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "There is a cautious hope that mental health considerations will be taken seriously in the court martial decision and that pro bono legal assistance is available. The optimism is subtle and conditional rather than enthusiastic or emphatic.",
+              "quotes": [
+                {
+                  "quote": "Option 3 should be quite clear cut even if from pro bono clinic as obviously your mental health would have been source of any issues and has to be part of any court decision.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsb44l",
+          "title": "Agree or disagree ?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsb44l/agree_or_disagree/",
+          "score": 0,
+          "num_comments": 12,
+          "created_at": "2026-11-10T02:22:10.145000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xsb44l",
+            "post_title": "Agree or disagree ?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Commenters express deep anxiety about escalating public health and safety issues, linking cultural practices to declining hygiene standards and potential threats from wildlife and pest infestations. The language conveys genuine concern about worsening trends and future harm.",
+              "quotes": [
+                {
+                  "quote": "The people doing the burning are dying out every year while the people doing the Deepavali littering are increasing! This is definitely a worry trend!",
+                  "score": 9
+                },
+                {
+                  "quote": "and this is why our place is infested with rats, cockroaches and crows, and these crows now started swooping over peoples head and I am sure the time will come where they start attacking people..",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple commenters display marked irritation and disapproval toward littering and mess-making, with sharp criticism of perceived double standards and disproportionate cleanliness violations by specific communities. The tone is emphatic and accusatory, reflecting outrage rather than mild annoyance.",
+              "quotes": [
+                {
+                  "quote": "Hard disagree. We all complain when dummies don't put the papers in the bins.",
+                  "score": 21
+                },
+                {
+                  "quote": "Disagree. As a Chinese I also don't like both. One is for religious purpose the other is for celebration but that doesn't allow us to create a mess be it 1 day or entire month",
+                  "score": 12
+                },
+                {
+                  "quote": "You are the minority yet create a disportionate amount of mess (and blatant littering) just in a single day, and to self-indulge in hedonistic pleasures no less.",
+                  "score": 6
+                },
+                {
+                  "quote": "It's not even close. For the most part, the chinese are just tossing paper. And those paper are actually very thin and will break apart when it rains and gets washed away even if you don't sweep them. I don't think I need to explain the other one. You can just use your eyes to see.",
+                  "score": 2
+                },
+                {
+                  "quote": "Not just deepavali. The mess and trash follows them wherever they congregate, even my estate cleaner will leave trash in the central chute (old estate)",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsegcp",
+          "title": "Only $100 for me, so little",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsegcp/only_100_for_me_so_little/",
+          "score": 0,
+          "num_comments": 10,
+          "created_at": "2026-11-10T05:13:30.687000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1xsegcp",
+            "post_title": "Only $100 for me, so little",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The person expresses genuine concern about their financial situation, viewing a small amount as a reflection of deeper economic struggles. This indicates a noticeable level of worry about their financial wellbeing.",
+              "quotes": [
+                {
+                  "quote": "This is an indicator of how lousy I'm doing",
+                  "score": -1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "The use of 'sian' (tired/frustrated in Singaporean slang) suggests a casual, weary resignation rather than outrage. This is a passing expression of tiredness about the situation rather than intense anger.",
+              "quotes": [
+                {
+                  "quote": "Same. Sian.",
+                  "score": -1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The phrase 'finally got something this time round' shows a slight silver lining and low-level relief, but the overall sentiment remains guarded. The positivity is muted and contextual rather than enthusiastic or heartfelt.",
+              "quotes": [
+                {
+                  "quote": "finally got something this time round.",
+                  "score": 6
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 10,
+      "comments_analyzed": 69,
+      "top_posts": [
+        {
+          "id": "t3_1xse255",
+          "title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xse255/sg_redditors_at_what_point_did_you_realise/",
+          "score": 3,
+          "num_comments": 52,
+          "created_at": "2026-11-10T04:52:14.025000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xse255",
+            "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Parents express genuine concern about the impossible choice between earning enough to secure their children's future and having time to actually be present in their lives. The anxiety stems from Singapore's materialistic culture where the financial safety net is never quite sufficient.",
+              "quotes": [
+                {
+                  "quote": "But wouldn't having kids make you feel the need to earn more to give them a stronger head start or safety net? When you don't have kids, it's easier to decide that you have enough. But when you have kids, where do you draw the line?",
+                  "score": 6
+                },
+                {
+                  "quote": "If have kids - ball game diff now, u will constantly hesitating if to chiong super hard to earn more cash.. so ur kid will be well off in future after u pass on.. but u wont have time for ur kids.. OR spend ample of time with ur kids.. the catch is if ur not born rich or inherited fortunes then ur kid may need to struggle in future in the land of materialistic..",
+                  "score": 9
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Singaporeans express intense frustration with their own materialistic nature and the hedonic treadmill of constantly chasing the next luxury despite significant wealth accumulation. There's also resentment toward the workplace dynamics where career advancement comes with betrayal and backstabbing.",
+              "quotes": [
+                {
+                  "quote": "Singaporeans (myself included) is very very materialistic and can't be satisfied easily. Travel twice a year on holiday via business class? Not enough Own a condo? Not enough must be >2000sqft Then after that aim for a 2nd condo Drive a big car? Not enough. Must be flashier. Even house tv must be 85 inch or bigger.",
+                  "score": 27
+                },
+                {
+                  "quote": "Due to us being materialistic, we will forever keep chasing the next shiny thing. Honestly even $50m, $100m also not enough for me. I will keep want to buy a bigger house, after that a holiday home or several. I want a house in Australia to escape the heat, etc.",
+                  "score": 3
+                },
+                {
+                  "quote": "earning more money still make me happier, in fact, I'm still yearning for the next promotion and feel I dont earn enough money despite the fact that my networth increased by a few hundred k this year.",
+                  "score": 7
+                },
+                {
+                  "quote": "When I realized that accepting a promotion led to my back being wide open to be stabbed by the people I used to enjoy working with or under.",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Strong optimism emerges when people reach financial milestones (investment crossover point) or shift priorities toward time with family, reflecting a transformative realization that work-life balance and relationships matter more than relentless income growth. Multiple commenters express genuine relief and contentment after choosing meaningful experiences over monetary gains.",
+              "quotes": [
+                {
+                  "quote": "When my investments returns exceed my contributions. the term is called the crossover point. it was a big stress relief. I am able to spend more. Like I bought a 3d printer, switch 2, transformers toys, a nice vacation all this year.",
+                  "score": 29
+                },
+                {
+                  "quote": "But once I had a kid, my perspective change. Now is no longer about the money but to spend time with her. Trust me. Having a child change your entire outlook on life",
+                  "score": 27
+                },
+                {
+                  "quote": "When she was born I took a 2 year sabbatical and it was totally worth it. Even with more money can't replace the time I can spend with her",
+                  "score": 3
+                },
+                {
+                  "quote": "I hopped into a job with significantly better WLB with a modest increase in salary. At that point, I just realised, \"You know what? This is good. I wouldn't go back to the previous lifestyle even if it means a significant increase in salary.\"",
+                  "score": 25
+                },
+                {
+                  "quote": "You are right. I never wanted a child initially. I'm DINK until my wife wants one. No regrets. At least I'm fortunate enough to have this eye opening experience that change my outlook on life that some people never experience.",
+                  "score": 4
+                },
+                {
+                  "quote": "But if I dont have to do a lot more and get more money, sign me up everyday bro.",
+                  "score": 7
+                },
+                {
+                  "quote": "Honestly some of the work that comes with being better paid isn't worth it if you rather lead a peaceful life",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xru2rb",
+          "title": "Dilemma on GE rider (P Signature or Optimum)",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xru2rb/dilemma_on_ge_rider_p_signature_or_optimum/",
+          "score": 2,
+          "num_comments": 2,
+          "created_at": "2026-11-09T15:08:20.968000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xru2rb",
+            "post_title": "Dilemma on GE rider (P Signature or Optimum)",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The commenter expresses concern about insurers potentially forcing customers off the old rider system onto a new one, suggesting worry about future changes and loss of current benefits.",
+              "quotes": [
+                {
+                  "quote": "It is also could be the time when all the insurers decide to throw everyone off the old rider bus and move us to the new rider system.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The commenter finds reassurance in having until 2028 on the old rider system, viewing this period as genuinely beneficial and providing security against potential worst-case scenarios.",
+              "quotes": [
+                {
+                  "quote": "At least from now till 2028, you are still on the old rider system which is truly beneficial if the worst happens.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1xsmdut",
+          "title": "VRWA or VALU?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xsmdut/vrwa_or_valu/",
+          "score": 1,
+          "num_comments": 0,
+          "created_at": "2026-11-10T13:04:36.331000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xsmdut",
+            "post_title": "VRWA or VALU?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsknc9",
+          "title": "How should I portion my money in investments?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xsknc9/how_should_i_portion_my_money_in_investments/",
+          "score": 0,
+          "num_comments": 5,
+          "created_at": "2026-11-10T11:35:57.831000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xsknc9",
+            "post_title": "How should I portion my money in investments?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses sharp irritation at someone's lack of basic research, using sarcastic rhetorical questions and 'BRO' to emphasize exasperation at what they perceive as lazy due diligence. This reflects strong frustration rather than mild annoyance, consistent with the direct, confrontational tone.",
+              "quotes": [
+                {
+                  "quote": "Also not too sure the difference between CSPX/VWRA and VOO/SPY. Have you heard of... AI or google? BRO.",
+                  "score": 8
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsix60",
+          "title": "cpf top up?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xsix60/cpf_top_up/",
+          "score": 0,
+          "num_comments": 12,
+          "created_at": "2026-11-10T09:52:14.514000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xsix60",
+            "post_title": "cpf top up?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The poster expresses noticeable concern about falling behind peers who have accumulated significant CPF balances through part-time work contributions. This reflects a definite anxiety about not building up retirement savings compared to their age cohort.",
+              "quotes": [
+                {
+                  "quote": "my peers having like thousands inside from parttime jobs contributing to cpf is lowkey making me worried that im not contributing anything 😬",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The poster shows clear frustration about their low CPF-OA balance and worries about its impact on future housing plans. The use of 'looking very sad' with a laughing emoji indicates resigned frustration rather than outrage, typical of Singaporean understated venting.",
+              "quotes": [
+                {
+                  "quote": "my main concern would be for using OA funds for future housing plans and currently my balance is looking very sad 😅",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xrre3b",
+          "title": "What is the correct setting for a lump sum on IBKR?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xrre3b/what_is_the_correct_setting_for_a_lump_sum_on_ibkr/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-11-09T13:16:25.110000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xrre3b",
+            "post_title": "What is the correct setting for a lump sum on IBKR?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "The commenter expresses a casual concern about market volatility and timing risks when converting currency for stock purchases. The worry is presented as a general observation rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "So if you're trying to time your buy for the dip you see on that day, but first and let it auto-convert the currency. The stock market is so volatile now, who knows if the price will have swung the other way in 1-2 days?",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsj8ol",
+          "title": "Anybody impacted by straitsx delayed withdrawal?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xsj8ol/anybody_impacted_by_straitsx_delayed_withdrawal/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-11-10T10:11:45.461000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xsj8ol",
+            "post_title": "Anybody impacted by straitsx delayed withdrawal?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "User expresses mild frustration about a delayed withdrawal that typically completes in 5-10 minutes, seeking guidance on what to do but without strong emotional intensity or urgency.",
+              "quotes": [
+                {
+                  "quote": "Same. Still pending, what should I do? Just withdrawn today usually it will take 5-10mins",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xsj6d2",
+          "title": "Regarding CCS",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xsj6d2/regarding_ccs/",
+          "score": 0,
+          "num_comments": 7,
+          "created_at": "2026-11-10T10:07:48.564000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xsj6d2",
+            "post_title": "Regarding CCS",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about serious financial consequences, including DMP termination, loss of negotiated rates, and aggressive debt collection from banks. The concern is substantive and outlines concrete negative scenarios.",
+              "quotes": [
+                {
+                  "quote": "Risk of DMP termination: If your creditors find out that you are taking on new financial obligations via BNPL, your DMP may be revoked. This would cancel your negotiated lower interest rates and force you to face immediate, full debt collection from your banks.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration about lack of change in BNPL policies and unexpected credit limit increases despite CCS implementation. The sad emoji indicates noticeable disappointment with the ineffectiveness of the scheme.",
+              "quotes": [
+                {
+                  "quote": "BNPL (atome, grab, Shopee) all no change. You still can use all BNPL service as usual, Grab still increase my credit limit 😞",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xrwii8",
+          "title": "Best credit card for public hospital bills?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xrwii8/best_credit_card_for_public_hospital_bills/",
+          "score": 0,
+          "num_comments": 4,
+          "created_at": "2026-11-09T16:39:15.912000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xrwii8",
+            "post_title": "Best credit card for public hospital bills?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A slight uncertainty about procedural differences between payment methods at the hospital, expressed as confusion rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "I'm also a bit confused about whether there are differences between paying online versus paying at the hospital terminal.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with lack of rewards and difficulty understanding transaction classifications, indicating noticeable frustration with the credit card's transparency and benefits.",
+              "quotes": [
+                {
+                  "quote": "I don't seem to be receiving any rewards.",
+                  "score": 0
+                },
+                {
+                  "quote": "I also can't determine the MCC from my statements, so I'm not sure how the transaction is being classified.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1xrrlsw",
+          "title": "Take loan for hdb or pay in cash?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xrrlsw/take_loan_for_hdb_or_pay_in_cash/",
+          "score": 0,
+          "num_comments": 10,
+          "created_at": "2026-11-09T13:26:17.874000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1xrrlsw",
+            "post_title": "Take loan for hdb or pay in cash?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Casual mention of interest rate concerns without deep anxiety; the speaker notes a contingency option rather than expressing acute worry about rate increases.",
+              "quotes": [
+                {
+                  "quote": "in the event interest rate goes up like mad, you can just redeem the entire loan",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with CPF's low 2.5% return rate, reflecting a definite stance on inadequate financial returns common among Singaporeans discussing CPF grievances.",
+              "quotes": [
+                {
+                  "quote": "CPF do nothing already 2.5%",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine positive outlook on full cash payment providing financial peace of mind and freedom from market volatility concerns, representing a clear preference for certainty.",
+              "quotes": [
+                {
+                  "quote": "Pay full can have peace of mind and ignore those interest rate noise",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "cons maybe if something do happen we will be slightly fucked people will lose trust in us etc etc.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But maybe the incentive for someone to attack Singapore and seize all the gold is also higher.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": -6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Trump recently caused a scare by saying the gold has been stolen and he wants to physically check it, which also gave rise to fears that HE would steal it!",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 26,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i'm not assured in 2027",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 23,
+        "intensity": "mild"
+      },
+      {
+        "text": "The odds are so small 😭",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 21,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Spent the whole Deepavali thinking about resigning...",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 24,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I always wonder how that store is able to survive.",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I just hope they can continue to. It's really hard to get what they are selling these days.",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Seeing all the other moms sign up for this and that and buying group buys for all sorts of things makes me feel like I'm a neglectful parent if I'm not doing the same lol.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I was told to my face that I was a neglectful parent a few times actually.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If my kids aren't bright, think I might really have to go down that path too...",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 30,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If you cannot get for 3 times because too oversubscribed, you might have no choice to buy resale.",
+        "post_id": "t3_1xsgbqe",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If you are poor, you have 50% chance to pay 300k, rather than 600k.",
+        "post_id": "t3_1xsgbqe",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They won't catch fire, at the cost of being a little less energy dense. Totally safe to charge at home and won't kill people.",
+        "post_id": "t3_1xsdr1e",
+        "post_title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Malaysia has the death penalty.",
+        "post_id": "t3_1xsk1je",
+        "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "RIP",
+        "post_id": "t3_1xsk1je",
+        "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Death penalty son.",
+        "post_id": "t3_1xsk1je",
+        "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lack of investment in mental health treatment leads to a massive socialisation of the costs. Family friends and colleagues will pay the price first. Later perhaps even other public agencies need to pay. Social workers investigate family members who become dysfunctional, police need to be deployed for people making nuisance or hurting others or killing themselves.",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "But what happens if you lose your job? Both parents jobless with mortgage and kids to pay not to mention not sure if you have a car, is no joke",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": -5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "hmm, because I recalled Fairprice requires 2FA to bind the card. So I'll be worried that maybe your phone is compromised.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There's a possibility that your phone is compromised, your account is compromised, or somehow they got around the 2FA at UOB's side, or even the telco's side.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singapore is *extremely* comfortable and a lot of creature comforts you enjoy here will not exist overseas.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 43,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I think it's a lot harder to find new grad positions nowadays. And for Japan, most jobs require Japanese proficiency.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What if you miss your flight? Get into an accident? Etc etc...",
+        "post_id": "t3_1xru9t5",
+        "post_title": "Changi Airport to Bugis after midnight",
+        "subreddit": "askSingapore",
+        "score": 18,
+        "comment_score": 16,
+        "intensity": "mild"
+      },
+      {
+        "text": "Your situation is tricky, even if you leave current nitec pay, doesn't mean that you get more pay with a dip next time. Employers will look at 2-3 years as a work absence.",
+        "post_id": "t3_1xs60k1",
+        "post_title": "Debating on leaving current job",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I was zooming in on the 2 room flexi as a single as that's all I'm asking for at this point. And still, 7x subscribed. All around my family flat, I see new BTO blocks shooting up, with new owners inside. I can only sit at my window and look longingly, hoping that when my time comes, I will be fortunate.",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "now every few days we hear of hack here and there, they'll investigate and fine them but nothing compensates the end user at all",
+        "post_id": "t3_1xsgn85",
+        "post_title": "SPH hacked?",
+        "subreddit": "SingaporeRaw",
+        "score": 14,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "AI helped hackers level up",
+        "post_id": "t3_1xsgn85",
+        "post_title": "SPH hacked?",
+        "subreddit": "SingaporeRaw",
+        "score": 14,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If you do get an audience watch as the hammer drops on your head.",
+        "post_id": "t3_1xrt7n4",
+        "post_title": "enough said.",
+        "subreddit": "SingaporeRaw",
+        "score": 2,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Also, looking beyond this incident, I genuinely want to improve myself as a person, so other than psychotherapy, what other options are there or tips to help improve my social, communication and interaction skills? As well as resilience.",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Also i feel my state of mind has been questionable for years? What if I break down during the court martial?",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The people doing the burning are dying out every year while the people doing the Deepavali littering are increasing! This is definitely a worry trend!",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "and this is why our place is infested with rats, cockroaches and crows, and these crows now started swooping over peoples head and I am sure the time will come where they start attacking people..",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is an indicator of how lousy I'm doing",
+        "post_id": "t3_1xsegcp",
+        "post_title": "Only $100 for me, so little",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": -1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But wouldn't having kids make you feel the need to earn more to give them a stronger head start or safety net? When you don't have kids, it's easier to decide that you have enough. But when you have kids, where do you draw the line?",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If have kids - ball game diff now, u will constantly hesitating if to chiong super hard to earn more cash.. so ur kid will be well off in future after u pass on.. but u wont have time for ur kids.. OR spend ample of time with ur kids.. the catch is if ur not born rich or inherited fortunes then ur kid may need to struggle in future in the land of materialistic..",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It is also could be the time when all the insurers decide to throw everyone off the old rider bus and move us to the new rider system.",
+        "post_id": "t3_1xru2rb",
+        "post_title": "Dilemma on GE rider (P Signature or Optimum)",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "my peers having like thousands inside from parttime jobs contributing to cpf is lowkey making me worried that im not contributing anything 😬",
+        "post_id": "t3_1xsix60",
+        "post_title": "cpf top up?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So if you're trying to time your buy for the dip you see on that day, but first and let it auto-convert the currency. The stock market is so volatile now, who knows if the price will have swung the other way in 1-2 days?",
+        "post_id": "t3_1xrre3b",
+        "post_title": "What is the correct setting for a lump sum on IBKR?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Risk of DMP termination: If your creditors find out that you are taking on new financial obligations via BNPL, your DMP may be revoked. This would cancel your negotiated lower interest rates and force you to face immediate, full debt collection from your banks.",
+        "post_id": "t3_1xsj6d2",
+        "post_title": "Regarding CCS",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm also a bit confused about whether there are differences between paying online versus paying at the hospital terminal.",
+        "post_id": "t3_1xrwii8",
+        "post_title": "Best credit card for public hospital bills?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "in the event interest rate goes up like mad, you can just redeem the entire loan",
+        "post_id": "t3_1xrrlsw",
+        "post_title": "Take loan for hdb or pay in cash?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "Slow news day I see",
+        "post_id": "t3_1xsfgwr",
+        "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+        "subreddit": "singapore",
+        "score": 138,
+        "comment_score": 275,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Riveting stuff",
+        "post_id": "t3_1xsfgwr",
+        "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+        "subreddit": "singapore",
+        "score": 138,
+        "comment_score": 107,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Reminds me of a chicken rice stall that refuse to sell me 2 drumstick rice, because unbalanced, can sell me only 1. But next person can order another drumstick rice. Some mathematical fuckery involved.",
+        "post_id": "t3_1xsfgwr",
+        "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+        "subreddit": "singapore",
+        "score": 138,
+        "comment_score": 50,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Eh, it happens to me so many times already (because my colleague always wants duck leg only), why I never end up on the news.",
+        "post_id": "t3_1xsfgwr",
+        "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+        "subreddit": "singapore",
+        "score": 138,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If gold price goes lower or stays range bound, i still pay that running fees (which is a cost).",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 16,
+        "intensity": "mild"
+      },
+      {
+        "text": "Goh chok tong where is my Swiss standard of living.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "i will miss you Assurance Package, see you next election...",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 69,
+        "intensity": "strong"
+      },
+      {
+        "text": "Why is anyone with more than one property getting anything.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 30,
+        "intensity": "strong"
+      },
+      {
+        "text": "Super off topic, but man I hate it when asiaone is used as a source, fucking pop ups with obscured dismiss buttons.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 41,
+        "intensity": "strong"
+      },
+      {
+        "text": "Feeling less assured after this ends.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Imagine, 100, 150 or 250 is assurance. Derisory.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": -10,
+        "intensity": "strong"
+      },
+      {
+        "text": "Didn't even get 1 number right..",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 81,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Never strike :(",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I x itoto, 2x system 7, 2x system 8, 10x ordinary. $0 payout. Yep, gambling working as intended",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No buy, no disappointment",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We're losing more of our Singaporean vibes to rising operating costs.",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "This plastic bag cost is the real reason. Not to charge 5c 10c to recycle.",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Who cares about Singaporean vibes when we can just have another Mala stall around the corner? /s",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Noooo this place was such a good one to buy a drink and maybe a snack when walking in nature around the area :(",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tired 😴...want to support them one last time",
+        "post_id": "t3_1xrrk6k",
+        "post_title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+        "subreddit": "singapore",
+        "score": 91,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "too many parents (and their kids) treat tuition like a magic bullet they can buy with money. last minute hug buddha leg after slacking off for the large part of the year.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 98,
+        "intensity": "strong"
+      },
+      {
+        "text": "it is very crazy. Especially for english (phonics), chinese , Heguru (maths)",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Very frustrating to be surrounded by those kiasu parents haha",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I see many issues- teachers are complaining of higher workload, but I see us as parents doing a lot more compared to my parents who literally just throw us into school and everything is taken care of.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "school teaches foundation, caters to the general, but exam questions are highly technical which general teaching on syllabus do not suffice.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "papers are getting harder with no apparent goalor purpose of difficulty.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "I think a nice mid ground is good especially for language subjects where the quality of marking really decreases with quantity lol.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "I tried sembawang previously and i failed lol.",
+        "post_id": "t3_1xsgbqe",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Since i already failed 3 times, i will test my luck again.",
+        "post_id": "t3_1xsgbqe",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There's got to be 100x more of these",
+        "post_id": "t3_1xsdr1e",
+        "post_title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "Errant pmd users, cannot get a queue number when sick or being charged more than $60 at gp for sore throat and fever, difficulties encountered when taking public transport, mandatory bills of daily living. These are stuffs when issues are encountered that the hardships sticks with us everyday. That is also why people get so emotional and keep on ranting non stop about such issues.",
+        "post_id": "t3_1xsdr1e",
+        "post_title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's useless, no matter how many legal types of batteries available, yp will do it the illegal way",
+        "post_id": "t3_1xsdr1e",
+        "post_title": "[LTA] 585 active mobility offences spotted, 157 non-compliant devices impounded.",
+        "subreddit": "singapore",
+        "score": 36,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "a bit too greedy this guy, of course will look damn suspicious if 1 person has 190kg worth of baggage",
+        "post_id": "t3_1xsk1je",
+        "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Gotta be the worst drug to traffic, it's big and smelly",
+        "post_id": "t3_1xsk1je",
+        "post_title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's all in your head, bro. Here, take some panadol and go back to work, understand??",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 22,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm kinda struggling to be a good worker and self managing my own symptoms. I gotten burnt before from my previous employer, describing me as being lazy despite me revealing my conditions, putting the time and pulling extra shifts.",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "We care about your mental health! Here's a mental health workshop to help! Now continue working on my KPI, my bosses KPI and my bosses bosses KPI!",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am drawing 200k annual salary . Comfortable for sure. I thought allowing my wife to stay home mum will make her feel better and improve our marriage . We have a full time helper before and after. Frankly there is no difference after trying out a few months. Seems like nothing much I can do .",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 78,
+        "intensity": "strong"
+      },
+      {
+        "text": "Constantly seeing her black face, I know the kids are tough but oh man… just don't want to be in the house most of the time",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "I work from home, so I am definitely present. But I can't be expected to handle the kids 24-7 I have my work to do In between meetings I will make it a point to come out to entertain them if only for a couple of minutes. I don't know what else I can do. Throw down my work and teach them?",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah I have no idea how to start",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": -1,
+        "intensity": "strong"
+      },
+      {
+        "text": "What makes this more frustrating is that my wife had a similar experience with her POSB credit card a few months ago.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The difference in how DBS and UOB handled these two situations is really night and day.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "A bit of extra cashback is not worth it if dealing with a fraudulent transaction becomes this complicated.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am still waiting for a follow up phone call from 1 month ago.",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "They did not even offer a replacement card in the first place (which feel very unusual).",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Linkedin application feels broken. Like got to tweak resume to match job description keywords for every application to maximise ATS score. And even then it's still a bit like buying toto.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I find TH customs to be strict nowadays. Like TDAC (arrival card) needs to be thoroughly filled with hotel name.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It really baffles me for people who go for trips without any backup funds.",
+        "post_id": "t3_1xru9t5",
+        "post_title": "Changi Airport to Bugis after midnight",
+        "subreddit": "askSingapore",
+        "score": 18,
+        "comment_score": 16,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Waiting 6hrs just to take public transport is not worth the back aches after",
+        "post_id": "t3_1xru9t5",
+        "post_title": "Changi Airport to Bugis after midnight",
+        "subreddit": "askSingapore",
+        "score": 18,
+        "comment_score": 24,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Waiting 5 hours till the first train is fine but not worth it imo considering it takes at most 30min to get into town",
+        "post_id": "t3_1xru9t5",
+        "post_title": "Changi Airport to Bugis after midnight",
+        "subreddit": "askSingapore",
+        "score": 18,
+        "comment_score": 20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "she's good, but be very very micro manager",
+        "post_id": "t3_1xsea5c",
+        "post_title": "Looking for Seamstress/Custom Wear Recommendations",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You'll most likely need to get a separate soundbar or speakers for projectors though.",
+        "post_id": "t3_1xskjft",
+        "post_title": "Which home projector are you using?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Stay west but work east? Gosh i would leave if i'm you.",
+        "post_id": "t3_1xs60k1",
+        "post_title": "Debating on leaving current job",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Absolutely regret it thought it wouldnt be so bad due to having a straight bus then reality hit and its a 4 hour total travel time back and forth 😭",
+        "post_id": "t3_1xs60k1",
+        "post_title": "Debating on leaving current job",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Unfortunately it requires a gst registration number which I don't have because I'm not a business. No way to pass that too",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Eh, then make our iPhone cheaper la nb",
+        "post_id": "t3_1xs7udj",
+        "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Legal money laundering",
+        "post_id": "t3_1xs7udj",
+        "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 14,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Meanwhile apple products are cheaper to buy in america than Singapore, despite this and that most of their stuff is made in china (closer to Singapore)",
+        "post_id": "t3_1xs7udj",
+        "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The reason why application rates are higher, is because the income ceiling was increased. This means it becomes harder for those with lower incomes to afford a home, because those who would otherwise be buying a resale flat (those couples with incomes between $14000 and $16000 per month) are now also applying for Bto",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 24,
+        "intensity": "strong"
+      },
+      {
+        "text": "Even BTOs like Sembawang Anchor in the middle of nowhere still has more applicants than flats available. Which means lightning party is still intentionally building fewer new flats to keep resale HDB flat prices high.",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "More like dual income @ 14k is middle income now. Purchasing power is shit now",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "this round's application rates are insane",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lousy organization. Its existence is of no value or consequence to anyone. And so easily kena hacked. Don't know what the people inside are doing",
+        "post_id": "t3_1xsgn85",
+        "post_title": "SPH hacked?",
+        "subreddit": "SingaporeRaw",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I think they need more taxpayers money to tighten their cyber defenses /s",
+        "post_id": "t3_1xsgn85",
+        "post_title": "SPH hacked?",
+        "subreddit": "SingaporeRaw",
+        "score": 14,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can we feel umbrage too? S/",
+        "post_id": "t3_1xsgn85",
+        "post_title": "SPH hacked?",
+        "subreddit": "SingaporeRaw",
+        "score": 14,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "Bro, got take your medication today boh?",
+        "post_id": "t3_1xsfvgo",
+        "post_title": "Those 40-60yo gold diggers in cbd area today seem v happy after the ah soh snagged jensen huang",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 22,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Incel gonna incel",
+        "post_id": "t3_1xsfvgo",
+        "post_title": "Those 40-60yo gold diggers in cbd area today seem v happy after the ah soh snagged jensen huang",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So option 2 is to get some nsf noob from the same unit that has decided to charge you to represent you? Damn.... Can't you at least ask for someone from a rival unit? Like if you kanna charge by commandoes then get a guards officer to rep you",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You are already lowest lifeform in sg. Dun let ns affect ur future prospects or opportunities?",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "why are you posting this same exact post on every sub on a weekly basis?",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Hard disagree. We all complain when dummies don't put the papers in the bins.",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "Disagree. As a Chinese I also don't like both. One is for religious purpose the other is for celebration but that doesn't allow us to create a mess be it 1 day or entire month",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "You are the minority yet create a disportionate amount of mess (and blatant littering) just in a single day, and to self-indulge in hedonistic pleasures no less.",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's not even close. For the most part, the chinese are just tossing paper. And those paper are actually very thin and will break apart when it rains and gets washed away even if you don't sweep them. I don't think I need to explain the other one. You can just use your eyes to see.",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Not just deepavali. The mess and trash follows them wherever they congregate, even my estate cleaner will leave trash in the central chute (old estate)",
+        "post_id": "t3_1xsb44l",
+        "post_title": "Agree or disagree ?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Same. Sian.",
+        "post_id": "t3_1xsegcp",
+        "post_title": "Only $100 for me, so little",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": -1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Singaporeans (myself included) is very very materialistic and can't be satisfied easily. Travel twice a year on holiday via business class? Not enough Own a condo? Not enough must be >2000sqft Then after that aim for a 2nd condo Drive a big car? Not enough. Must be flashier. Even house tv must be 85 inch or bigger.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 27,
+        "intensity": "strong"
+      },
+      {
+        "text": "Due to us being materialistic, we will forever keep chasing the next shiny thing. Honestly even $50m, $100m also not enough for me. I will keep want to buy a bigger house, after that a holiday home or several. I want a house in Australia to escape the heat, etc.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "earning more money still make me happier, in fact, I'm still yearning for the next promotion and feel I dont earn enough money despite the fact that my networth increased by a few hundred k this year.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "When I realized that accepting a promotion led to my back being wide open to be stabbed by the people I used to enjoy working with or under.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Also not too sure the difference between CSPX/VWRA and VOO/SPY. Have you heard of... AI or google? BRO.",
+        "post_id": "t3_1xsknc9",
+        "post_title": "How should I portion my money in investments?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "my main concern would be for using OA funds for future housing plans and currently my balance is looking very sad 😅",
+        "post_id": "t3_1xsix60",
+        "post_title": "cpf top up?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Same. Still pending, what should I do? Just withdrawn today usually it will take 5-10mins",
+        "post_id": "t3_1xsj8ol",
+        "post_title": "Anybody impacted by straitsx delayed withdrawal?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "BNPL (atome, grab, Shopee) all no change. You still can use all BNPL service as usual, Grab still increase my credit limit 😞",
+        "post_id": "t3_1xsj6d2",
+        "post_title": "Regarding CCS",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I don't seem to be receiving any rewards.",
+        "post_id": "t3_1xrwii8",
+        "post_title": "Best credit card for public hospital bills?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I also can't determine the MCC from my statements, so I'm not sure how the transaction is being classified.",
+        "post_id": "t3_1xrwii8",
+        "post_title": "Best credit card for public hospital bills?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "CPF do nothing already 2.5%",
+        "post_id": "t3_1xrrlsw",
+        "post_title": "Take loan for hdb or pay in cash?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "This is normal, I've bought enough chicken drumstick rice to know it's true. Vendors always save some whole or half chickens and ducks for customers who want to order half or whole.",
+        "post_id": "t3_1xsfgwr",
+        "post_title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+        "subreddit": "singapore",
+        "score": 138,
+        "comment_score": 50,
+        "intensity": "mild"
+      },
+      {
+        "text": "Should have a pretty good adoption rate given Singapore's world class reputation as a safe, secure and ultimately, rule based society.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 108,
+        "intensity": "strong"
+      },
+      {
+        "text": "Confirm got money",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 108,
+        "intensity": "strong"
+      },
+      {
+        "text": "It creates jobs (good paying ones, i hope)",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "It also helps to stabilize gold prices from panic fluctuations by spreading risk throughout the world.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 26,
+        "intensity": "strong"
+      },
+      {
+        "text": "good perspective. creating shared stakes/interests.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's one way to protect ourselves from the terrors of the world.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is a good move. Should have done so earlier",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "Smart move. Future potential aggressors will need to think twice before they attack Singapore.",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is call Financial Defense.. brilliant move..",
+        "post_id": "t3_1xserla",
+        "post_title": "S’pore opens national currency vault to foreign central banks to store gold reserves",
+        "subreddit": "singapore",
+        "score": 109,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "That $250 is good for a one month supply of groceries. Just in time for Christmas as well.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wow can add extra meat for my Cai Peng, thanks bro Wong",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "At least a $100 'Christmas Present' from the gahmen. Can't complain.",
+        "post_id": "t3_1xsbm1w",
+        "post_title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+        "subreddit": "singapore",
+        "score": 105,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Lmao I won $10",
+        "post_id": "t3_1xs7pdw",
+        "post_title": "$12.2 million Toto prize pool split between two winning tickets",
+        "subreddit": "singapore",
+        "score": 96,
+        "comment_score": 27,
+        "intensity": "mild"
+      },
+      {
+        "text": "Small changes are coming.",
+        "post_id": "t3_1xrsjkt",
+        "post_title": "Most S’pore parents see kids’ tuition as necessary despite wanting less academic pressure: Survey",
+        "subreddit": "singapore",
+        "score": 73,
+        "comment_score": 25,
+        "intensity": "mild"
+      },
+      {
+        "text": "My only tip for those struggling is: Early Intervention Lifestyle changes Exercising Good diet. The gut brain axis affects more of us than we think. Go to TCM. Get treatments to nourish your stomach. Takes a few visits but promise it will be worth it",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 23,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Yeah I noticed I feel better after eating properly instead of skipping meals.",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "But prebiotics has been godsend",
+        "post_id": "t3_1xsk79y",
+        "post_title": "Beyond the paycheck: The economic cost of mental health in Singapore’s workforce",
+        "subreddit": "singapore",
+        "score": 24,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i noticed my own wife's happiness improved dramatically once she had other SAHM friends and she started going out with her fellow friends (with the kids) together.",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 68,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Her sex drive increase too. Lol worth every single cent",
+        "post_id": "t3_1xse150",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "askSingapore",
+        "score": 68,
+        "comment_score": 32,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I just called FairPrice and confirmed that it was indeed a legitimate transaction for their Digital Club membership. Thanks for sharing your experience!",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I really appreciate it, and I am sorry for taking up your time over what turned out to be a misunderstanding!",
+        "post_id": "t3_1xsc6ef",
+        "post_title": "UOB asked me to contact FairPrice myself after an unauthorised credit card transaction. Is this normal?",
+        "subreddit": "askSingapore",
+        "score": 27,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "That said, it's certainly an adventure and a huge personal learning experience so I still recommend it, provided you go in knowing what you're getting into.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 43,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I think it's good to move overseas (no matter your country of origin) just to get a sense of what's out there in the world. It's always good to have a sense of curiosity and not just stay in one place forever.",
+        "post_id": "t3_1xschzp",
+        "post_title": "For those who have moved abroad, how did you do so?",
+        "subreddit": "askSingapore",
+        "score": 19,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You jest but this is the sort of thing I'd do when budget travelling. Adventure!",
+        "post_id": "t3_1xru9t5",
+        "post_title": "Changi Airport to Bugis after midnight",
+        "subreddit": "askSingapore",
+        "score": 18,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "They did a great costume for my shoot this year.",
+        "post_id": "t3_1xsea5c",
+        "post_title": "Looking for Seamstress/Custom Wear Recommendations",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Recently got the Nova Mini Lite, been using for around a week. It's been amazing.",
+        "post_id": "t3_1xskjft",
+        "post_title": "Which home projector are you using?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And you can also check their online store out",
+        "post_id": "t3_1xrso9k",
+        "post_title": "Good Tabletop Gaming/Hobby Shops?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Gamersaurus Rex at upper thompson is where I normally play",
+        "post_id": "t3_1xrso9k",
+        "post_title": "Good Tabletop Gaming/Hobby Shops?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Everything was very fuss-free.",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Everything arrived as how I packed it before I left Canada.",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They will only charge you for the ones used.",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They do door to door shipping so it's pretty convenient (collect from your doorstep in UK and deliver to your doorstep in Sg).",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "The shipping company will help you settle the customs declaration and all you have to do is to fill up an itemized list of all your items in the respective boxes, and the Singapore customs form.",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Pricing quoted was quite ok (5 large boxes for 1.7k).",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They will also provide constant updates regarding your shipment, which is nice.",
+        "post_id": "t3_1xsdo9e",
+        "post_title": "Which courier to use for Personal belongings from UK To SG",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "We'll take iPhone money rather than some scammer's",
+        "post_id": "t3_1xs7udj",
+        "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Nice to finally top a global ranking that isn't the cost of owning a car",
+        "post_id": "t3_1xs7udj",
+        "post_title": "Singapore overtakes Ireland as Apple’s biggest tax shelter",
+        "subreddit": "SingaporeRaw",
+        "score": 33,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "May the odds be ever in your favour",
+        "post_id": "t3_1xsgemi",
+        "post_title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "Nv let the haters destroy true love, in whicever form For we all need to exp true love at least once in our lives",
+        "post_id": "t3_1xsfvgo",
+        "post_title": "Those 40-60yo gold diggers in cbd area today seem v happy after the ah soh snagged jensen huang",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Option 3 should be quite clear cut even if from pro bono clinic as obviously your mental health would have been source of any issues and has to be part of any court decision.",
+        "post_id": "t3_1xslqco",
+        "post_title": "Getting SAF Court Martialled as an autistic NSF",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "finally got something this time round.",
+        "post_id": "t3_1xsegcp",
+        "post_title": "Only $100 for me, so little",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "When my investments returns exceed my contributions. the term is called the crossover point. it was a big stress relief. I am able to spend more. Like I bought a 3d printer, switch 2, transformers toys, a nice vacation all this year.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 29,
+        "intensity": "strong"
+      },
+      {
+        "text": "But once I had a kid, my perspective change. Now is no longer about the money but to spend time with her. Trust me. Having a child change your entire outlook on life",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 27,
+        "intensity": "strong"
+      },
+      {
+        "text": "When she was born I took a 2 year sabbatical and it was totally worth it. Even with more money can't replace the time I can spend with her",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I hopped into a job with significantly better WLB with a modest increase in salary. At that point, I just realised, \"You know what? This is good. I wouldn't go back to the previous lifestyle even if it means a significant increase in salary.\"",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 25,
+        "intensity": "strong"
+      },
+      {
+        "text": "You are right. I never wanted a child initially. I'm DINK until my wife wants one. No regrets. At least I'm fortunate enough to have this eye opening experience that change my outlook on life that some people never experience.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "But if I dont have to do a lot more and get more money, sign me up everyday bro.",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Honestly some of the work that comes with being better paid isn't worth it if you rather lead a peaceful life",
+        "post_id": "t3_1xse255",
+        "post_title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "At least from now till 2028, you are still on the old rider system which is truly beneficial if the worst happens.",
+        "post_id": "t3_1xru2rb",
+        "post_title": "Dilemma on GE rider (P Signature or Optimum)",
+        "subreddit": "singaporefi",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Pay full can have peace of mind and ignore those interest rate noise",
+        "post_id": "t3_1xrrlsw",
+        "post_title": "Take loan for hdb or pay in cash?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Singapore Gold Vault Hosting Foreign Reserves",
+      "engagement_score": 109,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "S'pore opens national currency vault to foreign central banks to store gold reserves",
+          "url": null
+        },
+        {
+          "title": "Singapore overtakes Ireland as Apple's biggest tax shelter",
+          "url": null
+        }
+      ],
+      "entities": [
+        "MAS",
+        "Gold Reserves",
+        "Financial Hub",
+        "Foreign Central Banks"
+      ]
+    },
+    {
+      "topic": "Assurance Package Final Cash Payout Ending",
+      "engagement_score": 105,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Final round of Assurance Package cash: About 3m Singaporeans to receive up to $250 in December",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsbm1w/final_round_of_assurance_package_cash_about_3m/"
+        }
+      ],
+      "entities": [
+        "Assurance Package",
+        "GST",
+        "Cost of Living",
+        "Government Subsidies"
+      ]
+    },
+    {
+      "topic": "Hawker Culture Quirky Rules And Traditions",
+      "engagement_score": 138,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Ang Mo Kio hawker refuses to sell single duck leg to customer, says whole roast will dry out once cut",
+          "url": "https://www.reddit.com/r/singapore/comments/1xsfgwr/ang_mo_kio_hawker_refuses_to_sell_single_duck_leg/"
+        },
+        {
+          "title": "Old-school snacks shop Biscuit King in Casuarina Road to close by end of January",
+          "url": "https://www.reddit.com/r/singapore/comments/1xrrk6k/oldschool_snacks_shop_biscuit_king_in_casuarina/"
+        }
+      ],
+      "entities": [
+        "Hawker Culture",
+        "Ang Mo Kio",
+        "Biscuit King",
+        "Local Food Heritage"
+      ]
+    },
+    {
+      "topic": "BTO Housing Applications And Demand Trends",
+      "engagement_score": 75,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Number of applications received in the Build-To-Order Exercise as of 10 November 2026",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1xsgemi/number_of_applications_received_in_the/"
+        },
+        {
+          "title": "Take loan for hdb or pay in cash?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xrrlsw/take_loan_for_hdb_or_pay_in_cash/"
+        }
+      ],
+      "entities": [
+        "BTO",
+        "HDB",
+        "Housing",
+        "CPF"
+      ]
+    },
+    {
+      "topic": "Tuition Pressure Versus Child Wellbeing Debate",
+      "engagement_score": 141,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "Most S'pore parents see kids' tuition as necessary despite wanting less academic pressure: Survey",
+          "url": null
+        },
+        {
+          "title": "SG Redditors, at what point did you realise earning more money wasn't necessarily making you happier?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1xse255/sg_redditors_at_what_point_did_you_realise/"
+        }
+      ],
+      "entities": [
+        "Tuition",
+        "PSLE",
+        "Education",
+        "Mental Health",
+        "Parenting"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Singapore's Week of Contradictions: Record Frustration (+22%) Collides With Growing Pride in Financial Hub Status as $250 Payouts Deepen Cost-of-Living Distrust",
+    "key_takeaways": [
+      "The Assurance Package is backfiring as a communications tool: rather than signalling government care, the $250 payout is amplifying resentment by making structural cost-of-living grievances feel tokenised — the 'Goh Chok Tong Swiss standard' quip signals eroded social contract expectations that predate this week.",
+      "Frustration is the dominant and fastest-accelerating sentiment (88 counts, +22.2% WoW), but critically it is systemic rather than episodic — spanning UOB fraud handling, LTA PMD crackdowns, tuition costs, and heritage business closures simultaneously, suggesting compounding disillusionment rather than isolated grievances.",
+      "Singapore's gold vault narrative is a rare institutional pride flashpoint in an otherwise cynical week — the community is genuinely energised by Singapore's rule-of-law reputation and high-value finance positioning, but this optimism is fragile and contingent on geopolitical stability (Trump gold scare comments already seeding doubt).",
+      "The 'earning more doesn't equal happiness' thread gaining traction alongside BTO oversubscription anxiety reveals a bifurcating Singaporean identity: one cohort is philosophically recalibrating away from material benchmarks while another remains locked in hyper-competitive housing and income races — these two groups require fundamentally different messaging strategies.",
+      "Hawker culture incidents are proxy battlegrounds for deeper cultural anxiety: the duck leg story's viral traction (+138 upvotes) is less about food and more about Singaporeans mourning the erosion of predictable, human-scale community systems — the same emotional register driving Biscuit King closure grief."
+    ],
+    "opportunities": [
+      "Financial institutions and fintech players should urgently position around fraud protection and financial security: UOB's poor handling of unauthorised transactions, crypto withdrawal delays, and SPH hack rumours have created a trust vacuum — a bank or fintech that launches a visible, zero-friction fraud resolution guarantee this quarter can capture significant mindshare among a population already primed to switch loyalty.",
+      "Brands and developers targeting the HDB-aspiring demographic should invest in content and tools that reframe the BTO journey — oversubscription anxiety is high but so is community engagement, creating an opening for PropTech platforms, financial advisors, or even HDB-adjacent services to build trust through transparent demand data, ballot probability tools, or CPF optimisation guides tailored to first-timers.",
+      "Singapore's gold vault moment is a rare window for financial services, wealth management firms, and even tourism-adjacent brands to ride genuine national pride — campaigns anchoring Singapore's identity as Asia's most trusted financial custodian will resonate authentically this week in a way that generic 'SG60' pride messaging often fails to achieve.",
+      "The heritage and hawker nostalgia spike around Biscuit King and hawker quirks represents an underserved content and commerce opportunity: food delivery platforms, lifestyle media, and community apps that surface and celebrate 'old-school Singapore institutions at risk' can build deep affinity with an audience that is emotionally activated and looking for ways to preserve what they're losing."
+    ],
+    "risks": [
+      "The Assurance Package's negative reception risk is not contained to this week — with the final payout ending, the government and corporate brands associated with cost-of-living relief messaging face a credibility cliff in 2027 (one Redditor explicitly flagged 'not assured in 2027'). Retailers and financial brands that have leaned on 'we're here to help Singaporeans cope' narratives should audit whether that positioning still holds as payouts expire and inflation persists.",
+      "Institutional trust erosion is accelerating across multiple vectors simultaneously — SPH hack rumours, UOB fraud failures, Apple's Singapore tax shelter exposure, and LTA enforcement friction are not isolated incidents but are being processed by Reddit communities as a coherent pattern of systems quietly failing ordinary people. Brands with any regulatory, banking, or media adjacency should monitor whether they get swept into this 'quiet failure' narrative, particularly as frustration counts continue their upward trajectory.",
+      "The geopolitical risk sensitivity around Singapore's gold vault — including community-surfaced concerns about being a higher-value attack target and Trump's Fort Knox commentary — indicates that any negative international news touching Singapore's financial or security reputation could rapidly convert this week's moderate pride into fear. Communications teams at MAS-adjacent institutions and financial hubs should have rapid response protocols ready.",
+      "The tuition pressure debate is reaching an emotional inflection point that could translate into policy or reputational risk for education businesses: the volume and intensity of discourse around the tuition treadmill signals that parents are increasingly framing enrichment spending not as aspiration but as coercion, which creates regulatory risk for tuition centres and brand risk for any company seen as exploiting childhood anxiety."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-11-09",
+    "fears": {
+      "direction": "up",
+      "change_pct": 16.7,
+      "intensity_shift": "stable",
+      "previous_count": 36,
+      "current_count": 42
+    },
+    "frustrations": {
+      "direction": "up",
+      "change_pct": 22.2,
+      "intensity_shift": "stable",
+      "previous_count": 72,
+      "current_count": 88
+    },
+    "optimism": {
+      "direction": "up",
+      "change_pct": 30.8,
+      "intensity_shift": "stable",
+      "previous_count": 39,
+      "current_count": 51
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Singapore Gold Reserve Security Debate",
+      "description": "Singaporeans weighing the geopolitical risks and strategic benefits of Singapore storing gold reserves, including fears of theft or attack and optimism about financial defense.",
+      "category": "optimism",
+      "quote_count": 9,
+      "sample_quotes": [
+        "But maybe the incentive for someone to attack Singapore and seize all the gold is also higher.",
+        "Trump recently caused a scare by saying the gold has been stolen and he wants to physically check it, which also gave rise to fears that HE would steal it!",
+        "Smart move. Future potential aggressors will need to think twice before they attack Singapore."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Government Handouts and Cost of Living Skepticism",
+      "description": "Singaporeans expressing frustration, cynicism, or cautious gratitude toward government cash payouts and assurance packages, reflecting broader anxieties about affordability and political timing.",
+      "category": "frustration",
+      "quote_count": 10,
+      "sample_quotes": [
+        "Goh chok tong where is my Swiss standard of living.",
+        "i will miss you Assurance Package, see you next election...",
+        "Why is anyone with more than one property getting anything."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "HDB and Housing Affordability Anxiety",
+      "description": "Singaporeans expressing stress and resignation over the difficulty of securing affordable public housing through balloting, with fears of being forced into the expensive resale market.",
+      "category": "fear",
+      "quote_count": 3,
+      "sample_quotes": [
+        "If you cannot get for 3 times because too oversubscribed, you might have no choice to buy resale.",
+        "If you are poor, you have 50% chance to pay 300k, rather than 600k.",
+        "i'm not assured in 2027"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Parenting Pressure and Social Comparison Stress",
+      "description": "Singaporean parents feeling judged or inadequate due to social pressure to enrich their children's lives, mirroring the broader kiasu culture of competitive parenting.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Seeing all the other moms sign up for this and that and buying group buys for all sorts of things makes me feel like I'm a neglectful parent if I'm not doing the same lol.",
+        "I was told to my face that I was a neglectful parent a few times actually.",
+        "If my kids aren't bright, think I might really have to go down that path too..."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Gambling and Luck Culture Resignation",
+      "description": "Singaporeans sharing wry, self-deprecating reactions to lottery losses, reflecting a cultural acceptance of gambling as entertainment despite knowing the odds are stacked against them.",
+      "category": "frustration",
+      "quote_count": 5,
+      "sample_quotes": [
+        "Didn't even get 1 number right..",
+        "Never strike :(",
+        "I x itoto, 2x system 7, 2x system 8, 10x ordinary. $0 payout. Yep, gambling working as intended"
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Heavily Skewed Toward Strong Intensity",
+      "description": "58% of frustration quotes (51 out of 88) are strong intensity, with only 5 mild — a heavily lopsided distribution suggesting deep rather than surface-level discontent. Combined with a 22.2% week-over-week volume increase, this points to frustrations that are both growing and intensifying, particularly around topics like the Assurance Package ending and tuition pressure.",
+      "category": "frustration",
+      "related_quotes": [
+        "Goh chok tong where is my Swiss standard of living.",
+        "cons maybe if something do happen we will be slightly fucked people will lose trust in us etc etc."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate at Nearly 2x Fears Volume",
+      "description": "Frustrations account for 88 quotes compared to 42 for fears and 51 for optimism, making it the dominant sentiment category by a wide margin — roughly 2.1x the volume of fears. This imbalance, combined with the week-over-week increase across all categories, suggests frustrations are the primary driver of community discourse, particularly around financial concerns like gold reserve hosting risks and the ending of the Assurance Package.",
+      "category": "frustration",
+      "related_quotes": [
+        "If gold price goes lower or stays range bound, i still pay that running fees (which is a cost).",
+        "Goh chok tong where is my Swiss standard of living."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Singapore Gold Vault Foreign Reserves Sparks Security and Trust Debate",
+      "description": "The topic of Singapore hosting foreign gold reserves is generating a mix of fear and skepticism, with community engagement touching on geopolitical risk, trust in institutions, and even references to Trump's Fort Knox controversy. This is an atypical financial-security topic for Singapore public discourse and may reflect broader anxieties about global financial stability filtering into local conversations.",
+      "category": "fear",
+      "related_quotes": [
+        "Trump recently caused a scare by saying the gold has been stolen and he wants to physically check it, which also gave rise to fears that HE would steal it!",
+        "But maybe the incentive for someone to attack Singapore and seize all the gold is also higher."
+      ],
+      "urgency": "medium"
+    }
+  ]
+}
