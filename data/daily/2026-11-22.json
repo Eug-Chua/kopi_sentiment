@@ -1,0 +1,3471 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-11-22",
+  "report_date": "2026-11-22",
+  "generated_at": "2026-11-22T22:11:32.302025",
+  "metadata": {
+    "total_posts_analyzed": 35,
+    "total_comments_analyzed": 428,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Concerns about foreign exploitation of Singapore's trusted financial and legal standing dominate today's fear discourse. The ongoing scrutiny of Chinese investments has reignited anxieties about money laundering and reputational damage, with many recalling the high-profile China gang scandal as evidence that warning signs were ignored too long. Consumer protection gaps — laid bare by the JMEV showroom closure leaving buyers without recourse — add another layer of unease. Underlying it all is a quieter worry about cost-of-living pressures, with locals fearing tripling rents and the difficulty of building emergency savings in an increasingly expensive city.",
+      "quote_count": 33,
+      "intensity_breakdown": {
+        "mild": 7,
+        "moderate": 15,
+        "strong": 11
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration is running hot and broad today, cutting across healthcare, governance, and everyday life. The KTPH ICU death case has drawn intense anger, with the deceased's daughter flagging inconsistencies in the hospital's account and sparking wider distrust of institutional accountability. On the geopolitical front, Singaporeans are openly exasperated that PM Wong must publicly remind foreign investors not to abuse the country's trusted status — a statement many feel should be obvious. Meanwhile, smaller but persistent irritants pile on: Simba's 5G network failures, opaque banking rules, and Chinese EV brands with names so bizarre that locals joke they sound AI-generated.",
+      "quote_count": 77,
+      "intensity_breakdown": {
+        "mild": 3,
+        "moderate": 39,
+        "strong": 35
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "The RTS link is generating the most genuine excitement of the day. Footage of the full-speed test run hitting 80 km/h has Singaporeans buzzing, with many anticipating the February 2027 opening will meaningfully ease Causeway congestion and benefit cross-border commuters and JB businesses alike. Baby insurance and pet quarantine threads also show a constructive, solutions-oriented side of the community, with users actively sharing recommendations and first-hand experiences. It's a day where optimism is real but grounded — less about grand narratives, more about practical wins on the horizon.",
+      "quote_count": 43,
+      "intensity_breakdown": {
+        "mild": 6,
+        "moderate": 23,
+        "strong": 14
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 171,
+      "top_posts": [
+        {
+          "id": "t3_1y2jvon",
+          "title": "RTS Full-Speed Test Run(?)",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2jvon/rts_fullspeed_test_run/",
+          "score": 146,
+          "num_comments": 24,
+          "created_at": "2026-11-22T07:53:42.110000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2jvon",
+            "post_title": "RTS Full-Speed Test Run(?)",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about rising rent affordability for locals and potential congestion shifts at the RTS station itself reflect genuine worries about the practical impacts of the new transport link, though expressed with measured questioning rather than panic.",
+              "quotes": [
+                {
+                  "quote": "Heard some of the rent tripled over the last year. Wonder how the locals going to survive.",
+                  "score": 3
+                },
+                {
+                  "quote": "I wonder how's the connectivity from the RTS endpoint outwards. It looks like the congestion will shift towards crossing customs to be congested at the RTS station itself.",
+                  "score": 12
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration and exasperation about Malaysia's repeated transport project failures (BRT, ART, light rail) and poor planning (late pedestrian connection decisions) is expressed emphatically with profanity and sarcasm, showing accumulated disappointment in governance competence.",
+              "quotes": [
+                {
+                  "quote": "It will be shit. They never got their shit together. BRT? Abandoned. ART (some weird half bus half tram thing)? Abandoned. Light rail? No idea if they are still stuck looking for cronies to bid or what, no news yet. Even pedestrian connections are bad. Their transport minister only announced they would build a quicker walkway to JB Sentral just one or two months ago… Like dude, everyone knows the RTS is supposed to connect SG to their train network, which is at JB Sentral. What do you meant you only decided to build a better connection only when RTS is about to open???",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic excitement about the RTS's impressive speed capabilities, economic benefits for JB businesses, and potential congestion relief is conveyed through exclamatory language and concrete positive projections about the February 2027 opening.",
+              "quotes": [
+                {
+                  "quote": "amazing speed!!",
+                  "score": 41
+                },
+                {
+                  "quote": "JB dental clinic and other service business gonna huat",
+                  "score": 28
+                },
+                {
+                  "quote": "Looks like it's already hitting the 80 km/h top speed on that stretch! With the 5-minute ride and expected fares around S$5–S$7 (RM15–RM21), it's going to be a massive upgrade over the Causeway jam when it opens in Feb 2027.",
+                  "score": 14
+                },
+                {
+                  "quote": "I hope this ease the congestion a bit once the RTS is up and running.",
+                  "score": 8
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2bg3a",
+          "title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2bg3a/chinese_electric_car_brand_jmev_shuts_down/",
+          "score": 102,
+          "num_comments": 55,
+          "created_at": "2026-11-22T00:09:28.667000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2bg3a",
+            "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Genuine concern about consumer protection and lack of recourse when EV companies shut down operations, leaving customers vulnerable.",
+              "quotes": [
+                {
+                  "quote": "So means what.. just too bad and consumers are being left hung to dry without protection??",
+                  "score": 46
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Annoyance with Chinese EV brand names that sound generic, artificial, or unmemorable, with some self-deprecating humor about misidentifying brand origins.",
+              "quotes": [
+                {
+                  "quote": "Jmev Neta All these gibberish sounding brands",
+                  "score": 75
+                },
+                {
+                  "quote": "Ngl so many of them sound Chatgpt generated Xpeng Zeekr AION Young Wang Deepal",
+                  "score": 33
+                },
+                {
+                  "quote": "Embarrassingly, my wife and I originally assumed Deepal to be an Indian EV Brand 😅",
+                  "score": 38
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Sarcastic commentary mocking aspirational marketing slogans from EV brands, expressing skepticism rather than genuine optimism.",
+              "quotes": [
+                {
+                  "quote": "What do you mean, you don't like having \"BUILD YOUR DREAMS\" plastered on your tailgate? It's a very aspirational slogan. Who doesn't want to build their dreams?",
+                  "score": 9
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y1ysg5",
+          "title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+          "url": "https://www.reddit.com/r/singapore/comments/1y1ysg5/spore_welcomes_genuine_chinese_investments_but/",
+          "score": 97,
+          "num_comments": 49,
+          "created_at": "2026-11-21T14:49:49.906000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y1ysg5",
+            "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about China exploiting Singapore's trusted position through money laundering, deception, and disregard for rules, with concerns that the government may be complicit or negligent in addressing these issues.",
+              "quotes": [
+                {
+                  "quote": "The Communist mentality: following rules are for suckers and the west; the end justifies the means, even if they have to spoil Singapore's reputation.",
+                  "score": 27
+                },
+                {
+                  "quote": "But China investments mainly want to abuse our Singapore trusted position...what do you think all those China family offices in Singapore are doing? And don't forget the huge money laundering scandal by the China gang. The way they were flaunting massive amount of illegal money all over Singapore and not get caught for so long means it is perhaps too late to talk about our country's \"trusted position\"...",
+                  "score": 14
+                },
+                {
+                  "quote": "Or money laundering. Is our government really that naive, or they just chose to turn a blind eye to certain activities until people realise and start to make noise?",
+                  "score": 10
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense exasperation with Chinese scholars and investors using Singapore as a temporary stepping stone while flouting commitments, coupled with cynicism about the government's claim of distinguishing 'genuine' investments.",
+              "quotes": [
+                {
+                  "quote": "Many are just using Singapore as a stepping stone for overseas education and migrating there.",
+                  "score": 50
+                },
+                {
+                  "quote": "In our local universities, these Mainland scholars openly talk about enjoying the free ride scholarships from our MOE and easily breaking the bond of working locally in Singapore for a few years.",
+                  "score": 8
+                },
+                {
+                  "quote": "Bro they follow the rules only if it benefit them. Lol",
+                  "score": 14
+                },
+                {
+                  "quote": "\"Genuine\" like genuine leather?",
+                  "score": 22
+                },
+                {
+                  "quote": "Dreaming lol",
+                  "score": 32
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Cautious and limited positive sentiment about potential benefits of stronger ties with China, expressed through personal anecdotes rather than systemic confidence.",
+              "quotes": [
+                {
+                  "quote": "Won't it be great if the CEOs and politicians of foreign country liked and had strong personal ties to Singapore.",
+                  "score": 1
+                },
+                {
+                  "quote": "We loved our experience there and have nice memories of China. Our impression of China has improved from our stay and we now go back regularly.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2fd7d",
+          "title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2fd7d/icu_death_at_ktph_daughter_responds_to_hospitals/",
+          "score": 78,
+          "num_comments": 22,
+          "created_at": "2026-11-22T03:31:40.267000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2fd7d",
+            "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about critical medical negligence causing irreversible brain damage due to delayed oxygen monitoring, with concern that ICU intervention became futile as a result of systemic failures.",
+              "quotes": [
+                {
+                  "quote": "If KTPH had monitored the blood oxygen levels and instituted care promptly , rather than be delayed in its detection for up to 45 minutes, then the brain would not have become so irreversibly damaged (within 10 minutes or less) that ICU would be futile (or just a PR exercise/ service recovery for not having the patient being placed on Temasek pulse oxymeter in the first place).",
+                  "score": -38
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration with hospital inefficiency, lack of transparency, unresponsiveness to patient requests, and dismissive staff attitudes, culminating in the belief that legal action is necessary to obtain answers.",
+              "quotes": [
+                {
+                  "quote": "I can understand the frustration the family may be feeling if they feel the hospital is not being honest or forthcoming in their follow-up on this matter.",
+                  "score": 8
+                },
+                {
+                  "quote": "Its true that they are really really slow. Unless its life threatening, expect to wait for hours",
+                  "score": 13
+                },
+                {
+                  "quote": "Had a recent A&E -> B2 experience recently and it was pretty bad.",
+                  "score": -7
+                },
+                {
+                  "quote": "when i tried to request for the patient's medical records so that I could get them reviewed, I was told that they don't provide it, which feels oddly backdated.",
+                  "score": -7
+                },
+                {
+                  "quote": "She said once she asked for further clarification about the process, the staff told her \" you have asked about it twice, I have told you about it twice, madam.\"",
+                  "score": -20
+                },
+                {
+                  "quote": "Seems like the only way to get answers is to lawyer up.",
+                  "score": -7
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2msd1",
+          "title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2msd1/pm_lawrence_wong_to_take_sias_inaugural_flight_to/",
+          "score": 74,
+          "num_comments": 8,
+          "created_at": "2026-11-22T11:01:03.083000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2msd1",
+            "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Concerns about WSI's viability are expressed as passing comparisons and speculative possibilities rather than emphatic worries. The tone suggests skepticism about the airport's future success without intense anxiety.",
+              "quotes": [
+                {
+                  "quote": "WSI will be the Mirabel of Sydney.",
+                  "score": 23
+                },
+                {
+                  "quote": "It still could end up as a primarily cargo airport though.",
+                  "score": 8
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustrations are evident regarding infrastructure delays, inconvenient location, and poor travel logistics for the airport. The use of colloquial expressions like 'Wah' and 'quite far' indicates noticeable annoyance, though not intensely angry.",
+              "quotes": [
+                {
+                  "quote": "The airport metro projected opening is already slipping into early 2028, for now.",
+                  "score": 4
+                },
+                {
+                  "quote": "Wah quite far this airport",
+                  "score": 3
+                },
+                {
+                  "quote": "a close to midnight arrival in WSI to then start driving to Canberra is a no for me",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2es83",
+          "title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2es83/fewer_drivers_are_turning_their_wheels_when/",
+          "score": 74,
+          "num_comments": 27,
+          "created_at": "2026-11-22T03:00:51.043000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2es83",
+            "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about vehicle rollback on steep slopes, with the warning that drivers will only learn the lesson after experiencing an accident. The fear is grounded in a real safety risk rather than being panicked or extreme.",
+              "quotes": [
+                {
+                  "quote": "they never roll before. Once you roll then you'll learn the lesson",
+                  "score": 39
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Drivers express noticeable frustration about declining safety practices and poor driving habits among motorists, particularly regarding forgotten precautionary measures like turning wheels on slopes. The tone reflects resigned exasperation rather than outrage, characteristic of Singapore's 'kpkb' (complaining) culture.",
+              "quotes": [
+                {
+                  "quote": "This practice is dying out, even though it's part of the FTT. I mean, it's rare for the vehicle to roll back if you do park properly, but I think it's still a good precautionary measure.",
+                  "score": 44
+                },
+                {
+                  "quote": "If drivers cant even turn on their indicator lights, what makes you think they would turn their wheels when parking on slopes",
+                  "score": 8
+                },
+                {
+                  "quote": "Nah.. all forgot this advice already.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "One commenter expresses casual, positive interest in learning and applying the wheel-turning safety tip, showing mild enthusiasm with a thumbs-up emoji. The sentiment is a simple expression of willingness rather than excitement or deep conviction.",
+              "quotes": [
+                {
+                  "quote": "I learn something new today. Will apply wheel turning if park on slope. 👍",
+                  "score": 15
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2e8wi",
+          "title": "More than just words: What Singapore’s fading Chinese dialects hold",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2e8wi/more_than_just_words_what_singapores_fading/",
+          "score": 63,
+          "num_comments": 59,
+          "created_at": "2026-11-22T02:32:56.852000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2e8wi",
+            "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about cultural and familial heritage being lost due to the fading of Chinese dialects in Singapore. The sense of loss pertains to irreplaceable stories and knowledge from previous generations.",
+              "quotes": [
+                {
+                  "quote": "so much of the culture and stories of our grandparents were lost",
+                  "score": 8
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Multiple frustrations are expressed with intensity regarding barriers to dialect learning, including high costs, limited institutional support, and restrictive language policies in Singapore. The tone reflects genuine disappointment and critique of systemic constraints, with comments about missed opportunities and overly strict Mandarin-only enforcement.",
+              "quotes": [
+                {
+                  "quote": "I wish there are more venues to learn dialect (方言) in Singapore",
+                  "score": 53
+                },
+                {
+                  "quote": "The graphic mentions learndialect.sg but even its expensive for online classes only ($200)",
+                  "score": 53
+                },
+                {
+                  "quote": "Ngl these days, even in SAF there is little use of dialects",
+                  "score": 26
+                },
+                {
+                  "quote": "Yeah but only certain months and I missed the window",
+                  "score": 2
+                },
+                {
+                  "quote": "Honestly we are really too stringent on enforcing Mandarin-only media",
+                  "score": 11
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y1zrfu",
+          "title": "Inside Singapore’s Busiest Trauma Unit: 1 In 5 Severe Cases Die | Inside The Trauma Unit - Part 1",
+          "url": "https://www.reddit.com/r/singapore/comments/1y1zrfu/inside_singapores_busiest_trauma_unit_1_in_5/",
+          "score": 52,
+          "num_comments": 4,
+          "created_at": "2026-11-21T15:33:21.975000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y1zrfu",
+            "post_title": "Inside Singapore’s Busiest Trauma Unit: 1 In 5 Severe Cases Die | Inside The Trauma Unit - Part 1",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Casual appreciation for the new documentary series format, expressed with gentle enthusiasm rather than passionate excitement.",
+              "quotes": [
+                {
+                  "quote": "Oh wow it's brand new, I really love these kinds of series.",
+                  "score": 8
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2nrjp",
+          "title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2nrjp/msian_man_38_cant_find_underwear_from_recycling/",
+          "score": 44,
+          "num_comments": 9,
+          "created_at": "2026-11-22T12:01:19.905000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2nrjp",
+            "post_title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2iq6a",
+          "title": "Judge places 3 teen siblings in different homes after finding their parents unfit to care for them",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2iq6a/judge_places_3_teen_siblings_in_different_homes/",
+          "score": 35,
+          "num_comments": 10,
+          "created_at": "2026-11-22T06:42:16.530000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2iq6a",
+            "post_title": "Judge places 3 teen siblings in different homes after finding their parents unfit to care for them",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep concern about the lasting psychological damage and trauma the separated siblings will face throughout their lives from this traumatic experience.",
+              "quotes": [
+                {
+                  "quote": "Imagine the psychological trauma that the children have been inflicted with. Such experiences can leave lifelong scars on anybody.",
+                  "score": 20
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear disappointment with the unfortunate family situation and the broader issue of parental exploitation of children as financial or emotional investments rather than genuine care.",
+              "quotes": [
+                {
+                  "quote": "Such a sad state of affairs.",
+                  "score": 20
+                },
+                {
+                  "quote": "My mom has this Golden Uterus Syndrome - where she treats us children as her gold investments.",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 139,
+      "top_posts": [
+        {
+          "id": "t3_1y2gtt7",
+          "title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2gtt7/anyone_has_firsthand_knowledge_of_the_conditions/",
+          "score": 14,
+          "num_comments": 25,
+          "created_at": "2026-11-22T04:52:38.769000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2gtt7",
+            "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Pet owners express intense anxiety about their animals' physical and emotional wellbeing during quarantine, with deep concerns about stress-related health complications, unverified rumors of deaths, and emotional distress from prolonged separation. The language reveals genuine panic and desperation, including mentions of crying and feeling unable to cope.",
+              "quotes": [
+                {
+                  "quote": "I'm terrified of how they'd endure all the physical and emotional stress in quarantine.",
+                  "score": 0
+                },
+                {
+                  "quote": "It's devastating to think of fact that I'd have to leave my fur-babies there for 30 days and only get to see them once a week. I might drive myself crazy with worry before they even get to SG.",
+                  "score": 0
+                },
+                {
+                  "quote": "I've also come across rumors that so many cats have died at AQC. I don't know how much truth there is to these claims, but they only add to my anxiety.",
+                  "score": 0
+                },
+                {
+                  "quote": "I'm worried that the stress of being in quarantine might trigger a recurrence of their previous conditions.",
+                  "score": 1
+                },
+                {
+                  "quote": "Is it really that noisy? Ugh, my cats get stressed out even by the sound of footsteps, and they barely eat... I'm gonna cry. I really don't know what to do anymore.",
+                  "score": 1
+                },
+                {
+                  "quote": "My second one has nearly died three times. I never want to go through anything like that again.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Owners express noticeable frustration about the challenging conditions and prolonged separation from their pets, with complaints about noise levels, limited exercise space, and the cumulative stress of months-long separation. While clearly exasperating, these are voiced as resigned observations rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "Still miss that cat though, unexpected passing last year from kidney issues.",
+                  "score": 7
+                },
+                {
+                  "quote": "Including the 30-day quarantine at AQC, we'll have been apart for almost 6 months by the time they're discharged. I don't know how I'm going to get through the next few months. My days are already pretty messed up.",
+                  "score": 3
+                },
+                {
+                  "quote": "The animals are very stressed. Not through anyone fault but the noises are horrible. My dog is very nervous and got quite aggressive from stress.",
+                  "score": 0
+                },
+                {
+                  "quote": "It's a pretty awful place. The animals are very stressed.",
+                  "score": 0
+                },
+                {
+                  "quote": "There's no walks. There's a small exercise yard but it's like 8m x 5m or something. It sucks at the time but my dog is fine now.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Multiple owners share reassuring personal experiences highlighting staff care, adequate facilities, and positive outcomes, offering relief and encouragement to anxious readers. The optimism is grounded in concrete positive experiences rather than naive hopefulness, reflecting genuine relief among those who've had good experiences.",
+              "quotes": [
+                {
+                  "quote": "Conditions are fine. My cat got a space roughly the size of a phone booth to herself.",
+                  "score": 20
+                },
+                {
+                  "quote": "It was clean, and it was clear that the staff had interacted with them because she talked to them when they came by while I was there.",
+                  "score": 20
+                },
+                {
+                  "quote": "The staff actually interact with them? ah, that's such a relief to hear.",
+                  "score": 6
+                },
+                {
+                  "quote": "Staff there are doing their part, each booth has aircon and enough space for you to sit cross legged.",
+                  "score": 7
+                },
+                {
+                  "quote": "I had three cats go through in 2015. I booked one room, air-conditioned with a window. They kept the place spotless.",
+                  "score": 5
+                },
+                {
+                  "quote": "It was not the worst experience, my three were absolutely fine.",
+                  "score": 5
+                },
+                {
+                  "quote": "My experience was back in 2017. I have only one cat. He was placed in an airconditioned room, which wasn't big but like what others have said you can sit cross legged inside.",
+                  "score": 5
+                },
+                {
+                  "quote": "Overall it was a good experience. I had a lot of anxiety putting him there but the staff are really nice.",
+                  "score": 5
+                },
+                {
+                  "quote": "good staff and they provide regular updates via email! time will pass quickly, don't worry!",
+                  "score": 1
+                },
+                {
+                  "quote": "It's reassuring to see many comments praising the staff for the care they provide.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2kf29",
+          "title": "Are there any fiction-books book clubs in Singapore?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2kf29/are_there_any_fictionbooks_book_clubs_in_singapore/",
+          "score": 13,
+          "num_comments": 18,
+          "created_at": "2026-11-22T08:27:25.068000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2kf29",
+            "post_title": "Are there any fiction-books book clubs in Singapore?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear difficulty finding stable, committed fiction book clubs in Singapore, with repeated unsuccessful attempts to join or establish groups. The frustration stems from inconsistent group membership and lack of interest in community initiatives.",
+              "quotes": [
+                {
+                  "quote": "I'm looking for a fiction book club myself but can't seem to find any. The ones that exist don't seem to be a fixed group of people and I would really rather get to know people.",
+                  "score": 5
+                },
+                {
+                  "quote": "I face the same challenges too where I joined one in poly and uni but the clubs didn't stick.",
+                  "score": 1
+                },
+                {
+                  "quote": "I have posted before on setting up fiction book clubs but didnt gain any traction or interest.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Participants show genuine interest and willingness to join or establish a book club, with conditional enthusiasm based on shared interests. The tone reflects cautious positivity and openness to new opportunities.",
+              "quotes": [
+                {
+                  "quote": "If our interests match, then I am in.",
+                  "score": 3
+                },
+                {
+                  "quote": "if we do and you would be keen to join I would be happy to invite you",
+                  "score": 1
+                },
+                {
+                  "quote": "Sure I would be up for that!",
+                  "score": 1
+                },
+                {
+                  "quote": "that does sound pretty chill thanks for the heads up it opens a new avenue of exploration",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2fwax",
+          "title": "Is needing to use a laundromat weekly a hassle?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2fwax/is_needing_to_use_a_laundromat_weekly_a_hassle/",
+          "score": 11,
+          "num_comments": 36,
+          "created_at": "2026-11-22T04:00:53.563000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2fwax",
+            "post_title": "Is needing to use a laundromat weekly a hassle?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "There is a casual concern about potential machine malfunctions and weather-related inconveniences when using laundromats, but it's expressed as passing worries rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "There are so many unknowns that will happen. Machine break down or just not accepting payment somehow. Sudden downpour on your way back (in my case, snow).",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is emphatic and detailed frustration about the multiple hassles of laundromat use, including hygiene concerns, cumulative costs, repetitive walking trips, inefficient drying cycles, and the burden of carrying laundry. The tone is exasperated, particularly evident in the extended complaint about multiple back-and-forth trips.",
+              "quotes": [
+                {
+                  "quote": "I've seen some pretty nasty things being washed at laundromats…",
+                  "score": 22
+                },
+                {
+                  "quote": "Cost adds up You don't just have to walk 5 minutes back and forth, you have to do it while carrying all your shit",
+                  "score": 18
+                },
+                {
+                  "quote": "Then spend an hour or more waiting for the laundry cycle to be done... Or walk there 5 mins, start the wash cycle, walk back 5 mins... Then walk another 5 mins to move stuff to the dryer, then walk back 5 mins.... Then walk back to the laundromat for 5 mins to collect the dry clothes... Then walk 5 mins back home again........... Sounds like a pain, lol.",
+                  "score": 13
+                },
+                {
+                  "quote": "My experience with dual use ones is the dryer isn't very good. I put clothes in for 2 hours and it's only half dry or still damp",
+                  "score": 4
+                },
+                {
+                  "quote": "IMO lugging a trolley around is still kind of a hassle that I'd rather just carry it anyways, but that's just me.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is clear positivity about laundromat convenience and alternative solutions like home washing machines, with practical benefits highlighted such as avoiding rain-related risks and preventing cooking odors on clothes. The sentiment is supportive but measured rather than highly enthusiastic.",
+              "quotes": [
+                {
+                  "quote": "I've been doing that for 6 years now. Works great, no smells, no running to keep your clothes at the first sign of rain",
+                  "score": 22
+                },
+                {
+                  "quote": "I'm doing this. but I have wfh so it's still ok.",
+                  "score": 2
+                },
+                {
+                  "quote": "I opted for the Samsung Bespoke one. That offers a feature called Cupboard dry. Your clothes will be fully dry and you simply need to fold them and put them back inside your wardrobe.",
+                  "score": 1
+                },
+                {
+                  "quote": "sometimes i feel it's more convenient tbh, especially if u cook often. cos if you hang then sometimes your clothes get the cooking smells",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2m23e",
+          "title": "Simba 5G network issues since the update. Is it just me?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2m23e/simba_5g_network_issues_since_the_update_is_it/",
+          "score": 5,
+          "num_comments": 12,
+          "created_at": "2026-11-22T10:14:34.517000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2m23e",
+            "post_title": "Simba 5G network issues since the update. Is it just me?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about potential bandwidth misuse, expressed with humor and casual language rather than genuine alarm.",
+              "quotes": [
+                {
+                  "quote": "Hope they r not using someone else's bandwidth 😂",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration with network downgrade and ongoing 5G connectivity issues, with users noting service degradation from expected standards and recurring problems.",
+              "quotes": [
+                {
+                  "quote": "Oh my! It's so bad because now it's just LTE, not even 4G!",
+                  "score": 1
+                },
+                {
+                  "quote": "Since yesterday and today, woodland side my phone keep showing me having 4g+ not even 5g not sure with other area in sg 😅",
+                  "score": 3
+                },
+                {
+                  "quote": "No 5G have been the nickname of SIMBA for some time, due to constraints on the bands",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2inzm",
+          "title": "Recommend some carpenters that can customise ikea kitchen and shelves.",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2inzm/recommend_some_carpenters_that_can_customise_ikea/",
+          "score": 2,
+          "num_comments": 2,
+          "created_at": "2026-11-22T06:38:37.426000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2inzm",
+            "post_title": "Recommend some carpenters that can customise ikea kitchen and shelves.",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is a noticeable concern about a discrepancy between a carpenter's showroom presentation and their actual portfolio quality, suggesting doubt about their actual workmanship.",
+              "quotes": [
+                {
+                  "quote": "their showroom is nicer than their portfolio",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2nfq4",
+          "title": "A question about shipping an overseas item using Singpost's ezy2ship",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2nfq4/a_question_about_shipping_an_overseas_item_using/",
+          "score": 2,
+          "num_comments": 3,
+          "created_at": "2026-11-22T11:42:01.043000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2nfq4",
+            "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the consequences of weighing items incorrectly, as errors result in no refunds and require starting the entire manifest application process over.",
+              "quotes": [
+                {
+                  "quote": "However, do ensure you've weighed your item correctly as they do not issue refunds for incorrect weight / allow for top-up. A new manifest application will need to be created.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses noticeable frustration about the inefficient customs declaration process at the post office, specifically highlighting how the touchscreen interface significantly slows down what could be done faster on a desktop.",
+              "quotes": [
+                {
+                  "quote": "I tried this once and i had to spend a long time filling out the customs declaration form at the post office because the small touch screen is a lot slower than using a desktop browser.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2hkza",
+          "title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2hkza/parents_of_sg_which_hospital_insurance_did_you/",
+          "score": 2,
+          "num_comments": 9,
+          "created_at": "2026-11-22T05:35:00.090000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2hkza",
+            "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about being unprepared for unexpected medical emergencies, expressed through the need for precautionary insurance coverage. The parent acknowledges the seriousness of potential health crises and wants to avoid being caught off-guard.",
+              "quotes": [
+                {
+                  "quote": "Nobody wants to be in such a position but you don't want to get off guard if you ever find yourself in one.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual complaint about insurance costs being high, mentioned matter-of-factly without strong emotional language. The frustration is present but not emphasized or passionate.",
+              "quotes": [
+                {
+                  "quote": "I have prudential myself and I find it expensive.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Multiple enthusiastic endorsements of positive experiences with AIA insurance, highlighted by specific praise for fast claim processing, easy online purchasing, and comprehensive coverage. The tone reflects genuine satisfaction and confidence in the insurance provider.",
+              "quotes": [
+                {
+                  "quote": "So far I have good experience with claiming from AIA for my kids.",
+                  "score": 1
+                },
+                {
+                  "quote": "I also got accident insurance for my kids, very good especially if your kids have to go daycare.",
+                  "score": 1
+                },
+                {
+                  "quote": "Can buy directly online without any agents with straight through underwriting and policy was issued very fast. Claim also very fast no major issues.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2c3le",
+          "title": "Help where to get piercing in sg",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2c3le/help_where_to_get_piercing_in_sg/",
+          "score": 2,
+          "num_comments": 26,
+          "created_at": "2026-11-22T00:42:34.891000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2c3le",
+            "post_title": "Help where to get piercing in sg",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2fiz4",
+          "title": "Travelling to Sg in Dec - bad weather?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2fiz4/travelling_to_sg_in_dec_bad_weather/",
+          "score": 2,
+          "num_comments": 24,
+          "created_at": "2026-11-22T03:40:45.679000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2fiz4",
+            "post_title": "Travelling to Sg in Dec - bad weather?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Travelers express slight concern about December weather impact, primarily questioning whether rain will significantly disrupt plans rather than expressing deep anxiety. The tone is cautious inquiry rather than genuine alarm.",
+              "quotes": [
+                {
+                  "quote": "I'm getting a little concerned about the weather.",
+                  "score": 0
+                },
+                {
+                  "quote": "Is there a genuine risk of losing several days to rain, or is the weather generally manageable if we're flexible with our plans?",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration with practical inconveniences of rainy season, particularly regarding transportation surges, persistent daily rainfall, and physical discomfort from humidity and getting soaked. The complaints are noticeable and definite but not expressed with intense emotion or outrage.",
+              "quotes": [
+                {
+                  "quote": "Rain will result in surge pricing and or longer waiting times for private hire/taxis.",
+                  "score": 19
+                },
+                {
+                  "quote": "It's started raining every day since beginning of this month (November)",
+                  "score": 4
+                },
+                {
+                  "quote": "Rain for an hour then the sun comes out and you sweat in the 95% humidity with the rest of us",
+                  "score": 2
+                },
+                {
+                  "quote": "Rain when you are furthest from shelter without an umbrella",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic and varied expressions of positivity dominate, with multiple commenters offering reassurance that rain won't ruin travel plans, sharing hopeful predictions, and even finding beauty in tropical weather. The abundance of encouraging perspectives and personal preferences for rain reflect genuine confidence and optimistic outlook.",
+              "quotes": [
+                {
+                  "quote": "Rain isn't a showstopper here.",
+                  "score": 19
+                },
+                {
+                  "quote": "No rain for December. Just my uninformed hopeful prediction.",
+                  "score": 4
+                },
+                {
+                  "quote": "It will be just an hour or so of rain in the afternoon daily (like what's happening now) moving into X'mas then it will miraculously stop raining during X'mas week and it will be bright (very unChristmassy).",
+                  "score": 3
+                },
+                {
+                  "quote": "if you can get past the inconvenience of getting soaked, tropical monsoons are really quite beautiful.",
+                  "score": 3
+                },
+                {
+                  "quote": "It's not going to do your outdoor plans any favours, but it won't outright cancel them most of the time either.",
+                  "score": 2
+                },
+                {
+                  "quote": "Actually I prefer rainy days cos it's not scorching hot",
+                  "score": 1
+                },
+                {
+                  "quote": "Past years the weather has been more erratic and it may not even rain at all!",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y23d9u",
+          "title": "Overseas volunteering programmes by local organisations",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y23d9u/overseas_volunteering_programmes_by_local/",
+          "score": 1,
+          "num_comments": 3,
+          "created_at": "2026-11-21T18:06:27.467000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y23d9u",
+            "post_title": "Overseas volunteering programmes by local organisations",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 51,
+      "top_posts": [
+        {
+          "id": "t3_1y1y2pr",
+          "title": "Sadia Supermarket instructed to stop selling Red Bull drinks without return label: NEA",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y1y2pr/sadia_supermarket_instructed_to_stop_selling_red/",
+          "score": 12,
+          "num_comments": 1,
+          "created_at": "2026-11-21T14:16:40.272000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y1y2pr",
+            "post_title": "Sadia Supermarket instructed to stop selling Red Bull drinks without return label: NEA",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenter expresses intense outrage about perceived unfair exemption of migrant workers from BCRS tax and accusations of nepotism and crony capitalism, using emphatic language and exclamation marks to convey deep anger.",
+              "quotes": [
+                {
+                  "quote": "How dare they exempt migrant workers from the BCRS tax?!",
+                  "score": 0
+                },
+                {
+                  "quote": "nepobaby crony BCRS cartel strikes again!",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2o1y8",
+          "title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2o1y8/remember_the_katong_cyclist_she_is_a_claimant/",
+          "score": 11,
+          "num_comments": 6,
+          "created_at": "2026-11-22T12:18:43.228000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2o1y8",
+            "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about the driver's insurance company potentially refusing to cover the damages due to the intentional nature of the incident, forcing the driver to pay out of pocket.",
+              "quotes": [
+                {
+                  "quote": "To me the bigger question is will the lady driver's insurance company refuse to pay and she has to do it out of pocket as what she did was intentional and not negligent.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is definite confidence that the cyclist (lawyer lady) will win the case based on the guilty pleas, with recognition of potential positive outcomes for the legal profession.",
+              "quotes": [
+                {
+                  "quote": "If you see what they both pleaded guilty to, it's fairly straightforward that the lawyer lady will win.",
+                  "score": 2
+                },
+                {
+                  "quote": "Big win for the lawyers",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2k7c3",
+          "title": "Non-AI ads need a comeback 🤣",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2k7c3/nonai_ads_need_a_comeback/",
+          "score": 7,
+          "num_comments": 1,
+          "created_at": "2026-11-22T08:13:13.667000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2k7c3",
+            "post_title": "Non-AI ads need a comeback 🤣",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "The user expresses a casual observation that many AI-generated ads appear unrealistic, without strong emotional intensity or emphatic language.",
+              "quotes": [
+                {
+                  "quote": "a lot looks super unrealistic",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The user shows a relaxed, accepting attitude toward non-AI ads if they are good quality, with a casual and non-emphatic tone of acceptance.",
+              "quotes": [
+                {
+                  "quote": "If its good, I don't mind",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y21z3s",
+          "title": "Singaporean extradited to face US charges over global insider trading scheme",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y21z3s/singaporean_extradited_to_face_us_charges_over/",
+          "score": 3,
+          "num_comments": 1,
+          "created_at": "2026-11-21T17:07:29.137000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y21z3s",
+            "post_title": "Singaporean extradited to face US charges over global insider trading scheme",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2ax5c",
+          "title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2ax5c/decathlon_social_enterprise_unveil_upcycled_bag/",
+          "score": 3,
+          "num_comments": 7,
+          "created_at": "2026-11-21T23:45:24.788000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2ax5c",
+            "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about the environmental paradox of creating new products for recycling purposes, expressed as a brief worry rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Now we create more thrash",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Sharp criticism and sarcasm about the perceived wastefulness, over-engineering, and impracticality of the initiative, with commenters expressing emphatic disapproval through sarcastic remarks and complaints about the product's limited utility.",
+              "quotes": [
+                {
+                  "quote": "Humans are so wise. Create more things, just so we can recycle properly and with \"convenience\".",
+                  "score": 8
+                },
+                {
+                  "quote": "6 cans only? Why would I need a special bag just for 6 cans? At least make something bigger.",
+                  "score": 5
+                },
+                {
+                  "quote": "Maybe the creators came up with the idea while drinking a six pack of beer. Really adds to the whole over-engineered vibe of BCRS.",
+                  "score": 5
+                },
+                {
+                  "quote": "What a waste of time",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2iu3j",
+          "title": "Mistral expands Singapore operations with science hub to tap demand in key sectors",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2iu3j/mistral_expands_singapore_operations_with_science/",
+          "score": 1,
+          "num_comments": 2,
+          "created_at": "2026-11-22T06:49:04.987000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2iu3j",
+            "post_title": "Mistral expands Singapore operations with science hub to tap demand in key sectors",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The commenter expresses intense dismissal of Mistral and European tech capabilities, using sweeping language that suggests deep disappointment or contempt rather than casual criticism.",
+              "quotes": [
+                {
+                  "quote": "Mistral is a joke together with the rest of Europe.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y1z5m9",
+          "title": "Why Whampoa CC use private gym operator while Bidadari CC seems to have in-house gym catered for residents?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y1z5m9/why_whampoa_cc_use_private_gym_operator_while/",
+          "score": 0,
+          "num_comments": 1,
+          "created_at": "2026-11-21T15:06:02.193000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y1z5m9",
+            "post_title": "Why Whampoa CC use private gym operator while Bidadari CC seems to have in-house gym catered for residents?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y1zkhp",
+          "title": "Are there any jewellers in Singapore who have same level of craftsmanship as that of Bvlgari, Tiffany etc.?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y1zkhp/are_there_any_jewellers_in_singapore_who_have/",
+          "score": 0,
+          "num_comments": 6,
+          "created_at": "2026-11-21T15:24:47.786000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y1zkhp",
+            "post_title": "Are there any jewellers in Singapore who have same level of craftsmanship as that of Bvlgari, Tiffany etc.?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual, lighthearted jab questioning the person's budget capacity, delivered with humor rather than genuine irritation.",
+              "quotes": [
+                {
+                  "quote": "You got budget anot LOL",
+                  "score": 7
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2crie",
+          "title": "Roy Phay qimen manifestation",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2crie/roy_phay_qimen_manifestation/",
+          "score": 0,
+          "num_comments": 2,
+          "created_at": "2026-11-22T01:16:05.886000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2crie",
+            "post_title": "Roy Phay qimen manifestation",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Skepticism about Roy Phay's qimen manifestation method, with commenters dismissing it as lacking scientific basis and questioning its legitimacy as a potential government intel channel. The tone suggests cynicism about the practice's credibility and questioning why someone successful would continue promoting it.",
+              "quotes": [
+                {
+                  "quote": "no scientific basis. this is all some roundabout middleman way to pass on insider information from govt to private lah. you're just buying intel.",
+                  "score": 3
+                },
+                {
+                  "quote": "If it works he long retired already still do thus lj",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y29yd9",
+          "title": "SG Women - babygrayce vs dionislovespink",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y29yd9/sg_women_babygrayce_vs_dionislovespink/",
+          "score": 0,
+          "num_comments": 48,
+          "created_at": "2026-11-21T22:58:05.229000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y29yd9",
+            "post_title": "SG Women - babygrayce vs dionislovespink",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Parents express genuine concern about the difficulty of monitoring AI-generated content and protecting children from inappropriate material in an increasingly complex digital landscape. The concern is rooted in practical parenting challenges rather than panic, with acknowledgment that this is an emerging universal problem.",
+              "quotes": [
+                {
+                  "quote": "Before AI, raising my first wasn't too tough. It was minimal supervision and he could quickly discern and even tell me whats weird. The second one I think it gets harder to tell what content is kid friendly and not. Perhaps this is a universal problem that most parents will face soon, not just a country thing.",
+                  "score": 2
+                },
+                {
+                  "quote": "It was really creepy and easy to miss and we felt weird about it.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is clear frustration about the pervasiveness and difficulty of distinguishing AI-generated content from authentic material, coupled with the dilemma of balancing children's learning opportunities with protection from harmful content. The repeated use of 'weird' and the acknowledgment of being caught between competing concerns reflects a noticeable but measured exasperation.",
+              "quotes": [
+                {
+                  "quote": "I normally don't comment to such posts but this is a weird weird post, to me.",
+                  "score": 5
+                },
+                {
+                  "quote": "Yeah I try but it's always a double edged sword. Between learning more and learning what's right.",
+                  "score": 2
+                },
+                {
+                  "quote": "No idea who that is. AI content are everywhere now (even cute pet videos are AI generated) and it's getting harder to tell whether something is AI or not.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 5,
+      "comments_analyzed": 67,
+      "top_posts": [
+        {
+          "id": "t3_1y2d8pq",
+          "title": "UOB Account Minimum Spend",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y2d8pq/uob_account_minimum_spend/",
+          "score": 0,
+          "num_comments": 30,
+          "created_at": "2026-11-22T01:40:48.686000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y2d8pq",
+            "post_title": "UOB Account Minimum Spend",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user experiences ongoing difficulty meeting the monthly $500 minimum spend requirement and feels reluctant about the effort needed to switch banks, though the tone remains somewhat lighthearted with use of emojis.",
+              "quotes": [
+                {
+                  "quote": "each month I have trouble hitting the minimum spend of $500",
+                  "score": 0
+                },
+                {
+                  "quote": "Still find it difficult to spend each month 😂",
+                  "score": 1
+                },
+                {
+                  "quote": "Don't really want to go thru the hassle to change banks 😬",
+                  "score": -1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2p652",
+          "title": "Brokerage account does not tally?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y2p652/brokerage_account_does_not_tally/",
+          "score": 0,
+          "num_comments": 7,
+          "created_at": "2026-11-22T13:19:52.124000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y2p652",
+            "post_title": "Brokerage account does not tally?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses clear frustration with discrepancies in account calculations and feels the original poster's explanation is incomplete or inconsistent. The repeated questioning and emphasis on the mathematical mismatch indicates definite exasperation, though it remains analytical rather than explosive.",
+              "quotes": [
+                {
+                  "quote": "Still doesn't make sense to me. If you deposit $4,851, make $2,076, you should have $6,927, not $6,392.71. And you still have a cash balance in there?",
+                  "score": 1
+                },
+                {
+                  "quote": "Still doesn't make sense, bro. Doesn't matter when you deposited the $150, it would be taken into your net deposited, no? The reason why I'm querying so much is because it shows you are missing something in your explanation. Look at your statement, please.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y20kgy",
+          "title": "Should I join Financial Services Audit or IT audit - Big 4 SG",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y20kgy/should_i_join_financial_services_audit_or_it/",
+          "score": 0,
+          "num_comments": 3,
+          "created_at": "2026-11-21T16:08:12.180000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y20kgy",
+            "post_title": "Should I join Financial Services Audit or IT audit - Big 4 SG",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about audit's career prospects and long-term viability. The phrasing suggests definite worry about whether a career in audit leads somewhere meaningful.",
+              "quotes": [
+                {
+                  "quote": "audit no future one",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is intense frustration with the demanding work culture and long hours in audit, with the commenter questioning whether the grueling effort is justified or worthwhile.",
+              "quotes": [
+                {
+                  "quote": "Hardcore grind the hours doesn't make sense",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y21rtm",
+          "title": "Disrespectfully, WTFiretruck is with the stock market",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y21rtm/disrespectfully_wtfiretruck_is_with_the_stock/",
+          "score": 0,
+          "num_comments": 9,
+          "created_at": "2026-11-21T16:59:30.321000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y21rtm",
+            "post_title": "Disrespectfully, WTFiretruck is with the stock market",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The speaker expresses cautious concern about timing the market bottom and advocates for patience, reflecting a reasonable wariness about making premature investment decisions during volatility.",
+              "quotes": [
+                {
+                  "quote": "bounce not so soon, sit and watch first, we cannot time the bottom, but can more easily catch the market on the way up",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The use of 'disrespected my boundaries' and the title's emphatic 'WTFiretruck' convey clear annoyance at the market's unpredictability, though the tone suggests resigned frustration rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "it has severely disrespected my boundaries , it will recover next month",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found expressing optimism or positive expectations about future market performance.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y28gjo",
+          "title": "How do you save up 6 months of emergency savings",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y28gjo/how_do_you_save_up_6_months_of_emergency_savings/",
+          "score": 0,
+          "num_comments": 24,
+          "created_at": "2026-11-21T21:48:19.295000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y28gjo",
+            "post_title": "How do you save up 6 months of emergency savings",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There's a clear concern about financial instability and the pressure to resort to gig work if unemployed, coupled with anxiety about not reaching emergency fund targets. The preference for a pessimistic approach reflects genuine worry about falling into paycheck-to-paycheck living.",
+              "quotes": [
+                {
+                  "quote": "Don't be one of those \"You need to start doing Grab delivery immediately after losing your job or doing FnB while sending resumes because you've been living paycheck to paycheck\" guys.",
+                  "score": 1
+                },
+                {
+                  "quote": "I prefer pessimistic approach. At least your target is to save the same amount as your salary. Even when you do not manage to hit the 6 months emergency fund, you would have already save way more than the other approach, which allows you to live more comfortably than just bare minimum saving.",
+                  "score": 0
+                },
+                {
+                  "quote": "you have almost $4000 left after paying CPF and your parents. You could probably live on $1000-$1500 and save the rest.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration with the slow pace of saving (2.5 years to reach 6-month goal) and the tension between competing financial goals, with palpable disappointment about delaying personal purchases and self-care despite having some disposable income.",
+              "quotes": [
+                {
+                  "quote": "And i just realised even if i save 20% it takes 30 months(2.5 YEARS) to save up 6 months worth unless im doing my math wrong",
+                  "score": 0
+                },
+                {
+                  "quote": "With all that i just realised i cant even buy the things ive been wanting to buy like replacing my old cracked s24 phone with a brand new s26 ultra phone to spoil myself",
+                  "score": 0
+                },
+                {
+                  "quote": "The competing goals are the hard part, honestly",
+                  "score": 1
+                },
+                {
+                  "quote": "That 2.5-year feeling is familiar. When I first started working, six months felt impossibly far away too, and it made me want to put it off until everything else was sorted.",
+                  "score": 1
+                },
+                {
+                  "quote": "Yes, unfortunately you have pointed out that saving 20% is actually slow progress.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Balanced perspective acknowledging that current savings progress is solid, with encouragement to build emergency funds incrementally rather than pursuing perfection, and reframing of savings as retirement contributions.",
+              "quotes": [
+                {
+                  "quote": "Saving $2,800 out of $4,800 is very good progress already. I would say there is no need to further tighten your belt until a point that you feel no joy in living.",
+                  "score": 2
+                },
+                {
+                  "quote": "What shifted it for me was treating the buffer as something to build in layers rather than all at once. A first small cushion that could cover a surprise bill felt very different from having nothing, even though it was not the full six months yet.",
+                  "score": 1
+                },
+                {
+                  "quote": "If your savings rate is 50%, then working 1 month is actually putting 1 month into retirement.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "Heard some of the rent tripled over the last year. Wonder how the locals going to survive.",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wonder how's the connectivity from the RTS endpoint outwards. It looks like the congestion will shift towards crossing customs to be congested at the RTS station itself.",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So means what.. just too bad and consumers are being left hung to dry without protection??",
+        "post_id": "t3_1y2bg3a",
+        "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 46,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The Communist mentality: following rules are for suckers and the west; the end justifies the means, even if they have to spoil Singapore's reputation.",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 27,
+        "intensity": "strong"
+      },
+      {
+        "text": "But China investments mainly want to abuse our Singapore trusted position...what do you think all those China family offices in Singapore are doing? And don't forget the huge money laundering scandal by the China gang. The way they were flaunting massive amount of illegal money all over Singapore and not get caught for so long means it is perhaps too late to talk about our country's \"trusted position\"...",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "Or money laundering. Is our government really that naive, or they just chose to turn a blind eye to certain activities until people realise and start to make noise?",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "If KTPH had monitored the blood oxygen levels and instituted care promptly , rather than be delayed in its detection for up to 45 minutes, then the brain would not have become so irreversibly damaged (within 10 minutes or less) that ICU would be futile (or just a PR exercise/ service recovery for not having the patient being placed on Temasek pulse oxymeter in the first place).",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": -38,
+        "intensity": "strong"
+      },
+      {
+        "text": "WSI will be the Mirabel of Sydney.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 23,
+        "intensity": "mild"
+      },
+      {
+        "text": "It still could end up as a primarily cargo airport though.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 8,
+        "intensity": "mild"
+      },
+      {
+        "text": "they never roll before. Once you roll then you'll learn the lesson",
+        "post_id": "t3_1y2es83",
+        "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 39,
+        "intensity": "moderate"
+      },
+      {
+        "text": "so much of the culture and stories of our grandparents were lost",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Imagine the psychological trauma that the children have been inflicted with. Such experiences can leave lifelong scars on anybody.",
+        "post_id": "t3_1y2iq6a",
+        "post_title": "Judge places 3 teen siblings in different homes after finding their parents unfit to care for them",
+        "subreddit": "singapore",
+        "score": 35,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm terrified of how they'd endure all the physical and emotional stress in quarantine.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's devastating to think of fact that I'd have to leave my fur-babies there for 30 days and only get to see them once a week. I might drive myself crazy with worry before they even get to SG.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I've also come across rumors that so many cats have died at AQC. I don't know how much truth there is to these claims, but they only add to my anxiety.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I'm worried that the stress of being in quarantine might trigger a recurrence of their previous conditions.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Is it really that noisy? Ugh, my cats get stressed out even by the sound of footsteps, and they barely eat... I'm gonna cry. I really don't know what to do anymore.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "My second one has nearly died three times. I never want to go through anything like that again.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "There are so many unknowns that will happen. Machine break down or just not accepting payment somehow. Sudden downpour on your way back (in my case, snow).",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "Hope they r not using someone else's bandwidth 😂",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "However, do ensure you've weighed your item correctly as they do not issue refunds for incorrect weight / allow for top-up. A new manifest application will need to be created.",
+        "post_id": "t3_1y2nfq4",
+        "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Nobody wants to be in such a position but you don't want to get off guard if you ever find yourself in one.",
+        "post_id": "t3_1y2hkza",
+        "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm getting a little concerned about the weather.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "Is there a genuine risk of losing several days to rain, or is the weather generally manageable if we're flexible with our plans?",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "To me the bigger question is will the lady driver's insurance company refuse to pay and she has to do it out of pocket as what she did was intentional and not negligent.",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Now we create more thrash",
+        "post_id": "t3_1y2ax5c",
+        "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "Before AI, raising my first wasn't too tough. It was minimal supervision and he could quickly discern and even tell me whats weird. The second one I think it gets harder to tell what content is kid friendly and not. Perhaps this is a universal problem that most parents will face soon, not just a country thing.",
+        "post_id": "t3_1y29yd9",
+        "post_title": "SG Women - babygrayce vs dionislovespink",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It was really creepy and easy to miss and we felt weird about it.",
+        "post_id": "t3_1y29yd9",
+        "post_title": "SG Women - babygrayce vs dionislovespink",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "audit no future one",
+        "post_id": "t3_1y20kgy",
+        "post_title": "Should I join Financial Services Audit or IT audit - Big 4 SG",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "bounce not so soon, sit and watch first, we cannot time the bottom, but can more easily catch the market on the way up",
+        "post_id": "t3_1y21rtm",
+        "post_title": "Disrespectfully, WTFiretruck is with the stock market",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Don't be one of those \"You need to start doing Grab delivery immediately after losing your job or doing FnB while sending resumes because you've been living paycheck to paycheck\" guys.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I prefer pessimistic approach. At least your target is to save the same amount as your salary. Even when you do not manage to hit the 6 months emergency fund, you would have already save way more than the other approach, which allows you to live more comfortably than just bare minimum saving.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "you have almost $4000 left after paying CPF and your parents. You could probably live on $1000-$1500 and save the rest.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "It will be shit. They never got their shit together. BRT? Abandoned. ART (some weird half bus half tram thing)? Abandoned. Light rail? No idea if they are still stuck looking for cronies to bid or what, no news yet. Even pedestrian connections are bad. Their transport minister only announced they would build a quicker walkway to JB Sentral just one or two months ago… Like dude, everyone knows the RTS is supposed to connect SG to their train network, which is at JB Sentral. What do you meant you only decided to build a better connection only when RTS is about to open???",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Jmev Neta All these gibberish sounding brands",
+        "post_id": "t3_1y2bg3a",
+        "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 75,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Ngl so many of them sound Chatgpt generated Xpeng Zeekr AION Young Wang Deepal",
+        "post_id": "t3_1y2bg3a",
+        "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 33,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Embarrassingly, my wife and I originally assumed Deepal to be an Indian EV Brand 😅",
+        "post_id": "t3_1y2bg3a",
+        "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 38,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Many are just using Singapore as a stepping stone for overseas education and migrating there.",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 50,
+        "intensity": "strong"
+      },
+      {
+        "text": "In our local universities, these Mainland scholars openly talk about enjoying the free ride scholarships from our MOE and easily breaking the bond of working locally in Singapore for a few years.",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Bro they follow the rules only if it benefit them. Lol",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "\"Genuine\" like genuine leather?",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 22,
+        "intensity": "strong"
+      },
+      {
+        "text": "Dreaming lol",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 32,
+        "intensity": "strong"
+      },
+      {
+        "text": "I can understand the frustration the family may be feeling if they feel the hospital is not being honest or forthcoming in their follow-up on this matter.",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Its true that they are really really slow. Unless its life threatening, expect to wait for hours",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "Had a recent A&E -> B2 experience recently and it was pretty bad.",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": -7,
+        "intensity": "strong"
+      },
+      {
+        "text": "when i tried to request for the patient's medical records so that I could get them reviewed, I was told that they don't provide it, which feels oddly backdated.",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": -7,
+        "intensity": "strong"
+      },
+      {
+        "text": "She said once she asked for further clarification about the process, the staff told her \" you have asked about it twice, I have told you about it twice, madam.\"",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": -20,
+        "intensity": "strong"
+      },
+      {
+        "text": "Seems like the only way to get answers is to lawyer up.",
+        "post_id": "t3_1y2fd7d",
+        "post_title": "ICU death at KTPH: Daughter responds to hospital’s clarifications, flags ‘inconsistencies’",
+        "subreddit": "singapore",
+        "score": 78,
+        "comment_score": -7,
+        "intensity": "strong"
+      },
+      {
+        "text": "The airport metro projected opening is already slipping into early 2028, for now.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wah quite far this airport",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "a close to midnight arrival in WSI to then start driving to Canberra is a no for me",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This practice is dying out, even though it's part of the FTT. I mean, it's rare for the vehicle to roll back if you do park properly, but I think it's still a good precautionary measure.",
+        "post_id": "t3_1y2es83",
+        "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 44,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If drivers cant even turn on their indicator lights, what makes you think they would turn their wheels when parking on slopes",
+        "post_id": "t3_1y2es83",
+        "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Nah.. all forgot this advice already.",
+        "post_id": "t3_1y2es83",
+        "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I wish there are more venues to learn dialect (方言) in Singapore",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 53,
+        "intensity": "strong"
+      },
+      {
+        "text": "The graphic mentions learndialect.sg but even its expensive for online classes only ($200)",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 53,
+        "intensity": "strong"
+      },
+      {
+        "text": "Ngl these days, even in SAF there is little use of dialects",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 26,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah but only certain months and I missed the window",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Honestly we are really too stringent on enforcing Mandarin-only media",
+        "post_id": "t3_1y2e8wi",
+        "post_title": "More than just words: What Singapore’s fading Chinese dialects hold",
+        "subreddit": "singapore",
+        "score": 63,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Such a sad state of affairs.",
+        "post_id": "t3_1y2iq6a",
+        "post_title": "Judge places 3 teen siblings in different homes after finding their parents unfit to care for them",
+        "subreddit": "singapore",
+        "score": 35,
+        "comment_score": 20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My mom has this Golden Uterus Syndrome - where she treats us children as her gold investments.",
+        "post_id": "t3_1y2iq6a",
+        "post_title": "Judge places 3 teen siblings in different homes after finding their parents unfit to care for them",
+        "subreddit": "singapore",
+        "score": 35,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still miss that cat though, unexpected passing last year from kidney issues.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Including the 30-day quarantine at AQC, we'll have been apart for almost 6 months by the time they're discharged. I don't know how I'm going to get through the next few months. My days are already pretty messed up.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The animals are very stressed. Not through anyone fault but the noises are horrible. My dog is very nervous and got quite aggressive from stress.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's a pretty awful place. The animals are very stressed.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There's no walks. There's a small exercise yard but it's like 8m x 5m or something. It sucks at the time but my dog is fine now.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm looking for a fiction book club myself but can't seem to find any. The ones that exist don't seem to be a fixed group of people and I would really rather get to know people.",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I face the same challenges too where I joined one in poly and uni but the clubs didn't stick.",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I have posted before on setting up fiction book clubs but didnt gain any traction or interest.",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've seen some pretty nasty things being washed at laundromats…",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 22,
+        "intensity": "strong"
+      },
+      {
+        "text": "Cost adds up You don't just have to walk 5 minutes back and forth, you have to do it while carrying all your shit",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "Then spend an hour or more waiting for the laundry cycle to be done... Or walk there 5 mins, start the wash cycle, walk back 5 mins... Then walk another 5 mins to move stuff to the dryer, then walk back 5 mins.... Then walk back to the laundromat for 5 mins to collect the dry clothes... Then walk 5 mins back home again........... Sounds like a pain, lol.",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "My experience with dual use ones is the dryer isn't very good. I put clothes in for 2 hours and it's only half dry or still damp",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "IMO lugging a trolley around is still kind of a hassle that I'd rather just carry it anyways, but that's just me.",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Oh my! It's so bad because now it's just LTE, not even 4G!",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Since yesterday and today, woodland side my phone keep showing me having 4g+ not even 5g not sure with other area in sg 😅",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No 5G have been the nickname of SIMBA for some time, due to constraints on the bands",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "their showroom is nicer than their portfolio",
+        "post_id": "t3_1y2inzm",
+        "post_title": "Recommend some carpenters that can customise ikea kitchen and shelves.",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I tried this once and i had to spend a long time filling out the customs declaration form at the post office because the small touch screen is a lot slower than using a desktop browser.",
+        "post_id": "t3_1y2nfq4",
+        "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I have prudential myself and I find it expensive.",
+        "post_id": "t3_1y2hkza",
+        "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Rain will result in surge pricing and or longer waiting times for private hire/taxis.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's started raining every day since beginning of this month (November)",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Rain for an hour then the sun comes out and you sweat in the 95% humidity with the rest of us",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Rain when you are furthest from shelter without an umbrella",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "How dare they exempt migrant workers from the BCRS tax?!",
+        "post_id": "t3_1y1y2pr",
+        "post_title": "Sadia Supermarket instructed to stop selling Red Bull drinks without return label: NEA",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "nepobaby crony BCRS cartel strikes again!",
+        "post_id": "t3_1y1y2pr",
+        "post_title": "Sadia Supermarket instructed to stop selling Red Bull drinks without return label: NEA",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "a lot looks super unrealistic",
+        "post_id": "t3_1y2k7c3",
+        "post_title": "Non-AI ads need a comeback 🤣",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Humans are so wise. Create more things, just so we can recycle properly and with \"convenience\".",
+        "post_id": "t3_1y2ax5c",
+        "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "6 cans only? Why would I need a special bag just for 6 cans? At least make something bigger.",
+        "post_id": "t3_1y2ax5c",
+        "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Maybe the creators came up with the idea while drinking a six pack of beer. Really adds to the whole over-engineered vibe of BCRS.",
+        "post_id": "t3_1y2ax5c",
+        "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "What a waste of time",
+        "post_id": "t3_1y2ax5c",
+        "post_title": "Decathlon, social enterprise unveil upcycled bag made from camping tents to store BCRS cans, bottles",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Mistral is a joke together with the rest of Europe.",
+        "post_id": "t3_1y2iu3j",
+        "post_title": "Mistral expands Singapore operations with science hub to tap demand in key sectors",
+        "subreddit": "SingaporeRaw",
+        "score": 1,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "You got budget anot LOL",
+        "post_id": "t3_1y1zkhp",
+        "post_title": "Are there any jewellers in Singapore who have same level of craftsmanship as that of Bvlgari, Tiffany etc.?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 7,
+        "intensity": "mild"
+      },
+      {
+        "text": "no scientific basis. this is all some roundabout middleman way to pass on insider information from govt to private lah. you're just buying intel.",
+        "post_id": "t3_1y2crie",
+        "post_title": "Roy Phay qimen manifestation",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If it works he long retired already still do thus lj",
+        "post_id": "t3_1y2crie",
+        "post_title": "Roy Phay qimen manifestation",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I normally don't comment to such posts but this is a weird weird post, to me.",
+        "post_id": "t3_1y29yd9",
+        "post_title": "SG Women - babygrayce vs dionislovespink",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Yeah I try but it's always a double edged sword. Between learning more and learning what's right.",
+        "post_id": "t3_1y29yd9",
+        "post_title": "SG Women - babygrayce vs dionislovespink",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No idea who that is. AI content are everywhere now (even cute pet videos are AI generated) and it's getting harder to tell whether something is AI or not.",
+        "post_id": "t3_1y29yd9",
+        "post_title": "SG Women - babygrayce vs dionislovespink",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "each month I have trouble hitting the minimum spend of $500",
+        "post_id": "t3_1y2d8pq",
+        "post_title": "UOB Account Minimum Spend",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still find it difficult to spend each month 😂",
+        "post_id": "t3_1y2d8pq",
+        "post_title": "UOB Account Minimum Spend",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Don't really want to go thru the hassle to change banks 😬",
+        "post_id": "t3_1y2d8pq",
+        "post_title": "UOB Account Minimum Spend",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still doesn't make sense to me. If you deposit $4,851, make $2,076, you should have $6,927, not $6,392.71. And you still have a cash balance in there?",
+        "post_id": "t3_1y2p652",
+        "post_title": "Brokerage account does not tally?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still doesn't make sense, bro. Doesn't matter when you deposited the $150, it would be taken into your net deposited, no? The reason why I'm querying so much is because it shows you are missing something in your explanation. Look at your statement, please.",
+        "post_id": "t3_1y2p652",
+        "post_title": "Brokerage account does not tally?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Hardcore grind the hours doesn't make sense",
+        "post_id": "t3_1y20kgy",
+        "post_title": "Should I join Financial Services Audit or IT audit - Big 4 SG",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "it has severely disrespected my boundaries , it will recover next month",
+        "post_id": "t3_1y21rtm",
+        "post_title": "Disrespectfully, WTFiretruck is with the stock market",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And i just realised even if i save 20% it takes 30 months(2.5 YEARS) to save up 6 months worth unless im doing my math wrong",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "With all that i just realised i cant even buy the things ive been wanting to buy like replacing my old cracked s24 phone with a brand new s26 ultra phone to spoil myself",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The competing goals are the hard part, honestly",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "That 2.5-year feeling is familiar. When I first started working, six months felt impossibly far away too, and it made me want to put it off until everything else was sorted.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes, unfortunately you have pointed out that saving 20% is actually slow progress.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "amazing speed!!",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 41,
+        "intensity": "strong"
+      },
+      {
+        "text": "JB dental clinic and other service business gonna huat",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 28,
+        "intensity": "strong"
+      },
+      {
+        "text": "Looks like it's already hitting the 80 km/h top speed on that stretch! With the 5-minute ride and expected fares around S$5–S$7 (RM15–RM21), it's going to be a massive upgrade over the Causeway jam when it opens in Feb 2027.",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "I hope this ease the congestion a bit once the RTS is up and running.",
+        "post_id": "t3_1y2jvon",
+        "post_title": "RTS Full-Speed Test Run(?)",
+        "subreddit": "singapore",
+        "score": 146,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "What do you mean, you don't like having \"BUILD YOUR DREAMS\" plastered on your tailgate? It's a very aspirational slogan. Who doesn't want to build their dreams?",
+        "post_id": "t3_1y2bg3a",
+        "post_title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+        "subreddit": "singapore",
+        "score": 102,
+        "comment_score": 9,
+        "intensity": "mild"
+      },
+      {
+        "text": "Won't it be great if the CEOs and politicians of foreign country liked and had strong personal ties to Singapore.",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "We loved our experience there and have nice memories of China. Our impression of China has improved from our stay and we now go back regularly.",
+        "post_id": "t3_1y1ysg5",
+        "post_title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+        "subreddit": "singapore",
+        "score": 97,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "I learn something new today. Will apply wheel turning if park on slope. 👍",
+        "post_id": "t3_1y2es83",
+        "post_title": "Fewer drivers are turning their wheels, when parking on steep slopes",
+        "subreddit": "singapore",
+        "score": 74,
+        "comment_score": 15,
+        "intensity": "mild"
+      },
+      {
+        "text": "Oh wow it's brand new, I really love these kinds of series.",
+        "post_id": "t3_1y1zrfu",
+        "post_title": "Inside Singapore’s Busiest Trauma Unit: 1 In 5 Severe Cases Die | Inside The Trauma Unit - Part 1",
+        "subreddit": "singapore",
+        "score": 52,
+        "comment_score": 8,
+        "intensity": "mild"
+      },
+      {
+        "text": "Conditions are fine. My cat got a space roughly the size of a phone booth to herself.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It was clean, and it was clear that the staff had interacted with them because she talked to them when they came by while I was there.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 20,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The staff actually interact with them? ah, that's such a relief to hear.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Staff there are doing their part, each booth has aircon and enough space for you to sit cross legged.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I had three cats go through in 2015. I booked one room, air-conditioned with a window. They kept the place spotless.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It was not the worst experience, my three were absolutely fine.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My experience was back in 2017. I have only one cat. He was placed in an airconditioned room, which wasn't big but like what others have said you can sit cross legged inside.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Overall it was a good experience. I had a lot of anxiety putting him there but the staff are really nice.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "good staff and they provide regular updates via email! time will pass quickly, don't worry!",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's reassuring to see many comments praising the staff for the care they provide.",
+        "post_id": "t3_1y2gtt7",
+        "post_title": "Anyone has first-hand knowledge of the conditions inside Animal & Veterinary Quarantine Centre (AQC)?",
+        "subreddit": "askSingapore",
+        "score": 14,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If our interests match, then I am in.",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if we do and you would be keen to join I would be happy to invite you",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Sure I would be up for that!",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "that does sound pretty chill thanks for the heads up it opens a new avenue of exploration",
+        "post_id": "t3_1y2kf29",
+        "post_title": "Are there any fiction-books book clubs in Singapore?",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've been doing that for 6 years now. Works great, no smells, no running to keep your clothes at the first sign of rain",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 22,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm doing this. but I have wfh so it's still ok.",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I opted for the Samsung Bespoke one. That offers a feature called Cupboard dry. Your clothes will be fully dry and you simply need to fold them and put them back inside your wardrobe.",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "sometimes i feel it's more convenient tbh, especially if u cook often. cos if you hang then sometimes your clothes get the cooking smells",
+        "post_id": "t3_1y2fwax",
+        "post_title": "Is needing to use a laundromat weekly a hassle?",
+        "subreddit": "askSingapore",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "So far I have good experience with claiming from AIA for my kids.",
+        "post_id": "t3_1y2hkza",
+        "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I also got accident insurance for my kids, very good especially if your kids have to go daycare.",
+        "post_id": "t3_1y2hkza",
+        "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can buy directly online without any agents with straight through underwriting and policy was issued very fast. Claim also very fast no major issues.",
+        "post_id": "t3_1y2hkza",
+        "post_title": "Parents of SG - which hospital insurance did you get for your baby? Suitable for private hospital care (not public)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Rain isn't a showstopper here.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 19,
+        "intensity": "strong"
+      },
+      {
+        "text": "No rain for December. Just my uninformed hopeful prediction.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "It will be just an hour or so of rain in the afternoon daily (like what's happening now) moving into X'mas then it will miraculously stop raining during X'mas week and it will be bright (very unChristmassy).",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "if you can get past the inconvenience of getting soaked, tropical monsoons are really quite beautiful.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's not going to do your outdoor plans any favours, but it won't outright cancel them most of the time either.",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Actually I prefer rainy days cos it's not scorching hot",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Past years the weather has been more erratic and it may not even rain at all!",
+        "post_id": "t3_1y2fiz4",
+        "post_title": "Travelling to Sg in Dec - bad weather?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "If you see what they both pleaded guilty to, it's fairly straightforward that the lawyer lady will win.",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Big win for the lawyers",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 11,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If its good, I don't mind",
+        "post_id": "t3_1y2k7c3",
+        "post_title": "Non-AI ads need a comeback 🤣",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Saving $2,800 out of $4,800 is very good progress already. I would say there is no need to further tighten your belt until a point that you feel no joy in living.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What shifted it for me was treating the buffer as something to build in layers rather than all at once. A first small cushion that could cover a surprise bill felt very different from having nothing, even though it was not the full six months yet.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If your savings rate is 50%, then working 1 month is actually putting 1 month into retirement.",
+        "post_id": "t3_1y28gjo",
+        "post_title": "How do you save up 6 months of emergency savings",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "RTS Link Cross-Border Rail Progress Updates",
+      "engagement_score": 146,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "RTS Full-Speed Test Run(?)",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2jvon/rts_fullspeed_test_run/"
+        }
+      ],
+      "entities": [
+        "RTS",
+        "JB Sentral",
+        "Causeway",
+        "Johor Bahru",
+        "Cross-Border Transport"
+      ]
+    },
+    {
+      "topic": "Chinese EV Brands Reliability Trust Issues",
+      "engagement_score": 102,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Chinese electric car brand JMEV shuts down showroom one year after opening",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2bg3a/chinese_electric_car_brand_jmev_shuts_down/"
+        }
+      ],
+      "entities": [
+        "JMEV",
+        "EV",
+        "Chinese Investments",
+        "Consumer Protection"
+      ]
+    },
+    {
+      "topic": "Singapore Scrutinising Chinese Investment Abuse Risks",
+      "engagement_score": 97,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "S'pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+          "url": null
+        }
+      ],
+      "entities": [
+        "PM Wong",
+        "Chinese Investments",
+        "Money Laundering",
+        "Family Offices",
+        "MAS"
+      ]
+    },
+    {
+      "topic": "KTPH ICU Death Hospital Accountability Concerns",
+      "engagement_score": 130,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "ICU death at KTPH: Daughter responds to hospital's clarifications, flags 'inconsistencies'",
+          "url": null
+        },
+        {
+          "title": "Inside Singapore's Busiest Trauma Unit: 1 In 5 Severe Cases Die | Inside The Trauma Unit - Part 1",
+          "url": null
+        }
+      ],
+      "entities": [
+        "KTPH",
+        "ICU",
+        "Healthcare",
+        "Hospital Accountability",
+        "MOH"
+      ]
+    },
+    {
+      "topic": "PM Wong Diplomacy Australia SIA Inaugural Flight",
+      "engagement_score": 74,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2msd1/pm_lawrence_wong_to_take_sias_inaugural_flight_to/"
+        }
+      ],
+      "entities": [
+        "PM Wong",
+        "SIA",
+        "Western Sydney International Airport",
+        "Australia",
+        "Diplomacy"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "RTS Link Optimism Cuts Through a Week of Institutional Distrust and Consumer Protection Anxiety",
+    "key_takeaways": [
+      "Overall sentiment intensity is cooling across all three dimensions (fears -34%, frustrations -14%, optimism -19%), but frustration remains the dominant mode at 77 counts — suggesting Singaporeans are less panicked but persistently dissatisfied with institutional accountability, particularly in healthcare (KTPH ICU case) and governance (PM Wong's public reminder on investment abuse).",
+      "The RTS Link is the week's single brightest signal: the 80 km/h test run generated the highest engagement cluster (+146 upvotes across multiple comments), with community focus rapidly shifting from 'will it happen?' to 'what comes after?' — specifically last-mile connectivity gaps and cross-border service spillover into JB businesses (dental, F&B, services).",
+      "Chinese EV brand trust is eroding through a surprisingly powerful vector: brand name mockery. Comments comparing names like 'Xpeng,' 'Zeekr,' and 'Young Wang' to AI-generated gibberish, combined with the JMEV showroom closure leaving buyers stranded, signal that Chinese EV brands face a dual credibility problem in Singapore — product reliability AND brand legitimacy — that goes beyond typical market skepticism.",
+      "Consumer protection in big-ticket purchases is an emerging gap narrative: the JMEV closure leaving buyers without recourse (+102 upvotes) is crystallising a broader anxiety that Singapore's regulatory framework has not kept pace with the influx of non-traditional brands (EVs, fintech, foreign investment vehicles), creating reputational risk for the city-state's trusted-hub identity.",
+      "The rent tripling concern (+146 upvotes) is quietly persistent beneath louder headlines — cost-of-living anxiety is not fading, it is normalising, which is a warning sign that housing affordability frustration may be shifting from reactive outrage to resigned acceptance, making it harder to detect until it manifests in migration or political sentiment data."
+    ],
+    "opportunities": [
+      "JB-adjacent service businesses (dental clinics, F&B, wellness, retail) should accelerate marketing to Singapore-side audiences now, ahead of the February 2027 RTS opening — the community is already mentally 'pricing in' cross-border convenience, and brands that establish recall before launch will capture first-mover loyalty among the estimated tens of thousands of daily commuters projected to use the link.",
+      "Established Western or Japanese EV brands, as well as local EV distributors with strong after-sales infrastructure, have a narrow window to position against Chinese EV brand fatigue — a targeted campaign emphasising warranty protection, Singapore-registered service centres, and consumer recourse mechanisms would directly address the JMEV-triggered anxiety and differentiate on trust rather than price.",
+      "Healthcare providers and private hospitals can build competitive advantage by proactively publishing transparent ICU and critical care accountability protocols in the wake of the KTPH case — Singaporeans are actively questioning institutional honesty, and a brand that leads with radical transparency (clear escalation paths, independent review commitments) would stand out sharply in a low-trust environment.",
+      "Financial institutions and legal service firms that cater to foreign investors should consider publishing plain-language explainers on Singapore's AML compliance expectations, capitalising on PM Wong's public statement as a timely hook — positioning as 'trusted guides to legitimate investment in Singapore' addresses both the scrutiny narrative and reinforces Singapore's rule-of-law brand for compliant investors."
+    ],
+    "risks": [
+      "The KTPH ICU death case carries significant escalation risk: the daughter's public flagging of inconsistencies in the hospital's account, combined with strong community resonance, follows a pattern seen in past Singapore institutional accountability crises where social media pressure forces official reviews — MOH and public hospital communications teams should prepare holding statements and independent review frameworks before this transitions from Reddit discourse to mainstream media.",
+      "RTS Link hype is real but fragile: the highest-upvoted critical comment (+146) is a detailed, evidence-based argument that JB's transport connectivity beyond the RTS terminus is poorly planned, citing abandoned BRT and ART projects. If last-mile integration visibly lags at launch in February 2027, public sentiment could swing sharply negative, damaging both Singapore-Malaysia bilateral optics and commuter adoption rates — transport planners and operators should proactively communicate the full end-to-end journey experience, not just the cross-border segment.",
+      "The normalisation of rent tripling anxiety is a slow-burn political and talent retention risk: with the +146 upvote comment asking 'how are locals going to survive,' sustained housing cost pressure without visible relief could accelerate skilled local talent considering relocation, particularly among younger HDB-ineligible singles or those priced out of resale markets — a sentiment trend worth tracking monthly for inflection points ahead of any upcoming policy announcements.",
+      "Singapore's trusted financial hub status faces reputational contagion risk if the Chinese investment scrutiny narrative merges publicly with the ongoing money laundering case memory — the community is already drawing explicit parallels to the China gang scandal. Any new high-profile enforcement action or regulatory lapse in the coming weeks could amplify this into a broader narrative about systemic oversight failure, with implications for MAS credibility and foreign direct investment sentiment."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-11-21",
+    "fears": {
+      "direction": "down",
+      "change_pct": -34.0,
+      "intensity_shift": "stable",
+      "previous_count": 50,
+      "current_count": 33
+    },
+    "frustrations": {
+      "direction": "down",
+      "change_pct": -14.4,
+      "intensity_shift": "stable",
+      "previous_count": 90,
+      "current_count": 77
+    },
+    "optimism": {
+      "direction": "down",
+      "change_pct": -18.9,
+      "intensity_shift": "stable",
+      "previous_count": 53,
+      "current_count": 43
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Singapore's Vulnerability to Foreign Exploitation and Money Laundering",
+      "description": "Singaporeans fear that foreign actors, particularly from China, are abusing Singapore's trusted financial and regulatory reputation through illicit activities while authorities turn a blind eye.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "But China investments mainly want to abuse our Singapore trusted position...what do you think all those China family offices in Singapore are doing? And don't forget the huge money laundering scandal by the China gang.",
+        "Or money laundering. Is our government really that naive, or they just chose to turn a blind eye to certain activities until people realise and start to make noise?",
+        "The Communist mentality: following rules are for suckers and the west; the end justifies the means, even if they have to spoil Singapore's reputation."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "JB-Singapore RTS Link: Congestion Relief vs. Infrastructure Skepticism",
+      "description": "Mixed sentiments surround the upcoming RTS Link, with optimism about reduced Causeway congestion countered by frustration over Johor's poor transport planning and fears that bottlenecks will simply shift location.",
+      "category": "frustration",
+      "quote_count": 5,
+      "sample_quotes": [
+        "It will be shit. They never got their shit together. BRT? Abandoned. ART? Abandoned. Even pedestrian connections are bad.",
+        "I wonder how's the connectivity from the RTS endpoint outwards. It looks like the congestion will shift towards crossing customs to be congested at the RTS station itself.",
+        "Looks like it's already hitting the 80 km/h top speed on that stretch! With the 5-minute ride and expected fares around S$5–S$7, it's going to be a massive upgrade over the Causeway jam when it opens in Feb 2027."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Singapore Hospital Care Failures and Lack of Accountability",
+      "description": "Frustration and fear converge around perceived negligence, opacity, and poor patient treatment in Singapore's public hospitals, with families feeling stonewalled when seeking answers.",
+      "category": "frustration",
+      "quote_count": 6,
+      "sample_quotes": [
+        "If KTPH had monitored the blood oxygen levels and instituted care promptly, rather than be delayed in its detection for up to 45 minutes, then the brain would not have become so irreversibly damaged.",
+        "when i tried to request for the patient's medical records so that I could get them reviewed, I was told that they don't provide it, which feels oddly backdated.",
+        "She said once she asked for further clarification about the process, the staff told her 'you have asked about it twice, I have told you about it twice, madam.'"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Pet Quarantine Anxiety vs. Reassuring Ground Realities",
+      "description": "Pet owners oscillate between deep anxiety about Singapore's mandatory animal quarantine conditions and genuine relief upon hearing firsthand accounts of adequate care and cleanliness.",
+      "category": "fear",
+      "quote_count": 8,
+      "sample_quotes": [
+        "It's devastating to think of fact that I'd have to leave my fur-babies there for 30 days and only get to see them once a week. I might drive myself crazy with worry before they even get to SG.",
+        "I've also come across rumors that so many cats have died at AQC. I don't know how much truth there is to these claims, but they only add to my anxiety.",
+        "Conditions are fine. My cat got a space roughly the size of a phone booth to herself."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Distrust of Chinese EV Brands and Mainland Scholar Opportunism",
+      "description": "Singaporeans express cynicism and mockery toward the proliferation of obscure Chinese EV brand names and frustration at Mainland Chinese scholars openly exploiting Singapore's scholarship system with no intention of fulfilling their obligations.",
+      "category": "frustration",
+      "quote_count": 6,
+      "sample_quotes": [
+        "Ngl so many of them sound Chatgpt generated Xpeng Zeekr AION Young Wang Deepal",
+        "Embarrassingly, my wife and I originally assumed Deepal to be an Indian EV Brand 😅",
+        "In our local universities, these Mainland scholars openly talk about enjoying the free ride scholarships from our MOE and easily breaking the bond of working locally in Singapore for a few years."
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "high_engagement",
+      "title": "RTS Link Dominates High-Engagement Conversation",
+      "description": "Six of the ten high-engagement quotes (all scoring +146) are directly related to the RTS Link cross-border rail project, covering topics ranging from fare expectations and speed to downstream congestion concerns and JB connectivity gaps. This concentration of top-scoring quotes around a single topic suggests unusually strong community interest and investment in the project's outcomes.",
+      "category": null,
+      "related_quotes": [
+        "It will be shit. They never got their shit together. BRT? Abandoned. ART (some weird half bus half tram thing)? Abandoned. Light rail? No idea if they are still stuck looking for cronies to bid or what, no news yet. Even pedestrian connections are bad. Their transport minister only announced they would build a quicker walkway to JB Sentral just one or two months ago… Like dude, everyone knows the RTS is supposed to connect SG to their train network, which is at JB Sentral. What do you meant you only decided to build a better connection only when RTS is about to open???",
+        "Looks like it's already hitting the 80 km/h top speed on that stretch! With the 5-minute ride and expected fares around S$5–S$7 (RM15–RM21), it's going to be a massive upgrade over the Causeway jam when it opens in Feb 2027."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Category Outpaces Others by a Wide Margin",
+      "description": "Frustrations account for 77 of 153 total quotes this week (50%), roughly 1.8x the volume of optimism (43) and 2.3x the volume of fears (33). Even after a 14.4% decline from last week, frustrations remain the dominant sentiment category by a substantial margin, indicating a persistent undercurrent of dissatisfaction across the tracked topics.",
+      "category": "frustration",
+      "related_quotes": [
+        "So means what.. just too bad and consumers are being left hung to dry without protection??",
+        "I wonder how's the connectivity from the RTS endpoint outwards. It looks like the congestion will shift towards crossing customs to be congested at the RTS station itself."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Skew Heavily Toward Strong and Moderate Intensity",
+      "description": "Within the frustrations category, only 3 of 77 quotes (4%) are mild, while 35 (45%) are strong and 39 (51%) are moderate. This near-absence of mild frustration suggests that when people express dissatisfaction this week, they do so with significant emotional weight. Topics like consumer protection gaps and Chinese EV brand credibility appear to be driving sharper reactions rather than passive complaints.",
+      "category": "frustration",
+      "related_quotes": [
+        "So means what.. just too bad and consumers are being left hung to dry without protection??",
+        "Ngl so many of them sound Chatgpt generated Xpeng Zeekr AION Young Wang Deepal"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Chinese EV Brand Trust Generating Skeptical Engagement",
+      "description": "Chinese EV brand reliability and naming credibility appear as a trending topic, with two separate high-engagement quotes (+102 each) mocking the unfamiliarity of brand names. This signals an emerging consumer skepticism narrative around Chinese EVs that goes beyond product reliability into brand perception and cultural legibility, which could shape adoption sentiment as these vehicles enter the local market.",
+      "category": "frustration",
+      "related_quotes": [
+        "Jmev Neta All these gibberish sounding brands",
+        "Ngl so many of them sound Chatgpt generated Xpeng Zeekr AION Young Wang Deepal"
+      ],
+      "urgency": "low"
+    }
+  ]
+}
