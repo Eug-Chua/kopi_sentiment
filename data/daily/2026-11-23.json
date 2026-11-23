@@ -1,0 +1,3658 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-11-23",
+  "report_date": "2026-11-23",
+  "generated_at": "2026-11-23T16:22:43.906567",
+  "metadata": {
+    "total_posts_analyzed": 36,
+    "total_comments_analyzed": 438,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Anxieties today cluster around aging parents and personal safety, with Singaporeans expressing worry about elderly relatives living alone after the Tampines flat tragedy prompted calls for home monitoring systems. Youth crime is unsettling residents too — a 16-year-old punching a police officer at Bedok Reservoir sparked concern about whether antisocial behaviour is worsening. On a broader front, geopolitical unease around the South China Sea code of conduct and Singapore-China bilateral dealings reflects a quieter but persistent undercurrent of strategic uncertainty. Market volatility is also rattling some investors, with CPF-linked portfolios and equities prompting nervous questions about whether now is a buying opportunity or a warning sign.",
+      "quote_count": 42,
+      "intensity_breakdown": {
+        "mild": 6,
+        "moderate": 28,
+        "strong": 8
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration is running hot and wide today. PM Lawrence Wong's trip on SIA's inaugural flight to Western Sydney International Airport drew sharp criticism, with many Singaporeans sceptical about the airport's viability — complaints about its distance from Sydney's CBD and a metro connection still years away dominated the thread. Closer to home, the new Punggol ActiveSG Sport Centre is already drawing gripes about overcrowding before the novelty has worn off, while GrabHitch drivers vented strongly about an app flaw that punishes acceptance rates and traps them in a cancellation catch-22. The ESG career space and Singapore's widening pay gaps for 132 roles also fuelled frustration, with workers feeling the job market rewards the already-privileged and leaves career switchers navigating murky terrain.",
+      "quote_count": 75,
+      "intensity_breakdown": {
+        "mild": 9,
+        "moderate": 21,
+        "strong": 45
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Genuine enthusiasm emerged around local creative and tech achievements. Singapore's animated film The Violinist winning two Golden Horse Awards sparked quiet national pride, and a homegrown MRT simulation tool built on GTFS data drew effusive praise from commuters who marvelled at its accuracy down to 18 seconds. IU's confirmed National Stadium concert in March generated excitement among fans, even if ticketing anxieties lurked beneath the surface. The optimism today feels earned and specific — rooted in local ingenuity and cultural wins rather than broad positivity.",
+      "quote_count": 47,
+      "intensity_breakdown": {
+        "mild": 7,
+        "moderate": 12,
+        "strong": 28
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 181,
+      "top_posts": [
+        {
+          "id": "t3_1y3511h",
+          "title": "MRT/LRT train simulation based on scheduled timings",
+          "url": "https://www.reddit.com/r/singapore/comments/1y3511h/mrtlrt_train_simulation_based_on_scheduled_timings/",
+          "score": 119,
+          "num_comments": 22,
+          "created_at": "2026-11-23T01:00:43.426000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y3511h",
+            "post_title": "MRT/LRT train simulation based on scheduled timings",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A user expresses mild annoyance at the disclaimer about the simulation being based on timetable data rather than live tracking, using 'irks' to describe their reaction.",
+              "quotes": [
+                {
+                  "quote": "Nice work. But it actually irks me a lot seeing the text \"Based on timetable, not 100% live\".",
+                  "score": -6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Users express enthusiastic appreciation and excitement about the tool, with multiple compliments about the animations, interface, accuracy, and practical utility for planning trips.",
+              "quotes": [
+                {
+                  "quote": "Just opened this while on the train, off by about 18 seconds which is quite close!",
+                  "score": 40
+                },
+                {
+                  "quote": "Nice animations and interface! Also recently found out about the GTFS dataset as well.",
+                  "score": 5
+                },
+                {
+                  "quote": "I use the busrouter web app that you created check for bus lines. Thank you! Really neat visualisation",
+                  "score": 3
+                },
+                {
+                  "quote": "coolest thing i've seen today! thanks for making this",
+                  "score": 1
+                },
+                {
+                  "quote": "Fun!",
+                  "score": 1
+                },
+                {
+                  "quote": "This will be very helpful in planning trips. Thanks!",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2msd1",
+          "title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2msd1/pm_lawrence_wong_to_take_sias_inaugural_flight_to/",
+          "score": 118,
+          "num_comments": 25,
+          "created_at": "2026-11-22T11:01:03.083000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2msd1",
+            "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "There are cautious concerns that WSI may become primarily a cargo airport similar to Montreal's Mirabel, though the commenter acknowledges Sydney's different circumstances and metropolitan connectivity that may prevent this outcome.",
+              "quotes": [
+                {
+                  "quote": "I don't think it'll be like Mirabel in Montreal. It's a similar distance from the CBD, but Sydney is such a huge sprawling city that it's not that far away from a lot of it, and, it's going to be connected by a metro sometime in the next six months. On top of that, Sydney's main airport is already heavily constrained so they need this extra capacity. It still could end up as a primarily cargo airport though.",
+                  "score": 14
+                },
+                {
+                  "quote": "It still could end up as a primarily cargo airport though.",
+                  "score": 14
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express significant frustration about WSI's inconvenient location, poor public transport connections requiring transfers, expensive/long commutes to Sydney CBD, and the impractical urban planning decisions, with sarcastic and emphatic language reflecting genuine annoyance with the airport's accessibility.",
+              "quotes": [
+                {
+                  "quote": "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots",
+                  "score": 35
+                },
+                {
+                  "quote": "The airport metro projected opening is already slipping into early 2028, for now.",
+                  "score": 10
+                },
+                {
+                  "quote": "even when opened , its not even convenient. need to transfer at St Marys before u can get into CBD via T1 Western Line. i dont know which city planner decided on such an arrangement. it's so stupid.",
+                  "score": 1
+                },
+                {
+                  "quote": "SIA better be offering me a few hundred dollars cheaper to get to WSI because of how inconvenient it is.",
+                  "score": 1
+                },
+                {
+                  "quote": "At least Orly has LCC traffic. I foresee WSI to be nothing more than a Mirabel, because it is so convenient to get to Sydney CBD from Kingsford Smith.",
+                  "score": 1
+                },
+                {
+                  "quote": "Wah quite far this airport, I guess great for Parramatta Cabramatta Penrith folks.",
+                  "score": 4
+                },
+                {
+                  "quote": "When SIA first announced it, I was surprised due to distance. Metro to Sydney CBD not ready until mid next year. Lots of complaints from early users. Some international passengers did not realise is it the usual Syney airport.",
+                  "score": 2
+                },
+                {
+                  "quote": "I hope he will also be taking the \"temporary\" bus 860 to connect to the T2 and then T8 lines for the 2-hour commute into town, just for the full Western Sydney experience.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "One commenter expresses genuine enthusiasm about WSI's potential benefits for regional travelers from Canberra, highlighting convenient timing for international flights and cost savings by avoiding Sydney CBD congestion and accommodation expenses.",
+              "quotes": [
+                {
+                  "quote": "I live in Canberra and if the coaches start going there (Flixbus has, I don't think Murray's has confirmed) WSI will probably become my preferred international airport over SYD. I'll be able to get in to Singapore early in the morning on the flight that leaves at midnight, and I'll be getting back home early in the morning too if I get the bus back. If I drive myself, I also get to avoid the M5 which is usually really busy depending on the time of day, and if I take the train from Canberra, I won't have to spend the night in Sydney like I do now.",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2nrjp",
+          "title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2nrjp/msian_man_38_cant_find_underwear_from_recycling/",
+          "score": 117,
+          "num_comments": 24,
+          "created_at": "2026-11-22T12:01:19.905000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2nrjp",
+            "post_title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A casual, tongue-in-cheek complaint about the inefficiency of the criminal's methods, using light humor and sarcasm rather than expressing genuine outrage.",
+              "quotes": [
+                {
+                  "quote": "why can't he just buy them online like a normal creep smh. support small local businesses, man",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A sarcastic or ironic comment that mockingly encourages someone's questionable behavior, delivered with casual emoji support rather than genuine enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "Keep fighting the good fight brother 👊🏻",
+                  "score": 10
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2p9x2",
+          "title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2p9x2/golden_horse_awards_2026_singapores_the_violinist/",
+          "score": 111,
+          "num_comments": 9,
+          "created_at": "2026-11-22T13:25:09.095000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2p9x2",
+            "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "One commenter noted minor technical issues with animation and voice acting, but tempered this with appreciation for the story and educational value.",
+              "quotes": [
+                {
+                  "quote": "A bit janky animation and va but the story quite good, learnt some stuff about sg",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Commenters express genuine enthusiasm and pride for the film's success, with hopes for additional awards and appreciation for its storytelling, music, and multilingual performances.",
+              "quotes": [
+                {
+                  "quote": "Hope they also win Best Original Film Score to make it 3 out of 3!",
+                  "score": 24
+                },
+                {
+                  "quote": "Yay! Good movie.",
+                  "score": 8
+                },
+                {
+                  "quote": "Well done!",
+                  "score": 4
+                },
+                {
+                  "quote": "Great Singaporean movie. Watch it in Mandarin or Dialect(?) if possible, the performance is better there than in English. Amazing music, and a bittersweet ending for sure.",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y392lw",
+          "title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+          "url": "https://www.reddit.com/r/singapore/comments/1y392lw/sorry_daddy_daughters_tearful_farewell_to/",
+          "score": 104,
+          "num_comments": 36,
+          "created_at": "2026-11-23T04:30:31.616000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y392lw",
+            "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is genuine concern about elderly parents' safety and vulnerability, with practical worries about inadequate monitoring and systemic issues in housing policy that separate families. The fear is expressed as a real life-or-death concern rather than panic.",
+              "quotes": [
+                {
+                  "quote": "my parents are in their early 60s and I've been pushing for the installation of cam monitors in the house but they staunchly refused even after I explained this could be a life or death situation",
+                  "score": 35
+                },
+                {
+                  "quote": "Well gahmen decided houses to be smaller so families can be separated. More to come in aging society",
+                  "score": -5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Sharp frustration is evident across multiple dimensions—with invasive monitoring, filial expectations that feel burdensome, children's poor communication habits, and perceived sensationalism in media coverage. The tone reflects exasperation and cynicism, particularly in the use of colloquial expressions like 'knn' and complaints about hypocrisy.",
+              "quotes": [
+                {
+                  "quote": "Those daily 'Good Morning' messages with AI generated oversaturated images are no joke…",
+                  "score": 39
+                },
+                {
+                  "quote": "No one likes to be monitored like a house pet",
+                  "score": 52
+                },
+                {
+                  "quote": "don't visit don't give allowance nehmind but knn one WhatsApp call also no time ah delaynomore",
+                  "score": 15
+                },
+                {
+                  "quote": "reads like an ad for funeral guru ngl",
+                  "score": 11
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "A gentle, reflective reminder that prioritizing parental contact is worthwhile, presented as a constructive takeaway rather than enthusiastic encouragement. The sentiment is hopeful but measured and pragmatic rather than emotionally charged.",
+              "quotes": [
+                {
+                  "quote": "This is a good reminder for all of us with parents who are still alive that no matter how busy our lives get, we can surely spend a few minutes to call our parents or take half a day to visit them over the weekends",
+                  "score": 15
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y37r94",
+          "title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+          "url": "https://www.reddit.com/r/singapore/comments/1y37r94/teen_16_arrested_for_allegedly_punching_police/",
+          "score": 81,
+          "num_comments": 31,
+          "created_at": "2026-11-23T03:19:50.620000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y37r94",
+            "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Commenters express concern about younger generations becoming increasingly problematic, with worries about their physical development, behavior, and future trajectories. The concern is noticeable but framed through rhetorical questioning rather than urgent alarm.",
+              "quotes": [
+                {
+                  "quote": "Bruh, so young already act like a gangster. When old how leh?",
+                  "score": 29
+                },
+                {
+                  "quote": "Teens nowadays are no joke. That day I had a sec school kid in his uniform standing beside me on the train. He was 1 head taller and bigger than me. I'm 178, 80kg. What in the world are parents feeding their kids?",
+                  "score": 32
+                },
+                {
+                  "quote": "All these younger gen are the ones with issues. Should look deep into their own shit seriously",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong frustration is evident regarding inadequate police officer welfare, permissive parenting practices, and perceived inconsistency in age-based punishment systems. The tone is emphatic and passionate, with detailed critiques and exclamation marks expressing deep dissatisfaction with current circumstances and policies.",
+              "quotes": [
+                {
+                  "quote": "Can we have more welfare for police officers who is the first line to guarding our country security? Only 2 days mc after getting punched? Damn not worth it...",
+                  "score": 15
+                },
+                {
+                  "quote": "I will get downvoted for this but gentle parenting is a huge culprit. Most parents do not adopt gentle parenting properly. For gentle parenting, you do NEED to set boundaries and some form of punishment. The problem with parents nowadays is to them, gentle parenting means letting their child do whatever they want with zero repercussion. Heck, during NS, a parent contacted our Encik because they felt that their son should not be given extra duty DESPITE reporting late for first parade three times.",
+                  "score": 23
+                },
+                {
+                  "quote": "I can never understand why there's age limit to punishment. Whether he's 13 or 30 punching someone leads to the same consequences, someone getting hurt",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y38yx8",
+          "title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+          "url": "https://www.reddit.com/r/singapore/comments/1y38yx8/asiaonecom_man_voices_concern_after_seeing_people/",
+          "score": 51,
+          "num_comments": 15,
+          "created_at": "2026-11-23T04:24:50.880000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y38yx8",
+            "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is genuine concern about wildlife conservation and documented safety risks from toxic crabs, though expressed in a measured rather than alarmist tone. The mention of past deaths adds weight to the concern without hysteria.",
+              "quotes": [
+                {
+                  "quote": "And conservation of the local wildlife is also important",
+                  "score": 2
+                },
+                {
+                  "quote": "And there have been reports in the past of migrant workers catching and eating toxic crabs here which cost them their lives",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express sharp frustration about indiscriminate catching, cultural ignorance among newcomers and tourists, and inaction on the issue, with some using dismissive language ('morons') and urgent calls for prevention. The tone conveys exasperation and a sense that existing problems are being ignored despite past incidents.",
+              "quotes": [
+                {
+                  "quote": "I honestly think it is because many people have no roots here, they think these crabs are the crabs back in their hometown and no wise seniors to tell them otherwise.",
+                  "score": 11
+                },
+                {
+                  "quote": "We ranted at the swarm of tourists who came and stripped a part of our coastline of shellfish and other critters, we should take action to prevent indiscriminate catching of critters in our backyard",
+                  "score": 2
+                },
+                {
+                  "quote": "Idk sounds like a self resolving problem if the crabs have toxins in them and these morons eat them",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "There is cautious optimism about education and information-sharing as solutions, expressed through supportive engagement and suggestions for awareness boards. The sentiment is hopeful but tempered and indirect rather than enthusiastic.",
+              "quotes": [
+                {
+                  "quote": "Interesting trivia, the wait was worthwhile and here's my upvote 😄",
+                  "score": 4
+                },
+                {
+                  "quote": "I figure education as a whole for all.. would be good if like the PCN near my place which has boards with information about the critters and plants (hopefully people read them)",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2shxi",
+          "title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2shxi/spore_artist_allegedly_owes_s10800_in_rent_leaves/",
+          "score": 49,
+          "num_comments": 11,
+          "created_at": "2026-11-22T15:53:32.228000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2shxi",
+            "post_title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about the enforceability of legal action, with worry that the person responsible may not appear in court, making resolution unlikely.",
+              "quotes": [
+                {
+                  "quote": "Good luck taking this matter to the courts, highly likely the guy is not gonna show up",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is clear frustration about the lack of transparency in naming the accused party and skepticism about the adequacy of existing penalties for such violations.",
+              "quotes": [
+                {
+                  "quote": "What's the point when no name is named. Lol",
+                  "score": 18
+                },
+                {
+                  "quote": "On top can we fine for late payment also",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3963i",
+          "title": "IU to stage concert at Singapore's National Stadium in March",
+          "url": "https://www.reddit.com/r/singapore/comments/1y3963i/iu_to_stage_concert_at_singapores_national/",
+          "score": 47,
+          "num_comments": 9,
+          "created_at": "2026-11-23T04:36:00.386000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y3963i",
+            "post_title": "IU to stage concert at Singapore's National Stadium in March",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is genuine concern about bots and scalpers monopolizing ticket sales, though expressed as a conditional worry rather than panic. The mention of \"China bots\" adds specificity to the concern but remains a cautionary statement rather than acute anxiety.",
+              "quotes": [
+                {
+                  "quote": "Not when all the China bots and scalpers wants to buy up all the seats.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration with the recurring problem of tickets being depleted by bots and scalpers, expressed with the resigned tone typical of Singaporean complaints ('as usual'). The frustration reflects a systemic annoyance rather than explosive anger.",
+              "quotes": [
+                {
+                  "quote": "As usual all the tickets will be wiped out by bots and scalpers",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Enthusiastic excitement about IU's concert is evident through exclamation marks and positive expressions, with genuine hope that the larger National Stadium venue will improve ticket accessibility. The optimism is notably more energetic and emphatic compared to the other emotions.",
+              "quotes": [
+                {
+                  "quote": "IU!! see you at National Stadium in March!",
+                  "score": 7
+                },
+                {
+                  "quote": "yayy national stadium so hopefully higher chance of getting a ticket",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2rgb0",
+          "title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2rgb0/punggol_residents_welcome_new_activesg_sport/",
+          "score": 45,
+          "num_comments": 29,
+          "created_at": "2026-11-22T15:07:26.519000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y2rgb0",
+            "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Residents express noticeable concern about anticipated overcrowding from seasonal fitness enthusiasts returning after New Year, with the imagery of an intimidating crowd surge.",
+              "quotes": [
+                {
+                  "quote": "the new year new me crowd that's coming back in a month's time is scaring me",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Residents express intense frustration about chronic overcrowding, inconsiderate gym etiquette (elderly monopolizing equipment for socializing), inconsistent facility quality across ActiveSG branches despite uniform pricing, and perceived wasted investment on a crowded facility.",
+              "quotes": [
+                {
+                  "quote": "Went to a smaller ActiveSG gym in the past without any seats for resting. So the group of elderly hog the equipments to chit chat for hours.",
+                  "score": 58
+                },
+                {
+                  "quote": "Staff was also an elderly chit chatting with them. Anyway I stop going although other gym require taking bus.",
+                  "score": 30
+                },
+                {
+                  "quote": "our local gym culture is steeped in inconsideration and selfishness.",
+                  "score": 33
+                },
+                {
+                  "quote": "its normal for activesg gyms to be overcrowded.",
+                  "score": 23
+                },
+                {
+                  "quote": "Not all activesg is the same, some are just better than others, yet they charge same price. Eg: CCK vs Jurong Lake",
+                  "score": 8
+                },
+                {
+                  "quote": "Can't even book a pickleball court in the last few weeks. To me, pointless place for all that money and publicity.",
+                  "score": -18
+                },
+                {
+                  "quote": "I do like such community gyms but I think elderly people should go back to their outdoor free workout zones. Its kinda pointless if a gym is crowded with ppl who aren't there to work out.",
+                  "score": -4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "One resident offers casual, tongue-in-cheek optimism that overcrowding will naturally resolve within months as people's New Year fitness resolutions fade, drawing parallels to previous similar trends.",
+              "quotes": [
+                {
+                  "quote": "Give it a while. 6mths to 1 year. It will be like Bukit Canberra hype - died down and hype-less. Come new year everyone will have \"new year resolution to get fit\". Again, same thing, give it 3 months, their lack of determination will show. Gym will become less crowded.",
+                  "score": 32
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 110,
+      "top_posts": [
+        {
+          "id": "t3_1y36m0z",
+          "title": "What are the things Singaporeans grew up believing that aren't actually true?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y36m0z/what_are_the_things_singaporeans_grew_up/",
+          "score": 21,
+          "num_comments": 74,
+          "created_at": "2026-11-23T02:20:38.688000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y36m0z",
+            "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about systemic economic constraints and the cycle of perpetual work, with anxiety about rising retirement ages and limited upward mobility. The worries are expressed thoughtfully rather than as panic, reflecting a resigned awareness of structural limitations.",
+              "quotes": [
+                {
+                  "quote": "if I wanna make it rich or just upper middle class, I can't do it just by being a worker slave which is what the system intends to do",
+                  "score": 9
+                },
+                {
+                  "quote": "if we have babies, that's just prolonging the worker slave cycle",
+                  "score": 9
+                },
+                {
+                  "quote": "Everyday I ask myself: huh I need to work until when? And it's being responded with rising retirement age hahaha",
+                  "score": 9
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Strong anger and resentment are evident toward the worker-wage system, housing affordability, and wealth inequality, with emphatic language like 'HATE' and 'biggest lie ever' conveying intense emotional frustration. The frustration is passionate about systemic inequities affecting younger Singaporeans' prospects.",
+              "quotes": [
+                {
+                  "quote": "this! this is the biggest lie ever!",
+                  "score": 20
+                },
+                {
+                  "quote": "I still HATE that I'm a worker slave here",
+                  "score": 9
+                },
+                {
+                  "quote": "I hate that the BTO is expensive for younger people and all avenues of \"wealth\" is being halted because there's people gaming system",
+                  "score": 9
+                },
+                {
+                  "quote": "Weather still sucks though ngl",
+                  "score": 57
+                },
+                {
+                  "quote": "the lack of land space so only the truly rich can afford to own a backyard",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Deep gratitude and appreciation for Singapore's safety, security, and social systems are expressed with emphatic language and emotional conviction, particularly through comparison with other countries. The optimism reflects genuine and heartfelt recognition of the country's merits despite acknowledged challenges.",
+              "quotes": [
+                {
+                  "quote": "Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else",
+                  "score": 57
+                },
+                {
+                  "quote": "Singapore is a great place to stay, and those people know it",
+                  "score": 8
+                },
+                {
+                  "quote": "back then I missed Singapore",
+                  "score": 9
+                },
+                {
+                  "quote": "singapore absolutely does not suck",
+                  "score": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2x9sr",
+          "title": "Exploring Singapore like a local",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2x9sr/exploring_singapore_like_a_local/",
+          "score": 13,
+          "num_comments": 11,
+          "created_at": "2026-11-22T19:12:16.726000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2x9sr",
+            "post_title": "Exploring Singapore like a local",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The speaker expresses casual, understated positive sentiment about their visit to Singapore, using measured language typical of reserved appreciation.",
+              "quotes": [
+                {
+                  "quote": "I quite enjoyed it when I visited it some time ago.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2m23e",
+          "title": "Simba 5G network issues since the update. Is it just me?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2m23e/simba_5g_network_issues_since_the_update_is_it/",
+          "score": 8,
+          "num_comments": 19,
+          "created_at": "2026-11-22T10:14:34.517000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2m23e",
+            "post_title": "Simba 5G network issues since the update. Is it just me?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Users express concerns about potential bandwidth issues and device compatibility with 5G bands, but these are presented casually with humor rather than serious worry.",
+              "quotes": [
+                {
+                  "quote": "Hope they r not using someone else's bandwidth 😂",
+                  "score": 6
+                },
+                {
+                  "quote": "if you are using iPhone 12 series, you will not get 5G as it does not support any of singapore's 5G SA bands",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users show clear dissatisfaction with inconsistent network performance (4G+ instead of 5G) and acknowledge Simba's ongoing reputation for poor 5G service, expressing frustration through resigned comments and emoji.",
+              "quotes": [
+                {
+                  "quote": "Since yesterday and today, woodland side my phone keep showing me having 4g+ not even 5g not sure with other area in sg 😅",
+                  "score": 2
+                },
+                {
+                  "quote": "Oh my! It's so bad because now it's just LTE, not even 4G! Okay, I guess I'll have to wait for updates?",
+                  "score": -4
+                },
+                {
+                  "quote": "No 5G have been the nickname of SIMBA for some time, due to constraints on the bands",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y36ct7",
+          "title": "Career switcher into ESG: want to hear from people already in the field",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y36ct7/career_switcher_into_esg_want_to_hear_from_people/",
+          "score": 5,
+          "num_comments": 4,
+          "created_at": "2026-11-23T02:07:45.820000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y36ct7",
+            "post_title": "Career switcher into ESG: want to hear from people already in the field",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about corporate commitment to ESG being dependent on political climate and external incentives rather than genuine values. The worry centers on whether companies will maintain environmental focus or revert to profit-driven behavior depending on government policies.",
+              "quotes": [
+                {
+                  "quote": "Hope the winds change and eventually companies are forced/ incentivised to not kill the earth anymore.",
+                  "score": 5
+                },
+                {
+                  "quote": "Corporates are very much less interested now under Trump (compared to under Biden). But it could well change again with the next elections.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Deep frustration with the hypocrisy and superficiality of corporate ESG efforts, expressed through vivid language ('damn sian') and cynical observations about greenwashing, compliance theater, and prioritizing profit over genuine environmental impact. The tone reflects resignation and disillusionment with the gap between ESG rhetoric and actual corporate behavior.",
+              "quotes": [
+                {
+                  "quote": "No. Still serving clients that are mega polluters. What to do?",
+                  "score": 5
+                },
+                {
+                  "quote": "It's damn sian to work for some billionaire's company chopping down a lot of jungle to kill the earth so his wife and girlfriends can fly to mount e and then go shopping at paragon.",
+                  "score": 5
+                },
+                {
+                  "quote": "It's basically handled like tax minimisation, with a lot of more grey areas which can be exploited.",
+                  "score": 4
+                },
+                {
+                  "quote": "the organization and leadership as a whole just cares about bare compliance and see this more as a risk management play.",
+                  "score": 2
+                },
+                {
+                  "quote": "Just manage your expectations of the industry being a Captain Planet show. Corporates are still money driven at the end.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2rs69",
+          "title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2rs69/carousell_buyer_protection_buy_button_pros_and/",
+          "score": 3,
+          "num_comments": 11,
+          "created_at": "2026-11-22T15:22:04.128000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2rs69",
+            "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Sellers express clear concerns about financial risk through disputes and unclear buyer confirmation procedures. The worries are specific and grounded in potential transaction problems rather than hypothetical panic.",
+              "quotes": [
+                {
+                  "quote": "Risk of disputes and losing your money",
+                  "score": 6
+                },
+                {
+                  "quote": "You also run the risk of them not clicking the confirmation button in the order after they've received the item.",
+                  "score": 4
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users feel notably bothered by communication barriers and additional costs imposed by the buyer protection system. The frustration centers on loss of direct control and convenience rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "once this enabled I can't seems to chat with the seller on that item, even if it's to ask some questions about product",
+                  "score": 1
+                },
+                {
+                  "quote": "As a buyer, I prefer to deal directly due to additional charges.",
+                  "score": -4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Sellers express enthusiastic positivity about the SPX delivery convenience, reduced buyer friction, and positive transaction experiences with multiple successful sales. The language reflects genuine satisfaction and appreciation for the system's benefits.",
+              "quotes": [
+                {
+                  "quote": "Pros is that you get to use carousell spx delivery for just 2sgd. Pickup from your house. Just write the shipping number . Hassle free. And dimensions and weight restriction is generous. I love using it to give away free items",
+                  "score": 18
+                },
+                {
+                  "quote": "Pros Can use spx delivery, super convenient You get less fussy buyers, a lot don't ask questions, just checkout and pay",
+                  "score": 6
+                },
+                {
+                  "quote": "so far so good, haven't encountered any, I've made about 20 orders as a seller",
+                  "score": 6
+                },
+                {
+                  "quote": "I haven't had any issues with that yet thankfully. Good buyers so far.",
+                  "score": 4
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2nfq4",
+          "title": "A question about shipping an overseas item using Singpost's ezy2ship",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2nfq4/a_question_about_shipping_an_overseas_item_using/",
+          "score": 3,
+          "num_comments": 6,
+          "created_at": "2026-11-22T11:42:01.043000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2nfq4",
+            "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Users express clear concern about weight miscalculation leading to financial penalties and item holds, viewing these as significant procedural risks when using Singpost's ezy2ship service.",
+              "quotes": [
+                {
+                  "quote": "However, do ensure you've weighed your item correctly as they do not issue refunds for incorrect weight / allow for top-up.",
+                  "score": 5
+                },
+                {
+                  "quote": "One thing the FAQ does say is that if you pick the drop-off at a Post Office option and it's a Registered Service item, you should hand it to the counter staff, because anything put in the posting box gets treated as ordinary mail. Also if the weight you paid for is off, the counter staff will collect the short payment and your item is held until it's settled.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3bihx",
+          "title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y3bihx/food_safety_course_level_1_easy_to_pass_or_not/",
+          "score": 2,
+          "num_comments": 10,
+          "created_at": "2026-11-23T06:49:57.619000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y3bihx",
+            "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "One commenter expresses clear frustration about the course being a waste of time, though acknowledges it's improved from previous iterations. The tone suggests mild annoyance rather than outrage.",
+              "quotes": [
+                {
+                  "quote": "Absolute waste of time but I heard previous batch goers had to spend 3 days instead of the current 1 day only.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Overwhelming positivity and encouragement throughout, with multiple emphatic reassurances that the course is extremely easy to pass and designed for success. Commenters use casual confident language ('stupidly easy', 'not lying to you', 'how hard can it be') and share reassuring anecdotes to boost confidence.",
+              "quotes": [
+                {
+                  "quote": "It is not there for you to fail",
+                  "score": 1
+                },
+                {
+                  "quote": "Its stupidly easy. Not lying to you. Dont need to prepare much, everything you need will be thought and given during the lesson half. You will also be given ample time for the test half of the day. Most of the testers are very forgiving and helpful.",
+                  "score": 1
+                },
+                {
+                  "quote": "U got brain then won't fail",
+                  "score": 1
+                },
+                {
+                  "quote": "Easy to pass unless you have low language proficiency or never taken any academic examination.",
+                  "score": 1
+                },
+                {
+                  "quote": "You'll fail only if you don't show up",
+                  "score": 1
+                },
+                {
+                  "quote": "My uneducated aunt took the course at 65 years old and passed. I think you should have no issues.",
+                  "score": 1
+                },
+                {
+                  "quote": "Its Level 1. How hard can it be?",
+                  "score": 1
+                },
+                {
+                  "quote": "It's meant for you not to fail",
+                  "score": 1
+                },
+                {
+                  "quote": "LVL1 easy. they even drop hints. refresher still easy. no hints though.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3bntf",
+          "title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y3bntf/grabhitch_system_flaw_app_keeps_pushing_jobs/",
+          "score": 2,
+          "num_comments": 10,
+          "created_at": "2026-11-23T06:59:03.794000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y3bntf",
+            "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Drivers express deep anxiety about account bans and being trapped in a cycle of dependency, fearing that cancellations could force them into full-time driving or financial hardship due to loan obligations.",
+              "quotes": [
+                {
+                  "quote": "if you fall below 50% they will ban you from teh system",
+                  "score": 1
+                },
+                {
+                  "quote": "if u cancel, it affects ur AR. if it happens enough, u might consider converting to a full time driver. and if u stop driving hitch, u will constantly think about the additional $ and support for ur car loans, so u might end up just go back to driving/ convert to full time",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Drivers are intensely frustrated by what they perceive as deliberate system manipulation to suppress acceptance rates and deny incentives, combined with contradictory penalties for both accepting and rejecting rides beyond the stated limit.",
+              "quotes": [
+                {
+                  "quote": "thats their tactic to make the incentives near impossible to achieve. want to earn an extra $$ for doing more deliveries? there were so many conditions such as have 90%+ acceptance rate.. and just like you said in your post the systems are in place to tank your acceptance rate and avoid paying out those extra $$",
+                  "score": 1
+                },
+                {
+                  "quote": "it hurt your rating and use on their platform.. which is weird because hitch suppose to be only at the driver comfort level.. it seem to be a glitch with grab i read somewhere awhile back not fixed",
+                  "score": 1
+                },
+                {
+                  "quote": "it isn't a flaw, it is a sludge. it is designed as intended for their business goals within legal premises",
+                  "score": 1
+                },
+                {
+                  "quote": "but if legal limit is 2, why push more when it had been met... later if i take i get penalized. if dun take also sama lol",
+                  "score": 1
+                },
+                {
+                  "quote": "Grab's software/allocation is really horrid. same company, same software. 6 years ago, they already stack like 3 order even if i havent collected first order. cancelling orders drops AR, takes away incentives",
+                  "score": 1
+                },
+                {
+                  "quote": "back then if my average time between deliveries is short, they kept giving me longer and longer distance. even though i was on a normal bicycle, it gave me distances so far away from where i started from",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y39jjd",
+          "title": "Can I only use my credit card or Cash is necessary?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y39jjd/can_i_only_use_my_credit_card_or_cash_is_necessary/",
+          "score": 0,
+          "num_comments": 23,
+          "created_at": "2026-11-23T04:57:01.844000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y39jjd",
+            "post_title": "Can I only use my credit card or Cash is necessary?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are practical concerns about Singapore's fragmented digital payment infrastructure and the risk of being unable to pay, particularly for tourists unfamiliar with local systems. The worries stem from real experiences of QR code compatibility issues and payment failures.",
+              "quotes": [
+                {
+                  "quote": "Our QR system is a bit fractured and not every app works with every QR code.",
+                  "score": 1
+                },
+                {
+                  "quote": "Singapore has a few different QR version that even local online bank can't scan.",
+                  "score": 1
+                },
+                {
+                  "quote": "I've witnessed multiple times tourists getting to the front of a line and then discovering they cannot pay as they don't even have $10 on them",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Users express mild frustration about the coexistence of digital and cash payments, noting they rarely use cash anymore but older areas still require it. The tone is more observational than emphatic about this inconvenience.",
+              "quotes": [
+                {
+                  "quote": "I haven't used cash in 3 years except for dodgy carousell deals.",
+                  "score": 12
+                },
+                {
+                  "quote": "cash is still king in older areas",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2nni1",
+          "title": "Lost: Blue earbuds case near Yishun Park / Yishun SAFRA (22 Nov, around 6pm)",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y2nni1/lost_blue_earbuds_case_near_yishun_park_yishun/",
+          "score": 0,
+          "num_comments": 0,
+          "created_at": "2026-11-22T11:55:37.772000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y2nni1",
+            "post_title": "Lost: Blue earbuds case near Yishun Park / Yishun SAFRA (22 Nov, around 6pm)",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 67,
+      "top_posts": [
+        {
+          "id": "t3_1y3b3o6",
+          "title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3b3o6/man_appealed_to_sg_united_when_caught_looking_up/",
+          "score": 24,
+          "num_comments": 20,
+          "created_at": "2026-11-23T06:24:25.400000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y3b3o6",
+            "post_title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "Commenter expresses mild concern about the offender's future prospects and social restrictions, with a somewhat sympathetic tone questioning where he can go post-conviction.",
+              "quotes": [
+                {
+                  "quote": "Feel sorry for him...can he even go Geylang? Will they reject him?...that where the rest of us horny guys go to release instead of doing stupid stuff.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration expressed through sarcasm about the 'SG United' appeal and perception of discrimination, with the emoji indicating dismissive cynicism toward the defendant's reasoning.",
+              "quotes": [
+                {
+                  "quote": "SG united lol 🤣",
+                  "score": 2
+                },
+                {
+                  "quote": "Discrimination sia",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2o1y8",
+          "title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2o1y8/remember_the_katong_cyclist_she_is_a_claimant/",
+          "score": 21,
+          "num_comments": 10,
+          "created_at": "2026-11-22T12:18:43.228000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2o1y8",
+            "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about potential insurance refusal based on the driver's intentional actions, raising legitimate worries about financial liability and legal consequences.",
+              "quotes": [
+                {
+                  "quote": "To me the bigger question is will the lady driver's insurance company refuse to pay and she has to do it out of pocket as what she did was intentional and not negligent.",
+                  "score": 10
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Commenters express frustration with the legal system profiting from the case and blame the cyclist for escalating the conflict, reflecting cynicism about the situation and its participants.",
+              "quotes": [
+                {
+                  "quote": "Big win for the lawyers",
+                  "score": 3
+                },
+                {
+                  "quote": "I blame the cyclist more. If you jump on a car you have it coming. At you.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is a measured confidence that the cyclist's case appears straightforward and winnable based on the guilty pleas, though expressed with casual certainty rather than strong enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "If you see what they both pleaded guilty to, it's fairly straightforward that the lawyer lady will win.",
+                  "score": 10
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2k7c3",
+          "title": "Non-AI ads need a comeback 🤣",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2k7c3/nonai_ads_need_a_comeback/",
+          "score": 12,
+          "num_comments": 1,
+          "created_at": "2026-11-22T08:13:13.667000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y2k7c3",
+            "post_title": "Non-AI ads need a comeback 🤣",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "The user expresses a casual concern that many AI-generated ads appear unrealistic, but the tone is light and not emphatic.",
+              "quotes": [
+                {
+                  "quote": "a lot looks super unrealistic",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "The user shows casual acceptance and flexibility, stating they would be open to good ads regardless of method, without strong enthusiasm.",
+              "quotes": [
+                {
+                  "quote": "If its good, I don't mind",
+                  "score": 5
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y39kmi",
+          "title": "Singapore, China reach 29 deals at top bilateral forum",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y39kmi/singapore_china_reach_29_deals_at_top_bilateral/",
+          "score": 5,
+          "num_comments": 3,
+          "created_at": "2026-11-23T04:58:51.700000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y39kmi",
+            "post_title": "Singapore, China reach 29 deals at top bilateral forum",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about potential misuse of bilateral deals, specifically worries about Singapore being used for money laundering or sanctions evasion by mainland Chinese entities.",
+              "quotes": [
+                {
+                  "quote": "I'm sure none of those deals will result in any Singapore washing or trade sanction evasion by mainlanders.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is frustration with the bilateral deals, expressed through sarcastic concern that the news might be upsetting to some readers, suggesting disapproval of the Singapore-China relationship.",
+              "quotes": [
+                {
+                  "quote": "I hope you can put the nsfw tab because some here might get a stroke from reading it",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y36k8v",
+          "title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y36k8v/commentary_a_weak_south_china_sea_code_of_conduct/",
+          "score": 5,
+          "num_comments": 3,
+          "created_at": "2026-11-23T02:18:11.450000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y36k8v",
+            "post_title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concern about potential diplomatic incidents with foreign powers, specifically referencing the historical Terrex incident as a precedent for future seizures or escalations.",
+              "quotes": [
+                {
+                  "quote": "Damn prepare for another Terrex carrier seize soon",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Resigned frustration expressed through sarcasm about formal complaint procedures, suggesting skepticism about the effectiveness of diplomatic channels.",
+              "quotes": [
+                {
+                  "quote": "writing strongly worded letter of complaint?",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Cautious encouragement for Singapore to demonstrate its capabilities and resolve on the international stage, with emphasis on national character and strength.",
+              "quotes": [
+                {
+                  "quote": "Time for $G to show the world what it is made of!",
+                  "score": 0
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y36mwr",
+          "title": "What are the things Singaporeans grew up believing that aren't actually true?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y36mwr/what_are_the_things_singaporeans_grew_up/",
+          "score": 5,
+          "num_comments": 13,
+          "created_at": "2026-11-23T02:21:53.290000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y36mwr",
+            "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about Singapore's vulnerability without PAP governance, expressed as a single hypothetical worry rather than deeply felt anxiety.",
+              "quotes": [
+                {
+                  "quote": "without pap, we will revert back to a fishing village.",
+                  "score": 25
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration about welfare system's lack of dignity and accessibility, combined with casual annoyance about weather, showing noticeable concerns without escalating to outrage.",
+              "quotes": [
+                {
+                  "quote": "There are many people not as fortunate as me in singapore, and they have to be very jialat before they are rendered any help, talk about dignity.",
+                  "score": 10
+                },
+                {
+                  "quote": "Weather still sucks though ngl",
+                  "score": 8
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Intense and passionate gratitude for Singapore's safety, security, and social systems, with repeated emphasis on deep appreciation and favorable comparisons to other countries, expressed through emphatic language and vivid examples.",
+              "quotes": [
+                {
+                  "quote": "Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else.",
+                  "score": 8
+                },
+                {
+                  "quote": "It was a good country to live in. People are not snobs, you have plumber, butcher, lawyer and even a uni prof playing in the pub pool league team.",
+                  "score": 10
+                },
+                {
+                  "quote": "In terms of living, SG by far is one of the best place to live in.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3bdfh",
+          "title": "Heritage buildings",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3bdfh/heritage_buildings/",
+          "score": 3,
+          "num_comments": 0,
+          "created_at": "2026-11-23T06:41:19.977000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y3bdfh",
+            "post_title": "Heritage buildings",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y373u9",
+          "title": "Built a pet-care app after work in Singapore — would local pet owners use this?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y373u9/built_a_petcare_app_after_work_in_singapore_would/",
+          "score": 1,
+          "num_comments": 0,
+          "created_at": "2026-11-23T02:46:07.764000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y373u9",
+            "post_title": "Built a pet-care app after work in Singapore — would local pet owners use this?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3apqv",
+          "title": "Singapore is a toxic shithole",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3apqv/singapore_is_a_toxic_shithole/",
+          "score": 0,
+          "num_comments": 9,
+          "created_at": "2026-11-23T06:02:17.934000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y3apqv",
+            "post_title": "Singapore is a toxic shithole",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear agreement with the negative characterization of Singapore, indicating a definite stance of dissatisfaction without intense emotional language.",
+              "quotes": [
+                {
+                  "quote": "It really is.",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y365rf",
+          "title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y365rf/you_could_earn_3x_more_in_the_same_job_spore_mom/",
+          "score": 0,
+          "num_comments": 13,
+          "created_at": "2026-11-23T01:58:20.080000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y365rf",
+            "post_title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express sharp criticism of the article's methodology and credibility, with accusations of clickbait journalism and misleading data presentation. There is emphatic pushback from professionals who cite inaccuracies in salary comparisons and question the usefulness of publishing flawed information.",
+              "quotes": [
+                {
+                  "quote": "What a trash take. Just because you have the same title as someone doesn't mean you are in the same skill bracket",
+                  "score": 26
+                },
+                {
+                  "quote": "So the article says the data they are writing about is useless? Ok then why post it?",
+                  "score": 13
+                },
+                {
+                  "quote": "This is what your clickbait title says. You could earn 3x more in the same job. Try harder.",
+                  "score": 6
+                },
+                {
+                  "quote": "As a medical professional, and being fully aware of how consultants are paid in public service, the radiologist salary from diagnostic radiology is very weird. We all know that ACs employed by RH are paid a base + clinical allowance and at least in my cluster, the base is fixed across all specialties. The differences arises from the clinical component (which is dependent on specialty, whether you are medical or surgical etc) and I can tell you that base alone already exceeds that amount quoted. Considering the fact that almost all exiting Radiologist are employed by RH, the numbers seem a little off.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 6,
+      "comments_analyzed": 80,
+      "top_posts": [
+        {
+          "id": "t3_1y3bojh",
+          "title": "Buying opportunity?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3bojh/buying_opportunity/",
+          "score": 10,
+          "num_comments": 30,
+          "created_at": "2026-11-23T07:00:16.267000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y3bojh",
+            "post_title": "Buying opportunity?",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Investors express deep anxiety about market crashes, forced liquidation of assets, and the inadequacy of their financial cushion to weather prolonged downturns. The concern is intensified by specific scenarios (20% decline, 2008-style crashes) and multiple references to being \"scared\" and afraid of timing the market incorrectly.",
+              "quotes": [
+                {
+                  "quote": "Imagine if the market declined another 20% and you're stuck with repaying a new mortgage because you refinanced your home. Do you have the holding power (i.e., disposable income) to be able to last months or even years? If not and you have to liquidate other holdings at a loss, where would that leave you both financially and mentally?",
+                  "score": 3
+                },
+                {
+                  "quote": "If borrowed money is deployed too early and the market falls or remains flat, paying back the debt while funding your living expenses can force you to liquidate shares at the bottom, permanently messing with your portfolio.",
+                  "score": 3
+                },
+                {
+                  "quote": "Down can go down somemore. It feels like we haven't seen the bottom yet.",
+                  "score": 3
+                },
+                {
+                  "quote": "Retired all the more your cash position should be larger instead of being exposed to markets. It's only a matter of when not if a 2008 or 2001 style crash happens, and when 70% of whatever you've worked for your entire life is wiped out in the matter of a few months, you're going to regret big time.",
+                  "score": 1
+                },
+                {
+                  "quote": "I am worried that by the time 3 Dec rolls around, the market might have recovered so decided to buy CSPX on margin last Fri at 770.",
+                  "score": 1
+                },
+                {
+                  "quote": "The fed only hiked once - 2 more hikes expected. I am scared because of that, but would scale in",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A single casual complaint ('Backside itchy') that expresses minor annoyance, typical of Singaporean colloquial expression but lacking any substantial elaboration or emphasis.",
+              "quotes": [
+                {
+                  "quote": "Backside itchy",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Investors find solace in long-term resilience of markets and value inner peace over aggressive opportunities, with references to past recoveries and appreciation for financial freedom. The tone is measured and philosophical rather than excited or enthusiastic.",
+              "quotes": [
+                {
+                  "quote": "I've been sitting by the sidelines of this AI bubble for last 2 - 3 yrs. Reminds me so much of the dot com bubble (yeah, jie jie here remembers). Inner peace is a much sought after currency.",
+                  "score": 10
+                },
+                {
+                  "quote": "retirement should be about enjoying the freedom you've worked hard for, not creating new financial obligations. I wouldn't want to put myself in a position where I have to worry about monthly loan repayments, especially when I'm no longer drawing a salary. No potential market opportunity is worth sacrificing that peace of mind.",
+                  "score": 4
+                },
+                {
+                  "quote": "its all relative, u see the previous crashes, covid, tariff, etc all recovered and then some.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y2pdae",
+          "title": "Getting funding for my startup",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y2pdae/getting_funding_for_my_startup/",
+          "score": 0,
+          "num_comments": 14,
+          "created_at": "2026-11-22T13:29:57.005000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y2pdae",
+            "post_title": "Getting funding for my startup",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about Singapore's bankruptcy laws being unfavorable compared to the US, which the commenter believes discourages genuine entrepreneurship and instead incentivizes dependence on government grants.",
+              "quotes": [
+                {
+                  "quote": "Also, Singapore's bankruptcy laws are horrible compared to the US, which is probably why we hardly see any real entrepreneurs, but more grantrepreneurs that only know how to take gahmen money.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3bkql",
+          "title": "Is paying more for faster broadband actually worth it?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3bkql/is_paying_more_for_faster_broadband_actually/",
+          "score": 0,
+          "num_comments": 23,
+          "created_at": "2026-11-23T06:53:44.894000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y3bkql",
+            "post_title": "Is paying more for faster broadband actually worth it?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear disappointment with paid upgrades that failed to deliver expected improvements, noting worse performance or poor coverage despite investing in higher-tier plans or newer equipment.",
+              "quotes": [
+                {
+                  "quote": "My 1gbps plan was upgraded to 10gbps during recontract, and I feel no difference in the speed. Actually the connection was better before.",
+                  "score": 5
+                },
+                {
+                  "quote": "My wifi 7 router (TPlink) has lesser coverage than my ASUS mesh. I added additional router to my TPlink and the mesh seemed to be poor. It has issue penetrating 1 wall. My router is very very near the wall already So it felt like I downgraded even though I upgraded.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "One user expresses genuine satisfaction with faster internet, viewing it as a worthwhile purchase that brings significant personal value and joy.",
+              "quotes": [
+                {
+                  "quote": "yea I pay for faster speed, of all the things you can buy, fast internet access brings the most joy",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3c81g",
+          "title": "Ethena Pay Highest Cashback Card now",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3c81g/ethena_pay_highest_cashback_card_now/",
+          "score": 0,
+          "num_comments": 1,
+          "created_at": "2026-11-23T07:33:34.101000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y3c81g",
+            "post_title": "Ethena Pay Highest Cashback Card now",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y2p652",
+          "title": "Brokerage account does not tally?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y2p652/brokerage_account_does_not_tally/",
+          "score": 0,
+          "num_comments": 8,
+          "created_at": "2026-11-22T13:19:52.124000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y2p652",
+            "post_title": "Brokerage account does not tally?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses persistent confusion and mild irritation about account mathematics not adding up, repeatedly questioning the explanation provided. The tone is skeptical and tenacious rather than angry, using casual language like 'bro' while pushing back on the discrepancy.",
+              "quotes": [
+                {
+                  "quote": "Still doesn't make sense to me. If you deposit $4,851, make $2,076, you should have $6,927, not $6,392.71. And you still have a cash balance in there?",
+                  "score": 1
+                },
+                {
+                  "quote": "Still doesn't make sense, bro. Doesn't matter when you deposited the $150, it would be taken into your net deposited, no? The reason why I'm querying so much is because it shows you are missing something in your explanation.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y38anb",
+          "title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y38anb/what_is_happening_on_endowus_cpf_flagship/",
+          "score": 0,
+          "num_comments": 9,
+          "created_at": "2026-11-23T03:48:11.070000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y38anb",
+            "post_title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about potential AI bubble bursting and market volatility triggered by tech sector decline and leadership changes, though the poster acknowledges uncertainty about whether these fears are justified.",
+              "quotes": [
+                {
+                  "quote": "something something popping the AI bubble etc. Is this necessarily true? No. Is this plausible? Maybe. Does anyone actually know? No.",
+                  "score": 11
+                },
+                {
+                  "quote": "There has been a significant drop in global equities, led by the tech/AI sector, with the Nvidia Jensen Huang resignation being a catalyst that has spread fear and uncertainty.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A brief acknowledgment of market downturn with minimal elaboration, suggesting frustration is present but not intensely expressed.",
+              "quotes": [
+                {
+                  "quote": "Markets crashed",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "The poster expresses confidence based on historical portfolio recovery patterns and a relaxed, unbothered attitude toward market dips, demonstrating faith in long-term resilience.",
+              "quotes": [
+                {
+                  "quote": "both times the port has recovered more than before and i didn't even bother adding more to average lol",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "I don't think it'll be like Mirabel in Montreal. It's a similar distance from the CBD, but Sydney is such a huge sprawling city that it's not that far away from a lot of it, and, it's going to be connected by a metro sometime in the next six months. On top of that, Sydney's main airport is already heavily constrained so they need this extra capacity. It still could end up as a primarily cargo airport though.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 14,
+        "intensity": "mild"
+      },
+      {
+        "text": "It still could end up as a primarily cargo airport though.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 14,
+        "intensity": "mild"
+      },
+      {
+        "text": "my parents are in their early 60s and I've been pushing for the installation of cam monitors in the house but they staunchly refused even after I explained this could be a life or death situation",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 35,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Well gahmen decided houses to be smaller so families can be separated. More to come in aging society",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": -5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Bruh, so young already act like a gangster. When old how leh?",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 29,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Teens nowadays are no joke. That day I had a sec school kid in his uniform standing beside me on the train. He was 1 head taller and bigger than me. I'm 178, 80kg. What in the world are parents feeding their kids?",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 32,
+        "intensity": "moderate"
+      },
+      {
+        "text": "All these younger gen are the ones with issues. Should look deep into their own shit seriously",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And conservation of the local wildlife is also important",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "And there have been reports in the past of migrant workers catching and eating toxic crabs here which cost them their lives",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Good luck taking this matter to the courts, highly likely the guy is not gonna show up",
+        "post_id": "t3_1y2shxi",
+        "post_title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+        "subreddit": "singapore",
+        "score": 49,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Not when all the China bots and scalpers wants to buy up all the seats.",
+        "post_id": "t3_1y3963i",
+        "post_title": "IU to stage concert at Singapore's National Stadium in March",
+        "subreddit": "singapore",
+        "score": 47,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "the new year new me crowd that's coming back in a month's time is scaring me",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if I wanna make it rich or just upper middle class, I can't do it just by being a worker slave which is what the system intends to do",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if we have babies, that's just prolonging the worker slave cycle",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Everyday I ask myself: huh I need to work until when? And it's being responded with rising retirement age hahaha",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Hope they r not using someone else's bandwidth 😂",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "if you are using iPhone 12 series, you will not get 5G as it does not support any of singapore's 5G SA bands",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Hope the winds change and eventually companies are forced/ incentivised to not kill the earth anymore.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Corporates are very much less interested now under Trump (compared to under Biden). But it could well change again with the next elections.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Risk of disputes and losing your money",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You also run the risk of them not clicking the confirmation button in the order after they've received the item.",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "However, do ensure you've weighed your item correctly as they do not issue refunds for incorrect weight / allow for top-up.",
+        "post_id": "t3_1y2nfq4",
+        "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "One thing the FAQ does say is that if you pick the drop-off at a Post Office option and it's a Registered Service item, you should hand it to the counter staff, because anything put in the posting box gets treated as ordinary mail. Also if the weight you paid for is off, the counter staff will collect the short payment and your item is held until it's settled.",
+        "post_id": "t3_1y2nfq4",
+        "post_title": "A question about shipping an overseas item using Singpost's ezy2ship",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "if you fall below 50% they will ban you from teh system",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "if u cancel, it affects ur AR. if it happens enough, u might consider converting to a full time driver. and if u stop driving hitch, u will constantly think about the additional $ and support for ur car loans, so u might end up just go back to driving/ convert to full time",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Our QR system is a bit fractured and not every app works with every QR code.",
+        "post_id": "t3_1y39jjd",
+        "post_title": "Can I only use my credit card or Cash is necessary?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singapore has a few different QR version that even local online bank can't scan.",
+        "post_id": "t3_1y39jjd",
+        "post_title": "Can I only use my credit card or Cash is necessary?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've witnessed multiple times tourists getting to the front of a line and then discovering they cannot pay as they don't even have $10 on them",
+        "post_id": "t3_1y39jjd",
+        "post_title": "Can I only use my credit card or Cash is necessary?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Feel sorry for him...can he even go Geylang? Will they reject him?...that where the rest of us horny guys go to release instead of doing stupid stuff.",
+        "post_id": "t3_1y3b3o6",
+        "post_title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "To me the bigger question is will the lady driver's insurance company refuse to pay and she has to do it out of pocket as what she did was intentional and not negligent.",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 21,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I'm sure none of those deals will result in any Singapore washing or trade sanction evasion by mainlanders.",
+        "post_id": "t3_1y39kmi",
+        "post_title": "Singapore, China reach 29 deals at top bilateral forum",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Damn prepare for another Terrex carrier seize soon",
+        "post_id": "t3_1y36k8v",
+        "post_title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "without pap, we will revert back to a fishing village.",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 25,
+        "intensity": "mild"
+      },
+      {
+        "text": "Imagine if the market declined another 20% and you're stuck with repaying a new mortgage because you refinanced your home. Do you have the holding power (i.e., disposable income) to be able to last months or even years? If not and you have to liquidate other holdings at a loss, where would that leave you both financially and mentally?",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "If borrowed money is deployed too early and the market falls or remains flat, paying back the debt while funding your living expenses can force you to liquidate shares at the bottom, permanently messing with your portfolio.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Down can go down somemore. It feels like we haven't seen the bottom yet.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Retired all the more your cash position should be larger instead of being exposed to markets. It's only a matter of when not if a 2008 or 2001 style crash happens, and when 70% of whatever you've worked for your entire life is wiped out in the matter of a few months, you're going to regret big time.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am worried that by the time 3 Dec rolls around, the market might have recovered so decided to buy CSPX on margin last Fri at 770.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "The fed only hiked once - 2 more hikes expected. I am scared because of that, but would scale in",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Also, Singapore's bankruptcy laws are horrible compared to the US, which is probably why we hardly see any real entrepreneurs, but more grantrepreneurs that only know how to take gahmen money.",
+        "post_id": "t3_1y2pdae",
+        "post_title": "Getting funding for my startup",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "something something popping the AI bubble etc. Is this necessarily true? No. Is this plausible? Maybe. Does anyone actually know? No.",
+        "post_id": "t3_1y38anb",
+        "post_title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There has been a significant drop in global equities, led by the tech/AI sector, with the Nvidia Jensen Huang resignation being a catalyst that has spread fear and uncertainty.",
+        "post_id": "t3_1y38anb",
+        "post_title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "Nice work. But it actually irks me a lot seeing the text \"Based on timetable, not 100% live\".",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": -6,
+        "intensity": "mild"
+      },
+      {
+        "text": "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 35,
+        "intensity": "strong"
+      },
+      {
+        "text": "The airport metro projected opening is already slipping into early 2028, for now.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "even when opened , its not even convenient. need to transfer at St Marys before u can get into CBD via T1 Western Line. i dont know which city planner decided on such an arrangement. it's so stupid.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "SIA better be offering me a few hundred dollars cheaper to get to WSI because of how inconvenient it is.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "At least Orly has LCC traffic. I foresee WSI to be nothing more than a Mirabel, because it is so convenient to get to Sydney CBD from Kingsford Smith.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wah quite far this airport, I guess great for Parramatta Cabramatta Penrith folks.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "When SIA first announced it, I was surprised due to distance. Metro to Sydney CBD not ready until mid next year. Lots of complaints from early users. Some international passengers did not realise is it the usual Syney airport.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I hope he will also be taking the \"temporary\" bus 860 to connect to the T2 and then T8 lines for the 2-hour commute into town, just for the full Western Sydney experience.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "why can't he just buy them online like a normal creep smh. support small local businesses, man",
+        "post_id": "t3_1y2nrjp",
+        "post_title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+        "subreddit": "singapore",
+        "score": 117,
+        "comment_score": 6,
+        "intensity": "mild"
+      },
+      {
+        "text": "A bit janky animation and va but the story quite good, learnt some stuff about sg",
+        "post_id": "t3_1y2p9x2",
+        "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+        "subreddit": "singapore",
+        "score": 111,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Those daily 'Good Morning' messages with AI generated oversaturated images are no joke…",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 39,
+        "intensity": "strong"
+      },
+      {
+        "text": "No one likes to be monitored like a house pet",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 52,
+        "intensity": "strong"
+      },
+      {
+        "text": "don't visit don't give allowance nehmind but knn one WhatsApp call also no time ah delaynomore",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "reads like an ad for funeral guru ngl",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can we have more welfare for police officers who is the first line to guarding our country security? Only 2 days mc after getting punched? Damn not worth it...",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "I will get downvoted for this but gentle parenting is a huge culprit. Most parents do not adopt gentle parenting properly. For gentle parenting, you do NEED to set boundaries and some form of punishment. The problem with parents nowadays is to them, gentle parenting means letting their child do whatever they want with zero repercussion. Heck, during NS, a parent contacted our Encik because they felt that their son should not be given extra duty DESPITE reporting late for first parade three times.",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "I can never understand why there's age limit to punishment. Whether he's 13 or 30 punching someone leads to the same consequences, someone getting hurt",
+        "post_id": "t3_1y37r94",
+        "post_title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+        "subreddit": "singapore",
+        "score": 81,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I honestly think it is because many people have no roots here, they think these crabs are the crabs back in their hometown and no wise seniors to tell them otherwise.",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "We ranted at the swarm of tourists who came and stripped a part of our coastline of shellfish and other critters, we should take action to prevent indiscriminate catching of critters in our backyard",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Idk sounds like a self resolving problem if the crabs have toxins in them and these morons eat them",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "What's the point when no name is named. Lol",
+        "post_id": "t3_1y2shxi",
+        "post_title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+        "subreddit": "singapore",
+        "score": 49,
+        "comment_score": 18,
+        "intensity": "moderate"
+      },
+      {
+        "text": "On top can we fine for late payment also",
+        "post_id": "t3_1y2shxi",
+        "post_title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+        "subreddit": "singapore",
+        "score": 49,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "As usual all the tickets will be wiped out by bots and scalpers",
+        "post_id": "t3_1y3963i",
+        "post_title": "IU to stage concert at Singapore's National Stadium in March",
+        "subreddit": "singapore",
+        "score": 47,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Went to a smaller ActiveSG gym in the past without any seats for resting. So the group of elderly hog the equipments to chit chat for hours.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 58,
+        "intensity": "strong"
+      },
+      {
+        "text": "Staff was also an elderly chit chatting with them. Anyway I stop going although other gym require taking bus.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 30,
+        "intensity": "strong"
+      },
+      {
+        "text": "our local gym culture is steeped in inconsideration and selfishness.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 33,
+        "intensity": "strong"
+      },
+      {
+        "text": "its normal for activesg gyms to be overcrowded.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 23,
+        "intensity": "strong"
+      },
+      {
+        "text": "Not all activesg is the same, some are just better than others, yet they charge same price. Eg: CCK vs Jurong Lake",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Can't even book a pickleball court in the last few weeks. To me, pointless place for all that money and publicity.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": -18,
+        "intensity": "strong"
+      },
+      {
+        "text": "I do like such community gyms but I think elderly people should go back to their outdoor free workout zones. Its kinda pointless if a gym is crowded with ppl who aren't there to work out.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": -4,
+        "intensity": "strong"
+      },
+      {
+        "text": "this! this is the biggest lie ever!",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "I still HATE that I'm a worker slave here",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "I hate that the BTO is expensive for younger people and all avenues of \"wealth\" is being halted because there's people gaming system",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Weather still sucks though ngl",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "the lack of land space so only the truly rich can afford to own a backyard",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "Since yesterday and today, woodland side my phone keep showing me having 4g+ not even 5g not sure with other area in sg 😅",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Oh my! It's so bad because now it's just LTE, not even 4G! Okay, I guess I'll have to wait for updates?",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": -4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No 5G have been the nickname of SIMBA for some time, due to constraints on the bands",
+        "post_id": "t3_1y2m23e",
+        "post_title": "Simba 5G network issues since the update. Is it just me?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "No. Still serving clients that are mega polluters. What to do?",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's damn sian to work for some billionaire's company chopping down a lot of jungle to kill the earth so his wife and girlfriends can fly to mount e and then go shopping at paragon.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's basically handled like tax minimisation, with a lot of more grey areas which can be exploited.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "the organization and leadership as a whole just cares about bare compliance and see this more as a risk management play.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Just manage your expectations of the industry being a Captain Planet show. Corporates are still money driven at the end.",
+        "post_id": "t3_1y36ct7",
+        "post_title": "Career switcher into ESG: want to hear from people already in the field",
+        "subreddit": "askSingapore",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "once this enabled I can't seems to chat with the seller on that item, even if it's to ask some questions about product",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "As a buyer, I prefer to deal directly due to additional charges.",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": -4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Absolute waste of time but I heard previous batch goers had to spend 3 days instead of the current 1 day only.",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "thats their tactic to make the incentives near impossible to achieve. want to earn an extra $$ for doing more deliveries? there were so many conditions such as have 90%+ acceptance rate.. and just like you said in your post the systems are in place to tank your acceptance rate and avoid paying out those extra $$",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "it hurt your rating and use on their platform.. which is weird because hitch suppose to be only at the driver comfort level.. it seem to be a glitch with grab i read somewhere awhile back not fixed",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "it isn't a flaw, it is a sludge. it is designed as intended for their business goals within legal premises",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "but if legal limit is 2, why push more when it had been met... later if i take i get penalized. if dun take also sama lol",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Grab's software/allocation is really horrid. same company, same software. 6 years ago, they already stack like 3 order even if i havent collected first order. cancelling orders drops AR, takes away incentives",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "back then if my average time between deliveries is short, they kept giving me longer and longer distance. even though i was on a normal bicycle, it gave me distances so far away from where i started from",
+        "post_id": "t3_1y3bntf",
+        "post_title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I haven't used cash in 3 years except for dodgy carousell deals.",
+        "post_id": "t3_1y39jjd",
+        "post_title": "Can I only use my credit card or Cash is necessary?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 12,
+        "intensity": "mild"
+      },
+      {
+        "text": "cash is still king in older areas",
+        "post_id": "t3_1y39jjd",
+        "post_title": "Can I only use my credit card or Cash is necessary?",
+        "subreddit": "askSingapore",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "SG united lol 🤣",
+        "post_id": "t3_1y3b3o6",
+        "post_title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Discrimination sia",
+        "post_id": "t3_1y3b3o6",
+        "post_title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+        "subreddit": "SingaporeRaw",
+        "score": 24,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Big win for the lawyers",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 21,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I blame the cyclist more. If you jump on a car you have it coming. At you.",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 21,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "a lot looks super unrealistic",
+        "post_id": "t3_1y2k7c3",
+        "post_title": "Non-AI ads need a comeback 🤣",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "I hope you can put the nsfw tab because some here might get a stroke from reading it",
+        "post_id": "t3_1y39kmi",
+        "post_title": "Singapore, China reach 29 deals at top bilateral forum",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "writing strongly worded letter of complaint?",
+        "post_id": "t3_1y36k8v",
+        "post_title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "There are many people not as fortunate as me in singapore, and they have to be very jialat before they are rendered any help, talk about dignity.",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Weather still sucks though ngl",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It really is.",
+        "post_id": "t3_1y3apqv",
+        "post_title": "Singapore is a toxic shithole",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "What a trash take. Just because you have the same title as someone doesn't mean you are in the same skill bracket",
+        "post_id": "t3_1y365rf",
+        "post_title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 26,
+        "intensity": "strong"
+      },
+      {
+        "text": "So the article says the data they are writing about is useless? Ok then why post it?",
+        "post_id": "t3_1y365rf",
+        "post_title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 13,
+        "intensity": "strong"
+      },
+      {
+        "text": "This is what your clickbait title says. You could earn 3x more in the same job. Try harder.",
+        "post_id": "t3_1y365rf",
+        "post_title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "As a medical professional, and being fully aware of how consultants are paid in public service, the radiologist salary from diagnostic radiology is very weird. We all know that ACs employed by RH are paid a base + clinical allowance and at least in my cluster, the base is fixed across all specialties. The differences arises from the clinical component (which is dependent on specialty, whether you are medical or surgical etc) and I can tell you that base alone already exceeds that amount quoted. Considering the fact that almost all exiting Radiologist are employed by RH, the numbers seem a little off.",
+        "post_id": "t3_1y365rf",
+        "post_title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Backside itchy",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "My 1gbps plan was upgraded to 10gbps during recontract, and I feel no difference in the speed. Actually the connection was better before.",
+        "post_id": "t3_1y3bkql",
+        "post_title": "Is paying more for faster broadband actually worth it?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My wifi 7 router (TPlink) has lesser coverage than my ASUS mesh. I added additional router to my TPlink and the mesh seemed to be poor. It has issue penetrating 1 wall. My router is very very near the wall already So it felt like I downgraded even though I upgraded.",
+        "post_id": "t3_1y3bkql",
+        "post_title": "Is paying more for faster broadband actually worth it?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still doesn't make sense to me. If you deposit $4,851, make $2,076, you should have $6,927, not $6,392.71. And you still have a cash balance in there?",
+        "post_id": "t3_1y2p652",
+        "post_title": "Brokerage account does not tally?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Still doesn't make sense, bro. Doesn't matter when you deposited the $150, it would be taken into your net deposited, no? The reason why I'm querying so much is because it shows you are missing something in your explanation.",
+        "post_id": "t3_1y2p652",
+        "post_title": "Brokerage account does not tally?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Markets crashed",
+        "post_id": "t3_1y38anb",
+        "post_title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "mild"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "Just opened this while on the train, off by about 18 seconds which is quite close!",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 40,
+        "intensity": "strong"
+      },
+      {
+        "text": "Nice animations and interface! Also recently found out about the GTFS dataset as well.",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "I use the busrouter web app that you created check for bus lines. Thank you! Really neat visualisation",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "coolest thing i've seen today! thanks for making this",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Fun!",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "This will be very helpful in planning trips. Thanks!",
+        "post_id": "t3_1y3511h",
+        "post_title": "MRT/LRT train simulation based on scheduled timings",
+        "subreddit": "singapore",
+        "score": 119,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I live in Canberra and if the coaches start going there (Flixbus has, I don't think Murray's has confirmed) WSI will probably become my preferred international airport over SYD. I'll be able to get in to Singapore early in the morning on the flight that leaves at midnight, and I'll be getting back home early in the morning too if I get the bus back. If I drive myself, I also get to avoid the M5 which is usually really busy depending on the time of day, and if I take the train from Canberra, I won't have to spend the night in Sydney like I do now.",
+        "post_id": "t3_1y2msd1",
+        "post_title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+        "subreddit": "singapore",
+        "score": 118,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Keep fighting the good fight brother 👊🏻",
+        "post_id": "t3_1y2nrjp",
+        "post_title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+        "subreddit": "singapore",
+        "score": 117,
+        "comment_score": 10,
+        "intensity": "mild"
+      },
+      {
+        "text": "Hope they also win Best Original Film Score to make it 3 out of 3!",
+        "post_id": "t3_1y2p9x2",
+        "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+        "subreddit": "singapore",
+        "score": 111,
+        "comment_score": 24,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Yay! Good movie.",
+        "post_id": "t3_1y2p9x2",
+        "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+        "subreddit": "singapore",
+        "score": 111,
+        "comment_score": 8,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Well done!",
+        "post_id": "t3_1y2p9x2",
+        "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+        "subreddit": "singapore",
+        "score": 111,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Great Singaporean movie. Watch it in Mandarin or Dialect(?) if possible, the performance is better there than in English. Amazing music, and a bittersweet ending for sure.",
+        "post_id": "t3_1y2p9x2",
+        "post_title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+        "subreddit": "singapore",
+        "score": 111,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This is a good reminder for all of us with parents who are still alive that no matter how busy our lives get, we can surely spend a few minutes to call our parents or take half a day to visit them over the weekends",
+        "post_id": "t3_1y392lw",
+        "post_title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+        "subreddit": "singapore",
+        "score": 104,
+        "comment_score": 15,
+        "intensity": "mild"
+      },
+      {
+        "text": "Interesting trivia, the wait was worthwhile and here's my upvote 😄",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "I figure education as a whole for all.. would be good if like the PCN near my place which has boards with information about the critters and plants (hopefully people read them)",
+        "post_id": "t3_1y38yx8",
+        "post_title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "IU!! see you at National Stadium in March!",
+        "post_id": "t3_1y3963i",
+        "post_title": "IU to stage concert at Singapore's National Stadium in March",
+        "subreddit": "singapore",
+        "score": 47,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "yayy national stadium so hopefully higher chance of getting a ticket",
+        "post_id": "t3_1y3963i",
+        "post_title": "IU to stage concert at Singapore's National Stadium in March",
+        "subreddit": "singapore",
+        "score": 47,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Give it a while. 6mths to 1 year. It will be like Bukit Canberra hype - died down and hype-less. Come new year everyone will have \"new year resolution to get fit\". Again, same thing, give it 3 months, their lack of determination will show. Gym will become less crowded.",
+        "post_id": "t3_1y2rgb0",
+        "post_title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 32,
+        "intensity": "mild"
+      },
+      {
+        "text": "Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 57,
+        "intensity": "strong"
+      },
+      {
+        "text": "Singapore is a great place to stay, and those people know it",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "back then I missed Singapore",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "singapore absolutely does not suck",
+        "post_id": "t3_1y36m0z",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "askSingapore",
+        "score": 21,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I quite enjoyed it when I visited it some time ago.",
+        "post_id": "t3_1y2x9sr",
+        "post_title": "Exploring Singapore like a local",
+        "subreddit": "askSingapore",
+        "score": 13,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Pros is that you get to use carousell spx delivery for just 2sgd. Pickup from your house. Just write the shipping number . Hassle free. And dimensions and weight restriction is generous. I love using it to give away free items",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 18,
+        "intensity": "strong"
+      },
+      {
+        "text": "Pros Can use spx delivery, super convenient You get less fussy buyers, a lot don't ask questions, just checkout and pay",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "so far so good, haven't encountered any, I've made about 20 orders as a seller",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "I haven't had any issues with that yet thankfully. Good buyers so far.",
+        "post_id": "t3_1y2rs69",
+        "post_title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "It is not there for you to fail",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Its stupidly easy. Not lying to you. Dont need to prepare much, everything you need will be thought and given during the lesson half. You will also be given ample time for the test half of the day. Most of the testers are very forgiving and helpful.",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "U got brain then won't fail",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Easy to pass unless you have low language proficiency or never taken any academic examination.",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "You'll fail only if you don't show up",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "My uneducated aunt took the course at 65 years old and passed. I think you should have no issues.",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Its Level 1. How hard can it be?",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "It's meant for you not to fail",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "LVL1 easy. they even drop hints. refresher still easy. no hints though.",
+        "post_id": "t3_1y3bihx",
+        "post_title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "If you see what they both pleaded guilty to, it's fairly straightforward that the lawyer lady will win.",
+        "post_id": "t3_1y2o1y8",
+        "post_title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+        "subreddit": "SingaporeRaw",
+        "score": 21,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If its good, I don't mind",
+        "post_id": "t3_1y2k7c3",
+        "post_title": "Non-AI ads need a comeback 🤣",
+        "subreddit": "SingaporeRaw",
+        "score": 12,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "Time for $G to show the world what it is made of!",
+        "post_id": "t3_1y36k8v",
+        "post_title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else.",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "It was a good country to live in. People are not snobs, you have plumber, butcher, lawyer and even a uni prof playing in the pub pool league team.",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "In terms of living, SG by far is one of the best place to live in.",
+        "post_id": "t3_1y36mwr",
+        "post_title": "What are the things Singaporeans grew up believing that aren't actually true?",
+        "subreddit": "SingaporeRaw",
+        "score": 5,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I've been sitting by the sidelines of this AI bubble for last 2 - 3 yrs. Reminds me so much of the dot com bubble (yeah, jie jie here remembers). Inner peace is a much sought after currency.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "retirement should be about enjoying the freedom you've worked hard for, not creating new financial obligations. I wouldn't want to put myself in a position where I have to worry about monthly loan repayments, especially when I'm no longer drawing a salary. No potential market opportunity is worth sacrificing that peace of mind.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "its all relative, u see the previous crashes, covid, tariff, etc all recovered and then some.",
+        "post_id": "t3_1y3bojh",
+        "post_title": "Buying opportunity?",
+        "subreddit": "singaporefi",
+        "score": 10,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "yea I pay for faster speed, of all the things you can buy, fast internet access brings the most joy",
+        "post_id": "t3_1y3bkql",
+        "post_title": "Is paying more for faster broadband actually worth it?",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "both times the port has recovered more than before and i didn't even bother adding more to average lol",
+        "post_id": "t3_1y38anb",
+        "post_title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "PM Wong's SIA Flight to Western Sydney Airport",
+      "engagement_score": 118,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2msd1/pm_lawrence_wong_to_take_sias_inaugural_flight_to/"
+        }
+      ],
+      "entities": [
+        "PM Lawrence Wong",
+        "SIA",
+        "Western Sydney International Airport",
+        "Australia",
+        "MRT",
+        "COE"
+      ]
+    },
+    {
+      "topic": "MRT Train Simulation Scheduled Timings Visualisation",
+      "engagement_score": 119,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "MRT/LRT train simulation based on scheduled timings",
+          "url": "https://www.reddit.com/r/singapore/comments/1y3511h/mrtlrt_train_simulation_based_on_scheduled_timings/"
+        }
+      ],
+      "entities": [
+        "MRT",
+        "LRT",
+        "GTFS",
+        "LTA",
+        "BusRouter"
+      ]
+    },
+    {
+      "topic": "Crime and Antisocial Behaviour in Public Spaces",
+      "engagement_score": 222,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+          "url": "https://www.reddit.com/r/singapore/comments/1y2nrjp/msian_man_38_cant_find_underwear_from_recycling/"
+        },
+        {
+          "title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+          "url": "https://www.reddit.com/r/singapore/comments/1y37r94/teen_16_arrested_for_allegedly_punching_police/"
+        },
+        {
+          "title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3b3o6/man_appealed_to_sg_united_when_caught_looking_up/"
+        }
+      ],
+      "entities": [
+        "SPF",
+        "MRT",
+        "Sengkang",
+        "Bedok Reservoir",
+        "Tampines"
+      ]
+    },
+    {
+      "topic": "Singapore Film Awards and Cultural Achievements",
+      "engagement_score": 111,
+      "dominant_emotion": "optimism",
+      "sample_posts": [
+        {
+          "title": "Golden Horse Awards 2026: Singapore's The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+          "url": null
+        }
+      ],
+      "entities": [
+        "Golden Horse Awards",
+        "The Violinist",
+        "National Stadium",
+        "IU"
+      ]
+    },
+    {
+      "topic": "Elderly Welfare and Aging Population Concerns",
+      "engagement_score": 104,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "'Sorry, daddy': Daughter's tearful farewell to 69-year-old father found dead in Tampines flat",
+          "url": null
+        }
+      ],
+      "entities": [
+        "HDB",
+        "Tampines",
+        "Aging Population",
+        "Healthcare",
+        "Housing"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "Singapore Exults in Homegrown Ingenuity While Fears Spike 27% Over Elder Safety and Youth Crime",
+    "key_takeaways": [
+      "Fear sentiment surged +27.3% week-over-week, driven by two catalysts — the Tampines flat tragedy exposing gaps in elderly-living-alone support systems, and the Bedok Reservoir youth assault signalling perceived erosion of public safety norms. These are distinct anxieties converging into a broader 'social fabric fraying' narrative that decision-makers should not conflate or dismiss as episodic.",
+      "The homegrown MRT simulation tool dominated positive engagement — capturing 7 of the top 10 upvoted comments — revealing a latent, unmet desire among Singaporeans for transparent, real-time transit data. That a volunteer-built GTFS tool outperformed official LTA communication in community trust and engagement is a pointed signal for public sector digital teams.",
+      "Frustration around PM Wong's Western Sydney Airport visit is not merely about flight routes — it reflects a scepticism tax on government-business showcase trips when everyday pain points (overcrowded ActiveSG facilities, GrabHitch app dysfunction, widening ESG pay gaps for 132 roles) feel unaddressed. The juxtaposition is sharpening public cynicism about leadership priorities.",
+      "GrabHitch's acceptance-rate algorithm flaw is generating driver churn risk in a gig segment with already thin loyalty margins. The frustration is structural, not anecdotal — drivers describe a catch-22 that penalises both acceptance and cancellation, suggesting a product logic error rather than a policy disagreement.",
+      "Cultural optimism is real but narrow: The Violinist's Golden Horse wins and IU's National Stadium concert generated genuine pride and excitement, yet both are single-event spikes. The optimism count (47) remains below frustrations (75), meaning positive sentiment is not yet broad enough to counterbalance systemic grievances."
+    ],
+    "opportunities": [
+      "Elder-tech and home monitoring solutions have a primed market right now: the Tampines tragedy has created an acute awareness window for smart home safety devices, emergency alert wearables, and community check-in platforms targeting HDB-dwelling elderly singles. Brands or startups in this space should activate campaigns within the next 2–3 weeks before the news cycle fades, explicitly referencing the community conversation rather than speaking in abstractions.",
+      "LTA and transit-adjacent app developers should fast-track a partnership with or formal recognition of community-built GTFS tools — the viral MRT simulation demonstrates that Singaporeans will enthusiastically adopt accurate, well-designed transit visualisation. A co-branding or open-data accelerator initiative would convert grassroots goodwill into institutional credibility at low cost, while preempting the reputational gap of being out-innovated by a solo developer.",
+      "IU's National Stadium concert in March 2027 is a high-intent commercial moment: ticketing anxiety is already present beneath the fan excitement, creating openings for resale platforms, fan experience packages, and K-pop adjacent merchandise or food-and-beverage pop-ups to capture spend from an audience already in a purchasing mindset.",
+      "ESG career education and transparent salary benchmarking platforms have a clear demand signal: frustration over murky ESG pay gaps for 132 roles and barriers for career switchers points to an underserved B2C opportunity for skills-to-salary mapping tools, ESG certification pathways, or recruiter platforms that explicitly surface pay bands — positioning around 'no more guessing' messaging would resonate strongly."
+    ],
+    "risks": [
+      "The Western Sydney Airport backlash carries reputational overhang risk for SIA if the route underperforms commercially: Reddit comparisons to Montreal's failed Mirabel Airport are already seeding a 'white elephant' narrative. SIA's communications team should proactively publish load factor targets and cargo strategy rationale before Q1 2027 flight data becomes a public scorecard — silence will allow the Mirabel analogy to calcify.",
+      "Youth crime perception risk is escalating beyond the Bedok incident: a +27.3% fear spike combined with antisocial behaviour as a trending topic suggests the public is pattern-matching isolated incidents into a trend. If another high-profile youth crime event occurs within the next 4–6 weeks, sentiment could shift from concern to demand for policy intervention, creating political pressure on MHA and MOE. Brands with youth-facing campaigns or community space operators (e.g., ActiveSG, mall operators) should prepare messaging that acknowledges safety proactively rather than reactively.",
+      "GrabHitch's algorithmic cancellation trap risks a driver supply crisis in a segment that depends on volunteer participation: unlike full-time drivers, Hitch drivers have zero switching cost and low commitment thresholds. If the app flaw is not patched within weeks, negative word-of-mouth in driver communities could trigger a supply-side exit that degrades service quality for riders, compounding platform trust erosion during a period when Grab is already navigating competitive pressure."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-11-22",
+    "fears": {
+      "direction": "up",
+      "change_pct": 27.3,
+      "intensity_shift": "stable",
+      "previous_count": 33,
+      "current_count": 42
+    },
+    "frustrations": {
+      "direction": "stable",
+      "change_pct": -2.6,
+      "intensity_shift": "stable",
+      "previous_count": 77,
+      "current_count": 75
+    },
+    "optimism": {
+      "direction": "stable",
+      "change_pct": 9.3,
+      "intensity_shift": "stable",
+      "previous_count": 43,
+      "current_count": 47
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Western Sydney Airport Skepticism and Inconvenience",
+      "description": "Singaporeans and travelers express doubt about the viability and accessibility of the new Western Sydney International Airport, fearing it will become an underutilized white elephant like Montreal's Mirabel.",
+      "category": "frustration",
+      "quote_count": 10,
+      "sample_quotes": [
+        "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots",
+        "SIA better be offering me a few hundred dollars cheaper to get to WSI because of how inconvenient it is.",
+        "even when opened, its not even convenient. need to transfer at St Marys before u can get into CBD via T1 Western Line. i dont know which city planner decided on such an arrangement. it's so stupid."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Singapore Generational Anxiety and Worker Trap",
+      "description": "Singaporeans express deep unease about youth behavioral decline, aging society pressures, and a systemic cycle of labor exploitation that discourages family formation and financial independence.",
+      "category": "fear",
+      "quote_count": 8,
+      "sample_quotes": [
+        "if I wanna make it rich or just upper middle class, I can't do it just by being a worker slave which is what the system intends to do",
+        "if we have babies, that's just prolonging the worker slave cycle",
+        "Everyday I ask myself: huh I need to work until when? And it's being responded with rising retirement age hahaha"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Elderly Care and Family Neglect Concerns",
+      "description": "Singaporeans voice concern over the vulnerability of aging parents, balancing surveillance and autonomy, and the guilt of not maintaining family connections amid busy modern lives.",
+      "category": "fear",
+      "quote_count": 4,
+      "sample_quotes": [
+        "my parents are in their early 60s and I've been pushing for the installation of cam monitors in the house but they staunchly refused even after I explained this could be a life or death situation",
+        "No one likes to be monitored like a house pet",
+        "don't visit don't give allowance nehmind but knn one WhatsApp call also no time ah delaynomore"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Civic Tech and Community Tools Appreciation",
+      "description": "Users express genuine enthusiasm and gratitude for locally built transit and community applications that make everyday life in Singapore more navigable and informative.",
+      "category": "optimism",
+      "quote_count": 7,
+      "sample_quotes": [
+        "I use the busrouter web app that you created check for bus lines. Thank you! Really neat visualisation",
+        "Just opened this while on the train, off by about 18 seconds which is quite close!",
+        "This will be very helpful in planning trips. Thanks!"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Singaporean Cultural Pride and Film Recognition",
+      "description": "Singaporeans celebrate local films and cultural achievements, expressing optimism and national pride over recognition of homegrown storytelling and artistic talent.",
+      "category": "optimism",
+      "quote_count": 5,
+      "sample_quotes": [
+        "Great Singaporean movie. Watch it in Mandarin or Dialect(?) if possible, the performance is better there than in English. Amazing music, and a bittersweet ending for sure.",
+        "Hope they also win Best Original Film Score to make it 3 out of 3!",
+        "Yay! Good movie."
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Heavily Skewed Toward Strong Intensity",
+      "description": "60% of frustration quotes (45 out of 75) are classified as strong intensity, while only 12% are mild. This 5:1 ratio of strong-to-mild frustrations indicates that people are not just mildly dissatisfied — they are expressing deep, emphatic grievances. Topics like Crime and Antisocial Behaviour in Public Spaces likely contribute to this skew.",
+      "category": "frustration",
+      "related_quotes": [
+        "Nice work. But it actually irks me a lot seeing the text \"Based on timetable, not 100% live\".",
+        "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots"
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate at 2x the Volume of Fears",
+      "description": "Frustrations account for 75 quotes compared to 42 for fears and 47 for optimism, making them the dominant sentiment category by a significant margin. At nearly 46% of all quotes this week, frustrations outpace fears by nearly 2x, suggesting community discourse is tilted heavily toward expressing grievances rather than concerns or positivity.",
+      "category": "frustration",
+      "related_quotes": [
+        "Nice work. But it actually irks me a lot seeing the text \"Based on timetable, not 100% live\".",
+        "It still could end up as a primarily cargo airport though."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "high_engagement",
+      "title": "MRT Train Simulation Tool Generates Uniform High-Engagement Cluster",
+      "description": "Multiple quotes related to the MRT Train Simulation Scheduled Timings Visualisation all scored +119, an unusually tight cluster of high-engagement responses. This level of community agreement across six separate quotes about the same tool indicates exceptional resonance with commuters, particularly notable given the mix of praise and constructive critique (e.g., the 'not 100% live' concern).",
+      "category": "optimism",
+      "related_quotes": [
+        "Just opened this while on the train, off by about 18 seconds which is quite close!",
+        "Nice animations and interface! Also recently found out about the GTFS dataset as well."
+      ],
+      "urgency": "low"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Western Sydney Airport Viability Debate Gaining Traction",
+      "description": "The trending topic of PM Wong's SIA Flight to Western Sydney Airport has sparked a notable debate about whether the new airport could become underutilised like Montreal's Mirabel. With +118-scored quotes expressing skepticism and cargo-only scenarios, this represents an emerging regional infrastructure concern crossing into Singapore public discourse, combining fears about airport viability with frustration over airline routing decisions.",
+      "category": "fear",
+      "related_quotes": [
+        "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots",
+        "I don't think it'll be like Mirabel in Montreal. It's a similar distance from the CBD, but Sydney is such a huge sprawling city that it's not that far away from a lot of it, and, it's going to be connected by a metro sometime in the next six months."
+      ],
+      "urgency": "low"
+    }
+  ]
+}
