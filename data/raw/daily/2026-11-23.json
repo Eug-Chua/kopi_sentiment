@@ -1,0 +1,2202 @@
+{
+  "schema_version": "raw_scrape_v1",
+  "source_mode": "browser_capture",
+  "report_id": "2026-11-23",
+  "scraped_at": "2026-11-23T16:19:17.808135",
+  "subreddits": [
+    "singapore",
+    "askSingapore",
+    "SingaporeRaw",
+    "singaporefi"
+  ],
+  "total_posts": 36,
+  "total_comments": 438,
+  "posts": [
+    {
+      "id": "t3_1y3511h",
+      "subreddit": "singapore",
+      "title": "MRT/LRT train simulation based on scheduled timings",
+      "url": "https://www.reddit.com/r/singapore/comments/1y3511h/mrtlrt_train_simulation_based_on_scheduled_timings/",
+      "score": 119,
+      "num_comments": 22,
+      "created_at": "2026-11-23T01:00:43.426000+00:00",
+      "selftext": "It's based on LTA's GTFS schedule dataset. The position for where the train stops is kinda estimated. This is mainly inspired by the old Mini Metro game and Mini Tokyo 3D site by a Japanese dev, so it has both 2D and 3D mode (only when tilted via 2-finger vertical drag or ctrl+drag).\n\nI think the starting and ending part of the schedule quite cool as we can see where the train appears and disappears. Area chart of total trains differs by weekdays, saturdays, sundays + PH too.\n\nDemo (should show trains layer on load): https://railrouter.sg/#trains",
+      "comments": [
+        {
+          "text": "Just opened this while on the train, off by about 18 seconds which is quite close! You can now tell almost exactly when your train will be passing by another train in the opposite direction.",
+          "score": 40
+        },
+        {
+          "text": "oh thanks for testing the timing! I tried testing yesterday, off by 2 minutes, but later realised I looked at the wrong day's schedule lol",
+          "score": 9
+        },
+        {
+          "text": "It would be cool to allow a custom time offset. Edit: Oh, there is one already, but it doesn't allow for changing the live timing.",
+          "score": 3
+        },
+        {
+          "text": "maybe its a coincedence as its a simulation, maybe no real time data",
+          "score": 1
+        },
+        {
+          "text": "i wonder if it's possible to simulate all the buses currently plying on the road at each set of given time.",
+          "score": 9
+        },
+        {
+          "text": "Yes but will have quite a bit of caveat. Buses are subjected to external influence ie private transport, traffic jams, traffic incidents etc. Buses that are prone to bunch will bunch in reality but not in simulation due tot those factors.",
+          "score": 17
+        },
+        {
+          "text": "Probably not possible (or at least, easy to do) with the current data. I have been toying around with displaying just for one route on onestoptransport.sg/bus (e.g. onestoptransport.sg/bus/168), and realised that the live bus arrival data (which has bus locations) is deidentified and updated only every 20 seconds. This means that the bus locations are slightly outdated, and the same bus has a different location if you poll for it from a different bus stop. So you cannot simply just ask for all bus stops at once; if you don’t get rate limited, the same bus will be in many different spots on the map. It’s much easier for trains since the schedule is static; but for buses the data is live.",
+          "score": 2
+        },
+        {
+          "text": "well, a direction for you may be LTA datamall for bus arrival time and openstreetmap for routes. You can collect data for 24 hours and normalize it. If you are proficient in c++, have a look at: https://github.com/jiangfeng79/q3dmmi, I vibe coded it. Quite some bugs, and haven't added record and replay module to it for data analysis.",
+          "score": 1
+        },
+        {
+          "text": "Oh sick. I think we both saw the same post on the Tokyo one, was thinking to do the same but possibly with AR instead hahaha",
+          "score": 6
+        },
+        {
+          "text": "Nice animations and interface! Also recently found out about the GTFS dataset as well.",
+          "score": 5
+        },
+        {
+          "text": "I use the busrouter web app that you created check for bus lines. Thank you! Really neat visualisation",
+          "score": 3
+        },
+        {
+          "text": "A small place.",
+          "score": 1
+        },
+        {
+          "text": "coolest thing i've seen today! thanks for making this",
+          "score": 1
+        },
+        {
+          "text": "Fun!",
+          "score": 1
+        },
+        {
+          "text": "This will be very helpful in planning trips. Thanks!",
+          "score": 0
+        },
+        {
+          "text": "While I have all the train lovers here, how does the new RTS change things? There are already 300k going over the border daily. And there is already a train to go over the border. Does the new line go straight to MRT stations on each side？",
+          "score": 0
+        },
+        {
+          "text": "Hey! This is really cool. May I ask what machine learning techniques did you use to simulate the timings?",
+          "score": -1
+        },
+        {
+          "text": "There's no machine learning. It's calculated based on the static GTFS schedule dataset from LTA datamall, then map to the location of the stations and along the route lines.",
+          "score": 1
+        },
+        {
+          "text": "Nice work. But it actually irks me a lot seeing the text “Based on timetable, not 100% live”. This is the kind of contextless asscovering caveating that ChatGPT insists on inserting everywhere. “Normally”, I think in academic writing, people would just put a legend along the line of “based on timetable data” to indicate that this is not actual data. This already implies it is not live data, so the “not…” part is entirely redundant by context. But AI, being AI, will put both that plus an asscovering mention, ie, “blah blah, not blah blah blah”. It is very telltale by its sheer redundancy and restating the obvious for something that usually require no emphasis (as a methodological footnote). AI does not care if a simple legend already implies the caveat, it insists on making it explicit because it does not care about the context, only that it cannot be sued. It has a persecution complex of some kind, leading to a pathological need to insert even the most obvious of caveats and “tighten” (read: neuter) anything to be “safe”. If you have not used AI, can I suggest avoiding such phrasing emblematic of AI produced work?",
+          "score": -6
+        },
+        {
+          "text": "you probably wont believe me, I actually typed that out.",
+          "score": 6
+        },
+        {
+          "text": "People, I am not accusing OP of AI slop, but it is blatantly obvious AI had done a lot of the coding work. The sentence I pointed out is very telltale of AI. Go ask ChatGPT to research an argument and I can guarantee you that it will do this kind of contrasting. AI predictably always do this contrast to save its ass: (what is available), but not (what the AI’s perception of the ideal case is). In this case, timetable data is the only thing available. AI’s ideal case is 100% real data. Combined, that is exactly the contrasting statement you get. Funnily enough, the contrasting statement is actually misleading. OP said they only used LTA GFTS scheduling data. If it is just scheduling data, there is 0% real data. The contrast that implies it is not 100% data suggest there are actually some real time data, which is not true. But AI will always say that as a contrast because it is told to contrast with the ideal fool-proof state. This is why it is so telltale. Which is why the suggestion for OP: if AI is just a supplement, perhaps they should pay attention and edit its work. Usually, if someone takes AI produced work as it is, and has no need to argue with it for a few rounds and stomp off frustrated, it means the person has no idea what they are doing. Like if I am using AI to draft an academic paper, for eg, it will almost certainly throw such contextless caveating contrasting statement somewhere. I will certainly spend a great deal of time rewriting and even arguing with AI. There is no chance I would take AI work as given because of issues like this (and more). For it to pop up in final product, that can be concerning. Come on people, it is the era of AI. We are supposed to use critical thinking to differentiate whether someone is using AI appropriately. And a sign of that is whether someone is bothered to edit AI’s work afterwards.",
+          "score": -6
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2msd1",
+      "subreddit": "singapore",
+      "title": "PM Lawrence Wong to take SIA's inaugural flight to Western Sydney International Airport for 3-day visit to Australia",
+      "url": "https://www.reddit.com/r/singapore/comments/1y2msd1/pm_lawrence_wong_to_take_sias_inaugural_flight_to/",
+      "score": 118,
+      "num_comments": 25,
+      "created_at": "2026-11-22T11:01:03.083000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "WSI will be the Mirabel of Sydney. Hope SQ got a good deal out of flying to it, such as the long coveted trans-Pacific slots",
+          "score": 35
+        },
+        {
+          "text": "I don't think it'll be like Mirabel in Montreal. It's a similar distance from the CBD, but Sydney is such a huge sprawling city that it's not that far away from a lot of it, and, it's going to be connected by a metro sometime in the next six months. On top of that, Sydney's main airport is already heavily constrained so they need this extra capacity. It still could end up as a primarily cargo airport though.",
+          "score": 14
+        },
+        {
+          "text": "The airport metro projected opening is already slipping into early 2028, for now.",
+          "score": 10
+        },
+        {
+          "text": "LOL. Australia.",
+          "score": 1
+        },
+        {
+          "text": "It has been 50+ years and they still have not gotten the rail link to Tullamarine.",
+          "score": 1
+        },
+        {
+          "text": "even when opened , its not even convenient. need to transfer at St Marys before u can get into CBD via T1 Western Line. i dont know which city planner decided on such an arrangement. it's so stupid. but for supershuttle and the likes, easy money for them since they are the most cost affordable option to get to CBD in under 1 hour.",
+          "score": 1
+        },
+        {
+          "text": "SIA better be offering me a few hundred dollars cheaper to get to WSI because of how inconvenient it is.",
+          "score": 1
+        },
+        {
+          "text": "Aussieland protecting qantas.. dont ever see that happening",
+          "score": 5
+        },
+        {
+          "text": "More like Paris-Orly.",
+          "score": 3
+        },
+        {
+          "text": "At least Orly has LCC traffic. I foresee WSI to be nothing more than a Mirabel, because it is so convenient to get to Sydney CBD from Kingsford Smith.",
+          "score": 1
+        },
+        {
+          "text": "Commute to the CBD is the wrong frame. WSI is close to \"Western Sydney\", an entity close to 3 million people. That puts it around the same size as San Diego, Manchester, Naples or Hamburg and nobody thinks those cities can't support an airport. Mirabel was crippled from the beginning. Close to nothing, barred from US and domestic flights, and no high-speed rail to get people into town. Of course it failed.",
+          "score": 1
+        },
+        {
+          "text": "The esh lads gonna hit him up for pingas brah",
+          "score": 10
+        },
+        {
+          "text": "https://www.perthnow.com.au/wa/perth/holidaymaker-goes-viral-for-western-sydney-airport-blunder-im-meant-to-be-in-perth-c-23073857 One holidaymaker who disembarked an Air New Zealand flight from Auckland on Monday revealed he thought he had been travelling to Western Australia. “I got confused, I saw Western Sydney,” he began in a TV interview that has since gone viral.",
+          "score": 6
+        },
+        {
+          "text": "Wah quite far this airport, I guess great for Parramatta Cabramatta Penrith folks.",
+          "score": 4
+        },
+        {
+          "text": "If he's going to Canberra, the new airport is almost an hour closer by car than the old one.",
+          "score": 6
+        },
+        {
+          "text": "Yes thats the other possibility, but a close to midnight arrival in WSI to then start driving to Canberra is a no for me, still gotta go somewhere in the west suburbs for a night and morning eggs.",
+          "score": 6
+        },
+        {
+          "text": "I live in Canberra and if the coaches start going there (Flixbus has, I don’t think Murray’s has confirmed) WSI will probably become my preferred international airport over SYD. I’ll be able to get in to Singapore early in the morning on the flight that leaves at midnight, and I’ll be getting back home early in the morning too if I get the bus back. If I drive myself, I also get to avoid the M5 which is usually really busy depending on the time of day, and if I take the train from Canberra, I won’t have to spend the night in Sydney like I do now.",
+          "score": 3
+        },
+        {
+          "text": "I was confused why it took so long, silly me, forgetting the time difference, otherwise the flight time is around the same, just a 5-minute difference in flight time.",
+          "score": 1
+        },
+        {
+          "text": "Ironically, it's faster to go to the existing airport from Parramatta",
+          "score": 2
+        },
+        {
+          "text": "Woop woop",
+          "score": 3
+        },
+        {
+          "text": "When SIA first announced it, I was surprised due to distance. Metro to Sydney CBD not ready until mid next year. Lots of complaints from early users. Some international passengers did not realise is it the usual Syney airport. SIA must have got some cheap deals.",
+          "score": 2
+        },
+        {
+          "text": "Some international passengers did not realise is it the usual Syney airport This is on those passengers, frankly. Their boarding passes and flight bookings would’ve said WSI, not SYD. The airlines which signed on to international flights out of WSI would’ve done so for more than just cheap deals. One of the big advantages for these airlines is WSI has 24h operations, where as SYD is limited by its curfew. That allows flights to Singapore to leave just before midnight, and then arrive in Singapore in the early morning, which works best for business travellers - they’ve got time to finish their work day in Sydney and then make the flight without needing to rush at all. It also taps into a slightly different market - WSI is easier to get to than Mascot for a lot of Greater Sydney and regional NSW. Its positioning will probably somewhat eat into Canberra’s ambitions to be the regional international hub. SIA is also testing the market for now - they haven’t made a huge commitment. It’s just one daily flight for now, they can very easily scale up or down depending on demand. Establishing an initial route early would potentially give them access to slightly more favourable operating arrangements than competing airlines who come in later as well. The thing to watch if SIA really believes in the long term viability of WSI is if they increase services, and if Scoot starts flying there as well, like they do to SYD.",
+          "score": 1
+        },
+        {
+          "text": "I hope he will also be taking the \"temporary\" bus 860 to connect to the T2 and then T8 lines for the 2-hour commute into town, just for the full Western Sydney experience.",
+          "score": 1
+        },
+        {
+          "text": "Can he stay there and not come back?",
+          "score": 1
+        },
+        {
+          "text": "Why never take air India. Our investment need pm to endorse to turn profit",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2nrjp",
+      "subreddit": "singapore",
+      "title": "M'sian man, 38, can't find underwear from recycling bins to feed fetish after moving out of Sengkang, steals them from flats",
+      "url": "https://www.reddit.com/r/singapore/comments/1y2nrjp/msian_man_38_cant_find_underwear_from_recycling/",
+      "score": 117,
+      "num_comments": 24,
+      "created_at": "2026-11-22T12:01:19.905000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "People put their undies in recycling bins???",
+          "score": 87
+        },
+        {
+          "text": "Those clothes recycling bins lah",
+          "score": 36
+        },
+        {
+          "text": "Erm same, who’d throw undies into those?",
+          "score": 36
+        },
+        {
+          "text": "Well, I vaguely recall garment recycling bins do state that they take undies. I guess it's fine if they have been washed. Moreover they collect the garments to extract the fabrics to reprocess into raw materials.",
+          "score": 22
+        },
+        {
+          "text": "Ya lo why throw when got market for these?",
+          "score": 6
+        },
+        {
+          "text": "textile can be recycled still, as long as it’s not too dirty",
+          "score": 3
+        },
+        {
+          "text": "Any bins in SG is a waste bin, regardless of colour",
+          "score": 1
+        },
+        {
+          "text": "First question that came to my mind too",
+          "score": 4
+        },
+        {
+          "text": "$398 for 13 pieces of underwear?? Were they like 13 fairly expensive pieces or was it like 12 pasar malam pieces and 1 Victoria's Secret",
+          "score": 69
+        },
+        {
+          "text": "That’s… what you’re taking away from this? 😂😂",
+          "score": 40
+        },
+        {
+          "text": "Would you prefer to read the infinitieth comment expressing surprise people are recycling undies....?",
+          "score": 35
+        },
+        {
+          "text": "Keep fighting the good fight brother 👊🏻",
+          "score": 10
+        },
+        {
+          "text": "wait what",
+          "score": 17
+        },
+        {
+          "text": "Fwah lao eh cannot buy from shops de ah, must be used one?",
+          "score": 6
+        },
+        {
+          "text": "Used ones have the umami flavour",
+          "score": 26
+        },
+        {
+          "text": "why can't he just buy them online like a normal creep smh. support small local businesses, man",
+          "score": 6
+        },
+        {
+          "text": "brand new sentence",
+          "score": 2
+        },
+        {
+          "text": "Why are ppl hanging undies at the common corridor? Is it some exhibitionist behavior?",
+          "score": 0
+        },
+        {
+          "text": "Never know there is recycling bins for clothes types",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2p9x2",
+      "subreddit": "singapore",
+      "title": "Golden Horse Awards 2026: Singapore’s The Violinist wins Best Animated Feature, Best Adapted Screenplay",
+      "url": "https://www.reddit.com/r/singapore/comments/1y2p9x2/golden_horse_awards_2026_singapores_the_violinist/",
+      "score": 111,
+      "num_comments": 9,
+      "created_at": "2026-11-22T13:25:09.095000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Hope they also win Best Original Film Score to make it 3 out of 3! And The Violinist is still showing in cinemas, here's the link to get tickets using Culture Pass credits: https://www.klook.com/en-SG/activity/211491-sg-culture-pass-golden-village-movie-voucher/",
+          "score": 24
+        },
+        {
+          "text": "To add on, Ah Girl is now showing in Cinema as well!",
+          "score": 9
+        },
+        {
+          "text": "Seems like there's a bumper crop of local stories recently (additionally Pace and Sandbox)",
+          "score": 4
+        },
+        {
+          "text": "I tght Niu Lai would be the winner 🐮",
+          "score": 17
+        },
+        {
+          "text": "Yay! Good movie.",
+          "score": 8
+        },
+        {
+          "text": "Well done!",
+          "score": 4
+        },
+        {
+          "text": "Great Singaporean movie. Watch it in Mandarin or Dialect(?) if possible, the performance is better there than in English. Amazing music, and a bittersweet ending for sure.",
+          "score": 5
+        },
+        {
+          "text": "A bit janky animation and va but the story quite good, learnt some stuff about sg",
+          "score": 1
+        },
+        {
+          "text": "All good! And there's also Anthony Chen's and Ang Geck Geck's (in the nominations)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y392lw",
+      "subreddit": "singapore",
+      "title": "'Sorry, daddy': Daughter’s tearful farewell to 69-year-old father found dead in Tampines flat",
+      "url": "https://www.reddit.com/r/singapore/comments/1y392lw/sorry_daddy_daughters_tearful_farewell_to/",
+      "score": 104,
+      "num_comments": 36,
+      "created_at": "2026-11-23T04:30:31.616000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Hey OP, do you work for Asiaone? I noticed all your posts have been links to Asiaone articles only.",
+          "score": 321
+        },
+        {
+          "text": "Astute observation",
+          "score": 70
+        },
+        {
+          "text": "Account was quite dormant till 200 plus days ago. So might be an aged account that’s been repurposed.",
+          "score": 43
+        },
+        {
+          "text": "Bot",
+          "score": 37
+        },
+        {
+          "text": "Not to forget the cancer Lazada pop ups that come along with it.",
+          "score": 31
+        },
+        {
+          "text": "Those daily ‘Good Morning’ messages with AI generated oversaturated images are no joke…",
+          "score": 39
+        },
+        {
+          "text": "How sad, my parents are in their early 60s and I've been pushing for the installation of cam monitors in the house but they staunchly refused even after I explained this could be a life or death situation.",
+          "score": 35
+        },
+        {
+          "text": "No one likes to be monitored like a house pet. Just call your parents daily to check in….",
+          "score": 52
+        },
+        {
+          "text": "This. My mum used to say..don't visit don't give allowance nehmind but knn one WhatsApp call also no time ah delaynomore",
+          "score": 15
+        },
+        {
+          "text": "Try the WhatsApp good morning gif every day lolol",
+          "score": 9
+        },
+        {
+          "text": "Maybe sth like an Enabot? Feels marginally more personal than a mounted webcam in the corner",
+          "score": 5
+        },
+        {
+          "text": "Is this the time?",
+          "score": 11
+        },
+        {
+          "text": "Do it",
+          "score": 3
+        },
+        {
+          "text": "This is a good reminder for all of us with parents who are still alive that no matter how busy our lives get, we can surely spend a few minutes to call our parents or take half a day to visit them over the weekends",
+          "score": 15
+        },
+        {
+          "text": "reads like an ad for funeral guru ngl",
+          "score": 11
+        },
+        {
+          "text": "Yeah they were mentioned 10 times throughout the article",
+          "score": 1
+        },
+        {
+          "text": "Well gahmen decided houses to be smaller so families can be separated. More to come in aging society",
+          "score": -5
+        },
+        {
+          "text": "Did you read the article? Some people just have very bad circumstances and this whole thing was done pro-bono. I am sure the boss won't give it to anyone who is well-off and simply don't care about their parents. It seems like she don't have children so no point hating.",
+          "score": 0
+        },
+        {
+          "text": "Hey ive adhd and i dont jump to conclusions!!’ This fella just has a loser mindset, nv read article but wna act smart",
+          "score": 6
+        },
+        {
+          "text": "As much as I don’t like OP for jumping to conclusions, I don’t like your use of ADHD (or any mental health issues) as a clapback. For the record, ADHD doesn’t manifest itself as “jump to conclusions and never read article”. Just like OCD isn’t “wah I very ngiao about how you sort stuff”. People with ADHD or OCD can have a very bad quality of life (e.g. frequent panic attacks, can’t do well in the stressful and “rigid” SG academic/career system) to the point that they need daily medication for life. It isn’t some casual stuff. These kinds of casual “oh you must have XYZ mental issue because you do B” comments just demonstrates how unserious Singaporeans are about mental health in general and why mental healthcare is shit here. Point to people’s action as a form of neurodevelopmental issue, of course it just develops social stigma around mental health (people don’t want to be diagnosed because it’s perceived as a negative).",
+          "score": 4
+        },
+        {
+          "text": "Apologies, noted and edite.",
+          "score": 4
+        },
+        {
+          "text": "I mean her circumstances might've been bad financially but the article feels like she was quite detached from the dad. Like it says she kept in touch via text and last she heard from him was him saying he felt dizzy (25th Oct) and he was found on 31st.",
+          "score": 1
+        },
+        {
+          "text": "This commenter edited his comments for karma points",
+          "score": -1
+        },
+        {
+          "text": "Every family has different circumstances and dynamics that makes relating difficult to outsiders. Your points, while valid, also has counter points. However, perhaps another question to ask is so what? Does this moral posturing help? So sometimes, the next best thing to do is to withhold judgement, learn and move on. lol.",
+          "score": 0
+        },
+        {
+          "text": "it doesn't help but it will get more people with elderly to reflect on their moral compass.",
+          "score": -2
+        }
+      ]
+    },
+    {
+      "id": "t3_1y37r94",
+      "subreddit": "singapore",
+      "title": "Teen, 16, arrested for allegedly punching police officer at Bedok Reservoir",
+      "url": "https://www.reddit.com/r/singapore/comments/1y37r94/teen_16_arrested_for_allegedly_punching_police/",
+      "score": 81,
+      "num_comments": 31,
+      "created_at": "2026-11-23T03:19:50.620000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "\"lemma try GTA 6 irl\"",
+          "score": 109
+        },
+        {
+          "text": "At least he gets to play for free. And comes with free lodging and food.",
+          "score": 30
+        },
+        {
+          "text": "10/10 would stay again, staff were attentive to my needs.",
+          "score": 9
+        },
+        {
+          "text": "He want try one star wanted level",
+          "score": 7
+        },
+        {
+          "text": "What a kambing",
+          "score": 39
+        },
+        {
+          "text": "anjing la kambing",
+          "score": 2
+        },
+        {
+          "text": "Usually I hear ppl say bodoh kambing, do people use bodoh anjing?",
+          "score": 5
+        },
+        {
+          "text": "then ill say bodoh babi",
+          "score": 3
+        },
+        {
+          "text": "Teens nowadays are no joke. That day I had a sec school kid in his uniform standing beside me on the train. He was 1 head taller and bigger than me. I'm 178, 80kg. What in the world are parents feeding their kids?",
+          "score": 32
+        },
+        {
+          "text": "Protein. For the older generation, protein is a luxury.",
+          "score": 18
+        },
+        {
+          "text": "Bruh, so young already act like a gangster. When old how leh?",
+          "score": 29
+        },
+        {
+          "text": "Boys and girls, do not attempt to cause hurt or verbal abuse to public servants who are performing their duties. It will not go down well in your records.",
+          "score": 14
+        },
+        {
+          "text": "Let them FAFO better",
+          "score": 2
+        },
+        {
+          "text": "Can we have more welfare for police officers who is the first line to guarding our country security? Only 2 days mc after getting punched? Damn not worth it...",
+          "score": 15
+        },
+        {
+          "text": "A solid case of FAFO hahahaha",
+          "score": 11
+        },
+        {
+          "text": "Very good. Learning from the wise elderly people in Singapore.",
+          "score": 10
+        },
+        {
+          "text": "He's a teen. He can't be sentenced to jail. Interesting to see what they will impose on him since punching a police officer is a pretty serious crime.",
+          "score": 8
+        },
+        {
+          "text": "Maybe Lord Shan will step in to change the law. If jail is the default sentence for scam perpetrators regardless of age, hitting or verbally abusing a police officer will get same treatment.",
+          "score": 2
+        },
+        {
+          "text": "reformative training lor afaik RT is like prison in that it will be on your criminal record",
+          "score": 1
+        },
+        {
+          "text": "I can never understand why there's age limit to punishment. Whether he's 13 or 30 punching someone leads to the same consequences, someone getting hurt",
+          "score": 1
+        },
+        {
+          "text": "All these younger gen are the ones with issues. Should look deep into their own shit seriously",
+          "score": 6
+        },
+        {
+          "text": "I will get downvoted for this but gentle parenting is a huge culprit. Most parents do not adopt gentle parenting properly. For gentle parenting, you do NEED to set boundaries and some form of punishment. The problem with parents nowadays is to them, gentle parenting means letting their child do whatever they want with zero repercussion. Heck, during NS, a parent contacted our Encik because they felt that their son should not be given extra duty DESPITE reporting late for first parade three times.",
+          "score": 23
+        },
+        {
+          "text": "I agree. But not because I'm for punishment. But I think gentle parenting is just 50%. The other 50% is being firm. Being firm in explaining to the kids why what they did is wrong. Being firm in not allowing the kids to do or have certain things.",
+          "score": 6
+        },
+        {
+          "text": "Well I’m upvoting because I agree with you.",
+          "score": 3
+        },
+        {
+          "text": "I think it's screen.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y38yx8",
+      "subreddit": "singapore",
+      "title": "AsiaOne.com: Man voices concern after seeing people catching horseshoe crabs at Kranji Reservoir, Singapore News",
+      "url": "https://www.reddit.com/r/singapore/comments/1y38yx8/asiaonecom_man_voices_concern_after_seeing_people/",
+      "score": 51,
+      "num_comments": 15,
+      "created_at": "2026-11-23T04:24:50.880000+00:00",
+      "selftext": "Why are people catching the horseshoe crabs?\n\nFrom what I know, the mangrove species has tetrodotoxin\n\nI agree with the article.. lots need to be done to educate the people about our local flora and fauna",
+      "comments": [
+        {
+          "text": "I spent years of my life waiting to state the fact that in terms of evolution, humans and sharks have a more recent common ancestor than horseshoe crabs have to actual crabs.",
+          "score": 43
+        },
+        {
+          "text": "There are no \"actual crabs\". Crabs have separately evolved 5 times iirc. So there are 5 families of animals called crabs. Also hence the joke, everything eventually becomes crabs.",
+          "score": 13
+        },
+        {
+          "text": "Carcinization FTW",
+          "score": 1
+        },
+        {
+          "text": "Interesting trivia, the wait was worthwhile and here's my upvote 😄",
+          "score": 4
+        },
+        {
+          "text": "I honestly think it is because many people have no roots here, they think these crabs are the crabs back in their hometown and no wise seniors to tell them otherwise. That is why there a Chinese sayings Having an elderly person at home is like having a living treasure.",
+          "score": 11
+        },
+        {
+          "text": "Have you spoken to old people, bro? I'm not sure you're gonna learn shit from the average old person.",
+          "score": 17
+        },
+        {
+          "text": "It's like a gacha system: 0.5% uber rare ascended wisdom old monster ancestor, 10% super rare wise ah nah/ah pek, 20% rare smart fella, the rest low-key fart smella I know an old ah mah who taught me the problem with Keynesian \"too big to fail\" economics over kopi, but married to an old man who's so spoiled he cannot boil his own water",
+          "score": 1
+        },
+        {
+          "text": "fwiw, the vast majority of people born in Singapore who are in their 70s today (aka 1950s birth cohort) are themselves only second or third generation migrants Year Foreign-Born Population Percentage of Total Population Intercensal Increase: Number Intercensal Increase: Percentage All Races 1921 301,913 72.2 — — 1931 358,291 64.2 56,378 18.7 1947 411,716 43.9 53,425 14.9 1957 515,751 35.7 104,035 25.3 1970 530,883 25.6 15,132 2.9 1980 527,153 21.8 −3,731 −0.7 Chinese 1921 240,673 76.4 — — 1931 268,607 64.2 27,934 11.6 1947 308,225 42.3 39,618 14.7 1957 349,372 32.0 41,147 13.3 1970 369,447 23.4 20,075 5.7 1980 366,172 19.7 −3,275 −0.9 Malays 1921 26,763 49.9 — — 1931 17,879 27.5 −8,884 −33.2 1947 41,264 36.3 23,385 130.8 1957 72,671 36.9 31,407 76.1 1970 76,377 24.5 3,706 5.1 1980 69,065 19.6 −7,312 −9.6 Indians 1921 24,571 76.0 — — 1931 41,770 82.2 17,199 70.0 1947 47,966 66.7 6,196 14.8 1957 79,446 61.3 31,480 65.6 1970 64,043 44.1 −15,403 −19.4 1980 57,967 37.5 −6,076 −9.5 (Malays, obviously, did not regard themselves as foreigners as such, but quite a significant proportion were from the Riau islands, not British Malaya - Saw gives a fifth by the 1950s) Once you tune for childbearing age bracket, a majority of ~1950s cohort are second gen and then most of the rest are third gen. Only like ~10% in the 1950s can really find fourth gen or earlier roots. Saw Swee-Hock, The Population of Singapore, 3rd ed. (Singapore: Institute of Southeast Asian Studies, 2012), 62, table 4.1.",
+          "score": 4
+        },
+        {
+          "text": "It is because op mentioned lot need to be done to educate people about these, so I was wondering what are the demographics for these group of people. If part of them are s pass or pr holder blue collar working class or executive that maybe spent 20 years here but going to retire in other places, how to outreach to them. Edit: I don't understand how your table is related to in getting the demographics to stop such activities. Care to elaborate?",
+          "score": 2
+        },
+        {
+          "text": "It's just straight-up false to imply that the current older generation of Singaporeans knew not to catch local wildlife because of their \"roots\". most of the older gen cohort today have shallow \"roots\", so the claim is just factually false the massive tide of migrants from Fujian and Guangdong massively transformed mangrove swamps in Jurong and Tampines by introducing techniques from Southern China - impounding swamps and clearcutting mangroves to catch wild prawns, or raking intertidal flats at scale to catch siham - that were much more aggressive and destructive of source habitats, than the kelongs that stood in the open water (by the 1950s the kelongs in Singapore were big commercial operations, this was well past the traditional-fishing-village period; the problem really was landless Chinese settlers crashing the space) that's the reason you find it on your plate as accepted traditional Singapore Chinese street food. The older generation did devastate whatever wildlife they could reach, there's no primordial native wisdom to be found here. the devastation of traditional Malay customary livelihoods by an exploding population of Chinese settlers (and the failure of the British to defend those traditional livelihoods by expelling said Chinese settlers) was a real Malayan nationalist grievance in the 1950s. Conversely, Chinese socialists highlighted that 1) it would be difficult to hold squatting as a moral crime relative to surviving the Japanese occupation, and 2) commercial farms were hiding behind a thin skein of traditional Malay fishermen claiming royal rights. Both had a point, but this was a real tension in the past. we have no intention of reverting the built-up coastline to mangrove swamps today, so it would be devastated regardless anyway; this is really why it ceased to be an issue (and, conversely, why harvesting in what the preserved remnants of mangrove swamps is an issue - the cause is that we have chosen to preserve it now, not that our noble savage ancestors had the wisdom to not overharvest it). Our 1950s politicians did debate the issue in the Singapore City Council Legislative Assembly and favoured, as one might guess, that cheap protein for the masses outweighed the conservationists. It's on the damned Hansard: https://openhansard.sg/reports/00068923-ZZ.00048539-ZZ_1%2523id024_19571204_S0006_T00091-motion",
+          "score": 9
+        },
+        {
+          "text": "eating hoseshoe crab causes food poisoning.",
+          "score": 1
+        },
+        {
+          "text": "I figure education as a whole for all.. would be good if like the PCN near my place which has boards with information about the critters and plants (hopefully people read them) As aforementioned, some of the horseshoe crabs contain tetrodotoxin.. and there have been reports in the past of migrant workers catching and eating toxic crabs here which cost them their lives And conservation of the local wildlife is also important We ranted at the swarm of tourists who came and stripped a part of our coastline of shellfish and other critters, we should take action to prevent indiscriminate catching of critters in our backyard",
+          "score": 2
+        },
+        {
+          "text": "How to reach them? For example you mentioned about migrant workers, how to outreach to them for such education. How to make them follow the rules of not catching crabs? This is what I was looking of for more opinions from others.",
+          "score": 1
+        },
+        {
+          "text": "There were agencies which went to the dorms to speak to the migrant workers about stuff like not overstaying when their work permits end, not getting involved with loansharks and other law & order stuff.. Maybe NParks or the appropriate agency can speak to them too",
+          "score": 1
+        },
+        {
+          "text": "Idk sounds like a self resolving problem if the crabs have toxins in them and these morons eat them",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2shxi",
+      "subreddit": "singapore",
+      "title": "S'pore artist allegedly owes S$10,800 in rent, leaves unit cluttered with cardboard & aircon unit missing",
+      "url": "https://www.reddit.com/r/singapore/comments/1y2shxi/spore_artist_allegedly_owes_s10800_in_rent_leaves/",
+      "score": 49,
+      "num_comments": 11,
+      "created_at": "2026-11-22T15:53:32.228000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "His latest work is titled \"Theft\". One is to ponder the existence of nothingness and the nothingness of existence.",
+          "score": 49
+        },
+        {
+          "text": "What kind of artist? Scam artist?",
+          "score": 27
+        },
+        {
+          "text": "Air CON artist",
+          "score": 24
+        },
+        {
+          "text": "What's the point when no name is named. Lol",
+          "score": 18
+        },
+        {
+          "text": "Lol... The artist took the Aircon unit? So strange. Isn't that stealing xD",
+          "score": 5
+        },
+        {
+          "text": "O$P$. On top can we fine for late payment also",
+          "score": 4
+        },
+        {
+          "text": "Basically the pitfalls of being a rent seeking society. Good luck taking this matter to the courts, highly likely the guy is not gonna show up",
+          "score": 3
+        },
+        {
+          "text": "Bro got his priorities right",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3963i",
+      "subreddit": "singapore",
+      "title": "IU to stage concert at Singapore's National Stadium in March",
+      "url": "https://www.reddit.com/r/singapore/comments/1y3963i/iu_to_stage_concert_at_singapores_national/",
+      "score": 47,
+      "num_comments": 9,
+      "created_at": "2026-11-23T04:36:00.386000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "I thought IU is being replaced by OBU?",
+          "score": 41
+        },
+        {
+          "text": "IU!! see you at National Stadium in March!",
+          "score": 7
+        },
+        {
+          "text": "Please control the resale market",
+          "score": 2
+        },
+        {
+          "text": "As usual all the tickets will be wiped out by bots and scalpers",
+          "score": 2
+        },
+        {
+          "text": "two national stadium shows is impressive",
+          "score": 2
+        },
+        {
+          "text": "Not when all the China bots and scalpers wants to buy up all the seats.",
+          "score": 1
+        },
+        {
+          "text": "Oh boy... My spouse is going to Stray Kids.... Guess I'll go to IU!",
+          "score": 1
+        },
+        {
+          "text": "yayy national stadium so hopefully higher chance of getting a ticket",
+          "score": 1
+        },
+        {
+          "text": "I always pronounce aiyu jelly as IU jelly. Dunno correct or wrong.",
+          "score": -8
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2rgb0",
+      "subreddit": "singapore",
+      "title": "Punggol residents welcome new ActiveSG Sport Centre, but some sticking to private gyms over crowd concerns",
+      "url": "https://www.reddit.com/r/singapore/comments/1y2rgb0/punggol_residents_welcome_new_activesg_sport/",
+      "score": 45,
+      "num_comments": 29,
+      "created_at": "2026-11-22T15:07:26.519000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Went to a smaller ActiveSG gym in the past without any seats for resting. So the group of elderly hog the equipments to chit chat for hours.",
+          "score": 58
+        },
+        {
+          "text": "You can tell the staff about the hogging and if the staff ignores you then you write in to their head office.",
+          "score": 38
+        },
+        {
+          "text": "Staff was also an elderly chit chatting with them. Anyway I stop going although other gym require taking bus.",
+          "score": 30
+        },
+        {
+          "text": "Totally understand why you decided to stop going, our local gym culture is steeped in inconsideration and selfishness. Not sure why nobody is telling these boomers off, i personally always tell someone hogging the machines to share and if they can’t share, we can always take the argument elsewhere. I don’t expect everyone to behave like me but honestly if more people speak up they will eventually go coffeeshop to chit chat instead of the gym.",
+          "score": 33
+        },
+        {
+          "text": "... our local culture is steeped in inconsideration and selfishness. Fixed it for you",
+          "score": 4
+        },
+        {
+          "text": "Just tell them you want to use the machines. Not even ask, tell them.",
+          "score": 9
+        },
+        {
+          "text": "> While Punggol residents welcomed the convenience of having more sporting facilities closer to home, some felt the new centre could benefit from having food and beverage outlets within its premises. There is a hawker center literally right across the street.",
+          "score": 38
+        },
+        {
+          "text": "Give it a while. 6mths to 1 year. It will be like Bukit Canberra hype - died down and hype-less. Come new year everyone will have \"new year resolution to get fit\". Again, same thing, give it 3 months, their lack of determination will show. Gym will become less crowded.",
+          "score": 32
+        },
+        {
+          "text": "damnn now you said it, the new year new me crowd that’s coming back in a month’s time is scaring me",
+          "score": 4
+        },
+        {
+          "text": "its normal for activesg gyms to be overcrowded. Then those people who can afford it will more likely than not switch to use private gyms to avoid the crowds.",
+          "score": 23
+        },
+        {
+          "text": "Isn't this really a story about how Punggol is really overcrowded? If you're serious about lifting then ActiveSG not an option. Period. Doesn't matter if it's Punggol, Jurong, or anywhere in between. But for some it's a huge benefit. Let them have it.",
+          "score": 16
+        },
+        {
+          "text": "During haze, the activesg gym that I went, had additional staff to make sure everyone queue up for treadmill in a orderly manner. The staff quite onzz",
+          "score": 11
+        },
+        {
+          "text": "Not all activesg is the same, some are just better than others, yet they charge same price. Eg: CCK vs Jurong Lake",
+          "score": 8
+        },
+        {
+          "text": "Not all mrt stations are the same . Some got aircon and huge space some got weird smell but they all charge the same price for the same distance travelled",
+          "score": 4
+        },
+        {
+          "text": "Should make activesg gyms 24/7. Honestly you don’t need a staff on-premise.",
+          "score": 7
+        },
+        {
+          "text": "I’m curious abt the swimming pool",
+          "score": 3
+        },
+        {
+          "text": "Nimby",
+          "score": 1
+        },
+        {
+          "text": "I do like such community gyms but I think elderly people should go back to their outdoor free workout zones. Its kinda pointless if a gym is crowded with ppl who aren't there to work out.",
+          "score": -4
+        },
+        {
+          "text": "Go in middle of night when old are sleeping",
+          "score": -16
+        },
+        {
+          "text": "Go in middle of night when old are sleeping Dear AI, kindly note that ActiveSgG gyms open at 7am and close at 10pm.",
+          "score": 23
+        },
+        {
+          "text": "ActiveSG closes at 10pm.",
+          "score": 8
+        },
+        {
+          "text": "Oh well, at least the prata shop is open",
+          "score": 4
+        },
+        {
+          "text": "Bro, your gif shows the making of giant rumali rotis, not prata. Rumal means handkerchief in reference to how thin and foldable those rotis are. They are know as manda roti.",
+          "score": 2
+        },
+        {
+          "text": "They look delicious, don’t think it’s available in Singapore though.",
+          "score": 1
+        },
+        {
+          "text": "Can't even book a pickleball court in the last few weeks. To me, pointless place for all that money and publicity. But as usual, PGov leaners not interested in facts come to downvote as if the downvote button will transport them to another multiverse where Singapore has a ActiveSg building in every estate.",
+          "score": -18
+        }
+      ]
+    },
+    {
+      "id": "t3_1y36m0z",
+      "subreddit": "askSingapore",
+      "title": "What are the things Singaporeans grew up believing that aren't actually true?",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y36m0z/what_are_the_things_singaporeans_grew_up/",
+      "score": 21,
+      "num_comments": 74,
+      "created_at": "2026-11-23T02:20:38.688000+00:00",
+      "selftext": "Cutting your nails at night brings bad luck?\n\nShaking your legs would cause you to lose money?\n\nNumber 4 is unlucky?\n\nThe noise you hear from your ceiling at night are something else?",
+      "comments": [
+        {
+          "text": "Study hard get good results and you'll get a good job",
+          "score": 173
+        },
+        {
+          "text": "this! this is the biggest lie ever!",
+          "score": 20
+        },
+        {
+          "text": "Yeah any statement that guarantees a result is most likely going to be untrue at some point. It should really be “study hard get good results and you’ll have a better chance at getting a good job”.",
+          "score": 7
+        },
+        {
+          "text": "Along with: If you give your all in a relationship you will be blessed with a happy marriage, kids etc.",
+          "score": 1
+        },
+        {
+          "text": "It is still true, just that it fails to account for a ton of other equally important factors like environment, upbringing, wealth and networking",
+          "score": 0
+        },
+        {
+          "text": "I'm gonna say something that may be a lil controversial to the younger crowd here. But it's the belief that Singapore sucks. Growing up, I, like many adolescent Singaporeans, had this belief that this country sucks, it's authoritarian, it's socially backwards, it's run like a business and we're all just worker slaves. We'd look to (at the time) countries like the UK, US, where people could protest, people could fight for change, or for a closer equivalent, Australia, where we'd have more to life than just work. But as I grew older, I realise that the grass truly is greener on the other side. Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else. Weather still sucks though ngl",
+          "score": 57
+        },
+        {
+          "text": "To people that never step out of their bubble, this is the only world they know",
+          "score": 9
+        },
+        {
+          "text": "I agree. I‘m a foreigner and see locals complaining about Singapore much more than foreigners. Those people chose to come, a lot of them want to stay for good and get their PR or citizenship. They would not do that if the place was as shit as some locals make it out to be. This also applies to wealthy expats. You can also get fat expats packages in other Asian countries. Money only does so much, especially once families are involved. Singapore is a great place to stay, and those people know it.",
+          "score": 8
+        },
+        {
+          "text": "They’re coming from shittier countries and making Singapore more crowded and competitive. Of course they choose to come here but don’t pretend like it’s perfect here.",
+          "score": 1
+        },
+        {
+          "text": "No one is saying Singapore is perfect, nor do they need it to be perfect. No one is pretending that Singapore is perfect, either, so I don't know where you get that from. It is still way better than most countries they come from (even if it is first-world), and that's why they still come here in droves. Is it so black and white for you? It must either suck or it must be perfect? No in-betweens?",
+          "score": 3
+        },
+        {
+          "text": "I’m a younger crowd. Lived in HK for a short while for work, went to UK & Europe and witnessed the whole shenanigans on homeless folks. Even saw some beating up an old homeless man, woman who shoplift at primark got caught etc. back then I missed Singapore. But precisely because I’m a young crowd, I still wish I could get out of Singapore. Yes it’s safe, yes I’m female and I’m so much more safer than in US / India etc. I still HATE that I’m a worker slave here. I hate that the BTO is expensive for younger people and all avenues of “wealth” is being halted because there’s people gaming system. We can’t flip bto, can’t inherit much wealth, need to work for own house that can’t even really be passed down. Can’t own a car unless we are very high earners. If I want to start a family here, I am to continue with my worker slave life. It gets me thinking there has to be more to life than just saving money for 400-500k bto, churning out babies and saving peanuts for holidays. I’m lucky my job has some semblance of work life balance, but it isn’t really the best either. Sadly if I wanna make it rich or just upper middle class, I can’t do it just by being a worker slave which is what the system intends to do. I mean if all of us don’t work then, the system will not have labor amirite??? So ya I’m just stuck in this loop and cycle til the day I can retire / fire. Which is why I think loads of couples are becoming DINKS, because if we have babies, that’s just prolonging the worker slave cycle. Yes we don’t go hungry because of caifan or kopitiam, and yes we still get a roof over our head. But we are very much like cogs in a machine doing the same cycle unless somehow we get rich. I envy other people in other countries because as bad as it is, somehow they still have more to do I guess. More road trips, more experiences, less of a cog in a machine. Everyday I ask myself: huh I need to work until when? And it’s being responded with rising retirement age hahaha.",
+          "score": 9
+        },
+        {
+          "text": "I think what you are describing is that Singapore doesn’t have other kind of lifestyle. You cannot simply move away from the city and buy a relatively cheap housing and live your life. Unfortunately, the island is very small and it is what it is.",
+          "score": 5
+        },
+        {
+          "text": "That’s not hating to be a Singaporean, that’s to hate being poor, isn’t it?",
+          "score": 3
+        },
+        {
+          "text": "Not really. You can be rich and slaving. You can be poor and free. I think baiqian is alluding more to having wealth but slaving",
+          "score": 1
+        },
+        {
+          "text": "true... im not judging someone's kinks..",
+          "score": 2
+        },
+        {
+          "text": "you don't know what rich really means. you probably imagine rich = having a landed property, nope, that isn't rich if you still got mortgage.",
+          "score": -1
+        },
+        {
+          "text": "\"I know what you imagine\" >proceeds to imagine that people think debt and liabilities are the definition of rich Really dunning-kruger valley maxxing. So much confidence for what 😭🙏 If analogies are your language: the fact that CEOs don't need to work 9-5 isn't always a privilege because they work 24/7 instead. Net worth doesn't mean anything if u have no net time",
+          "score": 1
+        },
+        {
+          "text": "Hmm, I don’t think it’s hating to be poor. I think in other countries, the wages in Singapore is livable and you could probably do more with it. For example, if you were earning 6k in USD and stayed in the USA, you probably still can afford a house and car as compared to Singapore. I rmb my time in UK / Europe, and I was thinking while it’s expensive (and also because of currency conversion), if I was British etc, it could still be quite livable. People tend to forget that in other countries (apart from USA), there are some policies that also benefits people (like healthcare in UK or even in China with the standard of living in 2nd tier cities etc), especially taking into account they’re a bigger country than Singapore is.",
+          "score": -3
+        },
+        {
+          "text": "You mentioned \"all avenues of wealth is being halted\", but unlike other countries, capital gains are not taxed here, and there's no inheritance tax either...so I think that's not a fair assessment. But yes I get your point, it doesn't mean it's easy to have a nice, balanced life here.",
+          "score": 1
+        },
+        {
+          "text": "The way you've used the idiom 'the grass is greener on the other side' makes it seem like you are saying the idiom is incorrect and that other countries really are better than Singapore, which is obviously in contrast with the rest of your post. You probably understnad this but the point of the idiom is that the statement 'the grass is always greener' is false and rooted in bias. It's saying that wherever you are, you will look across the way and think that somewhere else looks better regardless of the reality. I would rephrase what you wrote to something like \"I realised that the old saying \"the grass is always greener\" is true.",
+          "score": 7
+        },
+        {
+          "text": "The only thing that really sucks is the dam weather. And maybe the lack of land space so only the truly rich can afford to own a backyard. Other than that singapore absolutely does not suck.",
+          "score": 4
+        },
+        {
+          "text": "You will never go hungry or homeless in Singapore? Really?",
+          "score": 2
+        },
+        {
+          "text": "Really.",
+          "score": 1
+        },
+        {
+          "text": "Are you male, Chinese, straight?",
+          "score": -8
+        },
+        {
+          "text": "The large majority of Singaporeans will not go homeless or hungry, regardless of whether they belong to any of those identities. Non-males and certain non-Chinese groups have legislature specifically looking out for their well-being. Only the last of those really makes an indisputable impact to one's material QOL, and even there, one still benefits from safety nets generally available to all Singaporeans.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2x9sr",
+      "subreddit": "askSingapore",
+      "title": "Exploring Singapore like a local",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y2x9sr/exploring_singapore_like_a_local/",
+      "score": 13,
+      "num_comments": 11,
+      "created_at": "2026-11-22T19:12:16.726000+00:00",
+      "selftext": "Hey Singapore\n\nI am an international student at SMU and I have one week till I go back home. I kept this window just to make connections and look at the city with depth.\n\nNow I've been here 3-4 months already so I've seen the usual touristy stuff.\n\nI need someone to tell me good locations to visit and would love some company as well if you would care to join me. I like to walk around neighbourhoods, stroll mindlessly, look at the local population going about their lives, have an occasional coffee and beer here and there, and lose myself in the place and the thought that it brings with it.\n\nHere's what I'd like:\n\nI'm an avid plane enthusiast so I'd love to do the plant spotting, but not from restaurants or cafes.\n\nSomeone suggested me Windsor Nature Park\n\nI'd love to have a beer near port area. The types that they show in movies with so many ships in sight and less humans around you\n\nAnd others, based on what people like. Thank you in advance. Looking forward to some meaningful suggestions",
+      "comments": [
+        {
+          "text": "Changi Beach and Changi Business Park for plane spotting. Windsor Nature Park for plant spotting. Or anywhere in Bukit Timah/Sungei Buloh Wetland Reserve.",
+          "score": 9
+        },
+        {
+          "text": "Cosford Container Park",
+          "score": 3
+        },
+        {
+          "text": "Air Force museum",
+          "score": 1
+        },
+        {
+          "text": "Have you visited the Air Force Museum? I quite enjoyed it when I visited it some time ago.",
+          "score": 2
+        },
+        {
+          "text": "Want to make it memorable? See parts of SG that few outside seen? People’s Association (PA) Community Volunteer Scheme",
+          "score": 2
+        },
+        {
+          "text": "Go to kopitiams in non-expatish neighbourhoods (think Sembawang or Jurong West)",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2m23e",
+      "subreddit": "askSingapore",
+      "title": "Simba 5G network issues since the update. Is it just me?",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y2m23e/simba_5g_network_issues_since_the_update_is_it/",
+      "score": 8,
+      "num_comments": 19,
+      "created_at": "2026-11-22T10:14:34.517000+00:00",
+      "selftext": "I got a text from Simba saying they updated their 5G network to Ultra Network, whatever that means. But I realized soon after, my phone hasn’t been connecting to 5G! It’s just LTE now! Even if I have my 5G On in my iPhone settings. Is it just me?",
+      "comments": [
+        {
+          "text": "You were likely on 5G non-Standalone (NSA), or some may say \"not true 5G\". 5G \"Ultra\" is just their branding for SA networks. IIRC IMDA mandated that telcos had to move to 5G SA. Surprised SIMBA took so long. So with this shift, it probably exposed that you were not really on 5G SA all along. As for iOS, the Carrier profile isn't out yet. SIMBA claims they are still \"testing\".",
+          "score": 16
+        },
+        {
+          "text": "https://simba.sg/5g-ultra For iOS, the site above links to this notice: https://simba.sg/files/5g-ultra/5gsa-ios-notice.pdf 19 November 2026 SIMBA Telecom is currently conducting final network verification and testing for our 5G Standalone (SA) carrier configuration on iOS devices. This update is part of our ongoing efforts to expand 5G SA availability across compatible smartphones. Rest assured, all existing SIMBA mobile services remain fully active and uninterrupted throughout this period. SIMBA Telecom",
+          "score": 3
+        },
+        {
+          "text": "Fyi, SIMBA has enabled 5G SA on androids for some time now, you can check by downloading 'Network Cell Info Lite' on the Play Store, only iOS has yet to be provisioned with 5G SA, which most likely will be enabled in iOS 27.3",
+          "score": 1
+        },
+        {
+          "text": "Man if they really can’t push it out their 5G SA through carrier update that means iOS users need to wait till around mid December (~Dec 14)",
+          "score": 0
+        },
+        {
+          "text": "What’s the Carrier profile number suppose to be?",
+          "score": 0
+        },
+        {
+          "text": "Oh my! It’s so bad because now it’s just LTE, not even 4G! Okay, I guess I’ll have to wait for updates?",
+          "score": -4
+        },
+        {
+          "text": "LTE is 4G technology btw...",
+          "score": 2
+        },
+        {
+          "text": "if you are using iPhone 12 series, you will not get 5G as it does not support any of singapore’s 5G SA bands",
+          "score": 1
+        },
+        {
+          "text": "The frequency they are testing was used to run 4G before. The performance difference might not be drastic for the very same frequency band.",
+          "score": 0
+        },
+        {
+          "text": "Hope they r not using someone else’s bandwidth 😂",
+          "score": 6
+        },
+        {
+          "text": "Since yesterday and today, woodland side my phone keep showing me having 4g+ not even 5g not sure with other area in sg 😅",
+          "score": 2
+        },
+        {
+          "text": "You will likely need to get your SIM card replaced. Did mine because my card has been used since early trial days.",
+          "score": 2
+        },
+        {
+          "text": "Oh I’m actually on esim!",
+          "score": 1
+        },
+        {
+          "text": "Ah then someone else here already pointed out the delay for iOS, but basically on NSA it got blocked out already (my old card would report DCNR_RESTRICTION = TRUE which means no NSA)",
+          "score": 0
+        },
+        {
+          "text": "No 5G have been the nickname of SIMBA for some time, due to constraints on the bands",
+          "score": 0
+        },
+        {
+          "text": "Your comment has been automatically removed because your account is relatively new or you have negative karma. I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "score": 1
+        },
+        {
+          "text": "if you're on ios, try toggling airplane mode or restarting the phone, sometimes it helps it re-register on the network. otherwise probably just wait for simba's ios update.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y36ct7",
+      "subreddit": "askSingapore",
+      "title": "Career switcher into ESG: want to hear from people already in the field",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y36ct7/career_switcher_into_esg_want_to_hear_from_people/",
+      "score": 5,
+      "num_comments": 4,
+      "created_at": "2026-11-23T02:07:45.820000+00:00",
+      "selftext": "Hi all,\n\nI'm moving into sustainability. I've finished a specialist diploma in carbon management and sustainability reporting and an ESG internship. I'd like to hear from people who are already working in sustainability roles in Singapore, in any industry and at any level.\n\nA few questions, and feel free to answer only some:\n\nDecarbonisation: Do you think your organisation is seriously working to cut emissions? Or is it mostly about measuring and reporting?\n\nThe \"S\" in ESG: Does your organisation put real effort into the social side, such as workers, communities and supply chains? Or does the environmental side get most of the attention?\n\nBare minimum or beyond: Does it feel like your organisation does just enough to meet regulatory requirements? Or does it go further than compliance?\n\nStaying in the field: Do you still want to keep working in sustainability? What keeps you in it, or what makes you think about leaving?\n\nIf you're comfortable sharing, a rough idea of your industry, role and company type (MNC, SGX-listed, SME, consultancy or public sector) would help me make sense of the answers.\n\nThanks in advance.",
+      "comments": [
+        {
+          "text": "Law firm - decently big. No. Still serving clients that are mega polluters. What to do? No. Bare minimum but not much is required anyways. Hope the winds change and eventually companies are forced/ incentivised to not kill the earth anymore. But in the meantime what to do. It's damn sian to work for some billionaire's company chopping down a lot of jungle to kill the earth so his wife and girlfriends can fly to mount e and then go shopping at paragon.",
+          "score": 5
+        },
+        {
+          "text": "I looked quite deeply into the scope 3 reporting requirements. It's basically handled like tax minimisation, with a lot of more grey areas which can be exploited. If you just take your upstream suppliers' scope 2 footprint but didn't full agree with it, you can bring in a specialist consultant to provide an opinion that your scope 3 base should be lower than the sum product of what you purchase upstream. In Asia, the only market taking it with any seriousness is Japan. In Australia the likes of Canva and Atlassian used to invest a lot into it, but given their current predicament the attention has been cut back significantly and specialist ESG roles have been rolled up into other areas. The ESG startups that were founded here found that their best source of revenue will be used based companies anticipating changes in SEC reporting standards",
+          "score": 4
+        },
+        {
+          "text": "I’ve worked on sustainability tech products and also on consulting. I think the people that work in sustainability tend to care about the issues, but at the end of the day the organization and leadership as a whole just cares about bare compliance and see this more as a risk management play. Industry as a whole has gone through hype cycles. Corporates are very much less interested now under Trump (compared to under Biden). But it could well change again with the next elections. Just manage your expectations of the industry being a Captain Planet show. Corporates are still money driven at the end.",
+          "score": 2
+        },
+        {
+          "text": "Dropped a msg to you if it helps!",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2rs69",
+      "subreddit": "askSingapore",
+      "title": "Carousell Buyer Protection “Buy” Button pros and cons for seller?",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y2rs69/carousell_buyer_protection_buy_button_pros_and/",
+      "score": 3,
+      "num_comments": 11,
+      "created_at": "2026-11-22T15:22:04.128000+00:00",
+      "selftext": "I’m selling on Carousell for the first time and enabled Buyer Protection as the app recommended. Does this take away the “accept offer” button ie are sales confirmed automatically? I made a sale and was notified via the chat function that “xx paid you via the ‘Buy’ button”, without having to accept, just as I was considering editing the item to list a higher price. I’ll honour the sale of course as it’s a done deal.\n\nWhat are the pros and cons from the seller’s POV? Thanks for helping this noob out!",
+      "comments": [
+        {
+          "text": "Pros is that you get to use carousell spx delivery for just 2sgd. Pickup from your house. Just write the shipping number . Hassle free. And dimensions and weight restriction is generous. I love using it to give away free items",
+          "score": 18
+        },
+        {
+          "text": "Pros Can use spx delivery, super convenient You get less fussy buyers, a lot don't ask questions, just checkout and pay Cons Risk of disputes and losing your money (so far so good, haven't encountered any, I've made about 20 orders as a seller) You get your money only after delivered (and add 2 days if buyer doesn't click on received), but not a problem for me Doesn't affect sellers but ya buyers have to pay a fee Overall, I just leave it on for my listings and let buyers decide if they wanna pay the fee or not.",
+          "score": 6
+        },
+        {
+          "text": "This happened to me once, and what I did was immediately refund the buyer through the order. Then I messaged them of my decision. Fortunately that buyer was okay cos it was only a $50 adjustment on a relatively VERY expensive thing that I was already selling dirt cheap. You also run the risk of them not clicking the confirmation button in the order after they've received the item. But the failsafe is that whoever delivers will also update that function that it was delivered, so there's that. I haven't had any issues with that yet thankfully. Good buyers so far. Also I usually just over-communicate and inform them of every step in the process, like a photo of what I packed, and when I leave it for pick-up, when I get notified that it's been picked up to be delivered, and when I receive the notification that it's been delivered. At the end, I drop another message to check if all is good, then to just ask them to click the confirmation button to acknowledge receipt.",
+          "score": 4
+        },
+        {
+          "text": "I see, so just to be clear, you recommend turning Buyer Protection on?",
+          "score": 2
+        },
+        {
+          "text": "Not sure if anyone also experience this, once this enabled I can't seems to chat with the seller on that item, even if it's to ask some questions about product",
+          "score": 1
+        },
+        {
+          "text": "As a buyer, I prefer to deal directly due to additional charges.",
+          "score": -4
+        },
+        {
+          "text": "Thanks for the heads up, I wasn’t aware of this. When listing my item, there was a notification that the platform fee was waived for me, I assumed only the seller side had a fee, did not know that buyer side had one too.",
+          "score": 1
+        },
+        {
+          "text": "Your account type is not personal I reckon? Seems like only certified listings or professional account incur seller fees.",
+          "score": -1
+        },
+        {
+          "text": "Mine is a personal account, not marked as professional",
+          "score": 1
+        },
+        {
+          "text": "Seller don't have extra fees when selling (for now). We also can't see what's the extra amount Carousell is charging the buyer.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2nfq4",
+      "subreddit": "askSingapore",
+      "title": "A question about shipping an overseas item using Singpost's ezy2ship",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y2nfq4/a_question_about_shipping_an_overseas_item_using/",
+      "score": 3,
+      "num_comments": 6,
+      "created_at": "2026-11-22T11:42:01.043000+00:00",
+      "selftext": "I tried this once and i had to spend a long time filling out the customs declaration form at the post office because the small touch screen is a lot slower than using a desktop browser.\n\nSo my question is whether you can fill out the ezy2ship customs declaration form and all that at home, then have the shipping label printed out at the post office which will be much quicker. I dont have a printer at home to print the label, and the nearest Singpost self service kiosk to print the label is at the nearest post office anyway.\n\nIf yes, is there a time limit to ship the item at the post office after filling out the forms online?",
+      "comments": [
+        {
+          "text": "Yes, you can complete and make payment for your ezy2ship application online. Thereafter, visit any post office or POPDrop / SAM machine to print the shipping label. Follow the instructions on the screen and scan the barcode, it prints automatically. *However, do ensure you've weighed your item correctly as they do not issue refunds for incorrect weight / allow for top-up. A new manifest application will need to be created. Thereafter, you can drop off your item via POPDrop or with the service officer (if I'm sending fragile items, I choose to have my parcel inspected by the SO just in case). Unsure about the time limit as I usually submit the ezy2ship within the same week I'm visiting the post office.",
+          "score": 5
+        },
+        {
+          "text": "That's what the ezy2ship website is literally for. Maybe go and explore it a bit and most of your questions will be answered I believe.",
+          "score": 4
+        },
+        {
+          "text": "Yes. Fill out the declaration, pay, and then go to post office show them the label to print for y",
+          "score": 2
+        },
+        {
+          "text": "Yes. If you do it often, get a label printer.",
+          "score": 1
+        },
+        {
+          "text": "On the time limit, I couldn't find any validity period on SingPost's ezy2ship FAQ, so it's worth calling their hotline if you plan to wait more than a few days. One thing the FAQ does say is that if you pick the drop-off at a Post Office option and it's a Registered Service item, you should hand it to the counter staff, because anything put in the posting box gets treated as ordinary mail. Also if the weight you paid for is off, the counter staff will collect the short payment and your item is held until it's settled.",
+          "score": 1
+        },
+        {
+          "text": "HI, I am Isha, a SingPost CS Rep. If you are sending items that are not bound for USA or selected EU countries, you definitely can use your desktop browser at home to fill in the customs declaration. There is no time limit in using ezy2ship. You will also have to put in the correct weight. After the shipment creation, you may print the labels at the POPDrop or Self Service Kiosks. For shipments bound for USA and the 16 EU countries, booking can only be done at any Post office counter as shipments will use a Delivery Duty Paid (DDP) framework and payment of applicable duties, VAT and handling fees will be done at the counter. We have a dedicated subreddit at r/SingaporePost, feel free to post your questions there. Thank you.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3bntf",
+      "subreddit": "askSingapore",
+      "title": "GrabHitch system flaw: App keeps pushing jobs after 2-ride limit & punishes Acceptance Rate (plus cancellation trap)",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y3bntf/grabhitch_system_flaw_app_keeps_pushing_jobs/",
+      "score": 2,
+      "num_comments": 10,
+      "created_at": "2026-11-23T06:59:03.794000+00:00",
+      "selftext": "Anyone else facing this frustrating bug/design flaw on GrabHitch?\n\nUnder LTA regulations, non-PHV carpoolers are strictly limited to 2 Hitch rides per day. However, the Grab app doesn't automatically block or take you offline after you complete your 2nd trip.\n\nHere what I keep running into:\n\nThe Acceptance Rate (AR) Trap: Once I finish my 2nd ride, the app suddenly pushes 2 more jobs to me while I'm still online. Since I legally cannot accept a 3rd trip (risking LTA fines and voided personal insurance), I have to ignore/decline them. Doing that immediately tanks my Acceptance Rate by 50%. Why is the system pushing jobs to drivers who have already hit the daily legal cap, and then penalizing our AR for following the law?\n\nThe \"Stay Offline\" Cancellation Trap: Some people say to just stay offline until you reach the pickup point, then go online. I tried that before—and when the passenger cancelled last minute, Grab treated it as my fault/loss because I wasn't online while heading over.\n\nnot to mention the impossible to reach CSO only in app via AI ASSISTANT LOL\n\nIt feels like a lose-lose situation: either stay online and get punished for rejecting illegal 3rd/4th trips, or stay offline and get screwed over if a passenger cancels on your way to pickup.\n\nHas anyone found a workaround for this, or know if Grab Support actually resets AR drops caused by hitting the 2-ride limit?\n\ntbh i don't really care if the AR resets weekly but just irritating...",
+      "comments": [
+        {
+          "text": "i used to do grab delivery during covid. thats their tactic to make the incentives near impossible to achieve. want to earn an extra $$ for doing more deliveries? there were so many conditions such as have 90%+ acceptance rate.. and just like you said in your post the systems are in place to tank your acceptance rate and avoid paying out those extra $$ but they keep it there like hanging a piece of carrot on a string to try and motivate you to work more… if you arent doing this full time and its just a short term gig dont worry about the acceptance rates. at least for grabfood deliveries the acceptance rate is meaningless, the app will still assign you jobs and pay you the same",
+          "score": 1
+        },
+        {
+          "text": "Just wondering - why does this matter? Because hitch is to supplement / subsidise your trip / drive, you’re not doing this for a living so why does the acceptance rate matter? I never cared about the acceptance rate if hitch drivers as long as I get a cheaper ride, thankful that someone took me",
+          "score": 1
+        },
+        {
+          "text": "becasue i read that if you fall below 50% they will ban you from teh system. I cant verify and not plannign to. but was irritated with the pushing of jobs when i thought hitch is no \"touting\" LOL",
+          "score": 1
+        },
+        {
+          "text": "Sorry if im unfamiliar, i only do hitch occasionally. What is this Acceptance Rate for? Is there a bonus fee? And why does it push jobs to you? I just search and pick jobs along my route.",
+          "score": 1
+        },
+        {
+          "text": "if you rate drops because they push to you job you didnt accept it hurts your rating and use on their platform.. which is weird because hitch suppose to be only at the driver comfort level.. it seem to be a glitch with grab i read somewhere awhile back not fixed.. so i asked in this chat if any one experienced it.",
+          "score": 1
+        },
+        {
+          "text": "Is there an option to choose your own jobs? For hitch i only choose jobs that are really along my own route.",
+          "score": 1
+        },
+        {
+          "text": "it isn't a flaw, it is a sludge. it is designed as intended for their business goals within legal premises.",
+          "score": 1
+        },
+        {
+          "text": "but if legal limit is 2, why push more when it had been met... later if i take i get penalized. if dun take also sama lol",
+          "score": 1
+        },
+        {
+          "text": "as in, ignoring doesn't punish u on a legal standpoint, but it makes it tough of u to not continue driving (not as a hitch driver, though). so if u cancel, it affects ur AR. if it happens enough, u might consider converting to a full time driver. and if u stop driving hitch, u will constantly think about the additional $ and support for ur car loans, so u might end up just go back to driving/ convert to full time.",
+          "score": 1
+        },
+        {
+          "text": "Grab's software/allocation is really horrid. same company, same software. 6 years ago, they already stack like 3 order even if i havent collected first order. cancelling orders drops AR, takes away incentives. back then if my average time between deliveries is short, they kept giving me longer and longer distance. even though i was on a normal bicycle, it gave me distances so far away from where i started from. Example start in CCK. after a few orders, i'm at Hillion, deliver to bukit timah (bukit drive)...still okay. next order go Coronation plaza and deliver to Newton. cancelled that order. at least i did 40 deliveries that day, so 1/40 is just a -2.5% AR . forgot if the incentive back then was 80% or 90% AR",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3bihx",
+      "subreddit": "askSingapore",
+      "title": "Food Safety Course Level 1 – Easy to pass or not? Any tips?",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y3bihx/food_safety_course_level_1_easy_to_pass_or_not/",
+      "score": 2,
+      "num_comments": 10,
+      "created_at": "2026-11-23T06:49:57.619000+00:00",
+      "selftext": "Am scheduled to go for the Food Safety Course Level 1 soon, so would like to ask, For those who have taken it:\n\nIs the one-day course difficult?\n\nWhat's the assessment like? MCQ or practical?\n\nAny tips or things I should study beforehand?\n\nWould love to hear your experiences and any tips to help a first-timer pass! Thanks!",
+      "comments": [
+        {
+          "text": "It is not there for you to fail",
+          "score": 1
+        },
+        {
+          "text": "Hi. I had to do one so that I can continue to help my family's catering business. Its stupidly easy. Not lying to you. Dont need to prepare much, everything you need will be thought and given during the lesson half. You will also be given ample time for the test half of the day. Most of the testers are very forgiving and helpful. They will push you towards the answer and will not fail you unless you really cannot make it. It will be very basic SFA guidelines and the usual \"first in first out\" practice. They will cover everything from hygiene, contaminants, storage, attire and penalties. You get MCQ, short answer and a practical where you rotate between 4 stations. Iirc: 7 steps of washing hands. Proper storage procedures. Meat lowest rung. Pick appropriate attire from a set of pictures. These are your toe covered shoes, apron, spit-mask and hair net. Arrange dry goods according to the first in first out rule. There'll be cans labeled with dates they were purchased at Just need to arrange them so you'll grab the older ones first. Some cans will be expired so set them aside. Absolute waste of time but I heard previous batch goers had to spend 3 days instead of the current 1 day only.",
+          "score": 1
+        },
+        {
+          "text": "U got brain then won’t fail",
+          "score": 1
+        },
+        {
+          "text": "Easy to pass unless you have low language proficiency or never taken any academic examination.",
+          "score": 1
+        },
+        {
+          "text": "You'll fail only if you don't show up",
+          "score": 1
+        },
+        {
+          "text": "My uneducated aunt took the course at 65 years old and passed. I think you should have no issues.",
+          "score": 1
+        },
+        {
+          "text": "Its Level 1. How hard can it be?",
+          "score": 1
+        },
+        {
+          "text": "It's meant for you not to fail",
+          "score": 1
+        },
+        {
+          "text": "LVL1 easy. they even drop hints. refresher still easy. no hints though.",
+          "score": 1
+        },
+        {
+          "text": "Haha. Thats a first",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y39jjd",
+      "subreddit": "askSingapore",
+      "title": "Can I only use my credit card or Cash is necessary?",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y39jjd/can_i_only_use_my_credit_card_or_cash_is_necessary/",
+      "score": 0,
+      "num_comments": 23,
+      "created_at": "2026-11-23T04:57:01.844000+00:00",
+      "selftext": "Planning my trip to Singapore so I was wondering if I should withdraw cash or card tap is enough?",
+      "comments": [
+        {
+          "text": "better prepare cash too",
+          "score": 14
+        },
+        {
+          "text": "I haven't used cash in 3 years except for dodgy carousell deals. Some places only do QR though.",
+          "score": 12
+        },
+        {
+          "text": "Is there any app for the QR? Like can I operate it if im a tourist?",
+          "score": 4
+        },
+        {
+          "text": "Depending on where you're from, you might be able to check if your local banks/apps have cross border compatibility with PayNow. I think Grab/Grabpay works but not sure if you can active a local wallet. Otherwise the scenario is quite rare, I think if you walk around with like 50 bucks on you you're more than fine.",
+          "score": 6
+        },
+        {
+          "text": "Do not depend on that. Our QR system is a bit fractured and not every app works with every QR code. I suggest cash if the place doesn't do credit card. There are places that do not accept cash, but there are almost no places that do not accept both cash and credit cards.",
+          "score": 1
+        },
+        {
+          "text": "Muli currency card / app Wise can do it but Singapore has a few different QR version that even local online bank can't scan.",
+          "score": 1
+        },
+        {
+          "text": "Depends on what you want to do. Card is fine for public transport. Cash may be needed at some hawker centres though I would say at least two-thirds have some of QR payment. Grab is the local ride-hailing app, you can use it for some QR payments too, so just add your own credit card to the app so scan for payment. You'll need to check which payment providers are accepted for the QR payment though - many could be for local banks only, but some do accept Google or Apple Pay.",
+          "score": 4
+        },
+        {
+          "text": "You can get by with just Card payments. But some small neighbourhood shops and hawker centres still use cash only. QR code payment can work as well. As a non-local, you can try GrabPay, Alipay or YouTrip. But different stalls accept different types of payments. So even if they do allow QR payment, they might not have one for Alipay for example. I'll say if you're staying for just a week, then $50 should suffice if you're not planning on going to the heartland areas and are mostly sticking to the city or tourist spots.",
+          "score": 3
+        },
+        {
+          "text": "There will be some places that are cash only (hawker stalls and small stalls mostly) but the bigger establishments accept contactless.",
+          "score": 2
+        },
+        {
+          "text": "Most hawker centres do not accept credit card, and you would probably not have the app or bank account needed to use QR code payment that they do have. If you are planning to eat cheap most of the time, you definitely want to prepare cash. Maybe $10 per person per meal eaten at hawker centres. Indoor, air-conditioned food courts (which sell pretty much the same foods as hawker centres, but are in malls) usually take credit card payment (Paywave, Apple Pay etc).",
+          "score": 2
+        },
+        {
+          "text": "If you venture to coffee shops or markets then higher chance need cash. But good to prepare some.",
+          "score": 2
+        },
+        {
+          "text": "Especially to eat some good local hawker food. Small amount of cash is a good idea. Locals use QR code instead of cash but it might be an issue for foreigner",
+          "score": 1
+        },
+        {
+          "text": "If you have the WISE app, I think you can use Singapore QR codes",
+          "score": 1
+        },
+        {
+          "text": "Cash is still necessary as some hawkers n even shops still only accept cash.",
+          "score": 1
+        },
+        {
+          "text": "Cards are not be accepted everywhere, you need the QR code reading e-wallet too.",
+          "score": 1
+        },
+        {
+          "text": "cash is still king in older areas",
+          "score": 1
+        },
+        {
+          "text": "If you want to eat at hawker centres, you definitely need cash. Most hawker stalls are independently run, so often the QR code is their personal bank account. And for security reason most overseas banks won’t let you scan personal QR codes for payment I’ve witnessed multiple times tourists getting to the front of a line and then discovering they cannot pay as they don’t even have $10 on them",
+          "score": 1
+        },
+        {
+          "text": "Yep that covers 100% of our payment options",
+          "score": 1
+        },
+        {
+          "text": "Hawker centres some stalls accept cash only. Heartland shops accept cash only",
+          "score": 0
+        },
+        {
+          "text": "We need to learn from china. 100% cashless.",
+          "score": 0
+        },
+        {
+          "text": "Many locals don’t really use cash unless the merchant insists they only accept cash transactions like at the local wet market or hawker stall (normally it’s some super old hawker that’s not tech savvy)",
+          "score": 0
+        },
+        {
+          "text": "They don't accept cards either. PayNow is not available to tourists.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2nni1",
+      "subreddit": "askSingapore",
+      "title": "Lost: Blue earbuds case near Yishun Park / Yishun SAFRA (22 Nov, around 6pm)",
+      "url": "https://www.reddit.com/r/askSingapore/comments/1y2nni1/lost_blue_earbuds_case_near_yishun_park_yishun/",
+      "score": 0,
+      "num_comments": 0,
+      "created_at": "2026-11-22T11:55:37.772000+00:00",
+      "selftext": "Hi everyone,\nI lost my green earbuds charging case today (Sunday, 22 Nov) around 6:00 PM along the path connecting the Yishun Park running trail / Park Connector (PCN) to Yishun SAFRA.\nIf anyone happened to pick it up or spot it around that stretch, please pm me! Really appreciate any help!",
+      "comments": []
+    },
+    {
+      "id": "t3_1y3b3o6",
+      "subreddit": "SingaporeRaw",
+      "title": "Man appealed to 'SG United' when caught looking up woman's skirt at MRT station, gets jail",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3b3o6/man_appealed_to_sg_united_when_caught_looking_up/",
+      "score": 24,
+      "num_comments": 20,
+      "created_at": "2026-11-23T06:24:25.400000+00:00",
+      "selftext": "He was sentenced to 12 weeks' jail on Monday (Nov 23) for looking up a woman's skirt while standing behind her on an escalator at an MRT station.",
+      "comments": [
+        {
+          "text": "Free bro he was born at that height it's inevitable 💀😭",
+          "score": 51
+        },
+        {
+          "text": "Bro u should have been his defence lawyer lah 😁😉",
+          "score": 11
+        },
+        {
+          "text": "I don't think he can avoid it.",
+          "score": 22
+        },
+        {
+          "text": "Mr economic wished he was born at this height",
+          "score": 10
+        },
+        {
+          "text": "Bro probably complained that people everywhere look down on him sadge.",
+          "score": 6
+        },
+        {
+          "text": "he got convicted because he admit izzit!? i really burst out laughing sia, if there was one person who could say its a mistake this is it.",
+          "score": 6
+        },
+        {
+          "text": "Wilson Lim Kim Ming, 31, initially claimed trial but midway through proceedings, he pleaded guilty to following the victim onto an escalator and deliberately looking underneath her skirt from behind. During the trial earlier this year, Lim admitted that he had also been trying to smell the victim's leg from behind when he approached her on the escalator, court documents stated. His lawyer just wanted him to go trial and earn the fees. This is an open and shut case 😁",
+          "score": 5
+        },
+        {
+          "text": "He pleaded for mercy and said: \"We are both Singaporeans, what's the point of SG United if we're both going to be attacking each other?\" Lim, who had managed to see at least the victim's thigh area clearly under her skirt, was trying to persuade her not to escalate the matter to the authorities, court documents stated.",
+          "score": 5
+        },
+        {
+          "text": "Some have unfair advantage.",
+          "score": 4
+        },
+        {
+          "text": "The pragmatic (laced with comedic affects) comments here are off the charts.",
+          "score": 3
+        },
+        {
+          "text": "Guys, read my comment before you comment. I'm here to prevent you from going to hell saying whatever you are thinking.",
+          "score": 3
+        },
+        {
+          "text": "SG united lol 🤣",
+          "score": 2
+        },
+        {
+          "text": "Bro was just trying to check the next stop..",
+          "score": 1
+        },
+        {
+          "text": "Discrimination sia",
+          "score": 1
+        },
+        {
+          "text": "hes my 2014 classmate.. clothes very smelly one..",
+          "score": 1
+        },
+        {
+          "text": "ah....the victim saw his head under her skirt. a bit too much",
+          "score": 1
+        },
+        {
+          "text": "Feel sorry for him...can he even go Geylang? Will they reject him?...that where the rest of us horny guys go to release instead of doing stupid stuff.",
+          "score": 0
+        },
+        {
+          "text": "They don't even reject 60 year old man",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2o1y8",
+      "subreddit": "SingaporeRaw",
+      "title": "Remember the Katong Cyclist? She is a Claimant against that driver with trial on Jan 2027 while the Driver is preparing to counter sue for negligence against the cyclist",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2o1y8/remember_the_katong_cyclist_she_is_a_claimant/",
+      "score": 21,
+      "num_comments": 10,
+      "created_at": "2026-11-22T12:18:43.228000+00:00",
+      "selftext": "Background of case:\n\nhttps://www.straitstimes.com/singapore/courts-crime/5-days-short-detention-order-for-cyclist-who-clung-to-car-bonnet-in-road-rage-case\n\nYes, both are suing each other with a claim between $60k to $250k given the DC/OC prefix meaning District Court Originating Claim.\n\nSource: https://www.judiciary.gov.sg/hearing-list/hearing-list-details/ds-1-1000001462210\n\nhttps://www.judiciary.gov.sg/hearing-list/hearing-list-details/ds-1-1000001461528",
+      "comments": [
+        {
+          "text": "Hmm? Thought she plead guilty already? What’s there to sue from civil case perspective? Any lawyer can enlighten me on this?",
+          "score": 4
+        },
+        {
+          "text": "Criminal case over. Now can do civil case for claims. It’s like an accident where TP investigates. Once they have a guilty party, then the civil proceedings for anything beyond the minimum repair costs between insurance companies come into play. If you see what they both pleaded guilty to, it’s fairly straightforward that the lawyer lady will win. Just a question of how much or how little because of her harassment conviction. To me the bigger question is will the lady driver’s insurance company refuse to pay and she has to do it out of pocket as what she did was intentional and not negligent.",
+          "score": 10
+        },
+        {
+          "text": "Big win for the lawyers",
+          "score": 3
+        },
+        {
+          "text": "I blame the cyclist more. If you jump on a car you have it coming. At you.",
+          "score": 4
+        },
+        {
+          "text": "I think not happy with insurance settlement and they want more. I remember Nicol was a lawyer?",
+          "score": 1
+        },
+        {
+          "text": "I thought she has legal background, i.e law degree but not admitted to bar yet?",
+          "score": 1
+        },
+        {
+          "text": "Jog our memories w this case again",
+          "score": 0
+        },
+        {
+          "text": "Fender ketchup case",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2k7c3",
+      "subreddit": "SingaporeRaw",
+      "title": "Non-AI ads need a comeback 🤣",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y2k7c3/nonai_ads_need_a_comeback/",
+      "score": 12,
+      "num_comments": 1,
+      "created_at": "2026-11-22T08:13:13.667000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Singapore & Malaysia is soooo obsessed with using AI for images (Food/ads/etc). If its good, I don't mind. But a lot looks super unrealistic.",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "t3_1y39kmi",
+      "subreddit": "SingaporeRaw",
+      "title": "Singapore, China reach 29 deals at top bilateral forum",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y39kmi/singapore_china_reach_29_deals_at_top_bilateral/",
+      "score": 5,
+      "num_comments": 3,
+      "created_at": "2026-11-23T04:58:51.700000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "OP I hope you can put the nsfw tab because some here might get a stroke from reading it",
+          "score": 1
+        },
+        {
+          "text": "Reddit Singaporeans and mods are part of the deal.",
+          "score": 1
+        },
+        {
+          "text": "I'm sure none of those deals will result in any Singapore washing or trade sanction evasion by mainlanders.",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "t3_1y36mwr",
+      "subreddit": "SingaporeRaw",
+      "title": "What are the things Singaporeans grew up believing that aren't actually true?",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y36mwr/what_are_the_things_singaporeans_grew_up/",
+      "score": 5,
+      "num_comments": 13,
+      "created_at": "2026-11-23T02:21:53.290000+00:00",
+      "selftext": "Cutting your nails at night brings bad luck?\n\nShaking your legs would cause you to lose money?\n\nNumber 4 is unlucky?\n\nThe noise you hear from your ceiling at night are something else?",
+      "comments": [
+        {
+          "text": "without pap, we will revert back to a fishing village.",
+          "score": 25
+        },
+        {
+          "text": "Primary school teacher told us PAP is the only way our country can grow",
+          "score": 6
+        },
+        {
+          "text": "secondary school social studies teacher. :\\",
+          "score": 1
+        },
+        {
+          "text": "I'm gonna say something that may be a lil controversial to the younger crowd here. But it's the belief that Singapore sucks. Growing up, I, like many adolescent Singaporeans, had this belief that this country sucks, it's authoritarian, it's socially backwards, it's run like a business and we're all just worker slaves. We'd look to (at the time) countries like the UK, US, where people could protest, people could fight for change, or for a closer equivalent, Australia, where we'd have more to life than just work. But as I grew older, I realise that the grass truly is greener on the other side. Singapore is a pretty damn good country to be in - I have safety, I've got financial security, I realise HOW MUCH our government actually does to make sure all our needs are met (you will never go hungry or homeless in Singapore, unless it's by choice, unlike all the other countries I used to look towards), and every year, I am more and more grateful I'm born here rather than anywhere else. Weather still sucks though ngl",
+          "score": 8
+        },
+        {
+          "text": "It was the opposite for me, I grew up thinking singapore was the best. Then I went away for uni and worked in Australia for a number of years after that. I realised I grew up being sheltered by my parents. There are many people not as fortunate as me in singapore, and they have to be very jialat before they are rendered any help, talk about dignity. I was paying top tax bracket until I did wage packaging, I am ok with it. Its a happy problem. Work/life balance was good. Every friday was pub lunch and drinks after. So its basically 4.5 days work week. Every year I fly up north for 10days fishing safari and fly back singapore twice a year to visit my parents. It was a good country to live in. People are not snobs, you have plumber, butcher, lawyer and even a uni prof playing in the pub pool league team.",
+          "score": 10
+        },
+        {
+          "text": "Swiss standard of living in SEA",
+          "score": 2
+        },
+        {
+          "text": "really sia. Those who went Switzerland will know. There are things there are very expensive vs surrounding countries like Italy. These countries are bigger than Switzerland. SG is Switzerland in SEA in terms of size and price. Malaysia and Indonesia are the more affordable neighbours (to us that is)",
+          "score": 1
+        },
+        {
+          "text": "Bro sadly, this is SGRaw, the 35% here aint gonna appreciate bro. But i got you. In terms of living, SG by far is one of the best place to live in.",
+          "score": 1
+        },
+        {
+          "text": "I don't find it authoritarian because I don't traffick drugs or protest. Other than that, the laws to govern everyday life is generally the same pretty much everywhere. We don't shoplift here. So we wouldn't shoplift at other places. We don't litter here. I doubt we would do the same in other countries.",
+          "score": 1
+        },
+        {
+          "text": "authoritarian because I don't traffick drugs or protest What a non-sequitur...",
+          "score": 1
+        },
+        {
+          "text": "Pay high salary means won't be corrupt.",
+          "score": 3
+        },
+        {
+          "text": "Study hard, get a degree and your life is set.",
+          "score": 6
+        },
+        {
+          "text": "lky built sgp singlehandedly....from a fishing village to a modern metropolis. yeah,that bullshit sat with alot of people for a long long time.",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1y36k8v",
+      "subreddit": "SingaporeRaw",
+      "title": "Commentary: A weak South China Sea code of conduct will be worse than no agreement at all",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y36k8v/commentary_a_weak_south_china_sea_code_of_conduct/",
+      "score": 5,
+      "num_comments": 3,
+      "created_at": "2026-11-23T02:18:11.450000+00:00",
+      "selftext": "",
+      "comments": [
+        {
+          "text": "Damn prepare for another Terrex carrier seize soon",
+          "score": 0
+        },
+        {
+          "text": "Time for $G to show the world what it is made of!",
+          "score": 0
+        },
+        {
+          "text": "writing strongly worded letter of complaint?",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3bdfh",
+      "subreddit": "SingaporeRaw",
+      "title": "Heritage buildings",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3bdfh/heritage_buildings/",
+      "score": 3,
+      "num_comments": 0,
+      "created_at": "2026-11-23T06:41:19.977000+00:00",
+      "selftext": "Been exploring SG, but some historical places and heritage buildings are closed and covered up for restorative work \n\nFormer admiralty house, former Attorney's General chambers, the Cenotaph and lim bo seng memorial, main istana building, haw par villa, sun yat sen Nanyang memorial hall, former ministry of labour building, former house of tan teng niah and former st joseph institution \n\nCan't wait for all of them to be done so I can take my pictures",
+      "comments": []
+    },
+    {
+      "id": "t3_1y373u9",
+      "subreddit": "SingaporeRaw",
+      "title": "Built a pet-care app after work in Singapore — would local pet owners use this?",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y373u9/built_a_petcare_app_after_work_in_singapore_would/",
+      "score": 1,
+      "num_comments": 0,
+      "created_at": "2026-11-23T02:46:07.764000+00:00",
+      "selftext": "Hi, I'm Jun, a solo developer based in Singapore. I've been building PawConnect alongside my full-time job. \n\nHere's one of the care tools: save a pet's weight and look back at the earlier readings. Each pet also has its own health records and vaccination reminders. \n\nI'd love some Singapore cat and dog owners to try it. Start with one pet and one record you already have — then tell me if it's easier than your current system, or just another app you'd forget to open. \n\nIt's free to download on iPhone, with sign-in required: https://apps.apple.com/sg/app/pawconnect-social/id6760605721 \n\nI'm the developer, so I'm happy to answer questions and hear what needs fixing. Here's the weight-history screen:",
+      "comments": []
+    },
+    {
+      "id": "t3_1y365rf",
+      "subreddit": "SingaporeRaw",
+      "title": "You could earn 3x more in the same job: S'pore MOM lists 132 roles with the widest pay gaps",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y365rf/you_could_earn_3x_more_in_the_same_job_spore_mom/",
+      "score": 0,
+      "num_comments": 13,
+      "created_at": "2026-11-23T01:58:20.080000+00:00",
+      "selftext": "Here's how much others are making in the same job (or, at least, under the same job title).",
+      "comments": [
+        {
+          "text": "What a trash take. Just because you have the same title as someone doesn't mean you are in the same skill bracket",
+          "score": 26
+        },
+        {
+          "text": "It literally says so in the article. That in certain jobs the titles are broad enough that they may not map well. While in others they do. It's up to you to judge your current position. It also provides you a range of what you can expect if you progress with experience and seniority. It's useful in more ways than one. You'd know if you read it - assuming you're able to.",
+          "score": -21
+        },
+        {
+          "text": "So the article says the data they are writing about is useless? Ok then why post it?",
+          "score": 13
+        },
+        {
+          "text": "No, it's not useless, you just have to exhibit a modicum of common sense, depending on the role. The range for a Managing Director doesn't say much, because it really depends on what a business does. The range for Diagnostic Radiologist, Game Designer or Interaction Developer says a lot more. Nobody says it's 1:1 like for like, but that this is your horizontal range within a profession. There is a reason MOM reports these figures.",
+          "score": -9
+        },
+        {
+          "text": "This is what your clickbait title says. You could earn 3x more in the same job. Try harder.",
+          "score": 6
+        },
+        {
+          "text": "Sure, you COULD, not that you WILL. It all depends on where you are on the spectrum. Some people are underpaid, other people are overpaid. You have to figure out where you are and which group you belong to. I didn't think it would be necessary to explain that NOT EVERYBODY can earn 3x as much, you know? Then again, there is a reason why some people are in the bottom quarter of the payscale.",
+          "score": -5
+        },
+        {
+          "text": "Thanks for telling us you lack logic, and any real world understanding.",
+          "score": 2
+        },
+        {
+          "text": "Coming from someone with lacking English comprehension? It's really telling why all the complainers congregate here.",
+          "score": -1
+        },
+        {
+          "text": "This is not a question of ability to comprehend. If anything this reflect worse on you lol.",
+          "score": 2
+        },
+        {
+          "text": "As a medical professional, and being fully aware of how consultants are paid in public service, the radiologist salary from diagnostic radiology is very weird. We all know that ACs employed by RH are paid a base + clinical allowance and at least in my cluster, the base is fixed across all specialties. The differences arises from the clinical component (which is dependent on specialty, whether you are medical or surgical etc) and I can tell you that base alone already exceeds that amount quoted. Considering the fact that almost all exiting Radiologist are employed by RH, the numbers seem a little off.",
+          "score": 1
+        },
+        {
+          "text": "Remember that these are gross salaries. Also, this is official data from MOM, so it's not a small sample survey, that could be prone to bigger swings. Not sure if that changes anything in your experience, just mentioning it.",
+          "score": -1
+        },
+        {
+          "text": "Huh… I was wondering about that, until I saw the user and news site.",
+          "score": 9
+        },
+        {
+          "text": "It's official MOM data. It's up to you to judge it useful or not.",
+          "score": -9
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3apqv",
+      "subreddit": "SingaporeRaw",
+      "title": "Singapore is a toxic shithole",
+      "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3apqv/singapore_is_a_toxic_shithole/",
+      "score": 0,
+      "num_comments": 9,
+      "created_at": "2026-11-23T06:02:17.934000+00:00",
+      "selftext": "Im out",
+      "comments": [
+        {
+          "text": "Ok noted.",
+          "score": 2
+        },
+        {
+          "text": "Just say you broke",
+          "score": 2
+        },
+        {
+          "text": "It really is.",
+          "score": 2
+        },
+        {
+          "text": "The responses proof it",
+          "score": 3
+        },
+        {
+          "text": "Too late bro",
+          "score": 2
+        },
+        {
+          "text": "Bye, Felicia",
+          "score": 2
+        },
+        {
+          "text": "Byeeeeeee. A queue of ft waiting to fill your slot lah",
+          "score": 1
+        },
+        {
+          "text": "bye",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3bojh",
+      "subreddit": "singaporefi",
+      "title": "Buying opportunity?",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y3bojh/buying_opportunity/",
+      "score": 10,
+      "num_comments": 30,
+      "created_at": "2026-11-23T07:00:16.267000+00:00",
+      "selftext": "If you're retired like me, your cash position would or should be small relative to your portfolio, which means you would not have as much cash to take advantage of buying opportunities.\n\nI read earlier that TKL (using acronyms here, but he's an ex-CEO of a major local insurance firm that was almost bought over by a French insurance firm) said he was going to borrow money and even leverage his property to get more cash to buy more during this period.\n\nMust admit the thought did cross my mind, than to just sit still. Quite risky for people who have retired compared to those still working and can DCA their salaries in.\n\nWonder what others think of TKL's intentions, esp those who are retired.",
+      "comments": [
+        {
+          "text": "If you're retired and can live off that sum, why risk your property?",
+          "score": 27
+        },
+        {
+          "text": "Backside itchy",
+          "score": 2
+        },
+        {
+          "text": "I read TKL's post - don't recall any mention of leveraging. He did mention redeeming his FD. Anywayyy... Nah, I won't leverage. Will just use spare cash to buy the dip. I've been sitting by the sidelines of this AI bubble for last 2 - 3 yrs. Reminds me so much of the dot com bubble (yeah, jie jie here remembers). Inner peace is a much sought after currency.",
+          "score": 10
+        },
+        {
+          "text": "Why do you say it is ai bubble",
+          "score": 1
+        },
+        {
+          "text": "Buy can but don’t leverage, and don’t chase. Can go further down",
+          "score": 6
+        },
+        {
+          "text": "dun greedy la, u r already in a position many of us are working hard towards. why want to take the risk?",
+          "score": 4
+        },
+        {
+          "text": "It sounds like you didn’t plan your retirement properly if you are still looking at the market.",
+          "score": 4
+        },
+        {
+          "text": "My take is simple: retirement should be about enjoying the freedom you've worked hard for, not creating new financial obligations. I wouldn't want to put myself in a position where I have to worry about monthly loan repayments, especially when I'm no longer drawing a salary. No potential market opportunity is worth sacrificing that peace of mind.",
+          "score": 4
+        },
+        {
+          "text": "Seems he wants to enjoy a brand new Ferrari during retirement lol...",
+          "score": 2
+        },
+        {
+          "text": "We hope for the best but must also plan for the worst. Imagine if the market declined another 20% and you're stuck with repaying a new mortgage because you refinanced your home. Do you have the holding power (i.e., disposable income) to be able to last months or even years? If not and you have to liquidate other holdings at a loss, where would that leave you both financially and mentally? Never gamble with money you can't lose whether it's in the share market or the casino. Overleveraging that leads to financial ruin is a tale as old as time.",
+          "score": 3
+        },
+        {
+          "text": "These are just thoughts, don't know how true and how it applies to you uh... Salaried people, like you've mentioned, can DCA their salaries while its risky for people who have retired. The main risk of this stems from sequence of returns risk. If borrowed money is deployed too early and the market falls or remains flat, paying back the debt while funding your living expenses can force you to liquidate shares at the bottom, permanently messing with your portfolio. I am not sure how true it is (i did a quick search, like VERY quick), a fixed equity term loan is at most 5 years? the interest rate may shift to their detriment at the end of the 5 years... so :/ Since you're also retired, I think if any of the above happens, you can't exactly go back to work to recoup your losses. Can you? I don't know. Maybe.",
+          "score": 3
+        },
+        {
+          "text": "Down can go down somemore. It feels like we haven’t seen the bottom yet.",
+          "score": 3
+        },
+        {
+          "text": "Can dip a bit but don't go all in until interest rates start to fall.",
+          "score": 2
+        },
+        {
+          "text": "its all relative, u see the previous crashes, covid, tariff, etc all recovered and then some. but again if you're retired i would keep things safer, since if it goes really bad and becomes like great depression kind then you won't have the luxury of time to hold unless you want to gift it to your descendants lol",
+          "score": 2
+        },
+        {
+          "text": "Actually after as you get older won’t your amount in cash or FD be more and more? Since you care less about compounding and more about withdrawal and stability",
+          "score": 2
+        },
+        {
+          "text": "I might rotate my long-term US Treasuries and IDTL into equities if things fall further, but I don't think borrowing and buying equities on leverage is worth the risk if you're already financially secure - which you should be if you're retired.",
+          "score": 2
+        },
+        {
+          "text": "Remember Jack Bogle's advice - don't do something, just stand there.",
+          "score": 2
+        },
+        {
+          "text": "If you have already planned your finances for retirement, why chase more money and take on risk? Unless it’s true excess funds, otherwise just ride on into the sunset.",
+          "score": 1
+        },
+        {
+          "text": "Isnt TKL's NTUC Income almost bought by Allianz, a german company and not french?",
+          "score": 1
+        },
+        {
+          "text": "Later go from retired to tired lol",
+          "score": 1
+        },
+        {
+          "text": "I think it’s a bad idea unless you have a crystal ball",
+          "score": 1
+        },
+        {
+          "text": "I bought a crystal ball to use as a night light, but I still think it's a bad idea.",
+          "score": 1
+        },
+        {
+          "text": "Retired all the more your cash position should be larger instead of being exposed to markets. It's only a matter of when not if a 2008 or 2001 style crash happens, and when 70% of whatever you've worked for your entire life is wiped out in the matter of a few months, you're going to regret big time. Still want to leverage summore, you're just playing with fire.",
+          "score": 1
+        },
+        {
+          "text": "I have an endowment placed about 3 years ago that is maturing on 3 Dec. It was not part of my retirement plan and I only placed it because interest rate was pretty decent then. It was always meant to be reinvested on maturity and not for consumption. Not much just sgd55k. I am worried that by the time 3 Dec rolls around, the market might have recovered so decided to buy CSPX on margin last Fri at 770. Prices might go lower (already has) but I didn't want to take the chance and I also dont have the bandwidth to constantly monitor. I have enough in my IBKR to make this small margin purchase pretty safe as my excess liquidity is about usd300k versus margin of usd 35k.",
+          "score": 1
+        },
+        {
+          "text": "The fed only hiked once - 2 more hikes expected. I am scared because of that, but would scale in",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3bkql",
+      "subreddit": "singaporefi",
+      "title": "Is paying more for faster broadband actually worth it?",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y3bkql/is_paying_more_for_faster_broadband_actually/",
+      "score": 0,
+      "num_comments": 23,
+      "created_at": "2026-11-23T06:53:44.894000+00:00",
+      "selftext": "If two home broadband plans differed by around $20 to $30 a month, would you pay more for higher speeds or just keep a basic plan?",
+      "comments": [
+        {
+          "text": "What's the speed of both? I went from 2gbps to 6gbps. Honestly? No diff. I actually tested the 2 and 6 using the new router given. The hardware made the difference. I.e. The 2 was already fast just by switching to the new router. The 6 has a higher top speed but 2 is good enough for live 4k streaming.",
+          "score": 6
+        },
+        {
+          "text": "My 1gbps plan was upgraded to 10gbps during recontract, and I feel no difference in the speed. Actually the connection was better before.",
+          "score": 5
+        },
+        {
+          "text": "your hardware probably bottlenecked at 1Gbps",
+          "score": 1
+        },
+        {
+          "text": "They changed it to a new set though, I'm not sure if the new stuff are good for 10gpbs but I'd assume that they probably are, since they're the ones supplied by the Telco?",
+          "score": 2
+        },
+        {
+          "text": "Your phone or computer’s network card is probably bottlenecked at 1GBPS",
+          "score": 2
+        },
+        {
+          "text": "At best your 10Gbps connection stopped just at your ONT. You need better cable like CAT6 and above, a 10Gbps capable router, all the connection to your devices need to be Ethernet (newer Wifi 7 capped at around 2Gbps something), your phone/laptop/computer network interface needs to be 10Gbps capable (and they are quite expensive compared to the usual consumer level 1Gbps hardware) So, I am quite sure you are not using your 10Gbps at full potential... but for most average Joe 2.5Gbps does the job",
+          "score": 2
+        },
+        {
+          "text": "Latency and consistency is far, far more important imho. It does not matter how fast it is if the latency is horrible or goes down every other day https://www.hardwarezone.com.sg/mobile/telco/singapore-broadband-performance-opensignal-2026",
+          "score": 5
+        },
+        {
+          "text": "4k stream ranges from 25-50Mbps for Netflix or YouTube. The rest of the platforms are about the same too. Multiplying the number by how many devices/user at home. Then you should get the amount of bandwidth required for your household. Anything more than the number wouldn't really make a difference. This is before wifi congestion, weak signal, peak hour server congestion and so on. All these are contributing factors if you could get fast enough speed for your devices.",
+          "score": 3
+        },
+        {
+          "text": "it depends on your needs. if you only use for everyday things like streaming shows, 1gbps is sufficient. if you game, you may feel the difference. if you have a lot of smart devices or big household, then you may need the higher bandwidth the hardware and setup also matters",
+          "score": 2
+        },
+        {
+          "text": "You using desktop or mini pc with 10Gb ethernet ports?",
+          "score": 2
+        },
+        {
+          "text": "Actually hor, get your terminal(wall socket) tested first. After switching around so many providers. I realized, you can buy all the high speed you want BUT if the terminal max out cable is at 5gbps, you will only get that. HDB , Condo all the same. Its the cable inside the wall. Source: Personal Exp + Technician from 3 different providers.",
+          "score": 2
+        },
+        {
+          "text": "No diff if u mainly use wifi, tbh.",
+          "score": 2
+        },
+        {
+          "text": "you need the hardware to also enjoy the higher speeds no? so if you don't have it u pay for the fastest u also only enjoy what your hardware limit is...",
+          "score": 1
+        },
+        {
+          "text": "yea I pay for faster speed, of all the things you can buy, fast internet access brings the most joy",
+          "score": 1
+        },
+        {
+          "text": "Not worth it, unless you want to go for high end gaming for the whole year",
+          "score": 1
+        },
+        {
+          "text": "For most users, anything above 1Gbps is unlikely to feel much faster. It is better to have better wifi signal over raw speeds. $20-$30 extra a month is $600avg more for a 2 year contract.",
+          "score": 1
+        },
+        {
+          "text": "It depends, honestly anything above 2.5 GBPS is negligible for now. Only worth if it’s a small increase . Most phones/computers/consoles dont even support 10GBPS. Even if they do, it only makes a difference when downloading big files or games",
+          "score": 1
+        },
+        {
+          "text": "Usually there’s no difference. If you want faster internet you have to directly connect your router to your device.",
+          "score": 1
+        },
+        {
+          "text": "Ah yes. choosing the correct broadband plan is key to financial independence.",
+          "score": 1
+        },
+        {
+          "text": "My wifi 7 router (TPlink) has lesser coverage than my ASUS mesh. I added additional router to my TPlink and the mesh seemed to be poor. It has issue penetrating 1 wall. My router is very very near the wall already So it felt like I downgraded even though I upgraded.",
+          "score": 1
+        },
+        {
+          "text": "1gbps/2 enough ba",
+          "score": 1
+        },
+        {
+          "text": "If your wifi mesh has weak points (due to concrete walls in older places), it makes a huge difference.",
+          "score": -2
+        },
+        {
+          "text": "you need 1 more access point, not a faster broadband",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2pdae",
+      "subreddit": "singaporefi",
+      "title": "Getting funding for my startup",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y2pdae/getting_funding_for_my_startup/",
+      "score": 0,
+      "num_comments": 14,
+      "created_at": "2026-11-22T13:29:57.005000+00:00",
+      "selftext": "To all folks in private equity or related fields:\n\nI have recently started a business and it’s generating a few thousand dollars of revenue a month. I think it’s a scalable business and I require more funding and capital for r&d and scaling it.\n\nHow do startups find investors? What are the avenues to pitch and raise funds? How does the fundraising process work? Has anyone tried and will you please share your experience and learnings with me?",
+      "comments": [
+        {
+          "text": "What you're looking for are angel investors or seed stage venture capital. Typical PE firms look at much later stage companies.",
+          "score": 8
+        },
+        {
+          "text": "Ahhh got it. Do you know where I can pitch and look for seed capital please?",
+          "score": 1
+        },
+        {
+          "text": "I haven't gone through that process as an entrepreneur before but I happen to know quite a lot of VC firms who have themselves pitched to me for their own fundraising. With an idea of what you are doing I can potentially point you in the right direction. Before you get there you should also build a broad and deep understanding of what you're looking for - your product, the market which your product serves, as well as who you want on your cap table. $1 from some investors can be worth more than $1 from others - cos different investors bring different expertise, connections and personalities to the table",
+          "score": 4
+        },
+        {
+          "text": "for singapore \"angel/VC\" their style is what they give you, you need to pledge a personal guarantee to them in event you miss their targets",
+          "score": 1
+        },
+        {
+          "text": "Dm me",
+          "score": 2
+        },
+        {
+          "text": "Dm me for funding",
+          "score": 1
+        },
+        {
+          "text": "Before you DM anyone , if you have a product, remember to Patent it .",
+          "score": 1
+        },
+        {
+          "text": "Next question is, why not loans rather than looking for investor, is the founders lacking in some skillset or experience where money cannot bridge the gap?",
+          "score": 2
+        },
+        {
+          "text": "+1 a business having only a few k in revenue, next step of scaling would be at the 50-100k level of funding. Take a business loan.",
+          "score": 2
+        },
+        {
+          "text": "This. Loans are cheaper than equity if a founder really, really believes that their business will make it big. When you reach $100m MRR, you'd wish you owned 100% of a company. The downside is that this requires extreme amounts of conviction, and banks will likely require you to sign a personal guarantee, which means you can go bankrupt. Also, Singapore's bankruptcy laws are horrible compared to the US, which is probably why we hardly see any real entrepreneurs, but more grantrepreneurs that only know how to take gahmen money.",
+          "score": 1
+        },
+        {
+          "text": "Thanks for reminder, I copyrighted it",
+          "score": 1
+        },
+        {
+          "text": "I think you have some business fundamentals to learn if you don't know the difference between copyright and patents (and trademarks). Also, ideas are cheap, even in this age of AI. So much shitty AI slop out there. It's the execution that matters.",
+          "score": 1
+        },
+        {
+          "text": "A few thousand dollars in revenue is going to be real hard to find significant funding, especially if also need R&D. You’re going to need to either find an angel investor and pitch to them to see who bites or else join some sort of accelerator/incubator to get resources but they take quite a lot of upfront equity if they do decide to invest. Honestly, run your business first and slowly scale up until it reaches a certain point before looking for external money.",
+          "score": 1
+        },
+        {
+          "text": "DM me I am interested to know more :)",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y2p652",
+      "subreddit": "singaporefi",
+      "title": "Brokerage account does not tally?",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y2p652/brokerage_account_does_not_tally/",
+      "score": 0,
+      "num_comments": 8,
+      "created_at": "2026-11-22T13:19:52.124000+00:00",
+      "selftext": "Hi, just want to seek some clarification in the calculations. I’ve closed all my positions and the profit as shown. But when I withdrew everything from the account, the net deposit does not tally with whatever gains I had. Am I tripping or calculating wrongly?",
+      "comments": [
+        {
+          "text": "Did you always deposit USD and withdraw USD? If you put in or took out money in SGD, the numbers in the app may only show their current value in USD using the current exchange rate. Which will be wrong if the currency exchange was done in the past. Anyway your explanation is inadequate. Where is the history of transactions, and in what currency? Also depends on whether your broker includes the effects of commissions into realized gains. My guess is something like this. You deposited S$10000 and changed it to USD when the exchange rate (plus spread) was 1.35. That’s US$7407, and eventually you realized gains of US$2076, ending up with US$9483. But the current exchange rate is 1.29. The system thinks your original S$10k deposit was US$7812 using today’s exchange rate. So it puts your net deposit as US$7812-9483=-1,671. Adjust the hypothetical starting sum and exchange rates to arrive at your number. Long story short, your true gains were diminished by USD devaluation.",
+          "score": 2
+        },
+        {
+          "text": "How do you deposit -$1,541.26? How much did you withdraw? Can you look at your full statement instead.",
+          "score": 1
+        },
+        {
+          "text": "Hi, it’s net deposit!! So withdrawals - deposit will result in a net deposit amount and I withdrew all the cash including the gains, that’s why it was negative.",
+          "score": 1
+        },
+        {
+          "text": "Hmm if that’s the case then it should be $2,076.29 - $154.17 = $1,922.12 that you withdrew? Not $1,541.26.",
+          "score": 1
+        },
+        {
+          "text": "It’s not shown but it was US$4851.46 (deposit) - US$6392.71 (withdrawal) will result in the net withdrawal of -1,541.25. $2076 is the gains from closing all the positions.",
+          "score": 1
+        },
+        {
+          "text": "Still doesn’t make sense to me. If you deposit $4,851, make $2,076, you should have $6,927, not $6,392.71. And you still have a cash balance in there?",
+          "score": 1
+        },
+        {
+          "text": "Cash balance was what I added recently. But the difference of about 6927 - 6392 = 500 is not the same as the $150 balance, wondering what’s the difference in calculation.",
+          "score": 1
+        },
+        {
+          "text": "Still doesn’t make sense, bro. Doesn’t matter when you deposited the $150, it would be taken into your net deposited, no? The reason why I’m querying so much is because it shows you are missing something in your explanation. Look at your statement, please.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y3c81g",
+      "subreddit": "singaporefi",
+      "title": "Ethena Pay Highest Cashback Card now",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y3c81g/ethena_pay_highest_cashback_card_now/",
+      "score": 0,
+      "num_comments": 1,
+      "created_at": "2026-11-23T07:33:34.101000+00:00",
+      "selftext": "4% cashback on everyday spend with the free Ethena Pay card\n\nThe free base-tier Ethena Pay card gives 4% cashback on everyday purchases: food, Grab, shopping, whatever you put on the card. It's a Visa and works with Apple Pay.\n\n4% on your first US$2,500 of spend each month\n\nNo annual fee\n\nCashback is paid in AVAX, so its value moves with the price\n\nBeen using it for a month now, saves me about $100++ USD a month, still currently in beta if anyone needs an invite let me know",
+      "comments": [
+        {
+          "text": "Is it doing anything different from the Crypto.com card? Crypto.com is licensed by MAS but Ethena is not. Insert obligatory let me know if you want a referral for the Crypto.com card.",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "t3_1y38anb",
+      "subreddit": "singaporefi",
+      "title": "what is happening on endowus CPF flagship portfolio 🙏🙏🙏🙏",
+      "url": "https://www.reddit.com/r/singaporefi/comments/1y38anb/what_is_happening_on_endowus_cpf_flagship/",
+      "score": 0,
+      "num_comments": 9,
+      "created_at": "2026-11-23T03:48:11.070000+00:00",
+      "selftext": "can anyone explain the dip for dummies what was around 8-10% increase is now 0.42%? context : 100% equities portfolio so I understand the risk, moreso curious about the dip bc I not seeing anyone talk apt it on here",
+      "comments": [
+        {
+          "text": "bc I not seeing anyone talk apt it on here WHAT DO YOU MEAN? https://www.reddit.com/r/singaporefi/comments/1y21rtm/disrespectfully_wtfiretruck_is_with_the_stock/ https://www.reddit.com/r/singaporefi/comments/1y1shxp/how_are_your_portfolios_doing_after_the_drop/ https://www.reddit.com/r/singaporefi/comments/1y1s0mt/zoom_out/ https://www.reddit.com/r/singaporefi/comments/1y1ouv0/old_but_gold/ https://www.reddit.com/r/singaporefi/comments/1y1om5c/market_is_crashing_what_to_do_a_message_to_the/ https://www.reddit.com/r/singaporefi/comments/1y1n570/lost_3_years_gain_in_10months/ https://www.reddit.com/r/singaporefi/comments/1y1l9tb/for_those_who_have_fired_how_are_you_coping_with/ https://www.reddit.com/r/singaporefi/comments/1y18s50/good_old_stuff_from_2017/ https://www.reddit.com/r/singaporefi/comments/1y14a5d/why_exactly_are_global_stocks_crashing/ https://www.reddit.com/r/singaporefi/comments/1y10c67/buy_the_vwra_dip_or_not_yet/ Anyway, something something Anthropic not being super profitable now, plus all the fears surrounding NVDA, something something popping the AI bubble etc. Is this necessarily true? No. Is this plausible? Maybe. Does anyone actually know? No.",
+          "score": 11
+        },
+        {
+          "text": "Wah you are faster than me to post the links to the posts from Friday onwards.",
+          "score": 2
+        },
+        {
+          "text": "hahaha just nice i saw this post right as they posted",
+          "score": 1
+        },
+        {
+          "text": "They are a new user so I had to manually approve the post, and as soon as I did that, I went to collate the related threads. And you still beat me to it!",
+          "score": 2
+        },
+        {
+          "text": "Markets crashed",
+          "score": 3
+        },
+        {
+          "text": "Liu lian bo bao jiak",
+          "score": 2
+        },
+        {
+          "text": "you have seen whats going on with the stock markets past few weeks right? just zoom out, cpf port is supposed to be as long term as it gets, so just buy the dip there was a big drawdown in March this year and april last year as well... both times the port has recovered more than before and i didn't even bother adding more to average lol",
+          "score": 1
+        },
+        {
+          "text": "It's the same thing that was discussed this weekend, except that Endowus is a unit trust so Friday's changes only reflect today. There has been a significant drop in global equities, led by the tech/AI sector, with the Nvidia Jensen Huang resignation being a catalyst that has spread fear and uncertainty. https://www.reddit.com/r/singaporefi/comments/1y14a5d/why_exactly_are_global_stocks_crashing/ https://www.reddit.com/r/singaporefi/comments/1y1l9tb/for_those_who_have_fired_how_are_you_coping_with/ https://www.reddit.com/r/singaporefi/comments/1y1om5c/market_is_crashing_what_to_do_a_message_to_the/ https://www.reddit.com/r/singaporefi/comments/1y1s0mt/zoom_out/ https://www.reddit.com/r/singaporefi/comments/1y1shxp/how_are_your_portfolios_doing_after_the_drop/ https://www.reddit.com/r/singaporefi/comments/1y21rtm/disrespectfully_wtfiretruck_is_with_the_stock/",
+          "score": 1
+        },
+        {
+          "text": "Just for context, the Endowus Flagship Portfolio (CPF) is currently: 33% Amundi World 25% Dimensional Global Core Equity 25% Amundi Prime USA 9% Dimensional Emerging Markets 8% Schroder Global Emerging Markets This means the portfolio's US weight is roughly in line with a global index, but it's underweight developed ex-US and overweight emerging markets, and it has a mild small/value tilt when compared to VWRA. This can change of course, but overall the movements of this particular portfolio will tend move in line with the broader stock market.",
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "collection_warnings": {
+    "singaporefi": [
+      "Only 6/10 posts were rendered on this page."
+    ]
+  }
+}
