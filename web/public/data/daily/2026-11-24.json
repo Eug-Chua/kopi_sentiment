@@ -1,0 +1,3925 @@
+{
+  "schema_version": "daily_report_v1",
+  "date_id": "2026-11-24",
+  "report_date": "2026-11-24",
+  "generated_at": "2026-11-24T22:04:50.672306",
+  "metadata": {
+    "total_posts_analyzed": 38,
+    "total_comments_analyzed": 405,
+    "subreddits": [
+      "singapore",
+      "askSingapore",
+      "SingaporeRaw",
+      "singaporefi"
+    ]
+  },
+  "overall_sentiment": {
+    "fears": {
+      "intensity": "moderate",
+      "summary": "Health anxieties are front and centre today, with Singaporeans unsettled by the rising incidence of strokes among young adults — a stark reminder that hustle culture and poor sleep carry real physical costs. Financial security fears also run deep, particularly among professionals weighing risky career moves from permanent Big 4 roles to contract bank positions. The Nvidia export controls saga adds a geopolitical dimension, with Singaporeans feeling like collateral damage caught between US tech restrictions and legitimate business needs. Digital security rounded out the anxiety, as multiple YouTrip fraud cases and a Lalamove phishing scam left users questioning the safety of everyday fintech platforms.",
+      "quote_count": 38,
+      "intensity_breakdown": {
+        "mild": 8,
+        "moderate": 19,
+        "strong": 11
+      }
+    },
+    "frustrations": {
+      "intensity": "strong",
+      "summary": "Frustration dominated today's discourse, and it was intense. The Russia-Singapore business ties story drew sharp criticism, while Singapore's strong GDP growth figures paradoxically sparked anger — many felt the gains weren't trickling down to ordinary residents facing rising costs. The BCRS recycling machine abuse thread was a flashpoint, with Singaporeans furious at bad-faith actors gaming a public good system, undermining trust in civic infrastructure. Closer to home, outrage over a stepfather's sexual abuse case and a voyeurism scandal involving a Singaporean doctor in Melbourne reflected deep frustration with predatory behaviour and institutional failures to protect the vulnerable.",
+      "quote_count": 89,
+      "intensity_breakdown": {
+        "mild": 11,
+        "moderate": 32,
+        "strong": 46
+      }
+    },
+    "optimism": {
+      "intensity": "moderate",
+      "summary": "Optimism was genuine today, anchored in community and small joys. The sexual abuse conviction drew heartfelt praise, with many Singaporeans heartened that the justice system worked and commending the survivor's courage in speaking out. Food culture provided a lighter lift — the chiffon cake thread was a warm celebration of local bakeries, generating some of the strongest positive sentiment of the day. Investment discussions also struck an upbeat chord, with Singaporeans expressing confidence in long-term compounding strategies despite market noise. A charming 3D pixel-art map of downtown Singapore sparked creative delight, reminding residents of their pride in the city's distinctive skyline.",
+      "quote_count": 52,
+      "intensity_breakdown": {
+        "mild": 3,
+        "moderate": 26,
+        "strong": 23
+      }
+    }
+  },
+  "subreddits": [
+    {
+      "name": "singapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 117,
+      "top_posts": [
+        {
+          "id": "t3_1y470ua",
+          "title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+          "url": "https://www.reddit.com/r/singapore/comments/1y470ua/at_17_she_had_a_stroke_singapore_is_seeing_more/",
+          "score": 64,
+          "num_comments": 9,
+          "created_at": "2026-11-24T07:25:33.299000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y470ua",
+            "post_title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a noticeable concern that young adults are losing their natural protection against strokes, with specific worry about how intense work culture may increase health risks. The fear is expressed clearly but without extreme panic or urgency.",
+              "quotes": [
+                {
+                  "quote": "Seems like youth is increasingly no longer a shield against stroke.",
+                  "score": 50
+                },
+                {
+                  "quote": "Extreme hustle culture can cause a stroke too.",
+                  "score": 13
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "There is a casual acknowledgment of personal negligence regarding sleep and self-care, expressed more as gentle self-reminder than active frustration. The tone suggests resigned awareness rather than strong annoyance or complaint.",
+              "quotes": [
+                {
+                  "quote": "Sleep is important as well. Something that many neglect including me",
+                  "score": 34
+                },
+                {
+                  "quote": "As a reminder to myself, work on the 1st one.",
+                  "score": 50
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4137p",
+          "title": "3D pixel-art map of downtown central Singapore",
+          "url": "https://www.reddit.com/r/singapore/comments/1y4137p/3d_pixelart_map_of_downtown_central_singapore/",
+          "score": 60,
+          "num_comments": 10,
+          "created_at": "2026-11-24T02:07:32.754000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y4137p",
+            "post_title": "3D pixel-art map of downtown central Singapore",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Users offer constructive criticism about specific details like the Concourse appearance and perspective consistency, with a casual, matter-of-fact tone rather than strong complaint.",
+              "quotes": [
+                {
+                  "quote": "looks good! but the Concourse doesnt look like what it should be...",
+                  "score": 1
+                },
+                {
+                  "quote": "Not bad, but need more pixel art polish.",
+                  "score": 1
+                },
+                {
+                  "quote": "Yes one issue I had with those is it's fixed perspective.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Commenters express genuine appreciation for the work with positive remarks and creative suggestions like STL export, showing clear support and engagement with the project.",
+              "quotes": [
+                {
+                  "quote": "Simcity 4 feels",
+                  "score": 1
+                },
+                {
+                  "quote": "looks good!",
+                  "score": 1
+                },
+                {
+                  "quote": "Needs an export to STL so we can print it",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y436t3",
+          "title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+          "url": "https://www.reddit.com/r/singapore/comments/1y436t3/man_gets_jail_for_sexually_abusing_young/",
+          "score": 51,
+          "num_comments": 13,
+          "created_at": "2026-11-24T03:51:51.892000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y436t3",
+            "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenters express intense anger and outrage over the perceived leniency of the sentence, with strong language like 'Disgusting' and emphasis on the inadequacy of the punishment for the severity of trauma inflicted on the child. The frustration centers on systemic injustice and the gap between the crime's gravity and its legal consequence.",
+              "quotes": [
+                {
+                  "quote": "Only 2yr and 3strokes b4 2/3 early remission ??",
+                  "score": 20
+                },
+                {
+                  "quote": "But still, it just feels...too low for the trauma that the stepdaughter was put through, ain't it?",
+                  "score": 21
+                },
+                {
+                  "quote": "Disgusting man. How could he take advantage of the child like that?",
+                  "score": 9
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Commenters express genuine gratitude and heartfelt praise for the victim's courage, the mother's protective actions, and the system's intervention, with emphatic language like 'Kudos,' 'heartened,' and 'Great' reflecting deep appreciation for seeing justice work. There is palpable relief and optimism that the victim has family support and hope for her recovery.",
+              "quotes": [
+                {
+                  "quote": "Kudos to everyone in the reporting chain for taking it seriously and to the girl for saying something.",
+                  "score": 50
+                },
+                {
+                  "quote": "Yep, props to her for her courage to report her stepfather. I am heartened to see the system work for once.",
+                  "score": 17
+                },
+                {
+                  "quote": "Good job to the mother. It's definitely not easy reporting your own husband, but thank you for putting your daughter first. As for the daughter, hopefully after going through her parent's divorce, she knows that her mother still has her back and care about her. Also kudos to the school for reporting it. May the young victim grow up well, surrounded by the support and love she needs.",
+                  "score": 28
+                },
+                {
+                  "quote": "Great that her mum actually took her side. Enough reading news and seeing the biological parent side with the stepparent and not report such shit",
+                  "score": 9
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y47ant",
+          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+          "url": "https://www.reddit.com/r/singapore/comments/1y47ant/us_blacklists_megaspeed_chip_firm_linked_to/",
+          "score": 46,
+          "num_comments": 25,
+          "created_at": "2026-11-24T07:42:50.950000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y47ant",
+            "post_title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep concern about Singapore being collateral damage in US-China tech tensions, with legitimate regional companies facing unequal treatment and punitive export restrictions while US allows loopholes for favored companies.",
+              "quotes": [
+                {
+                  "quote": "Yup. The only people that really suffer at the moment are all the legitimate companies in Singapore / Malaysia and Thailand that suddenly have to apply for export licenses to get access to Nvidia products. This situation is just insane. Singapore is the meat in the sandwich again. US: SUPERintelligence is EVERYTHING. And *critical* to national security. Export to the wrong country and we'll punish your whole country. Also US: Meh, we don't have a problem with Nvidia selling this tech to China. Jensen Huang is a great guy!",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Outrage over the perceived hypocrisy and injustice of selective enforcement, where Nvidia/Jensen Huang face no consequences while Megaspeed is blacklisted for the same transactions, reflecting a 'laws of the jungle' dynamic.",
+              "quotes": [
+                {
+                  "quote": "Ok so Jensen is a patriot for selling to Megaspeed and sleeping with the Megaspeed woman, and according to Trump, they have no case against him. But Megaspeed is blacklisted for buying from Jensen. Laws of the jungle again?",
+                  "score": 12
+                },
+                {
+                  "quote": "This situation is just insane.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y42iye",
+          "title": "Beware - Lalamove Pickup/Delivery Scam",
+          "url": "https://www.reddit.com/r/singapore/comments/1y42iye/beware_lalamove_pickupdelivery_scam/",
+          "score": 45,
+          "num_comments": 12,
+          "created_at": "2026-11-24T03:17:30.976000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y42iye",
+            "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about how easily people can be deceived by fake Lalamove domains that appear official, reflecting worry about the vulnerability of unsuspecting users to this scam.",
+              "quotes": [
+                {
+                  "quote": "people will really see lalamove.anything.com and assume it's official it's crazy",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express definite annoyance about the prevalence of marketplace scams and the sophisticated nature of these schemes that exploit banking credentials and payment platforms.",
+              "quotes": [
+                {
+                  "quote": "Your first mistake was using Facebook marketplace.",
+                  "score": 4
+                },
+                {
+                  "quote": "Market places are full of these. Got one will claim the money is deposited into Lalamove and you need to log in using your banking credentials to retrieve the money.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Users demonstrate cautious positivity by highlighting their ability to catch themselves or spot red flags before falling victim to the scam, showing resilience and awareness.",
+              "quotes": [
+                {
+                  "quote": "Yeah usually I'm pretty careful about such stuff, luckily caught myself before I put in the bank info",
+                  "score": 4
+                },
+                {
+                  "quote": "This happened to me too. I got suspicious because I had lalamove installed on my phone but the link didn't open to the app.",
+                  "score": 12
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y46lbz",
+          "title": "Motorcyclist dies after accident with car in Choa Chu Kang; driver arrested",
+          "url": "https://www.reddit.com/r/singapore/comments/1y46lbz/motorcyclist_dies_after_accident_with_car_in_choa/",
+          "score": 43,
+          "num_comments": 7,
+          "created_at": "2026-11-24T06:59:57.163000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y46lbz",
+            "post_title": "Motorcyclist dies after accident with car in Choa Chu Kang; driver arrested",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Deep anxiety about vulnerable road users facing unpredictable dangers from reckless drivers, with specific examples of recurring traffic violations and hit-and-run incidents demonstrating systemic risk.",
+              "quotes": [
+                {
+                  "quote": "You can do everything right but someone else can still take your life. We've seen this multiple times, beating the red light, clone cars driving away from police. Tampines junction incident, tipper trucks etc.",
+                  "score": 21
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Outrage at media framing that focuses on the victim rather than the culpable dangerous driver, with emphasis that the death was not accidental but caused by criminal negligence.",
+              "quotes": [
+                {
+                  "quote": "There's often a headline focus on the victim if it's a motorcyclist or a cyclist. The article literally says that a 42 year old arrested for dangerous driving causing death. That should be the spotlight, not the motorcyclist. The motorcyclist didnt die accidentally. It's a driver who crash and killed a motorcyclist through dangerous driving.",
+                  "score": 9
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4710z",
+          "title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+          "url": "https://www.reddit.com/r/singapore/comments/1y4710z/russia_banks_on_singapore_in_bid_to_deepen/",
+          "score": 40,
+          "num_comments": 18,
+          "created_at": "2026-11-24T07:25:50.901000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y4710z",
+            "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A single concern about Russia's strategic intent to acquire foreign companies through investment, expressed as a passing observation rather than an urgent worry.",
+              "quotes": [
+                {
+                  "quote": "They need new foreign companies to go into Russia, so that they can... 'inherit' them later.",
+                  "score": 5
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense and emphatic frustration with Singapore's perceived willingness to engage in money laundering and compromise its values for financial gain, using harsh language and colorful metaphors to express deep moral outrage about the nation's policies.",
+              "quotes": [
+                {
+                  "quote": "Spreading cheeks for everything for the $$$",
+                  "score": 14
+                },
+                {
+                  "quote": "basically words are just words. even sanctions are just sanctions. but money speaks above all, and both the russians and singapore understand that.",
+                  "score": 21
+                },
+                {
+                  "quote": "if we don't take their dirty money, it'll go to hk or bvi!",
+                  "score": 12
+                },
+                {
+                  "quote": "We are truly the whore of asia.",
+                  "score": 12
+                },
+                {
+                  "quote": "We're running an IKEA-sized laundromat here. Money made squeaky clean guaranteed.",
+                  "score": 5
+                },
+                {
+                  "quote": "Whore of Asia led by someone with no backbone.",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y40dxv",
+          "title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+          "url": "https://www.reddit.com/r/singapore/comments/1y40dxv/singapore_hikes_2026_gdp_growth_forecast_to/",
+          "score": 31,
+          "num_comments": 17,
+          "created_at": "2026-11-24T01:33:10.666000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y40dxv",
+            "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Singaporeans are concerned about job security and wealth inequality, questioning whether GDP growth translates to opportunities for fresh graduates and ordinary workers. The fear centers on a K-shaped economy where only certain sectors and people benefit while others face negative outcomes.",
+              "quotes": [
+                {
+                  "quote": "Still hike? But where is the jobs for fresh grads and companies are still laying off? Where are the growth? Anyone who will get the grow share the wealth?",
+                  "score": 2
+                },
+                {
+                  "quote": "Really K shaped economy, maybe 10-20% for some sectors/people and negative for others",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "There is sharp frustration that economic growth statistics are meaningless to ordinary citizens as living costs remain high and purchasing power deteriorates. The cynicism is expressed through colorful language (comparing currency to toilet paper) and a sense of disconnect between headline numbers and lived reality.",
+              "quotes": [
+                {
+                  "quote": "doesn't feel like anything for the common man.",
+                  "score": 8
+                },
+                {
+                  "quote": "The numbers mean nothing to me. Prices are sky high and not coming down.",
+                  "score": 6
+                },
+                {
+                  "quote": "The value of note equals to the value of toilet paper",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y425sa",
+          "title": "Singapore’s non-oil exports see record 45.8% rise in Q3 led by growth in electronics",
+          "url": "https://www.reddit.com/r/singapore/comments/1y425sa/singapores_nonoil_exports_see_record_458_rise_in/",
+          "score": 26,
+          "num_comments": 7,
+          "created_at": "2026-11-24T03:00:07.552000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y425sa",
+            "post_title": "Singapore’s non-oil exports see record 45.8% rise in Q3 led by growth in electronics",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about whether economic gains will benefit lower to middle income earners through salary or bonus increases, expressed as a questioning doubt rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "will that translate to higher salary/bonus for the low-middle incomes in 2026?",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear skepticism that the export growth is artificially inflated by Nvidia chip exports, with an implied concern that underlying economic performance may actually be negative without this single factor.",
+              "quotes": [
+                {
+                  "quote": "Minus the Nvidia chips, maybe negative?",
+                  "score": -2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4aw76",
+          "title": "Proposed StarHub-M1 deal: No mobile price plan changes for 2027, but analysts see pressure to lift profits",
+          "url": "https://www.reddit.com/r/singapore/comments/1y4aw76/proposed_starhubm1_deal_no_mobile_price_plan/",
+          "score": 23,
+          "num_comments": 4,
+          "created_at": "2026-11-24T11:25:29.847000Z",
+          "subreddit": "singapore",
+          "analysis": {
+            "post_id": "t3_1y4aw76",
+            "post_title": "Proposed StarHub-M1 deal: No mobile price plan changes for 2027, but analysts see pressure to lift profits",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "Concerns about inevitable price increases due to operational pressures, spectrum bidding costs, and demographic challenges are expressed with logical reasoning and resigned acceptance rather than panic. The fear is grounded in business realities but presented analytically rather than emotionally.",
+              "quotes": [
+                {
+                  "quote": "They have to be thinking about raising prices on their plans to sustain their operations here and have the cashflow for 6G spectrum bidding in the future. Otherwise just close shop here, then it goes back to duopoly setup (singtel and starhub)",
+                  "score": 5
+                },
+                {
+                  "quote": "If the overall population were to drop from its peak many years down the road, the cost per subscription will have to increase to justify the investment. this is going to be unavoidable unfortunately",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Disappointment about M1's poor stock performance is clearly expressed through the stark 74% year-to-date decline figure, reflecting noticeable investor discontent. The statistic conveys frustration without passionate language or dramatic emphasis.",
+              "quotes": [
+                {
+                  "quote": "Simba share price is down 74% YTD (that's despite it closing 32% higher today)",
+                  "score": 5
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "askSingapore",
+      "posts_analyzed": 10,
+      "comments_analyzed": 133,
+      "top_posts": [
+        {
+          "id": "t3_1y43nbl",
+          "title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y43nbl/best_chiffon_cake_recommendations_any_flavour_of/",
+          "score": 15,
+          "num_comments": 36,
+          "created_at": "2026-11-24T04:15:29.744000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y43nbl",
+            "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "One user expressed mild concern about value for money, noting that a particular chiffon cake was nice but not worth the high price tag.",
+              "quotes": [
+                {
+                  "quote": "Shifon keki was nice but not that nice for the kind of price tag.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "Users enthusiastically praise multiple cake brands with passionate language, frequent repetition of purchases, and emphatic endorsements (caps, emojis, exclamation marks), particularly for Tiap Tiap and Dulcet & Studio.",
+              "quotes": [
+                {
+                  "quote": "I really like Dulcet & Studio!",
+                  "score": 16
+                },
+                {
+                  "quote": "I always get their Pandan cake for my tea break.",
+                  "score": 2
+                },
+                {
+                  "quote": "Loooove their pandan rolls with the jelly inside",
+                  "score": 1
+                },
+                {
+                  "quote": "the ondeh ondeh cake from tiaptiap is damn good i always buy for family bday celebrations, it's very well liked by everyone across all age groups :D",
+                  "score": 7
+                },
+                {
+                  "quote": "Tiap tiap is so moist, soooo good. Tried it just last week",
+                  "score": 3
+                },
+                {
+                  "quote": "Omg Tiaptiap hands down best chiffon cake in sg! Super fluffy moist and delicious… I also always buy for birthdays and gatherings! Crowd favourite!",
+                  "score": 2
+                },
+                {
+                  "quote": "Yes! Premium ingredients and the best taste, hands down agree, every thing they do is outstanding imo",
+                  "score": 1
+                },
+                {
+                  "quote": "I have to say though in my experience the sliced versions tasted fresher than the whole cakes.",
+                  "score": 8
+                },
+                {
+                  "quote": "Tiap Tiap hands down! Incredibly moist and fragrant 🤤",
+                  "score": 1
+                },
+                {
+                  "quote": "love harrianne's pandan cake but a little pricey. bought it at 6.10 during national day this year though.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3pk8w",
+          "title": "Are there any local Trekkie groups",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y3pk8w/are_there_any_local_trekkie_groups/",
+          "score": 10,
+          "num_comments": 6,
+          "created_at": "2026-11-23T18:12:38.782000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y3pk8w",
+            "post_title": "Are there any local Trekkie groups",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "Light disappointment that Star Wars has greater cultural prominence than Star Trek, expressed with casual acceptance rather than strong complaint.",
+              "quotes": [
+                {
+                  "quote": "it seems like Star Wars is more powerful as a cultural zeitgeist",
+                  "score": 4
+                },
+                {
+                  "quote": "Oh darn",
+                  "score": 3
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear enthusiasm about being a Trekkie with constructive suggestions to build community, using humorous reference to show genuine interest in connecting with fellow fans.",
+              "quotes": [
+                {
+                  "quote": "I am a trekkie myself",
+                  "score": 4
+                },
+                {
+                  "quote": "Maybe we can form some sort of Discord server first",
+                  "score": 4
+                },
+                {
+                  "quote": "There are dozens of us....DOZENS!!",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y46z7v",
+          "title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y46z7v/anyone_stayed_at_both_glamping_and_the_banyan/",
+          "score": 10,
+          "num_comments": 5,
+          "created_at": "2026-11-24T07:22:37.350000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y46z7v",
+            "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Guests express clear disappointment with service quality, location inconvenience, and lack of personalized attention, particularly regarding check-in policies and failure to acknowledge special occasions. While frustrations are noticeable and definite, they are expressed matter-of-factly rather than with intense emotion or outrage.",
+              "quotes": [
+                {
+                  "quote": "hard product is not bad but service is substandard",
+                  "score": 7
+                },
+                {
+                  "quote": "location is far, food is not exciting from their restaurants",
+                  "score": 6
+                },
+                {
+                  "quote": "no upgrades, can't check-in despite reaching after 3pm and no late check outs given",
+                  "score": 6
+                },
+                {
+                  "quote": "mentioned about celebrating special occasion but no greetings from front desk or anything. just not pro active",
+                  "score": 6
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "Guests offer cautious positivity, acknowledging that the resort meets basic expectations with decent evening activities and acceptable comfort levels. The tone is casual and resigned rather than enthusiastic, with a 'it is what it is' acceptance of the experience.",
+              "quotes": [
+                {
+                  "quote": "It is not bad overall that the team actually goes to provide some games / activities during the evening, chill ones and not anything arduous or sweaty",
+                  "score": 3
+                },
+                {
+                  "quote": "It's hardly uncomfortable and most will not find it 'tough'",
+                  "score": 3
+                },
+                {
+                  "quote": "Nothing much of complaints tbh and it is what it is as advertised",
+                  "score": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y4cll3",
+          "title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y4cll3/looking_for_family_lawyer_recommendation_for/",
+          "score": 8,
+          "num_comments": 15,
+          "created_at": "2026-11-24T12:56:00.686000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y4cll3",
+            "post_title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is clear concern about the long-term financial and legal consequences of divorce agreements, with practical worry about whether legal costs are justified given lifetime binding commitments and the complexity of court procedures.",
+              "quotes": [
+                {
+                  "quote": "The terms are binding for the rest of your life or till the child reaches 21 years old. From this perspective, you will realize does it make sense saving that $3-$5k?",
+                  "score": 1
+                },
+                {
+                  "quote": "unless you know how to navigate court filings on your own as well as drafting the adequate papers, this is absolutely untrue. Lawyer makes it easier.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "There is noticeable frustration about potential manipulation by the ex-spouse and the inconvenience of navigating legal processes without professional help, expressed through colloquial language reflecting practical annoyance.",
+              "quotes": [
+                {
+                  "quote": "Your ex-wife is pulling a fast one on you, my guy.",
+                  "score": 1
+                },
+                {
+                  "quote": "Paying for a lawyer is well worth it to simply avoid the hassle of having to go down in person each time to Chinatown just to make a filing.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4cd9t",
+          "title": "Where can I get an ADHD diagnosis for my 17 year old?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y4cd9t/where_can_i_get_an_adhd_diagnosis_for_my_17_year/",
+          "score": 8,
+          "num_comments": 15,
+          "created_at": "2026-11-24T12:44:04.985000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y4cd9t",
+            "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "There is a casual concern about the possibility of receiving alternative mental health diagnoses before ADHD, presented as a factual scenario rather than an urgent worry.",
+              "quotes": [
+                {
+                  "quote": "Depending on severity and assessment they could diagnose your child with other mental illnesses first like depression before ADHD but depends on case to case scenario.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A passing mention of difficulty booking appointments with a specific professional due to availability constraints.",
+              "quotes": [
+                {
+                  "quote": "Probably the professor is trying to book is packed.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Several users share positive personal experiences getting ADHD and autism diagnoses at a clinic, offering practical solutions and hope to the person seeking help.",
+              "quotes": [
+                {
+                  "quote": "went to some random clinic in Novena, it was about 500, with 1 month of ritalin",
+                  "score": 2
+                },
+                {
+                  "quote": "i got my Autism diagnosis from there.",
+                  "score": 1
+                },
+                {
+                  "quote": "Got my diagnosis like this at 17 as well",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3k26p",
+          "title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y3k26p/did_bengawan_solo_pandan_cheese_roll_change_recipe/",
+          "score": 7,
+          "num_comments": 11,
+          "created_at": "2026-11-23T14:43:56Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y3k26p",
+            "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a concerned worry about the broader implications of recipe changes in Singapore's F&B scene, with concern that such changes signal potential business decline or closure.",
+              "quotes": [
+                {
+                  "quote": "I think it's particularly bad in sg's F&B scene. Maybe some will survive, but often it's a harbinger for the business closing down.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Customers express intense disappointment and emotional frustration over the perceived degradation of their beloved product, with multiple complaints about reduced cheese quality, lost savory-sweet balance, and bewilderment at the brand's decision to alter a successful recipe.",
+              "quotes": [
+                {
+                  "quote": "They did?? Shucks the grated cheese (and the sweet-savory contrast between the cheese and cream) was the best part",
+                  "score": 15
+                },
+                {
+                  "quote": "I normally eat all the pandan cake and leave the big cheese part in the middle to savour at the end,but today I didn't get much/any grated cheese in it leh. Damn sad.",
+                  "score": 4
+                },
+                {
+                  "quote": "I could've sworn the grated cheese was more savoury before. Now the filling taste more sweet than salty-ish",
+                  "score": 4
+                },
+                {
+                  "quote": "I really don't understand why these people try to reinvent the wheel but end up killing their USP.",
+                  "score": 2
+                },
+                {
+                  "quote": "The cheese tastes worse! It's like a cream cheese now when it was like grated cheese before. 😭",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3k26j",
+          "title": "how to dispose off overseas coins?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y3k26j/how_to_dispose_off_overseas_coins/",
+          "score": 4,
+          "num_comments": 10,
+          "created_at": "2026-11-23T14:43:55.615000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y3k26j",
+            "post_title": "how to dispose off overseas coins?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear frustration with limited practical options for disposing of overseas coins, noting that money changers won't accept them, recycling isn't available, and previously convenient solutions may no longer exist.",
+              "quotes": [
+                {
+                  "quote": "most money changers don't take coins or small notes, so don't count on swapping them for cash",
+                  "score": 2
+                },
+                {
+                  "quote": "NEA's Recyclopedia also says coins aren't recyclable in blue bins",
+                  "score": 2
+                },
+                {
+                  "quote": "The TravelersBox kiosks at Changi that someone mentioned might have been discontinued, so I'd double-check with Changi Airport before making a trip just for that",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y47en4",
+          "title": "Recommendations in SG for holiday",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y47en4/recommendations_in_sg_for_holiday/",
+          "score": 3,
+          "num_comments": 7,
+          "created_at": "2026-11-24T07:50:08.404000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y47en4",
+            "post_title": "Recommendations in SG for holiday",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A slight concern about rainy weather affecting zoo visits, presented as a practical tip rather than an intense worry.",
+              "quotes": [
+                {
+                  "quote": "Also, our zoo is very good, but it's been pretty rainy. Check the weather before you book tickets.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Clear positive endorsements of the oceanarium as a great family destination, with appreciation for interactive experiences that create pleasant memories.",
+              "quotes": [
+                {
+                  "quote": "+1 for the oceanarium. Its great for all ages.",
+                  "score": 1
+                },
+                {
+                  "quote": "The interactive sections for young kids was a lovely way to spend an afternoon.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y48weg",
+          "title": "YouTrip security issues. Unauthorised transaction.",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y48weg/youtrip_security_issues_unauthorised_transaction/",
+          "score": 3,
+          "num_comments": 22,
+          "created_at": "2026-11-24T09:25:10.065000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y48weg",
+            "post_title": "YouTrip security issues. Unauthorised transaction.",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Users express deep anxiety about financial security and the vulnerability of prepaid card systems, with specific concerns about card theft and fraud leading them to take immediate protective measures. The fear is rooted in loss of control over their own funds and difficulty recovering money compared to credit card protections.",
+              "quotes": [
+                {
+                  "quote": "This is also why I prefer using credit cards over debit cards and avoid prepaid cards or wallets like YouTrip which require me to top up. I'd rather dispute an unauthorised charge on my credit card than fight to recover money already deducted from my own funds.",
+                  "score": 10
+                },
+                {
+                  "quote": "i immediately locked my card via the app after my last purchase of my holiday (thankfully) because they turkish casher was intrigued by the design of my credit/debit(?) card. he just took my card and flipped around who knows what they can do with slight of hand (watch too much clips) so i was like hell no and quickly lock down>:(",
+                  "score": 6
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Users display intense anger and exasperation over YouTrip's poor security practices, inadequate fraud response, and unfair liability policies where customers bear the burden of unauthorized transactions. The frustration is amplified by skepticism about YouTrip's credibility and disappointing service recovery efforts, with emotional language reflecting genuine distress ('heart pain', emoji usage).",
+              "quotes": [
+                {
+                  "quote": "They also explained that in the event the merchant refuse to return the money they will claw the money back from me (WHAT?) then who bears the burn of the unauthorised transitions….me? Goodness, I am paying for their lapse in security.",
+                  "score": 0
+                },
+                {
+                  "quote": "YouTrip business is so iffy to me.",
+                  "score": 0
+                },
+                {
+                  "quote": "I had Apple investigate that already. I called Apple first cause I tot it was Apple lapse in security. Their tech team did investigation for a day and they have confirmed from their end that there was no issue with my Apple account or phone. YouTrip has confirmed it is a fraud via email to me. Of course they will deny they leak any information but given their reputation, am quite skeptical.",
+                  "score": -3
+                },
+                {
+                  "quote": "Prob my information was leaked in the previous news release. But the scammer waited and only took action now. I can only guess. Cause I called Apple and they did an investigation and they were 100% sure nothing was leak from my phone,laptop or account. I only use Apple products.",
+                  "score": -9
+                },
+                {
+                  "quote": "I didn't get anything back. Is more like a temporary measure for the interim which they will claw back the credits depending on the outcome.",
+                  "score": 0
+                },
+                {
+                  "quote": "Amount is relative. To me, is a good sum, enough for me to call the relevant parties to do investigation and for me to demand my money to be reinstated 😂 I often see people complaining about YouTrip's security but I ignore it because it never hit me. Now that it happened on me, really heart pain the money that is gone 🥲",
+                  "score": -1
+                },
+                {
+                  "quote": "Wow if this is rly the case, the service recovery from YouTrip doesn't seem too good leh",
+                  "score": -1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y46pi4",
+          "title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+          "url": "https://www.reddit.com/r/askSingapore/comments/1y46pi4/public_service_declare_aspergersautism_diagnosis/",
+          "score": 2,
+          "num_comments": 17,
+          "created_at": "2026-11-24T07:06:20.540000Z",
+          "subreddit": "askSingapore",
+          "analysis": {
+            "post_id": "t3_1y46pi4",
+            "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There are clear concerns about practical consequences of disclosure, including potential impacts on career progression, workplace insurance, and eligibility for roles, reflecting genuine worry about systemic discrimination.",
+              "quotes": [
+                {
+                  "quote": "will there be any implications to declaring this? I hope I won't end up in a situation where this would affect my eligibility for promotions and such.",
+                  "score": 0
+                },
+                {
+                  "quote": "not sure what you meant by \"private clinic\". You already declared that information to SAF. They will know.",
+                  "score": 2
+                },
+                {
+                  "quote": "you run future risks re workplace insurance etc",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses noticeable frustration with the dilemma of disclosure and the broader healthcare screening system, using casual complaint language while advocating for systemic reform.",
+              "quotes": [
+                {
+                  "quote": "I am in abit of a pinch",
+                  "score": 0
+                },
+                {
+                  "quote": "I am not too keen on declaring this",
+                  "score": 0
+                },
+                {
+                  "quote": "We need to ban health screenings for employment except absolutely necessary.",
+                  "score": -4
+                },
+                {
+                  "quote": "corporate insurance alone can get q hard to deal with when you don't declare conditions",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "There is cautious hope grounded in real examples and evidence that public sector employers and society are becoming more accepting, balanced by realistic assessment of which conditions face greater acceptance.",
+              "quotes": [
+                {
+                  "quote": "I doubt their HR dare to rescind the offer on the medical ground of minor autism. The risk of public backlash...on discrimination.",
+                  "score": 10
+                },
+                {
+                  "quote": "I declared my ADHD with civil service before, no issues if they offered",
+                  "score": 5
+                },
+                {
+                  "quote": "Public service is more accepting of autism compared to say psychosis",
+                  "score": 3
+                },
+                {
+                  "quote": "most non uniformed jobs not requiring operation of machinery or access to weapons/pathogens that could kill people should be more accepting of mental health conditions.",
+                  "score": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "SingaporeRaw",
+      "posts_analyzed": 10,
+      "comments_analyzed": 56,
+      "top_posts": [
+        {
+          "id": "t3_1y42hjy",
+          "title": "8 PRC men arrested for allegedly smuggling 113 cartons of duty-unpaid cigarettes via parcels",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y42hjy/8_prc_men_arrested_for_allegedly_smuggling_113/",
+          "score": 9,
+          "num_comments": 2,
+          "created_at": "2026-11-24T03:15:38.136000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y42hjy",
+            "post_title": "8 PRC men arrested for allegedly smuggling 113 cartons of duty-unpaid cigarettes via parcels",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A light, sarcastic comment suggesting mild frustration about foreign nationals bringing illicit smuggling practices to Singapore, expressed with casual mockery rather than strong anger.",
+              "quotes": [
+                {
+                  "quote": "Really bringing in their culture haha",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4d5fu",
+          "title": "bruh",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y4d5fu/bruh/",
+          "score": 7,
+          "num_comments": 0,
+          "created_at": "2026-11-24T13:21:59.146000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y4d5fu",
+            "post_title": "bruh",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y45766",
+          "title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y45766/singaporeans_who_collected_labubus_during_the/",
+          "score": 7,
+          "num_comments": 17,
+          "created_at": "2026-11-24T05:38:29.270000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y45766",
+            "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing concern about collectibles ending up in landfills, mentioned briefly without elaboration or strong emotional expression.",
+              "quotes": [
+                {
+                  "quote": "Prob in landfills?",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear frustration about the volatility of the Labubu craze, with notable annoyance at the disconnect between collecting and long-term planning, the collapse in resale value, and skepticism about the trend's legitimacy.",
+              "quotes": [
+                {
+                  "quote": "Labubu collectors and long-term plan do not co-exist lol",
+                  "score": 17
+                },
+                {
+                  "quote": "a lot going cheap on carousell lol",
+                  "score": 2
+                },
+                {
+                  "quote": "Where's the hype now ?",
+                  "score": 3
+                },
+                {
+                  "quote": "It's like a Psy op to see how simple minded the people are.",
+                  "score": 4
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Genuine appreciation for the collectibles among those who purchased them for intrinsic enjoyment rather than investment, with contentment in displaying and owning them regardless of market trends.",
+              "quotes": [
+                {
+                  "quote": "I got them as a child and still have them in mint condition 😆",
+                  "score": 19
+                },
+                {
+                  "quote": "I've never gotten into labubus because I never found them cute. My sister does though, and she doesn't regret anything because she genuinely likes them and displays them on a shelf at her house.",
+                  "score": 14
+                },
+                {
+                  "quote": "Collector loves looking at them even if they are in the boxes and feels joy just owning it.",
+                  "score": 3
+                },
+                {
+                  "quote": "Popmart still going strong",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y48ffm",
+          "title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y48ffm/nea_urges_responsible_use_of_return_right/",
+          "score": 6,
+          "num_comments": 17,
+          "created_at": "2026-11-24T08:55:13.697000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y48ffm",
+            "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is concern about whether authorities will pursue legal action and whether additional fees will be imposed on the public to cover enforcement costs.",
+              "quotes": [
+                {
+                  "quote": "Now, the next question is, will BCRS use the money they collected to pursue legal action against such people? And in the event it is not enough, will they collect more in deposits and producer fees?",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Intense frustration is expressed over perceived hypocrisy—NEA ignoring systemic failures like refund delays but aggressively responding to public exploitation of loopholes, with underlying cynicism that the entire system is a scam lacking legitimacy.",
+              "quotes": [
+                {
+                  "quote": "NEA stayed silent regarding the numerous times refunds failed and BCRS taking forever to refund/reply, but they see regular people exploit a loophole suddenly all the authority is awakened.",
+                  "score": 40
+                },
+                {
+                  "quote": "LoL, the unlimited hack? This is Dis-Graceful !!",
+                  "score": 19
+                },
+                {
+                  "quote": "F you lah use your scholar brain to think of a solution instead of telling us what to do. Pay you so much for fuck.",
+                  "score": 20
+                },
+                {
+                  "quote": "Lol it was never about recycling",
+                  "score": 16
+                },
+                {
+                  "quote": "i urge them to get rid of this scam",
+                  "score": 9
+                },
+                {
+                  "quote": "Maybe they should urge their machine to stop allegedly scamming people of their 10 cents.",
+                  "score": 8
+                },
+                {
+                  "quote": "You see the turnaround time between refund failure, bottle not being recognised vs ppl exploiting their system; you see where their priorities lie. There have not earned the legitimacy for the public to corporate with them.",
+                  "score": 7
+                },
+                {
+                  "quote": "BCRS just angry that the people not as stupid as they thought we would be",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y3zs21",
+          "title": "In case the plastic fell off can still BCRS",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y3zs21/in_case_the_plastic_fell_off_can_still_bcrs/",
+          "score": 5,
+          "num_comments": 3,
+          "created_at": "2026-11-24T01:03:00.826000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y3zs21",
+            "post_title": "In case the plastic fell off can still BCRS",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y48xa5",
+          "title": "A kind mother helped me; now we share the same award",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y48xa5/a_kind_mother_helped_me_now_we_share_the_same/",
+          "score": 4,
+          "num_comments": 0,
+          "created_at": "2026-11-24T09:26:50.209000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y48xa5",
+            "post_title": "A kind mother helped me; now we share the same award",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4cuw2",
+          "title": "Hospital colleagues filmed in toilets by S’porean doctor in Melbourne describe trauma in court",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y4cuw2/hospital_colleagues_filmed_in_toilets_by_sporean/",
+          "score": 3,
+          "num_comments": 2,
+          "created_at": "2026-11-24T13:07:53.942000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y4cuw2",
+            "post_title": "Hospital colleagues filmed in toilets by S’porean doctor in Melbourne describe trauma in court",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Commenter expresses intense outrage and disgust at the perpetrator's actions, calling him a 'Sicko' and demanding severe legal consequences. This reflects deep anger and moral condemnation of the criminal behavior.",
+              "quotes": [
+                {
+                  "quote": "Sicko… hope they throw the book at him",
+                  "score": 0
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4cqoc",
+          "title": "'Outright cheating': Man seen appearing to game BCRS machine using barcode sticker on finger; netizens question safeguards",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y4cqoc/outright_cheating_man_seen_appearing_to_game_bcrs/",
+          "score": 1,
+          "num_comments": 1,
+          "created_at": "2026-11-24T13:02:10.644000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y4cqoc",
+            "post_title": "'Outright cheating': Man seen appearing to game BCRS machine using barcode sticker on finger; netizens question safeguards",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The commenter expresses clear frustration with the BCRS system's inconsistent fraud detection, which flagged their legitimate bottle return as invalid while accepting the same action from other users, suggesting the technology targets honest users rather than actual fraudsters.",
+              "quotes": [
+                {
+                  "quote": "I tried returning a bottle with valid sticker label, 1st machine said \"Unique serial number missing\". Went to another machine within the same hour, was successful. Mind you, I saw other people returned containers fine for the 1st machine. I think when they meant fraud detection, the technology exists but applied to the wrong users.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4bbnu",
+          "title": "Suggestion for physical spotify? Like a cd player but in this modern era",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y4bbnu/suggestion_for_physical_spotify_like_a_cd_player/",
+          "score": 0,
+          "num_comments": 10,
+          "created_at": "2026-11-24T11:49:37.355000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y4bbnu",
+            "post_title": "Suggestion for physical spotify? Like a cd player but in this modern era",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A casual concern about the difficulty of enabling someone (likely a child) to independently select songs on a physical music device. The phrasing suggests a practical worry rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Wanting her to be able to choose songs by herself is kind of tough.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4d555",
+          "title": "How much to save for a sudden funeral?",
+          "url": "https://www.reddit.com/r/SingaporeRaw/comments/1y4d555/how_much_to_save_for_a_sudden_funeral/",
+          "score": 0,
+          "num_comments": 4,
+          "created_at": "2026-11-24T13:21:37.489000Z",
+          "subreddit": "SingaporeRaw",
+          "analysis": {
+            "post_id": "t3_1y4d555",
+            "post_title": "How much to save for a sudden funeral?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about financial unpreparededness during an emotionally vulnerable time of grief. The speaker acknowledges the practical worry of not having adequate funds available when dealing with funeral expenses.",
+              "quotes": [
+                {
+                  "quote": "better to have spare cash when you're grieving.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "A passing observation about the general cost of living and expenses rather than intense anger. The comment reflects a casual, resigned acknowledgment typical of Singaporean 'kpkb' (complaining) about everyday financial burdens.",
+              "quotes": [
+                {
+                  "quote": "Everything cost money.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "singaporefi",
+      "posts_analyzed": 8,
+      "comments_analyzed": 99,
+      "top_posts": [
+        {
+          "id": "t3_1y3mqld",
+          "title": "DONT USE TRUST BANK INVEST",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3mqld/dont_use_trust_bank_invest/",
+          "score": 23,
+          "num_comments": 9,
+          "created_at": "2026-11-23T16:28:50.424000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y3mqld",
+            "post_title": "DONT USE TRUST BANK INVEST",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Users express clear frustration with Trust Bank's broker performance issues, particularly regarding order filling problems and service downtime. The sarcastic tone ('Thanks lah trust bank') and complaints about recurring technical issues across platforms indicate noticeable dissatisfaction with platform reliability.",
+              "quotes": [
+                {
+                  "quote": "Only their broker can cause problems with order filling, especially on a good day. Thanks lah trust bank",
+                  "score": 0
+                },
+                {
+                  "quote": "Yep, it's crazy how it's been down for an hour.",
+                  "score": 1
+                },
+                {
+                  "quote": "Syfe also got issue ytd lol",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y470fm",
+          "title": "Are there any statistics on the differences between compounding vs buying the dip?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y470fm/are_there_any_statistics_on_the_differences/",
+          "score": 9,
+          "num_comments": 23,
+          "created_at": "2026-11-24T07:24:50.630000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y470fm",
+            "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about market volatility and financial security, with the user maintaining a substantial emergency fund specifically to manage anxiety during market downturns rather than to maximize gains.",
+              "quotes": [
+                {
+                  "quote": "I do also bulk convert to usd at around every 10k. That being said, even though I do consistent dca every 2 months, I still keep a war chest- 6 months worth of monthly expenses. Its primary function is not for more gains, but for good sleep during market dips.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The user expresses regret about investment allocation choices and mild disappointment with portfolio performance, along with skepticism about unrealistic scenarios in investment examples.",
+              "quotes": [
+                {
+                  "quote": "im 22 and started putting small sums of money into VWRA and EndowUs (sort of regretting the EndowUs decision, wish I just put it all into VWRA)",
+                  "score": 0
+                },
+                {
+                  "quote": "My peak was a +12% and now I'm at a +0.3% (though a little surprised it's still positive)",
+                  "score": 0
+                },
+                {
+                  "quote": "I really dislike that first example with the 3 named women though. Brittany Bottom only investing 3 times in 41 years is way too far-fetched for a dip buyer.",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "strong",
+              "summary": "There is enthusiastic and sustained positivity about investing, compounding strategies, and long-term wealth building, with multiple users expressing genuine excitement, gratitude, and confidence in their investment plans.",
+              "quotes": [
+                {
+                  "quote": "I find watching trends and predicting them fascinating",
+                  "score": 0
+                },
+                {
+                  "quote": "This way, your mental feels more balanced.",
+                  "score": 20
+                },
+                {
+                  "quote": "I might follow suit! Set up recurring and forget about it, then buy a little when it dips to feel more \"involved\", sounds like a good plan tbh",
+                  "score": 3
+                },
+                {
+                  "quote": "Just read the first link, insanely insightful!",
+                  "score": 2
+                },
+                {
+                  "quote": "Just watched the first part of the video you mentioned, similar scenes as the 1st link and I enjoy the analogy they provided (the market is growing 8 out of 10 years) will certainly create a recurring investment from now on.",
+                  "score": 1
+                },
+                {
+                  "quote": "Youre definitely not late. Dont worry too much about it. Starting now at 22, let's say you're not planning to FIRE and want to work till retirement age, thats 43 years of compounding in your favor.",
+                  "score": 1
+                },
+                {
+                  "quote": "Also, unrelated note, thank you to the mods/admins for all the information compiled in this sub. It was really helpful and a lifesaver when I was first trying to find information about investing, especially for SG citizen rather than US citizen, I learnt a lot from others' mistakes to avoid them and I'm grateful for everyone sharing their experiences 🙏 Thanks!",
+                  "score": 3
+                },
+                {
+                  "quote": "I feel I snagged a good deal by buying the dip.",
+                  "score": 2
+                },
+                {
+                  "quote": "Sometimes we hold excess side cash apart from monthly DCA and all other expenses. Then this side cash becomes more fuel for compounding for the long-term regardless of short-term dips or peaks. But of course, it's more mentally fun to deploy it during the dips",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y42p9v",
+          "title": "Best way to transfer money from my US bank account to IBKR/Tiger?",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y42p9v/best_way_to_transfer_money_from_my_us_bank/",
+          "score": 3,
+          "num_comments": 4,
+          "created_at": "2026-11-24T03:26:21.673000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y42p9v",
+            "post_title": "Best way to transfer money from my US bank account to IBKR/Tiger?",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about tax exposure and regulatory compliance when holding money in US bank accounts, reflecting awareness of potential financial and legal risks.",
+              "quotes": [
+                {
+                  "quote": "Best to send it home and not leave it exposed to US tax office in the US.",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y48pxh",
+          "title": "income ntuc",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y48pxh/income_ntuc/",
+          "score": 0,
+          "num_comments": 4,
+          "created_at": "2026-11-24T09:13:36.955000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y48pxh",
+            "post_title": "income ntuc",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "There is a clear concern about financial consequences from ILP fees and expenses, with the speaker providing practical advice to avoid these costs. The worry is definite but expressed as a cautionary recommendation rather than intense panic.",
+              "quotes": [
+                {
+                  "quote": "Unbundling will save you a lot of headache in the future and save you a ton of ILP fees and expenses.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "The speaker expresses noticeable frustration with insurance product uniformity across providers and contractual lock-in periods that penalize early withdrawal. These are clear complaints about industry practices, though expressed matter-of-factly rather than with outrage.",
+              "quotes": [
+                {
+                  "quote": "Product design here n there more n less the same across all insurers.",
+                  "score": 2
+                },
+                {
+                  "quote": "theres a min lock in period no withdrawal unless you eat a penalty",
+                  "score": 2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y4bxs8",
+          "title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y4bxs8/big4perm_to_bankcontract_reality_check_and_tips/",
+          "score": 0,
+          "num_comments": 17,
+          "created_at": "2026-11-24T12:21:23.224000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y4bxs8",
+            "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+            "fears": {
+              "category": "fear",
+              "intensity": "strong",
+              "summary": "Significant concerns about career risk moving from permanent to contract position, with repeated emphasis on inadequate compensation (20% raise) relative to job security loss and branding disadvantage. Multiple fears raised about exit opportunities, long-term prospects, and uncertainty about contract conversion within 2 years.",
+              "quotes": [
+                {
+                  "quote": "moving from perm to contract generally not advisable",
+                  "score": 11
+                },
+                {
+                  "quote": "Perm -> contract is abit iffy for only 20% tbh",
+                  "score": 2
+                },
+                {
+                  "quote": "20% jump for taking the risk of moving from perm to contract is too low",
+                  "score": 1
+                },
+                {
+                  "quote": "In terms of branding, big4 >> Maybank sec. For someone starting out, branding is very important.",
+                  "score": 1
+                },
+                {
+                  "quote": "Maybank name isn't big enough for it to be worth the risk.",
+                  "score": 3
+                },
+                {
+                  "quote": "Brokerage is not a bank. Different license and your exit opportunities will be very different",
+                  "score": 2
+                },
+                {
+                  "quote": "Then again hard to tell what will happen within 2 years.",
+                  "score": 2
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "moderate",
+              "summary": "Clear dissatisfaction with Big4 work environment that prompted the job search, combined with frustration about managerial pushback likely motivated by business timing rather than genuine concern. The tone suggests definite discontent but not outrage.",
+              "quotes": [
+                {
+                  "quote": "I grew tired of the big4 environment",
+                  "score": 3
+                },
+                {
+                  "quote": "Ur current manager is negative cus peak coming soon so he don't want u to tender.",
+                  "score": 11
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Balanced positive perspective focused on job satisfaction, good management relationship, and conditional confidence (conversion odds or job hunting ability) as reasons to pursue the opportunity. The optimism is pragmatic rather than enthusiastic.",
+              "quotes": [
+                {
+                  "quote": "if you think you have high chance to convert to perm or confident in your job hunting ability, then you should definitely take the higher paying job.",
+                  "score": 3
+                },
+                {
+                  "quote": "It's important that you like what you do, and the next important thing is that your boss is good. From what you have said, it seems you have ticked both boxes.",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y3xsom",
+          "title": "Recommendations for CC with ~$5k of travelling expenses",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3xsom/recommendations_for_cc_with_5k_of_travelling/",
+          "score": 0,
+          "num_comments": 8,
+          "created_at": "2026-11-23T23:33:47.842000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y3xsom",
+            "post_title": "Recommendations for CC with ~$5k of travelling expenses",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A casual doubt about the person's ability to effectively redeem miles, expressed as a passing concern rather than intense worry.",
+              "quotes": [
+                {
+                  "quote": "I doubt you're the kind who'll know how to redeem miles well if you earn them",
+                  "score": 1
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        },
+        {
+          "id": "t3_1y40y7x",
+          "title": "Be greedy when others are fearful",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y40y7x/be_greedy_when_others_are_fearful/",
+          "score": 0,
+          "num_comments": 14,
+          "created_at": "2026-11-24T02:00:53.345000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y40y7x",
+            "post_title": "Be greedy when others are fearful",
+            "fears": {
+              "category": "fear",
+              "intensity": "mild",
+              "summary": "A passing mention of lingering fear without elaboration or intensity, suggesting casual concern rather than deep anxiety.",
+              "quotes": [
+                {
+                  "quote": "Still fearful now.",
+                  "score": 3
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "Sharp emotional pain expressed through personal financial loss and sarcastic sympathy for failed traders, with bitter undertones reflecting significant disappointment and regret.",
+              "quotes": [
+                {
+                  "quote": "Lost all 88sgd and not a single number opened.",
+                  "score": 3
+                },
+                {
+                  "quote": "RIP to the quiet souls who failed and got decimated trying to time markets.",
+                  "score": 1
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "moderate",
+              "summary": "Confident statements about investment performance and self-assured decision-making, though tinged with Singaporean sarcasm ('special full regards geniuses') that undercuts the sincerity of the optimism.",
+              "quotes": [
+                {
+                  "quote": "It has out performed the sp500 many folds.",
+                  "score": 34
+                },
+                {
+                  "quote": "It really takes special full regards geniuses like us to inspire others.",
+                  "score": 6
+                },
+                {
+                  "quote": "I all in Nvidia at 140. I'm smart for now",
+                  "score": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "t3_1y490s8",
+          "title": "Fraud Transactions on YouTrip",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y490s8/fraud_transactions_on_youtrip/",
+          "score": 0,
+          "num_comments": 24,
+          "created_at": "2026-11-24T09:32:56.096000Z",
+          "subreddit": "singaporefi",
+          "analysis": {
+            "post_id": "t3_1y490s8",
+            "post_title": "Fraud Transactions on YouTrip",
+            "fears": {
+              "category": "fear",
+              "intensity": "moderate",
+              "summary": "The user expresses genuine concern about financial loss through clawback policies, worried that provisional credits may be reversed after refund. This reflects legitimate anxiety about the security of their money rather than panic.",
+              "quotes": [
+                {
+                  "quote": "Yup. I am just worried they will claw back the money after they give the \"provisional credits\" as refund.",
+                  "score": 0
+                }
+              ]
+            },
+            "frustrations": {
+              "category": "frustration",
+              "intensity": "strong",
+              "summary": "The user exhibits intense frustration with YouTrip's handling of fraud, security lapses, and customer service, using emphatic language like 'WHAT?', 'Goodness', 'stupid', 'crazy', and vivid metaphors ('vomit blood', 'kopitiam security'). They express serious concerns about being held liable for unauthorized transactions and accuse the company of dishonest practices.",
+              "quotes": [
+                {
+                  "quote": "They also explained that in the event the merchant refuse to return the money they will claw the money back from me (WHAT?) then who bears the burn of the unauthorised transitions….me? Goodness, I am paying for their lapse in security.",
+                  "score": 0
+                },
+                {
+                  "quote": "The fact they will claw back the money was just uncomfortable for me.",
+                  "score": 0
+                },
+                {
+                  "quote": "youtrip security is stupid. They send me email asking me for my name and entity to verify my identity, but they included my full name and entity name in their reply.",
+                  "score": 1
+                },
+                {
+                  "quote": "YouTrip business is so iffy to me.",
+                  "score": 0
+                },
+                {
+                  "quote": "Lol that's really crazy CS from a licensed financial institution.",
+                  "score": 1
+                },
+                {
+                  "quote": "I told him so you want me to agree to you lying? I said this made your company a scam company isn't it? Omg….I also immediately told him that he is a terrible customer service officer.",
+                  "score": 1
+                },
+                {
+                  "quote": "So incredibly messy. Their \"service\" can really make people vomit blood.",
+                  "score": 1
+                },
+                {
+                  "quote": "They have security measures of a kopitiam.",
+                  "score": -2
+                }
+              ]
+            },
+            "optimism": {
+              "category": "optimism",
+              "intensity": "mild",
+              "summary": "No relevant comments found.",
+              "quotes": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "all_quotes": {
+    "fears": [
+      {
+        "text": "Seems like youth is increasingly no longer a shield against stroke.",
+        "post_id": "t3_1y470ua",
+        "post_title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 50,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Extreme hustle culture can cause a stroke too.",
+        "post_id": "t3_1y470ua",
+        "post_title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 13,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Yup. The only people that really suffer at the moment are all the legitimate companies in Singapore / Malaysia and Thailand that suddenly have to apply for export licenses to get access to Nvidia products. This situation is just insane. Singapore is the meat in the sandwich again. US: SUPERintelligence is EVERYTHING. And *critical* to national security. Export to the wrong country and we'll punish your whole country. Also US: Meh, we don't have a problem with Nvidia selling this tech to China. Jensen Huang is a great guy!",
+        "post_id": "t3_1y47ant",
+        "post_title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "people will really see lalamove.anything.com and assume it's official it's crazy",
+        "post_id": "t3_1y42iye",
+        "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "You can do everything right but someone else can still take your life. We've seen this multiple times, beating the red light, clone cars driving away from police. Tampines junction incident, tipper trucks etc.",
+        "post_id": "t3_1y46lbz",
+        "post_title": "Motorcyclist dies after accident with car in Choa Chu Kang; driver arrested",
+        "subreddit": "singapore",
+        "score": 43,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "They need new foreign companies to go into Russia, so that they can... 'inherit' them later.",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 5,
+        "intensity": "mild"
+      },
+      {
+        "text": "Still hike? But where is the jobs for fresh grads and companies are still laying off? Where are the growth? Anyone who will get the grow share the wealth?",
+        "post_id": "t3_1y40dxv",
+        "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Really K shaped economy, maybe 10-20% for some sectors/people and negative for others",
+        "post_id": "t3_1y40dxv",
+        "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "will that translate to higher salary/bonus for the low-middle incomes in 2026?",
+        "post_id": "t3_1y425sa",
+        "post_title": "Singapore’s non-oil exports see record 45.8% rise in Q3 led by growth in electronics",
+        "subreddit": "singapore",
+        "score": 26,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "They have to be thinking about raising prices on their plans to sustain their operations here and have the cashflow for 6G spectrum bidding in the future. Otherwise just close shop here, then it goes back to duopoly setup (singtel and starhub)",
+        "post_id": "t3_1y4aw76",
+        "post_title": "Proposed StarHub-M1 deal: No mobile price plan changes for 2027, but analysts see pressure to lift profits",
+        "subreddit": "singapore",
+        "score": 23,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "If the overall population were to drop from its peak many years down the road, the cost per subscription will have to increase to justify the investment. this is going to be unavoidable unfortunately",
+        "post_id": "t3_1y4aw76",
+        "post_title": "Proposed StarHub-M1 deal: No mobile price plan changes for 2027, but analysts see pressure to lift profits",
+        "subreddit": "singapore",
+        "score": 23,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The terms are binding for the rest of your life or till the child reaches 21 years old. From this perspective, you will realize does it make sense saving that $3-$5k?",
+        "post_id": "t3_1y4cll3",
+        "post_title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "unless you know how to navigate court filings on your own as well as drafting the adequate papers, this is absolutely untrue. Lawyer makes it easier.",
+        "post_id": "t3_1y4cll3",
+        "post_title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Depending on severity and assessment they could diagnose your child with other mental illnesses first like depression before ADHD but depends on case to case scenario.",
+        "post_id": "t3_1y4cd9t",
+        "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "I think it's particularly bad in sg's F&B scene. Maybe some will survive, but often it's a harbinger for the business closing down.",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Also, our zoo is very good, but it's been pretty rainy. Check the weather before you book tickets.",
+        "post_id": "t3_1y47en4",
+        "post_title": "Recommendations in SG for holiday",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "This is also why I prefer using credit cards over debit cards and avoid prepaid cards or wallets like YouTrip which require me to top up. I'd rather dispute an unauthorised charge on my credit card than fight to recover money already deducted from my own funds.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 10,
+        "intensity": "strong"
+      },
+      {
+        "text": "i immediately locked my card via the app after my last purchase of my holiday (thankfully) because they turkish casher was intrigued by the design of my credit/debit(?) card. he just took my card and flipped around who knows what they can do with slight of hand (watch too much clips) so i was like hell no and quickly lock down>:(",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "will there be any implications to declaring this? I hope I won't end up in a situation where this would affect my eligibility for promotions and such.",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "not sure what you meant by \"private clinic\". You already declared that information to SAF. They will know.",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "you run future risks re workplace insurance etc",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Prob in landfills?",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "Now, the next question is, will BCRS use the money they collected to pursue legal action against such people? And in the event it is not enough, will they collect more in deposits and producer fees?",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Wanting her to be able to choose songs by herself is kind of tough.",
+        "post_id": "t3_1y4bbnu",
+        "post_title": "Suggestion for physical spotify? Like a cd player but in this modern era",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "better to have spare cash when you're grieving.",
+        "post_id": "t3_1y4d555",
+        "post_title": "How much to save for a sudden funeral?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I do also bulk convert to usd at around every 10k. That being said, even though I do consistent dca every 2 months, I still keep a war chest- 6 months worth of monthly expenses. Its primary function is not for more gains, but for good sleep during market dips.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Best to send it home and not leave it exposed to US tax office in the US.",
+        "post_id": "t3_1y42p9v",
+        "post_title": "Best way to transfer money from my US bank account to IBKR/Tiger?",
+        "subreddit": "singaporefi",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Unbundling will save you a lot of headache in the future and save you a ton of ILP fees and expenses.",
+        "post_id": "t3_1y48pxh",
+        "post_title": "income ntuc",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "moving from perm to contract generally not advisable",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "strong"
+      },
+      {
+        "text": "Perm -> contract is abit iffy for only 20% tbh",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "20% jump for taking the risk of moving from perm to contract is too low",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "In terms of branding, big4 >> Maybank sec. For someone starting out, branding is very important.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Maybank name isn't big enough for it to be worth the risk.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Brokerage is not a bank. Different license and your exit opportunities will be very different",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Then again hard to tell what will happen within 2 years.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "I doubt you're the kind who'll know how to redeem miles well if you earn them",
+        "post_id": "t3_1y3xsom",
+        "post_title": "Recommendations for CC with ~$5k of travelling expenses",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Still fearful now.",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "Yup. I am just worried they will claw back the money after they give the \"provisional credits\" as refund.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "moderate"
+      }
+    ],
+    "frustrations": [
+      {
+        "text": "Sleep is important as well. Something that many neglect including me",
+        "post_id": "t3_1y470ua",
+        "post_title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 34,
+        "intensity": "mild"
+      },
+      {
+        "text": "As a reminder to myself, work on the 1st one.",
+        "post_id": "t3_1y470ua",
+        "post_title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+        "subreddit": "singapore",
+        "score": 64,
+        "comment_score": 50,
+        "intensity": "mild"
+      },
+      {
+        "text": "looks good! but the Concourse doesnt look like what it should be...",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Not bad, but need more pixel art polish.",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "Yes one issue I had with those is it's fixed perspective.",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "Only 2yr and 3strokes b4 2/3 early remission ??",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "But still, it just feels...too low for the trauma that the stepdaughter was put through, ain't it?",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "Disgusting man. How could he take advantage of the child like that?",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Ok so Jensen is a patriot for selling to Megaspeed and sleeping with the Megaspeed woman, and according to Trump, they have no case against him. But Megaspeed is blacklisted for buying from Jensen. Laws of the jungle again?",
+        "post_id": "t3_1y47ant",
+        "post_title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "This situation is just insane.",
+        "post_id": "t3_1y47ant",
+        "post_title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+        "subreddit": "singapore",
+        "score": 46,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Your first mistake was using Facebook marketplace.",
+        "post_id": "t3_1y42iye",
+        "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Market places are full of these. Got one will claim the money is deposited into Lalamove and you need to log in using your banking credentials to retrieve the money.",
+        "post_id": "t3_1y42iye",
+        "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There's often a headline focus on the victim if it's a motorcyclist or a cyclist. The article literally says that a 42 year old arrested for dangerous driving causing death. That should be the spotlight, not the motorcyclist. The motorcyclist didnt die accidentally. It's a driver who crash and killed a motorcyclist through dangerous driving.",
+        "post_id": "t3_1y46lbz",
+        "post_title": "Motorcyclist dies after accident with car in Choa Chu Kang; driver arrested",
+        "subreddit": "singapore",
+        "score": 43,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Spreading cheeks for everything for the $$$",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 14,
+        "intensity": "strong"
+      },
+      {
+        "text": "basically words are just words. even sanctions are just sanctions. but money speaks above all, and both the russians and singapore understand that.",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 21,
+        "intensity": "strong"
+      },
+      {
+        "text": "if we don't take their dirty money, it'll go to hk or bvi!",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "We are truly the whore of asia.",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 12,
+        "intensity": "strong"
+      },
+      {
+        "text": "We're running an IKEA-sized laundromat here. Money made squeaky clean guaranteed.",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 5,
+        "intensity": "strong"
+      },
+      {
+        "text": "Whore of Asia led by someone with no backbone.",
+        "post_id": "t3_1y4710z",
+        "post_title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+        "subreddit": "singapore",
+        "score": 40,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "doesn't feel like anything for the common man.",
+        "post_id": "t3_1y40dxv",
+        "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "The numbers mean nothing to me. Prices are sky high and not coming down.",
+        "post_id": "t3_1y40dxv",
+        "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 6,
+        "intensity": "strong"
+      },
+      {
+        "text": "The value of note equals to the value of toilet paper",
+        "post_id": "t3_1y40dxv",
+        "post_title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+        "subreddit": "singapore",
+        "score": 31,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Minus the Nvidia chips, maybe negative?",
+        "post_id": "t3_1y425sa",
+        "post_title": "Singapore’s non-oil exports see record 45.8% rise in Q3 led by growth in electronics",
+        "subreddit": "singapore",
+        "score": 26,
+        "comment_score": -2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Simba share price is down 74% YTD (that's despite it closing 32% higher today)",
+        "post_id": "t3_1y4aw76",
+        "post_title": "Proposed StarHub-M1 deal: No mobile price plan changes for 2027, but analysts see pressure to lift profits",
+        "subreddit": "singapore",
+        "score": 23,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Shifon keki was nice but not that nice for the kind of price tag.",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "it seems like Star Wars is more powerful as a cultural zeitgeist",
+        "post_id": "t3_1y3pk8w",
+        "post_title": "Are there any local Trekkie groups",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 4,
+        "intensity": "mild"
+      },
+      {
+        "text": "Oh darn",
+        "post_id": "t3_1y3pk8w",
+        "post_title": "Are there any local Trekkie groups",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "hard product is not bad but service is substandard",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 7,
+        "intensity": "moderate"
+      },
+      {
+        "text": "location is far, food is not exciting from their restaurants",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "no upgrades, can't check-in despite reaching after 3pm and no late check outs given",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "mentioned about celebrating special occasion but no greetings from front desk or anything. just not pro active",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Your ex-wife is pulling a fast one on you, my guy.",
+        "post_id": "t3_1y4cll3",
+        "post_title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Paying for a lawyer is well worth it to simply avoid the hassle of having to go down in person each time to Chinatown just to make a filing.",
+        "post_id": "t3_1y4cll3",
+        "post_title": "Looking for family lawyer recommendation for independent consultation – amicable divorce",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Probably the professor is trying to book is packed.",
+        "post_id": "t3_1y4cd9t",
+        "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "mild"
+      },
+      {
+        "text": "They did?? Shucks the grated cheese (and the sweet-savory contrast between the cheese and cream) was the best part",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 15,
+        "intensity": "strong"
+      },
+      {
+        "text": "I normally eat all the pandan cake and leave the big cheese part in the middle to savour at the end,but today I didn't get much/any grated cheese in it leh. Damn sad.",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I could've sworn the grated cheese was more savoury before. Now the filling taste more sweet than salty-ish",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 4,
+        "intensity": "strong"
+      },
+      {
+        "text": "I really don't understand why these people try to reinvent the wheel but end up killing their USP.",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "The cheese tastes worse! It's like a cream cheese now when it was like grated cheese before. 😭",
+        "post_id": "t3_1y3k26p",
+        "post_title": "Did Bengawan Solo Pandan Cheese Roll change recipe?",
+        "subreddit": "askSingapore",
+        "score": 7,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "most money changers don't take coins or small notes, so don't count on swapping them for cash",
+        "post_id": "t3_1y3k26j",
+        "post_title": "how to dispose off overseas coins?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "NEA's Recyclopedia also says coins aren't recyclable in blue bins",
+        "post_id": "t3_1y3k26j",
+        "post_title": "how to dispose off overseas coins?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The TravelersBox kiosks at Changi that someone mentioned might have been discontinued, so I'd double-check with Changi Airport before making a trip just for that",
+        "post_id": "t3_1y3k26j",
+        "post_title": "how to dispose off overseas coins?",
+        "subreddit": "askSingapore",
+        "score": 4,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "They also explained that in the event the merchant refuse to return the money they will claw the money back from me (WHAT?) then who bears the burn of the unauthorised transitions….me? Goodness, I am paying for their lapse in security.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "YouTrip business is so iffy to me.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I had Apple investigate that already. I called Apple first cause I tot it was Apple lapse in security. Their tech team did investigation for a day and they have confirmed from their end that there was no issue with my Apple account or phone. YouTrip has confirmed it is a fraud via email to me. Of course they will deny they leak any information but given their reputation, am quite skeptical.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": -3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Prob my information was leaked in the previous news release. But the scammer waited and only took action now. I can only guess. Cause I called Apple and they did an investigation and they were 100% sure nothing was leak from my phone,laptop or account. I only use Apple products.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": -9,
+        "intensity": "strong"
+      },
+      {
+        "text": "I didn't get anything back. Is more like a temporary measure for the interim which they will claw back the credits depending on the outcome.",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Amount is relative. To me, is a good sum, enough for me to call the relevant parties to do investigation and for me to demand my money to be reinstated 😂 I often see people complaining about YouTrip's security but I ignore it because it never hit me. Now that it happened on me, really heart pain the money that is gone 🥲",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": -1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Wow if this is rly the case, the service recovery from YouTrip doesn't seem too good leh",
+        "post_id": "t3_1y48weg",
+        "post_title": "YouTrip security issues. Unauthorised transaction.",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": -1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am in abit of a pinch",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I am not too keen on declaring this",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "We need to ban health screenings for employment except absolutely necessary.",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": -4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "corporate insurance alone can get q hard to deal with when you don't declare conditions",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Really bringing in their culture haha",
+        "post_id": "t3_1y42hjy",
+        "post_title": "8 PRC men arrested for allegedly smuggling 113 cartons of duty-unpaid cigarettes via parcels",
+        "subreddit": "SingaporeRaw",
+        "score": 9,
+        "comment_score": 0,
+        "intensity": "mild"
+      },
+      {
+        "text": "Labubu collectors and long-term plan do not co-exist lol",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 17,
+        "intensity": "moderate"
+      },
+      {
+        "text": "a lot going cheap on carousell lol",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Where's the hype now ?",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's like a Psy op to see how simple minded the people are.",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "NEA stayed silent regarding the numerous times refunds failed and BCRS taking forever to refund/reply, but they see regular people exploit a loophole suddenly all the authority is awakened.",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 40,
+        "intensity": "strong"
+      },
+      {
+        "text": "LoL, the unlimited hack? This is Dis-Graceful !!",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 19,
+        "intensity": "strong"
+      },
+      {
+        "text": "F you lah use your scholar brain to think of a solution instead of telling us what to do. Pay you so much for fuck.",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lol it was never about recycling",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "i urge them to get rid of this scam",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Maybe they should urge their machine to stop allegedly scamming people of their 10 cents.",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "You see the turnaround time between refund failure, bottle not being recognised vs ppl exploiting their system; you see where their priorities lie. There have not earned the legitimacy for the public to corporate with them.",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "BCRS just angry that the people not as stupid as they thought we would be",
+        "post_id": "t3_1y48ffm",
+        "post_title": "NEA urges responsible use of Return Right machines after videos of alleged misuse",
+        "subreddit": "SingaporeRaw",
+        "score": 6,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sicko… hope they throw the book at him",
+        "post_id": "t3_1y4cuw2",
+        "post_title": "Hospital colleagues filmed in toilets by S’porean doctor in Melbourne describe trauma in court",
+        "subreddit": "SingaporeRaw",
+        "score": 3,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "I tried returning a bottle with valid sticker label, 1st machine said \"Unique serial number missing\". Went to another machine within the same hour, was successful. Mind you, I saw other people returned containers fine for the 1st machine. I think when they meant fraud detection, the technology exists but applied to the wrong users.",
+        "post_id": "t3_1y4cqoc",
+        "post_title": "'Outright cheating': Man seen appearing to game BCRS machine using barcode sticker on finger; netizens question safeguards",
+        "subreddit": "SingaporeRaw",
+        "score": 1,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Everything cost money.",
+        "post_id": "t3_1y4d555",
+        "post_title": "How much to save for a sudden funeral?",
+        "subreddit": "SingaporeRaw",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "mild"
+      },
+      {
+        "text": "Only their broker can cause problems with order filling, especially on a good day. Thanks lah trust bank",
+        "post_id": "t3_1y3mqld",
+        "post_title": "DONT USE TRUST BANK INVEST",
+        "subreddit": "singaporefi",
+        "score": 23,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Yep, it's crazy how it's been down for an hour.",
+        "post_id": "t3_1y3mqld",
+        "post_title": "DONT USE TRUST BANK INVEST",
+        "subreddit": "singaporefi",
+        "score": 23,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Syfe also got issue ytd lol",
+        "post_id": "t3_1y3mqld",
+        "post_title": "DONT USE TRUST BANK INVEST",
+        "subreddit": "singaporefi",
+        "score": 23,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "im 22 and started putting small sums of money into VWRA and EndowUs (sort of regretting the EndowUs decision, wish I just put it all into VWRA)",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "My peak was a +12% and now I'm at a +0.3% (though a little surprised it's still positive)",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 0,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I really dislike that first example with the 3 named women though. Brittany Bottom only investing 3 times in 41 years is way too far-fetched for a dip buyer.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Product design here n there more n less the same across all insurers.",
+        "post_id": "t3_1y48pxh",
+        "post_title": "income ntuc",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "theres a min lock in period no withdrawal unless you eat a penalty",
+        "post_id": "t3_1y48pxh",
+        "post_title": "income ntuc",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I grew tired of the big4 environment",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Ur current manager is negative cus peak coming soon so he don't want u to tender.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 11,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Lost all 88sgd and not a single number opened.",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "RIP to the quiet souls who failed and got decimated trying to time markets.",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They also explained that in the event the merchant refuse to return the money they will claw the money back from me (WHAT?) then who bears the burn of the unauthorised transitions….me? Goodness, I am paying for their lapse in security.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "The fact they will claw back the money was just uncomfortable for me.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "youtrip security is stupid. They send me email asking me for my name and entity to verify my identity, but they included my full name and entity name in their reply.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "YouTrip business is so iffy to me.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "Lol that's really crazy CS from a licensed financial institution.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I told him so you want me to agree to you lying? I said this made your company a scam company isn't it? Omg….I also immediately told him that he is a terrible customer service officer.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "So incredibly messy. Their \"service\" can really make people vomit blood.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "They have security measures of a kopitiam.",
+        "post_id": "t3_1y490s8",
+        "post_title": "Fraud Transactions on YouTrip",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": -2,
+        "intensity": "strong"
+      }
+    ],
+    "optimism": [
+      {
+        "text": "Simcity 4 feels",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "looks good!",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Needs an export to STL so we can print it",
+        "post_id": "t3_1y4137p",
+        "post_title": "3D pixel-art map of downtown central Singapore",
+        "subreddit": "singapore",
+        "score": 60,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Kudos to everyone in the reporting chain for taking it seriously and to the girl for saying something.",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 50,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yep, props to her for her courage to report her stepfather. I am heartened to see the system work for once.",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 17,
+        "intensity": "strong"
+      },
+      {
+        "text": "Good job to the mother. It's definitely not easy reporting your own husband, but thank you for putting your daughter first. As for the daughter, hopefully after going through her parent's divorce, she knows that her mother still has her back and care about her. Also kudos to the school for reporting it. May the young victim grow up well, surrounded by the support and love she needs.",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 28,
+        "intensity": "strong"
+      },
+      {
+        "text": "Great that her mum actually took her side. Enough reading news and seeing the biological parent side with the stepparent and not report such shit",
+        "post_id": "t3_1y436t3",
+        "post_title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+        "subreddit": "singapore",
+        "score": 51,
+        "comment_score": 9,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yeah usually I'm pretty careful about such stuff, luckily caught myself before I put in the bank info",
+        "post_id": "t3_1y42iye",
+        "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "This happened to me too. I got suspicious because I had lalamove installed on my phone but the link didn't open to the app.",
+        "post_id": "t3_1y42iye",
+        "post_title": "Beware - Lalamove Pickup/Delivery Scam",
+        "subreddit": "singapore",
+        "score": 45,
+        "comment_score": 12,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I really like Dulcet & Studio!",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 16,
+        "intensity": "strong"
+      },
+      {
+        "text": "I always get their Pandan cake for my tea break.",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Loooove their pandan rolls with the jelly inside",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "the ondeh ondeh cake from tiaptiap is damn good i always buy for family bday celebrations, it's very well liked by everyone across all age groups :D",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 7,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tiap tiap is so moist, soooo good. Tried it just last week",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Omg Tiaptiap hands down best chiffon cake in sg! Super fluffy moist and delicious… I also always buy for birthdays and gatherings! Crowd favourite!",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Yes! Premium ingredients and the best taste, hands down agree, every thing they do is outstanding imo",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I have to say though in my experience the sliced versions tasted fresher than the whole cakes.",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 8,
+        "intensity": "strong"
+      },
+      {
+        "text": "Tiap Tiap hands down! Incredibly moist and fragrant 🤤",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "love harrianne's pandan cake but a little pricey. bought it at 6.10 during national day this year though.",
+        "post_id": "t3_1y43nbl",
+        "post_title": "Best chiffon cake recommendations? Any flavour of chiffon cake!",
+        "subreddit": "askSingapore",
+        "score": 15,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "I am a trekkie myself",
+        "post_id": "t3_1y3pk8w",
+        "post_title": "Are there any local Trekkie groups",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Maybe we can form some sort of Discord server first",
+        "post_id": "t3_1y3pk8w",
+        "post_title": "Are there any local Trekkie groups",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 4,
+        "intensity": "moderate"
+      },
+      {
+        "text": "There are dozens of us....DOZENS!!",
+        "post_id": "t3_1y3pk8w",
+        "post_title": "Are there any local Trekkie groups",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It is not bad overall that the team actually goes to provide some games / activities during the evening, chill ones and not anything arduous or sweaty",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "It's hardly uncomfortable and most will not find it 'tough'",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "Nothing much of complaints tbh and it is what it is as advertised",
+        "post_id": "t3_1y46z7v",
+        "post_title": "Anyone stayed at both Glamping and the Banyan resort at Mandai? What are your experiences?",
+        "subreddit": "askSingapore",
+        "score": 10,
+        "comment_score": 3,
+        "intensity": "mild"
+      },
+      {
+        "text": "went to some random clinic in Novena, it was about 500, with 1 month of ritalin",
+        "post_id": "t3_1y4cd9t",
+        "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "i got my Autism diagnosis from there.",
+        "post_id": "t3_1y4cd9t",
+        "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Got my diagnosis like this at 17 as well",
+        "post_id": "t3_1y4cd9t",
+        "post_title": "Where can I get an ADHD diagnosis for my 17 year old?",
+        "subreddit": "askSingapore",
+        "score": 8,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "+1 for the oceanarium. Its great for all ages.",
+        "post_id": "t3_1y47en4",
+        "post_title": "Recommendations in SG for holiday",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "The interactive sections for young kids was a lovely way to spend an afternoon.",
+        "post_id": "t3_1y47en4",
+        "post_title": "Recommendations in SG for holiday",
+        "subreddit": "askSingapore",
+        "score": 3,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I doubt their HR dare to rescind the offer on the medical ground of minor autism. The risk of public backlash...on discrimination.",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 10,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I declared my ADHD with civil service before, no issues if they offered",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 5,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Public service is more accepting of autism compared to say psychosis",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "most non uniformed jobs not requiring operation of machinery or access to weapons/pathogens that could kill people should be more accepting of mental health conditions.",
+        "post_id": "t3_1y46pi4",
+        "post_title": "Public Service: Declare Asperger's/Autism Diagnosis?",
+        "subreddit": "askSingapore",
+        "score": 2,
+        "comment_score": 2,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I got them as a child and still have them in mint condition 😆",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 19,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I've never gotten into labubus because I never found them cute. My sister does though, and she doesn't regret anything because she genuinely likes them and displays them on a shelf at her house.",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 14,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Collector loves looking at them even if they are in the boxes and feels joy just owning it.",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "Popmart still going strong",
+        "post_id": "t3_1y45766",
+        "post_title": "Singaporeans who collected Labubus during the craze, what happened to your collection? Do you regret buying them, and what do you plan to do with your collection long-term?",
+        "subreddit": "SingaporeRaw",
+        "score": 7,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I find watching trends and predicting them fascinating",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 0,
+        "intensity": "strong"
+      },
+      {
+        "text": "This way, your mental feels more balanced.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 20,
+        "intensity": "strong"
+      },
+      {
+        "text": "I might follow suit! Set up recurring and forget about it, then buy a little when it dips to feel more \"involved\", sounds like a good plan tbh",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "Just read the first link, insanely insightful!",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Just watched the first part of the video you mentioned, similar scenes as the 1st link and I enjoy the analogy they provided (the market is growing 8 out of 10 years) will certainly create a recurring investment from now on.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Youre definitely not late. Dont worry too much about it. Starting now at 22, let's say you're not planning to FIRE and want to work till retirement age, thats 43 years of compounding in your favor.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "Also, unrelated note, thank you to the mods/admins for all the information compiled in this sub. It was really helpful and a lifesaver when I was first trying to find information about investing, especially for SG citizen rather than US citizen, I learnt a lot from others' mistakes to avoid them and I'm grateful for everyone sharing their experiences 🙏 Thanks!",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 3,
+        "intensity": "strong"
+      },
+      {
+        "text": "I feel I snagged a good deal by buying the dip.",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 2,
+        "intensity": "strong"
+      },
+      {
+        "text": "Sometimes we hold excess side cash apart from monthly DCA and all other expenses. Then this side cash becomes more fuel for compounding for the long-term regardless of short-term dips or peaks. But of course, it's more mentally fun to deploy it during the dips",
+        "post_id": "t3_1y470fm",
+        "post_title": "Are there any statistics on the differences between compounding vs buying the dip?",
+        "subreddit": "singaporefi",
+        "score": 9,
+        "comment_score": 1,
+        "intensity": "strong"
+      },
+      {
+        "text": "if you think you have high chance to convert to perm or confident in your job hunting ability, then you should definitely take the higher paying job.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 3,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It's important that you like what you do, and the next important thing is that your boss is good. From what you have said, it seems you have ticked both boxes.",
+        "post_id": "t3_1y4bxs8",
+        "post_title": "Big4(Perm) to Bank(Contract) - Reality check and tips",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It has out performed the sp500 many folds.",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 34,
+        "intensity": "moderate"
+      },
+      {
+        "text": "It really takes special full regards geniuses like us to inspire others.",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 6,
+        "intensity": "moderate"
+      },
+      {
+        "text": "I all in Nvidia at 140. I'm smart for now",
+        "post_id": "t3_1y40y7x",
+        "post_title": "Be greedy when others are fearful",
+        "subreddit": "singaporefi",
+        "score": 0,
+        "comment_score": 1,
+        "intensity": "moderate"
+      }
+    ]
+  },
+  "thematic_clusters": [
+    {
+      "topic": "Singapore GDP Growth Amid Job Market Concerns",
+      "engagement_score": 80,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Singapore hikes 2026 GDP growth forecast to around 6%, sees 2.5% to 4.5% growth in 2027",
+          "url": "https://www.reddit.com/r/singapore/comments/1y40dxv/singapore_hikes_2026_gdp_growth_forecast_to/"
+        },
+        {
+          "title": "Singapore's non-oil exports see record 45.8% rise in Q3 led by growth in electronics",
+          "url": null
+        }
+      ],
+      "entities": [
+        "GDP",
+        "Electronics",
+        "NODX",
+        "Fresh Graduates",
+        "Employment",
+        "Cost of Living"
+      ]
+    },
+    {
+      "topic": "Rising Stroke Cases Among Young Adults Singapore",
+      "engagement_score": 64,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "At 17, she had a stroke. Singapore is seeing more cases, especially among young adults",
+          "url": "https://www.reddit.com/r/singapore/comments/1y470ua/at_17_she_had_a_stroke_singapore_is_seeing_more/"
+        }
+      ],
+      "entities": [
+        "Healthcare",
+        "Youth Health",
+        "Hustle Culture",
+        "Mental Health",
+        "Public Health"
+      ]
+    },
+    {
+      "topic": "Nvidia Chip Export Scandal US Blacklist Singapore",
+      "engagement_score": 69,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+          "url": "https://www.reddit.com/r/singapore/comments/1y47ant/us_blacklists_megaspeed_chip_firm_linked_to/"
+        },
+        {
+          "title": "Russia banks on Singapore in bid to deepen business ties across ASEAN",
+          "url": "https://www.reddit.com/r/singapore/comments/1y4710z/russia_banks_on_singapore_in_bid_to_deepen/"
+        }
+      ],
+      "entities": [
+        "Nvidia",
+        "Megaspeed",
+        "US Export Controls",
+        "ASEAN",
+        "Semiconductor",
+        "Trade"
+      ]
+    },
+    {
+      "topic": "Sexual Abuse Stepchild Silence Family Fallout",
+      "engagement_score": 51,
+      "dominant_emotion": "frustration",
+      "sample_posts": [
+        {
+          "title": "Man gets jail for sexually abusing young stepdaughter; she stayed silent fearing family fallout",
+          "url": "https://www.reddit.com/r/singapore/comments/1y436t3/man_gets_jail_for_sexually_abusing_young/"
+        }
+      ],
+      "entities": [
+        "Child Protection",
+        "Family Court",
+        "Judiciary",
+        "Sexual Abuse",
+        "School Reporting"
+      ]
+    },
+    {
+      "topic": "Online Delivery Payment Scams Consumer Warnings",
+      "engagement_score": 48,
+      "dominant_emotion": "fear",
+      "sample_posts": [
+        {
+          "title": "Beware - Lalamove Pickup/Delivery Scam",
+          "url": "https://www.reddit.com/r/singapore/comments/1y42iye/beware_lalamove_pickupdelivery_scam/"
+        },
+        {
+          "title": "DONT USE TRUST BANK INVEST",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y3mqld/dont_use_trust_bank_invest/"
+        },
+        {
+          "title": "Fraud Transactions on YouTrip",
+          "url": "https://www.reddit.com/r/singaporefi/comments/1y490s8/fraud_transactions_on_youtrip/"
+        }
+      ],
+      "entities": [
+        "Lalamove",
+        "Trust Bank",
+        "YouTrip",
+        "Scam",
+        "Digital Payments",
+        "Cybersecurity"
+      ]
+    }
+  ],
+  "insights": {
+    "headline": "GDP Growth Rings Hollow as Singaporeans Face a Triple Threat of Health Burnout, Fintech Fraud, and a Prosperity Gap",
+    "key_takeaways": [
+      "Frustration is the dominant and accelerating emotion this week — up 18.7% to 89 counts — driven by a 'growth without benefit' narrative: strong GDP figures are actively fuelling resentment among residents who feel economically excluded, a dangerous disconnect that marketers and policymakers must not ignore.",
+      "Hustle culture is reaching a breaking point: the stroke-among-youth thread generated the week's highest engagement cluster (multiple posts at +64 upvotes), signalling that Singaporeans are publicly questioning the physical cost of overwork — a cultural shift with implications for employer branding, wellness products, and healthcare services.",
+      "Fintech trust is under acute stress: YouTrip fraud cases and the Lalamove phishing scam are clustering in the same news cycle, amplifying consumer anxiety about everyday digital payment platforms disproportionately to the actual incident count — reputational contagion risk is high for the entire e-payments sector.",
+      "Optimism exists but is narrow and community-anchored — concentrated in justice system validation, local food culture (chiffon cake thread), and creative civic pride (3D pixel-art map) — suggesting Singaporeans are retreating to hyper-local, tangible joys as a counterweight to macro anxieties.",
+      "The Nvidia export controls story is embedding a geopolitical victimhood narrative among tech-aware Singaporeans, with residents framing themselves as collateral damage in US-China tech rivalry — a sentiment that could influence purchasing decisions, talent attitudes toward MNC employers, and public receptiveness to government trade messaging."
+    ],
+    "opportunities": [
+      "Wellness and preventive health brands should move immediately: the stroke-among-youth discourse is primed for campaigns addressing sleep, stress, and cardiovascular health targeted at 25–40 year-old professionals. Clinics, health tech apps (e.g., continuous monitoring wearables), and corporate HR wellness programmes can ride genuine, high-intensity public concern rather than manufactured urgency — framing around 'hustle culture has a price' will resonate strongly based on this week's top upvoted content.",
+      "Local F&B and heritage food brands have a rare organic amplification window: the chiffon cake thread drove some of the strongest positive sentiment of the week, indicating Singaporeans are actively seeking comfort and community in local food culture. Bakeries, food delivery platforms, and tourism boards should capitalise with 'local pride' campaigns or curated Singaporean heritage food content — the 3D pixel-art map thread also shows appetite for creative, nostalgic city-identity content that could anchor co-marketing efforts.",
+      "Fintech and digital payment providers (especially challenger banks and e-wallet competitors to YouTrip) can differentiate on security transparency: publish proactive fraud prevention explainers, offer real-time transaction anomaly alerts, and amplify zero-liability guarantee messaging now, while consumer anxiety is high and brand switching intent is elevated — this is a narrow window before the news cycle moves on.",
+      "Employers in professional services and financial institutions should audit their EVP (Employee Value Proposition) messaging: the thread on leaving Big 4 permanent roles for contract bank positions signals professionals are actively stress-testing job security trade-offs. Firms that can credibly communicate stability, work-life balance, and career longevity — not just compensation — will have a talent acquisition advantage in the near term."
+    ],
+    "risks": [
+      "The GDP-prosperity gap narrative is a reputational time bomb for businesses perceived as beneficiaries of economic growth: any brand or institution that visibly profits while costs rise risks becoming a focal point for the frustration currently directed at abstract 'growth figures.' Marketing campaigns celebrating business success should be reframed around shared community benefit or held until sentiment stabilises — tone-deaf 'we're growing' messaging could trigger significant backlash given the 18.7% week-on-week frustration spike.",
+      "The BCRS recycling abuse thread signals eroding trust in civic and shared-infrastructure systems — a broader pattern where Singaporeans are losing faith in collective good-faith participation. Brands or public programmes that rely on community compliance (loyalty schemes, shared economy platforms, civic tech initiatives) should monitor for similar abuse narratives attaching to their products, as public mood is primed to amplify such stories disproportionately.",
+      "Geopolitical tech anxiety around Nvidia export controls could dampen enterprise and consumer appetite for US-linked tech products and cloud services in Singapore — monitor for sentiment spillover into procurement decisions, particularly among SMEs and startups who already feel squeezed. If this narrative intensifies, it may also accelerate interest in non-US tech alternatives, reshaping the competitive landscape for technology vendors operating in Singapore."
+    ]
+  },
+  "trends": {
+    "has_previous_day": true,
+    "previous_date": "2026-11-23",
+    "fears": {
+      "direction": "stable",
+      "change_pct": -9.5,
+      "intensity_shift": "stable",
+      "previous_count": 42,
+      "current_count": 38
+    },
+    "frustrations": {
+      "direction": "up",
+      "change_pct": 18.7,
+      "intensity_shift": "stable",
+      "previous_count": 75,
+      "current_count": 89
+    },
+    "optimism": {
+      "direction": "up",
+      "change_pct": 10.6,
+      "intensity_shift": "stable",
+      "previous_count": 47,
+      "current_count": 52
+    }
+  },
+  "theme_clusters": [
+    {
+      "theme": "Online Scam Awareness and Digital Vigilance",
+      "description": "Singaporeans expressing concern about and sharing experiences with sophisticated online scams, particularly fake delivery and marketplace fraud.",
+      "category": "frustration",
+      "quote_count": 6,
+      "sample_quotes": [
+        "people will really see lalamove.anything.com and assume it's official it's crazy",
+        "Market places are full of these. Got one will claim the money is deposited into Lalamove and you need to log in using your banking credentials to retrieve the money.",
+        "Your first mistake was using Facebook marketplace."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "K-Shaped Economic Anxiety and Income Inequality",
+      "description": "Fears about Singapore's uneven economic recovery, job market stagnation for fresh graduates, and whether growth will translate to real wage gains for ordinary workers.",
+      "category": "fear",
+      "quote_count": 5,
+      "sample_quotes": [
+        "Really K shaped economy, maybe 10-20% for some sectors/people and negative for others",
+        "Still hike? But where is the jobs for fresh grads and companies are still laying off? Where are the growth?",
+        "will that translate to higher salary/bonus for the low-middle incomes in 2026?"
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Geopolitical Double Standards and Singapore Caught in US-China Tech War",
+      "description": "Frustration and bewilderment over contradictory US semiconductor export policies that penalise Singapore and legitimate businesses while appearing to tolerate Nvidia's dealings with China.",
+      "category": "frustration",
+      "quote_count": 4,
+      "sample_quotes": [
+        "Singapore is the meat in the sandwich again. US: SUPERintelligence is EVERYTHING. And *critical* to national security. Export to the wrong country and we'll punish your whole country. Also US: Meh, we don't have a problem with Nvidia selling this tech to China.",
+        "Ok so Jensen is a patriot for selling to Megaspeed and sleeping with the Megaspeed woman, and according to Trump, they have no case against him. But Megaspeed is blacklisted for buying from Jensen. Laws of the jungle again?",
+        "basically words are just words. even sanctions are just sanctions. but money speaks above all, and both the russians and singapore understand that."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Child Protection and Community Justice",
+      "description": "A mix of outrage at child sexual abuse cases and heartfelt optimism when the community, family, and institutions rally to protect vulnerable children.",
+      "category": "optimism",
+      "quote_count": 6,
+      "sample_quotes": [
+        "Kudos to everyone in the reporting chain for taking it seriously and to the girl for saying something.",
+        "Yep, props to her for her courage to report her stepfather. I am heartened to see the system work for once.",
+        "Good job to the mother. It's definitely not easy reporting your own husband, but thank you for putting your daughter first."
+      ],
+      "avg_score": 0.0
+    },
+    {
+      "theme": "Local F&B Pride and Everyday Comfort",
+      "description": "Singaporeans enthusiastically celebrating beloved local bakeries and food spots as sources of community joy and cultural identity.",
+      "category": "optimism",
+      "quote_count": 6,
+      "sample_quotes": [
+        "I really like Dulcet & Studio!",
+        "the ondeh ondeh cake from tiaptiap is damn good i always buy for family bday celebrations, it's very well liked by everyone across all age groups :D",
+        "Omg Tiaptiap hands down best chiffon cake in sg! Super fluffy moist and delicious… I also always buy for birthdays and gatherings! Crowd favourite!"
+      ],
+      "avg_score": 0.0
+    }
+  ],
+  "signals": [
+    {
+      "signal_type": "volume_spike",
+      "title": "Frustrations Dominate at 2x Volume of Fears",
+      "description": "Frustrations account for 89 quotes this week, more than double the 38 fears and significantly more than 52 optimism entries. This category represents 49% of all sentiment volume, and has grown +18.7% from last week (75 → 89), suggesting a sustained and accelerating pattern of dissatisfaction across community discussions.",
+      "category": "frustration",
+      "related_quotes": [
+        "Needs an export to STL so we can print it",
+        "looks good! but the Concourse doesnt look like what it should be..."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Frustrations Show 52% Strong-Intensity Concentration",
+      "description": "Of the 89 frustration quotes, 46 (52%) are classified as strong intensity, with only 11 (12%) mild. This skew toward strong emotional expression — where strong outweighs mild by roughly 4:1 — indicates frustrations are not casual complaints but deeply felt grievances, particularly notable alongside the category's week-over-week volume increase.",
+      "category": "frustration",
+      "related_quotes": [
+        "Extreme hustle culture can cause a stroke too.",
+        "looks good! but the Concourse doesnt look like what it should be..."
+      ],
+      "urgency": "medium"
+    },
+    {
+      "signal_type": "emerging_topic",
+      "title": "Rising Stroke Risk Among Young Adults Gaining Traction",
+      "description": "Multiple high-engagement quotes cluster around the topic of stroke risk in younger populations, linking it to hustle culture and poor sleep habits. With the trending topic 'Rising Stroke Cases Among Young Adults Singapore' and three quotes each scoring +64 on this theme, this represents a converging health-anxiety narrative that is resonating broadly with the community.",
+      "category": "fear",
+      "related_quotes": [
+        "Seems like youth is increasingly no longer a shield against stroke.",
+        "Extreme hustle culture can cause a stroke too."
+      ],
+      "urgency": "high"
+    },
+    {
+      "signal_type": "intensity_spike",
+      "title": "Optimism Skewed Toward Moderate-to-Strong With Almost No Mild",
+      "description": "Only 3 of 52 optimism quotes (6%) are mild intensity, while 49 (94%) are moderate or strong. This near-absence of mild optimism suggests community positivity is not casual but substantive, possibly tied to specific developments such as Singapore GDP growth news. The pattern is unusual and worth monitoring to see if it reflects genuine confidence or selective topic engagement.",
+      "category": "optimism",
+      "related_quotes": [
+        "looks good!",
+        "Simcity 4 feels"
+      ],
+      "urgency": "low"
+    }
+  ]
+}
